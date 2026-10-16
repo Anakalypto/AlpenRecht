@@ -28,8 +28,8 @@ const T = {
     retry: "Erneut", researching: "Recherchiere…", done_in: (s, n) => `Recherche · ${n} Quellen · ${s}s`,
     no_key: "Apertus ist nicht verbunden.", no_key_hint: "Die Quellen wurden trotzdem live abgerufen. Tragen Sie APERTUS_API_KEY in alpenrecht/.env ein.",
     unsupported: "Nicht durch die Quellen belegt: ", failed: "Fehler", provisions: "Bestimmungen", version: "Fassung",
-    steps: { loc: "Ort bestimmen", plan: "Suche planen", fed: "Bundesrecht · Fedlex", can: "Kantonsrecht · LexFind", com: "Gemeinderecht", answer: "Antwort verfassen", draft: "Entwurf verfassen" },
-    verify_step: "Prüfung", verified: "geprüft", claims: "Aussagen", corrections: "Korrektur(en)", sources_added: "Quelle(n) ergänzt", added_tag: "ergänzt", checking: "Prüfe Antwort an den Quellen…", clean: "keine Beanstandung", skipped: "übersprungen",
+    steps: { loc: "Ort bestimmen", plan: "Suche planen", fed: "Bundesrecht · Fedlex", can: "Kantonsrecht · LexFind", com: "Gemeinderecht", answer: "Antwort verfassen", draft: "Entwurf verfassen", case: "Rechtsprechung · entscheidsuche.ch" },
+    verify_step: "Prüfung", verified: "geprüft", claims: "Aussagen", corrections: "Korrektur(en)", sources_added: "Quelle(n) ergänzt", added_tag: "ergänzt", checking: "Prüfe Antwort an den Quellen…", clean: "keine Beanstandung", skipped: "übersprungen", tip_more: "Klicken für den ganzen Artikel", case: "Rechtsprechung",
     topic_list: [
       ["home", "Wohnen & Miete", "Wie lange ist die Kündigungsfrist für meine Mietwohnung?", "f"],
       ["build", "Bauen", "Brauche ich eine Baubewilligung für eine Solaranlage auf dem Dach?", "fcg"],
@@ -57,8 +57,8 @@ const T = {
     retry: "Relancer", researching: "Recherche…", done_in: (s, n) => `Recherche · ${n} sources · ${s} s`,
     no_key: "Apertus n’est pas connecté.", no_key_hint: "Les sources ont tout de même été récupérées. Ajoutez APERTUS_API_KEY dans alpenrecht/.env.",
     unsupported: "Non étayé par les sources : ", failed: "Erreur", provisions: "dispositions", version: "version",
-    steps: { loc: "Localisation", plan: "Plan de recherche", fed: "Droit fédéral · Fedlex", can: "Droit cantonal · LexFind", com: "Droit communal", answer: "Rédaction", draft: "Rédaction du brouillon" },
-    verify_step: "Vérification", verified: "vérifié", claims: "affirmations", corrections: "correction(s)", sources_added: "source(s) ajoutée(s)", added_tag: "ajoutée", checking: "Vérification de la réponse…", clean: "aucun problème", skipped: "non effectuée",
+    steps: { loc: "Localisation", plan: "Plan de recherche", fed: "Droit fédéral · Fedlex", can: "Droit cantonal · LexFind", com: "Droit communal", answer: "Rédaction", draft: "Rédaction du brouillon", case: "Jurisprudence · entscheidsuche.ch" },
+    verify_step: "Vérification", verified: "vérifié", claims: "affirmations", corrections: "correction(s)", sources_added: "source(s) ajoutée(s)", added_tag: "ajoutée", checking: "Vérification de la réponse…", clean: "aucun problème", skipped: "non effectuée", tip_more: "Cliquer pour l'article entier", case: "Jurisprudence",
     topic_list: [
       ["home", "Logement & bail", "Quel est le délai de résiliation de mon bail d’appartement ?", "f"],
       ["build", "Construire", "Faut-il un permis de construire pour des panneaux solaires sur le toit ?", "fcg"],
@@ -86,8 +86,8 @@ const T = {
     retry: "Riprova", researching: "Ricerca…", done_in: (s, n) => `Ricerca · ${n} fonti · ${s} s`,
     no_key: "Apertus non è collegato.", no_key_hint: "Le fonti sono state comunque recuperate. Aggiunga APERTUS_API_KEY in alpenrecht/.env.",
     unsupported: "Non supportato dalle fonti: ", failed: "Errore", provisions: "disposizioni", version: "versione",
-    steps: { loc: "Localizzazione", plan: "Piano di ricerca", fed: "Diritto federale · Fedlex", can: "Diritto cantonale · LexFind", com: "Diritto comunale", answer: "Redazione", draft: "Stesura della bozza" },
-    verify_step: "Verifica", verified: "verificato", claims: "affermazioni", corrections: "correzione/i", sources_added: "fonte/i aggiunta/e", added_tag: "aggiunta", checking: "Verifica della risposta…", clean: "nessun problema", skipped: "non eseguita",
+    steps: { loc: "Localizzazione", plan: "Piano di ricerca", fed: "Diritto federale · Fedlex", can: "Diritto cantonale · LexFind", com: "Diritto comunale", answer: "Redazione", draft: "Stesura della bozza", case: "Giurisprudenza · entscheidsuche.ch" },
+    verify_step: "Verifica", verified: "verificato", claims: "affermazioni", corrections: "correzione/i", sources_added: "fonte/i aggiunta/e", added_tag: "aggiunta", checking: "Verifica della risposta…", clean: "nessun problema", skipped: "non eseguita", tip_more: "Cliccare per l'articolo intero", case: "Giurisprudenza",
     topic_list: [
       ["home", "Abitare & affitto", "Qual è il termine di disdetta del mio appartamento in affitto?", "f"],
       ["build", "Costruire", "Serve una licenza edilizia per pannelli solari sul tetto?", "fcg"],
@@ -115,8 +115,8 @@ const T = {
     retry: "Danovamain", researching: "Retschertga…", done_in: (s, n) => `Retschertga · ${n} funtaunas · ${s} s`,
     no_key: "Apertus n’è betg collià.", no_key_hint: "Las funtaunas èn tuttina vegnidas chargiadas. Agiuntai APERTUS_API_KEY en alpenrecht/.env.",
     unsupported: "Betg cumprovà da las funtaunas: ", failed: "Errur", provisions: "disposiziuns", version: "versiun",
-    steps: { loc: "Lieu", plan: "Planisar", fed: "Dretg federal · Fedlex", can: "Dretg chantunal · LexFind", com: "Dretg communal", answer: "Scriver la resposta", draft: "Sbozz" },
-    verify_step: "Controlla", verified: "controllà", claims: "affirmaziuns", corrections: "correctura(s)", sources_added: "funtauna(s) agiuntada(s)", added_tag: "agiuntà", checking: "Controllar la resposta…", clean: "nagins problems", skipped: "betg fatg",
+    steps: { loc: "Lieu", plan: "Planisar", fed: "Dretg federal · Fedlex", can: "Dretg chantunal · LexFind", com: "Dretg communal", answer: "Scriver la resposta", draft: "Sbozz", case: "Giurisprudenza · entscheidsuche.ch" },
+    verify_step: "Controlla", verified: "controllà", claims: "affirmaziuns", corrections: "correctura(s)", sources_added: "funtauna(s) agiuntada(s)", added_tag: "agiuntà", checking: "Controllar la resposta…", clean: "nagins problems", skipped: "betg fatg", tip_more: "Cliccar per l'artitgel entir", case: "Giurisprudenza",
     topic_list: [
       ["home", "Abitar & fittar", "Tge è il termin da disditga per mia abitaziun?", "f"],
       ["build", "Construir", "Dovrel jau ina permissiun da construcziun per in implant solar?", "fcg"],
@@ -144,8 +144,8 @@ const T = {
     retry: "Retry", researching: "Researching…", done_in: (s, n) => `Researched · ${n} sources · ${s}s`,
     no_key: "Apertus is not connected.", no_key_hint: "The sources were still fetched live. Add APERTUS_API_KEY to alpenrecht/.env.",
     unsupported: "Not backed by the sources: ", failed: "Error", provisions: "provisions", version: "version",
-    steps: { loc: "Locating", plan: "Planning the search", fed: "Federal law · Fedlex", can: "Cantonal law · LexFind", com: "Communal law", answer: "Writing the answer", draft: "Drafting" },
-    verify_step: "Verification", verified: "verified", claims: "claims", corrections: "correction(s)", sources_added: "source(s) added", added_tag: "added", checking: "Checking the answer against the sources…", clean: "no issues", skipped: "skipped",
+    steps: { loc: "Locating", plan: "Planning the search", fed: "Federal law · Fedlex", can: "Cantonal law · LexFind", com: "Communal law", answer: "Writing the answer", draft: "Drafting", case: "Case law · entscheidsuche.ch" },
+    verify_step: "Verification", verified: "verified", claims: "claims", corrections: "correction(s)", sources_added: "source(s) added", added_tag: "added", checking: "Checking the answer against the sources…", clean: "no issues", skipped: "skipped", tip_more: "Click for the full article", case: "Case law",
     topic_list: [
       ["home", "Housing & rent", "What is the notice period for my rented flat?", "f"],
       ["build", "Building", "Do I need a building permit for rooftop solar panels?", "fcg"],
@@ -178,7 +178,7 @@ const ICONS = {
   doc: '<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/>',
 };
 const TOPIC_COLORS = { home: "#e0475b", build: "#e08a1f", work: "#3f7ae0", pet: "#1f9d6b", tax: "#6a5af9", noise: "#0e9bb0" };
-const LV = { federal: "f", cantonal: "c", communal: "g" };
+const LV = { federal: "f", cantonal: "c", communal: "g", case: "k" };
 const svg = (name, cls = "") => `<svg viewBox="0 0 24 24"${cls ? ` class="${cls}"` : ""}>${ICONS[name]}</svg>`;
 
 let lang = store.get("alp.lang", "de");
@@ -641,6 +641,7 @@ function renderLevels(el, turn) {
   const laws = (list) => [...new Set(list.map((s) => s.law))].slice(0, 3).join(", ");
   const rows = [["federal", t("fed"), ""]];
   if (loc) rows.push(["cantonal", `${t("can")} ${loc.canton}`, ""], ["communal", loc.commune, ""]);
+  if (by("case").length) rows.push(["case", t("case"), ""]);
   bar.innerHTML = rows.map(([lvl, name, empty]) => {
     const list = by(lvl);
     const status = list.length ? `${list.length} · ${esc(laws(list))}` : turn.sourcesIn ? esc(empty || t("none_found")) : "…";
@@ -768,11 +769,12 @@ $("#thread").addEventListener("click", async (e) => {
   const lvl = e.target.closest("[data-level]");
   const act = e.target.closest("[data-act]");
   const msg = e.target.closest(".msg-bot");
-  const turn = msg && (msg._turn || state.chat?.turns[[...$("#thread").querySelectorAll(".msg-bot")].indexOf(msg)]);
+  const turn = turnOf(msg);
   if (!turn) return;
   if (cite || card) {
     const id = +(cite?.dataset.cite || card.dataset.src);
-    openDrawer(turn.sources.find((s) => s.id === id));
+    tip.hidden = true;
+    openDrawer(turn.sources.find((s) => s.id === id), cite ? claimOf(cite) : "");
     const target = msg.querySelector(`[data-src="${id}"]`);
     if (target) { target.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" }); target.classList.add("flash"); setTimeout(() => target.classList.remove("flash"), 1200); }
   } else if (lvl) {
@@ -786,19 +788,100 @@ $("#thread").addEventListener("click", async (e) => {
   }
 });
 
+// ------------------------------------------------------------------ cited sentence: hover tip + highlight
+// Which sentence of the cited article supports a claim? Shared word stems count, shared figures count triple
+// (a claim is about "3 Monatszinse" or "CHF 120", and the sentence that carries that number is the one to show).
+const fold = (x) => x.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const STOP = new Set("aber alle auch dass dass dies diese durch eine einem einen einer eines kann nach nicht oder sein sich sind soll über unter wird werden wenn avec dans doit elle pour sont sous être peut cette leur della delle dello sono deve come anche questa with from that this shall must have been your which their".split(" "));
+function features(text) {
+  const t = fold(text);
+  const nums = new Set((t.match(/\d+(?:[.,']\d+)*/g) || []).map((n) => n.replace(/'/g, "").replace(",", ".")));
+  const stems = new Set((t.match(/[a-zß]{4,}/g) || []).filter((w) => !STOP.has(w)).map((w) => w.slice(0, 6)));
+  return { nums, stems };
+}
+function sentencesOf(text) {
+  return text.split(/\n+|(?<=[.;:!?])\s+(?=[A-ZÄÖÜÉÈÀ0-9«"(])/).map((x) => x.trim()).filter((x) => x.length > 2);
+}
+function supportOf(claim, text) {
+  const sents = sentencesOf(text || "");
+  const c = features(claim);
+  let best = -1, bestScore = 0;
+  sents.forEach((s, i) => {
+    const f = features(s);
+    let score = 0;
+    c.stems.forEach((w) => { if (f.stems.has(w)) score += 1; });
+    c.nums.forEach((n) => { if (f.nums.has(n)) score += 3; });
+    score /= Math.sqrt(Math.max(6, f.stems.size) / 6);  // a long paragraph shouldn't win on volume alone
+    if (score > bestScore) { bestScore = score; best = i; }
+  });
+  return { sents, best: bestScore >= 1.5 ? best : -1 };
+}
+function claimOf(btn) {
+  // The text between the previous sentence end (or citation) and this citation button.
+  const block = btn.closest("li, p, h2, h3") || btn.parentElement;
+  const r = document.createRange();
+  r.setStart(block, 0); r.setEndBefore(btn);
+  const before = r.toString().replace(/\s+/g, " ");
+  const parts = before.split(/(?<=[.!?])\s+|\b\d{1,2}(?=\s*$)/);
+  let claim = parts.pop() || "";
+  while (claim.trim().length < 25 && parts.length) claim = parts.pop() + " " + claim;
+  return claim.trim();
+}
+function turnOf(msg) {
+  return msg && (msg._turn || state.chat?.turns[[...$("#thread").querySelectorAll(".msg-bot")].indexOf(msg)]);
+}
+const tip = document.createElement("div");
+tip.id = "cite-tip"; tip.setAttribute("role", "tooltip"); tip.hidden = true;
+document.body.appendChild(tip);
+function showTip(btn) {
+  const turn = turnOf(btn.closest(".msg-bot"));
+  const s = turn?.sources.find((x) => x.id === +btn.dataset.cite);
+  if (!s) return;
+  const body = s.text.startsWith(s.number) ? s.text.slice(s.number.length) : s.text;
+  const { sents, best } = supportOf(claimOf(btn), body);
+  const from = best >= 0 ? Math.max(0, best - 1) : 0, to = best >= 0 ? Math.min(sents.length, best + 2) : 2;
+  const html = sents.slice(from, to).map((x, i) => (from + i === best ? `<mark>${esc(x)}</mark>` : esc(x))).join(" ");
+  tip.className = `lvl-${LV[s.level] || "f"}`;
+  tip.innerHTML = `<b>${esc(s.law)} · ${esc(s.number)}</b><p>${from > 0 ? "… " : ""}${html}${to < sents.length ? " …" : ""}</p><small>${esc(t("tip_more"))}</small>`;
+  tip.hidden = false;
+  const r = btn.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+  const left = Math.max(8, Math.min(window.innerWidth - w - 8, r.left + r.width / 2 - w / 2));
+  const top = r.top - h - 8 > 8 ? r.top - h - 8 : r.bottom + 8;
+  tip.style.left = `${left}px`; tip.style.top = `${top}px`;
+}
+$("#thread").addEventListener("mouseover", (e) => {
+  const btn = e.target.closest(".cite[data-cite]");
+  if (btn && matchMedia("(hover: hover)").matches) showTip(btn);
+});
+$("#thread").addEventListener("mouseout", (e) => { if (e.target.closest(".cite[data-cite]")) tip.hidden = true; });
+$("#thread").addEventListener("scroll", () => { tip.hidden = true; }, { passive: true });
+
 // ------------------------------------------------------------------ drawer
-function openDrawer(s) {
+function openDrawer(s, claim) {
   if (!s) return;
   const tag = $("#d-level");
   tag.className = `lvl-tag ${LV[s.level]}`;
-  tag.textContent = `${s.id} · ${{ federal: t("fed"), cantonal: t("can"), communal: t("com") }[s.level]}`;
+  tag.textContent = `${s.id} · ${{ federal: t("fed"), cantonal: t("can"), communal: t("com"), case: t("case") }[s.level]}`;
   // Cantonal PDFs start with "Art. 7 Leinen- und Maulkorbpflicht": lift that heading into the title.
   const [first, ...rest] = s.text.split("\n");
   const lifted = first.startsWith(s.number) && first.length < 120 && rest.length;
   $("#d-title").textContent = lifted ? first.replace(/\s*\*\s*/g, " ").trim() : s.number;
   $("#d-law").textContent = s.level === "federal" && s.sr ? `${s.law} · SR ${s.sr}` : s.law;
   $("#d-path").textContent = s.path || s.title;
-  $("#d-text").textContent = lifted ? rest.join("\n") : s.text;
+  const body = lifted ? rest.join("\n") : s.text;
+  const box = $("#d-text");
+  const { sents, best } = claim ? supportOf(claim, body) : { sents: [], best: -1 };
+  if (best >= 0) {
+    // Highlight the supporting sentence inside the full text and bring it into view.
+    const at = body.indexOf(sents[best]);
+    box.textContent = "";
+    if (at >= 0) {
+      const mark = document.createElement("mark");
+      mark.textContent = sents[best];
+      box.append(body.slice(0, at), mark, body.slice(at + sents[best].length));
+      requestAnimationFrame(() => mark.scrollIntoView({ block: "center", behavior: "smooth" }));
+    } else box.textContent = body;
+  } else box.textContent = body;
   $("#d-meta").textContent = `${s.origin} · ${t("version")} ${s.version}${s.lang ? " · " + s.lang.toUpperCase() : ""}`;
   const link = $("#d-link");
   link.hidden = !s.url; link.href = s.url || "#"; link.textContent = `${t("official")} ↗`;

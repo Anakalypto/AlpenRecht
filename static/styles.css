@@ -19,6 +19,7 @@
   --fed: #e0475b;
   --can: #3f7ae0;
   --com: #1f9d6b;
+  --case: #8a5cd6;
   --warn: #c07a1b;
   --user: #241d63;
   --user-text: #ffffff;
@@ -36,7 +37,7 @@
     --bg: #080b18; --window: #0e1324; --side: #0b1020; --surface: #131a30; --surface-2: #182039; --glass: rgba(19, 26, 48, .78);
     --text: #eceefe; --muted: #8f95b8; --faint: #5d6488; --line: #1d2540; --line-2: #26304f;
     --violet: #9b8cff; --violet-soft: #221e48; --ink: #eceefe; --ink-text: #0e1324; --red: #ff6b7d;
-    --fed: #ff6b7d; --can: #6ea6ff; --com: #4fd08f; --warn: #e8b04f; --user: #2b2f6b; --user-text: #eceefe;
+    --fed: #ff6b7d; --can: #6ea6ff; --com: #4fd08f; --case: #b48cff; --warn: #e8b04f; --user: #2b2f6b; --user-text: #eceefe;
     --grid: rgba(155, 140, 255, .05); --glow-a: rgba(120, 100, 255, .22); --glow-b: rgba(255, 90, 120, .12); --glow-c: rgba(60, 140, 255, .14);
     --shadow: 0 12px 40px rgba(0, 0, 0, .4); color-scheme: dark;
   }
@@ -45,7 +46,7 @@
   --bg: #080b18; --window: #0e1324; --side: #0b1020; --surface: #131a30; --surface-2: #182039; --glass: rgba(19, 26, 48, .78);
   --text: #eceefe; --muted: #8f95b8; --faint: #5d6488; --line: #1d2540; --line-2: #26304f;
   --violet: #9b8cff; --violet-soft: #221e48; --ink: #eceefe; --ink-text: #0e1324; --red: #ff6b7d;
-  --fed: #ff6b7d; --can: #6ea6ff; --com: #4fd08f; --warn: #e8b04f; --user: #2b2f6b; --user-text: #eceefe;
+  --fed: #ff6b7d; --can: #6ea6ff; --com: #4fd08f; --case: #b48cff; --warn: #e8b04f; --user: #2b2f6b; --user-text: #eceefe;
   --grid: rgba(155, 140, 255, .05); --glow-a: rgba(120, 100, 255, .22); --glow-b: rgba(255, 90, 120, .12); --glow-c: rgba(60, 140, 255, .14);
   --shadow: 0 12px 40px rgba(0, 0, 0, .4); color-scheme: dark;
 }
@@ -312,6 +313,7 @@ body:not(.is-home) .pop { top: auto; bottom: calc(100% + 10px); }
 .lvl.f, .lvl-tag.f, .cite.f, .src.f { --c: var(--fed); }
 .lvl.c, .lvl-tag.c, .cite.c, .src.c { --c: var(--can); }
 .lvl.g, .lvl-tag.g, .cite.g, .src.g { --c: var(--com); }
+.lvl.k, .lvl-tag.k, .cite.k, .src.k { --c: var(--case); }
 button.lvl { cursor: pointer; color: inherit; }
 .competence { font-size: 13px; color: var(--muted); padding-left: 11px; border-left: 2px solid var(--violet); }
 
@@ -470,3 +472,13 @@ button.lvl { cursor: pointer; color: inherit; }
   .map-actions { width: 100%; }
   .map-actions .btn-sm { flex: 1; }
 }
+
+/* hover tip on a citation: the cited article, with the sentence that supports the claim highlighted */
+#cite-tip { position: fixed; z-index: 60; max-width: min(420px, calc(100vw - 16px)); padding: 10px 12px; border-radius: 12px;
+  background: var(--surface); color: var(--text); border: 1px solid var(--line); box-shadow: 0 10px 30px rgba(0,0,0,.18);
+  font-size: 13px; line-height: 1.5; pointer-events: none; }
+#cite-tip b { display: block; font-size: 12px; margin-bottom: 4px; }
+#cite-tip.lvl-f b { color: var(--fed); } #cite-tip.lvl-c b { color: var(--can); } #cite-tip.lvl-g b { color: var(--com); } #cite-tip.lvl-k b { color: var(--case); }
+#cite-tip p { margin: 0; max-height: 9.5em; overflow: hidden; }
+#cite-tip small { display: block; margin-top: 6px; opacity: .65; font-size: 11.5px; }
+#cite-tip mark, .d-text mark { background: color-mix(in srgb, var(--warn) 35%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
