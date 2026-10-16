@@ -133,9 +133,6 @@ ANSWER_PROMPT = """Rules:
   ## {h_fed}   (bullets: each concrete federal rule with its figures/conditions)
   ## {h_can}   (bullets: each concrete cantonal rule)
   ## {h_com}   (bullets: each concrete communal rule)
-  ## {h_case}   (ONLY if a COURT DECISION source is listed and it decides a point of THIS question: 1-2 bullets
-     saying what the court held, in the headnote's own terms, cited [n]. Never add an outcome, a party or a rule
-     the headnote does not state. Otherwise leave out this heading entirely.)
   ## {h_levels}   (ONE sentence: what the canton/commune adds to federal law, concretely; federal law prevails, Art. 49 BV)
   ## {h_next}   (2-5 bullets: concrete actions, with the authority, form, fee or deadline when the sources give them)
   Under a level heading without relevant sources, write only the plain sentence "{none}" (not a heading). Under
@@ -610,7 +607,8 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
 
     # Only the provisions that answer this question go into the answer (the UI still lists everything retrieved).
     # Off-topic hits are dropped from the list the user sees too (they made the source list look random).
-    # Rulings were already chosen by Apertus from their headnotes; the snippet filter would judge them on a date.
+    # Rulings are shown under the statutes with their official headnote but never paraphrased by the writer: graded
+    # answers misstated what a ruling decided. So they stay out of the answer and out of the relevance filter.
     statute_ev = [e for e in evidence if e["level"] != "case"]
     answer_ev = verify.relevant_sources(search_q, statute_ev) + [e for e in evidence if e["level"] == "case"]
     if len(answer_ev) < len(evidence):
@@ -618,7 +616,7 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
         for i, ev in enumerate(evidence, 1):
             ev["id"] = i
         yield {"type": "sources", "sources": evidence}
-    answer_ev = list(evidence)
+    answer_ev = [e for e in evidence if e["level"] != "case"]
     yield step("draft", "Apertus drafts a cited answer")
     try:
         text, repaired = write()
@@ -654,13 +652,8 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
                            "issues": len(report["issues"]) + len(det["unsupported_articles"]) + len(det["invalid_citations"]),
                            "added": [f"{e['law']} {e['number']}" for e in added],
                            "revised": revised, "notes": [i["problem"] for i in report["issues"]][:4]})
-            if not revised and not report.get("unreadable") and report.get("claims_checked", 0) > 0:
-                # A clean round won't change in the next one either: stop (saves ~20 s per skipped round).
-                # An unreadable or empty report is no verdict: then the next round checks again.
-                if added:
-                    yield {"type": "sources", "sources": evidence}
-                yield step(key, f"Verification {r}/{VERIFY_ROUNDS}: {rounds[-1]['claims']} claims checked, all supported", "done")
-                break
+            # (An early stop after a clean round was tried and graded worse on the held-out set: the fact-checker is
+            # not deterministic, and a later round still caught wrong figures. All rounds run.)
             if added:
                 yield {"type": "sources", "sources": evidence}
             checked = f"{rounds[-1]['claims']} claims checked"
