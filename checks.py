@@ -17,7 +17,11 @@ _ALLOWED = re.compile(r"(?:Art\.|art\.)\s*49\s*(?:BV|Cst|Cost)", re.I)
 
 
 def art_key(number):
-    """'Art. 257d' / 'art. 32 abis' / 'Art. 25 Auskunftsrecht' -> '257d' / '32abis' / '25'."""
+    """'Art. 257d' / 'art. 32 abis' / 'Art. 25 Auskunftsrecht' -> '257d' / '32abis' / '25'.
+    Annexes and unstructured parts keep their kind ('Anhang 1' -> 'anhang1'), so they never pass for Art. 1."""
+    a = re.match(r"\s*(anhang|annexe|annex|allegato|tarif\w*|teil|gebuhrentarif|gebührentarif)\s*(\d*)", number.lower())
+    if a:
+        return a.group(1)[:7] + a.group(2)
     m = re.search(r"(\d+)\s?((?:[a-z]?\s?(?:bis|ter|quater|quinquies|sexies))|[a-z]{1,2})?(?![a-z])", number.lower())
     return (m.group(1) + re.sub(r"\s+", "", m.group(2) or "")) if m else ""
 
