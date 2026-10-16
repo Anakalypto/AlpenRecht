@@ -1,5 +1,5 @@
 # Alpenrecht AI — Hack Apertus 2026 · Track 2B · Own project
-
+**Team RedPandas** — Christopher Yazigi, Giovanni Yazbeck, Alfredo Pio Yazbeck
 **One legal question → every level of Swiss law.** Ask a question for a Swiss place; Alpenrecht retrieves the
 federal (Fedlex), cantonal (LexFind) and communal (the commune's own website) rules live, adds leading court
 decisions (entscheidsuche.ch), and **Apertus** writes one answer per level with every claim cited to the official
