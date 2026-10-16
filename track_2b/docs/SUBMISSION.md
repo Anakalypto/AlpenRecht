@@ -1,64 +1,73 @@
-## Inspiration
+## Purpose and prototype
 
-In Switzerland, the answer to a simple question like "Must my dog be on a leash?" or "When does night-time quiet start?" depends on where you live. The rule can sit in federal law, in one of 26 cantonal legal systems, or in the regulation of one of more than 2,000 communes, in four languages and on different websites. No single place answers across all three levels. Commercial legal AI tools focus on federal law, and general chatbots happily invent article numbers. We wanted a tool that answers the way Swiss law is actually built: by level, in your language, and with a source for every claim.
+Alpenrecht AI helps users inspect Swiss legal information across federal, cantonal and communal levels. A question and a Swiss place lead to retrieved source texts and an Apertus-generated explanation structured by level. The project is a research prototype: its current evaluation does not establish reliability for legal decisions.
 
-## What it does
+The interface supports DE, FR, IT, RM and EN. It resolves places through swisstopo, searches Fedlex and LexFind, discovers regulations on official commune websites, and allows communal PDF or URL uploads. It also retrieves selected published Federal Supreme Court decisions through entscheidsuche.ch.
 
-Alpenrecht AI takes a legal question and an address and returns one answer covering all three levels of Swiss law.
+Users can inspect citations in a side panel. Citation hovers highlight sentences using shared words and figures. This is a navigation aid; it does not prove that a cited passage supports the claim. Automated citation checks and model-based review can still miss substantive mistakes.
 
-- **Finds your commune and canton** from the address (swisstopo).
-- **Searches all three levels live:** federal law on Fedlex, cantonal law on LexFind, and communal regulations on your commune's own website, including old scanned PDFs.
-- **Writes a short answer with Apertus,** structured by level (Bund / Kanton / Gemeinde), explaining how the levels fit together and what to do next, in DE, FR, IT, Romansh or EN.
-- **Checks every answer three times before you see it.** Each claim is compared with its source, missing articles are fetched, and anything unsupported is corrected.
-- **Cites everything:** each statement links to the official article, and you can read the full text in a side panel.
-- **Answers as of a date** for federal law, and lets you upload a communal regulation if one can't be found online.
+## Architecture
 
-Example: "Ab wann gilt in Chur die Nachtruhe?" gives "23.00–07.00 Uhr", cited to Art. 30 of Chur's Polizeigesetz, next to what the canton of Graubünden and the Confederation say.
+A Python package and Flask backend stream progress to a browser chat interface. An OpenAI-compatible client uses swiss-ai/Apertus-v1.5-70B by default for answers and checks, with the 8B model used for scanned-page transcription.
 
-## How we built it
+- **Locate and plan:** swisstopo resolves the commune and canton. Apertus identifies relevant levels and generates act names, article references and search terms.
+- **Federal law:** Fedlex SPARQL discovers acts and consolidations valid on the requested date. Official HTML is split into articles with section context.
+- **Cantonal law:** Apertus generates LexFind searches and selects acts and articles. Wildcard stems help with compound terms. Current cantonal texts are used.
+- **Communal law:** a stored inventory maps 2,142 commune entries to websites. A crawler discovers regulation lists, with TLex support and dedicated readers for Zurich, Geneva, Basel, Lausanne and Bern. Basel uses the cantonal collection. This inventory is not a coverage guarantee.
+- **Documents:** extraction includes articles, annexes and tariff tables. Scanned or garbled PDFs can use image transcription. Caching, URL handling and rate-limit retries support retrieval.
+- **Case law:** the system searches entscheidsuche.ch and selects up to two published Federal Supreme Court decisions with headnotes.
+- **Answer and check:** rank evidence, draft a cited answer, validate citation identifiers and named articles, then run model-based claim checking and rewriting for up to three rounds.
 
-- **Model:** Apertus v1.5 (70B for answers and checks, 8B for reading scanned pages) on the Hack Apertus CSCS endpoint, via its OpenAI-compatible API.
-- **Federal law:** Fedlex's SPARQL endpoint finds acts in force and the version valid on a given date. We split the official HTML into articles with their section headings. Apertus names the likely acts and articles, and we fetch those exactly, so an invented article number simply finds nothing.
-- **Cantonal law:** an Apertus-driven LexFind agent. Apertus writes the search queries (likely act titles and wildcard stems), picks the most relevant acts, then picks the articles from their headings.
-- **Communal law:**
-  - Wikidata gave us the official websites of 2,142 communes.
-  - A polite crawler finds each commune's regulations page; we also read TLex collections through their API.
-  - Apertus chooses the right regulation and article.
-  - Scanned or garbled PDFs are transcribed by Apertus's image input.
-- **Verification:** deterministic checks (every citation exists, every article named is in the sources), then an Apertus fact-check of each claim, then a rewrite where needed. This runs three rounds.
-- **App:** Python and Flask on the backend, streaming progress to a single-page chat UI. It supports five languages and light and dark mode, and works on phones.
-- **Evaluation:** a 100-question benchmark (68 federal, 32 cantonal) with sources we verified by hand, plus random-commune tests.
+<!-- PAGE -->
 
-## Challenges we ran into
+## Final held-out evaluation
 
-- **Three very different sources.** Fedlex is structured linked data, LexFind is a search API over PDFs, and communes publish however they like: CMS lists, JavaScript apps, two-column PDFs, 1980s scans, broken fonts.
-- **Model errors that look plausible.** Apertus put article numbers where law numbers belong, produced broken JSON, called inheritance shares "cantonal", and cited articles from memory. Each became a fix: a new plan format, a tolerant parser, fallback searches, and the verification loop.
-- **Search quirks.** LexFind matches whole words only, so "Steuern" never finds "Steuergesetz". Wildcard stems plus Apertus-written queries took cantonal retrieval from 11/32 to 28/32.
-- **The open web.** Rate limits (HTTP 429), bot blocking, relative links behind `<base href>`, non-ASCII URLs, and table-of-contents pages that look like articles.
-- **Honest measurement.** Our first communal benchmark looked great at 19/21, but a fresh set of random communes gave 4/10. We kept testing on communes the system had never seen.
-- **Speed versus trust.** Three verification rounds roughly triple the answer time, to about 50 seconds.
+The final recorded comparison covers 100 held-out questions: 39 federal, 12 cantonal and 49 communal. Answers were graded blind by AI against references and official-law text. There was one AI grading pass and no human adjudication. These are internal prototype results, not independently validated accuracy.
 
-## Accomplishments that we're proud of
+- **Mean score (0-3):** original 1.38; current 1.39.
+- **Fully correct (score 3):** original 19/100; current 21/100.
+- **Usable under the rubric (score at least 2):** 46/100 for both versions. The recorded 95% interval is approximately 37-56%; it does not account for grading errors or dataset representativeness.
+- **Answers flagged with a factual error:** original 53/100; current 43/100.
+- **Governing source cited:** original 58/100; current 53/100.
+- **Off-topic padding flagged:** original 36/100; current 22/100.
+- **Blind preference:** current preferred on 43 questions, original on 36, with 21 ties.
 
-- **85/100** answers cite the correct legal source on our verified benchmark, up from 67 at baseline, and answers naming an article that isn't in the sources fell from **13 to 0**.
-- **Cantonal retrieval went from 11/32 to 29/32** once Apertus drove the LexFind search.
-- **Communal law from the commune's own website,** across many different site setups, including scanned regulations that Apertus reads itself.
-- **One answer covering all three levels** of Swiss law, in five languages, with every claim cited and checked.
-- **Open and sovereign:** an open Swiss model and public data, so a canton or commune could host it on its own servers.
+Current mean scores by level were 1.95/3 federal, 1.58/3 cantonal and 0.90/3 communal. Original means were 1.92, 1.92 and 0.82 respectively. The cantonal sample contains only 12 questions; its apparent decline needs further investigation.
 
-## What we learned
+The usable-answer rate was unchanged. Factual-error and padding flags were less frequent in this sample, but governing-source citation declined and communal performance remains weak. A usable rubric score is not an error-free-answer guarantee: correctness scores and factual-error flags were recorded separately.
 
-- **Retrieval decides the quality.** Most wrong answers came from fetching the wrong article, not from bad writing. The biggest gains came from letting Apertus *steer* retrieval (queries, act choice, article choice) while code does the exact lookups.
-- **Ask a model to be specific.** "List every claim with a verdict" catches far more than "find problems", and "return the titles" is more robust than "return the numbers".
-- **Deterministic checks beat hope.** A simple check that every named article exists in the sources removed a whole class of invented references.
-- **Benchmarks must include data the system hasn't seen.** Our hand-picked communal test overstated coverage; random communes told us the truth.
-- **Swiss law is a data problem as much as an AI problem.** The legal texts are public, but they are scattered across levels, formats and languages.
+## Measurement limits
 
-## What's next for Alpenrecht
+Earlier development benchmarks measured retrieval or citation success, sometimes on hand-picked communes. They are not interchangeable with held-out answer correctness. The earlier 85/100 source-citation claim is therefore not presented as final accuracy. No supported current end-to-end latency estimate is claimed here; OCR, networking and verification can materially affect response time.
 
-- **Big-city law platforms:** readers for the JavaScript-based collections of Bern, Zürich, Geneva, Lausanne and Lugano, so the largest communes are covered.
-- **Apertus article picking for Fedlex,** to fix most of the remaining federal misses.
-- **Faster answers:** fact-checking with the 8B model, streaming the final answer, and skipping rounds once an answer is clean.
-- **Case law:** adding Federal Supreme Court and cantonal court decisions (entscheidsuche.ch) next to the statutes.
-- **Point-in-time answers for cantonal law,** using LexFind's version history.
-- **Deployment with a canton or commune:** an on-premise pilot for their citizen help desk, with their own regulations loaded and kept current.
+The final aggregate is recorded in eval/ACCURACY_heldout100.txt, with questions in eval/questions_heldout100.json and references in eval/heldout100_reference.json. Development runs remain under eval/. This report documents repository checkpoint 2a7f9fb.
+
+<!-- PAGE -->
+
+## Implementation and review
+
+Repository: https://github.com/Anakalypto/AlpenRecht
+
+The root contains a README and Apache-2.0 licence. Implementation is under track_2b/, including src/alpenrecht/, data/, docs/, eval/ and tests/, alongside the Dockerfile, Makefile and .env.example.
+
+- **Configure:** set LLM_API_KEY, optionally LLM_BASE_URL and LLM_NAME. Defaults target the CSCS endpoint and Apertus v1.5 70B. APERTUS_* names remain supported. Keep credentials outside version control.
+- **Run:** from track_2b/, use make run with Docker installed, then open http://localhost:5055. Alternative Python setup is in the project README.
+- **Check:** make test builds the image and runs offline tests. Parsing and citation tests do not establish legal accuracy.
+- **Inspect:** ask a question for a Swiss place, follow retrieval progress and open cited passages to assess the answer against the evidence.
+
+## Challenges and lessons
+
+Communal sources vary from structured lists to JavaScript collections, old scans, two-column PDFs and broken fonts. Dedicated readers, OCR fallbacks, layout-aware extraction and fee-table indexing address parts of this problem, without establishing complete coverage.
+
+A related but incorrect provision can yield a fluent answer with valid citation identifiers and incorrect legal content. Retrieval quality and answer correctness must be evaluated separately. Testing unfamiliar communes exposed failures that hand-picked examples missed.
+
+## Next steps and limitations
+
+- **Communal coverage:** improve discovery failures, wrong regulation choices and unreadable texts. City readers and uploads already exist; general coverage remains incomplete.
+- **Correctness:** investigate wrong provisions, missed exceptions, authority names and deadlines with fresh held-out questions and human legal review.
+- **Temporal coverage:** extend point-in-time retrieval to cantonal law, which currently uses current texts.
+- **Case law:** evaluate coverage and relevance beyond the current published BGE/headnote subset before expanding it.
+- **Performance:** measure current end-to-end latency before making speed claims. Explore early stopping only if correctness is preserved.
+- **Deployment:** assess a limited pilot with curated regulations and human oversight. On-premise hosting is an architectural possibility, not a completed deployment or privacy certification.
+
+This is legal information for source discovery and inspection. Automated checking does not guarantee complete or correct legal answers. The hackathon form and demo video remain separate submission items.
