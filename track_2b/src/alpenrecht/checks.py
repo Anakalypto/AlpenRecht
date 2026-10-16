@@ -19,9 +19,10 @@ _ALLOWED = re.compile(r"(?:Art\.|art\.)\s*49\s*(?:BV|Cst|Cost)", re.I)
 def art_key(number):
     """'Art. 257d' / 'art. 32 abis' / 'Art. 25 Auskunftsrecht' -> '257d' / '32abis' / '25'.
     Annexes and unstructured parts keep their kind ('Anhang 1' -> 'anhang1'), so they never pass for Art. 1."""
-    a = re.match(r"\s*(anhang|annexe|annex|allegato|tarif\w*|teil|gebuhrentarif|gebührentarif)\s*(\d*)", number.lower())
+    a = re.match(r"\s*(anhang|annexe|annex|allegato|tarif\w*|teil|gebuhrentarif|gebührentarif)\W*(\d+(?:\.\d+)*)?",
+                 number.lower())
     if a:
-        return a.group(1)[:7] + a.group(2)
+        return a.group(1)[:7] + (a.group(2) or "")
     m = re.search(r"(\d+)\s?((?:[a-z]?\s?(?:bis|ter|quater|quinquies|sexies))|[a-z]{1,2})?(?![a-z])", number.lower())
     return (m.group(1) + re.sub(r"\s+", "", m.group(2) or "")) if m else ""
 
@@ -107,3 +108,36 @@ def check(text, evidence):
         "prose_citations": len(prose),
         "unsupported_articles": sorted(set(unsupported)),
     }
+
+
+# Amounts the answer states: "CHF 140.00", "Fr. 240.–", "100 francs", "3,5 %", "20 000 CHF".
+_AMOUNT = re.compile(r"(?:CHF|Fr\.|fr\.)\s?(\d[\d'’  .,]*\d|\d)|(\d[\d'’  .,]*\d|\d)\s?(?:CHF|francs?|Franken|Fr\.)"
+                     r"|(\d+(?:[.,]\d+)?)\s?(?:%|‰|Prozent|pour\s?cent|per\s?cento|Promille|pour\s?mille)", re.I)
+
+
+def _num(s):
+    """'1'200.50' / '1 200,50' / '240.–' -> '1200.5' / '1200.5' / '240' (comparable across notations)."""
+    s = re.sub(r"[’'  ]", "", s).replace(",", ".")
+    s = re.sub(r"\.(?=\d{3}(?:\.|$))", "", s)  # thousands separators written as dots: 20.000
+    try:
+        v = float(s.rstrip("."))
+    except ValueError:
+        return s
+    return f"{v:g}"
+
+
+def unsupported_amounts(text, evidence):
+    """Amounts in the answer that appear in no source text (a figure the model made up or misread)."""
+    in_sources = set()
+    for e in evidence:
+        for m in re.finditer(r"\d[\d'’  .,]*\d|\d", e["text"]):
+            in_sources.add(_num(m.group(0)))
+            for part in re.split(r"[  ]", m.group(0)):  # "Fr. 150 bis 300" and table cells
+                if part:
+                    in_sources.add(_num(part))
+    out = []
+    for m in _AMOUNT.finditer(text):
+        raw = next(g for g in m.groups() if g)
+        if _num(raw) not in in_sources and m.group(0).strip() not in out:
+            out.append(m.group(0).strip())
+    return out

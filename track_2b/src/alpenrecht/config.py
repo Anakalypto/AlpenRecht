@@ -33,5 +33,9 @@ VERIFY_MODEL = os.environ.get("VERIFY_MODEL") or None
 OCR_MODEL = os.environ.get("OCR_MODEL", "swiss-ai/Apertus-v1.5-8B")
 PORT = int(os.environ.get("PORT", "5055"))
 HOST = os.environ.get("HOST", "127.0.0.1")  # 0.0.0.0 inside Docker
+# Conversation memory: how many earlier messages of the chat (questions and answers) a follow-up question sees.
+HISTORY_MESSAGES = max(0, int(os.environ.get("HISTORY_MESSAGES", "6")))
+# cache/ is emptied whenever no question is running (uploads are kept); KEEP_CACHE=1 keeps it between questions.
+KEEP_CACHE = os.environ.get("KEEP_CACHE", "").lower() in ("1", "true", "yes")
 
 USER_AGENT = "AlpenrechtAI/0.1 (Hack Apertus prototype)"

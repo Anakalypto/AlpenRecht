@@ -1,0 +1,20 @@
+[
+ {"id": "F01", "lang": "de", "loc": "3063 Ittigen", "q": "Wie hoch ist die Hundetaxe in Ittigen?"},
+ {"id": "F02", "lang": "fr", "loc": "1950 Sion", "q": "Combien coûte une concession de tombe à Sion ?"},
+ {"id": "F03", "lang": "de", "loc": "8820 Wädenswil", "q": "Wie hoch ist die Grundgebühr für Abfall pro Haushalt in Wädenswil?"},
+ {"id": "F04", "lang": "de", "loc": "4718 Holderbank", "q": "Was kostet die Kehrichtabfuhr in Holderbank?"},
+ {"id": "F05", "lang": "fr", "loc": "1003 Lausanne", "q": "Quel est le montant de la taxe au sac pour les déchets à Lausanne ?"},
+ {"id": "F06", "lang": "fr", "loc": "1204 Genève", "q": "Quels émoluments la Ville de Genève perçoit-elle pour une terrasse sur le domaine public ?"},
+ {"id": "F07", "lang": "de", "loc": "8001 Zürich", "q": "Wie viel kostet eine Anwohnerparkkarte für die blaue Zone in Zürich?"},
+ {"id": "F08", "lang": "de", "loc": "3011 Bern", "q": "Was kostet eine Anwohnerparkkarte in Bern?"},
+ {"id": "F09", "lang": "de", "loc": "4051 Basel", "q": "Wie hoch ist die Hundesteuer in Basel?"},
+ {"id": "F10", "lang": "fr", "loc": "1700 Fribourg", "q": "Combien coûte l'impôt sur les chiens à Fribourg ?"},
+ {"id": "F11", "lang": "fr", "loc": "1003 Lausanne", "q": "Quels sont les émoluments pour un permis de construire à Lausanne ?"},
+ {"id": "F12", "lang": "de", "loc": "7000 Chur", "q": "Wie hoch ist die Hundetaxe in Chur?"},
+ {"id": "F13", "lang": "de", "loc": "6330 Cham", "q": "Welche Gebühren verlangt Cham für eine Baubewilligung?"},
+ {"id": "F14", "lang": "de", "loc": "3011 Bern", "q": "Was kostet ein Betreibungsregisterauszug?"},
+ {"id": "F15", "lang": "fr", "loc": "1204 Genève", "q": "Combien coûte un passeport suisse pour un adulte ?"},
+ {"id": "F16", "lang": "fr", "loc": "1003 Lausanne", "q": "Quels émoluments faut-il payer pour une naturalisation ordinaire ?"},
+ {"id": "F17", "lang": "it", "loc": "6900 Lugano", "q": "Quanto costa la tassa sui cani a Lugano?"},
+ {"id": "F18", "lang": "de", "loc": "8001 Zürich", "q": "Wie hoch ist die Busse für 15 km/h zu schnell innerorts?"}
+]

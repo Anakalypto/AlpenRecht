@@ -434,6 +434,85 @@ def _shortlist(question, terms, docs, limit=150):
     return [docs[i] for i in ranked[:limit]]
 
 
+# Fee questions: the amount is often in a separate tariff document or an annex, not in the regulation itself.
+FEE_Q = re.compile(r"gebuhr|gebühr|taxe|tax\b|tarif|emolument|émolument|kost|preis|prix|combien|wie viel|wieviel|"
+                   r"wie hoch|montant|betrag|quanto|costa|tassa|tariff|prezzo|steuer|impot|impôt|abgabe|busse|amende|multa", re.I)
+TARIFF_TITLE = re.compile(r"tarif|gebuhr|gebühr|taxe|emolument|émolument|tariff|tass[ae]|abgabe|steuer|impot|impôt|"
+                          r"anhang|annexe|allegat|preis|prix", re.I)
+AMOUNT = re.compile(r"(?:CHF|Fr\.|fr\.|francs?|Franken)\s?\d|\d[\d'’ ]*(?:[.,]\d{2}|\.–|\.-|,–)\s?(?:CHF|Fr\.?|francs?)?", re.I)
+
+
+def _stems(text):
+    # Title filler that says nothing about the topic ("Verordnung betreffend die …", "Règlement concernant le …").
+    return {sources.fold(w)[:5] for w in re.findall(r"[^\W\d_]{4,}", text)} - {
+        "regle", "regla", "veror", "gemei", "commu", "ville", "stadt", "comun", "betre", "uber", "conce", "relat",
+        "sulla", "della", "geset", "kanto", "canto", "basel", "beschl", "besch", "ordon", "direc", "tarif", "gebuh",
+        "taxes", "taxe", "emolu", "tassa", "wieho", "hoch", "combi", "coute", "koste", "quant", "costa"}
+
+
+def fee_companions(question, chosen, docs, texts=(), commune=""):
+    """Tariff documents that belong to the chosen regulations: same topic in the title, or named in their text
+    ("selon le tarif LC 21 318", "gemäss Gebührenreglement")."""
+    if not FEE_Q.search(question):
+        return []
+    have = {d["url"] for d in chosen}
+    # Topic words of the question and the chosen titles; the commune's own name is no topic ("Lausanne" made a sports
+    # prize a "companion" of the waste regulation).
+    topic = (_stems(question) | {st for d in chosen for st in _stems(d["title"])}) - _stems(commune)
+    refs, windows = set(), []
+    for t in texts:
+        # Numbers of other regulations a chosen text cites next to a fee word: "selon le tarif LC 21 318",
+        # "gemäss Gebührenreglement (SSSB 761.232.1)". Citations elsewhere (laws, ordinances) don't count.
+        for m in TARIFF_TITLE.finditer(t[:80000]):
+            window = t[max(0, m.start() - 120):m.end() + 160]
+            windows.append(sources.fold(window))
+            refs |= {re.sub(r"\s+", "", r) for r in re.findall(r"\b(?:LC\s?)?\d{1,3}(?:[ .]\d{1,3}){1,3}\b", window)}
+    scored = []
+    for i, d in enumerate(docs):
+        if d["url"] in have:
+            continue
+        title = sources.fold(d["title"])
+        tariff = bool(TARIFF_TITLE.search(title))
+        # The document's own number ("LC 21318", "712.111", "7.6-2"), digits only, against the numbers the text cites.
+        m = re.match(r"\s*(?:LC\s?)?(\d[\d. ]*\d)", d["title"] or "")
+        num = re.sub(r"\D", "", m.group(1)) if m else ""
+        named = len(num) >= 4 and any(num == re.sub(r"\D", "", r) for r in refs)
+        # …or cited by name next to a fee word: Bern's parking-card ordinance points to "Anhang III … des Reglements
+        # über die Gebührenerhebung durch die Stadtverwaltung" without its number.
+        long_words = {w for w in re.findall(r"[^\W\d_]{8,}", sources.fold(d["title"]))} - {
+            "reglement", "verordnung", "ordonnance", "regolamento", "ordinanza", "directive", "betreffend", "concernant",
+            "erhebung", "gemeinde", "municipale", "communal", "communale", "comunale"}
+        named = named or (tariff and len(long_words) >= 2 and any(sum(w in win for w in long_words) >= 2 for win in windows))
+        on_topic = len(topic & _stems(d["title"]))
+        # The law next to a chosen ordinance (Basel 365.100 Hundegesetz for 365.110 Hundeverordnung): same systematic
+        # group and the same topic words in the title. Basel's dog tax (CHF 160) is in the law, not the ordinance.
+        sibling = any(num and re.sub(r"\D", "", c["title"].split(" ")[0])[:4] == num[:4]
+                      and len(_stems(c["title"]) & _stems(d["title"])) >= 2 for c in chosen)
+        if named:
+            scored.append((0, -on_topic, i, d))
+        elif tariff and on_topic >= 1:
+            scored.append((1, -on_topic, i, d))
+        elif sibling:
+            scored.append((2, -on_topic, i, d))
+    scored.sort(key=lambda x: x[:3])
+    return [d for *_, d in scored[:2]]
+
+
+def amount_articles(question, loaded, terms, picked, n=2):
+    """For a fee question whose picked provisions hold no amount: the provisions that do (tariff tables, annexes)."""
+    if not FEE_Q.search(question) or any(AMOUNT.search(a["text"]) for _, a in picked):
+        return []
+    words = re.findall(r"[^\W\d_]{4,}", question) + list(terms)
+    have = {(m["sr"], a["number"]) for m, a in picked}
+    pool = []
+    for meta, arts in loaded:
+        with_amount = [a for a in arts if AMOUNT.search(a["text"]) and (meta["sr"], a["number"]) not in have]
+        for a in sources.rank_articles(with_amount, words, top=3) or with_amount[:1]:
+            pool.append((a.get("score", 0), meta, a))
+    pool.sort(key=lambda x: -x[0])
+    return [(m, a) for _, m, a in pool[:n]]
+
+
 def retrieve(question, location, terms):
     """Full communal step. Returns (site, docs_found, chosen_docs, [(doc_meta, article)])."""
     site = website(location["bfs"])
@@ -447,19 +526,29 @@ def retrieve(question, location, terms):
         docs = find_documents(site)
     docs = _shortlist(question, terms, docs)
     chosen = pick_documents(question, location["commune"], location["canton_name"], docs)
-    loaded = []
-    for i, d in enumerate(chosen, 1):
+    loaded, texts = [], []
+
+    def load(i, d):
         try:
             text, final = load_document(d)
         except Exception:
-            continue
+            return
         if len(text.strip()) < 200:
-            continue
+            return
         arts = sources.split_articles(text)
         for a in arts:
             a["url"] = final
-        meta = {"sr": f"G{i}", "title": d["title"], "url": final}
-        loaded.append((meta, arts))
+        texts.append(text)
+        loaded.append(({"sr": f"G{i}", "title": d["title"], "url": final}, arts))
+
+    for i, d in enumerate(chosen, 1):
+        load(i, d)
+    # Fee questions: also read the tariff that goes with the chosen regulation (Sion's grave fees, Bern's parking-card
+    # fees and Geneva's terrace tariff sit in a separate document the regulation points to).
+    extra = fee_companions(question, chosen, docs, texts, location["commune"])
+    for j, d in enumerate(extra, len(chosen) + 1):
+        load(j, d)
+    chosen = chosen + extra
     # No keyword top-up here: a commune without a rule on the topic should contribute nothing.
     picked = lexfind_agent.pick_articles(question, loaded, terms, topup=False) if loaded else []
     if loaded and not picked:
@@ -478,4 +567,5 @@ def retrieve(question, location, terms):
         meta, arts = loaded[0]
         words = [w for w in re.findall(r"[^\W\d_]{4,}", question)] + list(terms)
         picked = [(meta, a) for a in sources.rank_articles(arts, words, top=2) if a.get("score", 0) >= 2]
+    picked = amount_articles(question, loaded, terms, picked) + picked  # first: the pipeline keeps 5
     return site, docs, chosen, picked

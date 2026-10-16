@@ -1,0 +1,219 @@
+[
+ {
+  "id": "F14",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 75.3,
+  "plan_s": 4.9,
+  "ttft_s": null,
+  "words": 258,
+  "citations": 5,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEin schriftlicher Betreibungsregisterauszug kostet gemäss der Gebührenverordnung zum SchKG pauschal 17 Franken. Bei Zustellung per Post, Fax oder elektronisch beträgt die Gebühr inklusive Zustellung 18 Franken; bei gewünschter Zustellung per eingeschriebener Post sind es 22 Franken. Behörden und Private, die im Rahmen übertragener öffentlich-rechtlicher Aufgaben Auskunft geben oder Staatsbeiträge betreffen, erhalten den Auszug gebührenfrei [1].\n\n## Bund\n- Für einen schriftlichen Auszug aus dem Betreibungsregister beträgt die Gebühr pauschal 17 Franken, unabhängig von der Seitenzahl [1].\n- Wird der Registerauszug dem Antragsteller per Post, Fax oder elektronisch zugestellt, so beträgt die Gebühr inklusive Zustellung 18 Franken [1].\n- Wünscht der Empfänger eine Zustellung per eingeschriebener Post, so beträgt die Gebühr inklusive Zustellung 22 Franken [1].\n- Gegenüber Gerichts- und Verwaltungsbehörden wird für den schriftlichen Auszug aus dem Betreibungsregister keine Gebühr erhoben, wenn das Bundesrecht die Auskunftspflicht vorsieht [1].\n\n## Kanton Bern\nKeine einschlägigen kantonalen Bestimmungen für Betreibungsregisterauszüge gefunden, da die Gebührenhöhe abschliessend durch das Bundesrecht geregelt ist.\n\n## Gemeinde Bern\nKeine einschlägigen kommunalen Bestimmungen für Betreibungsregisterauszüge gefunden, da die Gebührenhöhe abschliessend durch das Bundesrecht geregelt ist.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt die Gebührenhöhe für Betreibungsregisterauszüge abschliessend; kantonale oder kommunale Bestimmungen sind nicht einschlägig. Art. 49 BV (Cst.) sieht vor, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte\n- Wenden Sie sich schriftlich oder persönlich an das zuständige Betreibungsamt am Ort der Betreibung.\n- Gebühr: 17 Franken für den reinen Auszug; 18 Franken bei Post/Fax/E-Mail-Zustellung; 22 Franken bei eingeschriebener Postzustellung.\n- Die kantonalen und kommunalen Quellen enthalten keine zusätzlichen Gebühren für Betreibungsregisterauszüge.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2015,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die kantonalen Quellen (Art. 28 und 29 GebV BE) regeln andere Auskünfte und Ausnahmen, nicht jedoch die Gebühren für Betreibungsregisterauszüge. Die Aussage, dass keine kantonalen Gebühren anfallen, ist falsch, da die Bundesgebühr (GebV SchKG) die kantonalen Bestimmungen abschliessend regelt und kantonale Gebühren für Betreibungsregisterauszüge nicht existieren."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 2181,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die kantonalen Quellen (Art. 28 und Art. 29 GebV BE) regeln andere Auskünfte und Ausnahmen, sind aber nicht einschlägig für die bundesrechtlich geregelten Gebühren des Betreibungsregisterauszugs."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 3062,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die kantonalen Quellen (Art. 28 und Art. 29 GebV BE) regeln allgemeine Auskünfte der Kantonsverwaltung und Ausnahmen für Gemeinden/Private, nicht jedoch die Gebühren für Betreibungsregisterauszüge, die abschliessend durch das Bundesrecht (GebV SchKG) geregelt sind.",
+     "Kommunale Bestimmungen sind nicht relevant, da die Gebühren für Betreibungsregisterauszüge abschliessend durch das Bundesrecht geregelt sind."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed GebV SchKG Art. 12a Schriftliche Betreibungsregisterauskünfte",
+   "[2] fed SchKG Art. 74",
+   "[3] can BE 154.21 Art. 28",
+   "[4] can BE 154.21 Art. 29",
+   "[5] cas BGE 129 III 366 2003-01-01"
+  ]
+ },
+ {
+  "id": "F15",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 50.3,
+  "plan_s": 8.7,
+  "ttft_s": null,
+  "words": 208,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour un adulte, l'émolument fédéral pour l'établissement d'un passeport suisse est de **CHF 140.-**. Les sources consultées ne prévoient pas d'émoluments cantonaux ou communaux supplémentaires pour ce document d'identité.\n\n## Confédération  \n- Pour un passeport suisse destiné à un adulte (personne âgée de 18 ans ou plus), l'émolument fédéral s'élève à **CHF 140.-** [1].  \n- Quiconque demande un document d'identité doit s'acquitter d'un émolument [7].\n\n## Canton de Genève  \nAucune source pertinente récupérée.\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa Confédération fixe le montant de l'émolument pour les passeports suisses [7]. Les documents cantonaux et communaux fournis concernent des frais administratifs internes (prolongations de délais, copies, frais de déplacement) et ne prévoient pas d'émoluments supplémentaires pour l'établissement du passeport suisse lui-même.\n\n## Prochaines étapes  \n- S'adresser à une représentation consulaire suisse ou à une commune habilitée en Suisse pour déposer la demande de passeport suisse.  \n- Prévoir le paiement de l'émolument de **CHF 140.-** au moment du dépôt de la demande (selon les instructions de l'office compétent).  \n- Consulter les tarifs en vigueur auprès de l'office cantonal compétent si des frais de traitement cantonaux devaient s'appliquer (aucune information spécifique dans les sources fournies).  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 2,
+    "raw_chars": 1250,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "OLDI Art. 45 Émoluments pour les documents d’identité"
+    ],
+    "revised": true,
+    "notes": [
+     "Les sources fournies (notamment l'Annexe 3) indiquent une répartition des émoluments entre la Confédération et les cantons, mais aucune source ne confirme l'absence totale de frais cantonaux/communaux supplémentaires pour l'établissement du passeport lui-même. Les sources cantonales/communales fournies concernent des frais administratifs internes (taxes, frais de déplacement) et non les émoluments d'établissement des documents d'identité."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1430,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 1617,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 1,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed OLDI Annexe 2",
+   "[2] fed OLDI Annexe 3",
+   "[3] fed OLDI Art. 47 Montant des émoluments",
+   "[4] can GE D 3 19.03 Art. 2",
+   "[5] com Genève: LC 21152.16.A01 - Annexe 1 - Montants Art. 4",
+   "[6] com Genève: LC 21152.16.A01 - Annexe 1 - Montants Art. 9",
+   "[7] fed OLDI Art. 45 Émoluments pour les documents d’identité"
+  ]
+ },
+ {
+  "id": "F18",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 66.8,
+  "plan_s": 4.1,
+  "ttft_s": null,
+  "words": 205,
+  "citations": 6,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Quellen enthalten keine konkrete Busse für eine Überschreitung von genau 15 km/h innerorts. Das Bundesrecht legt die allgemeine Höchstgeschwindigkeit innerorts auf 50 km/h fest [3], definiert jedoch keine staffelweise Abstufung der Bussenhöhe nach km/h. Die kantonalen Ordnungsbussenverordnungen [4] listen pauschale Beträge für Verstösse auf, jedoch keine spezifischen Beträge für eine Überschreitung von 15 km/h.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht legt die allgemeinen Höchstgeschwindigkeiten fest (50 km/h innerorts [3]), während die Kantone und Gemeinden Ordnungsbussen für Verstösse festlegen. Die konkrete Höhe einer Busse für eine spezifische Geschwindigkeitsüberschreitung ist in den vorliegenden Quellen nicht enthalten; sie richtet sich nach kantonaler oder kommunaler Ausgestaltung, die hier nicht spezifisch dokumentiert ist.\n\n## Nächste Schritte\n1. Erkundigen Sie sich bei der Kantonspolizei Zürich oder der zuständigen Gemeindebehörde nach der aktuellen Bussenhöhe für eine Geschwindigkeitsüberschreitung von 15 km/h innerorts.\n2. Prüfen Sie die aktuelle Fassung der kantonalen Ordnungsbussenverordnung (KOBV) auf der offiziellen Website des Kantons Zürich, da sich die Beträge ändern können.\n3. Konsultieren Sie das Strassenverkehrsgesetz (SVG) und die Verkehrsregelnverordnung (VRV) [1][2][3] für die allgemeinen Geschwindigkeitsgrenzen, um den Kontext der Überschreitung zu verstehen.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 0,
+    "raw_chars": 69,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2502,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen enthält eine konkrete Busse für eine Überschreitung von 15 km/h innerorts. Die Quellen definieren lediglich die allgemeine Höchstgeschwindigkeit (50 km/h innerorts), nicht aber spezifische Bussenbeträge für einzelne km/h-Überschreitungen.",
+     "Dies ist eine Handlungsanweisung und keine rechtliche Aussage, die durch die Quellen verifiziert werden kann.",
+     "Dies ist eine Empfehlung zur Informationsbeschaffung, keine verifizierbare Rechtsaussage aus den Quellen."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3387,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen enthält eine konkrete Aussage zur Busse für eine Überschreitung von 15 km/h. Die Quelle [3] nennt zwar die allgemeine Höchstgeschwindigkeit von 50 km/h innerorts, nicht aber eine staffelweise Bussenhöhe für eine Überschreitung von 15 km/h.",
+     "Die Quellen [1], [2], [3], und [4] wurden bereitgestellt und enthalten Informationen zum Thema Geschwindigkeitsüberschreitung und Bussen. Die Aussage ist daher falsch.",
+     "Dies ist eine Handlungsanweisung und keine rechtliche Regelung, die durch die Quellen belegt werden kann.",
+     "Dies ist eine Empfehlung für die weitere Recherche und keine durch die Quellen belegbare rechtliche Regel."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 14,
+  "sources": [
+   "[1] fed VRV Art. 4 Angemessene Geschwindigkeit",
+   "[2] fed VRV Art. 5 Höchstgeschwindigkeit für einzelne Fahrzeugarten",
+   "[3] fed VRV Art. 4a Allgemeine Höchstgeschwindigkeiten; Grundregel",
+   "[4] can ZH 321.2 § 13 (2)",
+   "[5] com Zürich: 631.500 Geschäftsordnung des Steueramtes Art. 4"
+  ]
+ }
+]

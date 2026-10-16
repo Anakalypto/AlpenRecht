@@ -703,6 +703,8 @@ async function send(text) {
   if (!q || state.busy) return;
   closePops();
   if (!state.chat) { state.chat = { id: Date.now().toString(36), title: q, at: Date.now(), turns: [] }; $("#thread").innerHTML = ""; }
+  // Conversation memory: the earlier messages of this chat; the server keeps the last HISTORY_MESSAGES (default 6).
+  const history = state.chat.turns.slice(-10).flatMap((tn) => [{ role: "user", content: tn.q }, ...(tn.text ? [{ role: "assistant", content: tn.text }] : [])]);
   const turn = { q, location: state.location, locationLabel: state.locationLabel, asof: state.asof, docs: state.docs.map((d) => ({ id: d.id, name: d.name })),
                  lang, steps: [], sources: [], text: "", resolved: null, plan: null, error: "" };
   state.chat.turns.push(turn);
@@ -721,7 +723,7 @@ async function send(text) {
   try {
     const r = await fetch("/api/ask", {
       method: "POST", headers: { "Content-Type": "application/json" }, signal: ctrl.signal,
-      body: JSON.stringify({ question: q, location: turn.location, asof: turn.asof, lang, uploads: turn.docs.map((d) => d.id) }),
+      body: JSON.stringify({ question: q, location: turn.location, asof: turn.asof, lang, uploads: turn.docs.map((d) => d.id), history }),
     });
     if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.statusText);
     const reader = r.body.getReader(); const dec = new TextDecoder(); let buf = "";

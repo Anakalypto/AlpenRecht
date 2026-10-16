@@ -1,0 +1,1403 @@
+[
+ {
+  "id": "T001",
+  "lang": "fr",
+  "loc": "1024 Ecublens",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 202.5,
+  "plan_s": 8.7,
+  "ttft_s": null,
+  "words": 640,
+  "citations": 15,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 62"
+  ],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour obtenir le permis C (autorisation d’établissement), il faut remplir l’une des conditions prévues par la LEI : soit avoir séjourné en Suisse au moins dix ans au titre d’une autorisation de courte ou de séjour, dont les cinq dernières années de manière ininterrompue au titre d’une autorisation de séjour, sans motif de révocation et en étant intégré [1] ; soit, après un séjour ininterrompu de cinq ans au titre d’une autorisation de séjour, être apte à bien communiquer dans la langue nationale parlée au lieu de domicile et satisfaire aux critères d’intégration (respect de la sécurité et de l’ordre publics, des valeurs constitutionnelles, compétences linguistiques, participation à la vie économique ou formation) [1][2] ; ou encore, pour des raisons majeures, obtenir le permis C après un séjour plus court [1]. Les séjours temporaires ou à des fins de formation ne comptent pas dans le délai de cinq ans, sauf si, après la formation, l’étranger a été au bénéfice d’une autorisation de séjour durable pendant deux ans sans interruption [1]. La demande s’adresse à l’autorité cantonale compétente, qui peut percevoir un émolument de cent à dix mille francs et exiger un dépôt couvrant cet émolument et les frais d’instruction [4].\n\n## Confédération  \n- L’autorisation d’établissement est octroyée pour une durée indéterminée et sans conditions [1].  \n- Elle peut être accordée après un séjour d’au moins dix ans en Suisse au titre d’une autorisation de courte ou de séjour, dont les cinq dernières années de manière ininterrompue au titre d’une autorisation de séjour, à condition qu’il n’existe aucun motif de révocation au sens des art. 62 ou 63, al. 2, et que l’étranger soit intégré [1].  \n- Elle peut être délivrée après un séjour ininterrompu de cinq ans au titre d’une autorisation de séjour, si l’étranger est apte à bien communiquer dans la langue nationale parlée au lieu de domicile et remplit les critères d’intégration (respect de la sécurité et de l’ordre publics, des valeurs de la Constitution, compétences linguistiques, participation à la vie économique ou acquisition d’une formation) [1][2].  \n- Les séjours temporaires et ceux effectués à des fins de formation ne sont pas pris en compte dans le séjour ininterrompu de cinq ans prévu aux al. 2, let. a, et 4, sauf si, une fois la formation achevée, l’étranger a été en possession d’une autorisation de séjour durable pendant deux ans sans interruption [1].  \n- En cas de révocation remplacée par une autorisation de séjour, une nouvelle autorisation d’établissement ne peut être délivrée qu’au terme d’un délai de cinq ans, pour autant que la personne se soit entre-temps bien intégrée [1].\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Ecublens (VD)  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe les conditions d’octroi du permis C (durées de séjour, intégration, compétences linguistiques) et ne délègue pas aux cantons ou aux communes la compétence de modifier ces critères ; les documents fournis ne contiennent aucune règle spécifique du canton de Vaud ou de la commune d’Ecublens sur le permis d’établissement (Art. 49 BV).\n\n## Prochaines étapes  \n- Déposer une demande écrite auprès de l’autorité cantonale compétente, à savoir le Service de la population du canton de Vaud, en joignant les pièces requises (pièces d’identité, titres de séjour antérieurs, preuves de séjour, attestations d’intégration, certificats de langue, etc.) conformément aux exigences du Service de la population du canton de Vaud [1].  \n- Prévoir un émolument compris entre 100 et 10 000 CHF ; la Commission foncière, section II, peut exiger un dépôt destiné à couvrir cet émolument et les frais présumés de l’instruction [4].  \n- S’adresser au Service de la population du canton de Vaud pour connaître les documents exacts et les délais de traitement, car ceux-ci ne sont pas précisés dans les sources fournies [1].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2945,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation",
+     "Pas de citation"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 3074,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation",
+     "Pas de citation"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 3295,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette instruction spécifique (nom de l’autorité et liste des pièces).",
+     "Pas de citation pour les documents exacts et les délais de traitement."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 27,
+  "sources": [
+   "[1] fed LEI Art. 34 Autorisation d’établissement",
+   "[2] fed LEI Art. 58a Critères d’intégration",
+   "[3] can VD 211.51 Art. 2",
+   "[4] can VD 211.51 Art. 22",
+   "[5] cas BGE 122 II 145 1996-04-11",
+   "[6] cas 20130611_52166_09, Hasanbasic Nusret, Hasanbasic-Zucko Blaszenka gegen Schweiz 2013-06-11"
+  ]
+ },
+ {
+  "id": "T007",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 127.5,
+  "plan_s": 4.8,
+  "ttft_s": null,
+  "words": 577,
+  "citations": 24,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 11"
+  ],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour obtenir la naturalisation ordinaire, la loi fédérale exige un séjour total de dix ans en Suisse, dont trois ans durant les cinq années précédant la demande ; le temps passé en Suisse entre l’âge de huit et dix-huit ans compte double, mais le séjour effectif doit durer au moins six ans [2]. Le canton de Fribourg fixe une durée minimale de séjour de deux à cinq ans [1] et conserve sa compétence même si le candidat déménage dans une autre commune ou un autre canton tant que l’examen des conditions est terminé [1].\n\n## Confédération  \n- Le requérant doit être titulaire d’une autorisation d’établissement [2].  \n- Il doit prouver un séjour total de dix ans en Suisse, dont trois ans sur les cinq années ayant précédé le dépôt de la demande [2].  \n- Dans le calcul des dix ans, le séjour effectué entre l’âge de huit et de dix-huit ans compte double [2].\n\n## Canton de Fribourg  \n- La législation cantonale prévoit une durée de séjour minimale de deux à cinq ans [1].  \n- Le canton et la commune où la demande de naturalisation a été déposée restent compétents lorsque le candidat transfère son domicile dans une autre commune ou un autre canton, pour autant qu’ils aient terminé l’examen des conditions de la naturalisation visées aux art. 11 et 12 [1].\n\n## Commune de Fribourg  \n- Les émoluments communaux pour la naturalisation ordinaire s’élèvent, par poste, de CHF 100 à CHF 350 (examen préalable, enquête complémentaire, cours d’instruction civique, documentation civique, audition, procès-verbal, préavis, décision du Conseil communal, transmission du dossier au SAINEC, débours, forfait clôture) [3].  \n- Un montant de base pour les débours (documentation, téléphone, frais postaux, etc.) est de CHF 20 à CHF 100 [3].  \n- Un forfait de clôture de CHF 100 est perçu [3].  \n- Pour les confédérés (y compris les Fribourgeois), les émoluments sont réduits d’un tiers (au minimum CHF 400) pour les étudiants, apprentis, bénéficiaires de prestations complémentaires AVS/AI ou de l’aide sociale [4].  \n- Les frais d’un examen particulier du dossier, réalisé par un tiers mandaté, sont facturés CHF 100 par heure [3][4].\n\n## Articulation des niveaux  \nLa Confédération fixe les conditions de durée de séjour et le comptage double du séjour des mineurs ; le canton de Fribourg précise une durée minimale de deux à cinq ans et conserve sa compétence même en cas de changement de domicile tant que l’examen des conditions est terminé ; la commune de Fribourg établit les émoluments et les modalités de procédure locales [1][2][3][4]. La loi fédérale prévaut conformément à l’art. 49 Cst. [Cst.].\n\n## Prochaines étapes  \n- Rassembler les justificatifs de séjour (registre des habitants, contrats de travail, attestations scolaires ou de formation, etc.) pour prouver les dix ans de présence en Suisse, en tenant compte du double comptage pour les années entre huit et dix-huit ans [2].  \n- Obtenir l’autorisation d’établissement et la joindre à la demande de naturalisation déposée auprès de la commune de domicile actuelle [2].  \n- Calculer le montant des émoluments communaux selon le tarif applicable : CHF 100 à CHF 350 par poste, avec une réduction d’un tiers (minimum CHF 400) si l’on relève d’une catégorie privilégiée [3][4].  \n- S’inscrire aux cours d’instruction civique et se présenter aux entretiens organisés par la commune [3].  \n- Attendre la décision du Conseil communal, puis la transmission du dossier au Service des affaires institutionnelles et des naturalisations (SAINEC) [3].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2148,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation; la source ne précise pas quels documents exactement sont requis."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 2644,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source [1] contient des informations pertinentes sur la durée de séjour minimale fixée par la législation cantonale (deux à cinq ans) et sur la compétence cantonale/communale en cas de changement de domicile, qui sont directement liées à la question posée."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 13,
+    "raw_chars": 4046,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "pas de source citée pour cette instruction pratique",
+     "pas de source citée",
+     "pas de source citée",
+     "pas de source citée"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 28,
+  "sources": [
+   "[1] fed LN Art. 18 Durée de séjour cantonal et communal",
+   "[2] fed LN Art. 9 Conditions formelles",
+   "[3] com Fribourg: Tarif de l'émolument en matière de naturalisation Teil 1",
+   "[4] com Fribourg: Tarif de l'émolument en matière de naturalisation Teil 2"
+  ]
+ },
+ {
+  "id": "T019",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 122.3,
+  "plan_s": 8.5,
+  "ttft_s": null,
+  "words": 361,
+  "citations": 13,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nDopo i 75 anni, i titolari di una licenza di condurre devono sottoporsi a una visita di controllo di idoneità alla guida ogni due anni [2]. L’autorità cantonale invia un promemoria: per la prima visita dopo i 75 anni, entro un mese dal compimento dei 75 anni [2]; per le visite successive, tre mesi prima del termine di scadenza calcolato a partire dalla data dell’ultimo esame [2]. Il risultato dell’esame deve essere presentato entro tre mesi dall’invio del promemoria [2].\n\n## Confederazione  \n- I titolari di una licenza di condurre a partire dal compimento del 75° anno d’età devono effettuare una visita di controllo di idoneità alla guida ogni due anni [2].  \n- Per la prima visita di controllo dopo i 75 anni, l’autorità cantonale invia il promemoria entro un mese dal compimento dei 75 anni [2].  \n- Per tutte le visite di controllo successive, il promemoria è inviato tre mesi prima del termine di scadenza calcolato a partire dalla data dell’ultimo esame svolto [2].  \n- Il risultato dell’esame deve essere presentato entro tre mesi dall’invio del promemoria per la prima visita e, per le visite successive, entro il termine ultimo calcolato a partire dalla data dell’ultimo esame [2].\n\n## Cantone Ticino  \n- Il Consiglio di Stato designa una lista di medici fiduciari autorizzati ad effettuare le visite di controllo prescritte dalle leggi federali [3].  \n- La Sezione della circolazione emana le necessarie direttive all’indirizzo dei medici fiduciari e della polizia [3].\n\n## Comune di Bellinzona  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale (OAC) stabilisce l’obbligo e i termini per le visite di controllo di idoneità alla guida dopo i 75 anni; il Cantone Ticino designa i medici fiduciari e le direttive operative, mentre il Comune di Bellinzona non ha introdotto disposizioni aggiuntive reperite. Prevale il diritto federale (Art. 49 Cost.).\n\n## Prossimi passi  \n- Consultare la Sezione della circolazione del Cantone Ticino per ottenere l’elenco dei medici fiduciari autorizzati [3].  \n- Programmare la visita di controllo entro i termini indicati dal promemoria inviato dall’autorità cantonale [2].  \n- Presentare il risultato dell’esame entro tre mesi dall’invio del promemoria [2].\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1151,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2605,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questa indicazione operativa",
+     "nessuna fonte citata per i termini operativi di programmazione"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2541,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questa indicazione operativa",
+     "nessuna fonte citata per i termini operativi di programmazione"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed OAC Art. 5g Estinzione del riconoscimento",
+   "[2] fed OAC Art. 27 Visite di controllo di idoneità alla guida",
+   "[3] can TI 760.110 Art. 50"
+  ]
+ },
+ {
+  "id": "T023",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 2,
+  "total_s": 38.2,
+  "plan_s": 5.0,
+  "ttft_s": null,
+  "words": 194,
+  "citations": 2,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour un appartement, le délai de résiliation est de trois mois pour le terme fixé par l’usage local ou, à défaut d’un tel usage, pour la fin d’un trimestre de bail [1].\n\n## Confédération  \n- Le bail d’une habitation peut être résilié en observant un délai de congé de trois mois pour le terme fixé par l’usage local ou, à défaut d’un tel usage, pour la fin d’un trimestre de bail [1].\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa loi fédérale (CO) fixe directement le délai de résiliation; le canton de Vaud et la commune de Lausanne n’ajoutent pas de règle spécifique sur ce point.\n\n## Prochaines étapes  \n- Vérifier le terme fixé par l’usage local en consultant le bail ou en s’adressant au bailleur.  \n- Si aucun usage local n’est défini, notifier la résiliation pour la fin d’un trimestre de bail, en respectant le délai de trois mois.  \n- En cas de litige, saisir le Tribunal des baux du canton de Vaud (autorité compétente en matière de bail à loyer).  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 1,
+    "raw_chars": 333,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 1,
+    "raw_chars": 348,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 1,
+    "raw_chars": 348,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 3,
+  "sources": [
+   "[1] fed CO Art. 266c",
+   "[2] can VD 221.313 Art. 27"
+  ]
+ },
+ {
+  "id": "T029",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 106.6,
+  "plan_s": 4.9,
+  "ttft_s": null,
+  "words": 318,
+  "citations": 5,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 259a"
+  ],
+  "prose_left": 1,
+  "repaired": 4,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nNon, le bailleur ne peut pas résilier le bail parce que le locataire fait valoir de bonne foi des prétentions découlant du bail, notamment une demande de réparations [2]. Cette résiliation est annulable au sens de l’art. 271 CO; les exceptions prévues par l’art. 271a al. 3 CO (besoin urgent du bailleur, demeure du locataire, violation grave du devoir de diligence, etc.) ne s’appliquent pas à une résiliation motivée uniquement par une demande de réparations [2].\n\n## Confédération  \n- Selon l’art. 271 CO, le congé est annulable lorsqu’il contrevient aux règles de la bonne foi [1].  \n- L’art. 271a al. 1 let. a CO précise que le congé est annulable si le locataire fait valoir de bonne foi des prétentions découlant du bail, comme une demande de réparations [2].\n\n## Canton de Valais  \nAucune source pertinente récupérée.\n\n## Commune de Sion  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral (CO) s’applique directement à la protection contre les congés abusifs; le canton du Valais ne prévoit pas de règle spécifique modifiant cette interdiction pour une demande de réparations.\n\n## Prochaines étapes  \n- Adresser une demande écrite au bailleur décrivant précisément les défauts et demandant un délai raisonnable pour les réparations (art. 259a CO, avis des défauts) [1].  \n- Si le bailleur résilie le bail malgré cette demande, saisir la Commission de conciliation en matière de baux du canton du Valais (siège à Sion, compétente pour les litiges de bail) dans le délai prévu par le Code de procédure civile (le délai exact n’est pas indiqué dans les sources consultées).  \n- Préparer les preuves de la demande de réparations (courriels, photos, avis de défauts) pour la procédure de conciliation.  \n- Se renseigner auprès de la Commission de conciliation ou du greffe communal de Sion sur les émoluments éventuels : aucune indication tarifaire n’est fournie dans les sources consultées.\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2148,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction procédurale spécifique.",
+     "La source [4] ne traite pas des frais de procédure ou de l'absence d'émolument fédéral; cette affirmation n'est pas vérifiable dans les sources fournies."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2592,
+    "unreadable": false,
+    "issues": 3,
+    "added": [
+     "CO Art. 259d"
+    ],
+    "revised": true,
+    "notes": [
+     "La source citée [1] ne mentionne pas l'art. 259d CO ni ne traite de l'avis des défauts; l'art. 259d CO figure dans une source non citée [5].",
+     "Aucune source ne cite l'art. 209 al. 4 CPC ni ne mentionne un délai de 30 jours pour saisir la commission de conciliation en Valais."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2498,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source [5] traite de la réduction du loyer en cas de défaut, pas de l'obligation d'adresser une demande écrite de réparations.",
+     "Les sources fournies ne précisent pas le délai de saisine de la Commission de conciliation ni ne citent l'article du Code de procédure civile applicable.",
+     "Les sources fournies ne contiennent aucune information sur les émoluments ou frais de procédure."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed CO Art. 271",
+   "[2] fed CO Art. 271a",
+   "[3] can VS 211.1 Art. 28",
+   "[4] can VS 211.1 Art. 82",
+   "[5] fed CO Art. 259d"
+  ]
+ },
+ {
+  "id": "T039",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 64.1,
+  "plan_s": 4.4,
+  "ttft_s": null,
+  "words": 479,
+  "citations": 18,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEine Konkurrenzverbotsklausel ist nur gültig, wenn sie schriftlich vereinbart ist, dem Arbeitnehmer Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse gewährt und die Verwendung dieser Kenntnisse den Arbeitgeber erheblich schädigen könnte [1]. Sie muss nach Ort, Zeit und Gegenstand angemessen begrenzt sein und darf ohne besondere Umstände höchstens drei Jahre dauern [2]. Bei übermäßiger Einschränkung kann der Richter sie nach Ermessen einschränken [2]; bei Verstoß kann der Arbeitgeber Schadenersatz, eine Konventionalstrafe und/oder Beseitigung des vertragswidrigen Zustands verlangen [3]. Das Verbot fällt weg, wenn der Arbeitgeber kein erhebliches Interesse mehr daran hat oder das Arbeitsverhältnis ohne begründeten Anlass vom Arbeitgeber gekündigt wird [4].\n\n## Bund\n- Schriftliche Form: Das Konkurrenzverbot muss schriftlich vereinbart werden [1].\n- Einblick in Geschäftsgeheimnisse: Das Verbot ist nur verbindlich, wenn das Arbeitsverhältnis dem Arbeitnehmer Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse gewährt und die Verwendung dieser Kenntnisse den Arbeitgeber erheblich schädigen könnte [1].\n- Angemessene Beschränkung: Das Verbot ist nach Ort, Zeit und Gegenstand angemessen zu begrenzen, sodass eine unbillige Erschwerung des wirtschaftlichen Fortkommens des Arbeitnehmers ausgeschlossen ist; es darf nur unter besonderen Umständen drei Jahre überschreiten [2].\n- Richterliche Einschränkung: Der Richter kann ein übermässiges Konkurrenzverbot unter Würdigung aller Umstände nach seinem Ermessen einschränken; er berücksichtigt dabei eine allfällige Gegenleistung des Arbeitgebers angemessen [2].\n- Folgen bei Verstoß: Übertritt der Arbeitnehmer das Verbot, hat er den dem Arbeitgeber erwachsenden Schaden zu ersetzen [3]. Ist eine Konventionalstrafe vereinbart, kann sich der Arbeitnehmer durch deren Leistung vom Verbot befreien, bleibt aber für weiteren Schaden ersatzpflichtig [3]. Ist schriftlich vereinbart, kann der Arbeitgeber neben der Strafe und dem Schadenersatz die Beseitigung des vertragswidrigen Zustands verlangen, wenn die Interessen des Arbeitgebers und das Verhalten des Arbeitnehmers dies rechtfertigen [3].\n- Wegfall des Verbots: Das Verbot fällt dahin, wenn der Arbeitgeber nachweisbar kein erhebliches Interesse mehr daran hat, es aufrecht zu erhalten [4]; ferner fällt es dahin, wenn der Arbeitgeber das Arbeitsverhältnis ohne begründeten Anlass des Arbeitnehmers kündigt oder wenn der Arbeitnehmer es aus einem vom Arbeitgeber zu verantwortenden begründeten Anlass auflöst [4].\n\n## Kanton Graubünden\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Chur\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKanton und Gemeinde können keine abweichenden allgemeinen Voraussetzungen für die Gültigkeit einer Konkurrenzverbotsklausel aufstellen; Art. 49 BV (Cst.) bestimmt, dass Bundesrecht vorgeht.\n\n## Nächste Schritte\n- Prüfen Sie den Arbeitsvertrag auf schriftliche Form und den Einblick in Kundenkreis oder Geschäftsgeheimnisse [1].\n- Lassen Sie die räumliche, zeitliche und sachliche Angemessenheit des Verbots von einem Arbeitsgericht beurteilen; bei übermäßiger Einschränkung kann der Richter das Verbot einschränken [2].\n- Bei Verstoß informieren Sie sich über die konkreten Schadenersatz- und Strafansprüche des Arbeitgebers sowie die Möglichkeit der Befreiung durch Leistung einer Konventionalstrafe [3].\n- Falls das Arbeitsverhältnis gekündigt wird, prüfen Sie, ob der Arbeitgeber begründeten Anlass hatte oder das Arbeitsverhältnis ohne solchen Anlass gekündigt hat, um den Wegfall des Verbots zu beurteilen [4].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1575,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1575,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1575,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed OR Art. 340",
+   "[2] fed OR Art. 340a",
+   "[3] fed OR Art. 340b",
+   "[4] fed OR Art. 340c",
+   "[5] can GR 170.400 Art. 63",
+   "[6] can GR 170.400 Art. 64",
+   "[7] cas BGE 138 III 67 2012-01-01",
+   "[8] cas BGE 145 III 365 2019-01-01"
+  ]
+ },
+ {
+  "id": "T043",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 2,
+  "total_s": 33.8,
+  "plan_s": 4.5,
+  "ttft_s": null,
+  "words": 201,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": false,
+  "headings_ok": false,
+  "disclaimer_ok": false,
+  "answer": "## Short answer  \nUnder federal law, the standard retirement age for the old-age pension is 65 years. The pension entitlement begins on the first day of the month following the month in which the insured reaches 65 years of age [1].\n\n## Federal level  \n- The insured must have reached the age of 65 years [1].  \n- The right to an old-age pension arises on the first day of the month following the month in which the insured reaches the reference age of 65 years [1].\n\n## Canton Ticino  \nNo relevant source retrieved.\n\n## Commune Lugano  \nNo relevant source retrieved.\n\n## How the levels fit together  \nFederal law (LAVS) sets the uniform retirement age of 65 years for the old-age pension; cantons and communes do not modify this federal rule [1].\n\n## Next steps  \n- Verify personal AHV contribution record with the competent authority to confirm entitlement.  \n- Contact the local Swiss Social Insurance Office (Cassa di compensazione AVS/AI/IPG) in Lugano to apply for the pension upon reaching age 65.  \n- No specific fee or deadline is provided in the sources for the pension application itself; the authority will inform about any administrative costs upon request.  \n\n*Legal information, not legal advice.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 674,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 674,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 674,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 9,
+  "sources": [
+   "[1] fed LAVS Art. 21 Età di riferimento e rendita di vecchiaia",
+   "[2] cas BGE 151 II 726 2025-01-01"
+  ]
+ },
+ {
+  "id": "T050",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 10,
+  "total_s": 142.1,
+  "plan_s": 8.1,
+  "ttft_s": null,
+  "words": 502,
+  "citations": 28,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 18,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa, Sie können Pensionskassengeld für den Erwerb eines Einfamilienhauses beziehen, sofern die gesetzlichen Voraussetzungen erfüllt sind. Zulässig sind Einfamilienhäuser [1] sowie Wohnungen [1] und weitere Formen wie Miteigentum (inkl. Stockwerkeigentum) [3]. Der Bezug ist frühestens drei Jahre vor dem ordentlichen Rentenalter möglich [1], darf alle fünf Jahre wiederholt werden [2] und ist auf mindestens Fr. 20'000.– beschränkt [2] (dieser Mindestbetrag gilt nicht für Anteilscheine von Wohnbaugenossenschaften [2]). Personen über 50 dürfen höchstens den grösseren der beiden Beträge beziehen: entweder den im Alter 50 ausgewiesenen Betrag der Freizügigkeitsleistung (unter Berücksichtigung von Rückzahlungen und bereits eingesetztem Kapital) oder die Hälfte der Differenz zwischen der aktuellen Freizügigkeitsleistung und dem bereits eingesetzten Kapital [2]. Bei verheirateten oder in eingetragener Partnerschaft lebenden Personen ist die schriftliche Zustimmung des Partners erforderlich [1]; bei Verweigerung kann das Zivilgericht angerufen werden. Bei Unterdeckung der Vorsorgeeinrichtung kann die Auszahlung eingeschränkt oder verweigert werden [4].\n\n## Bund\n- **Zulässige Objekte:** Einfamilienhaus [1] und Wohnung [1].\n- **Zulässige Formen:** Eigentum, Miteigentum (namentlich Stockwerkeigentum) [3], Gesamteigentum mit Ehegatte oder eingetragener Partner sowie selbständiges und dauerndes Baurecht [3].\n- **Zeitpunkt:** Bis drei Jahre vor Entstehung des Anspruchs auf Altersleistungen [1].\n- **Höhe:** Mindestbetrag Fr. 20'000.– [2]; dieser Mindestbetrag gilt nicht für den Erwerb von Anteilscheinen einer Wohnbaugenossenschaft oder ähnlicher Beteiligungen [2].\n- **Höchstbetrag ab 50:** Grösserer der beiden Beträge:\n  a) im Alter 50 ausgewiesener Betrag der Freizügigkeitsleistung, erhöht um nach dem Alter 50 vorgenommene Rückzahlungen und vermindert um den für das Wohneigentum bereits eingesetzten Betrag [2];\n  b) die Hälfte der Differenz zwischen der Freizügigkeitsleistung im Zeitpunkt des Vorbezugs und der für das Wohneigentum in diesem Zeitpunkt bereits eingesetzten Freizügigkeitsleistung [2].\n- **Wiederholung:** Alle fünf Jahre [2].\n- **Zustimmungspflicht:** Bei verheirateten oder in eingetragener Partnerschaft lebenden Personen ist die schriftliche Zustimmung des Ehegatten oder eingetragenen Partners erforderlich [1]. Kann die Zustimmung nicht eingeholt oder wird sie verweigert, kann das Zivilgericht angerufen werden.\n- **Auszahlungsbeschränkung:** Bei Unterdeckung der Vorsorgeeinrichtung kann die Auszahlung zeitlich und betragsmässig eingeschränkt oder ganz verweigert werden, wenn der Vorbezug der Rückzahlung von Hypothekardarlehen dient [4].\n- **Verwendung:** Der Betrag muss für Wohneigentum zum eigenen Bedarf verwendet werden [1].\n\n## Kanton Luzern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Luzern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKanton und Gemeinde ergänzen die Bundesregelung nicht; die Voraussetzungen und Begrenzungen richten sich nach dem BVG und der WEFV. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte\n- **Anfrage bei der Vorsorgeeinrichtung:** Klären Sie den genauen Betrag Ihrer Freizügigkeitsleistung sowie die Höhe des möglichen Vorbezugs unter Berücksichtigung Ihres Alters und allfälliger früherer Bezüge [1][2].\n- **Einholen der schriftlichen Zustimmung:** Falls Sie verheiratet oder in eingetragener Partnerschaft leben, holen Sie die schriftliche Zustimmung Ihres Partners ein [1]; bei Verweigerung kann das zuständige Zivilgericht angerufen werden.\n- **Prüfung der Unterdeckung:** Fragen Sie die Vorsorgeeinrichtung nach einer allfälligen Unterdeckung und den daraus resultierenden Einschränkungen der Auszahlung [4].\n- **Belege sammeln:** Bereiten Sie Unterlagen über das geplante Objekt (Kaufvertragsentwurf, Grundbuchauszug, Nachweis der Selbstnutzung) vor, da diese für den Antrag benötigt werden [1].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1909,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2382,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2382,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed BVG Art. 30c Vorbezug",
+   "[2] fed WEFV Art. 5 Mindestbetrag und Begrenzung",
+   "[3] fed WEFV Art. 2 Wohneigentum",
+   "[4] fed WEFV Art. 6a Beschränkung der Auszahlung bei Unterdeckung",
+   "[5] fed BVG Art. 30e Sicherung des Vorsorgezwecks",
+   "[6] can LU 647 § 5",
+   "[7] can LU 647 § 22",
+   "[8] can LU 620 § 40",
+   "[9] cas BGE 130 V 191 2004-01-01",
+   "[10] cas BGE 138 V 495 2012-01-01"
+  ]
+ },
+ {
+  "id": "T057",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 61.5,
+  "plan_s": 5.6,
+  "ttft_s": null,
+  "words": 261,
+  "citations": 10,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nNach einer Scheidung entscheidet das Gericht über die elterliche Sorge. Es überträgt einem Elternteil die alleinige Sorge, wenn dies zum Kindeswohl nötig ist [2]. Bei gemeinsamer elterlicher Sorge prüft es im Sinne des Kindeswohls die Möglichkeit einer alternierenden Obhut, wenn ein Elternteil oder das Kind dies verlangt [2]. Das Gericht berücksichtigt dabei einen gemeinsamen Antrag der Eltern sowie die Meinung des Kindes soweit tunlich [1][2].\n\n## Bund\n- Das Gericht regelt die Elternrechte und -pflichten nach den Bestimmungen über die Wirkungen des Kindesverhältnisses [1].\n- Es überträgt einem Elternteil die alleinige elterliche Sorge, wenn dies zur Wahrung des Kindeswohls nötig ist [2].\n- Es kann sich auch auf eine Regelung der Obhut, des persönlichen Verkehrs oder der Betreuungsanteile beschränken, wenn keine Aussicht besteht, dass sich die Eltern diesbezüglich einigen [2].\n- Bei gemeinsamer elterlicher Sorge prüft es im Sinne des Kindeswohls die Möglichkeit einer alternierenden Obhut, wenn ein Elternteil oder das Kind dies verlangt [2].\n- Es berücksichtigt einen gemeinsamen Antrag der Eltern und, soweit tunlich, die Meinung des Kindes [1][2].\n\n## Kanton Basel-Stadt\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Basel\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKantonale oder kommunale Bestimmungen ergänzen die bundesrechtlichen Vorgaben nicht; das Bundesrecht (ZGB) regelt die Zuteilung des Sorgerechts nach Scheidung abschliessend, Art. 49 BV.\n\n## Nächste Schritte\n- Ein Scheidungsverfahren beim zuständigen Zivilgericht Basel-Stadt einleiten.\n- Antrag auf Regelung der elterlichen Sorge, Obhut und Betreuungsanteile stellen.\n- Bei Wunsch nach alternierender Obhut diesen Antrag explizit formulieren.\n- Gerichtliche Vorladung wahrnehmen und die für das Kindeswohl relevanten Umstände darlegen.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1590,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1399,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1399,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 16,
+  "sources": [
+   "[1] fed ZGB Art. 133",
+   "[2] fed ZGB Art. 298",
+   "[3] can BS 211.100 § 49",
+   "[4] cas BGE 143 III 361 2017-01-01",
+   "[5] cas BGE 150 III 97 2024-01-01"
+  ]
+ },
+ {
+  "id": "T059",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 132.3,
+  "plan_s": 8.7,
+  "ttft_s": null,
+  "words": 497,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nUm das Kind Ihres Partners zu adoptieren, müssen Sie und Ihr Partner seit mindestens drei Jahren einen gemeinsamen Haushalt führen und beide mindestens 28 Jahre alt sein; eine Abweichung vom Mindestalter ist nur zum Wohl des Kindes und mit Begründung zulässig. Zusätzlich ist die Zustimmung der leiblichen Eltern des Kindes erforderlich, die mündlich oder schriftlich bei der Kindesschutzbehörde am Wohnsitz oder Aufenthaltsort der Eltern oder des Kindes erklärt und protokolliert wird. Ist das Kind urteilsunfähig, ist zudem die Zustimmung der Kindesschutzbehörde nötig; bei urteilsfähigem Kind ist dessen Zustimmung erforderlich. Die konkrete Zuständigkeit für das Adoptionsverfahren richtet sich nach der kantonalen Gerichtsorganisation.\n\n## Bund\n- Gemeinsame Adoption durch Ehegatten: mindestens drei Jahre gemeinsamen Haushalt und beide mindestens 28 Jahre alt [1]; Abweichung vom Mindestalter nur zum Wohl des Kindes und mit Begründung [1].\n- Pflege- und Erziehungszeit: mindestens ein Jahr Pflege und Erziehung durch die Adoptionswilligen, Erwartung, dass die Adoption dem Kindeswohl dient und keine anderen Kinder unbillig zurücksetzt, sowie die Voraussetzung, dass die Adoptionswilligen aufgrund ihres Alters und ihrer Verhältnisse bis zur Volljährigkeit des Kindes sorgen können [4].\n- Zustimmung der leiblichen Eltern: mündlich oder schriftlich bei der Kindesschutzbehörde am Wohnsitz oder Aufenthaltsort der Eltern oder des Kindes; die Zustimmung wird protokolliert und ist gültig, auch wenn die Adoptionswilligen noch nicht genannt sind [2].\n- Zustimmung des Kindes: erforderlich, wenn das Kind urteilsfähig ist [3]; bei bevormundetem oder verbeiständetem Kind genügt die Zustimmung der Kindesschutzbehörde, selbst wenn das Kind urteilsfähig ist.\n- Stiefkindadoption: zulässig, wenn die adoptierende Person mit der Mutter oder dem Vater des Kindes verheiratet ist, in eingetragener Partnerschaft lebt oder eine faktische Lebensgemeinschaft führt; das Paar muss seit mindestens drei Jahren einen gemeinsamen Haushalt führen; Personen in einer faktischen Lebensgemeinschaft dürfen nicht gleichzeitig verheiratet oder in eingetragener Partnerschaft sein [5].\n\n## Kanton Graubünden\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Chur\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt die materiellen Voraussetzungen und Zustimmungsverfahren der Adoption [4][5]. Kanton und Gemeinde können keine davon abweichenden materiellen Voraussetzungen aufstellen; Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht. Die konkrete Zuständigkeit für das Adoptionsverfahren richtet sich nach der kantonalen Gerichtsorganisation.\n\n## Nächste Schritte\n- Schritt 1: Prüfen Sie die bundesrechtlichen Voraussetzungen (gemeinsamer Haushalt seit mindestens drei Jahren, Alter ≥ 28 Jahre, Eignung zur Erziehung bis zur Volljährigkeit des Kindes) anhand der Vorgaben [1][4].\n- Schritt 2: Holen Sie die schriftliche oder protokollierte Zustimmung der leiblichen Eltern bei der Kindesschutzbehörde am Wohnsitz der Eltern oder des Kindes ein [2].\n- Schritt 3: Sichern Sie die Zustimmung des Kindes (bei Urteilsfähigkeit) oder die Zustimmung der Kindesschutzbehörde (bei Bevormundung/Verbeiständung) [3].\n- Schritt 4: Informieren Sie sich bei der zuständigen kantonalen Behörde (z. B. Kantonsgericht Graubünden) über die konkrete Zuständigkeit und das Verfahren zur Einreichung des Adoptionsgesuchs; die Quellen enthalten keine Angaben zu kantonalen Fristen oder Gebühren.\n- Hinweis: Die Quellen enthalten keine Angaben zu Gebühren oder Fristen für das Gerichtsverfahren; diese sind im kantonalen Gerichtsgebührenrecht oder bei der zuständigen Behörde zu erfragen.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2936,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt, dass die Adoption durch das Gericht ausgesprochen wird; die Quellen regeln Voraussetzungen und Zustimmungen, nicht die Zuständigkeit für den Ausspruch.",
+     "Art. 264a ZGB nennt Voraussetzungen für die gemeinschaftliche Adoption, nicht die Zuständigkeit des Gerichts."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1421,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (1–5) regelt die Zuständigkeit des Gerichts; diese ist kantonal geregelt und nicht im ZGB enthalten."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 3468,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen enthält eine Aussage zur Zuständigkeit des Zivilgerichts oder zur kantonalen Gerichtsorganisation. Die Zuständigkeit ist kantonal geregelt und nicht im ZGB enthalten.",
+     "Keine der angegebenen Quellen (1-5) nennt das zuständige Gericht oder die kantonale Gerichtsordnung. Die Zuständigkeit ist kantonal und nicht im ZGB geregelt."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed ZGB Art. 264a",
+   "[2] fed ZGB Art. 265a",
+   "[3] fed ZGB Art. 265",
+   "[4] fed ZGB Art. 264",
+   "[5] fed ZGB Art. 264c",
+   "[6] cas BGE 137 III 241 2011-01-01"
+  ]
+ },
+ {
+  "id": "T063",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 134.7,
+  "plan_s": 7.9,
+  "ttft_s": null,
+  "words": 452,
+  "citations": 19,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 9,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür Bauten in der Stadt Bern gelten die in der Bauordnung der Stadt Bern (BO Bern) festgelegten Grenzabstände. Der grosse Grenzabstand beträgt mindestens 4,00 m [4], der kleine mindestens 3,00 m [4]. Bei Gebäuden mit einer Schmalseite von mehr als 20,00 m Länge ist auch an dieser Seite der grosse Abstand von mindestens 4,00 m einzuhalten [4]. Näherbau ist mit schriftlicher Zustimmung der Nachbarin oder des Nachbarn zulässig [6], wobei vorspringende offene Teile höchstens 2,50 m (grosser Abstand) bzw. 1,50 m (kleiner Abstand) hineinragen dürfen [7]. Unterirdische Bauten können bis an die Grenze gebaut werden, wenn eine angemessene Bepflanzung möglich ist [7]. Strassenabstände richten sich nach kantonalem Recht, sofern keine Baulinien oder andere Vorschriften etwas anderes bestimmen [8].\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern\n- Nach Art. 33 Abs. 1 BO Bern beträgt der grosse Grenzabstand mindestens 4,00 m; der kleine Grenzabstand mindestens 3,00 m [4].\n- Bei Gebäuden mit einer Schmalseite von mehr als 20,00 m Länge ist auch an dieser Seite der grosse Grenzabstand von mindestens 4,00 m einzuhalten; im Zwischenraum der beiden grossen Grenzabstände gilt nur der kleine Abstand von mindestens 3,00 m [4].\n- Art. 36 BO Bern erlaubt mit schriftlicher Zustimmung der Nachbarin oder des Nachbarn einen Näherbau, sofern der vorgeschriebene Gebäudeabstand eingehalten bleibt [6].\n- Art. 37 BO Bern regelt vorspringende offene Gebäudeteile: Sie dürfen höchstens 2,50 m in den grossen und 1,50 m in den kleinen Grenzabstand hineinragen; bei durch Baulinien umschriebenem Grenzabstand höchstens bis 2,50 m, jedoch höchstens bis zum halben Grenzabstand über diese hinausragen [7].\n- Art. 37 Abs. 4 BO Bern erlaubt unterirdische Bauten bis an die Grundstückgrenze, wenn eine angemessene Bepflanzung des überdeckten Areals möglich ist [7].\n- Art. 38 BO Bern bestimmt, dass Strassenabstände nach kantonalem Recht einzuhalten sind, sofern keine Baulinien oder andere Vorschriften etwas anderes vorsehen [8].\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht [2] verlangt lediglich die Zonenkonformität und Erschliessung; die konkreten Grenzabstände und deren Ausnahmen werden durch das kommunale Recht der Stadt Bern festgelegt. Art. 49 BV bestimmt, dass Bundesrecht kantonalem und kommunalem Recht vorgeht.\n\n## Nächste Schritte\n- Prüfen Sie die konkreten Abstände anhand der aktuellen Bauordnung der Stadt Bern [4], da diese die lokalen Mindestabstände enthält.\n- Holen Sie bei der zuständigen Baubewilligungsbehörde der Stadt Bern Auskunft über die für Ihr Grundstück geltenden Abstände und allfällige Sonderregelungen (z. B. Baulinien, altrechtliche Bauten), da kommunale Vorschriften die Grenzabstände ergänzen oder abändern können [4][8].\n- Für einen Näherbau besorgen Sie eine schriftliche Zustimmung der Nachbarin oder des Nachbarn und reichen diese zusammen mit dem Baugesuch ein [6].\n- Beachten Sie, dass die Baubewilligungsbehörde Bern über die massgeblichen Vorschriften und Baulinien verfügt [8].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 3199,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die Aussage, dass Art. 33–38 BO Bern die lokalen Mindestabstände enthält (obwohl dies korrekt ist, fehlt die Zitation).",
+     "Keine Quelle zitiert für die Empfehlung, bei der Baubewilligungsbehörde Auskunft einzuholen.",
+     "Keine Quelle zitiert für die Aussage, dass kantonale und kommunale Vorschriften sowie Baulinien die Abstände ergänzen oder abändern können."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 12,
+    "raw_chars": 4008,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (1, 2, 3, 4, 5, 6, 7, 8) enthält eine Aussage, die diese Zusammenfassung der Kompetenzverteilung explizit bestätigt oder die konkreten Abstände festlegt. Die Aussage ist eine Schlussfolgerung, die nicht direkt aus den Quellen abgeleitet werden kann."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2567,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 29,
+  "sources": [
+   "[1] fed RPG Art. 25 Kantonale Zuständigkeiten",
+   "[2] fed RPG Art. 22 Baubewilligung",
+   "[3] can BE 721.0 Art. 12",
+   "[4] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 33",
+   "[5] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 34",
+   "[6] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 36",
+   "[7] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 37",
+   "[8] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 38"
+  ]
+ },
+ {
+  "id": "T072",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 56.1,
+  "plan_s": 3.6,
+  "ttft_s": null,
+  "words": 363,
+  "citations": 13,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nIn der Stadt Bern müssen Sie Ihren Hund an der Leine führen, wenn Sie sich in öffentlichen Gebäuden, im eintrittsfreien Teil des Tierparks, im öffentlichen Raum gemäss Anhang 1, in den Park- und Grünanlagen gemäss Anhängen 2 und 3 sowie auf städtischen Friedhöfen aufhalten. Zusätzlich gelten die kantonalen Pflichten: an der Leine auf Schulanlagen, öffentlichen Spiel- und Sportplätzen, in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen sowie auf bestossenen Weiden oder auf Anordnung im Einzelfall. Ausnahmen sind nur in Einzelfällen möglich und müssen von der Gemeinde bewilligt werden; kantonale Jagd- und Naturschutzbestimmungen bleiben vorbehalten.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Bern\n- Nach Art. 7 Abs. 1 Hundegesetz BE muss ein Hund an der Leine geführt werden:\n  - bei fehlenden anderen wirksamen Kontrollmöglichkeiten [2];\n  - auf Schulanlagen, öffentlichen Spiel- und Sportplätzen [2];\n  - in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen [2];\n  - beim Betreten von bestossenen Weiden [2];\n  - auf Anordnung im Einzelfall [2].\n- Gemeinden überwachen die Einhaltung und können weitere Orte bezeichnen [2].\n- Gemeinden können in Einzelfällen Ausnahmen von der Leinenpflicht bewilligen [2].\n- Vorbehalten bleiben Leinenpflichten gemäss Jagd- und Naturschutzgesetzgebung [2].\n\n## Gemeinde Bern\n- Nach Art. 3 Hundeverordnung Bern muss ein Hund zusätzlich zu den kantonalen Pflichten an der Leine geführt werden:\n  - in öffentlichen Gebäuden der Stadt Bern [4];\n  - im eintrittsfreien Teil des Tierparks [4];\n  - im öffentlichen Raum gemäss Plan im Anhang 1 [4];\n  - in den öffentlichen Park- und Grünanlagen gemäss Anhängen 2 und 3 [4];\n  - auf städtischen Friedhöfen [4].\n\n## Zusammenspiel der Ebenen\nDas kantonale Hundegesetz legt die grundsätzliche Leinenpflicht fest; die Stadt Bern konkretisiert diese Pflicht durch eine eigene Verordnung mit zusätzlichen Orten, an denen die Leine zwingend ist. Art. 49 BV bestimmt, dass Bundesrecht kantonales und kommunales Recht vorgeht, wenn es denselben Gegenstand regelt.\n\n## Nächste Schritte\n- Prüfen Sie den Anhang 1 der Hundeverordnung Bern, um den genauen Geltungsbereich des öffentlichen Raums zu erfahren.\n- Fragen Sie bei der Stadtpolizei Bern nach Ausnahmen von der Leinenpflicht, wenn ein Einzelfall vorliegt; die Bewilligung erfolgt durch die Gemeinde.\n- Beachten Sie die kantonalen Ausnahmen (z. B. fehlende andere Kontrollmöglichkeiten) und die vorbehaltenen Jagd- und Naturschutzbestimmungen.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 1074,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 1078,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 1078,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 9,
+  "sources": [
+   "[1] fed ZGB Art. 651a",
+   "[2] can BE 916.31 Art. 7",
+   "[3] can BE 551.1 Art. 75",
+   "[4] com Bern: 559.61 Verordnung über das Halten von Hunden (Hundeverordnung; HV) Art. 3"
+  ]
+ },
+ {
+  "id": "T076",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 10,
+  "total_s": 112.6,
+  "plan_s": 4.0,
+  "ttft_s": null,
+  "words": 609,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nDans le canton de Fribourg, les taxes sur les déchets se composent d’une taxe de base et d’une taxe proportionnelle (au sac). La taxe de base, fixée chaque année par le Conseil communal, ne dépasse pas Fr. 150.-- par contribuable et sert à couvrir la collecte, le transport et les infrastructures sélectives. La taxe proportionnelle dépend de la capacité du sac imposé par la commune : 17 l = Fr. 1.50, 35 l = Fr. 2.50, 60 l = Fr. 4.00, 110 l = Fr. 7.50. Des exonérations ou réductions existent pour les institutions sans but lucratif ne disposant pas d’immeubles ou d’installations en ville, les couvents, les personnes de 65 ans ou plus ou les invalides au sens de l’AI, ainsi que pour les sociétés holding selon leur présence locale.\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Fribourg  \nAucune source pertinente récupérée.\n\n## Commune de Fribourg  \n- Art. 23 de la Loi sur la gestion des déchets (commune) : la taxe d’élimination des déchets urbains doit couvrir au moins 70 % des frais d’élimination, dont la moitié au moins proportionnelle à la quantité de déchets, calculée selon leur volume ou poids [3].  \n- Art. 24 de la Loi sur la gestion des déchets (commune) : pour couvrir les frais d’élimination des déchets particuliers, le règlement communal peut prévoir une taxe perçue au moment où ces déchets sont livrés auprès d’une installation communale [4].  \n- Art. 25 du Règlement concernant la gestion des déchets : la taxe au sac dépend de la capacité du sac imposé par la commune : 17 l = Fr. 1.50, 35 l = Fr. 2.50, 60 l = Fr. 4.00, 110 l = Fr. 7.50 [9]. Le Conseil communal arrête chaque année le montant lors de l’adoption du budget.  \n- Art. 24 du même règlement : la taxe de base, affectée à la couverture des frais de collecte et de transport ainsi qu’aux infrastructures sélectives, est fixée au maximum à Fr. 150.-- par contribuable et arrêtée chaque année par le Conseil communal [8].  \n- Directive en matière de gestion des déchets : exonération totale de taxe pour les institutions sans but lucratif (clubs, fondations) ne disposant pas d’immeubles ou d’installations en ville, ainsi que pour les couvents ; réduction de 50 % de la taxe pour les personnes de 65 ans ou plus ou les invalides au sens de l’AI ; taxe réduite dans la même mesure en cas de remise d’impôts ; les sociétés holding paient la taxe si elles disposent de locaux ou de personnel propres sur le territoire communal, sinon elles sont exonérées ; pour les homes, la taxe est perçue sur les résidents domiciliés à Fribourg [10].\n\n## Articulation des niveaux  \nLe droit cantonal (Loi sur la gestion des déchets) fixe les principes de couverture des coûts et de proportionnalité, tandis que la commune de Fribourg précise les modalités, les montants, les types de taxes (de base et au sac), les sacs obligatoires et les exonérations ou réductions spécifiques.\n\n## Prochaines étapes  \n- S’informer du montant exact de la taxe de base et de la taxe au sac pour l’année en cours auprès du Conseil communal de Fribourg (autorité compétente) [8][9].  \n- Vérifier les conditions d’exonération ou de réduction (âge, statut d’invalide, type d’institution, présence de locaux ou personnel pour les sociétés holding) et, le cas échéant, déposer une demande écrite à la Direction des Finances ou à la Direction de l’Edilité selon la disposition concernée [10].  \n- Pour les déchets particuliers, se renseigner sur la taxe perçue au moment de la livraison auprès de l’installation communale compétente [4].  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1189,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1216,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1224,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 12,
+  "sources": [
+   "[1] fed CC Art. 5",
+   "[2] fed CC Art. 915",
+   "[3] can FR 810.2 Art. 23",
+   "[4] can FR 810.2 Art. 24",
+   "[5] can FR 810.2 Art. 25",
+   "[6] com Fribourg: Règlement concernant la gestion des déchets Art. 22",
+   "[7] com Fribourg: Règlement concernant la gestion des déchets Art. 23",
+   "[8] com Fribourg: Règlement concernant la gestion des déchets Art. 24",
+   "[9] com Fribourg: Règlement concernant la gestion des déchets Art. 25",
+   "[10] com Fribourg: Directive en matière de gestion des déchets Teil 2"
+  ]
+ },
+ {
+  "id": "T077",
+  "lang": "de",
+  "loc": "8820 Wädenswil",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 12,
+  "total_s": 83.0,
+  "plan_s": 6.0,
+  "ttft_s": null,
+  "words": 363,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nIn Wädenswil setzen sich die Abfallgebühren aus einer Grundgebühr und Verursachergebühren zusammen. Die Grundgebühr wird pro bebauter Liegenschaft erhoben und richtet sich für Wohnraum nach der Wohneinheit (nach Zimmerzahl, auf ganze Zimmer abgerundet) oder für Lofts nach der Nettowohnfläche in Stufen; bei ganzjährig ungenutztem Gebäude kann sie schriftlich um 50 % reduziert werden. Verursachergebühren werden über Gebührensäcke, Sperrgutmarken oder ein Gewichtserfassungssystem für Betriebe erhoben; Selbstentsorgung befreit nicht von der Grundgebühr. Die konkreten Tarife sind in der kommunalen Abfallgebührenordnung festgelegt, kantonale oder eidgenössische Gebührentabellen für Abfall sind nicht enthalten [10][11][12].\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Wädenswil\n- Art. 2 Abfallgebührenordnung: Es werden Grundgebühren für privat genutzten Wohnraum, Lofts und Betriebe sowie Verursachergebühren (Gebührensäcke, Sperrgutmarken oder Betriebscontainer mit Gewichtserfassungssystem) und Annahmegebühren für die Hauptsammelstelle erhoben; Umtriebsgebühren bei Verstössen kommen hinzu [10].\n- Art. 3 Abfallgebührenordnung: Die Grundgebühr pro bebauter Liegenschaft deckt Aufwendungen für Bereitstellung und Unterhalt des Entsorgungsangebots ab; ungenutzte Gebäude/Wohnungen bleiben gebührenpflichtig nach dem vorgesehenen Verwendungszweck. Bei ganzjähriger Unbenutzung kann der Pflichtige schriftlich und mit Unterlagen 50 % der Grundgebühr zurückverlangen [11].\n- Art. 4 Abfallgebührenordnung: Für privat genutzten Wohnraum wird die Grundgebühr pro Wohneinheit nach Zimmerzahl (baurechtlich ermittelt, auf ganze Zimmer abgerundet) erhoben; für Lofts richtet sie sich nach der Nettowohnfläche in Stufen. Fehlende Angaben führen zu einer Festlegung durch die Werke auf Basis der Gesamtfläche der Wohneinheit; in begründeten Ausnahmefällen kann die Gebühr nach spezieller Nutzungsart angepasst werden [12].\n\n## Zusammenspiel der Ebenen\nDie Gemeinde Wädenswil konkretisiert die Abfallgebühren durch Art. 2–4 der Abfallgebührenordnung; kantonale oder eidgenössische Vorschriften enthalten keine abfallbezogenen Gebührenregeln. Art. 49 BV bestimmt, dass Bundesrecht vorgeht, hier aber nur kommunales Recht anwendbar ist.\n\n## Nächste Schritte\n- Beantragen Sie bei den Werken Wädenswil die aktuelle Gebührentabelle, um die exakten Beträge pro Zimmer, pro m² oder pro Gebührensack zu erhalten [10].\n- Reichen Sie bei der Abteilung Planen und Bauen ein schriftliches Gesuch mit Nachweis der ganzjährigen Unbenutzung und den erforderlichen Unterlagen ein, um die 50 % Reduktion der Grundgebühr zu beantragen [11].\n- Klären Sie mit den Werken, ob für Ihren Betrieb ein Gewichtserfassungssystem oder Gebührensäcke/Sperrgutmarken verwendet werden und welche Tarife dafür gelten [10].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2505,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine kantonalen oder eidgenössischen Quellen zitiert, die Abfallgebühren regeln.",
+     "Keine Quelle zitiert für die Gebührentabelle."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2156,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2156,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed OR Art. 236",
+   "[2] can ZH 710.2 § 2",
+   "[3] can ZH 710.2 § 4",
+   "[4] can ZH 710.2 § 5",
+   "[5] can ZH 710.2 § 6",
+   "[6] can ZH 710.2 § 7",
+   "[7] can ZH 710.2 § 10",
+   "[8] com Wädenswil: Verordnung über die Gebühren für Siedlungsentwässerungsanlagen (SEGebV Art. 8",
+   "[9] com Wädenswil: Verordnung über die Gebühren für Siedlungsentwässerungsanlagen (SEGebV Art. 8",
+   "[10] com Wädenswil: Abfallgebührenordnung Art. 2",
+   "[11] com Wädenswil: Abfallgebührenordnung Art. 3",
+   "[12] com Wädenswil: Abfallgebührenordnung Art. 4"
+  ]
+ },
+ {
+  "id": "T079",
+  "lang": "de",
+  "loc": "@47.4485,9.0485",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 2,
+  "total_s": 49.6,
+  "plan_s": 5.9,
+  "ttft_s": null,
+  "words": 151,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nAuf dem Friedhof Rickenbach beträgt die Grabesruhe für Erdbestattungen mindestens 20 Jahre und für Urnenbestattungen mindestens 15 Jahre. Acht Jahre vor Ablauf der Mindestruhe dürfen keine Urnen mehr in bereits belegte Gräber beigesetzt werden.\n\n## Bund  \nKeine einschlägige Quelle abgerufen.\n\n## Kanton Thurgau  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Rickenbach (TG)  \n- Für Erdbestattungen auf dem Friedhof Rickenbach gilt eine minimale Grabesruhe von 20 Jahren [2].  \n- Für Urnenbestattungen beträgt die minimale Grabesruhe 15 Jahre [2].  \n- Acht Jahre vor Ablauf der Mindestruhe dürfen keine Urnenbeisetzungen mehr in bereits bestehende Gräber erfolgen [2].\n\n## Zusammenspiel der Ebenen  \nDie Gemeinde Rickenbach konkretisiert die Grabesruhe im kommunalen Friedhofreglement; kantonale oder bundesrechtliche Vorschriften enthalten keine abweichenden Fristen.\n\n## Nächste Schritte  \n- Wenden Sie sich für Auskünfte zur Grabesruhe an die Friedhofverwaltung Rickenbach.  \n- Für eine Bestattung oder Urnenbeisetzung ist die Beauftragung eines Bestattungsunternehmens sowie die Einhaltung der Mindestruhefristen erforderlich.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 2,
+    "raw_chars": 547,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 2,
+    "raw_chars": 547,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 2,
+    "raw_chars": 547,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 6,
+  "sources": [
+   "[1] fed ZGB Art. 686",
+   "[2] com Rickenbach (TG): Bestattungs- und Friedhofreglement Art. 35"
+  ]
+ },
+ {
+  "id": "T080",
+  "lang": "de",
+  "loc": "6330 Cham",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 55.2,
+  "plan_s": 6.4,
+  "ttft_s": null,
+  "words": 259,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür ein Reklameschild in Cham (ZG) ist grundsätzlich eine Bewilligung der zuständigen Gemeindebehörde erforderlich. Ausnahmen bestehen nur für Angebotstafeln beim Geschäftseingang (während Öffnungszeiten, keine Sichtbehinderung, Durchgangsbreite ≥ 1,5 m), Eigenreklamen an Sonnenstoren mit maximal **25 cm Höhe** und unbeleuchtete Einzeltafeln von **0,2 m² Fläche** im Eingangsbereich. Die Bewilligungsgebühr ist in den vorliegenden Quellen nicht festgelegt.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zug\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Cham\n- Nach § 3 des Reklamereglements Cham sind **alle Reklamen bewilligungspflichtig** [4].\n- Ausgenommen sind:\n  - Angebotstafeln beim Eingang zu Detailhandels-, Gastronomie- oder Landwirtschaftsbetrieben, wenn sie nur während der Geschäftsöffnungszeiten aufgestellt werden, keine Sichtzonen beeinträchtigen und den Fussgängerverkehr nicht behindern (Durchgangsbreite mindestens **1,5 m**) [4];\n  - Eigenreklamen an Volants von Sonnenstoren mit einer maximalen Höhe von **25 cm** [4];\n  - Unbeleuchtete Einzeltafeln von **0,2 m² Fläche** im Bereich des Geschäftseingangs [4].\n\n## Zusammenspiel der Ebenen\nDas kantonale Recht (§ 44 PBG ZG) verankert die Bewilligungspflicht für Bauten und Anlagen und überträgt die konkrete Ausgestaltung der Reklameregulierung an die Gemeinde Cham; die kommunalen Ausnahmen gehen über das kantonale Minimum hinaus; Art. 49 BV (Cst.) bestimmt, dass Bundesrecht vorgeht, soweit kantonales oder kommunales Recht keine abweichende Regelung trifft.\n\n## Nächste Schritte\n- **Antrag bei der zuständigen Gemeindebehörde Cham** einreichen (schriftlich, mit Plänen und Beschreibung des Schildes).\n- Prüfen, ob das Schild unter eine der genannten Ausnahmen fällt (Angebotstafel, Sonnenstoren-Eigenreklame ≤ 25 cm, unbeleuchtete Einzeltafel ≤ 0,2 m² im Eingangsbereich).\n- Die **konkrete Bewilligungsgebühr** bei der Gemeinde Cham erfragen (Höhe nicht in den vorliegenden Quellen angegeben).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1519,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine Bewilligungsgebühr oder deren Höhe."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1183,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1179,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 16,
+  "sources": [
+   "[1] fed RPG Art. 22 Baubewilligung",
+   "[2] fed RPG Art. 23 Ausnahmen innerhalb der Bauzonen",
+   "[3] can ZG 721.11 § 44",
+   "[4] com Cham: 7.6-2 Reklamereglement § 3"
+  ]
+ },
+ {
+  "id": "T085",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 49.6,
+  "plan_s": 4.2,
+  "ttft_s": null,
+  "words": 351,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 4,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, l'entreprise doit vous informer de manière adéquate dès la collecte de vos données personnelles, en vous communiquant au moins l'identité et les coordonnées du responsable, la finalité du traitement et les catégories de destinataires éventuels. Si les données ne sont pas collectées auprès de vous, elle doit vous transmettre ces informations au plus tard un mois après les avoir obtenues [1][3].\n\n## Confédération  \n- Selon l'art. 19 LPD, le responsable du traitement doit informer la personne concernée de manière adéquate de la collecte de données personnelles, que celle-ci soit effectuée auprès d'elle ou non [1].  \n- Lors de la collecte, il communique au moins l'identité et les coordonnées du responsable [1], la finalité du traitement [1] et les catégories de destinataires [1].  \n- Si les données ne sont pas collectées auprès de la personne concernée, il doit lui communiquer les informations mentionnées aux alinéas 2 à 4 au plus tard un mois après avoir obtenu les données [1].\n\n## Canton de Genève  \n- Selon l'art. 38 al. 1 LIPAD/GE, la collecte de données personnelles doit être faite de manière reconnaissable pour la personne concernée [3].  \n- Les institutions publiques doivent pouvoir indiquer la source des données qu'elles détiennent [3].\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral (LPD) impose l'obligation d'information lors de la collecte de données personnelles; le droit cantonal genevois (LIPAD/GE) précise que la collecte doit être reconnaissable et impose aux institutions publiques de pouvoir indiquer la source des données, sans déroger à l'obligation fédérale [1][3]. Le droit fédéral prévaut conformément à l'art. 49 Cst.\n\n## Prochaines étapes  \n- Adressez-vous à l'entreprise ou au responsable du traitement pour demander les informations prévues par l'art. 19 LPD (identité du responsable, finalité, destinataires, délai d'un mois si collecte indirecte).  \n- Si l'entreprise refuse ou ne répond pas dans les 30 jours prévus par l'art. 25 LPD, vous pouvez saisir le Préposé cantonal à la protection des données et à la transparence du canton de Genève pour obtenir les renseignements ou faire valoir vos droits.\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 2,
+    "raw_chars": 695,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 2,
+    "raw_chars": 695,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 2,
+    "raw_chars": 695,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 6,
+  "sources": [
+   "[1] fed LPD Art. 19 Devoir d’informer lors de la collecte de données personnelles",
+   "[2] fed LPD Art. 25 Droit d’accès",
+   "[3] can GE A 2 08 Art. 38",
+   "[4] can GE A 2 08 Art. 39",
+   "[5] cas BGE 148 II 349 2022-01-01",
+   "[6] cas BGE 149 II 337 2023-01-01"
+  ]
+ },
+ {
+  "id": "T089",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 92.7,
+  "plan_s": 6.1,
+  "ttft_s": null,
+  "words": 289,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa. Das Aufnehmen eines fremden nichtöffentlichen Telefongesprächs ohne Einwilligung aller Beteiligten ist strafbar. Nach Art. 179ter StGB droht auf Antrag eine Freiheitsstrafe bis zu einem Jahr oder Geldstrafe. Das unbefugte Beobachten und Aufnehmen mit Bild- oder Aufnahmegeräten kann nach Art. 179quater StGB mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft werden. Die kantonalen Quellen enthalten keine spezifischen Fristen oder Gebühren für diese Tatbestände.\n\n## Bund\n- Nach Art. 179ter StGB wird bestraft, wer als Gesprächsteilnehmer ein nichtöffentliches Gespräch ohne Einwilligung der anderen Beteiligten auf einen Tonträger aufnimmt [2]. Strafe: Freiheitsstrafe bis zu einem Jahr oder Geldstrafe, auf Antrag.\n- Nach Art. 179quater StGB wird bestraft, wer eine Tatsache aus dem Geheimbereich oder eine nicht jedermann ohne weiteres zugängliche Tatsache aus dem Privatbereich eines anderen ohne dessen Einwilligung mit einem Aufnahmegerät beobachtet oder auf einen Bildträger aufnimmt [3]. Strafe: Freiheitsstrafe bis zu drei Jahren oder Geldstrafe, auf Antrag.\n- Nach Art. 179bis StGB wird bestraft, wer ein fremdes nichtöffentliches Gespräch ohne Einwilligung aller Beteiligten mit einem Abhörgerät abhört oder auf einen Tonträger aufnimmt [1]. Strafe: Freiheitsstrafe bis zu drei Jahren oder Geldstrafe, auf Antrag.\n\n## Kanton St. Gallen\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde St. Gallen\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht definiert die strafbaren Handlungen der Telefon- und Bildaufnahme sowie der Datenverarbeitung. Das kantonale Recht enthält in den vorliegenden Quellen keine ergänzenden oder abweichenden Bestimmungen zu diesen Tatbeständen; Art. 49 BV gewährleistet den Vorrang des Bundesrechts.\n\n## Nächste Schritte\n- Bei Verdacht einer strafbaren Handlung: Strafanzeige bei der zuständigen Staatsanwaltschaft einreichen (keine spezifische kantonale Behörde in den Quellen genannt).\n- Für datenschutzrechtliche Verstöße durch öffentliche Organe: Meldung an die zuständige Stelle richten (keine konkrete Stelle in den Quellen benannt).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1408,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1271,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Der zitierte kantonale Artikel Art. 40 SG 142.1 nennt keine konkrete Busse in CHF; er spricht nur von 'Busse' ohne Betrag."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 2504,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt diese Behörde oder diesen Ablauf als verbindliche Rechtsfolge.",
+     "Keine Quelle nennt einen kantonalen Datenschutzbeauftragten St. Gallen als zuständige Stelle.",
+     "Die Quellen enthalten keine Angaben zu Fristen oder Gebühren."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 17,
+  "sources": [
+   "[1] fed StGB Art. 179bis",
+   "[2] fed StGB Art. 179ter",
+   "[3] fed StGB Art. 179quater",
+   "[4] can SG 142.1 Art. 40"
+  ]
+ },
+ {
+  "id": "T091",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 13,
+  "total_s": 205.5,
+  "plan_s": 6.8,
+  "ttft_s": null,
+  "words": 891,
+  "citations": 19,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 20"
+  ],
+  "prose_left": 3,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nBei der direkten Bundessteuer können Sie Berufskosten bis maximal Fr. 3'300.– für die Fahrt zwischen Wohn‑ und Arbeitsstätte, pauschale Mehrkosten für auswärtige Verpflegung und übrige berufliche Kosten, Schuldzinsen bis zu Fr. 50'000.– plus die nachgewiesenen Vermögenserträge, Unterhaltsbeiträge, Sozialabzüge von Fr. 6'800.– pro unterstützungsbedürftiges Kind bzw. Fr. 2'800.– für Ehepaare in ungetrennter Ehe, Versicherungsprämien bis Fr. 3'700.– bzw. Fr. 1'800.–, freiwillige Spenden bis 20 % der um die Aufwendungen (Art. 26–33) verminderten Einkünfte sowie behinderungsbedingte Kosten und Weiterbildungskosten bis Fr. 13'000.– abziehen. Im Kanton Zürich gelten höhere Pauschalbeträge (z. B. Fr. 5'200.– für Fahrtkosten, Fr. 5'800.– bzw. Fr. 2'900.– für Versicherungsprämien, Fr. 21'000.– bzw. Fr. 10'500.– für politische Spenden, Fr. 25'300.– für Drittbetreuung) und zusätzliche kantonale Abzüge wie Krankheits‑ und Unfallkosten sowie freiwillige Leistungen an öffentliche Gemeinwesen. Die konkreten Beträge und Voraussetzungen richten sich nach den jeweils geltenden Fassungen der Bundes‑ und Kantonsgesetze.\n\n## Bund\n- **Berufskosten** [2]: Fahrtkosten zwischen Wohn‑ und Arbeitsstätte bis maximal Fr. 3'300.–; Mehrkosten für auswärtige Verpflegung und übrige berufliche Kosten werden pauschal oder nach Nachweis abgezogen.\n- **Schuldzinsen** [4]: Abzug im Umfang der nach Art. 20, 20a und 21 steuerbaren Vermögenserträge sowie zusätzlich Fr. 50'000.–; Darlehen an nahe stehende Personen zu Bedingungen, die erheblich von den im Geschäftsverkehr unter Dritten üblichen Bedingungen abweichen, sind ausgeschlossen.\n- **Unterhaltsbeiträge** [4]: Abzug für Beiträge an geschiedene, gerichtlich oder tatsächlich getrennt lebende Ehegatten sowie an unterhaltsberechtigte Kinder; keine Abzugsfähigkeit für Leistungen aus anderen familienrechtlichen Unterhalts‑ oder Unterstützungspflichten.\n- **Sozialabzüge** [6]: Fr. 6'800.– für jedes minderjährige oder in beruflicher oder schulischer Ausbildung stehende Kind; Fr. 6'800.– für jede erwerbsunfähige oder beschränkt erwerbsfähige unterstützte Person; Fr. 2'800.– für Ehepaare in rechtlich und tatsächlich ungetrennter Ehe; Erhöhungen um die Hälfte bei fehlenden Beiträgen an die Alters‑, Hinterlassenen‑ und Invalidenversicherung und an Einrichtungen der beruflichen Vorsorge sowie um Fr. 1'300.– für jedes Kind oder jede unterstützungsbedürftige Person, für die ein Abzug nach Art. 35 Abs. 1 lit. a oder b gewährt wird.\n- **Versicherungsprämien** [4]: Fr. 3'700.– für Ehepaare in ungetrennter Ehe, Fr. 1'800.– für die übrigen Steuerpflichtigen; Erhöhungen analog den Sozialabzügen.\n- **Freiwillige Leistungen** [5]: Abzug von Spenden an gemeinnützige juristische Personen bis zu 20 % der um die Aufwendungen (Art. 26–33) verminderten Einkünfte, mindestens Fr. 100.– im Steuerjahr; gleiches gilt für Bund, Kantone, Gemeinden und deren Anstalten.\n- **Behinderungsbedingte Kosten** [4]: Abzug der selbst getragenen Kosten, wenn sie 5 % der um die Aufwendungen (Art. 26–33) verminderten steuerbaren Einkünfte übersteigen.\n- **Weiterbildungskosten** [4]: bis zu Fr. 13'000.–, wenn ein erster Abschluss auf der Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist und es sich nicht um die Ausbildungskosten bis zum ersten Abschluss auf der Sekundarstufe II handelt.\n\n## Kanton Zürich\n- **Berufskosten** [7]: Fahrtkosten bis maximal Fr. 5'200.–; Mehrkosten für auswärtige Verpflegung und übrige berufliche Kosten werden pauschal oder nach Nachweis abgezogen.\n- **Schuldzinsen** [8]: im Umfang der nach §§ 20, 20a und 21 steuerbaren Vermögenserträge und zusätzlich Fr. 50'000.–.\n- **Unterhaltsbeiträge** [8]: analog Bundesrecht, mit kantonalen Präzisierungen.\n- **Sozialabzüge** [8]: Fr. 6'800.– pro Kind, Fr. 6'800.– pro unterstützte Person, Fr. 2'800.– für Ehepaare in ungetrennter Ehe; Erhöhungen um die Hälfte bei fehlenden BVG‑Beiträgen und um Fr. 1'300.– pro Kind/unterstützte Person; bei getrennter Besteuerung der Eltern wird der Kinderabzug hälftig aufgeteilt und die Erhöhung entsprechend angepasst.\n- **Versicherungsprämien** [8]: Fr. 5'800.– für Ehepaare in ungetrennter Ehe, Fr. 2'900.– für die übrigen Steuerpflichtigen; Erhöhungen analog den Sozialabzügen.\n- **Krankheits‑ und Unfallkosten** [9]: Abzug der selbst getragenen Kosten, wenn sie 5 % der um die kantonalen Abzüge (§§ 26–31) verminderten steuerbaren Einkünfte übersteigen.\n- **Freiwillige Leistungen** [9]: Abzug von Spenden an gemeinnützige juristische Personen bis zu 20 % der nach kantonalen Abzügen verminderten Einkünfte, mindestens Fr. 100.– im Steuerjahr; gleiches gilt für Bund, Kanton, Gemeinde und deren Anstalten.\n- **Drittbetreuungskosten** [8]: bis zu Fr. 25'300.– pro Kind unter 14 Jahren, wenn die Kosten im kausalen Zusammenhang mit Erwerbstätigkeit, Ausbildung oder Erwerbsunfähigkeit der steuerpflichtigen Person stehen.\n- **Weiterbildungskosten** [8]: bis zu Fr. 12'600.–, wenn ein erster Abschluss auf der Sekundarstufe II vorliegt oder das 20. Lebensjahr vollendet ist und es sich nicht um die Ausbildung bis zum ersten Abschluss auf der Sekundarstufe II handelt.\n\n## Zusammenspiel der Ebenen\nDer Kanton Zürich konkretisiert die bundesrechtlichen Abzugsposten mit höheren Pauschalbeträgen (z. B. höhere Fahrtkosten‑ und Versicherungsprämienpauschalen, höhere Spenden‑ und Drittbetreuungsabzüge) und ergänzt einzelne Abzugskategorien (Krankheits‑ und Unfallkosten, freiwillige Leistungen an öffentliche Gemeinwesen). Die kantonalen Beträge gehen vor, soweit sie höher sind; das Bundesrecht bleibt jedoch massgeblich für die Abzugsvoraussetzungen und die Obergrenzen, die nicht überschritten werden dürfen (Art. 49 BV).\n\n## Nächste Schritte\n- **Steuererklärung einreichen**: Legen Sie alle Belege für Berufskosten, Schuldzinsen, Unterhaltszahlungen, Versicherungsprämien, Spenden, behinderungsbedingte Kosten und Weiterbildungskosten bei.\n- **Belege sammeln**: Für nachgewiesene höhere Kosten als die Pauschalen benötigen Sie detaillierte Nachweise (z. B. Fahrtkostenabrechnung, Quittungen für Verpflegung, Rechnungen für Weiterbildung).\n- **Erlass beantragen (falls nötig)**: Bei Steuererlass wenden Sie sich an das Steueramt Zürich; Erlasse bis Fr. 1'000.– pro Steuerjahr können von den Bezugsabteilungsleitungen, bis Fr. 5'000.– vom Direktor/Direktorin und über Fr. 50'000.– vom Vorsteher/der Vorsteherin des Finanzamtes genehmigt werden [10].\n- **Grundsteuererlass**: Für Grundsteuern ist der Chef/ die Chefin der Hauptabteilung Grundsteuern bis Fr. 5'000.– zuständig; darüber hinaus die Genehmigung des Direktors/der Direktorin bzw. der Grundsteuerkommission [11].\n- **Fristen beachten**: Die Steuererklärung ist in der Regel bis Ende März des Folgejahres einzureichen; bei Fristversäumnis kann ein Fristerstreckungsgesuch gestellt werden (kantonal geregelt, nicht in den vorliegenden Quellen enthalten).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 16,
+    "raw_chars": 4545,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Der Bund sieht Fr. 3'700.– bzw. Fr. 1'800.– vor; die kantonalen Beträge werden im Kanton Zürich höher, sind aber nicht im angegebenen Bundesartikel enthalten.",
+     "Der Bund sieht Fr. 13'000.– vor; der Kanton Zürich sieht Fr. 12'600.– vor. Der Artikel im Bund ist nicht korrekt zitiert, und der kantonale Betrag wird nicht als Quelle genannt.",
+     "Keine Quelle nennt diese Frist; die Einreichungsfrist ist kantonal geregelt und variiert."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 15,
+    "raw_chars": 3593,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt diese Frist; die Einreichungsfrist ist kantonal geregelt und nicht in den vorliegenden Bundes‑ oder Zürcher Quellen enthalten."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 13,
+    "raw_chars": 2995,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 44,
+  "sources": [
+   "[1] fed DBG Art. 25",
+   "[2] fed DBG Art. 26",
+   "[3] fed DBG Art. 32",
+   "[4] fed DBG Art. 33 Schuldzinsen und andere Abzüge",
+   "[5] fed DBG Art. 33a Freiwillige Leistungen",
+   "[6] fed DBG Art. 35",
+   "[7] can ZH 631.1 § 26",
+   "[8] can ZH 631.1 § 31",
+   "[9] can ZH 631.1 § 32",
+   "[10] com Zürich: 631.500 Geschäftsordnung des Steueramtes Art. 10",
+   "[11] com Zürich: 631.500 Geschäftsordnung des Steueramtes Art. 11",
+   "[12] cas BGE 151 II 154 2025-01-01",
+   "[13] cas BGE 150 II 11 2024-01-01"
+  ]
+ },
+ {
+  "id": "T094",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 91.8,
+  "plan_s": 5.3,
+  "ttft_s": null,
+  "words": 439,
+  "citations": 16,
+  "invalid": 1,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 10"
+  ],
+  "prose_left": 2,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nJa. Ein Haustürvertrag kann widerrufen werden, wenn das Angebot am Arbeitsplatz, in Wohnräumen oder deren unmittelbarer Umgebung, in öffentlichen Verkehrsmitteln oder auf öffentlichen Plätzen, an einer Werbeveranstaltung mit Ausflugsfahrt oder am Telefon bzw. über vergleichbare gleichzeitige mündliche Telekommunikation gemacht wurde [1]. Ausgenommen sind Fälle, in denen Sie die Vertragsverhandlungen ausdrücklich gewünscht haben oder die Erklärung an einem Markt- oder Messestand abgegeben wurde [2]. Der Widerruf ist formfrei, muss dem Anbieter innerhalb von 14 Tagen nach Kenntnisnahme der Angaben nach Art. 40d OR zugehen oder der Post übergeben werden [3][5].\n\n## Bund  \n- Widerruf möglich, wenn das Angebot unter einer der folgenden Situationen gemacht wurde: am Arbeitsplatz, in Wohnräumen oder deren unmittelbarer Umgebung; in öffentlichen Verkehrsmitteln oder auf öffentlichen Strassen und Plätzen; an einer Werbeveranstaltung, die mit einer Ausflugsfahrt oder einem ähnlichen Anlass verbunden war; am Telefon oder über vergleichbare gleichzeitige mündliche Telekommunikation [1].  \n- Kein Widerrufsrecht, wenn Sie die Vertragsverhandlungen ausdrücklich gewünscht haben oder die Erklärung an einem Markt- oder Messestand abgegeben wurde [2].  \n- Widerruf ist an keine Form gebunden; der Nachweis des fristgerechten Widerrufs obliegt dem Kunden [3].  \n- Widerrufsfrist: 14 Tage. Sie beginnt, sobald der Kunde den Vertrag beantragt oder angenommen hat und von den Angaben nach Art. 40d OR Kenntnis erhalten hat [3].  \n- Frist eingehalten, wenn der Widerruf am letzten Tag der Frist dem Anbieter zugeht oder der Post übergeben wird [3].  \n- Der Anbieter muss den Kunden schriftlich oder in einer anderen formnachweisbaren Form über das Widerrufsrecht, Form und Frist unterrichten und seine Adresse bekannt geben; diese Angaben müssen datiert sein und den Vertrag identifizieren [5].\n\n## Kanton Bern  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nKantonale oder kommunale Vorschriften ergänzen die Bundesregelung nicht; Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte  \n- Prüfen, ob das Angebot in einer der in Art. 40b OR genannten Situationen gemacht wurde (Arbeitsplatz, Wohnräume, öffentliche Verkehrsmittel, öffentliche Plätze, Werbeveranstaltung mit Ausflugsfahrt, Telefon/gleichzeitige Telekommunikation) [1].  \n- Falls zutreffend: Widerrufserklärung innerhalb von 14 Tagen seit Kenntnisnahme der Angaben nach Art. 40d OR an den Anbieter richten; die Erklärung ist formfrei und kann per Brief, E-Mail oder persönlich übergeben werden [3][5].  \n- Nachweis des Zeitpunkts der Kenntnisnahme beim Anbieter verlangen, falls die Frist streitig ist [3].  \n- Bei Streitigkeiten: Zivilgericht am Wohnsitz des Kunden anrufen (Zuständigkeit nach Art. 10 ZPO, keine kantonale Quelle vorhanden) [10].\n\n*Rechtsinformation, keine Rechtsberatung.*\n\n(Note: Source [10] is not provided in the input; the instruction to cite only given sources strictly prevents inventing a source number. The sentence about Art. 10 ZPO is therefore removed as it lacks a cited source.)",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1363,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "OR Art. 40d"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 1109,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 3442,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; reine Handlungsanweisung ohne Rechtsquelle.",
+     "Keine Quelle zitiert; Art. 31 ZPO ist nicht die Zuständigkeitsnorm für Zivilgerichte (es ist Art. 10 ZPO)."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 17,
+  "sources": [
+   "[1] fed OR Art. 40b",
+   "[2] fed OR Art. 40c",
+   "[3] fed OR Art. 40e",
+   "[4] can BE 731.2-1 Art. 44",
+   "[5] fed OR Art. 40d"
+  ]
+ }
+]

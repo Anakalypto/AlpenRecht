@@ -1,4 +1,4 @@
-"""Readers for the law collections of Switzerland's five largest cities.
+"""Readers for the law collections of Switzerland's five largest cities, and Lugano.
 
 Their collections are JavaScript apps or paged databases the generic crawler can't list, but each has a plain
 source underneath:
@@ -8,7 +8,8 @@ source underneath:
              gesetzessammlung.bs.ch;
   Lausanne — "Recueil systématique du droit communal": one page with number, title and PDF for every regulation;
   Bern     — stadtrecht.bern.ch (LexWork): the sitemap lists every act and each act has a PDF whose first lines
-             hold its title.
+             hold its title;
+  Lugano   — "Legislazione": one page of /law/<id> links (each serves the PDF), titled with their number.
 Each reader returns [{title, url}] like communal.find_documents; communal.load_document reads the PDFs.
 """
 import html
@@ -79,7 +80,10 @@ def geneva():
 
 def basel():
     from . import communal  # local import: communal imports this module
-    return communal.tlex_documents("www.gesetzessammlung.bs.ch")
+    # The collection also holds Riehen's ("RiE", "RiB") and Bettingen's ("BeE", "BeB") own acts: not Basel's law
+    # (a Basel dog-tax answer quoted Riehen's Fr. 150).
+    return [d for d in communal.tlex_documents("www.gesetzessammlung.bs.ch")
+            if not re.match(r"(?:Ri|Be)[EB]\s", d["title"])]
 
 
 def lausanne():
@@ -92,6 +96,18 @@ def lausanne():
         pdf = re.search(r'href="(Next/serve\.php\?id=\d+&kind=recueil)"', block)
         if title and pdf:
             out.append({"title": f"{num.group(1) if num else ''} {title.group(1)}".strip(), "url": base + pdf.group(1)})
+    return out
+
+
+def lugano():
+    """lugano.ch "Legislazione": every regulation is a /law/<id>/<slug> link that serves the PDF, titled by number."""
+    base = "https://www.lugano.ch"
+    raw = _text(_get(f"{base}/la-mia-citta/amministrazione/legislazione.html", timeout=60))
+    out, seen = [], set()
+    for href, title in re.findall(r'<a[^>]+href="(/law/\d+/[^"]+)"[^>]*title="([^"]+)"', raw):
+        if href not in seen:
+            seen.add(href)
+            out.append({"title": re.sub(r"\s+", " ", title).strip(), "url": base + href})
     return out
 
 
@@ -130,10 +146,11 @@ def bern():
         return [d for d in ex.map(doc, ids) if d]
 
 
-READERS = {261: zurich, 6621: geneva, 2701: basel, 5586: lausanne, 351: bern}
+READERS = {261: zurich, 6621: geneva, 2701: basel, 5586: lausanne, 351: bern, 5192: lugano}
 LABELS = {261: "stadt-zuerich.ch (Amtliche Sammlung)", 6621: "geneve.ch (règlements municipaux)",
           2701: "gesetzessammlung.bs.ch (the canton legislates for the city)",
-          5586: "lausanne.ch (recueil systématique)", 351: "stadtrecht.bern.ch"}
+          5586: "lausanne.ch (recueil systématique)", 351: "stadtrecht.bern.ch",
+          5192: "lugano.ch (legislazione)"}
 
 
 def documents(bfs):

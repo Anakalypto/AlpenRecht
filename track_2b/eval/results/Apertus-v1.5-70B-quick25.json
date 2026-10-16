@@ -1,0 +1,1785 @@
+[
+ {
+  "id": "T004",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 12,
+  "total_s": 98.0,
+  "plan_s": 9.8,
+  "ttft_s": null,
+  "words": 638,
+  "citations": 22,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 17,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nPer ottenere il permesso B per lavoratori UE occorre dimostrare un’attività lucrativa dipendente o indipendente [11], rispettare le condizioni di lavoro e di salario usuali nella località/professione [2], e presentare la domanda all’autorità cantonale competente per il luogo di lavoro [3]. Il permesso B è rilasciato per soggiorni di oltre un anno [4] e può essere vincolato a condizioni d’integrazione. In Ticino la domanda va inoltrata elettronicamente tramite la piattaforma digitale dell’Ufficio della migrazione [5], con possibilità di esenzione dalla convocazione per frontalieri G dipendenti; l’Ufficio preleva una tassa di 250 CHF per le decisioni emesse [8].\n\n## Confederazione  \n- Art. 1 LStrI [1]: lo straniero che intende esercitare un’attività lucrativa in Svizzera necessita di un permesso indipendentemente dalla durata del soggiorno; il permesso va chiesto all’autorità competente per il luogo di lavoro previsto.  \n- Art. 2 LStrI [2]: lo straniero può essere ammesso per un’attività lucrativa solo se sono osservate le condizioni di lavoro e di salario usuali nella località, nella professione e nel settore e i rimborsi di spese corrispondono a quelli usuali.  \n- Art. 40 LStrI [3]: i permessi di soggiorno [4] sono rilasciati dai Cantoni; se non sussiste un diritto all’attività lucrativa occorre una decisione preliminare delle autorità cantonali preposte al mercato del lavoro.  \n- Art. 33 LStrI [4]: per soggiorni di oltre un anno è rilasciato il permesso di dimora; la durata è limitata e può essere prorogata se non vi sono motivi di revoca; il rilascio e la proroga possono essere vincolati a un accordo d’integrazione se vi è un bisogno d’integrazione particolare.  \n- Art. 2 LStrI [11]: la LStrI si applica ai cittadini UE solo se l’ALC non contiene disposizioni derogatorie o se la legge prevede disposizioni più favorevoli.\n\n## Cantone Ticino  \n- Art. 828 Reg. TI [5]: la domanda di rilascio, modifica o rinnovo del permesso di lavoro o di soggiorno può essere presentata elettronicamente tramite la piattaforma digitale dell’Ufficio; il richiedente dichiara che le copie trasmesse sono originali.  \n- Art. 828 cpv. 3 Reg. TI [5]: per frontalieri G dipendenti l’Ufficio può prescindere dalla convocazione; i cittadini stranieri interessati devono presentarsi al competente posto di Polizia cantonale per il controllo del documento d’identità prima dell’invio della domanda.  \n- Art. 4 Reg. TI [6]: la Commissione consultiva del mercato del lavoro è competente per preavvisare il rilascio, rinnovo, modifica o rifiuto di permessi di lavoro per cittadini extra UE/AELS; è composta da 2 rappresentanti dello Stato, 3 rappresentanti padronali e 3 sindacali, con presidenza del capo della Sezione della popolazione.  \n- Art. 1452 Reg. TI [8]: l’Ufficio preleva una tassa di 250 CHF per le decisioni emesse.\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale (LStrI) stabilisce i requisiti sostanziali per il permesso B UE (attività lucrativa, condizioni salariali e rimborso usuali, competenza cantonale). Il Cantone Ticino precisa le modalità procedurali (invio elettronico, convocazione, eccezione per frontalieri G, tassa di decisione di 250 CHF) e istituisce la Commissione consultiva del mercato del lavoro per il preavviso sui permessi di lavoro di cittadini extra UE/AELS. La legge federale prevale (art. 49 Cost.).\n\n## Prossimi passi  \n- Inoltrare la domanda elettronicamente tramite la piattaforma digitale dell’Ufficio della migrazione del Cantone Ticino, allegando copie dei documenti richiesti [5].  \n- Se si è frontaliero G dipendente, presentarsi al posto di Polizia cantonale competente per il controllo del documento d’identità prima dell’invio della domanda [5].  \n- Conservare gli originali della documentazione fino alla crescita in giudicato della decisione e esibirli su richiesta dell’autorità [5].  \n- Se richiesto dall’Ufficio, presentarsi personalmente per fornire ulteriori informazioni [5].  \n- Pagare la tassa di decisione di 250 CHF, prelevata dall’Ufficio per le decisioni emesse [8].  \n- Rivolgersi all’Ufficio della migrazione del Cantone Ticino per chiarimenti sulle condizioni salariali e rimborso usuali nella località/professione [2].\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1234,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "LStrI Art. 2 Campo d’applicazione",
+     "LStrI Art. 1 Oggetto"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 1623,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 1623,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 2,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed LStrI Art. 11 Soggiorno con attività lucrativa",
+   "[2] fed LStrI Art. 22 Condizioni di salario e di lavoro nonché rimborso delle spese dei lavoratori distaccati",
+   "[3] fed LStrI Art. 40 Autorità competenti per il rilascio dei permessi e decisione preliminare delle autorità preposte al mercato del lavoro",
+   "[4] fed LStrI Art. 33 Permesso di dimora",
+   "[5] can TI 143.110 Art. 828",
+   "[6] can TI 143.110 Art. 4",
+   "[7] can TI 143.110 Art. 5",
+   "[8] can TI 143.110 Art. 1452",
+   "[9] cas BGE 144 II 121 2018-01-01",
+   "[10] cas BGE 147 II 35 2021-01-01",
+   "[11] fed LStrI Art. 2 Campo d’applicazione",
+   "[12] fed LStrI Art. 1 Oggetto"
+  ]
+ },
+ {
+  "id": "T008",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 14,
+  "total_s": 279.2,
+  "plan_s": 6.7,
+  "ttft_s": null,
+  "words": 736,
+  "citations": 28,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nIn Chur wird ein ordentliches Einbürgerungsgesuch bei der bürgerlichen Verwaltung der Stadt Chur eingereicht [12]. Diese prüft die formellen Anforderungen und nimmt die notwendigen Abklärungen vor [13]. Die Einbürgerungskommission lädt die gesuchstellende Person zu einem Eignungsgespräch ein und erstattet dem Bürgerrat Bericht [13]. Der Bürgerrat trifft den Entscheid über die Zusicherung des Gemeindebürgerrechts und teilt ihn schriftlich mit [13]. Bei Erfüllung aller Voraussetzungen übermittelt das Amt des Kantons Graubünden die Akten an das Staatssekretariat für Migration (SEM) [11]; das SEM erteilt die eidgenössische Einbürgerungsbewilligung, woraufhin der Kanton innert einem Jahr den kantonalen Entscheid trifft [2].\n\n## Bund  \n- Art. 9 Abs. 1 lit. a BüG: Gesuchstellung nur mit Niederlassungsbewilligung möglich [5].  \n- Art. 9 Abs. 1 lit. b BüG: Nachweis eines insgesamt zehnjährigen Aufenthalts in der Schweiz, davon drei Jahre in den letzten fünf Jahren vor Gesuchstellung; die Zeit zwischen vollendetem 8. und 18. Lebensjahr zählt doppelt, mindestens sechs Jahre tatsächlicher Aufenthalt [5].  \n- Art. 11 BüG: Erforderliche materielle Voraussetzungen: erfolgreiche Integration, Vertrautheit mit schweizerischen Lebensverhältnissen und keine Gefährdung der inneren oder äusseren Sicherheit [6].  \n- Art. 12 BüG: Integration zeigt sich insbesondere im Beachten der öffentlichen Sicherheit und Ordnung, Respektierung der Bundesverfassungswerte, Sprachkompetenz in einer Landessprache, Teilnahme am Wirtschaftsleben oder Bildung sowie Förderung der Integration der Familie; bei Behinderung oder Krankheit ist angemessen Rechnung zu tragen [7].  \n- Art. 14 Abs. 1 BüG: Der kantonale Einbürgerungsentscheid ist innert einem Jahr nach Erteilung der eidgenössischen Bewilligung zu treffen; nach Fristverfall verliert die Bewilligung ihre Gültigkeit [2].  \n- Art. 18 BüG: Kanton und Gemeinde bleiben zuständig, wenn sie die Voraussetzungen gemäss Art. 11 und 12 abschliessend geprüft haben, auch bei Wegzug in eine andere Gemeinde oder einen anderen Kanton [4].\n\n## Kanton Graubünden  \n- Art. 25 Abs. 1 lit. a GR 130.110: Eintreten auf das Gesuch, wenn die Wohnsitzfristen mit Wohnsitzbescheinigungen nachgewiesen werden [8].  \n- Art. 25 Abs. 1 lit. b GR 130.110: Der strafrechtliche Leumund muss den Erfordernissen entsprechen [8].  \n- Art. 25 Abs. 1 lit. c GR 130.110: Die sprachliche Integration ist zu bejahen; bei Verneinung entscheidet das Amt über ein Abweichen von diesem Integrationskriterium [8].  \n- Art. 26 GR 130.110: Die Bürgergemeinde führt Erhebungen durch, führt ein zu protokollierendes Einbürgerungsgespräch durch (in begründeten Fällen entbindbar) und kann schriftliche Sprachtests verlangen; die Gesuchstellenden müssen sich vorbereiten und die erforderlichen Sprachkompetenzen nachweisen [9].  \n- Art. 27 GR 130.110: Kommt die Bürgergemeinde zum Schluss, dass die Einbürgerungsvoraussetzungen nicht erfüllt sind, teilt sie dies unter Angabe der Gründe mit und orientiert das Amt; wird das Gesuch nicht zurückgezogen, entscheidet die Bürgergemeinde über die Verweigerung der Zusicherung [10].  \n- Art. 28 Abs. 1 GR 130.110: Nach Zusicherung der Bürgergemeinde holt das Amt nötigenfalls zusätzliche Abklärungen ein und beantragt die eidgenössische Bewilligung beim SEM [11].\n\n## Gemeinde Chur  \n- Art. 2 GBüG Chur: Das Bürgerrecht kann Personen mit Wohnsitz in Chur erteilt oder zugesichert werden, welche insgesamt während mindestens sechs Jahren hier gewohnt haben; im Zeitpunkt der Gesuchseinreichung muss eine ununterbrochene zweijährige Wohnsitzdauer in Chur vorliegen [12].  \n- Art. 3 GBüG Chur: Zuständigkeiten: Die bürgerliche Verwaltung prüft die formellen Anforderungen und nimmt die notwendigen Abklärungen für die Einbürgerungskommission vor; die Einbürgerungskommission lädt die gesuchstellenden Personen zu einem Eignungsgespräch ein, in dem insbesondere die Integration und Vertrautheit geprüft werden; sie erstellt einen Bericht und erstattet dem Bürgerrat Antrag; der Bürgerrat trifft den Entscheid und teilt ihn schriftlich mit; innert fünf Jahren nach Einbürgerung teilt er dem Kanton mit, wenn das Bürgerrecht durch falsche Angaben oder Verheimlichung erheblicher Tatsachen erschlichen worden ist [13].\n\n## Zusammenspiel der Ebenen  \nDer Bund legt die formellen und materiellen Mindestanforderungen fest [5], während der Kanton Graubünden und die Stadt Chur die kantonalen bzw. kommunalen Wohnsitzerfordernisse sowie zusätzliche Erhebungen (Sprachtests, Einbürgerungsgespräche) konkretisieren; kantonale und kommunale Bestimmungen dürfen nicht hinter die bundesrechtlichen Mindestanforderungen zurückfallen (Art. 49 BV).\n\n## Nächste Schritte  \n- Schritt 1: Einbürgerungsgesuch bei der bürgerlichen Verwaltung der Stadt Chur einreichen, inklusive Nachweis der Wohnsitzfristen mit Wohnsitzbescheinigungen sowie Nachweis eines einwandfreien strafrechtlichen Leumunds [12][8].  \n- Schritt 2: Teilnahme am Eignungsgespräch mit der Einbürgerungskommission und ggf. an einem schriftlichen oder mündlichen Sprachtest [13][9].  \n- Schritt 3: Der Bürgerrat trifft den Entscheid über die Zusicherung des Gemeindebürgerrechts und erlässt den schriftlichen Entscheid [13].  \n- Schritt 4: Bei positiver Zusicherung übermittelt das Amt des Kantons Graubünden die Akten an das Staatssekretariat für Migration (SEM) [11].  \n- Schritt 5: Nach Erteilung der eidgenössischen Einbürgerungsbewilligung durch das SEM trifft der Kanton innert einem Jahr den kantonalen Einbürgerungsentscheid [2].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 23,
+    "raw_chars": 8086,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die konkreten Nachweise (Wohnsitzfristen und strafrechtlicher Leumund) in den nächsten Schritten, obwohl diese in den kantonalen und kommunalen Quellen enthalten sind."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 20,
+    "raw_chars": 7633,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der zitierten Quellen beschreibt ein zweistufiges Verfahren mit „bürgerlicher Verwaltung → Einbürgerungskommission → Bürgerrat“ in dieser Form. Die kantonalen und kommunalen Quellen beschreiben Erhebungen, Gespräche und Entscheidungen, aber nicht exakt dieses zweistufige Modell mit diesen drei Akteuren in dieser Reihenfolge."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 21,
+    "raw_chars": 8876,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt explizit die 'bürgerliche Verwaltung der Stadt Chur' als Einreichungsstelle für das ordentliche Einbürgerungsgesuch. Die Quellen beschreiben das Verfahren auf kantonaler und kommunaler Ebene, aber nicht die spezifische Bezeichnung der Behörde in Chur.",
+     "Die Quellen beschreiben zwar die Zuständigkeiten und Schritte, aber nicht in dieser spezifischen Reihenfolge und Bezeichnung. Art. 3 GBüG Chur beschreibt die Zuständigkeiten der bürgerlichen Verwaltung und der Kommission, jedoch ohne die explizite Reihenfolge 'prüft -> lädt -> erstattet Bericht' als feststehende Kette zu bestätigen.",
+     "Keine Quelle nennt explizit den 'Bürgerrat' als entscheidende Instanz für die Zusicherung des Gemeindebürgerrechts. Art. 3 GBüG Chur erwähnt den Bürgerrat als Entscheidungsinstanz, aber die Formulierung im Answer ist zu spezifisch ohne Quellenbeleg.",
+     "Keine Quelle bestätigt explizit, dass der Bürgerrat den Entscheid 'erlässt'. Art. 3 Abs. 3 GBüG Chur sagt, der Bürgerrat 'teilt den Entscheid... mit', was nicht zwingend 'erlässt' im Sinne eines formellen Verfügungstextes bedeutet."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 64,
+  "sources": [
+   "[1] fed BüG Art. 13 Einbürgerungsverfahren",
+   "[2] fed BüG Art. 14 Kantonaler Einbürgerungsentscheid",
+   "[3] fed BüG Art. 16 Begründungspflicht",
+   "[4] fed BüG Art. 18 Kantonale und kommunale Aufenthaltsdauer",
+   "[5] fed BüG Art. 9 Formelle Voraussetzungen",
+   "[6] fed BüG Art. 11 Materielle Voraussetzungen",
+   "[7] fed BüG Art. 12 Integrationskriterien",
+   "[8] can GR 130.110 Art. 25",
+   "[9] can GR 130.110 Art. 26",
+   "[10] can GR 130.110 Art. 27",
+   "[11] can GR 130.110 Art. 28",
+   "[12] com Chur: Bürgerrechtsgesetz der Stadt Chur (GBüG) Art. 2",
+   "[13] com Chur: Bürgerrechtsgesetz der Stadt Chur (GBüG) Art. 3",
+   "[14] cas BGE 130 I 140 2004-01-01"
+  ]
+ },
+ {
+  "id": "T012",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 101.2,
+  "plan_s": 3.7,
+  "ttft_s": null,
+  "words": 320,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDer Lernfahrausweis ist je nach Kategorie unterschiedlich gültig: vier Monate für die Kategorie A und die Unterkategorie A1, zwölf Monate für die Unterkategorie B1 und die Spezialkategorie F sowie 24 Monate für alle übrigen Kategorien. Die Gültigkeitsdauer für Kategorie A und A1 verlängert sich um zwölf Monate, wenn der Nachweis der erfolgreichen Absolvierung der praktischen Grundschulung vorliegt. Die Gültigkeit erlischt, wenn der Inhaber drei Mal in Folge die Führerprüfung nicht bestanden hat und die Zulassungsbehörde aufgrund eines Tests die Fahreignung verneint, oder wenn der Lehrvertrag bestimmter Berufslehrlinge vor Vollendung des 18. Altersjahres aufgelöst wird.\n\n## Bund\n[1] Der Lernfahrausweis ist gültig:\n- vier Monate für die Kategorie A und die Unterkategorie A1 [1];\n- zwölf Monate für die Unterkategorie B1 und die Spezialkategorie F [1];\n- 24 Monate für alle übrigen Kategorien [1].\n[1] Die Gültigkeitsdauer für Kategorie A und A1 wird um zwölf Monate verlängert, wenn der Nachweis der erfolgreichen Absolvierung der praktischen Grundschulung vorliegt [1].\n[1] Die Gültigkeit erlischt, wenn der Inhaber drei Mal in Folge die Führerprüfung nicht bestanden hat und die Zulassungsbehörde aufgrund eines Tests die Fahreignung des Bewerbers verneint [1], oder wenn der Lehrvertrag bestimmter Berufslehrlinge vor Vollendung des 18. Altersjahres aufgelöst wird (Lernende der beruflichen Grundbildung «Strassentransportfachfrau/Strassentransportfachmann EFZ», «Automobil-Fachfrau/Automobil-Fachmann EFZ» mit Fachrichtung «Nutzfahrzeuge», «Automobil-Mechatronikerin/Automobil-Mechatroniker EFZ» mit Fachrichtung «Nutzfahrzeuge») [1].\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt die Gültigkeitsdauer des Lernfahrausweises abschliessend; der Kanton Zürich und die Gemeinden Zürich ergänzen dies nicht mit eigenen Fristen oder Bedingungen.\n\n## Nächste Schritte\n- Wenden Sie sich an das Strassenverkehrsamt des Kantons Zürich als zuständige Zulassungsbehörde für die Ausstellung und Verlängerung des Lernfahrausweises [1].\n- Bei Verlängerung nach erfolgreicher praktischer Grundschulung legen Sie den Nachweis der absolvierten Schulung vor [1].\n- Melden Sie Änderungen, die eine Ersetzung erfordern, innert 14 Tagen unter Vorlage des Lernfahrausweises bei der Zulassungsbehörde [1].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2407,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; kantonale Zuständigkeit ist nicht durch die angegebenen Bundesquellen belegt (Bund regelt abschliessend, Kanton ist Vollzugsbehörde, aber keine Quelle nennt explizit das Strassenverkehrsamt Zürich als zuständige Stelle für Ausstellung/Verlängerung)."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2314,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; kantonale Zuständigkeit ist nicht durch die angegebenen Bundesquellen belegt."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2141,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed VZV Art. 16 Gültigkeit",
+   "[2] fed VZV Art. 15 Erteilung",
+   "[3] can ZH 741.11 § 39",
+   "[4] can ZH 741.11 § 4",
+   "[5] cas BGE 107 IB 27 1981-04-14"
+  ]
+ },
+ {
+  "id": "T016",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 81.5,
+  "plan_s": 6.7,
+  "ttft_s": null,
+  "words": 346,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEin Umzug allein verpflichtet nicht automatisch zur Neuausstellung des Fahrzeugausweises. Der Standort ändert sich nur, wenn das Fahrzeug nach Gebrauch in der Regel nicht mehr am bisherigen Wohnort abgestellt wird. Entscheidend für die Haltereigenschaft ist die tatsächliche und dauernde Verfügungsgewalt über das Fahrzeug [2]; die kantonale Behörde klärt diese nur in Zweifelsfällen ab [2].\n\n## Bund\n- Als Standort gilt der Ort, wo das Fahrzeug nach Gebrauch in der Regel für die Nacht abgestellt wird [1].\n- Der Wohnsitz des Halters gilt als Standort, wenn das Fahrzeug während der Woche ausserhalb des Wohnsitzkantons verwendet und durchschnittlich mindestens zweimal im Monat über das Wochenende im Wohnsitzkanton untergebracht wird [1]; oder wenn es in verschiedenen Kantonen je weniger als neun zusammenhängende Monate verwendet wird; oder wenn die Standortdauer innerhalb und ausserhalb des Wohnsitzkantons gleich ist [1].\n- Die Haltereigenschaft beurteilt sich nach den tatsächlichen Verhältnissen; als Halter gilt, wer die tatsächliche und dauernde Verfügungsgewalt über das Fahrzeug besitzt und es in seinem Interesse oder auf seine Kosten gebraucht oder gebrauchen lässt [2].\n- Die kantonale Behörde klärt die Haltereigenschaft nur in Zweifelsfällen ab, namentlich wenn der Versicherungsnachweis nicht auf den Bewerber um den Fahrzeugausweis lautet, wenn der Bewerber keinen Führerausweis besitzt oder bei Geschäftsfahrzeugen, die einem Arbeitnehmer zur Verfügung stehen [2].\n\n## Kanton Luzern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Luzern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas kantonale Gesetz regelt die Steuerpflicht für Fahrzeuge mit luzernischen Kontrollschildern, ergänzt aber nicht die bundesrechtlichen Voraussetzungen für die Ausstellung oder Änderung des Fahrzeugausweises; diese richten sich allein nach der tatsächlichen Haltereigenschaft und dem Standort nach der VZV [1][2].\n\n## Nächste Schritte\n- Prüfen Sie anhand von Art. 77 VZV, ob sich der Standort geändert hat: Das Fahrzeug muss nach Gebrauch in der Regel am neuen Ort für die Nacht abgestellt werden [1].\n- Falls Zweifel an der Haltereigenschaft bestehen (z. B. Versicherungsnachweis nicht auf Sie lautend, kein Führerausweis oder Geschäftsfahrzeug für einen Arbeitnehmer), wenden Sie sich an die kantonale Zulassungsbehörde (Strassenverkehrsamt des Kantons Luzern), damit diese die tatsächlichen Verhältnisse im Zweifelsfall abklärt [2].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2781,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; keine Rechtsgrundlage für diese konkrete Prüfanweisung im VZV",
+     "Keine Quelle zitiert; VZV Art. 78 Abs. 2 verlangt nur Abklärung in Zweifelsfällen, nicht generelle Klärung durch Antrag; kantonale Zuständigkeit ist korrekt, aber keine Rechtsgrundlage für diese spezifische Empfehlung ohne Zweifel genannt"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 3055,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1525,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed VZV Art. 77 Standort",
+   "[2] fed VZV Art. 78 Halter",
+   "[3] can LU 776 § 1",
+   "[4] can LU 776 § 2"
+  ]
+ },
+ {
+  "id": "T020",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 2,
+  "total_s": 62.4,
+  "plan_s": 5.8,
+  "ttft_s": null,
+  "words": 174,
+  "citations": 0,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLes sources fournies ne contiennent aucune règle spécifique sur l'utilisation des trottinettes électriques sur les trottoirs à Neuchâtel. Aucune interdiction ni autorisation n'est établie dans les textes consultés.\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Commune de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa Confédération ne contient pas de disposition spécifique sur l'utilisation des trottinettes électriques sur les trottoirs. Cette matière relève de la compétence cantonale et communale, mais aucune règle cantonale ou communale n'a été trouvée dans les sources fournies.\n\n## Prochaines étapes  \n- S'adresser à la Police cantonale de Neuchâtel (autorité compétente en matière de circulation routière) pour obtenir les prescriptions locales applicables aux trottinettes électriques sur les trottoirs de la commune de Neuchâtel.  \n- Consulter le règlement communal de police de la Ville de Neuchâtel (disponible sur le site officiel de la commune) afin de vérifier s'il existe une interdiction ou une dérogation spécifique concernant les trottinettes électriques sur les trottoirs.  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 2904,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source pertinente n'a été fournie pour étayer cette affirmation spécifique sur l'interdiction ou l'autorisation des trottinettes électriques sur les trottoirs à Neuchâtel.",
+     "Les sources fournies (art. 5 et art. 915 CC) sont des dispositions générales sur la compétence cantonale et le gage mobilier, et ne contiennent aucune règle spécifique sur les trottinettes électriques.",
+     "Les sources fournies sont des articles généraux du Code civil (art. 5 et art. 915) qui ne traitent pas spécifiquement de la circulation des trottinettes électriques.",
+     "Cette recommandation ne repose sur aucune source citée et ne constitue pas une règle juridique mais un conseil pratique."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 0,
+    "raw_chars": 68,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 0,
+    "raw_chars": 68,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 5,
+  "sources": [
+   "[1] fed CC Art. 5",
+   "[2] fed CC Art. 915"
+  ]
+ },
+ {
+  "id": "T024",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 76.0,
+  "plan_s": 7.3,
+  "ttft_s": null,
+  "words": 304,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEine Untervermietung ist grundsätzlich nur mit Zustimmung des Vermieters zulässig [1]. Der Vermieter kann die Zustimmung verweigern, wenn der Mieter die Untermietbedingungen nicht bekanntgibt, diese missbräuchlich sind oder dem Vermieter wesentliche Nachteile entstehen [1]. Der Mieter haftet gegenüber dem Vermieter dafür, dass der Untermieter die Sache nicht anders gebraucht, als es dem Mieter selbst gestattet ist [1]. Der Kündigungsschutz des Untermieters richtet sich nach dem Zweck der Untermiete; bei Umgehungsabsicht besteht Kündigungsschutz unabhängig vom Hauptmietverhältnis [2].\n\n## Bund\n- Zustimmung des Vermieters erforderlich [1].\n- Vermieter kann die Zustimmung verweigern, wenn:\n  - der Mieter sich weigert, dem Vermieter die Bedingungen der Untermiete bekanntzugeben [1];\n  - die Bedingungen der Untermiete im Vergleich zu denjenigen des Hauptmietvertrags missbräuchlich sind [1];\n  - dem Vermieter aus der Untermiete wesentliche Nachteile entstehen [1].\n- Der Mieter haftet dem Vermieter dafür, dass der Untermieter die Sache nicht anders gebraucht, als es dem Mieter selbst gestattet ist [1].\n- Kündigungsschutz des Untermieters: Gilt für die Dauer des Hauptmietverhältnisses; bezweckt die Untermiete hauptsächlich die Umgehung der Vorschriften über den Kündigungsschutz, so wird dem Untermieter ohne Rücksicht auf das Hauptmietverhältnis Kündigungsschutz gewährt [2]; wird das Hauptmietverhältnis gekündigt, so tritt der Vermieter anstelle des Mieters in den Vertrag mit dem Untermieter ein [2].\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht regelt die Untermiete abschliessend; kantonale oder kommunale Vorschriften sind nicht ersichtlich und ergänzen die bundesrechtlichen Regeln nicht.\n\n## Nächste Schritte\n- Zustimmung des Vermieters einholen und die Bedingungen der Untermiete schriftlich festhalten [1].\n- Bei Verweigerung der Zustimmung die gesetzlichen Verweigerungsgründe prüfen (bekanntgegebene Bedingungen, Missbräuchlichkeit, wesentliche Nachteile).\n- Falls ein Streit entsteht, kann eine Schlichtungsstelle für Mietangelegenheiten angerufen werden; die Zuständigkeit und das Verfahren richten sich nach kantonalem Recht (keine einschlägige Quelle in den vorliegenden Dokumenten).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2828,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; handelt es sich um eine Schlussfolgerung aus den gesetzlichen Verweigerungsgründen, nicht um eine wörtliche Wiedergabe aus einer Quelle.",
+     "Keine Quelle zitiert; die Zuständigkeit und das Verfahren richten sich nach kantonalem Recht, welches nicht in den vorliegenden Bundesquellen enthalten ist."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 1805,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 1805,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 23,
+  "sources": [
+   "[1] fed OR Art. 262",
+   "[2] fed OR Art. 273b",
+   "[3] can BE 153.01 Art. 53",
+   "[4] cas BGE 134 III 300 2008-01-01",
+   "[5] cas BGE 134 III 446 2008-01-01"
+  ]
+ },
+ {
+  "id": "T028",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 2,
+  "total_s": 71.2,
+  "plan_s": 7.4,
+  "ttft_s": null,
+  "words": 165,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nKleine Reparaturen muss der Mieter selbst auf eigene Kosten nach dem Ortsgebrauch beseitigen [1]. Der kantonale Leerwohnungsbestand beeinflusst lediglich die Formularpflicht beim Mietvertragsabschluss [2], nicht die Kostentragung für kleine Reparaturen.\n\n## Bund  \nDer Mieter muss Mängel, die durch kleine, für den gewöhnlichen Unterhalt erforderliche Reinigungen oder Ausbesserungen behoben werden können, nach Ortsgebrauch auf eigene Kosten beseitigen [1].\n\n## Kanton Luzern  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Luzern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDer Bund regelt die Kostentragung für kleine Reparaturen direkt; kantonale oder kommunale Vorschriften ergänzen dies nicht.\n\n## Nächste Schritte  \n- Ermitteln Sie den Ortsgebrauch Ihrer Gemeinde, um zu bestimmen, welche Arbeiten als „kleine Reinigungen und Ausbesserungen“ gelten (Definition nicht in den bereitgestellten Quellen enthalten).  \n- Informieren Sie sich beim Regierungsrat des Kantons Luzern oder bei der kantonalen Statistikstelle über den Leerwohnungsbestand per 1. Juni [2]; die jeweils aktuelle Statistik wird von der kantonalen Statistikstelle ermittelt und vom Regierungsrat veröffentlicht (Veröffentlichungskanal nicht in den Quellen spezifiziert).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1991,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Der zitierte kantonale Artikel regelt die Formularpflicht bei Vertragsabschluss in Abhängigkeit vom Leerwohnungsbestand, nicht die Kostentragung für Reparaturen.",
+     "Keine Quelle zitiert.",
+     "Keine Quelle zitiert; zudem enthält die Aussage eine inhaltliche Unschärfe (Formularpflicht hängt vom Leerwohnungsbestand ab, aber die Formulierung suggeriert eine aktuelle Pflicht ohne Angabe des aktuellen Bestands)."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1679,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine spezifische Quelle zitiert; Definition des Ortsgebrauchs ist nicht in den bereitgestellten Quellen enthalten.",
+     "Keine Quelle zitiert, die diese Information liefert."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1711,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Definition von „kleine Reinigungen und Ausbesserungen“ nach Ortsgebrauch ist in den bereitgestellten Quellen nicht enthalten.",
+     "Die Quellen enthalten keine Aussage darüber, wo die Statistik veröffentlicht wird."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 14,
+  "sources": [
+   "[1] fed OR Art. 259",
+   "[2] can LU 200 § 94"
+  ]
+ },
+ {
+  "id": "T032",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 2,
+  "total_s": 43.7,
+  "plan_s": 6.2,
+  "ttft_s": null,
+  "words": 210,
+  "citations": 5,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nSecondo l'art. 329a CO [1], hai diritto ad almeno quattro settimane di vacanza all'anno se hai più di 20 anni, oppure ad almeno cinque settimane se hai fino a 20 anni compiuti. Per un anno di lavoro incompleto, le vacanze sono calcolate in proporzione alla durata effettiva del rapporto di lavoro nell'anno considerato.\n\n## Confederazione  \n- Per lavoratori con più di 20 anni: almeno quattro settimane di vacanza all'anno [1].  \n- Per lavoratori fino a 20 anni compiuti: almeno cinque settimane di vacanza all'anno [1].  \n- In caso di anno di lavoro incompleto: le vacanze sono proporzionate alla durata del rapporto di lavoro nell'anno considerato [1].\n\n## Cantone Ticino  \nNessuna fonte pertinente recuperata.\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale [1] si applica direttamente; cantone e comune non hanno introdotto disposizioni divergenti su questo tema.\n\n## Prossimi passi  \n- Verifica il tuo contratto individuale di lavoro per eventuali diritti più estesi rispetto al minimo legale.  \n- Rivolgiti al datore di lavoro per concordare le date di fruizione delle vacanze, secondo quanto previsto dal CO.  \n- In caso di controversia sul diritto alle vacanze, contatta un sindacato o un avvocato specializzato in diritto del lavoro.\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1259,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1003,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1003,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 13,
+  "sources": [
+   "[1] fed CO Art. 329a",
+   "[2] cas BGE 129 III 664 2003-01-01"
+  ]
+ },
+ {
+  "id": "T036",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 2,
+  "total_s": 71.2,
+  "plan_s": 4.1,
+  "ttft_s": null,
+  "words": 189,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nEin Anspruch auf einen 13. Monatslohn entsteht nur, wenn er im Arbeitsvertrag ausdrücklich vereinbart ist. Beendet das Arbeitsverhältnis vor dem vereinbarten Auszahlungszeitpunkt (z. B. vor Weihnachten oder Geschäftsjahresende), hat der Arbeitnehmer Anspruch auf einen verhältnismässigen Teil der Sondervergütung, vorausgesetzt die Auszahlung war vertraglich vorgesehen [1].\n\n## Bund  \n- Der Arbeitnehmer hat Anspruch auf eine Sondervergütung (13. Monatslohn), wenn dies im Arbeitsvertrag vereinbart ist [1].  \n- Endigt das Arbeitsverhältnis vor dem vereinbarten Anlass zur Ausrichtung der Sondervergütung, so steht dem Arbeitnehmer ein verhältnismässiger Teil dieser Vergütung zu, sofern die Auszahlung vertraglich vereinbart war [1].\n\n## Kanton Bern  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nKantonale oder kommunale Vorschriften ergänzen die bundesrechtliche Regelung nicht; Art. 49 BV bestimmt, dass Bundesrecht vorgeht.\n\n## Nächste Schritte  \n- Prüfen Sie Ihren Arbeitsvertrag auf eine explizite Vereinbarung eines 13. Monatslohns (Handlungshinweis).  \n- Bei Beendigung des Arbeitsverhältnisses vor dem vereinbarten Auszahlungszeitpunkt: Fordern Sie schriftlich den verhältnismässigen Teil der Sondervergütung und verweisen Sie auf die vertragliche Vereinbarung (praktischer Hinweis).  \n- Falls keine vertragliche Regelung vorliegt: Es besteht kein Anspruch auf einen 13. Monatslohn [1].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2297,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Der OR Art. 322d Abs. 1 statuiert einen Anspruch des Arbeitnehmers auf die Sondervergütung, wenn sie verabredet ist. Die Formulierung im ANSWER („Der Arbeitgeber muss … ausrichten“) weicht von der gesetzlichen Formulierung („hat der Arbeitnehmer einen Anspruch darauf, wenn es verabredet ist“) ab und stellt eine unzulässige Umkehr der Anspruchsberechtigten dar."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 3264,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; OR Art. 322d setzt eine vertragliche Vereinbarung voraus, sagt aber nicht explizit, dass ohne Vereinbarung kein Anspruch besteht (implizit, aber nicht als eigenständige Aussage belegt)",
+     "Keine Rechtsquelle zitiert; ist eine Handlungshinweis, keine Rechtsaussage",
+     "Keine Rechtsquelle zitiert; ist ein praktischer Rat, keine Rechtsnorm",
+     "Keine Rechtsquelle zitiert; OR Art. 322d setzt Vereinbarung voraus, sagt aber nicht explizit, dass ohne Vereinbarung kein Anspruch besteht (implizit, aber nicht belegt)"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1452,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed OR Art. 322d",
+   "[2] cas BGE 136 III 313 2010-01-01"
+  ]
+ },
+ {
+  "id": "T040",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 51.6,
+  "plan_s": 4.3,
+  "ttft_s": null,
+  "words": 352,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, votre employeur peut résilier le contrat de travail avec effet immédiat s’il existe de justes motifs au sens de l’art. 337 CO [1]. La résiliation doit être motivée par écrit si vous le demandez. En l’absence de justes motifs, l’employeur doit vous verser une indemnité pouvant aller jusqu’à six mois de salaire [2], ainsi que le salaire dû jusqu’à l’échéance du délai de congé ou jusqu’à la fin du contrat de durée déterminée, sous déduction des économies réalisées et des revenus obtenus par ailleurs [2].\n\n## Confédération  \n- Résiliation immédiate possible en tout temps pour de justes motifs [1].  \n- La partie qui résilie doit motiver sa décision par écrit si l’autre partie le demande [1].  \n- Sont considérées comme justes motifs toutes les circonstances qui, selon les règles de la bonne foi, ne permettent pas d’exiger la continuation des rapports de travail [1].  \n- En cas de résiliation injustifiée, l’employeur doit payer le salaire dû jusqu’à l’échéance du délai de congé ou jusqu’à la fin du contrat de durée déterminée, sous déduction des économies et des revenus obtenus par ailleurs [2].  \n- Une indemnité supplémentaire peut être accordée par le juge, fixée librement mais ne dépassant pas six mois de salaire du travailleur [2].\n\n## Canton de Valais  \nAucune source pertinente récupérée.\n\n## Commune de Sion  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa loi fédérale (CO) règle directement les conditions et les conséquences du licenciement avec effet immédiat; le droit cantonal valaisan ne contient pas de dispositions spécifiques sur ce point.\n\n## Prochaines étapes  \n- Demander à l’employeur une motivation écrite de la résiliation immédiate si elle n’a pas été fournie [1].  \n- Dans les 30 jours suivant la notification de la décision de l’employeur, déposer une réclamation auprès du Service cantonal du travail [3].  \n- Si la réclamation est rejetée, interjeter recours auprès du Tribunal cantonal dans les 30 jours suivant la décision sur réclamation [3].  \n- Rassembler tous documents prouvant les revenus obtenus et les économies réalisées depuis la résiliation afin de calculer les déductions éventuelles [2].  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1531,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1531,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1031,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 16,
+  "sources": [
+   "[1] fed CO Art. 337",
+   "[2] fed CO Art. 337c",
+   "[3] can VS 822.1 Art. 67",
+   "[4] cas BGE 130 III 28 2004-01-01",
+   "[5] cas BGE 127 III 310 2001-03-30"
+  ]
+ },
+ {
+  "id": "T044",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 59.2,
+  "plan_s": 5.2,
+  "ttft_s": null,
+  "words": 244,
+  "citations": 10,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nAls Grenzgänger mit Erwerbstätigkeit in der Schweiz sind Sie grundsätzlich der schweizerischen Krankenversicherung unterstellt [1]. Sie können jedoch auf eigenes Gesuch hin von der Versicherungspflicht befreit werden, wenn Sie die bundesrechtlichen Voraussetzungen erfüllen [1][2]. Familienangehörige (Ehegatten und Kinder bis 18 Jahre bzw. bis 25 Jahre bei Ausbildung) werden auf Gesuch hin mitversichert [1][2].\n\n## Bund\n[1] Wer als Grenzgänger in der Schweiz eine Erwerbstätigkeit ausübt und dessen Familienangehörige im Ausland keine krankenversicherungspflichtige Erwerbstätigkeit ausüben, wird auf eigenes Gesuch hin der schweizerischen Versicherung unterstellt. Als Familienangehörige gelten Ehegatten sowie Kinder bis zum vollendeten 18. Altersjahr und Kinder bis zum vollendeten 25. Altersjahr, die sich in Ausbildung befinden [1].\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt die grundsätzliche Versicherungspflicht für Grenzgänger; der Kanton Bern konkretisiert die Durchführung und nimmt auf Gesuch hin Ausnahmen vor bzw. unterstellt Personen der Versicherungspflicht, wenn die bundesrechtlichen Voraussetzungen erfüllt sind [2]. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte\n1. Einreichung eines schriftlichen Gesuchs beim Amt für Sozialversicherungen (ASV) des Kantons Bern, wenn Sie von der Versicherungspflicht befreit werden möchten oder eine Unterstellung beantragen [2].\n2. Nach Erlass der Verfügung durch das ASV hat der zugewiesene Krankenversicherer den Anschluss spätestens 30 Tage zu bestätigen [3].\n3. Prüfen Sie, ob Sie die bundesrechtlichen Voraussetzungen für eine Befreiung erfüllen (z. B. bestehende Versicherung im Heimatland, die den schweizerischen Mindestanforderungen entspricht).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1912,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1912,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2021,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed KVV Art. 3 Grenzgänger und Grenzgängerinnen",
+   "[2] can BE 842.111.1 Art. 2",
+   "[3] can BE 842.111.1 Art. 3",
+   "[4] cas BGE 142 V 192 2016-01-01",
+   "[5] cas BGE 135 V 339 2009-01-01"
+  ]
+ },
+ {
+  "id": "T048",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 128.3,
+  "plan_s": 6.3,
+  "ttft_s": null,
+  "words": 408,
+  "citations": 16,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nWer für den eigenen Lebensunterhalt nicht hinreichend oder nicht rechtzeitig aus eigenen Mitteln aufkommen kann, hat Anspruch auf finanzielle Sozialhilfe [1]. Asylsuchende, vorläufig Aufgenommene und Schutzbedürftige erhalten einen reduzierten Anspruch [1]. Leistungen decken das soziale Existenzminimum unter Berücksichtigung der Lebenssituation und werden so bemessen, dass laufende Bedürfnisse gedeckt werden können [3]. Wohn- und Nebenkosten für anerkannte Flüchtlinge und vorläufig Aufgenommene werden grundsätzlich als Sachleistung ausgerichtet [2]; Geldleistungen sind nur in Ausnahmefällen zulässig, wenn dies der Integration dient und beide Gemeinden dem Wohnsitzwechsel zustimmen [2]. Flüchtlinge mit Landesverweisung erhalten ausschliesslich Nothilfe als Sachleistung [2]. Der Anspruch fällt dahin, wenn der Nachweis der Bedürftigkeit nicht erbracht wird [1bis].\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton St. Gallen\n- Anspruch auf finanzielle Sozialhilfe besteht, wenn die eigenen Mittel nicht ausreichen, um den Lebensunterhalt rechtzeitig zu decken [1].\n- Asylsuchende, vorläufig Aufgenommene und Schutzbedürftige nach der eidgenössischen Asylgesetzgebung erhalten einen reduzierten Anspruch [1].\n- Leistungen werden rechtzeitig gewährt und bei Bedarf mit betreuender Sozialhilfe verbunden [2].\n- Für Wohn- und Nebenkosten von anerkannten Flüchtlingen und vorläufig Aufgenommenen erfolgt die Ausrichtung grundsätzlich als Sachleistung [2]; Geldleistungen sind nur in Ausnahmefällen zulässig, wenn:\n  - dies dem Integrationsziel dient und\n  - die bisherige und die neue Wohnsitzgemeinde dem Wohnsitzwechsel zustimmen [2].\n- Flüchtlinge mit Landesverweisung werden von der Sozialhilfe ausgeschlossen; es wird ausschliesslich Nothilfe gewährt, die grundsätzlich als Sachleistung ausgerichtet wird [2].\n- Die Bemessung der finanziellen Sozialhilfe deckt das soziale Existenzminimum unter Berücksichtigung der Lebenssituation und ermöglicht die Deckung der laufenden Bedürfnisse aus eigenen Mitteln [3].\n- Der Anspruch auf finanzielle Sozialhilfe fällt dahin, wenn der Nachweis der Bedürftigkeit nicht erbracht wird [1bis].\n\n## Gemeinde St. Gallen\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas kantonale Sozialhilfegesetz konkretisiert den Anspruch und die Ausgestaltung der Leistungen für die Gemeinden St. Gallen; Art. 49 BV (Cst.) bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte\n- Wenden Sie sich an die Sozialhilfe der politischen Gemeinde Ihres Wohnsitzes [1].\n- Legen Sie Nachweise über Ihre Bedürftigkeit (Einkommen, Vermögen, Ausgaben) vor, da der Anspruch ohne diesen Nachweis dahin fällt [1bis].\n- Bei anerkannten Flüchtlingen und vorläufig Aufgenommenen: Beantragen Sie gegebenenfalls eine Ausnahme für eine Geldleistung für Wohnkosten nur, wenn beide Gemeinden dem Wohnsitzwechsel zustimmen und dies der Integration dient [2].\n- Prämien für die obligatorische Krankenpflegeversicherung: Melden Sie sich bei der Krankenkasse und der Gemeinde, um die tatsächlichen Prämien bis zum Wechsel zu einem günstigeren Versicherer berücksichtigt zu bekommen [3].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 11,
+    "raw_chars": 3216,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die Zuständigkeit der Gemeindebehörde",
+     "Keine Quelle zitiert für die Nachweispflicht"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 3169,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 3116,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 29,
+  "sources": [
+   "[1] can SG 381.1 Art. 9",
+   "[2] can SG 381.1 Art. 10",
+   "[3] can SG 381.1 Art. 11",
+   "[4] cas BGE 149 V 250 2023-01-01"
+  ]
+ },
+ {
+  "id": "T052",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 146.3,
+  "plan_s": 3.6,
+  "ttft_s": null,
+  "words": 405,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 5,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nWenn kein Testament vorliegt, erben die nächsten Verwandten nach den gesetzlichen Regeln des ZGB: Zuerst die Nachkommen (Kinder, Enkelkinder usw.), dann die Eltern, danach die Grosseltern und schliesslich das Gemeinwesen (Kanton oder Gemeinde). Der überlebende Ehegatte erhält je nach vorhandenen Erben die Hälfte, drei Viertel oder die ganze Erbschaft. Der Kanton Zürich verpflichtet den Staat, die Hälfte des Liquidationsergebnisses an die Gemeinde des letzten Wohnsitzes des Erblassers abzugeben, wenn dieser Zürcher Bürger war.\n\n## Bund  \n- **Nachkommen [1]:** Die nächsten Erben sind die Nachkommen des Erblassers (Kinder, Enkelkinder usw.). Sie erben zu gleichen Teilen [1].  \n- **Elterlicher Stamm [2]:** Fehlen Nachkommen, erben die Eltern je zur Hälfte [2]. An die Stelle vorverstorbener Eltern treten deren Nachkommen in allen Graden nach Stämmen.  \n- **Grosselterlicher Stamm [3]:** Fehlen Nachkommen und Erben des elterlichen Stammes, erben die Grosseltern je zur Hälfte; an die Stelle eines vorverstorbenen Grossvaters oder einer vorverstorbenen Grossmutter treten deren Nachkommen in allen Graden nach Stämmen [3].  \n- **Überlebender Ehegatte/Partner [4]:** Er erhält die Hälfte der Erbschaft, wenn er mit Nachkommen teilt; drei Viertel, wenn er mit Erben des elterlichen Stammes teilt; die ganze Erbschaft, wenn keine Erben des elterlichen Stammes vorhanden sind [4].  \n- **Gemeinwesen [5]:** Fehlen alle Erben, fällt die Erbschaft an den Kanton des letzten Wohnsitzes oder an die vom Kanton bezeichnete Gemeinde [5].\n\n## Kanton Zürich  \n- **Gemeinwesenanteil (ZH EG ZGB § 124):** Fällt die Erbschaft an den Kanton Zürich und war der Erblasser Bürger einer Gemeinde des Kantons Zürich, hat der Kanton die Hälfte des Liquidationsergebnisses an diese Gemeinde abzugeben [6].\n\n## Zusammenspiel der Ebenen  \nDer Kanton Zürich konkretisiert die Bundesregelung von Art. 466 ZGB, indem er bestimmt, dass bei einer Erbschaftsannahme durch den Kanton Zürich die Hälfte des Liquidationsergebnisses an die Gemeinde des letzten Wohnsitzes des Erblassers geht; Art. 49 BV (Cst.) gewährleistet dabei den Vorrang des Bundesrechts.\n\n## Nächste Schritte  \n- **Erbenermittlung:** Zuständigkeit richtet sich nach kantonalem Recht (z. B. Notariatsgesetz des Kantons Zürich); das zuständige Notariat oder Zivilstandsamt am letzten Wohnsitz des Erblassers prüft die gesetzliche Erbfolge anhand der Verwandtschaftsverhältnisse.  \n- **Erbschein beantragen:** Antrag beim zuständigen Notariat oder Zivilstandsamt; die Gebühr richtet sich nach der kantonalen Notariatsgebührenverordnung des Kantons Zürich (nicht in den vorliegenden Quellen enthalten).  \n- **Gemeinwesenanteil einfordern:** Zuständige Behörde ist das kantonale Erbschaftsamt (Abteilung Erbschafts- und Nachlasswesen); die Abwicklung und Auszahlung des Gemeindeanteils erfolgen nach § 124 EG ZGB (Bezeichnung und Zuständigkeit kantonal geregelt, nicht in den vorliegenden Quellen enthalten).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 11,
+    "raw_chars": 3620,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt das Notariat als zuständige Behörde für die Erbenermittlung; die Erbenermittlung erfolgt durch das Zivilstandsamt bzw. das zuständige Gericht/Notariat, aber die konkrete Zuständigkeit ist kantonal geregelt und nicht in den vorliegenden Quellen enthalten.",
+     "Die Gebühr ist nicht in den angegebenen Quellen enthalten und wird als Tatsache behauptet, ohne Nachweis.",
+     "Die konkrete Bezeichnung und Zuständigkeit der kantonalen Behörde ist nicht in den vorliegenden Quellen enthalten."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 13,
+    "raw_chars": 4066,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Quellen beziehen sich nur auf einzelne Artikel (457, 458, 459, 462, 466), nicht auf einen zusammenfassenden Artikel 457–466.",
+     "Die Zuständigkeit für die Erbenermittlung ist kantonal geregelt und nicht in den vorliegenden Quellen enthalten.",
+     "Die Gebührenordnung ist kantonal geregelt und nicht in den vorliegenden Quellen enthalten.",
+     "Die Bezeichnung und Zuständigkeit der kantonalen Behörde ist kantonal geregelt und nicht in den vorliegenden Quellen enthalten."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 11,
+    "raw_chars": 3461,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen enthält diese Aussage; die Zuständigkeit ist kantonal geregelt und nicht in den vorliegenden ZGB-Artikeln enthalten.",
+     "Keine der angegebenen Quellen enthält Gebühreninformationen; diese sind kantonal geregelt und nicht im ZGB enthalten.",
+     "Die Bezeichnung und Zuständigkeit der Behörde sind kantonal geregelt und nicht in den vorliegenden Quellen enthalten."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 35,
+  "sources": [
+   "[1] fed ZGB Art. 457",
+   "[2] fed ZGB Art. 458",
+   "[3] fed ZGB Art. 459",
+   "[4] fed ZGB Art. 462",
+   "[5] fed ZGB Art. 466",
+   "[6] can ZH 230 § 124",
+   "[7] cas BGE 80 II 200 1954-09-16"
+  ]
+ },
+ {
+  "id": "T056",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 99.4,
+  "plan_s": 6.2,
+  "ttft_s": null,
+  "words": 343,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour divorcer à l’amiable (divorce sur requête commune), les époux doivent déposer une requête commune accompagnée d’une convention complète sur les effets du divorce et de leurs conclusions communes relatives aux enfants, puis être entendus séparément et ensemble par le juge. Le juge s’assure que la volonté de divorcer et la convention ont été données après mûre réflexion et de plein gré, puis prononce le divorce. Les sources fournies ne précisent ni l’autorité compétente pour recevoir la requête, ni la liste des documents requis, ni les frais ou émoluments de la procédure.\n\n## Confédération  \n- Selon l’art. 111 CC [2], les époux qui demandent le divorce par une requête commune et produisent une convention complète sur les effets du divorce, accompagnée des documents nécessaires et de leurs conclusions communes relatives aux enfants, sont entendus séparément et ensemble par le juge.  \n- Le juge s’assure que la requête et la convention ont été déposées après mûre réflexion et de plein gré et que la convention et les conclusions relatives aux enfants peuvent être ratifiées [2].\n\n## Canton de Genève  \nAucune source pertinente récupérée.\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa Confédération fixe les conditions de forme et de fond du divorce sur requête commune [2]. Le canton de Genève n’ajoute pas de règle spécifique sur le divorce à l’amiable dans les documents fournis; la procédure s’applique directement selon le droit fédéral.\n\n## Prochaines étapes  \n- S’adresser au Tribunal civil de Genève pour déposer la requête commune en divorce et la convention complète, ainsi que les documents requis (autorité et liste non précisés dans les sources).  \n- S’informer auprès du Tribunal civil de Genève sur les éventuelles avances de frais ou émoluments applicables à la procédure de divorce à l’amiable (informations non contenues dans les sources fournies).  \n- Se présenter aux audiences d’audition séparée et conjointe fixées par le juge.  \n- Si les ressources sont insuffisantes, déposer une demande d’assistance judiciaire auprès du président du Tribunal civil de Genève [3].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 2105,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Les sources fournies ne contiennent aucune information sur les frais ou avances de frais pour le divorce à l’amiable; l’affirmation est donc non vérifiable et fausse dans sa formulation absolue.",
+     "Aucune source ne mentionne l’obligation de se renseigner auprès du greffe pour les frais; cette instruction n’est pas étayée."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 3097,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Les sources fournies ne contiennent aucune information sur les frais ou émoluments de la procédure de divorce sur requête commune. Les sources cantonales citées (art. 21 et art. 2) portent sur l'assistance judiciaire et les avances de frais en général, pas spécifiquement sur le divorce à l'amiable.",
+     "Le droit fédéral (art. 111 CC) ne précise pas l'autorité cantonale compétente pour recevoir la requête; il s'agit d'une information procédurale cantonale qui n'est pas dans les sources fournies.",
+     "Les sources fournies ne contiennent pas d'information spécifique sur les frais ou émoluments liés au divorce à l'amiable. Les sources cantonales citées traitent de l'assistance judiciaire et des avances de frais en général, pas spécifiquement pour cette procédure."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2722,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Les sources fournies ne contiennent aucune information sur les frais ou émoluments de la procédure de divorce à l’amiable.",
+     "Les sources fournies ne précisent pas l’autorité compétente pour recevoir la requête commune en divorce à Genève ni la liste des documents requis.",
+     "Les sources fournies ne contiennent aucune information sur les frais ou émoluments de la procédure de divorce à l’amiable."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 18,
+  "sources": [
+   "[1] fed CC Art. 112",
+   "[2] fed CC Art. 111",
+   "[3] can GE E 1 05 Art. 21",
+   "[4] can GE E 1 05.10 Art. 2",
+   "[5] cas BGE 131 III 182 2005-01-01",
+   "[6] cas BGE 136 III 353 2010-01-01"
+  ]
+ },
+ {
+  "id": "T060",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 55.2,
+  "plan_s": 4.8,
+  "ttft_s": null,
+  "words": 154,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEin Ehevertrag muss öffentlich beurkundet werden [1]. Er ist öffentlich zu beurkunden und muss von den vertragsschliessenden Personen sowie gegebenenfalls vom gesetzlichen Vertreter unterzeichnet werden [1].\n\n## Bund\n- Nach Art. 184 ZGB ist der Ehevertrag öffentlich zu beurkunden und von den vertragsschliessenden Personen sowie gegebenenfalls vom gesetzlichen Vertreter zu unterzeichnen [1].\n\n## Kanton Luzern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Luzern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht schreibt die öffentliche Beurkundung des Ehevertrags vor; kantonale oder kommunale Vorschriften ergänzen dies nicht, da keine einschlägigen kantonalen oder kommunalen Bestimmungen vorliegen.\n\n## Nächste Schritte\n- Wenden Sie sich an einen Notar oder eine Notarin mit kantonaler Beurkundungsbefugnis, um den Ehevertrag öffentlich beurkunden zu lassen.\n- Bringen Sie die Ausweisdokumente aller vertragsschliessenden Personen sowie gegebenenfalls die Vollmacht des gesetzlichen Vertreters mit.\n- Die vorliegenden Quellen nennen keine konkreten Gebühren; die Kostenfrage ist direkt beim Notar zu klären.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1171,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Kosten sind nicht Teil der gesetzlichen Formvorschrift."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1182,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Gebühren sind nicht im ZGB Art. 184 enthalten."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1132,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt Gebühren; dies ist eine unbelegte Aussage."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 12,
+  "sources": [
+   "[1] fed ZGB Art. 184",
+   "[2] can LU 255 § 2",
+   "[3] cas BGE 145 III 474 2019-01-01"
+  ]
+ },
+ {
+  "id": "T064",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 12,
+  "total_s": 87.8,
+  "plan_s": 5.9,
+  "ttft_s": null,
+  "words": 468,
+  "citations": 28,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve\nPer costruire una piscina nel giardino di una proprietà privata a Lugano è obbligatoria una licenza edilizia. La domanda va presentata al Municipio di Lugano con progetti firmati da un architetto o ingegnere iscritto all’albo OTIA e deve contenere le dimensioni, le distanze dal confine e le indicazioni richieste dal regolamento comunale. La procedura segue la notifica o la licenza ordinaria a seconda dell’impatto sul suolo e sulle opere di urbanizzazione; la licenza è pubblicata all’albo comunale e diventa definitiva trascorso il termine di 30 giorni dalla pubblicazione senza opposizioni.\n\n## Confederazione\nNessuna fonte pertinente recuperata.\n\n## Cantone Ticino\n[2] La licenza edilizia è necessaria per la costruzione di piscine familiari [2].\n[3] La licenza è concessa se i progetti sono conformi alle disposizioni di polizia delle costruzioni e di pianificazione del territorio [3].\n[4] La licenza è rilasciata dal Municipio, previo avviso del Dipartimento del territorio nei casi previsti [4].\n[6] La licenza è necessaria per la costruzione di piscine familiari [6].\n\n## Comune di Lugano\n[8] I piani devono indicare in particolare le dimensioni, le distanze dal confine e le misure delle scale, dei corrimano e delle finestre [8].\n[9] I piani devono essere in colore rosso per le opere nuove e in colore giallo per le parti non modificate; devono essere allegati un campione dei colori e le indicazioni richieste dal regolamento comunale [9].\n[10] Ogni indicazione e documento richiesto deve essere presente; il Municipio può chiedere integrazioni e, se necessario, imporre modifiche [10].\n[11] La licenza è pubblicata all’albo comunale e diventa definitiva trascorso il termine di 30 giorni dalla pubblicazione senza opposizioni [11].\n[12] Prima di iniziare i lavori il proprietario deve presentare al Municipio la data di inizio lavori e l’attestato di avvenuto controllo dei piani regolatori [12].\n\n## Interazione dei livelli\nIl Comune di Lugano integra le norme cantonali specificando i requisiti grafici e di contenuto dei piani (colori, campioni, indicazioni del regolamento) e la procedura di pubblicazione e controllo, mentre il Cantone Ticino stabilisce l’obbligo della licenza edilizia e l’autorità competente (Municipio, previo avviso del Dipartimento del territorio). Il diritto federale prevale su quello cantonale e comunale (Art. 49 Cost.).\n\n## Prossimi passi\n1. Preparare i piani in colore rosso per le opere nuove e giallo per le parti esistenti, allegando un campione dei colori e tutte le indicazioni richieste dal regolamento comunale [8][9].\n2. Far firmare i progetti da un architetto o ingegnere iscritto all’albo OTIA [2][4][5].\n3. Inoltrare la domanda di costruzione al Municipio di Lugano con la documentazione completa [4][5].\n4. Attendere la pubblicazione all’albo comunale e il termine di 30 giorni per eventuali opposizioni [11][12].\n5. Presentare al Municipio l’attestato di avvenuto controllo dei piani regolatori e la data di inizio lavori prima di avviare i lavori [12].\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 1005,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 1032,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 1032,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 9,
+  "sources": [
+   "[1] fed CC Art. 688",
+   "[2] can TI 705.100 Art. 1",
+   "[3] can TI 705.100 Art. 2",
+   "[4] can TI 705.100 Art. 3",
+   "[5] can TI 705.100 Art. 4",
+   "[6] can TI 705.110 Art. 4",
+   "[7] can TI 705.110 Art. 6",
+   "[8] com Lugano: 7.1.1 Regolamento edilizio della Città di Lugano del 16 dicembre 1963 Teil 10",
+   "[9] com Lugano: 7.1.1 Regolamento edilizio della Città di Lugano del 16 dicembre 1963 Teil 11",
+   "[10] com Lugano: 7.1.1 Regolamento edilizio della Città di Lugano del 16 dicembre 1963 Teil 12",
+   "[11] com Lugano: 7.1.1 Regolamento edilizio della Città di Lugano del 16 dicembre 1963 Teil 15",
+   "[12] com Lugano: 7.1.1 Regolamento edilizio della Città di Lugano del 16 dicembre 1963 Teil 16"
+  ]
+ },
+ {
+  "id": "T068",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 99.7,
+  "plan_s": 7.3,
+  "ttft_s": null,
+  "words": 151,
+  "citations": 6,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Quellen enthalten keine abschliessende Liste bewilligungsfreier Bauten. Nach Art. 23 RPG [2] regelt das kantonale Recht Ausnahmen innerhalb der Bauzonen; das kantonale Gesetz [3] sieht grundsätzlich eine Bewilligungspflicht vor. Die Gemeinde Aarau erweitert diese Pflicht in der BNO [4] für bestimmte Zonen und Objekte, ohne jedoch eine Liste bewilligungsfreier Bauten zu definieren.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Aargau\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Aarau\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKeine der abgerufenen Bestimmungen enthält eine konkrete Aufzählung bewilligungsfreier Bauten; das Bundesrecht verweist auf kantonale Ausnahmen [2], die hier nicht vorliegen, und das kantonale sowie das kommunale Recht sehen eine Bewilligungspflicht vor bzw. erweitern diese [3][4].\n\n## Nächste Schritte\n- Fragen Sie die Baubewilligungsbehörde der Stadt Aarau nach der aktuellen kantonalen Liste bewilligungsfreier Bauten sowie den spezifischen Erweiterungen der Bewilligungspflicht in der Bau- und Nutzungsordnung (BNO) der Gemeinde Aarau.\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1570,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Quellen enthalten keine abschliessende Liste bewilligungsfreier Bauten, sondern verweisen auf kantonale Regelungen oder legen die Bewilligungspflicht fest. Die Aussage, dass keine Liste vorliegt, ist korrekt, aber keine Rechtsregel.",
+     "Dies ist kein Rechtsatz, sondern eine Handlungsempfehlung."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 1859,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "This is a statement of the general rule that contradicts the question about exemptions; no source supports this as an exception or exemption rule.",
+     "This is a procedural recommendation, not a legal rule."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1723,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "This sentence is a direct quote from source [1], but it is presented as a statement of fact in the answer without citation, and the answer itself denies that the sources contain such a list. The answer contradicts this rule by stating \"Die bereitgestellten Quellen enthalten keine abschliessende Liste bewilligungsfreier Bauten.\"",
+     "This is a procedural recommendation, not a legal rule. It is not supported by any cited source and constitutes advice rather than a statement of legal fact."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed RPG Art. 22 Baubewilligung",
+   "[2] fed RPG Art. 23 Ausnahmen innerhalb der Bauzonen",
+   "[3] can AG 713.100 § 59",
+   "[4] com Aarau: 7.1-1 Bau- und Nutzungsordnung (BNO) § 71",
+   "[5] cas BGE 129 II 63 2003-01-01"
+  ]
+ },
+ {
+  "id": "T072",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 63.9,
+  "plan_s": 3.5,
+  "ttft_s": null,
+  "words": 354,
+  "citations": 7,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nIn der Stadt Bern muss Ihr Hund an der Leine geführt werden in öffentlichen Gebäuden, dem eintrittsfreien Teil des Tierparks, dem öffentlichen Raum gemäss Anhang 1 der Hundeverordnung, den Park- und Grünanlagen gemäss Anhängen 2 und 3 sowie auf städtischen Friedhöfen. Zusätzlich gelten kantonal die Leinenpflichten auf Schulanlagen, öffentlichen Spiel- und Sportplätzen, in öffentlichen Verkehrsmitteln, an Bahnhöfen/Haltestellen und auf bestossenen Weiden. Ausnahmen sind nur im Einzelfall und bei wirksamer Kontrolle möglich; bissige Hunde müssen generell einen Maulkorb tragen [2][4].\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Bern\n- Nach Art. 7 Abs. 1 Hundegesetz BE muss ein Hund an der Leine geführt werden, wenn keine andere wirksame Kontrollmöglichkeit besteht (lit. a), auf Schulanlagen, öffentlichen Spiel- und Sportplätzen (lit. b), in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen (lit. c), beim Betreten von bestossenen Weiden (lit. d) oder auf Anordnung im Einzelfall (lit. e) [2].\n- Gemeinden überwachen die Einhaltung und können weitere Orte bezeichnen, an denen Hunde an der Leine zu führen sind [2].\n- Ausnahmen von der Leinenpflicht können die Gemeinden in Einzelfällen bewilligen [2].\n- Hunde müssen einen Maulkorb tragen, wenn sie bissig sind (lit. a) oder es im Einzelfall angeordnet wurde (lit. b) [2].\n\n## Gemeinde Bern\n- Zusätzlich zu den kantonalen Pflichten muss ein Hund in der Stadt Bern an der Leine geführt werden in öffentlichen Gebäuden der Stadt Bern (lit. a), im eintrittsfreien Teil des Tierparks (lit. b), im öffentlichen Raum gemäss Plan im Anhang 1 (lit. c), in den öffentlichen Park- und Grünanlagen gemäss Anhängen 2 und 3 (lit. d) sowie auf städtischen Friedhöfen (lit. e) [4].\n\n## Zusammenspiel der Ebenen\nDas kantonale Hundegesetz legt die allgemeinen Leinenpflichten fest, während die Stadt Bern diese Pflichten durch die Hundeverordnung konkretisiert und auf weitere städtische Bereiche ausdehnt; Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen und kommunalen Recht vorgeht.\n\n## Nächste Schritte\n- Prüfen Sie den Plan im Anhang 1 sowie die Anhänge 2 und 3 der Hundeverordnung der Stadt Bern, um die genau definierten öffentlichen Räume zu identifizieren.\n- Bei Unsicherheit wenden Sie sich an die Stadtpolizei Bern (Kompetente Behörde für Ausnahmen und Einzelfallentscheide).\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1475,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine Gebühr oder bestätigt, dass ein formloser Antrag erforderlich ist; dies ist eine unbelegte Zusatzinformation."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 992,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 992,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 10,
+  "sources": [
+   "[1] fed ZGB Art. 651a",
+   "[2] can BE 916.31 Art. 7",
+   "[3] can BE 551.1 Art. 75",
+   "[4] com Bern: 559.61 Verordnung über das Halten von Hunden (Hundeverordnung; HV) Art. 3"
+  ]
+ },
+ {
+  "id": "T076",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 10,
+  "total_s": 151.4,
+  "plan_s": 5.2,
+  "ttft_s": null,
+  "words": 788,
+  "citations": 22,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nDans le canton de Fribourg, les taxes sur les déchets se composent d’une taxe de base et d’une taxe proportionnelle (au sac). La taxe de base, fixée chaque année par le Conseil communal lors de l’adoption du budget communal [8], ne dépasse pas Fr. 150.-- par contribuable et couvre la collecte, le transport et les infrastructures sélectives. La taxe proportionnelle dépend du volume du sac imposé par la commune, avec des tarifs maximaux de Fr. 1.50 pour un sac de 17 litres, Fr. 2.50 pour 35 litres, Fr. 4.00 pour 60 litres et Fr. 7.50 pour 110 litres, arrêtés annuellement par le Conseil communal [9]. Des exonérations ou réductions existent pour les sociétés holding dont le siège est hors commune (sauf si elles disposent de locaux ou de personnel propres sur le territoire communal) [10], les institutions sans but lucratif sans immeubles/installations en ville ni les couvents, les homes et résidents domiciliés à Fribourg, ainsi que pour les personnes âgées de 65 ans ou plus ou impotentes au sens de la LAI, pour qui l’émolument de collecte à domicile des déchets encombrants est exonéré jusqu’à Fr. 50.-- maximum [10].\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Fribourg  \nAucune source pertinente récupérée.\n\n## Commune de Fribourg  \n- Art. 23 Loi sur la gestion des déchets [3] : la taxe couvre au moins 70 % des frais d’élimination des déchets urbains, dont au moins la moitié proportionnelle à la quantité de déchets (volume ou poids).  \n- Art. 24 Loi sur la gestion des déchets [4] : pour couvrir les frais d’élimination des déchets particuliers, le règlement communal peut prévoir une taxe perçue au moment où ces déchets sont livrés auprès d’une installation communale.  \n- Art. 25 Loi sur la gestion des déchets [5] : l’Etat peut percevoir une taxe anticipée cantonale pour les déchets particuliers, dont le montant sert exclusivement à couvrir les frais effectifs d’élimination.  \n- Art. 23 Règlement concernant la gestion des déchets [7] : la taxe d’élimination se compose d’une taxe de base et d’une taxe proportionnelle (taxe au sac).  \n- Art. 24 Règlement concernant la gestion des déchets [8] : la taxe de base est affectée à la couverture des frais de collecte, transport et infrastructures sélectives; elle est fixée au maximum à Fr. 150.-- par contribuable et arrêtée chaque année par le Conseil général lors de l’adoption du budget.  \n- Art. 25 Règlement concernant la gestion des déchets [9] : la taxe au sac est en fonction de la capacité du sac imposé par la commune; les tarifs maximaux sont de Fr. 1.50 pour 17 litres, Fr. 2.50 pour 35 litres, Fr. 4.00 pour 60 litres et Fr. 7.50 pour 110 litres; le Conseil communal arrête ces montants chaque année lors de l’adoption du budget.  \n- Directive en matière de gestion des déchets [10] : exonération de la taxe pour les sociétés holding dont le siège est hors commune, sauf si elles disposent de locaux ou de personnel propres sur le territoire communal; taxe réduite de 50 % en cas de remise d’impôts; pas de taxe pour les institutions sans but lucratif (clubs, fondations notamment) sans immeubles ou installations en ville ni pour les couvents; taxe perçue pour les homes et résidents domiciliés à Fribourg; exonération de l’émolument de collecte à domicile des déchets encombrants pour les personnes âgées de 65 ans ou plus ou impotentes au sens de la LAI; cet émolument est fixé au maximum à Fr. 50.--.\n\n## Articulation des niveaux  \nLa loi cantonale sur la gestion des déchets [3][4][5] fixe les principes de couverture des coûts et les compétences communales, tandis que le règlement communal [7][8][9] et la directive [10] précisent les modalités de calcul (taxe de base et taxe au sac), les tarifs maximaux, les exonérations et les autorités compétentes (Conseil communal, Direction des Finances, Direction de l’Edilité), le tout dans le respect du droit fédéral (Art. 49 Cst.).\n\n## Prochaines étapes  \n- Pour connaître le montant exact de la taxe de base et de la taxe au sac pour l’année en cours, consulter le budget communal adopté par le Conseil communal de Fribourg [8].  \n- Pour les déchets particuliers, se renseigner auprès de l’installation communale compétente sur la taxe perçue au moment de la livraison [4].  \n- En cas d’exonération ou de réduction (société holding, institution sans but lucratif, personne âgée ou impotente), adresser une demande écrite à la Direction des Finances de la Commune de Fribourg, en joignant les justificatifs requis (statuts, domicile, décision AI) [10].  \n- Pour la collecte à domicile des déchets encombrants, contacter la Direction de l’Edilité de la Commune de Fribourg pour vérifier l’éligibilité à l’exonération de l’émolument de Fr. 50.-- maximum [10].  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1292,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 3125,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette information spécifique (montant exact de l'année en cours)."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3527,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour le budget communal en vigueur",
+     "Pas de source citée pour l’installation communale compétente",
+     "Pas de source citée pour la procédure d’exonération ou l’autorité compétente",
+     "Pas de source citée pour la Direction de l’Edilité ou l’émolument de Fr. 50.--"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed CC Art. 5",
+   "[2] fed CC Art. 915",
+   "[3] can FR 810.2 Art. 23",
+   "[4] can FR 810.2 Art. 24",
+   "[5] can FR 810.2 Art. 25",
+   "[6] com Fribourg: Règlement concernant la gestion des déchets Art. 22",
+   "[7] com Fribourg: Règlement concernant la gestion des déchets Art. 23",
+   "[8] com Fribourg: Règlement concernant la gestion des déchets Art. 24",
+   "[9] com Fribourg: Règlement concernant la gestion des déchets Art. 25",
+   "[10] com Fribourg: Directive en matière de gestion des déchets Teil 2"
+  ]
+ },
+ {
+  "id": "T080",
+  "lang": "de",
+  "loc": "6330 Cham",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 107.7,
+  "plan_s": 7.3,
+  "ttft_s": null,
+  "words": 261,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür ein Reklameschild in Cham (ZG) ist grundsätzlich eine Bewilligung der zuständigen Gemeindebehörde erforderlich. Ausnahmen gelten nur für Angebotstafeln bei Detailhandelsgeschäften, Gastwirtschafts- und Landwirtschaftsbetrieben (nur während Geschäftsöffnungszeiten, keine Sichtzonenbeeinträchtigung, mind. 1.5 m Durchgangsbreite), Eigenreklamen an Sonnenstorenvolants von max. 25 cm Höhe sowie unbeleuchtete Einzeltafeln von 0.2 m² Fläche im Bereich des Geschäftseingangs.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zug\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Cham\n- Nach § 3 Abs. 1 des Reklamereglements Cham sind alle Reklamen bewilligungspflichtig [4].\n- Ausgenommen sind:\n  - Angebotstafeln beim Eingang zu Detailhandelsgeschäften, Gastwirtschafts- und Landwirtschaftsbetrieben, wenn sie nur während der Geschäftsöffnungszeiten aufgestellt werden, keine Sichtzonen beeinträchtigen und den Fussgängerverkehr nicht behindern (mind. Durchgangsbreite 1.5 m) [4];\n  - Eigenreklamen an Volants von Sonnenstoren mit max. 25 cm Höhe [4];\n  - Unbeleuchtete Einzeltafeln von 0.2 m² Fläche im Bereich des Geschäftseingangs [4].\n\n## Zusammenspiel der Ebenen\nDas Bundesgesetz über die Raumplanung (RPG) verlangt eine Bewilligung für Bauten und Anlagen; das kantonale Planungs- und Baugesetz des Kantons Zug konkretisiert die Bewilligungspflicht (§ 44), während die Gemeinde Cham im Reklamereglement die spezifischen Ausnahmen für Reklamen festlegt; Art. 49 BV regelt die allgemeine Normenhierarchie zwischen Bundes-, kantonalem und kommunalem Recht.\n\n## Nächste Schritte\n- Einreichung eines Bewilligungsgesuchs bei der Baubewilligungsbehörde der Gemeinde Cham (§ 44 Planungs- und Baugesetz ZG).\n- Prüfung anhand der Ausnahmen gemäss § 3 Abs. 1 des Reklamereglements Cham, ob Ihr Schild einer Ausnahme unterliegt.\n- Klärung der konkreten Anforderungen (z. B. Durchgangsbreite, Maße, Beleuchtung) direkt bei der Gemeinde Cham, da die vorliegenden Quellen keine Gebühren oder Fristen nennen.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2488,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt § 44 PBG ZG oder bestätigt diese spezifische Formulierung.",
+     "Keine Quelle zitiert Art. 49 BV oder bestätigt diese spezifische Aussage im Kontext.",
+     "Die Quellen enthalten keine Aussage darüber, dass Gebühren oder Fristen fehlen; es wird lediglich nicht zitiert."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 3004,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (1, 2, 3, 4) enthält diese spezifische Aussage zur Hierarchie der Ebenen und zum Art. 49 BV. Die Quellen behandeln lediglich die Bewilligungspflicht und Ausnahmen, nicht die Verfassungsrangfolge.",
+     "Keine der Quellen nennt die zuständige Behörde oder den konkreten Vorgehensweg für ein Gesuch.",
+     "Keine der Quellen nennt Gebühren oder Fristen; die Aussage, dass die Quellen diese nicht nennen, ist korrekt, aber die Empfehlung, dies bei der Gemeinde zu klären, ist eine Handlungshinweis ohne Quellenbeleg."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3339,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (1, 2, 3, 4) enthält eine Aussage des RPG, die eine generelle Bewilligungspflicht für Reklameschilder festlegt. Art. 22 RPG verlangt eine Bewilligung für Bauten und Anlagen, nicht spezifisch für Reklamen.",
+     "Keine der angegebenen Quellen enthält Art. 49 BV. Zudem ist die Aussage im Kontext der Hierarchie von Reklameregelungen nicht korrekt wiedergegeben; Art. 49 BV regelt die Normenhierarchie allgemein, nicht spezifisch die Vorrangigkeit von Reklameregelungen.",
+     "Die Quellen enthalten keine Informationen zu Gebühren oder Fristen, aber die Aussage, dass die Quellen keine Gebühren oder Fristen nennen, ist korrekt. Allerdings ist die Aussage als eigenständige Regelung ohne Zitat ein unbegründeter Zusatz, der als Claim behandelt wird. Die Frage nach Gebühren/Fristen wurde nicht gestellt."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed RPG Art. 22 Baubewilligung",
+   "[2] fed RPG Art. 23 Ausnahmen innerhalb der Bauzonen",
+   "[3] can ZG 721.11 § 44",
+   "[4] com Cham: 7.6-2 Reklamereglement § 3"
+  ]
+ },
+ {
+  "id": "T084",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 180.7,
+  "plan_s": 7.0,
+  "ttft_s": null,
+  "words": 889,
+  "citations": 31,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nChi deteriora, distrugge o rende inservibile una cosa altrui è punibile a querela di parte con pena detentiva fino a tre anni o pena pecuniaria [1]; se il danno è considerevole o il reato avviene in un pubblico assembramento, si procede d’ufficio e la pena detentiva può arrivare fino a cinque anni [1]. Il danneggiato può chiedere al giudice l’assegnazione al danneggiato della pena pecuniaria, della multa, degli oggetti confiscati o del ricavo della loro realizzazione (dedotte le spese), delle pretese di risarcimento e dell’importo della cauzione preventiva già pagata dal condannato [2]. Se il danno è stato causato da un agente pubblico nell’esercizio delle sue funzioni, l’ente pubblico risponde illimitatamente verso il terzo [4]; il danneggiato non ha azione contro l’agente pubblico [4]. Per informazione erronea l’ente pubblico risponde solo in caso di dolo o negligenza grave dell’agente e se l’incompetenza non fosse riconoscibile [5]. In caso di morte o lesione corporale, l’ente pubblico può essere obbligato a versare un’equa indennità pecuniaria e, se vi è colpa dell’agente e la gravità lo giustifica, anche una somma a titolo di riparazione morale [6]. Per lesione della personalità si può chiedere risarcimento del danno e, in caso di colpa dell’agente e gravità della lesione, una somma a titolo di riparazione morale [7].\n\n## Confederazione  \n- Per danneggiamento di una cosa altrui, il reo è punibile a querela di parte con pena detentiva fino a tre anni o pena pecuniaria [1].  \n- Se il danneggiamento avviene in occasione di un pubblico assembramento, si procede d’ufficio e la pena detentiva può essere fino a cinque anni [1].  \n- In caso di crimine o delitto con danno non coperto da assicurazione e presumibilmente non risarcito dall’autore, il giudice assegna al danneggiato, su richiesta, fino all’importo del risarcimento o dell’indennità per torto morale stabiliti giudizialmente o transattivamente: la pena pecuniaria o la multa pagata dal condannato; gli oggetti e beni confiscati o il ricavo della loro realizzazione, dedotte le spese; le pretese di risarcimento; l’importo della cauzione preventiva prestata [2].  \n- Il giudice può ordinare tali assegnamenti solo se il danneggiato cede allo Stato la relativa quota del suo credito [2].\n\n## Cantone Ticino  \n- L’ente pubblico risponde del danno cagionato illecitamente a terzi da un agente pubblico nell’esercizio delle sue funzioni, senza riguardo alla colpa dell’agente [4].  \n- Il danneggiato non ha azione contro l’agente pubblico [4].  \n- Per il danno a seguito di informazione erronea l’ente pubblico risponde solo in caso di dolo o negligenza grave dell’agente pubblico e se l’incompetenza dell’agente non fosse riconoscibile [5].  \n- Nel caso di morte o lesione corporale, l’ente pubblico può essere obbligato a versare un’equa indennità pecuniaria a titolo di riparazione e, se vi è colpa dell’agente e la gravità lo giustifica, anche una somma a titolo di riparazione morale [6].  \n- Chi è illecitamente leso nella sua personalità può chiedere il risarcimento del danno e, in caso di colpa dell’agente e quando la gravità della lesione lo giustifichi, anche il pagamento di una somma a titolo di riparazione morale [7].\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale stabilisce le sanzioni penali per il danneggiamento e le modalità di assegnamento al danneggiato; i Cantoni prevedono procedure semplificate per gli assegnamenti non possibili nella sentenza penale [2]. Il Cantone Ticino disciplina la responsabilità civile degli enti pubblici e degli agenti pubblici per danni causati a terzi nell’esercizio delle funzioni, prevedendo la responsabilità illimitata dell’ente pubblico e limitazioni all’azione diretta contro l’agente, nonché regole specifiche per informazione erronea, morte, lesioni corporali e lesione della personalità [4][5][6][7]. Pertanto, per il danneggiamento di proprietà privata si applica direttamente il diritto penale federale; eventuali aspetti di responsabilità dell’ente pubblico si valutano secondo le norme cantonali generali fornite.\n\n## Prossimi passi  \n- Presentare querela penale all’autorità di polizia o al pubblico ministero competente per il luogo del reato [1]; la querela deve indicare il danneggiato, la cosa danneggiata, il danno e le circostanze del reato [1].  \n- In caso di danno considerevole o reato commesso in un pubblico assembramento, l’autorità procede d’ufficio senza necessità di querela [1].  \n- Per ottenere l’assegnamento al danneggiato della pena pecuniaria, della multa, degli oggetti confiscati o del ricavo della loro realizzazione, delle pretese di risarcimento o della cauzione preventiva, presentare domanda al giudice penale competente entro i termini della procedura penale [2]; la domanda deve essere motivata e indicare l’importo richiesto [2].  \n- Se il danno è stato causato da un agente pubblico nell’esercizio delle sue funzioni, rivolgersi all’ente pubblico competente (es. Comune di Lugano, Cantone Ticino o ente federale) per chiedere il risarcimento secondo la Legge sulla responsabilità civile degli enti pubblici e degli agenti pubblici del Cantone Ticino [4]; allegare documentazione del danno e prova del nesso causale.  \n- In caso di informazione erronea da parte di un agente pubblico, documentare la negligenza grave o il dolo e rivolgersi all’ente pubblico competente per un’azione di responsabilità [5].  \n- Per morte o lesione corporale con colpa dell’agente pubblico, presentare richiesta di indennità pecuniaria e riparazione morale all’ente pubblico competente, producendo certificati medici e prove della colpa [6].  \n- Per lesione della personalità, inoltrare istanza al giudice civile competente per ottenere risarcimento del danno e, se giustificato, riparazione morale [7]; allegare elementi probatori della lesione e della colpa dell’agente.\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2261,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 16,
+    "raw_chars": 5027,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La frase non cita alcuna fonte e non è una norma giuridica; è un consiglio procedurale non tratto dai testi normativi forniti."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 16,
+    "raw_chars": 5032,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La frase non cita alcuna fonte e non è una norma giuridica; è un'indicazione procedurale generica non supportata dai testi forniti."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 40,
+  "sources": [
+   "[1] fed CP Art. 144",
+   "[2] fed CP Art. 73",
+   "[3] can TI 166.100 Art. 3",
+   "[4] can TI 166.100 Art. 4",
+   "[5] can TI 166.100 Art. 6",
+   "[6] can TI 166.100 Art. 10",
+   "[7] can TI 166.100 Art. 11",
+   "[8] cas BGE 128 IV 250 2002-01-01",
+   "[9] cas BGE 123 IV 113 1997-06-20"
+  ]
+ },
+ {
+  "id": "T088",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 77.7,
+  "plan_s": 9.2,
+  "ttft_s": null,
+  "words": 471,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte\nLa diffamation [1] consiste à accuser une personne ou à jeter sur elle le soupçon d’une conduite contraire à l’honneur ou d’un fait propre à porter atteinte à sa considération, ou à propager une telle accusation ou un tel soupçon, en s’adressant à un tiers. Elle est punie d’une peine pécuniaire sur plainte. L’auteur n’est pas admis à prouver la vérité si ses allégations ont été formulées sans intérêt public ni motif suffisant, principalement pour nuire. Il est exempté de peine s’il prouve la vérité ou la tient de bonne foi pour vraie; sinon, il est punissable et le juge peut atténuer la peine ou y renoncer si l’auteur reconnaît la fausseté et la rétracte.\n\n## Confédération\n- Art. 173 CP [1]: Quiconque, en s’adressant à un tiers, accuse une personne ou jette sur elle le soupçon de tenir une conduite contraire à l’honneur, ou de tout autre fait propre à porter atteinte à sa considération, ou propage une telle accusation ou un tel soupçon, est, sur plainte, puni d’une peine pécuniaire.\n- Conditions d’exemption de peine: l’auteur prouve que ses allégations sont conformes à la vérité ou qu’il a des raisons sérieuses de les tenir de bonne foi pour vraies [1].\n- Conditions d’inadmissibilité à la preuve: si les allégations ont été articulées ou propagées sans égard à l’intérêt public ou sans autre motif suffisant, principalement dans le dessein de dire du mal d’autrui, notamment lorsqu’elles ont trait à la vie privée ou à la vie de famille, l’auteur n’est pas admis à faire la preuve de la vérité et est punissable [1].\n- Rétractation: si l’auteur reconnaît la fausseté de ses allégations et les rétracte, le juge peut atténuer la peine ou renoncer à prononcer une peine [1].\n\n## Canton de Neuchâtel\nAucune source pertinente récupérée.\n\n## Commune de Neuchâtel\nAucune source pertinente récupérée.\n\n## Articulation des niveaux\nLe droit fédéral [1] fixe les conditions et la sanction de la diffamation; le canton de Neuchâtel et la commune de Neuchâtel n’ont pas ajouté de règles spécifiques sur ce point dans les sources fournies. Le droit fédéral prévaut conformément à l’art. 49 Cst.\n\n## Prochaines étapes\n- Déposer une plainte pénale auprès de la police ou du ministère public compétent dans le canton de Neuchâtel, en décrivant précisément les propos diffamatoires, la date, le tiers destinataire et les moyens de preuve disponibles [1].\n- Rassembler tous les éléments de preuve (messages, captures d’écran, témoignages) permettant de démontrer la vérité des allégations ou de prouver la bonne foi, ou de démontrer le dessein de nuire et l’absence d’intérêt public [1].\n- Si l’auteur souhaite éviter une condamnation, préparer une rétractation écrite et la présenter au juge, en expliquant les circonstances de la fausse accusation et en s’engageant à ne pas réitérer [1].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1471,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1380,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2860,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 16,
+  "sources": [
+   "[1] fed CP Art. 173",
+   "[2] fed CP Art. 174",
+   "[3] fed CP Art. 177",
+   "[4] fed CP Art. 178",
+   "[5] cas BGE 137 IV 313 2011-01-01",
+   "[6] cas BGE 132 IV 112 2006-01-01"
+  ]
+ },
+ {
+  "id": "T092",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 86.9,
+  "plan_s": 9.2,
+  "ttft_s": null,
+  "words": 527,
+  "citations": 20,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve\nPer un contribuente residente nel Canton Ticino, le deduzioni fiscali ammesse includono: spese di trasporto dal domicilio al luogo di lavoro (deduzione massima stabilita dal Consiglio di Stato), spese supplementari per pasti fuori domicilio o lavoro a turni (deduzione complessiva fissata dal Consiglio di Stato), altre spese professionali necessarie (deduzione complessiva di CHF 3'500, con possibilità di giustificare importi superiori), ammortamenti e accantonamenti aziendali per attività indipendente [5], nonché spese di formazione e riqualificazione professionale del personale. Se l'attività lucrativa dipendente è esercitata per meno di 6 mesi all'anno o con un grado di occupazione inferiore al 50%, le deduzioni per trasporto e pasti sono dimezzate [3].\n\n## Confederazione\nNessuna fonte pertinente recuperata.\n\n## Cantone Ticino\n- Per attività lucrativa dipendente [3]: le spese professionali deducibili comprendono trasporto, pasti fuori domicilio/turni e altre spese necessarie. Per trasporto e pasti sono previste deduzioni complessive entro limiti fissati dal Consiglio di Stato; per altre spese professionali è ammessa una deduzione complessiva di CHF 3'500, con possibilità di giustificare importi superiori. Se l'attività è esercitata per meno di 6 mesi all'anno o con occupazione inferiore al 50%, tali deduzioni sono dimezzate [3].\n- Per attività lucrativa indipendente [4]: sono deducibili le spese aziendali e professionali giustificate, tra cui ammortamenti e accantonamenti secondo gli art. 27 e 28 LT-TI, perdite effettive sul patrimonio aziendale allibrate, versamenti a istituzioni previdenziali (esclusa utilizzazione contraria allo scopo), interessi su debiti commerciali e sulle partecipazioni, spese di formazione e riqualificazione professionale del personale, nonché sanzioni finalizzate al prelievo dell'utile illecito (se non penali). Non sono deducibili retribuzioni corruttive, spese per reati, multe, pene pecuniarie e sanzioni amministrative con carattere penale (salvo eccezioni per sanzioni estere contrarie all'ordine pubblico svizzero o per conformità non ragionevolmente esigibile) [4].\n- Ammortamenti per attività indipendente [5]: ammessi per attivi giustificati dall'uso commerciale, calcolati in base al valore effettivo o alla durata d'utilizzo. Per nuovi investimenti dell'anno, sono ammessi ammortamenti accelerati con tasso doppio rispetto a quello ordinario [5].\n- Accantonamenti per attività indipendente [6]: ammessi a carico del conto profitti e perdite per impegni indeterminati, rischi di perdite su merci/debitori e altri rischi imminenti. Gli accantonamenti degli anni precedenti sono aggiunti al reddito imponibile nella misura in cui non sono più giustificati [6].\n\n## Comune di Lugano\nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli\nIl diritto federale (LIFD) stabilisce i principi generali per le deduzioni professionali; il Canton Ticino (LT-TI) precisa gli importi massimi, le deduzioni forfettarie e le regole specifiche per ammortamenti e accantonamenti nell'ambito dell'imposizione cantonale, che prevalgono in virtù dell'art. 49 Cost. [1][3][4][5][6].\n\n## Prossimi passi\n- Per attività dipendente: conservare giustificativi per spese di trasporto, pasti e altre spese professionali; verificare i limiti fissati dal Consiglio di Stato per il trasporto e i pasti, come previsto dall'art. 25 LT-TI [3].\n- Per attività indipendente: tenere una contabilità regolare per giustificare ammortamenti, accantonamenti e altre spese aziendali, in conformità agli art. 27 e 28 LT-TI [4][5][6].\n- Per informazioni specifiche sui massimali cantonali: contattare l'Ufficio di tassazione competente del Canton Ticino per chiarimenti sui limiti di deduzione per trasporto e pasti, in base all'art. 25 LT-TI [3].\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 3681,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questa indicazione procedurale",
+     "nessuna fonte citata per queste indicazioni contabili",
+     "nessuna fonte citata per questa indicazione procedurale"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 1,
+    "raw_chars": 891,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 1,
+    "raw_chars": 891,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 10,
+  "sources": [
+   "[1] fed LIFD Art. 197 Ripartizione tra i Cantoni",
+   "[2] fed LIFD Art. 26",
+   "[3] can TI 640.100 Art. 25",
+   "[4] can TI 640.100 Art. 26",
+   "[5] can TI 640.100 Art. 27",
+   "[6] can TI 640.100 Art. 28"
+  ]
+ },
+ {
+  "id": "T096",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 81.8,
+  "plan_s": 13.4,
+  "ttft_s": null,
+  "words": 234,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nUm Rechtsvorschlag gegen einen Zahlungsbefehl zu erheben, erklären Sie dies sofort dem Überbringer oder innerhalb von zehn Tagen nach Zustellung schriftlich oder mündlich dem zuständigen Betreibungsamt. Eine Begründung ist nicht erforderlich; bei teilweiser Bestreitung muss der exakt bestrittene Betrag angegeben werden, sonst gilt die gesamte Forderung als bestritten. Der Rechtsvorschlag bewirkt die Einstellung der Betreibung, kann jedoch für den unbestrittenen Teil fortgesetzt werden [1][4].\n\n## Bund\n- Frist und Form: Rechtsvorschlag ist sofort dem Überbringer oder innert zehn Tagen nach der Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären [1].\n- Teilweise Bestreitung: Bestreitet der Betriebene die Forderung nur teilweise, hat er den bestrittenen Betrag genau anzugeben; unterlässt er dies, gilt die ganze Forderung als bestritten [1].\n- Begründung: Der Rechtsvorschlag bedarf keiner Begründung. Wer ihn trotzdem begründet, verzichtet damit nicht auf weitere Einreden [2].\n\n## Kanton Basel-Stadt\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Basel\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKanton und Gemeinde ergänzen das Bundesrecht im Schuldbetreibungs- und Konkursrecht nicht; Art. 49 BV sieht vor, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte\n- Erheben Sie den Rechtsvorschlag sofort gegenüber dem Überbringer oder innerhalb von zehn Tagen nach Zustellung schriftlich oder mündlich beim zuständigen Betreibungsamt [1].\n- Bei teilweiser Bestreitung geben Sie den exakt bestrittenen Betrag an [1].\n- Für die auf Verlangen gebührenfreie Bescheinigung des Rechtsvorschlags wenden Sie sich an das Betreibungsamt [1].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2102,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die Nennung des 'zuständigen Betreibungsamts' (keine Angabe, welches Amt gemeint ist)."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1265,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "SchKG Art. 265"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1931,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Art. 82 SchKG (Schuldanerkennung) und Art. 265 SchKG (neues Vermögen) sind nicht die gleichen Normen. Die Einrede des neuen Vermögens betrifft die Fortsetzung der Betreibung nach Ausstellung eines Verlustscheins (Art. 265), nicht den Rechtsvorschlag gegen den Zahlungsbefehl selbst. Die Verwirkung der Einrede des neuen Vermögens ist in Art. 77 SchKG geregelt, nicht in Art. 265."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed SchKG Art. 74",
+   "[2] fed SchKG Art. 75",
+   "[3] fed SchKG Art. 76",
+   "[4] fed SchKG Art. 78",
+   "[5] can BS 230.100 § 33",
+   "[6] cas BGE 108 III 6 1982-03-03",
+   "[7] cas BGE 98 III 27 1972-04-26",
+   "[8] fed SchKG Art. 265"
+  ]
+ },
+ {
+  "id": "T100",
+  "lang": "en",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 72.8,
+  "plan_s": 6.8,
+  "ttft_s": null,
+  "words": 394,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 8"
+  ],
+  "prose_left": 1,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Short answer\nNo. The landlord may only keep the deposit if you owe rent or damage beyond normal wear and tear and the claim is legally enforced (court order or enforceable payment order). The maximum deposit for residential rent is three months’ rent, and the landlord must keep it on a separate account in your name; the bank may only release it with your consent or a final court order. If the landlord does not assert a claim within one year after the lease ends, you may demand the deposit back from the bank.\n\n## Federal level\n[1] A landlord may retain a security deposit only if the tenant owes rent or damage beyond normal wear and tear and the claim is legally enforced (court order or enforceable payment order). The deposit must be placed on a bank account or securities account in the tenant’s name. For residential rent, the landlord may demand at most three months’ rent as security. The bank may only release the deposit with the consent of both parties or on the basis of a final and enforceable payment order or court judgment. If the landlord does not assert a claim against the tenant within one year after the lease ends, the tenant may demand the return of the deposit from the bank.\n\n## Canton Bern\nNo relevant source retrieved.\n\n## Commune Bern\nNo relevant source retrieved.\n\n## How the levels fit together\nFederal law [1] sets the maximum deposit amount and the bank’s release conditions; cantonal or communal rules may supplement administrative fees or procedures, but they cannot override these federal limits; Art. 49 BV (Cst.) establishes federal law’s precedence.\n\n## Next steps\n- Keep copies of all written communications with the landlord that specify the deposit amount and any claimed deductions (standard evidentiary practice under Art. 8 ZGB and Art. 257e OR).\n- If the landlord does not initiate legal action within one year after the lease ends, contact the bank where the deposit is held and request its return, citing the one‑year limitation under Art. 257e OR [1].\n- If the landlord claims deductions, request a written, itemized justification for each deduction; if the deduction is disputed, file a claim with the competent civil court (Regionalgericht) to enforce your right to the deposit (general civil procedure rules applicable under the ZPO).\n\n*Legal information, not legal advice.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2922,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No source supports this statement; Art. 49 BV is not cited and the claim about cantonal supplementation of deposit rules is not substantiated by any provided source.",
+     "No source supports this procedural advice; it is not a legal rule.",
+     "No source supports this procedural advice; no source cited for this step."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 2298,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No source cited for this procedural advice.",
+     "No source cited for the requirement of written itemized justification or the procedure before the Regionalgericht."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1802,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No source cited for this procedural rule; Art. 8 ZGB and Art. 257e OR do not contain this specific instruction.",
+     "No source cited for this procedural advice; the cited sources do not contain details on how to demand itemized justifications or file claims with a Regionalgericht."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed OR Art. 257e",
+   "[2] can BE 211.1 Art. 73",
+   "[3] can BE 211.1 Art. 73a",
+   "[4] cas BGE 151 III 538 2025-01-01"
+  ]
+ }
+]

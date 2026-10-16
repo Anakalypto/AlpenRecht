@@ -4,6 +4,7 @@ from pathlib import Path
 from flask import Flask, Response, jsonify, request, send_from_directory
 
 from . import apertus
+from . import cache
 from . import config
 from . import pipeline
 from . import sources
@@ -64,23 +65,26 @@ def ask():
     if not question:
         return jsonify({"error": "empty question"}), 400
     events = pipeline.run(question, body.get("location", ""), body.get("asof") or None,
-                          body.get("lang", ""), body.get("uploads", []))
-    return Response(pipeline.sse(events), mimetype="text/event-stream",
+                          body.get("lang", ""), body.get("uploads", []), body.get("history", []))
+    return Response(cache.stream(pipeline.sse(events)), mimetype="text/event-stream",
                     headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 
 @app.post("/api/upload")
 def upload():
     try:
-        if request.files.get("file"):
-            f = request.files["file"]
-            doc = uploads.add_file(f.filename, f.read())
-        else:
-            doc = uploads.add_url((request.get_json(force=True) or {}).get("url", "").strip())
+        with cache.in_use():
+            if request.files.get("file"):
+                f = request.files["file"]
+                doc = uploads.add_file(f.filename, f.read())
+            else:
+                doc = uploads.add_url((request.get_json(force=True) or {}).get("url", "").strip())
     except Exception as e:
         return jsonify({"error": str(e)}), 400
     return jsonify({"id": doc["id"], "name": doc["name"], "articles": len(doc["articles"]), "chars": doc["chars"]})
 
 
 def main():
+    if not config.KEEP_CACHE:
+        cache.clear()  # leftovers of an earlier run
     app.run(host=config.HOST, port=config.PORT, debug=False, threaded=True)

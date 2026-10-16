@@ -405,7 +405,9 @@ def _annexes(text):
 def split_articles(text):
     """Cantonal/communal texts come as PDFs: cut at 'Art. 12', 'Article 3', '§ 5' line starts, and at annex/tariff
     headings. Long pieces (tariff tables) are kept in several parts instead of being truncated."""
-    arts = _split_articles(text)
+    arts = []
+    for a in _split_articles(text):
+        arts += _tariff_items(a)
     out = []
     for a in arts:
         body = a["text"]
@@ -418,6 +420,38 @@ def split_articles(text):
                         "path": a["path"], "text": part if i == 0 else f"{a['number']} (…) {part}"})
             if i + ART_MAX >= len(body):
                 break
+    return out
+
+
+# A numbered item heading inside a tariff table: "4.9 Parkkartengebühren", "4.9 164  165  Parkkartengebühren"
+# (footnote numbers in between), "2.1 Hundetaxe". Two levels only: deeper items stay with their section.
+_TARIFF_ITEM = re.compile(r"(?m)^[ \t]*(\d{1,2}\.\d{1,2})(?:[ \t]+\d{1,3}){0,3}[ \t]*(?:\n[ \t]*\d{1,3})?[ \t]+"
+                          r"([A-ZÄÖÜÉÈ][^\n]{2,70})$")
+
+
+def _tariff_items(art):
+    """Long annexes and tariff tables are cut at their numbered items, so "4.9 Parkkartengebühren … pro Jahr 264.00"
+    is a source of its own instead of the middle of a 20-page "Tarif" block."""
+    label = art["number"]
+    if len(art["text"]) < 1500:
+        return [art]
+    heads = [m for m in _TARIFF_ITEM.finditer(art["text"]) if not re.search(r"\d{3,}\s*$", m.group(2))]
+    if re.match(r"(?i)\s*(?:art|§|artikel|articolo)", label):
+        # An "article" is only a tariff table in disguise when a stray "Art. 4" line inside the table started it
+        # (Bern's fee regulation): very long, several numbered items, and amounts throughout.
+        amounts = len(re.findall(r"\d[\d' ]*[.,]\d{2}\b|\d+\.[–-]", art["text"]))
+        if not (len(art["text"]) > 6000 and len(heads) >= 4 and amounts >= 15):
+            return [art]
+    if len(heads) < 2:
+        return [art]
+    # Items of a disguised table are labelled "Tarif 4.9 …", not "Art. 28 4.9 …" (which would pass for Art. 28).
+    base = "Tarif" if re.match(r"(?i)\s*(?:art|§)", label) else re.sub(r"\s*\(\d+\)$", "", label)
+    out = [] if heads[0].start() < 200 else [dict(art, text=art["text"][:heads[0].start()])]
+    for i, m in enumerate(heads):
+        end = heads[i + 1].start() if i + 1 < len(heads) else len(art["text"])
+        title = re.sub(r"\s+", " ", m.group(2)).strip()[:50]
+        out.append({"number": f"{base} {m.group(1)} {title}", "path": art.get("path", ""),
+                    "text": f"{base} {m.group(1)} {title}\n" + art["text"][m.end():end].strip()})
     return out
 
 
@@ -452,7 +486,9 @@ def _split_articles(text):
             number = m.group(0).strip() if m else chunk[:8]
         if re.search(r"\.{5,}|…{2,}|(?:\. ){4,}", chunk[:200]) and len(chunk) < 250:
             continue  # table-of-contents line ("Art. 35 Grabesruhe ........ 12"), the real article comes later
-        arts.append({"number": number, "path": "", "text": chunk[:12000]})
+        # No cut here: long chunks (tariff tables) are split into items and parts by split_articles; a 12,000-character
+        # cut lost the second half of Bern's fee tariff, parking-card fees included.
+        arts.append({"number": number, "path": "", "text": chunk[:150000]})
     return arts
 
 

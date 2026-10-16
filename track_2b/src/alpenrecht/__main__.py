@@ -20,8 +20,8 @@ def main(argv=None):
         from .app import main as serve
         serve()
         return
-    from . import pipeline
-    for ev in pipeline.run(a.question, a.place, a.asof, a.lang, []):
+    from . import cache, pipeline
+    for ev in cache.stream(pipeline.run(a.question, a.place, a.asof, a.lang, [])):
         if a.json:
             print(json.dumps(ev, ensure_ascii=False), flush=True)
         elif ev["type"] == "step" and ev["status"] != "running":

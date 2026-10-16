@@ -25,6 +25,11 @@ PYTHONPATH=src .venv/Scripts/python.exe -m alpenrecht serve
 `swiss-ai/Apertus-v1.5-8B` is about 2× faster. `LLM_BASE_URL` / `LLM_NAME` can point at any OpenAI-compatible
 Apertus endpoint, including a local vLLM. Without a key, retrieval still runs and the app shows the sources only.
 
+| Setting (env or `.env`) | Default | Effect |
+|---|---|---|
+| `HISTORY_MESSAGES` | `6` | Conversation memory: the planner sees this many earlier messages of the chat, so a follow-up ("and in Geneva?") is searched as the full question. `0` turns it off. |
+| `KEEP_CACHE` | off | `cache/` (downloaded law texts, crawls) is emptied whenever no question is running; uploads are kept. `1` keeps it between questions (faster repeats). |
+
 ## How it works
 
 ```
@@ -48,7 +53,8 @@ question + place + date
 | `src/alpenrecht/communal.py`, `cities.py` | commune website crawler, TLex, readers for Zürich, Geneva, Basel, Lausanne, Bern |
 | `src/alpenrecht/caselaw.py` | entscheidsuche.ch: Apertus-written queries, ≤ 2 leading cases (BGE) |
 | `src/alpenrecht/verify.py`, `checks.py` | relevance filter, fact-check and rewrite, citation checks |
-| `src/alpenrecht/apertus.py`, `config.py` | OpenAI-compatible client with retries; settings (`LLM_*` / `APERTUS_*`) |
+| `src/alpenrecht/apertus.py`, `config.py` | OpenAI-compatible client with retries; settings (`LLM_*` / `APERTUS_*`, `HISTORY_MESSAGES`, `KEEP_CACHE`) |
+| `src/alpenrecht/cache.py` | empties `cache/` when the last running question finishes |
 | `src/alpenrecht/app.py`, `web/` | Flask server and the UI (DE/FR/IT/RM/EN, citation hover, level map) |
 | `data/` | commune → website table (2,142 communes, from Wikidata) |
 | `eval/` | benchmarks: question sets, runner (`accuracy_run.py`), results |

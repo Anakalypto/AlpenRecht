@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 from . import apertus
 from . import caselaw
 from . import checks
+from . import config
 from . import sources
 from . import uploads
 from . import communal
@@ -73,6 +74,13 @@ assault/slap art. 126, damage to property art. 144, complaint deadline 3 months 
 Data protection: duty to inform DSG art. 19, data breach art. 24, right of access art. 25; private video surveillance
 → DSG art. 6, 30-31. Consumer: doorstep sales OR art. 40a-40f; warranty OR art. 197-210. Debt enforcement: SchKG (SR 281.1;
 objection art. 74). Taxes: DBG/LIFD deductions art. 26-33a + cantonal tax law; wealth tax → cantonal tax law, StHG art. 13-14.
+Fees, fines and amounts ("combien coûte", "wie viel kostet", "Gebühr", "émolument", "Busse") sit in fee ordinances and
+their annexes: debt-collection extracts and acts → SR 281.35 (GebV SchKG; register extract art. 12a); passports and
+identity cards → SR 143.11 (VAwG/OLDI; fees art. 45 + annex 1); naturalisation fees → SR 141.01 (BüV art. 25);
+fixed traffic fines (speeding, parking) → SR 314.11 (OBV/OAO, annex 1 lists each fine in CHF); driving-licence and
+vehicle fees → cantonal fee law; general federal fees → SR 172.041.1 (AllgGebV). For dog taxes, waste
+fees, parking cards and grave concessions the amount is cantonal or communal: say so in the levels and use the
+cantonal/communal title terms "Gebühr", "Tarif", "Taxe", "émolument", "tariffa", "tassa".
 Never return empty lists: every Swiss legal question has at least one relevant federal act and search terms.
 Same word, different subject: "permis" can mean a driving licence (SR 741.01), a building permit (SR 700) or a residence
 permit (SR 142.20); choose the one the question means.
@@ -114,6 +122,12 @@ ANSWER_PROMPT = """Rules:
   "{h_next}", must appear in a cited source. If the sources give no deadline or fee, do not guess one: say it is not in
   the sources. Copy figures exactly (a rate "‰" is per mille, not percent; a minimum is not a maximum; a statute of
   limitation is not a deadline for filing a complaint).
+- FEES AND AMOUNTS. When the question asks what something costs, the short answer starts with the amount(s) exactly as
+  the source writes them, with the unit and basis (per year, per dog, per m², per hour, per 35-litre bag, excl. VAT)
+  and each category or bracket the table lists (e.g. house vs flat, first vs second dog). Read tariff tables and
+  annexes ("Anhang", "Annexe", "Tarif") line by line. If the source gives only a range or a ceiling (e.g. "Fr. 150 to
+  300", "at most the actual costs"), give that range or ceiling and say who sets the exact amount. If no amount is in
+  the sources, say so and name the document that would contain it (e.g. the commune's fee tariff).
 - Paraphrase faithfully: "may/kann/peut/può" stays optional, a rule for one category (e.g. public employees,
   fast e-bikes, joint adoption) is not presented as the general rule.
 - When the rule differs by situation (EU/EFTA vs other nationals, tenant vs owner, employee vs employer, private
@@ -166,6 +180,15 @@ HEADINGS = {
 }
 
 MAX_FED_ACTS = 5
+# Main act → the ordinance that holds its fees or fines (amounts are in the latter, often in an annex).
+FEE_ACTS = {"281.1": "281.35", "741.01": "314.11", "741.11": "314.11", "314.1": "314.11", "141.0": "141.01",
+            "143.1": "143.11", "142.20": "142.209", "142.201": "142.209", "210": "172.042.110", "211.112.2": "172.042.110",
+            "741.51": "314.11"}
+# Question words → fee ordinance, for when the planner names no act (folded text: no accents).
+FEE_WORDS = [(r"\bbusse|\bamende|\bmulta|ordnungsbuss|amende d.ordre", "314.11"),
+             (r"betreibung|poursuite|esecuzion", "281.35"),
+             (r"passeport|reisepass|\bpass\b|identitatskarte|carte d.identite|passaporto|carta d.identita", "143.11"),
+             (r"naturalis|einburger|naturalizz", "141.01")]
 VERIFY_ROUNDS = 3
 MAX_CAN_TEXTS = 3
 PER_ACT = 4
@@ -307,8 +330,39 @@ def _fallback_plan(question, location):
             "communal_keywords": words, "competence": "", "fallback": True}
 
 
-def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
-    """Generator of events for the UI: step / plan / location / sources / token / done / error."""
+HISTORY_PREFIX = """EARLIER CONVERSATION (oldest first). Use it only to understand the new question: if the new question is a
+follow-up ("and for cats?", "what about Geneva?", "how long does it take?"), clarified_question must be the full,
+self-contained question it stands for, and every list must be about that question.
+
+{turns}
+
+"""
+
+
+def history_block(history, limit=None):
+    """The last `limit` messages of the chat ([{role, content}], oldest first) as a prompt prefix; "" when none."""
+    limit = config.HISTORY_MESSAGES if limit is None else limit
+    msgs = []
+    for m in history or []:
+        if not isinstance(m, dict) or m.get("role") not in ("user", "assistant"):
+            continue
+        text = str(m.get("content") or "").strip()
+        if m["role"] == "assistant":  # citation numbers and the disclaimer mean nothing outside their own answer
+            text = re.sub(r"\[\d+\]", "", text)
+            text = re.sub(r"(?m)^\*[^*\n]+\*\s*$", "", text).strip()
+        if text:
+            msgs.append((m["role"], text[:1500] + (" …" if len(text) > 1500 else "")))
+    msgs = msgs[-limit:] if limit > 0 else []
+    if not msgs:
+        return ""
+    return HISTORY_PREFIX.format(turns="\n\n".join(f"{'User' if r == 'user' else 'Alpenrecht'}: {t}" for r, t in msgs))
+
+
+def run(question, location_text="", asof=None, lang_hint="", upload_ids=(), history=()):
+    """Generator of events for the UI: step / plan / location / sources / token / done / error.
+
+    history: the chat's earlier messages [{role: user|assistant, content}]; the last HISTORY_MESSAGES are used.
+    """
     t0 = time.time()
     asof = asof or dt.date.today().isoformat()
 
@@ -339,7 +393,7 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
     loc_line = (f"{location['commune']}, canton {location['canton_name']} ({canton}), "
                 f"official languages {', '.join(can_langs)}") if location else "unknown (federal only)"
     try:
-        plan_msg = PLAN_PROMPT.format(
+        plan_msg = history_block(history) + PLAN_PROMPT.format(
             question=question, location=loc_line, fed_lang=LANG_NAMES[fed_lang],
             can_lang=LANG_NAMES[can_lang], canton=location["canton_name"] if location else "the canton")
         plan = parse_plan(apertus.chat([{"role": "user", "content": plan_msg}], temperature=0.0, max_tokens=800))
@@ -396,8 +450,24 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
     yield step("fed", "Searching Fedlex (federal law in force)")
     try:
         refs = _federal_refs(plan)
+        if communal.FEE_Q.search(search_q):
+            # Amounts live in the fee ordinance, not in the main act the planner names (debt-collection extract →
+            # GebV SchKG, speeding fine → OBV). Added by rule: the planner rarely names them.
+            for main, fee_act in FEE_ACTS.items():
+                if main in refs and fee_act not in refs:
+                    refs[fee_act] = set()
+            # The planner sometimes names no federal act at all for a fee question ("Busse für 15 km/h"): the
+            # question's own words point to the fee ordinance.
+            for pattern, fee_act in FEE_WORDS:
+                if re.search(pattern, sources.fold(question + " " + search_q)) and fee_act not in refs:
+                    refs[fee_act] = set()
         sr = list(refs)
         acts = sources.fedlex_find_acts(sr, plan.get("federal_title_terms", []), fed_lang, limit=MAX_FED_ACTS)
+        # Fee ordinances added by rule must be loaded even when the act limit was filled by title matches.
+        have_sr = {a["sr"] for a in acts}
+        for fee_act in [v for k, v in FEE_ACTS.items() if v in refs and v not in have_sr]:
+            acts += sources.fedlex_find_acts([fee_act], [], fed_lang, limit=1)
+            have_sr.add(fee_act)
         if not refs:
             # The planner sometimes wrongly calls a topic cantonal (e.g. inheritance shares). Daily-life
             # questions mostly land in the Civil Code or Code of Obligations, so let ranking look there too.
@@ -429,8 +499,14 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             # the one remembered), keyword hits, and articles whose heading names the topic.
             near = [arts[j] for i in exact_idx for j in range(max(0, i - 2), min(len(arts), i + 3))]
             heading = [a for a in arts if any(st in sources.fold(a["number"]) for st in stems)][:15]
+            # Fee and fine questions: the amounts are in the annexes (OBV annex 1, VAwG annex 1), which keyword
+            # ranking rarely lifts above the articles, so the best annex parts are always offered to the picker.
+            annexes = []
+            if communal.FEE_Q.search(search_q):
+                parts = [a for a in arts if str(a.get("anchor", "")).startswith("annex_")]
+                annexes = sources.rank_articles(parts, terms, top=4) or parts[:2]
             mine, seen_c = [], set()
-            for a in near + sources.rank_articles(arts, terms, top=20) + heading:
+            for a in annexes + near + sources.rank_articles(arts, terms, top=20) + heading:
                 if a["anchor"] not in seen_c:
                     seen_c.add(a["anchor"])
                     mine.append((act, version, a))
@@ -445,7 +521,40 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             chosen += [a for a in pool if a["score"] >= 100 and (a["act"]["sr"], a["anchor"]) not in have][:3]
         else:
             chosen = pool
-        for art in chosen[:TOTAL_FED]:
+        chosen = chosen[:TOTAL_FED]
+        if communal.FEE_Q.search(search_q):
+            # Long annexes come in parts; the picker tends to take part 1 (OBV annex 1: missing driving licence,
+            # Fr. 20) while the question's row is in part 7 ("innerorts um 11–15 km/h 250"). The best-ranked part of
+            # every annex the picker chose goes in first.
+            best = []
+            for act, version, arts in loaded:
+                if not version or not any(c["act"]["sr"] == act["sr"] and str(c.get("anchor", "")).startswith("annex_")
+                                          for c in chosen):
+                    continue
+                parts = [a for a in arts if str(a.get("anchor", "")).startswith("annex_")]
+                top = sources.rank_articles(parts, terms, top=1)
+                if top and not any(c["act"]["sr"] == act["sr"] and c["anchor"] == top[0]["anchor"] for c in chosen):
+                    best.append(dict(top[0], act=act, version=version))
+            chosen = (best + chosen)[:TOTAL_FED]
+        # Currency marks only: "3,50 t" or "1,25 m" in a traffic ordinance is no fee amount.
+        currency = re.compile(r"(?:CHF|Fr\.|Franken|francs?|franchi)\s?\d|\d\s?(?:CHF|Franken|francs?|franchi)")
+        if communal.FEE_Q.search(search_q) and not any(currency.search(a["text"]) for a in chosen):
+            # A fee question whose chosen articles only say "the fee is set out in Annex 2": add the annex parts that
+            # hold amounts, from the acts already loaded (OLDI annex for passports, OBV annex 1 for fines).
+            extra = []
+            for act, version, arts in loaded:
+                if not version:
+                    continue
+                parts = [a for a in arts if str(a.get("anchor", "")).startswith("annex_") and communal.AMOUNT.search(a["text"])]
+                for a in sources.rank_articles(parts, terms, top=2) or parts[:1]:
+                    extra.append(dict(a, act=act, version=version))
+            extra.sort(key=lambda a: -a.get("score", 0))
+            chosen = extra[:2] + chosen[:TOTAL_FED - min(2, len(extra))]
+        seen_fed = set()
+        for art in chosen:
+            if (art["act"]["sr"], art["anchor"]) in seen_fed:  # the annex rules above can add a part twice
+                continue
+            seen_fed.add((art["act"]["sr"], art["anchor"]))
             evidence.append(verify.federal_evidence(art["act"], art["version"], art))
         names = ", ".join(f"{a['short'] or a['sr']}" for a in acts) or "none"
         yield step("fed", f"{len(acts)} acts ({names}) → {min(len(chosen), TOTAL_FED)} articles"
@@ -498,6 +607,10 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
                             seen.add(tol["tol_id"])
                             tols.append(tol)
             terms = plan.get("cantonal_keywords", []) + plan.get("cantonal_title_terms", []) + q_words
+            # Basel-Stadt's collection mixes in Riehen's and Bettingen's communal acts ("RiE 365.100"): they are law
+            # only for those two communes.
+            own = {"riehen": "Ri", "bettingen": "Be"}.get(sources.fold(location["commune"]).split(" ")[0], "")
+            tols = [t for t in tols if not (re.match(r"(?:Ri|Be)[EB]\s", t["sr"]) and not t["sr"].startswith(own or "#"))]
             # Main acts first: "Hundegesetz" beats a long "Weisung … über …" that merely mentions the topic.
             stems = {sources.fold(_title_stem(t)) for t in terms + words if len(t) >= 3}
             tols.sort(key=lambda tl: -_text_rank(tl, stems))
@@ -635,6 +748,12 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             answer_ev += [e for e in added if e not in answer_ev]  # in-place: the rewrite sees new sources too
             det = checks.check(text, evidence)
             todo = verify.findings(det, report, added, first_round=(r == 1))
+            # Figures are checked mechanically too: an amount or rate that appears in no source was made up or misread.
+            bad = checks.unsupported_amounts(text, evidence)
+            if bad:
+                todo += ("\n" if todo else "") + "\n".join(
+                    f"- The figure \"{a}\" appears in no source: copy the exact amount from the source that states it, "
+                    f"or remove it." for a in bad[:5])
             # (A former nudge told the writer to use every uncited cantonal/communal source. It pushed unrelated
             # police and fee regulations into answers; the fact-checker's "ignored_sources" covers real omissions.)
             revised = False

@@ -1,0 +1,69 @@
+[
+ {
+  "id": "F18",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 27.1,
+  "plan_s": 4.1,
+  "ttft_s": null,
+  "words": 116,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür eine Geschwindigkeitsüberschreitung von 15 km/h innerorts beträgt die Ordnungsbusse Fr. 250.– [1][3].\n\n## Bund\n- Überschreiten der allgemeinen, fahrzeugbedingten oder signalisierten Höchstgeschwindigkeit innerorts um 11–15 km/h: Busse Fr. 250.– [1][3].\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKantonale oder kommunale Bestimmungen ergänzen die Bundesregelung nicht; Art. 49 BV bestimmt, dass Bundesrecht vorgeht.\n\n## Nächste Schritte\n- Die Polizei ahndet die Geschwindigkeitsüberschreitung direkt im Ordnungsbussenverfahren; ein separates Verwaltungsverfahren ist nicht vorgesehen.\n- Ein Einspruch gegen die Busse ist innerhalb von 30 Tagen nach Zustellung bei der zuständigen kantonalen Behörde (die Adresse und genaue Zuständigkeit sind auf dem Bussenzettel vermerkt) möglich.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 2,
+    "raw_chars": 539,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 2,
+    "raw_chars": 539,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 2,
+    "raw_chars": 539,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 6,
+  "sources": [
+   "[1] fed OBV Anhang 1 (7)",
+   "[2] fed OBV Anhang 1 (10)",
+   "[3] fed OBV Anhang 1 (7)",
+   "[4] can ZH 321.2 § 13 (3)",
+   "[5] com Zürich: 631.500 Geschäftsordnung des Steueramtes Art. 9",
+   "[6] com Zürich: 631.500 Geschäftsordnung des Steueramtes Art. 4",
+   "[7] cas BGE 151 IV 237 2025-01-01"
+  ]
+ }
+]

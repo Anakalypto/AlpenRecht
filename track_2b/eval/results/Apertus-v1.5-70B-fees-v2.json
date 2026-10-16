@@ -1,0 +1,1264 @@
+[
+ {
+  "id": "F01",
+  "lang": "de",
+  "loc": "3063 Ittigen",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 84.8,
+  "plan_s": 8.0,
+  "ttft_s": null,
+  "words": 287,
+  "citations": 7,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 5"
+  ],
+  "prose_left": 1,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Hundetaxe in Ittigen (Kanton Bern) beträgt Fr. 100.-- pro Jahr und Hund. Sie ist jährlich geschuldet und wird von der Abteilung Finanzen in Rechnung gestellt. Ausgenommen sind Hilfs- und Begleithunde von Menschen mit Behinderung, Hunde, die sich vorübergehend in Tierheimen zur Neuplatzierung befinden, sowie Hunde, für die im gleichen Jahr bereits in einer anderen Gemeinde oder einem anderen Kanton eine Hundetaxe bezahlt wurde.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Ittigen\n- Die Hundetaxe beträgt Fr. 100.-- je Jahr und Hund [5].\n- Sie ist jährlich geschuldet [5].\n- Taxpflichtig sind Halterinnen und Halter mit Wohnsitz in der Gemeinde am Stichtag 1. August, sofern der Hund älter als sechs Monate ist [4].\n- Ausnahmen von der Taxpflicht bestehen für Hilfs- und Begleithunde von Menschen mit Behinderung, Hunde, die sich vorübergehend in Tierheimen zur Neuplatzierung befinden, sowie für Hunde, für die im gleichen Jahr bereits in einer anderen Gemeinde oder einem anderen Kanton eine Hundetaxe entrichtet wurde [4][5].\n\n## Zusammenspiel der Ebenen\nDas kantonale Hundegesetz legt die Befreiungsgründe fest, während die Gemeinde Ittigen die Höhe auf Fr. 100.-- pro Jahr und Hund sowie die konkrete Erhebung, Rechnungsstellung und Fälligkeit durch die Abteilung Finanzen regelt; Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen und diesem dem kommunalen Recht vorgeht.\n\n## Nächste Schritte\n- Melden Sie Ihren Hund bei der Gemeindeverwaltung Ittigen innerhalb eines Monats nach Einzug an [4].\n- Die Abteilung Finanzen stellt die Rechnung jährlich aus; der Betrag ist mit Erhalt der Rechnung fällig und innert 30 Tagen zu bezahlen [5].\n- Bei Fragen zur Befreiung wenden Sie sich an die Gemeindeverwaltung Ittigen (zuständig für die Befreiung nach Art. 5 Absatz 2 des Reglements).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 1564,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 1622,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 1615,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed OR Art. 176",
+   "[2] fed OR Art. 177",
+   "[3] can BE 916.31 Art. 13",
+   "[4] com Ittigen: Hundetaxe, Reglement Teil 1",
+   "[5] com Ittigen: Hundetaxe, Verordnung Teil 1"
+  ]
+ },
+ {
+  "id": "F02",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 92.6,
+  "plan_s": 4.5,
+  "ttft_s": null,
+  "words": 240,
+  "citations": 6,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nÀ Sion, la concession d’une tombe pour une durée de 25 ans coûte fr. 1500.-, quel que soit le domicile du défunt. Pour les personnes non domiciliées, une taxe supplémentaire de fr. 800.- est due uniquement pour la tombe à la ligne ou de concession. Les sources ne précisent pas les documents à fournir ni la procédure exacte de dépôt de la demande.\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Valais  \nAucune source pertinente récupérée.\n\n## Commune de Sion  \n- Le tarif de la concession de tombe pour une durée de 25 ans est fixé à fr. 1500.-, applicable aux personnes domiciliées comme non domiciliées à Sion [2].  \n- Pour les personnes non domiciliées, une taxe supplémentaire de fr. 800.- est prévue pour la tombe à la ligne ou de concession [2].\n\n## Articulation des niveaux  \nLe règlement communal de Sion fixe le montant exact de la concession de tombe à fr. 1500.- pour une durée de 25 ans; la législation cantonale ne contient aucune disposition tarifaire sur ce point.\n\n## Prochaines étapes  \n- S’adresser à la Municipalité de Sion (service des cimetières) pour déposer la demande de concession de tombe [2].  \n- Régler le montant de fr. 1500.- prévu pour la concession de 25 ans [2].  \n- Respecter les dimensions et les exigences de conception des monuments funéraires décrites aux articles 16 et 3 du règlement communal [2][3].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2979,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La phrase affirme qu'aucune source ne précise de frais d'obtention de la concession, mais les sources fournies ne contiennent pas d'information sur les frais administratifs d'obtention, ce qui ne permet pas de conclure qu'aucune source ne les mentionne (elles ne les mentionnent simplement pas).",
+     "Aucune source ne mentionne l'autorité compétente pour obtenir la concession de tombe.",
+     "Aucune source ne décrit la procédure de demande ou les documents requis.",
+     "Le règlement communal ne précise pas le moment du paiement (signature vs autre étape) ni ne confirme l'absence de frais administratifs supplémentaires."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2353,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source ne précise l’autorité compétente ou la procédure de dépôt de la demande.",
+     "Aucune source ne décrit les pièces à fournir ou la forme de la demande."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2067,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source ne mentionne l'absence de précision sur les documents ou la procédure; aucune source ne contient cette affirmation.",
+     "Aucune source ne mentionne l'adresse ou le service administratif précis à contacter pour déposer la demande.",
+     "Aucune source ne décrit le contenu requis de la demande écrite ni les pièces administratives à fournir."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed CC Art. 915",
+   "[2] com Sion: Règlement sur les inhumations, les crémations et les cimetières + List Article 30",
+   "[3] com Sion: Règlement sur les inhumations, les crémations et les cimetières + List Article 16",
+   "[4] com Sion: Règlement sur les inhumations, les crémations et les cimetières + List Article 27"
+  ]
+ },
+ {
+  "id": "F03",
+  "lang": "de",
+  "loc": "8820 Wädenswil",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 81.5,
+  "plan_s": 8.4,
+  "ttft_s": null,
+  "words": 190,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Grundgebühr für die Abfallentsorgung in Wädenswil beträgt für Einfamilienhäuser CHF 140.00 pro Jahr, für Wohnungen CHF 90.00 pro Jahr und für Lofts CHF 90.00 pro Jahr. Diese Beträge sind exklusive Mehrwertsteuer; die Mehrwertsteuer wird separat berechnet.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Wädenswil\nFür Einfamilienhäuser beträgt die Grundgebühr CHF 140.00 pro Jahr exklusive Mehrwertsteuer [3][4][5]. Für Wohnungen liegt die Grundgebühr bei CHF 90.00 pro Jahr exklusive Mehrwertsteuer [3][4][5]. Für Lofts beträgt die Grundgebühr CHF 90.00 pro Jahr exklusive Mehrwertsteuer [3][4][5]. Die Gebühren werden pro Jahr erhoben und sind unabhängig von der Haushaltsgröße festgelegt.\n\n## Zusammenspiel der Ebenen\nDie Gemeinde Wädenswil konkretisiert die Abfallentsorgung durch eigene Tarife; das Bundesrecht regelt die Grundsätze der Abfallentsorgung, während die Gemeinde die Höhe der Gebühren festlegt (Art. 49 BV).\n\n## Nächste Schritte\n- Erkundigen Sie sich bei der Gemeindeverwaltung Wädenswil nach der aktuellen Gebührenrechnung und Zahlungsmodalitäten.\n- Prüfen Sie die Betriebsfläche Ihres Gewerbes, falls Sie als Betrieb eingestuft werden, um die zutreffende Betriebsgebühr zu ermitteln.\n- Beachten Sie, dass die genannten Beträge exklusive Mehrwertsteuer sind; die Mehrwertsteuer wird separat berechnet.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2283,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Mehrwertsteuer von 8.1 % wird in den Quellen [3], [4] und [5] nicht als Bestandteil der Grundgebühr genannt; die Quellen listen die Beträge als exklusive Mehrwertsteuer, aber die Angabe der Mehrwertsteuer-Satzhöhe im Antwortsatz ist eine Zusatzinformation ohne Quellenbeleg.",
+     "Die Quellen [3], [4] und [5] nennen die Beträge exklusive Mehrwertsteuer, aber die Aussage, dass 8.1 % Mehrwertsteuer auf allen genannten Beträgen anfallen, ist eine Interpretation/Verallgemeinerung ohne expliziten Quellenbeleg in den Tarifen selbst."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2785,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2785,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed ZGB Art. 175",
+   "[2] fed ZGB Art. 176",
+   "[3] com Wädenswil: Entsorgungs-Tarife Teil 2",
+   "[4] com Wädenswil: Entsorgungs-Tarife Teil 2",
+   "[5] com Wädenswil: 750.21_Entsorgungs-Tarife Teil 2"
+  ]
+ },
+ {
+  "id": "F04",
+  "lang": "de",
+  "loc": "4718 Holderbank",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 29.2,
+  "plan_s": 6.4,
+  "ttft_s": null,
+  "words": 163,
+  "citations": 0,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Quellen enthalten keine Angaben zu den Kosten für die Kehrichtabfuhr in Holderbank. Die kommunalen Gebührenreglemente listen Wasserzinsen, Bauwasser, Hydrantenbezug und Abwasseranschlussgebühren auf, jedoch keine Abfallentsorgungsgebühren.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Solothurn\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Holderbank (SO)\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDa keine kantonalen oder kommunalen Bestimmungen zu den Kehrichtabfuhrgebühren vorliegen, gilt die Frage als nicht durch die vorliegenden Quellen beantwortet; die Regelung müsste in einem separaten Gebührenreglement der Gemeinde Holderbank oder einer kantonalen Verordnung über die Abfallbewirtschaftung enthalten sein.\n\n## Nächste Schritte\n1. Wenden Sie sich an die Gemeindeverwaltung Holderbank (SO), Abteilung Finanzen oder Bauamt, um das aktuelle Gebührenreglement für die Abfallentsorgung einzusehen.\n2. Prüfen Sie die Webseite der Gemeinde Holderbank auf veröffentlichte Tarife für Kehrichtabfuhr und -entsorgung.\n3. Falls keine öffentlich zugänglichen Tarife vorhanden sind, beantragen Sie eine schriftliche Auskunft bei der zuständigen Behörde mit Angabe der Adresse und der Art der Nutzung (Einfamilienhaus, Mehrfamilienhaus, Gewerbe).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 0,
+    "raw_chars": 68,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 0,
+    "raw_chars": 68,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 0,
+    "raw_chars": 68,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 0,
+  "sources": [
+   "[1] fed OR Art. 342",
+   "[2] can SO 615.11 § 102",
+   "[3] com Holderbank (SO): Gebührenreglement Teil 3"
+  ]
+ },
+ {
+  "id": "F05",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 136.1,
+  "plan_s": 7.2,
+  "ttft_s": null,
+  "words": 399,
+  "citations": 19,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nÀ Lausanne, la taxe au sac pour les déchets urbains est prélevée au poids : 2.00 CHF par pesage pour un conteneur standard (ramassage en porte‑à‑porte réservé aux commerces et entreprises) et 23.15 CHF par pesage pour le pesage public officiel. Les tarifs varient selon la taille du conteneur (140 L, 240 L, 360 L ou 770 L) et les prestations associées (location, lavage, collecte sur chemins privés, etc.) tels que définis dans la directive municipale [4].\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \n- Taxe au sac : 2.00 CHF par pesage pour un conteneur standard (ramassage en porte‑à‑porte réservé aux commerces et entreprises) [4].  \n- Pesage public officiel : 23.15 CHF par pesage [4].  \n- Tarifs par taille de conteneur :  \n  – 140 L : CHF (voir tableau annexe) [4]  \n  – 240 L : CHF (voir tableau annexe) [4]  \n  – 360 L : CHF (voir tableau annexe) [4]  \n  – 770 L : CHF (voir tableau annexe) [4]  \n- Collecte sur chemins privés : 37.20 CHF par résident et par an [4].  \n- Location d’un conteneur :  \n  – pour lavure/s restes de repas : 5.00 CHF/mois [4]  \n  – 770 L : 15.00 CHF/mois [4]  \n- Lavage d’un conteneur : 3.00 CHF par conteneur [4].  \n- Location d’une benne compactante : 260.00 CHF par semaine [4].  \n- Frais d’infraction : enlèvement de déchets déposés de manière non conforme : 200.00 CHF par infraction [4].\n\n## Articulation des niveaux  \nLa loi cantonale [3] impose aux communes de financer au moins 40 % des coûts d’élimination des déchets urbains par une taxe proportionnelle à la quantité [3]. La commune de Lausanne précise les modalités, fixe les montants par pesage, par taille de conteneur et les prestations annexes, ainsi que les frais d’infraction, conformément à sa directive municipale [4].\n\n## Prochaines étapes  \n- S’adresser au Service de la propreté urbaine de la Ville de Lausanne pour choisir le conteneur adapté et obtenir le formulaire de demande de location ou de collecte [4].  \n- Régler la taxe au sac conformément aux modalités de facturation prévues par la directive municipale [4] (par pesage ou par mois selon le type de prestation).  \n- En cas de dépôt de déchets non conforme, contacter le Service de la propreté urbaine afin d’éviter l’infraction de 200.00 CHF [4].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 12,
+    "raw_chars": 2890,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation",
+     "Pas de citation",
+     "Pas de citation"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 12,
+    "raw_chars": 3063,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction pratique.",
+     "Pas de source citée pour ces modalités de paiement.",
+     "Pas de source citée pour cette procédure."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 13,
+    "raw_chars": 3160,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction",
+     "Pas de source citée pour les modalités de facturation",
+     "Pas de source citée pour cette procédure"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 37,
+  "sources": [
+   "[1] fed CC Art. 929",
+   "[2] fed CC Art. 571",
+   "[3] can VD 814.11 Art. 30a",
+   "[4] com Lausanne: 830.7 Directive municipale relative aux tarifs de gestion des déchets Teil 5"
+  ]
+ },
+ {
+  "id": "F06",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 52.7,
+  "plan_s": 8.4,
+  "ttft_s": null,
+  "words": 387,
+  "citations": 1,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLa Ville de Genève perçoit une taxe fixe calculée au m² selon la période d'exploitation et un émolument administratif lors de la délivrance de la permission. Pour une terrasse de café ou installation analogue, la taxe fixe varie de CHF 21.- à CHF 100.- le m² selon la saison et la durée (saisonnière ou annuelle), tandis que l'émolument administratif est fixé par la loi sur les routes. Un remboursement prorata temporis est possible si l'exploitation est interrompue plus de 30 jours pour travaux.\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Genève  \nAucune source pertinente récupérée.\n\n## Commune de Genève  \n1. Taxe fixe : calculée au m², sans fractionnement, selon le tarif de l'art. 5 LC 21318. Pour une terrasse de café ou installation analogue :  \n   - du 1er mars au 31 octobre : CHF 68.-/m² (sect. 1), CHF 52.-/m² (sect. 2), CHF 43.-/m² (sect. 3) ;  \n   - du 1er novembre au 28 février : CHF 21.-/m² (sect. 1), CHF 17.-/m² (sect. 2), CHF 14.-/m² (sect. 3) ;  \n   - à l'année : CHF 100.-/m² (sect. 1), CHF 84.-/m² (sect. 2), CHF 70.-/m² (sect. 3).  \n   Cette taxe est due en totalité, sauf interruption de plus de 30 jours pour travaux, cas où un remboursement prorata temporis est possible sur demande.  \n2. Émolument administratif : perçu lors de la délivrance de la permission conformément à la loi sur les routes (L 1 10), sans montant précisé dans les sources communales fournies.\n\n## Articulation des niveaux  \nLe droit fédéral réserve le droit public cantonal et communal [1], tandis que le canton et la commune de Genève précisent les modalités d'exploitation des terrasses (horaires, accessibilité) et fixent les émoluments spécifiques pour l'empiètement sur le domaine public, le canton définissant le cadre légal et la commune le tarif détaillé.\n\n## Prochaines étapes  \n1. S'adresser au Service de l'espace public de la Ville de Genève pour déposer une demande de permission d'installer une terrasse sur le domaine public.  \n2. Prévoir le paiement de la taxe fixe calculée au m² selon la période d'exploitation choisie et l'émolument administratif prévu par la loi sur les routes (L 1 10).  \n3. En cas d'interruption de l'exploitation pour travaux de plus de 30 jours, déposer une demande de remboursement prorata temporis auprès du Service de l'espace public.\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1255,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1255,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1255,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 12,
+  "sources": [
+   "[1] fed CC Art. 59",
+   "[2] can GE I 2 22 Art. 15",
+   "[3] com Genève: LC 21314 - Règlement sur les terrasses d'établissements publics Art. 6",
+   "[4] com Genève: LC 21318 - Règlement d'application relatif à la taxation des empièteme Art. 5"
+  ]
+ },
+ {
+  "id": "F07",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 55.9,
+  "plan_s": 6.0,
+  "ttft_s": null,
+  "words": 165,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür eine Anwohnerparkkarte in der blauen Zone der Stadt Zürich beträgt die Jahresgebühr Fr. 300.–. Diese Gebühr ist in der kommunalen Gebührenordnung festgelegt und gilt für ein Fahrzeug.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich\n- Für eine Anwohnerparkkarte in der blauen Zone beträgt die Jahresgebühr Fr. 300.– [4].\n- Für «Car-Sharing»-Parkkarten beträgt die Jahresgebühr ebenfalls Fr. 300.– [4].\n- Gewerbeparkkarten kosten Fr. 360.– für ein Fahrzeug oder Fr. 480.– für maximal sechs Fahrzeuge [4].\n\n## Zusammenspiel der Ebenen\nDie Stadt Zürich konkretisiert die Parkgebühren für die blaue Zone durch ihre Gebührenordnung; kantonale oder eidgenössische Vorschriften enthalten keine spezifischen Beträge für Anwohnerparkkarten in der blauen Zone.\n\n## Nächste Schritte\n- Wenden Sie sich an die Stadt Zürich, Abteilung Verkehrsmanagement oder das zuständige Ressort für Parkkarten.\n- Die Gebühr von Fr. 300.– ist jährlich zu entrichten; die genauen Zahlungsmodalitäten sind der kommunalen Gebührenordnung zu entnehmen (keine spezifischen Angaben in den vorliegenden Quellen).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1154,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Zahlungsmodalitäten (Fälligkeit, Rechnungsstellung) sind nicht in Quelle [4] enthalten."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1159,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Zahlungsmodalitäten sind nicht in den vorliegenden Quellen enthalten."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1159,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Zahlungsmodalitäten sind nicht in den vorliegenden Quellen enthalten."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 12,
+  "sources": [
+   "[1] fed OR Art. 941",
+   "[2] fed ZGB Art. 954",
+   "[3] can ZH 741.11 § 13",
+   "[4] com Zürich: 551.311 Gebührenordnung Parkkarten Blaue Zone Art. 1"
+  ]
+ },
+ {
+  "id": "F08",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 93.7,
+  "plan_s": 7.8,
+  "ttft_s": null,
+  "words": 333,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür Personen mit Wohnsitz oder Geschäftssitz in Bern kostet eine Anwohnerparkkarte Fr. 22.00 pro Monat (Mindestdauer 3 Monate) oder Fr. 264.00 pro Jahr. Andere gleichermassen Betroffene zahlen Fr. 66.00 pro Monat bzw. Fr. 660.00 pro Jahr. Tages‑ und Stundenkarten betragen Fr. 16.00 bzw. Fr. 9.00, Gewerbe‑ und Handwerkerparkkarten Fr. 22.00/Monat bzw. Fr. 264.00/Jahr. Ausnahmebewilligungen für das Parkieren ausserhalb der Fahrverbotszonen (Mo–Fr 19.00–08.00 Uhr sowie Sa 16.00 bis Mo 08.00 Uhr) kosten Fr. 40.00 pro Monat (Mindestdauer 3 Monate) oder Fr. 480.00 pro Jahr; für zeitlich unbeschränkte Zufahrt und bis zu 48 Stunden Parkieren betragen die Gebühren Fr. 80.00 pro Monat bzw. Fr. 960.00 pro Jahr.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern\n- Für Personen mit Wohnsitz oder Geschäftssitz in Bern beträgt die Parkkartengebühr gemäss Tarif 4.9.1 Fr. 22.00 pro Monat (Mindestdauer 3 Monate) oder Fr. 264.00 pro Jahr [3].\n- Für andere gleichermassen Betroffene beträgt die Gebühr Fr. 66.00 pro Monat (Mindestdauer 3 Monate) oder Fr. 660.00 pro Jahr [3].\n- Tages‑ und Stundenkarten kosten Fr. 16.00 bzw. Fr. 9.00 [3].\n- Gewerbe‑ und Handwerkerparkkarten kosten ebenfalls Fr. 22.00/Monat bzw. Fr. 264.00/Jahr [3].\n- Ausnahmebewilligungen für das Parkieren ausserhalb der Fahrverbotszonen (Mo–Fr 19.00–08.00 Uhr sowie Sa 16.00 bis Mo 08.00 Uhr) kosten Fr. 40.00 pro Monat (Mindestdauer 3 Monate) oder Fr. 480.00 pro Jahr [3]; für zeitlich unbeschränkte Zufahrt und bis zu 48 Stunden Parkieren betragen die Gebühren Fr. 80.00 pro Monat bzw. Fr. 960.00 pro Jahr [3].\n\n## Zusammenspiel der Ebenen\nDas kommunale Gebührenreglement konkretisiert die kantonalen und bundesrechtlichen Grundlagen für die Erhebung von Parkgebühren in Bern; die Stadtverwaltung Bern ist die zuständige Behörde für die Ausstellung der Parkkarten und die Erhebung der Gebühren.\n\n## Nächste Schritte\n- Antrag auf eine Anwohnerparkkarte bei der Stadtverwaltung Bern, Abteilung Verkehrsmanagement, einreichen [3].\n- Nachweis des Wohnsitzes oder Geschäftssitzes in Bern beilegen (z. B. Meldebestätigung, Handelsregisterauszug).\n- Die Gebühr ist im Voraus zu bezahlen; die Mindestdauer beträgt drei Monate [3].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1503,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 1800,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Information nicht in den angegebenen Quellen enthalten."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 1646,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed OR Art. 941",
+   "[2] fed ZGB Art. 954",
+   "[3] com Bern: 154.11 Reglement über die Gebührenerhebung durch die Stadtverwaltung B Tarif 4.9 Parkkartengebühren"
+  ]
+ },
+ {
+  "id": "F09",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": false,
+  "n_sources": 5,
+  "total_s": 96.4,
+  "plan_s": 3.6,
+  "ttft_s": null,
+  "words": 391,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie vorliegenden Quellen nennen keine konkrete Frankenhöhe für die Hundesteuer in Basel. Sie bestimmen jedoch, dass Blindenführhunde von der Besteuerung ausgenommen sind [3]. Für Personen mit Ergänzungsleistungen oder Sozialhilfe kann die Steuer um 70 % reduziert werden (pro Haushalt nur für den ersten Hund) [5], und nach erfolgreich absolviertem, vom Veterinäramt anerkanntem Erziehungskurs ist eine einmalige Ermässigung von 50 % der Jahressteuer möglich [5]. Die exakte Steuerhöhe richtet sich nach dem kommunalen Tarif, der in den vorliegenden Dokumenten nicht enthalten ist.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Basel-Stadt\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Basel\nGemäß § 6 Abs. 2 der kommunalen Hundeverordnung (Quelle [5]) kann die Steuer um 70 % reduziert werden für Personen, die Ergänzungsleistungen gemäss EG/ELG oder Unterstützungsleistungen der Sozialhilfe erhalten; pro Haushalt ist die Ermässigung nur für den ersten Hund zulässig. Nach § 6 Abs. 4 der kommunalen Hundeverordnung (Quelle [5]) kann eine einmalige Ermässigung von 50 % der Jahressteuer beansprucht werden, wenn der Hundehalter einen vom Veterinäramt anerkannten Erziehungskurs erfolgreich besucht hat; die Kursbestätigung ist einzureichen. Gemäß § 6 Abs. 3 der kommunalen Hundeverordnung (Quelle [5]) sind Gesuche um Steuerreduktion jährlich beim Veterinäramt einzureichen, das jährlich über die Gewährung entscheidet. Nach § 27 der kommunalen Hundeverordnung (Quelle [4]) können Verfügungen ausserkantonaler oder ausländischer Amtsstellen betreffend Einschränkungen bei der Anschaffung, Haltung oder Ausführung von Hunden auf Antrag durch eine einfache Bestätigung des Veterinäramtes auch für den Kanton Basel‑Stadt als gültig erklärt werden.\n\n## Zusammenspiel der Ebenen\nKeine kantonalen oder kommunalen Bestimmungen in den vorliegenden Quellen, die die Höhe der Hundesteuer konkret festlegen. Art. 49 BV ist nicht in den Quellen enthalten und wird daher nicht zitiert; die Höhe richtet sich nach dem kommunalen Tarif, der hier nicht vorliegt.\n\n## Nächste Schritte\n1. Anfrage an das Veterinäramt der Stadt Basel richten, um den aktuellen Hundesteuertarif (Betrag pro Jahr, evtl. Staffel nach Hundezahl oder Hunderasse) zu erhalten; das Amt ist die zuständige Behörde für die Steuer und deren Ermässigung.\n2. Bei Anspruch auf Ermässigung die entsprechenden Nachweise (EL‑ oder Sozialhilfe‑Bescheid bzw. Kursbestätigung) zusammen mit dem Steuergesuch beim Veterinäramt einreichen (§ 6 Abs. 3 der kommunalen Hundeverordnung [5]; das Amt entscheidet jährlich über die Reduktion).\n3. Für Hunde, die aus anderen Kantonen stammen, beim Veterinäramt eine Bestätigung beantragen, damit dortige Verfügungen auch für den Kanton Basel‑Stadt gelten (§ 27 der kommunalen Hundeverordnung [4]).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2683,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen enthält Angaben zur Frankenhöhe der Hundesteuer.",
+     "Art. 49 BV ist nicht in den Quellen enthalten und wird nicht zitiert; zudem ist die Aussage, dass keine widersprechenden kantonalen Bestimmungen vorliegen, nicht durch die Quellen belegt.",
+     "Keine Rechtsquelle nennt das Veterinäramt als zuständige Stelle für die Bekanntgabe der Steuerhöhe."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2277,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen enthält eine Frankenhöhe für die Hundesteuer.",
+     "Die Quellen enthalten keinen kommunalen Tarif mit Frankenhöhe.",
+     "Die Quellen nennen keine Rechtsnorm, die das Amt zur Bekanntgabe der Steuerhöhe verpflichtet, und legen nicht explizit fest, dass es die zuständige Behörde für die Steuererhebung ist."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2816,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Quellen nennen zwar Ausnahmen (§ 11 der kantonalen Verordnung), geben aber keine konkrete Frankenhöhe oder den vollständigen Satz wieder.",
+     "Die Quellen enthalten zwar die Ermässigungsregeln (§ 6 Abs. 2 und § 6 Abs. 4 der kommunalen Hundeverordnung), aber keine konkrete Frankenhöhe der Steuer, sodass die Aussage zur \"Höhe\" der Steuer nicht belegt ist.",
+     "Die Quellen enthalten zwar die Verpflichtung zur Einreichung (§ 6 Abs. 3) und die Entscheidkompetenz des Veterinäramts, aber die Aussage, dass die Quellen diese Normen \"nennen\" (cited = []), ist falsch, da die Normen in Quelle [4] und [5] enthalten sind.",
+     "Die Norm ist in Quelle [4] enthalten, aber nicht zitiert."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed Verfassung des Kantons Basel-Stadt, vom 23. März 2005 § 21",
+   "[2] fed ZGB Art. 779l",
+   "[3] can BS 365.110 § 11",
+   "[4] com Basel: 365.110 Verordnung betreffend das Halten von Hunden § 27",
+   "[5] com Basel: 365.110 Verordnung betreffend das Halten von Hunden § 6"
+  ]
+ },
+ {
+  "id": "F10",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 51.9,
+  "plan_s": 6.2,
+  "ttft_s": null,
+  "words": 309,
+  "citations": 10,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nÀ Fribourg, l’impôt communal sur les chiens s’élève à **120 CHF par animal et par an**, payable dans les **trente jours** suivant la facturation ; les chiens d’aveugles, de police, d’armée et d’avalanche sont exonérés, à condition que le détenteur soit en possession du permis et de la marque de contrôle officiels [4][7].\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Fribourg  \nAucune source pertinente récupérée.\n\n## Commune de Fribourg  \n- L’impôt communal sur les chiens est fixé à **120 CHF par animal et par an** (Annexe) [4].  \n- Le paiement doit intervenir dans les **trente jours à compter de la facturation** [4].  \n- Sont exonérés les détenteurs de chiens d’aveugles, de police, d’armée et d’avalanche, conformément à la législation cantonale [7].  \n- Dans tous les cas, le détenteur doit être en possession du **permis et de la marque de contrôle officiels** [7].\n\n## Articulation des niveaux  \nLe règlement communal de la Ville de Fribourg fixe le montant de l’impôt à 120 CHF/an par chien, précise les exonérations et le délai de paiement, tandis que le droit cantonal confirme les exonérations pour les chiens de service ; la législation fédérale (art. 49 Cst.) prévaut en cas de conflit.\n\n## Prochaines étapes  \n- Saisir le **Service des finances de la Ville de Fribourg** (autorité communale compétente pour la facturation de l’impôt sur les chiens) afin d’obtenir la facture [4] ;  \n- Payer le montant de **120 CHF par chien** dans les **trente jours** suivant la facturation [4] ;  \n- Si vous détenez un chien d’aveugles, de police, d’armée ou un chien-guide, présenter le **permis et la marque de contrôle officiels** pour bénéficier de l’exonération [7] ;  \n- En cas de doute sur l’exonération, consulter le **Service cantonal de la protection des animaux** afin de vérifier les conditions cantonales applicables [3].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 1,
+    "raw_chars": 464,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2225,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette instruction pratique",
+     "Pas de citation pour cette recommandation"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 825,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 12,
+  "sources": [
+   "[1] fed CC Art. 5",
+   "[2] fed CC Art. 915",
+   "[3] can FR 725.31 Art. 30",
+   "[4] com Fribourg: Règlement de la Ville de Fribourg concernant l'impôt communal sur les  Art. 12",
+   "[5] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 47",
+   "[6] com Fribourg: Règlement de la Ville de Fribourg concernant l'impôt communal sur les  Art. 3",
+   "[7] com Fribourg: Règlement de la Ville de Fribourg concernant l'impôt communal sur les  Art. 4"
+  ]
+ },
+ {
+  "id": "F11",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 102.1,
+  "plan_s": 11.1,
+  "ttft_s": null,
+  "words": 377,
+  "citations": 1,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour une demande de permis de construire sur le territoire de la commune de Lausanne, l’émolument administratif est fixé selon le coût de construction estimé (CFC2) : CHF 200.- pour des travaux jusqu’à CHF 200'000.-, CHF 500.- entre CHF 200'000.- et CHF 999'999.-, CHF 1'500.- entre CHF 1'000'000.- et CHF 2'999'999.-, CHF 2'500.- entre CHF 3'000'000.- et CHF 9'999'999.-, et CHF 5'000.- dès CHF 10 millions. Si l’ouvrage figure dans la liste cantonale (annexe II du RLATC), seul l’émolument cantonal est perçu.\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \n- Art. 1 du tarif municipal 521.2 : l’émolument communal pour un permis de construire est :  \n  • jusqu’à CHF 200'000.- : CHF 200.- par demande ;  \n  • de CHF 200'000.- à CHF 999'999.- : CHF 500.- par demande ;  \n  • de CHF 1'000'000.- à CHF 2'999'999.- : CHF 1'500.- par demande ;  \n  • de CHF 3'000'000.- à CHF 9'999'999.- : CHF 2'500.- par demande ;  \n  • dès CHF 10 millions : CHF 5'000.- par demande.  \n- Art. 1 précise que si la demande porte sur un objet figurant dans la liste cantonale (annexe II du RLATC), seul l’émolument cantonal est perçu.\n\n## Articulation des niveaux  \nLe droit fédéral [1] autorise les cantons à percevoir des émoluments pour les inscriptions au registre foncier et les travaux de mensuration, mais ne fixe aucun tarif ; les cantons et les communes déterminent les montants et les conditions, comme le fait la commune de Lausanne pour les permis de construire et les contrôles y afférents.\n\n## Prochaines étapes  \n1. Calculer le coût de construction selon CFC2 du projet ;  \n2. Vérifier si l’ouvrage figure dans la liste cantonale (annexe II du RLATC) ;  \n3. Si la compétence est communale, déposer la demande de permis de construire auprès du Service de l’urbanisme de la Ville de Lausanne et acquitter l’émolument communal correspondant au coût de construction ;  \n4. Pour tout contrôle ou rapport lié au permis d’habiter/utiliser, contacter le Service de la police du feu de la Ville de Lausanne et payer les frais prévus aux art. 2 du tarif communal ;  \n5. Conserver les justificatifs de paiement pour toute correspondance administrative.\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2997,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 3107,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3107,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed CC Art. 954",
+   "[2] can VD 700.11 Art. 6",
+   "[3] com Lausanne: 521.2 Tarif municipal relatif aux émoluments administratifs liés à la  Art. 1",
+   "[4] com Lausanne: 521.2 Tarif municipal relatif aux émoluments administratifs liés à la  Art. 2",
+   "[5] com Lausanne: 521.2 Tarif municipal relatif aux émoluments administratifs liés à la  Art 3"
+  ]
+ },
+ {
+  "id": "F12",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 35.0,
+  "plan_s": 8.9,
+  "ttft_s": null,
+  "words": 158,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nIn der Stadt Chur beträgt die Hundetaxe je Hund jährlich zwischen Fr. 150.– und Fr. 300.–. Ausgebildete und anerkannte Hunde mit besonderen Funktionen sind von der Taxe befreit; die Einzelheiten zur Befreiung legt der Stadtrat fest.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Graubünden\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Chur\n* Die Hundetaxe beträgt je Hund jährlich zwischen Fr. 150.– und Fr. 300.– [6].\n* Ausgebildete und anerkannte Hunde mit besonderen Funktionen sind von der Taxe befreit; die Einzelheiten bestimmt der Stadtrat [6].\n\n## Zusammenspiel der Ebenen\nDer Bund regelt keine Hundetaxe. Die Gemeinde Chur legt die Höhe der Hundetaxe autonom fest; kantonale Bestimmungen [3] sind auf die Hundetaxe nicht anwendbar.\n\n## Nächste Schritte\n* Erkundigen Sie sich beim Stadtrat Chur nach der aktuellen Höhe der Hundetaxe für das laufende Jahr.\n* Bei Vorliegen einer besonderen Funktion des Hundes, die eine Befreiung rechtfertigen könnte, legen Sie dem Stadtrat entsprechende Nachweise vor.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 2,
+    "raw_chars": 528,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 2,
+    "raw_chars": 542,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 2,
+    "raw_chars": 542,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 6,
+  "sources": [
+   "[1] fed ZGB Art. 779l",
+   "[2] fed OR Art. 236",
+   "[3] can GR 720.200 Art. 12",
+   "[4] can GR 720.200 Art. 16",
+   "[5] can GR 720.200 Art. 18",
+   "[6] com Chur: Polizeigesetz Art. 20"
+  ]
+ },
+ {
+  "id": "F13",
+  "lang": "de",
+  "loc": "6330 Cham",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 106.6,
+  "plan_s": 7.8,
+  "ttft_s": null,
+  "words": 302,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Gemeinde Cham erhebt für Baubewilligungen je nach Bauvorhaben Gebühren innerhalb folgender Bandbreiten: CHF 55 bis 240 für kleinere Umbauten, CHF 110 bis 1'200 für grössere Umbauten, CHF 50 bis 700 für Nebengebäude, CHF 110 bis 700 pro Einfamilien- oder Reihenhaus, CHF 240 bis 2'300 für Wohn- und Geschäftshäuser sowie CHF 450 bis 4'500 für grössere Geschäftshäuser und Fabrikbauten [2]. Die Mehrwertsteuer ist in den Ansätzen inbegriffen [3]; Barauslagen werden separat ersetzt, sofern nicht anders vereinbart. Bei nachgewiesener Bedürftigkeit kann die Gebühr von der verfügenden Behörde herabgesetzt oder erlassen werden [3].\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zug\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Cham\n- Bewilligung kleinerer Umbauten: CHF 55 bis 240 [2]\n- Bewilligung grösserer Umbauten: CHF 110 bis 1'200 [2]\n- Bewilligung von Nebengebäuden: CHF 50 bis 700 [2]\n- Bewilligung von Einfamilien- und Reihenhäusern pro Haus: CHF 110 bis 700 [2]\n- Bewilligung von Wohn- und Geschäftshäusern: CHF 240 bis 2'300 [2]\n- Bewilligung grösserer Geschäftshäuser und Fabrikbauten: CHF 450 bis 4'500 [2]\n\n## Zusammenspiel der Ebenen\nDie Gemeinde Cham setzt die konkreten Gebührenrahmen für Baubewilligungen fest [2]; die kantonalen Bestimmungen (ZG 641.1) regeln die Bemessungsgrundsätze und Erhebungsmodalitäten [3]. Art. 49 BV wird hier nicht spezifisch zitiert; das kantonale Recht bildet die Grundlage für die kommunale Gebührenerhebung.\n\n## Nächste Schritte\n- Baubewilligungsgesuch bei der Baubewilligungsbehörde der Gemeinde Cham einreichen (konkretes Verfahren richtet sich nach der kommunalen Praxis und den einschlägigen Bauvorschriften).\n- Die zuständige Behörde setzt die Gebühr gleichzeitig mit der gebührenpflichtigen Verfügung fest oder lässt sie unter besonderer Rechnungsstellung mitteilen; auf Verlangen ist eine Empfangsbescheinigung auszustellen [3].\n- Bei nachgewiesener Bedürftigkeit kann ein Gesuch um Gebührenherabsetzung oder -erlass bei der verfügenden Behörde gestellt werden [3].\n- Gegen die Gebührenfestsetzung kann innert 20 Tagen beim vorgesetzten Gemeinderat Beschwerde geführt werden [3].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 13,
+    "raw_chars": 3240,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt diese drei Kriterien als Bemessungsgrundlage für Baubewilligungen in Cham; § 13 ZG 641.1 nennt tatsächlichen Aufwand, wirtschaftliches Interesse und Bedeutung der Sache für die gebührenpflichtige Person, aber dies ist kantonales Recht und nicht spezifisch in der angegebenen Quelle [2] als Regel für Cham ausgewiesen, zudem fehlt die Zitation.",
+     "Keine der angegebenen Quellen regelt das Einreichungsverfahren oder die Zuständigkeit der Baubewilligungsbehörde in Cham."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 3097,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Aussage ist nicht in den Quellen enthalten; Art. 109bis ZG 641.1 besagt lediglich, dass die Mehrwertsteuer in den Ansätzen inbegriffen ist, nicht dass Barauslagen generell zusätzlich zu entrichten sind.",
+     "Art. 49 BV ist nicht in den gelieferten Quellen enthalten und wird im Kontext der Gebührenbemessung durch die Gemeinde Cham nicht spezifisch zitiert oder benötigt.",
+     "Die Quellen enthalten keine Informationen zur Einreichungsform (schriftlich oder elektronisch) oder zur zuständigen Behörde."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2124,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; handelt es sich um eine allgemeine Handlungsanweisung ohne spezifische Rechtsgrundlage in den vorliegenden Quellen."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 28,
+  "sources": [
+   "[1] fed OR Art. 342",
+   "[2] can ZG 641.1 § 5",
+   "[3] can ZG 641.1 § 13",
+   "[4] com Cham: 2.1-1 Verordnung über die Gebühren im Beurkundungswesen § 2"
+  ]
+ },
+ {
+  "id": "F14",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 71.9,
+  "plan_s": 5.7,
+  "ttft_s": null,
+  "words": 236,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEin schriftlicher Betreibungsregisterauszug kostet gemäss Art. 12a GebV SchKG pauschal 17 CHF, wenn er per Post, Fax oder elektronisch zugestellt wird. Bei einer Zustellung per eingeschriebener Post beträgt die Gebühr inklusive Zustellung 22 CHF. Behörden erhalten den Auszug gebührenfrei, wenn das Bundesrecht eine Auskunftspflicht vorsieht.\n\n## Bund\n- [1] Für einen schriftlichen Auszug aus dem Betreibungsregister beträgt die Gebühr pauschal 17 CHF, unabhängig von der Seitenzahl, wenn er per Post, Fax oder elektronisch zugestellt wird.\n- [1] Wird der Auszug dem Antragsteller per eingeschriebener Post zugestellt, beträgt die Gebühr inklusive Zustellung 22 CHF.\n- [1] Behörden, denen das Bundesrecht eine Auskunftspflicht auferlegt, erhalten den schriftlichen Auszug aus dem Betreibungsregister gebührenfrei.\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt die Gebührenhöhe für Betreibungsregisterauszüge abschliessend; kantonale oder kommunale Vorschriften enthalten keine davon abweichenden Gebühren für diesen Auszug.\n\n## Nächste Schritte\n- Wenden Sie sich schriftlich oder persönlich an das für Ihren Wohnort zuständige Betreibungsamt (z. B. das Betreibungsamt Bern-Mittelland).\n- Gebühr: 17 CHF bei Standardzustellung (Post, Fax, elektronisch) oder 22 CHF bei eingeschriebener Zustellung; Behörden erhalten den Auszug gebührenfrei.\n- Bearbeitungszeit: Die vorliegenden Quellen nennen keine bundesrechtlich festgelegte Frist; das Betreibungsamt erstellt den Auszug nach Eingang des Antrags.\n- Form: Ein schriftlicher Antrag an das Betreibungsamt, in dem Sie die gewünschte Auszugsdauer und die gewünschte Zustellart (Post/Fax/elektronisch oder eingeschrieben) angeben.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1488,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle enthält eine Aussage zu einer Frist für die Ausstellung des Betreibungsregisterauszugs."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1585,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine Frist für die Ausstellung des Betreibungsregisterauszugs; die Aussage ist eine unbelegte Behauptung."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1168,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine Frist; die Aussage ist eine unbelegte Behauptung."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 14,
+  "sources": [
+   "[1] fed GebV SchKG Art. 12a Schriftliche Betreibungsregisterauskünfte",
+   "[2] fed SchKG Art. 74",
+   "[3] can BE 154.21 Art. 28",
+   "[4] can BE 154.21 Art. 29",
+   "[5] com Bern: 664.211 Gemeinderatsbeschluss betreffend Reglement vom 28. September 1 Teil 1",
+   "[6] cas BGE 129 III 366 2003-01-01"
+  ]
+ },
+ {
+  "id": "F15",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 76.9,
+  "plan_s": 9.9,
+  "ttft_s": null,
+  "words": 315,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour un adulte, l'émolument fédéral pour l'établissement d'un passeport suisse est de CHF 140.- [1]. Selon l'Annexe 3 OLDI, le canton de Genève perçoit une part de production de CHF 24.20, portant l'émolument total à CHF 69.90 pour un passeport adulte [2]. Des suppléments obligatoires ou facultatifs peuvent s'ajouter selon les prestations demandées [1].\n\n## Confédération  \n- Pour un adulte, l'émolument fédéral pour un passeport est de CHF 140.- [1].  \n- Pour un enfant (moins de 18 ans), l'émolument fédéral est de CHF 65.- [1].  \n- Suppléments obligatoires (ex. inscriptions ultérieures par une autorité d’établissement : CHF 20.- ; passeport provisoire hors heures de bureau : CHF 25.- ou CHF 50.- selon le cas) ou facultatifs (ex. investigations particulières : CHF 80.- par heure ; retrait/restitution : CHF 40.-) s'ajoutent selon les prestations [1][2].\n\n## Canton de Genève  \n- Selon l'Annexe 3 OLDI, pour un passeport adulte, la part de production perçue par le canton de Genève est de CHF 24.20 [2].  \n- Aucune source pertinente ne précise d'autres suppléments cantonaux spécifiques pour les passeports dans les documents fournis.\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa Confédération fixe les émoluments de base pour les documents d'identité (OLDI). Les cantons perçoivent une part de production (voir Annexe 3 OLDI) et peuvent prévoir des suppléments supplémentaires. Le droit fédéral prime (art. 49 Cst.).\n\n## Prochaines étapes  \n- Se rendre dans un office cantonal compétent (ex. Office cantonal genevois des passeports) pour déposer la demande de passeport [1].  \n- Prévoir un émolument fédéral de CHF 140.- pour un adulte et se renseigner sur les suppléments cantonaux applicables directement auprès de cet office, car ils ne sont pas détaillés dans les sources fédérales fournies.  \n- Consulter le site officiel de l'administration cantonale genevoise pour les tarifs cantonaux spécifiques et la liste des documents requis.\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2431,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La phrase mentionne un montant spécifique (CHF 24.20 pour Genève) sans citer de source valide. Les sources fournies ne contiennent pas de tarif cantonal genevois pour les passeports. L'Annexe 3 [2] montre la répartition Confédération/Canton mais pas le tarif cantonal genevois effectif.",
+     "Cette instruction pratique ne repose sur aucune source citée dans la liste fournie.",
+     "Cette instruction ne cite aucune source légale. Les sources fournies ne détaillent pas les suppléments cantonaux/communaux spécifiques."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2728,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source [2] indique une répartition entre Confédération et cantons (ex. adultes: CHF 45.90 Confédération / CHF 24.20 Canton), mais l'Annexe 3 ne mentionne pas un montant cantonal fixe de CHF 24.20 pour Genève comme part de production unique pour tous les passeports adultes ; il s'agit d'une répartition de l'émolument total. De plus, aucune source ne cite explicitement CHF 24.20 comme part cantonale dans l'Annexe 3 pour un passeport adulte standard.",
+     "La source [1] est une annexe tarifaire fédérale (OLDI) et ne mentionne pas l'Office cantonal genevois des passeports comme autorité de dépôt ou ne cite pas cette autorité dans son texte.",
+     "Aucune source ne confirme l'existence ou le montant de suppléments cantonaux spécifiques pour les passeports dans les sources fournies (les suppléments obligatoires/facultatifs listés dans [1] sont des suppléments fédéraux ou liés à des prestations spécifiques, pas des suppléments cantonaux généraux)."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 763,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed OLDI Annexe 2",
+   "[2] fed OLDI Annexe 3",
+   "[3] fed OLDI Art. 47 Montant des émoluments",
+   "[4] can GE D 3 19.03 Art. 2",
+   "[5] com Genève: LC 21152.16.A01 - Annexe 1 - Montants Art. 4",
+   "[6] com Genève: LC 21152.16.A01 - Annexe 1 - Montants Art. 7",
+   "[7] com Genève: LC 21152.16.A01 - Annexe 1 - Montants Art. 8",
+   "[8] com Genève: LC 21152.16.A01 - Annexe 1 - Montants Art. 9"
+  ]
+ },
+ {
+  "id": "F16",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 118.4,
+  "plan_s": 5.8,
+  "ttft_s": null,
+  "words": 525,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour une naturalisation ordinaire, les émoluments dépendent du type de demande (individuelle ou familiale), de la majorité du requérant au moment du dépôt et des autorités (fédérale, cantonale vaudoise et communale lausannoise). Au niveau fédéral, les montants varient de CHF 50.- à CHF 500.- selon les cas ; le canton de Vaud perçoit entre CHF 450.- et CHF 550.- pour une demande individuelle et la commune de Lausanne entre CHF 100.- et CHF 400.- pour une demande individuelle. Les enfants mineurs inclus dans la naturalisation d’un parent ne paient aucun émolument fédéral.\n\n## Confédération  \n- Pour l’octroi d’une autorisation fédérale de naturalisation : CHF 100.- si le demandeur est majeur au moment du dépôt ; CHF 50.- si mineur au moment du dépôt ; CHF 150.- pour les conjoints qui déposent ensemble ; CHF 500.- pour la naturalisation facilitée (majeur au dépôt) et CHF 250.- (mineur au dépôt) ; CHF 300.- pour un refus d’octroyer une autorisation ; CHF 500.- pour le prononcé d’une décision d’annulation d’une naturalisation ; CHF 60.- pour la remise d’une attestation ; aucun émolument pour les enfants mineurs compris dans la naturalisation d’un parent [1].  \n- Les dispositions de l’ordonnance générale sur les émoluments s’appliquent si l’ordonnance sur la nationalité ne prévoit pas de réglementation particulière [2].\n\n## Canton de Vaud  \n- Le Service de la population perçoit : CHF 450.- pour une demande de naturalisation individuelle ; CHF 550.- pour une demande familiale ; CHF 200.- à CHF 400.- pour une demande de Confédéré individuelle ; CHF 300.- à CHF 500.- pour une demande de Confédéré familiale ; CHF 200.- pour une décision de non‑entrée en matière ; CHF 25.- à CHF 50.- pour une attestation ; CHF 105.- à CHF 635.- pour une constatation de droit ; il perçoit également les émoluments découlant de la législation fédérale [3].\n\n## Commune de Lausanne  \n- La commune perçoit : CHF 100.- à CHF 400.- pour une demande de naturalisation individuelle ; CHF 200.- à CHF 500.- pour une demande familiale ; CHF 100.- à CHF 200.- pour une demande de Confédéré [4].\n\n## Articulation des niveaux  \nLe droit fédéral fixe les émoluments de base selon la situation du demandeur et le type de décision. Le canton de Vaud et la commune de Lausanne prévoient des émoluments supplémentaires qui s’ajoutent aux frais fédéraux ; en cas de conflit, le droit fédéral prime conformément à l’art. 49 Cst.\n\n## Prochaines étapes  \n1. Déposer la demande de naturalisation auprès du Service de la population du canton de Vaud, en joignant les pièces d’identité, les preuves de séjour et tout autre document requis ; prévoir un émolument cantonal de CHF 450.– à CHF 550.– pour une demande individuelle et un émolument communal de CHF 100.– à CHF 400.– pour une demande individuelle à Lausanne [3][4].  \n2. Vérifier la situation familiale : les enfants mineurs inclus dans la naturalisation d’un parent ne sont pas soumis à l’émolument fédéral [1].  \n3. S’informer auprès du Service de la population du canton de Vaud pour connaître les documents exacts à fournir et les modalités de paiement des émoluments [3].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 3894,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Cette affirmation générale sur la primauté du droit fédéral n’est pas explicitement contenue dans les sources fournies (les sources ne traitent que des montants d’émoluments).",
+     "La source [4] concerne les taxes d’évacuation et de traitement des eaux, non les émoluments de naturalisation. Aucun lien n’est établi entre un nouveau bâtiment et les frais de naturalisation.",
+     "Les sources ne précisent pas les documents à joindre ni les étapes de dépôt; les montants cantonaux/communaux sont corrects mais la citation est manquante."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 3630,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Le texte ne cite aucune source pour cette affirmation générale sur la primauté du droit fédéral en cas de conflit.",
+     "Les montants indiqués sont corrects pour le canton de Vaud et la commune de Lausanne, mais aucune source n’est citée pour ces informations spécifiques.",
+     "Le règlement communal 731.8 traite des taxes d’évacuation et de traitement des eaux, pas des émoluments de naturalisation. Aucune source ne justifie le lien entre ces deux types de frais."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2444,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed OLN Art. 25 Émoluments perçus",
+   "[2] fed OLN Art. 24 Applicabilité de l’ordonnance générale sur les émoluments",
+   "[3] can VD 141.11.1 Art. 32",
+   "[4] com Lausanne: 731.8 Taxes d’évacuation et de traitement des eaux Teil 1"
+  ]
+ },
+ {
+  "id": "F17",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 62.8,
+  "plan_s": 7.3,
+  "ttft_s": null,
+  "words": 229,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 6,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nLe fonti non riportano l'importo numerico preciso della tassa sui cani a Lugano; secondo il regolamento cantonale l'importo è fissato dal Comune tramite ordinanza [2], mentre il Consiglio di Stato stabilisce gli importi in un tariffario [2], documento non incluso nelle fonti fornite.\n\n## Confederazione  \nNessuna fonte pertinente recuperata.\n\n## Cantone Ticino  \n- L'importo della tassa sui cani è stabilito dal Comune di Lugano mediante ordinanza [2].  \n- Per l'assoggettamento fanno stato i dati registrati nella banca dati sui cani secondo l'articolo 30 capoverso 2 LFE [2].  \n- Il Consiglio di Stato stabilisce in un tariffario gli importi delle altre prestazioni previste dalla legge e dal presente regolamento [2].\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl Comune di Lugano applica il quadro cantonale [2] per definire l'importo della tassa, integrandolo con un'ordinanza comunale e un tariffario cantonale; la legge federale prevale su eventuali norme cantonali o comunali contrarie (Art. 49 Cost.).\n\n## Prossimi passi  \n- Rivolgersi all'Ufficio competente del Comune di Lugano (es. Ufficio tassazione comunale o Servizio veterinario cantonale, secondo l'organizzazione locale) per ottenere l'ordinanza comunale contenente l'importo della tassa [2].  \n- Consultare il tariffario ufficiale del Consiglio di Stato del Canton Ticino, reperibile presso la Cancelleria dello Stato o sul portale amministrativo cantonale, per verificare eventuali importi standardizzati per le prestazioni correlate [2].\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1518,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "CO Art. 30"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1103,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La fonte [2] è pertinente e contiene informazioni sulla tassa sui cani; la dichiarazione di assenza di fonti pertinenti è errata."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2112,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La fonte [2] è pertinente e contiene informazioni sulla tassa sui cani; la dichiarazione di assenza di fonti pertinenti è errata.",
+     "Nessuna fonte cita l'esistenza o il nome dell'ufficio competente del Comune di Lugano per ottenere l'importo della tassa.",
+     "Nessuna fonte indica dove trovare il tariffario del Consiglio di Stato o conferma che esso contenga importi standardizzati per la tassa sui cani."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 16,
+  "sources": [
+   "[1] fed CC Art. 5",
+   "[2] can TI 482.310 Art. 4",
+   "[3] can TI 482.310 Allegato",
+   "[4] fed CO Art. 30"
+  ]
+ },
+ {
+  "id": "F18",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 34.8,
+  "plan_s": 5.6,
+  "ttft_s": null,
+  "words": 174,
+  "citations": 2,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie vorliegenden Quellen enthalten keine konkrete Busse für eine Überschreitung der innerorts zulässigen Höchstgeschwindigkeit von 50 km/h um 15 km/h. Die Bundesvorschriften (VRV) legen die zulässige Höchstgeschwindigkeit innerorts auf 50 km/h fest [3], bestimmen jedoch nicht die Höhe der Busse für eine solche Geschwindigkeitsüberschreitung. Kantonale oder kommunale Bussentarife wurden nicht abgerufen; die kantonalen Ordnungsbussenverordnung und die kommunalen Quellen regeln andere Tatbestände.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht legt die zulässige Höchstgeschwindigkeit innerorts auf 50 km/h fest [3]; die konkrete Bussenhöhe für eine Überschreitung ist jedoch kantonalrechtlich geregelt und in den vorliegenden kantonalen oder kommunalen Quellen nicht enthalten. Art. 49 BV regelt die Normenhierarchie, wonach Bundesrecht entgegenstehenden kantonalen oder kommunalen Bestimmungen vorgeht; für die konkrete Bussenhöhe bei Verkehrsdelikten sind jedoch die kantonalen Vorschriften massgeblich.\n\n## Nächste Schritte\n- Erkundigen Sie sich bei der Kantonspolizei Zürich oder dem kantonalen Strassenverkehrsamt nach der konkreten Busse für eine Geschwindigkeitsüberschreitung von 15 km/h innerorts.\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 2083,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen enthält eine Busse für eine Überschreitung von 15 km/h innerorts. Die Quellen regeln Höchstgeschwindigkeiten oder Ordnungsbussen für andere Tatbestände.",
+     "Die kantonalen Quellen (ZH) enthalten keine Bussenliste für Geschwindigkeitsüberschreitungen; die kommunalen Quellen (Zürich) regeln Steuer- und Ordnungsfragen, nicht Strassenverkehrsbußen.",
+     "Art. 49 BV besagt, dass Bundesrecht entgegenstehenden kantonalen oder kommunalen Bestimmungen vorgeht. Die Aussage ist im Kontext der Bussenhöhe für Geschwindigkeitsüberschreitungen jedoch nicht einschlägig, da Bussenhöhen kantonal geregelt sind und nicht durch Bundesrecht festgelegt werden."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 0,
+    "raw_chars": 69,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 0,
+    "raw_chars": 69,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 4,
+  "sources": [
+   "[1] fed VRV Art. 4 Angemessene Geschwindigkeit",
+   "[2] fed VRV Art. 5 Höchstgeschwindigkeit für einzelne Fahrzeugarten",
+   "[3] fed VRV Art. 4a Allgemeine Höchstgeschwindigkeiten; Grundregel",
+   "[4] can ZH 321.2 § 13 (2)",
+   "[5] com Zürich: 631.500 Geschäftsordnung des Steueramtes Art. 4"
+  ]
+ }
+]

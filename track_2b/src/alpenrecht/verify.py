@@ -79,9 +79,20 @@ def relevant_sources(question, evidence):
     """Apertus keeps the provisions that answer the question; the rest stay visible in the UI but out of the answer."""
     if len(evidence) <= 3:
         return evidence
+    from . import communal  # fee patterns (communal imports nothing from here)
+    fee = bool(communal.FEE_Q.search(question))
+
+    def amounts(e):
+        """For fee questions the 160-character snippet rarely reaches the tariff: show where the amounts are."""
+        if not fee:
+            return ""
+        hits = [re.sub(r"\s+", " ", e["text"][max(0, m.start() - 50):m.end() + 15])
+                for m in communal.AMOUNT.finditer(e["text"])]
+        return (" · amounts: " + " / ".join(hits[:2])) if hits else ""
+
     judged = evidence
     listing = "\n".join(f"[{e['id']}] {e['level'][:3]} {e['law'][:40]} {e['number']} · "
-                        f"{re.sub(r'\s+', ' ', e['text'][len(e['number']):])[:160]}" for e in judged)
+                        f"{re.sub(r'\s+', ' ', e['text'][len(e['number']):])[:160]}{amounts(e)}" for e in judged)
     try:
         raw = apertus.chat([{"role": "user", "content": RELEVANCE_PROMPT.format(question=question, listing=listing)}],
                            temperature=0.0, max_tokens=120)
@@ -92,6 +103,10 @@ def relevant_sources(question, evidence):
     # Each level's first picks are Apertus' own best choices from a reading of the act; the filter (judging only
     # 160-character snippets) once dropped every federal article on e-scooters, including LCR art. 43 on pavements.
     top = {e["id"] for lv in ("federal", "cantonal") for e in [x for x in evidence if x["level"] == lv][:2]}
+    # A communal provision or a federal annex that carries the amounts of a fee question is the answer itself.
+    if fee:
+        top |= {e["id"] for e in evidence if communal.AMOUNT.search(e["text"])
+                and (e["level"] == "communal" or re.match(r"(?i)anhang|annex|allegat|tarif", e["number"]))}
     kept = [e for e in evidence if e["id"] in keep or e["id"] in top]
     return kept or evidence
 
