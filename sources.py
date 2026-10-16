@@ -56,8 +56,19 @@ def http(url, data=None, headers=None, timeout=60, cache=False):
             "Accept-Language": "de-CH,de;q=0.9,fr;q=0.8,it;q=0.7"}
     try:
         req = urllib.request.Request(url, data=data, headers={**base, **(headers or {})})
-        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as r:
-            body = r.read()
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as r:
+                    body = r.read()
+                break
+            except urllib.error.HTTPError:
+                raise
+            except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+                # A dropped connection or TLS handshake timeout (busy line, busy server) used to cost a whole level:
+                # one failed swisstopo lookup meant no canton and no commune at all. Retry twice, then give up.
+                if attempt == 2:
+                    raise
+                time.sleep(2 * (attempt + 1))
     except urllib.error.HTTPError as e:
         if e.code not in (403, 406):
             raise

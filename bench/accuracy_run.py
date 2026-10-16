@@ -41,6 +41,7 @@ def main():
     ap.add_argument("--env", default=str(HERE.parent / ".env"))
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--only", default="")
+    ap.add_argument("--net-retry", action="store_true", help="add the current code's network retry to an older checkout")
     args = ap.parse_args()
 
     load_env(pathlib.Path(args.env))
@@ -69,6 +70,28 @@ def main():
             raise
 
     apertus._request = logged_request
+
+    if args.net_retry:
+        # Give an older checkout the same network patience as the current code (3 attempts on dropped
+        # connections), so a busy line doesn't count as a quality difference between versions.
+        import urllib.error
+        import sources  # noqa: E402
+        orig_http = sources.http
+
+        def http_retry(url, data=None, headers=None, timeout=60, cache=False):
+            if cache:
+                return orig_http(url, data, headers, timeout, cache=True)  # its inner download comes back here
+            for attempt in range(3):
+                try:
+                    return orig_http(url, data, headers, timeout, cache=False)
+                except urllib.error.HTTPError:
+                    raise
+                except (urllib.error.URLError, TimeoutError, ConnectionError):
+                    if attempt == 2:
+                        raise
+                    time.sleep(2 * (attempt + 1))
+
+        sources.http = http_retry
 
     items = json.loads(pathlib.Path(args.set).read_text(encoding="utf-8"))
     if args.only:
