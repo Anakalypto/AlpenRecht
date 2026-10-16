@@ -180,7 +180,10 @@ def pick_federal(question, candidates, n=8):
         return None
 
     def label(act, art):
-        return f"{act['short'] or 'SR ' + act['sr']} art. {_artno(art['number'])}"
+        name = act['short'] or 'SR ' + act['sr']
+        if not re.match(r"(?i)\s*art", art["number"]):  # annex parts: "VVV Anhang 1 (2)"
+            return f"{name} {re.sub(r'\s+', ' ', art['number'])}"
+        return f"{name} art. {_artno(art['number'])}"
 
     by_label, lines = {}, []
     for c in candidates:

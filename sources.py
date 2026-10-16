@@ -291,6 +291,23 @@ def parse_fedlex_html(raw):
             continue
         articles.append({"anchor": m.group(1), "number": number, "path": " › ".join(stack[k] for k in sorted(stack)),
                          "text": text})
+    # Annexes (<section id="annex_N">) hold tariffs, fee tables and lists; they were never parsed, so a federal fee
+    # ordinance contributed its articles but not a single amount. Long annexes are kept in parts.
+    marks = [(m.start(), m.group(1)) for m in re.finditer(r'<section id="annex_(\d+)">', doc)]
+    for i, (start, n) in enumerate(marks):
+        end = marks[i + 1][0] if i + 1 < len(marks) else len(doc)
+        text = re.sub(r"[ \t]+", " ", strip_tags(doc[start:end])).strip()
+        text = re.sub(r"\n\s*\n+", "\n", text)
+        if len(text) < 40:
+            continue
+        head = re.match(r"(Anhang|Annexe|Allegato|Annex)\s*\d*", text)
+        number = head.group(0) if head else f"Anhang {n}"
+        for j in range(0, len(text), ART_MAX - 300):
+            # Parts need their own anchor (candidates are de-duplicated by anchor); the link drops the "~k" again.
+            articles.append({"anchor": f"annex_{n}" + (f"~{j}" if j else ""), "number": number if j == 0 else f"{number} ({j // (ART_MAX - 300) + 1})",
+                             "path": number, "text": text[j:j + ART_MAX]})
+            if j + ART_MAX >= len(text):
+                break
     return articles
 
 
@@ -309,7 +326,7 @@ def fedlex_articles(act_info, asof, lang):
     base = f"https://www.fedlex.admin.ch/{eli}/{version['lang']}"
     arts = parse_fedlex_html(raw)
     for a in arts:
-        a["url"] = f"{base}#{a['anchor']}"
+        a["url"] = f"{base}#{a['anchor'].split('~')[0]}"
     return version, arts
 
 
