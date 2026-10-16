@@ -87,8 +87,9 @@ def relevant_sources(question, evidence):
                            temperature=0.0, max_tokens=200)
     except apertus.ApertusError:
         return evidence
-    # The longest number list is the verdict; a lone "[3]" may just echo the listing style.
-    lists = re.findall(r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]", raw)
+    # The longest number list is the verdict; a lone "[3]" may just echo the listing style. "[]" is a verdict too
+    # (nothing relevant): then only the protected federal picks remain.
+    lists = re.findall(r"\[\s*(?:\d+(?:\s*,\s*\d+)*)?\s*\]", raw)
     if not lists:
         return evidence  # unreadable or cut off: keep everything rather than lose sources
     keep = {int(x) for x in re.findall(r"\d+", max(lists, key=len))}

@@ -1,0 +1,802 @@
+[
+ {
+  "id": "H001",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Wie viel Handänderungssteuer zahle ich im Kanton Bern beim Kauf eines Hauses, das ich selbst bewohnen will?",
+  "group": "cantonal",
+  "batch": "b1"
+ },
+ {
+  "id": "H002",
+  "lang": "de",
+  "loc": "8400 Winterthur",
+  "q": "Ich habe gegen eine unberechtigte Betreibung Rechtsvorschlag erhoben – ab wann kann ich verlangen, dass sie Dritten im Betreibungsauszug nicht mehr angezeigt wird?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H003",
+  "lang": "de",
+  "loc": "6300 Zug",
+  "q": "Innert welcher Frist kann ich einen Beschluss unserer Stockwerkeigentümerversammlung gerichtlich anfechten?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H004",
+  "lang": "de",
+  "loc": "3900 Brig",
+  "q": "Mein Grundstück hat keinen genügenden Zugang zur öffentlichen Strasse – kann ich vom Nachbarn ein Wegrecht über sein Land verlangen?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H005",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Ist ein nur privat unterschriebener Kaufvertrag für eine Eigentumswohnung gültig?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H006",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Ich miete ein möbliertes Zimmer – mit welcher Frist kann ich kündigen?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H007",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Quel est le taux des droits de mutation à payer lors de l'achat d'une maison dans le canton de Fribourg ?",
+  "group": "cantonal",
+  "batch": "b1"
+ },
+ {
+  "id": "H008",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Mon bailleur m'a résilié mon bail et je le trouve abusif : dans quel délai dois-je contester le congé ?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H009",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "L'office des poursuites peut-il me notifier un commandement de payer le 27 décembre ?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H010",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "J'ai reçu par la poste un produit que je n'ai jamais commandé avec une facture : dois-je le payer ou le renvoyer ?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H011",
+  "lang": "fr",
+  "loc": "2300 La Chaux-de-Fonds",
+  "q": "Pendant combien de temps un créancier peut-il faire valoir un acte de défaut de biens délivré contre moi ?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H012",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Ho firmato un contratto di credito al consumo: entro quanto tempo posso revocarlo?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H013",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "q": "A che distanza dal giardino del vicino posso piantare un noce in Ticino?",
+  "group": "cantonal",
+  "batch": "b1"
+ },
+ {
+  "id": "H014",
+  "lang": "en",
+  "loc": "6003 Luzern",
+  "q": "I bought a house this year and found a hidden defect in the roof – how long do I have to notify the seller?",
+  "group": "federal",
+  "batch": "b1"
+ },
+ {
+  "id": "H015",
+  "lang": "de",
+  "loc": "8200 Schaffhausen",
+  "q": "Wie lange dauert der Vaterschaftsurlaub und bis wann muss ich ihn beziehen?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H016",
+  "lang": "fr",
+  "loc": "1201 Genève",
+  "q": "Dans quel délai dois-je réagir si j'estime que mon licenciement est abusif ?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H017",
+  "lang": "it",
+  "loc": "6830 Chiasso",
+  "q": "Se lavoro di notte solo per un periodo limitato, il datore di lavoro mi deve un supplemento salariale?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H018",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Ab wann muss ich als Lehrling AHV-Beiträge bezahlen?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H019",
+  "lang": "de",
+  "loc": "4600 Olten",
+  "q": "Ab welchem Alter kann ich meine AHV-Rente frühestens vorbeziehen?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H020",
+  "lang": "en",
+  "loc": "4051 Basel",
+  "q": "What is the deadline to cancel my basic health insurance so I can switch insurer on 1 January?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H021",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Quel est le montant maximal de quote-part que je paie par année à l'assurance maladie de base ?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H022",
+  "lang": "de",
+  "loc": "3600 Thun",
+  "q": "Bin ich bei einem Teilzeitpensum von 6 Stunden pro Woche auch in der Freizeit gegen Unfälle versichert?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H023",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Wie viel Taggeld zahlt die Unfallversicherung und ab welchem Tag?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H024",
+  "lang": "fr",
+  "loc": "2300 La Chaux-de-Fonds",
+  "q": "Quel pourcentage de mon gain assuré vais-je toucher au chômage si j'ai deux enfants mineurs ?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H025",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Da quale grado d'invalidità ho diritto a una rendita AI?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H026",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Puis-je retirer mon avoir de deuxième pilier en espèces si je me mets à mon compte ?",
+  "group": "federal",
+  "batch": "b2"
+ },
+ {
+  "id": "H027",
+  "lang": "fr",
+  "loc": "1630 Bulle",
+  "q": "Mon employeur a son siège à Bulle : à combien s'élève l'allocation pour enfant mensuelle pour mon troisième enfant de 10 ans, mes deux aînés donnant aussi droit aux allocations ?",
+  "group": "cantonal",
+  "batch": "b2"
+ },
+ {
+  "id": "H028",
+  "lang": "de",
+  "loc": "6340 Baar",
+  "q": "Mein Arbeitgeber hat seinen Sitz in Baar: Wie hoch ist die monatliche Kinderzulage für mein 12-jähriges Kind?",
+  "group": "cantonal",
+  "batch": "b2"
+ },
+ {
+  "id": "H029",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Mein Mann verweigert die Scheidung – wie lange müssen wir getrennt leben, bevor ich die Scheidung allein einklagen kann?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H030",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Mein Vater ist gestorben und hatte vermutlich mehr Schulden als Vermögen – bis wann kann ich das Erbe ausschlagen?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H031",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "q": "Ich bin Brasilianerin, habe die B-Bewilligung wegen meiner Ehe mit einem Schweizer und wir trennen uns – darf ich trotzdem in der Schweiz bleiben?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H032",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Ich bin seit drei Jahren mit einer Schweizerin verheiratet und wohne seit fünf Jahren in der Schweiz – kann ich mich erleichtert einbürgern lassen?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H033",
+  "lang": "de",
+  "loc": "8400 Winterthur",
+  "q": "Meine Mutter wohnte in Winterthur und ist nun gestorben – muss ich als ihr Sohn auf meinem Erbteil Erbschaftssteuer bezahlen?",
+  "group": "cantonal",
+  "batch": "b3"
+ },
+ {
+  "id": "H034",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Mon fils peut-il être l'un des deux témoins lorsque je fais mon testament public chez le notaire ?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H035",
+  "lang": "fr",
+  "loc": "1205 Genève",
+  "q": "Je pars travailler deux ans à l'étranger : mon permis C restera-t-il valable ?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H036",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Nous divorçons sans contrat de mariage : ai-je droit à une part de l'épargne que mon mari a constituée sur son salaire pendant le mariage ?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H037",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Quelle différence d'âge doit-il y avoir entre l'enfant et moi pour que je puisse l'adopter ?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H038",
+  "lang": "fr",
+  "loc": "1400 Yverdon-les-Bains",
+  "q": "J'ai le permis C et j'habite Yverdon depuis 18 mois après neuf ans à Zurich : puis-je déjà déposer une demande de naturalisation ordinaire dans le canton de Vaud ?",
+  "group": "cantonal",
+  "batch": "b3"
+ },
+ {
+  "id": "H039",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Dopo il divorzio posso tornare al mio cognome da nubile, e come devo fare?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H040",
+  "lang": "it",
+  "loc": "6600 Locarno",
+  "q": "Quanti anni devo aver risieduto in Ticino e nel mio comune per poter chiedere la naturalizzazione ordinaria?",
+  "group": "cantonal",
+  "batch": "b3"
+ },
+ {
+  "id": "H041",
+  "lang": "en",
+  "loc": "8001 Zürich",
+  "q": "My ex and I share parental responsibility – can I move abroad with our daughter without his consent?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H042",
+  "lang": "en",
+  "loc": "4051 Basel",
+  "q": "I'm 15 – can I change my registered gender at the civil registry office without my parents' consent?",
+  "group": "federal",
+  "batch": "b3"
+ },
+ {
+  "id": "H043",
+  "lang": "de",
+  "loc": "8400 Winterthur",
+  "q": "Jemand hat mein Velo mutwillig beschädigt – wie lange habe ich Zeit, einen Strafantrag zu stellen?",
+  "group": "federal",
+  "batch": "b4"
+ },
+ {
+  "id": "H044",
+  "lang": "de",
+  "loc": "6300 Zug",
+  "q": "Darf mein zehnjähriger Sohn mit dem Velo auf dem Trottoir fahren?",
+  "group": "federal",
+  "batch": "b4"
+ },
+ {
+  "id": "H045",
+  "lang": "de",
+  "loc": "6430 Schwyz",
+  "q": "Darf ich in der Schweiz ein Butterflymesser kaufen?",
+  "group": "federal",
+  "batch": "b4"
+ },
+ {
+  "id": "H046",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Kann ich Spenden an gemeinnützige Organisationen bei der direkten Bundessteuer abziehen, und bis zu welchem Betrag?",
+  "group": "federal",
+  "batch": "b4"
+ },
+ {
+  "id": "H047",
+  "lang": "de",
+  "loc": "8050 Zürich",
+  "q": "Die Polizei hat meinen gewalttätigen Partner aus unserer Wohnung weggewiesen – wie lange gilt diese Wegweisung?",
+  "group": "cantonal",
+  "batch": "b4"
+ },
+ {
+  "id": "H048",
+  "lang": "de",
+  "loc": "6006 Luzern",
+  "q": "Brauche ich ein Fischereipatent, um vom Ufer des Vierwaldstättersees aus zu angeln?",
+  "group": "cantonal",
+  "batch": "b4"
+ },
+ {
+  "id": "H049",
+  "lang": "fr",
+  "loc": "2300 La Chaux-de-Fonds",
+  "q": "J'ai reçu une ordonnance pénale du ministère public : dans quel délai puis-je faire opposition ?",
+  "group": "federal",
+  "batch": "b4"
+ },
+ {
+  "id": "H051",
+  "lang": "fr",
+  "loc": "1400 Yverdon-les-Bains",
+  "q": "À quelle période de l'année dois-je tenir mon chien en laisse en forêt ?",
+  "group": "cantonal",
+  "batch": "b4"
+ },
+ {
+  "id": "H052",
+  "lang": "fr",
+  "loc": "1630 Bulle",
+  "q": "Ma voiture électrique a-t-elle droit à une réduction de l'impôt sur les véhicules ?",
+  "group": "cantonal",
+  "batch": "b4"
+ },
+ {
+  "id": "H057",
+  "lang": "de",
+  "loc": "3600 Thun",
+  "q": "Ab wann gilt in Thun unter der Woche die Nachtruhe?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H058",
+  "lang": "de",
+  "loc": "8604 Volketswil",
+  "q": "Darf ich in Volketswil an Silvester Knallkörper oder anderes lärmiges Feuerwerk zünden?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H059",
+  "lang": "de",
+  "loc": "9200 Gossau SG",
+  "q": "An welchen Tagen darf ich in Gossau Knallkörper zünden?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H060",
+  "lang": "de",
+  "loc": "4703 Kestenholz",
+  "q": "Darf ich in Kestenholz am Sonntag den Rasen mähen?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H061",
+  "lang": "de",
+  "loc": "4102 Binningen",
+  "q": "Zu welchen Zeiten darf ich in Binningen am Samstag den Rasen mähen?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H062",
+  "lang": "de",
+  "loc": "5432 Neuenhof",
+  "q": "Darf ich in Neuenhof trockene Gartenabfälle in meinem Garten im Wohnquartier verbrennen?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H063",
+  "lang": "de",
+  "loc": "8840 Einsiedeln",
+  "q": "Wie schwer darf in Einsiedeln ein Sperrgut-Stück höchstens sein und wie viele Gebührenmarken brauche ich dafür?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H064",
+  "lang": "en",
+  "loc": "6343 Rotkreuz",
+  "q": "How much is the annual dog tax in Risch-Rotkreuz?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H065",
+  "lang": "fr",
+  "loc": "2400 Le Locle",
+  "q": "Combien coûte la taxe annuelle pour un chien au Locle ?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H066",
+  "lang": "fr",
+  "loc": "1269 Bassins",
+  "q": "Combien de jours de suite puis-je laisser ma voiture stationnée sur une place de parc publique à Bassins ?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H067",
+  "lang": "fr",
+  "loc": "2800 Delémont",
+  "q": "À Delémont, puis-je laisser brûler un feu dans mon jardin après la tombée de la nuit ?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H068",
+  "lang": "fr",
+  "loc": "1920 Martigny",
+  "q": "À Martigny, à partir de quelle heure le soir est-il interdit de passer la tondeuse à gazon ?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H069",
+  "lang": "it",
+  "loc": "6648 Minusio",
+  "q": "Quanto costa un sacco ufficiale dei rifiuti da 35 litri a Minusio?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H070",
+  "lang": "it",
+  "loc": "6614 Brissago",
+  "q": "A che ore posso usare il tosaerba di sabato a Brissago?",
+  "group": "communal",
+  "batch": "b5"
+ },
+ {
+  "id": "H071",
+  "lang": "de",
+  "loc": "8003 Zürich",
+  "q": "Wie viel Hundeabgabe muss ich in der Stadt Zürich pro Jahr für meinen Hund bezahlen?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H072",
+  "lang": "de",
+  "loc": "8050 Zürich",
+  "q": "Wie hoch ist der Gemeindesteuerfuss der Stadt Zürich für das Steuerjahr 2026?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H073",
+  "lang": "en",
+  "loc": "8037 Zürich",
+  "q": "I live in the city of Zürich. On a Saturday night in July, from what time does the official night-time quiet period start?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H074",
+  "lang": "fr",
+  "loc": "1004 Lausanne",
+  "q": "Combien la Commune de Lausanne prélève-t-elle d'impôt communal par chien ?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H075",
+  "lang": "fr",
+  "loc": "1005 Lausanne",
+  "q": "Quel est le coefficient d'impôt communal de Lausanne pour l'année fiscale 2026 ?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H076",
+  "lang": "fr",
+  "loc": "1007 Lausanne",
+  "q": "Combien coûte une attestation de domicile à Lausanne si je la commande en ligne ?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H077",
+  "lang": "fr",
+  "loc": "1205 Genève",
+  "q": "Combien coûte une concession pour une tombe de corps dans un cimetière de la Ville de Genève ?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H078",
+  "lang": "fr",
+  "loc": "1202 Genève",
+  "q": "Mon père, domicilié en Ville de Genève, vient de décéder : la famille doit-elle payer les obsèques ?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H079",
+  "lang": "de",
+  "loc": "4056 Basel",
+  "q": "Ich halte in Basel zwei Hunde im selben Haushalt. Wie viel Hundesteuer zahle ich pro Jahr?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H080",
+  "lang": "de",
+  "loc": "4058 Basel",
+  "q": "Was kostet in Basel eine Anwohnerparkkarte für mein 4,5 Meter langes Auto?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H081",
+  "lang": "de",
+  "loc": "3013 Bern",
+  "q": "Wie hoch ist die Gebühr der Stadt Bern für die Einbürgerung eines Ehepaars?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H082",
+  "lang": "de",
+  "loc": "3007 Bern",
+  "q": "Was kostet in der Stadt Bern eine Anwohnerparkkarte für ein Jahr?",
+  "group": "communal",
+  "batch": "c1"
+ },
+ {
+  "id": "H083",
+  "lang": "de",
+  "loc": "6340 Baar",
+  "q": "Welcher Gemeindesteuerfuss gilt 2026 in Baar?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H084",
+  "lang": "de",
+  "loc": "7270 Davos Platz",
+  "q": "Ich halte in Davos zwei Hunde. Wie viel Hundetaxe zahle ich pro Jahr?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H085",
+  "lang": "de",
+  "loc": "8280 Kreuzlingen",
+  "q": "Was kostet in Kreuzlingen ein Wohnsitzausweis?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H086",
+  "lang": "en",
+  "loc": "9100 Herisau",
+  "q": "What municipal tax rate (Steuerfuss) applies in Herisau for 2026?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H087",
+  "lang": "de",
+  "loc": "6370 Stans",
+  "q": "Wie hoch ist der Steuerfuss der Gemeinde Stans im Jahr 2026?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H088",
+  "lang": "de",
+  "loc": "8840 Einsiedeln",
+  "q": "Was kostet in Einsiedeln eine Parkkarte für die Blaue Zone im Dorf?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H089",
+  "lang": "de",
+  "loc": "4600 Olten",
+  "q": "Wie viel Hundesteuer bezahle ich in Olten pro Jahr für einen Hund?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H090",
+  "lang": "en",
+  "loc": "9200 Gossau SG",
+  "q": "How much does an annual resident parking permit for the extended blue zone cost in Gossau SG?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H091",
+  "lang": "de",
+  "loc": "5430 Wettingen",
+  "q": "Bis wann darf ich in Wettingen am Abend noch Rasen mähen?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H092",
+  "lang": "de",
+  "loc": "6048 Horw",
+  "q": "Meine Mutter wohnte zuletzt in Kriens, soll aber in Horw erdbestattet werden. Welchen Zuschlag verlangt die Gemeinde Horw?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H093",
+  "lang": "de",
+  "loc": "4132 Muttenz",
+  "q": "Was kostet in Muttenz ein offizieller 60-Liter-Kehrichtsack?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H094",
+  "lang": "de",
+  "loc": "4800 Zofingen",
+  "q": "Ich baue in Zofingen ein Einfamilienhaus mit einer Bausumme von CHF 800'000. Wie hoch ist die Baubewilligungsgebühr?",
+  "group": "communal",
+  "batch": "c2"
+ },
+ {
+  "id": "H095",
+  "lang": "it",
+  "loc": "6600 Locarno",
+  "q": "Quanto pago di tassa base annuale per i rifiuti a Locarno nel 2026 se vivo da solo?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H096",
+  "lang": "it",
+  "loc": "6598 Tenero-Contra",
+  "q": "Quanto costa la tassa annuale sul cane a Tenero-Contra?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H097",
+  "lang": "it",
+  "loc": "6850 Mendrisio",
+  "q": "Lavoro a Mendrisio e vengo in auto: quanto costa all'anno l'autorizzazione per parcheggiare nei posteggi ad uso pubblico limitato?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H098",
+  "lang": "it",
+  "loc": "6616 Losone",
+  "q": "A Losone fino a che ora posso usare il tagliaerba il sabato?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H099",
+  "lang": "fr",
+  "loc": "1510 Moudon",
+  "q": "J'ai 30 ans et j'habite à Moudon : combien je paie de taxe forfaitaire annuelle pour les déchets ?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H100",
+  "lang": "fr",
+  "loc": "1800 Vevey",
+  "q": "Combien coûte l'émolument communal pour un permis de construire à Vevey ?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H101",
+  "lang": "fr",
+  "loc": "1997 Haute-Nendaz",
+  "q": "Quel est le coefficient d'impôt communal de Nendaz pour 2026 ?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H102",
+  "lang": "fr",
+  "loc": "1630 Bulle",
+  "q": "Combien coûte la taxe non-pompier à Bulle et qui doit la payer ?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H103",
+  "lang": "fr",
+  "loc": "1752 Villars-sur-Glâne",
+  "q": "Quel est le coefficient de l'impôt communal sur le revenu à Villars-sur-Glâne ?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H104",
+  "lang": "fr",
+  "loc": "2900 Porrentruy",
+  "q": "Combien coûte la taxe d'inhumation pour une urne au cimetière de Porrentruy ?",
+  "group": "communal",
+  "batch": "c3"
+ },
+ {
+  "id": "H105",
+  "lang": "fr",
+  "loc": "2520 La Neuveville",
+  "q": "Combien coûte le stationnement pour une journée sur la place de la Gare à La Neuveville, et à quelles heures est-ce payant ?",
+  "group": "communal",
+  "batch": "c3"
+ }
+]

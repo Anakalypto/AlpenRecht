@@ -800,14 +800,15 @@ function features(text) {
   return { nums, stems };
 }
 function sentencesOf(text) {
-  return text.split(/\n+|(?<=[.;:!?])\s+(?=[A-ZÄÖÜÉÈÀ0-9«"(])/).map((x) => x.trim()).filter((x) => x.length > 2);
+  // No regex lookbehind: Safari before 16.4 can't parse it, and one syntax error would stop the whole app.
+  return text.replace(/([.;:!?])\s+(?=[A-ZÄÖÜÉÈÀ0-9«"(])/g, "$1\n").split(/\n+/).map((x) => x.trim()).filter((x) => x.length > 2);
 }
 function supportOf(claim, text) {
   const sents = sentencesOf(text || "");
   const c = features(claim);
   let best = -1, bestScore = 0;
   sents.forEach((s, i) => {
-    const f = features(s);
+    const f = features(s.replace(/^\d+[a-z]?\s+/, ""));  // the paragraph number "2 …" is not a figure of the rule
     let score = 0;
     c.stems.forEach((w) => { if (f.stems.has(w)) score += 1; });
     c.nums.forEach((n) => { if (f.nums.has(n)) score += 3; });
@@ -821,8 +822,11 @@ function claimOf(btn) {
   const block = btn.closest("li, p, h2, h3") || btn.parentElement;
   const r = document.createRange();
   r.setStart(block, 0); r.setEndBefore(btn);
-  const before = r.toString().replace(/\s+/g, " ");
-  const parts = before.split(/(?<=[.!?])\s+|\b\d{1,2}(?=\s*$)/);
+  // Earlier citation buttons end a claim too, and their numbers must not count as figures of this claim.
+  const frag = r.cloneContents();
+  frag.querySelectorAll(".cite").forEach((c) => c.replaceWith(". "));
+  const before = frag.textContent.replace(/\s+/g, " ");
+  const parts = before.replace(/([.!?])\s+/g, "$1\n").split(/\n/);
   let claim = parts.pop() || "";
   while (claim.trim().length < 25 && parts.length) claim = parts.pop() + " " + claim;
   return claim.trim();

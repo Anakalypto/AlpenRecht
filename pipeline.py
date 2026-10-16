@@ -464,7 +464,7 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
     # Court decisions interpreting those statutes: Apertus writes the entscheidsuche.ch queries from the question and
     # the federal articles just found, then picks at most two rulings. Runs while cantonal/communal retrieval goes on.
     statutes = [f"Art. {checks.art_key(e['number'])} {e['law']}" for e in evidence
-                if e["level"] == "federal" and checks.art_key(e["number"]) and len(e["law"]) <= 12][:4]
+                if e["level"] == "federal" and checks.art_key(e["number"])[:1].isdigit() and len(e["law"]) <= 12][:4]
     case_job = ThreadPoolExecutor(1).submit(caselaw.retrieve, search_q, statutes, canton, lang)
 
     # 3b. cantonal ------------------------------------------------------------------------------
@@ -654,8 +654,9 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
                            "issues": len(report["issues"]) + len(det["unsupported_articles"]) + len(det["invalid_citations"]),
                            "added": [f"{e['law']} {e['number']}" for e in added],
                            "revised": revised, "notes": [i["problem"] for i in report["issues"]][:4]})
-            if not revised:
+            if not revised and not report.get("unreadable") and report.get("claims_checked", 0) > 0:
                 # A clean round won't change in the next one either: stop (saves ~20 s per skipped round).
+                # An unreadable or empty report is no verdict: then the next round checks again.
                 if added:
                     yield {"type": "sources", "sources": evidence}
                 yield step(key, f"Verification {r}/{VERIFY_ROUNDS}: {rounds[-1]['claims']} claims checked, all supported", "done")

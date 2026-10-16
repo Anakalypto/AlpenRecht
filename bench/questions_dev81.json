@@ -1,0 +1,554 @@
+[
+ {
+  "id": "T001",
+  "lang": "fr",
+  "loc": "1024 Ecublens",
+  "q": "Comment avoir le permis C ?"
+ },
+ {
+  "id": "T002",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "permis b renouvellement"
+ },
+ {
+  "id": "T003",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wie bekomme ich die Niederlassungsbewilligung C früher?"
+ },
+ {
+  "id": "T006",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Kann mein Permis C widerrufen werden, wenn ich Sozialhilfe beziehe?"
+ },
+ {
+  "id": "T007",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Combien de temps faut-il habiter en Suisse pour se naturaliser ?"
+ },
+ {
+  "id": "T008",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Wie läuft die Einbürgerung in Chur ab?"
+ },
+ {
+  "id": "T011",
+  "lang": "fr",
+  "loc": "1433 Suchy",
+  "q": "Comment obtenir le permis de conduire catégorie C (camion) ?"
+ },
+ {
+  "id": "T012",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wie lange ist der Lernfahrausweis gültig?"
+ },
+ {
+  "id": "T013",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Posso guidare in Svizzera con una patente straniera?"
+ },
+ {
+  "id": "T016",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Muss ich mein Auto nach einem Umzug neu einlösen?"
+ },
+ {
+  "id": "T017",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Le casque est-il obligatoire à vélo électrique ?"
+ },
+ {
+  "id": "T018",
+  "lang": "de",
+  "loc": "8400 Winterthur",
+  "q": "Welche Höchstgeschwindigkeit gilt auf Autobahnen?"
+ },
+ {
+  "id": "T021",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wie hoch darf die Mietkaution sein?"
+ },
+ {
+  "id": "T022",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Mon propriétaire peut-il augmenter le loyer sans formulaire officiel ?"
+ },
+ {
+  "id": "T023",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Quel est le délai de résiliation de mon appartement ?"
+ },
+ {
+  "id": "T026",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Meine Wohnung hat Schimmel – darf ich den Mietzins kürzen?"
+ },
+ {
+  "id": "T027",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Puis-je contester le loyer initial ?"
+ },
+ {
+  "id": "T028",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Wer bezahlt kleine Reparaturen in der Mietwohnung?"
+ },
+ {
+  "id": "T031",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Darf mein Arbeitgeber Überstunden anordnen?"
+ },
+ {
+  "id": "T032",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quante settimane di vacanze mi spettano?"
+ },
+ {
+  "id": "T033",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Combien dure le temps d'essai ?"
+ },
+ {
+  "id": "T036",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Habe ich Anspruch auf einen 13. Monatslohn?"
+ },
+ {
+  "id": "T037",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Le travail du dimanche est-il autorisé ?"
+ },
+ {
+  "id": "T038",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Wie lange dauert der Mutterschaftsurlaub?"
+ },
+ {
+  "id": "T041",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wann habe ich Anspruch auf Arbeitslosengeld?"
+ },
+ {
+  "id": "T042",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Comment demander les prestations complémentaires AVS ?"
+ },
+ {
+  "id": "T043",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "A che età si va in pensione in Svizzera?"
+ },
+ {
+  "id": "T046",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Was zahlt die IV bei einer Behinderung?"
+ },
+ {
+  "id": "T047",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Ai-je droit aux allocations familiales si je travaille à temps partiel ?"
+ },
+ {
+  "id": "T048",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Wie beziehe ich Sozialhilfe?"
+ },
+ {
+  "id": "T051",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Quelle est la réserve héréditaire de mes enfants ?"
+ },
+ {
+  "id": "T052",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wer erbt, wenn kein Testament existiert?"
+ },
+ {
+  "id": "T053",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Comment rédiger un testament valable ?"
+ },
+ {
+  "id": "T056",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Comment divorcer à l'amiable ?"
+ },
+ {
+  "id": "T057",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Wer hat nach der Scheidung das Sorgerecht?"
+ },
+ {
+  "id": "T058",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Peut-on se marier à 17 ans ?"
+ },
+ {
+  "id": "T061",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Faut-il un permis pour des panneaux solaires sur le toit ?"
+ },
+ {
+  "id": "T062",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Brauche ich eine Baubewilligung für einen Gartenschuppen?"
+ },
+ {
+  "id": "T063",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Welche Grenzabstände gelten für Bauten?"
+ },
+ {
+  "id": "T066",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Darf ich die Äste vom Nachbarbaum abschneiden?"
+ },
+ {
+  "id": "T067",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Ai-je besoin d'une autorisation pour une véranda ?"
+ },
+ {
+  "id": "T068",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "q": "Welche Bauten sind bewilligungsfrei?"
+ },
+ {
+  "id": "T071",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Ab wann gilt die Nachtruhe?"
+ },
+ {
+  "id": "T072",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Muss ich meinen Hund an der Leine führen?"
+ },
+ {
+  "id": "T073",
+  "lang": "de",
+  "loc": "3063 Ittigen",
+  "q": "Wie hoch ist die Hundetaxe?"
+ },
+ {
+  "id": "T076",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Comment sont calculées les taxes sur les déchets ?"
+ },
+ {
+  "id": "T077",
+  "lang": "de",
+  "loc": "8820 Wädenswil",
+  "q": "Wie werden die Abfallgebühren berechnet?"
+ },
+ {
+  "id": "T078",
+  "lang": "de",
+  "loc": "4718 Holderbank",
+  "q": "Was kostet die Kehrichtabfuhr?"
+ },
+ {
+  "id": "T081",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Ist es strafbar, jemanden heimlich zu filmen?"
+ },
+ {
+  "id": "T082",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Insulter quelqu'un sur les réseaux sociaux est-il punissable ?"
+ },
+ {
+  "id": "T083",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Ist eine Ohrfeige strafbar?"
+ },
+ {
+  "id": "T086",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Muss ein Unternehmen eine Datenpanne melden?"
+ },
+ {
+  "id": "T087",
+  "lang": "en",
+  "loc": "8001 Zürich",
+  "q": "Can I ask a company which personal data it holds about me?"
+ },
+ {
+  "id": "T088",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Qu'est-ce que la diffamation ?"
+ },
+ {
+  "id": "T091",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Welche Abzüge kann ich bei den Steuern machen?"
+ },
+ {
+  "id": "T092",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quali deduzioni fiscali posso fare in Ticino?"
+ },
+ {
+  "id": "T093",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Comment est imposée la fortune ?"
+ },
+ {
+  "id": "T096",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Wie erhebe ich Rechtsvorschlag gegen einen Zahlungsbefehl?"
+ },
+ {
+  "id": "T097",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "permis"
+ },
+ {
+  "id": "T098",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Kündigung"
+ },
+ {
+  "id": "G01",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Ab wann gilt in Chur die Nachtruhe?",
+  "com": [
+   "Polizeigesetz der Stadt Chur"
+  ]
+ },
+ {
+  "id": "G02",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Darf ich mein Auto in Chur über Nacht auf öffentlichem Grund abstellen?",
+  "com": [
+   "nächtliche Dauerparkieren"
+  ]
+ },
+ {
+  "id": "G03",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Brauche ich in Chur eine Bewilligung für ein Reklameschild?",
+  "com": [
+   "Reklamereglement"
+  ]
+ },
+ {
+  "id": "G04",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Wie lange dauert die Grabesruhe auf dem Friedhof in Chur?",
+  "com": [
+   "Friedhofreglement",
+   "Bestattungs- und Friedhofverordnung"
+  ]
+ },
+ {
+  "id": "G05",
+  "lang": "de",
+  "loc": "3063 Ittigen",
+  "q": "Wie hoch ist die Hundetaxe in Ittigen?",
+  "com": [
+   "Hundetaxe"
+  ]
+ },
+ {
+  "id": "G06",
+  "lang": "de",
+  "loc": "3063 Ittigen",
+  "q": "Wie werden in Ittigen die Abfallgebühren erhoben?",
+  "com": [
+   "Abfall"
+  ]
+ },
+ {
+  "id": "G07",
+  "lang": "de",
+  "loc": "3063 Ittigen",
+  "q": "Brauche ich in Ittigen eine Parkkarte für die blaue Zone?",
+  "com": [
+   "Parkplatz"
+  ]
+ },
+ {
+  "id": "G08",
+  "lang": "de",
+  "loc": "8820 Wädenswil",
+  "q": "Welche Lärmvorschriften gelten in Wädenswil?",
+  "com": [
+   "Polizeiverordnung"
+  ]
+ },
+ {
+  "id": "G09",
+  "lang": "de",
+  "loc": "8820 Wädenswil",
+  "q": "Wie berechnet Wädenswil die Abfallgebühren?",
+  "com": [
+   "Abfallgebühr",
+   "Abfallverordnung"
+  ]
+ },
+ {
+  "id": "G10",
+  "lang": "de",
+  "loc": "8820 Wädenswil",
+  "q": "Wie lange bleiben Gräber in Wädenswil bestehen?",
+  "com": [
+   "Bestattungs- und Friedhof"
+  ]
+ },
+ {
+  "id": "G11",
+  "lang": "de",
+  "loc": "6020 Emmen",
+  "q": "Welche Grenzabstände gelten in Emmen für Bauten?",
+  "com": [
+   "Bau- und Zonenreglement"
+  ]
+ },
+ {
+  "id": "G12",
+  "lang": "fr",
+  "loc": "1110 Morges",
+  "q": "Quelles sont les règles contre le bruit et pour le repos à Morges ?",
+  "com": [
+   "Règlement de police"
+  ]
+ },
+ {
+  "id": "G13",
+  "lang": "fr",
+  "loc": "1110 Morges",
+  "q": "Comment est calculée la taxe sur les déchets à Morges ?",
+  "com": [
+   "gestion des déchets"
+  ]
+ },
+ {
+  "id": "G14",
+  "lang": "fr",
+  "loc": "1110 Morges",
+  "q": "Combien de temps une tombe est-elle conservée au cimetière de Morges ?",
+  "com": [
+   "inhumations"
+  ]
+ },
+ {
+  "id": "G15",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Combien coûte une concession de tombe à Sion ?",
+  "com": [
+   "inhumations"
+  ]
+ },
+ {
+  "id": "G16",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Faut-il payer une taxe pour son chien à Sion ?",
+  "com": [
+   "taxe pour les chiens"
+  ]
+ },
+ {
+  "id": "G17",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Comment sont taxés les déchets ménagers à Sion ?",
+  "com": [
+   "gestion des déchets"
+  ]
+ },
+ {
+  "id": "G18",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Comment sont financées les taxes sur les déchets à Fribourg ?",
+  "com": [
+   "gestion des déchets"
+  ]
+ },
+ {
+  "id": "G19",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Combien de temps puis-je stationner dans une zone à stationnement limité à Fribourg ?",
+  "com": [
+   "stationnement",
+   "parcage"
+  ]
+ },
+ {
+  "id": "G20",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Qu'interdit le règlement de police de Fribourg en matière de bruit ?",
+  "com": [
+   "Règlement général de police"
+  ]
+ },
+ {
+  "id": "G21",
+  "lang": "de",
+  "loc": "1712 Tafers",
+  "q": "Wie hoch ist die Hundesteuer in Tafers?",
+  "com": [
+   "Hunde"
+  ]
+ }
+]

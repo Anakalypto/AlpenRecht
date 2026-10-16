@@ -49,9 +49,8 @@ def _request(path, payload, stream=False):
             raise ApertusError(f"Cannot reach Apertus API: {e.reason}") from None
         except (TimeoutError, OSError) as e:
             # urlopen only wraps connection errors: a reply slower than the timeout raised a bare TimeoutError
-            # that ended the answer stream without a word.
-            if attempt < RETRIES:
-                continue
+            # that ended the answer stream without a word. Not retried: the server may still be generating, and
+            # three 180 s waits would stall the answer for nine minutes.
             raise ApertusError(f"Apertus API timed out or failed: {type(e).__name__}") from None
 
 

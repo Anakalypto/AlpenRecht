@@ -63,7 +63,7 @@ def http(url, data=None, headers=None, timeout=60, cache=False):
                 break
             except urllib.error.HTTPError:
                 raise
-            except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            except (urllib.error.URLError, ConnectionError) as e:  # not read timeouts: a hung server stays hung
                 # A dropped connection or TLS handshake timeout (busy line, busy server) used to cost a whole level:
                 # one failed swisstopo lookup meant no canton and no commune at all. Retry twice, then give up.
                 if attempt == 2:
@@ -389,10 +389,16 @@ def _annexes(text):
     article and cut off at 2,500 characters, so 'Hundetaxe CHF 120' never reached the model. -> [(start, label)]"""
     out = []
     for m in _ANNEX_START.finditer(text):
-        label = re.sub(r"\s+", " ", m.group(0)).strip()[:60]
-        # A reference like "Tarif gemäss Art. 5" inside an article is not a heading: require a short line.
-        if len(label) <= 60 and not re.search(r"\b(?:gem[äa]ss|selon|secondo|nach|gestützt)\b", label, re.I):
-            out.append((m.start(), label))
+        line = re.sub(r"\s+", " ", m.group(0)).strip()
+        # A wrapped sentence ("…beschlossenen\nTarif festgelegt. Die Gebühren…") is not a heading: require a
+        # capitalised, short line that follows a blank line or a finished sentence, and no reference words.
+        before = text[:m.start()].rstrip(" \t")
+        prev_end = before[-1:] if before else "\n"
+        ends_block = before.endswith("\n\n") or prev_end in ".:;)" or not before or before.endswith("\n") and \
+            before[:-1].rstrip(" \t")[-1:] in ".:;)"
+        if (line[:1].isupper() and len(line) <= 60 and ends_block
+                and not re.search(r"\b(?:gem[äa]ss|selon|secondo|nach|gestützt|vom|des|der|du|de la)\b", line, re.I)):
+            out.append((m.start(), line))
     return out
 
 
