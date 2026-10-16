@@ -1,6 +1,6 @@
 # test100-p2 grades (T021-T040, Apertus-v1.5-70B)
 
-Graded by hand, from an expert Swiss-law point of view. Scale: 3 = correct and concrete, 2 = mostly right with minor gaps, 1 = partly right but with an important error or a wrong source, 0 = wrong, off-topic or in the wrong language.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a Swiss lawyer against the official texts; not reviewed by a human lawyer. Scale: 3 = correct and concrete, 2 = mostly right with minor gaps, 1 = partly right but with an important error or a wrong source, 0 = wrong, off-topic or in the wrong language.
 Run: `bench.py --set questions_test100_p2.json --tag test100-p2 --workers 3`. All 20 rows completed with no errors or timeouts.
 
 **Average 1.70 / 3** (34/60). Distribution: 3 → 4, 2 → 8, 1 → 6, 0 → 2. Avg latency 73.0 s (min 30.9, max 133.1).

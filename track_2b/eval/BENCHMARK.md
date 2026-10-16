@@ -1,12 +1,13 @@
 # Alpenrecht AI benchmark
 
 14 everyday legal questions in DE/FR/IT/EN, asked from 9 cantons (ZH, BE, VD, GE, TI, BS, NE, SG, FR).
-Each question has gold sources I verified on Fedlex or LexFind: federal articles (OR 266c/257d/321c/329a/335b/336c,
+Each question has gold sources checked on Fedlex or LexFind: federal articles (OR 266c/257d/321c/329a/335b/336c,
 LAT 18a / OAT 32a, DSG 25, ZGB 471, SVG 91) and cantonal acts (dog laws of BE, ZH, GE, TI, plus Vaud's RLATC).
 Everything runs live against Fedlex, LexFind and swisstopo, with Apertus on the Hack Apertus CSCS endpoint.
 
 ```bash
-.venv/Scripts/python.exe bench/bench.py --model swiss-ai/Apertus-v1.5-70B --tag v5
+# from track_2b/
+python eval/bench.py --model swiss-ai/Apertus-v1.5-70B --tag v5
 ```
 
 ## Result (final round, v5)
@@ -66,6 +67,8 @@ What each round changed:
 
 **70B for quality, 8B for demos.** Both reach 13/14 gold citations. 8B answers about 35% faster in total
 (9.6 s vs 14.8 s) and is shorter, but names more unsupported articles (4/14 vs 2/14). The default stays 70B.
-Set `APERTUS_MODEL=swiss-ai/Apertus-v1.5-8B` in `.env` for a snappier live demo.
+Set `LLM_NAME=swiss-ai/Apertus-v1.5-8B` in `.env` for a snappier live demo.
 
-Raw per-question results, including the full answers and sources, are in `bench/results/*.json`.
+Raw per-question results of the final round, including the full answers and sources, are in
+`eval/results/Apertus-v1.5-70B-v5.json` and `eval/results/Apertus-v1.5-8B-v5.json`. Earlier rounds are summarised
+in the table above and in `eval/progression.md` (which also has the 8B v2–v4 rounds); their raw files are not kept.

@@ -3,11 +3,24 @@
 .env.*
 !.env.example
 
+# Model weights and checkpoints — do not commit these
+*.bin
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
 
 # Runtime cache (downloaded law texts, crawls) and local run outputs
 track_2b/cache/
@@ -17,3 +30,4 @@ track_2b/eval/runs/
 .DS_Store
 .idea/
 .vscode/
+.claude/

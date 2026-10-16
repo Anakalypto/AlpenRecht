@@ -3,6 +3,17 @@
 **One legal question → every level of Swiss law.** Federal (Bund), cantonal (Kanton) and communal (Gemeinde)
 rules, retrieved live from official sources and explained with citations by **Apertus**, the Swiss open LLM.
 
+**Team RedPandas** (Christopher Yazigi, Giovanni Yazbeck, Alfredo Pio Yazbeck) ·
+[demo video (1:36)](https://youtu.be/cG-jVfxx4d8) · [technical report](technical_report.md) ([PDF](RedPandas_Report.pdf)) ·
+[evaluation](eval)
+
+> **Held-out accuracy:** on 100 held-out questions, 46/100 answers were usable (score ≥ 2/3), 21/100 fully correct
+> and 43/100 contained a factual error; communal questions are the weakest (0.90/3). Questions, reference answers and
+> grades were produced by AI agents (Claude), graded in a single pass and not checked by a lawyer; the set was also
+> used on the last day to choose between candidate versions, so it is not fully independent. Measured on commit `c0c4e48`,
+> before the fee, Lugano and conversation-memory changes. Details: [`eval/ACCURACY_heldout100.txt`](eval/ACCURACY_heldout100.txt),
+> answers and grades in [`eval/heldout/`](eval/heldout). Legal information, not legal advice.
+
 ## Run it (judges)
 
 ```bash
@@ -14,21 +25,33 @@ make test         # offline tests (no API calls)
 make ask Q="Ab wann gilt in Chur die Nachtruhe?" PLACE="7000 Chur"
 ```
 
-Without Docker (Python 3.12+):
+Without Docker (Python 3.12+), macOS / Linux:
 
 ```bash
-python -m venv .venv && .venv/Scripts/python.exe -m pip install -r requirements.txt   # .venv/bin/python on macOS/Linux
+python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt
 cp .env.example .env                                    # paste LLM_API_KEY (APERTUS_* names also work)
-PYTHONPATH=src .venv/Scripts/python.exe -m alpenrecht serve
+PYTHONPATH=src .venv/bin/python -m alpenrecht serve     # web app on http://localhost:5055
 ```
 
-`swiss-ai/Apertus-v1.5-8B` is about 2× faster. `LLM_BASE_URL` / `LLM_NAME` can point at any OpenAI-compatible
+Windows (PowerShell):
+
+```powershell
+python -m venv .venv; .venv\Scripts\python.exe -m pip install -r requirements.txt
+copy .env.example .env                                  # paste LLM_API_KEY (APERTUS_* names also work)
+$env:PYTHONPATH = "src"; .venv\Scripts\python.exe -m alpenrecht serve
+```
+
+`swiss-ai/Apertus-v1.5-8B` was about 1.5× faster on the 14-question benchmark (9.6 s vs 14.8 s, before the
+verification rounds were added). `LLM_BASE_URL` / `LLM_NAME` can point at any OpenAI-compatible
 Apertus endpoint, including a local vLLM. Without a key, retrieval still runs and the app shows the sources only.
 
 | Setting (env or `.env`) | Default | Effect |
 |---|---|---|
+| `VERIFY_MODEL` | `LLM_NAME` | Model for the 3 fact-check rounds. `swiss-ai/Apertus-v1.5-8B` is a faster option for demos (its accuracy was not measured). |
+| `OCR_MODEL` | `swiss-ai/Apertus-v1.5-8B` | Reads scanned or garbled PDFs page by page (image input). |
 | `HISTORY_MESSAGES` | `6` | Conversation memory: the planner sees this many earlier messages of the chat, so a follow-up ("and in Geneva?") is searched as the full question. `0` turns it off. |
 | `KEEP_CACHE` | off | `cache/` (downloaded law texts, crawls) is emptied whenever no question is running; uploads are kept. `1` keeps it between questions (faster repeats). |
+| `PORT` | `5055` | Port of the web app without Docker. `make run` always listens on `5055` inside the container; choose the host port with `make run PORT=8080`. |
 
 ## How it works
 
@@ -39,7 +62,7 @@ question + place + date
    ├─ Apertus (planner) ─── which levels? SR numbers, title/keyword terms per language
    ├─ Fedlex SPARQL ─────── in-force acts → consolidation valid on <date> → per-article HTML
    ├─ LexFind API ───────── cantonal law of that canton (26 collections, one API) → articles
-   ├─ communal docs ─────── commune website crawl + readers for the 5 largest cities, uploads (PDF / URL)
+   ├─ communal docs ─────── commune website crawl + readers for the 5 largest cities and Lugano, uploads (PDF / URL)
    ├─ case law ──────────── entscheidsuche.ch: Apertus writes the queries, picks ≤ 2 leading cases (BGE)
    ├─ ranking ───────────── stemmed BM25-ish over articles, annexes and tariff tables + section breadcrumbs
    └─ Apertus (answer) ──── per level, every claim cited [n] → official source; fact-checked before display
@@ -50,10 +73,10 @@ question + place + date
 | `src/alpenrecht/pipeline.py` | plan → retrieve (4 levels) → draft → 3 fact-check rounds, as server-sent events |
 | `src/alpenrecht/sources.py` | swisstopo, Fedlex (articles + annexes), LexFind clients, article/annex splitting, ranking, disk cache |
 | `src/alpenrecht/lexfind_agent.py` | Apertus-driven LexFind queries, act and article picking (also federal article picking) |
-| `src/alpenrecht/communal.py`, `cities.py` | commune website crawler, TLex, readers for Zürich, Geneva, Basel, Lausanne, Bern |
+| `src/alpenrecht/communal.py`, `cities.py` | commune website crawler, TLex, readers for Zürich, Geneva, Basel, Lausanne, Bern, Lugano |
 | `src/alpenrecht/caselaw.py` | entscheidsuche.ch: Apertus-written queries, ≤ 2 leading cases (BGE) |
 | `src/alpenrecht/verify.py`, `checks.py` | relevance filter, fact-check and rewrite, citation checks |
-| `src/alpenrecht/apertus.py`, `config.py` | OpenAI-compatible client with retries; settings (`LLM_*` / `APERTUS_*`, `HISTORY_MESSAGES`, `KEEP_CACHE`) |
+| `src/alpenrecht/apertus.py`, `config.py` | OpenAI-compatible client with retries; settings (`LLM_*` / `APERTUS_*`, `VERIFY_MODEL`, `OCR_MODEL`, `HISTORY_MESSAGES`, `KEEP_CACHE`) |
 | `src/alpenrecht/cache.py` | empties `cache/` when the last running question finishes |
 | `src/alpenrecht/app.py`, `web/` | Flask server and the UI (DE/FR/IT/RM/EN, citation hover, level map) |
 | `data/` | commune → website table (2,142 communes, from Wikidata) |
@@ -82,9 +105,11 @@ There is no central collection of Swiss municipal regulations, so Alpenrecht fin
    quiet hours, dogs; waste, fee, building and burial regulations), and then the articles that answer it.
    If nothing fits, nothing is added.
 4. **Scanned PDFs** (common for older regulations) are read by Apertus itself: v1.5 takes images, and each
-   page is transcribed with the 8B model, about 20 s for a 24-page regulation. The text is cached.
+   page is transcribed with the 8B model, about 20 s for a 24-page regulation. The text is cached while the
+   question runs (and between questions with `KEEP_CACHE=1`).
 
-Crawls are cached per commune for a week. Uploading a PDF or URL still works and adds to what was found.
+With `KEEP_CACHE=1`, crawls are cached per commune for a week; by default `cache/` is emptied whenever no question
+is running. Uploading a PDF or URL still works and adds to what was found.
 
 Also handled:
 - **TLex** collections (`<commune>.tlex.ch`, e.g. Cham and Aarau) are read through their JSON API.
@@ -97,10 +122,10 @@ Also handled:
 Results:
 - **Hand-picked benchmark:** 21 communal questions in 8 communes that publish readable lists. 19/21 find and
   cite the commune's own regulation, e.g. Chur's Polizeigesetz Art. 30 "Nachtruhe 23.00–07.00".
-- **Random communes**, an honest measure of coverage. The first 10 random communes went from 2/10 before
-  these fixes to 6/10 after re-tuning on a second set. On a fresh, unseen set of 10, 4 were answered from the
-  correct regulation and 2 cited the wrong or unreadable text. Bubikon's unreadable text has since been fixed
-  by OCR, Ufhusen's wrong pick has not. The rest are communes with no rule on the topic or no readable list.
+- **Random communes**, an honest measure of coverage (`eval/random10*.json`). On a first set of 10 random
+  communes, 2/10 cited the commune's regulation before these fixes; the fixes were tuned on a second set
+  (5/10 → 6/10). On a fresh, unseen set of 10, 6 cited a communal regulation: 4 the correct one, and 2 the wrong
+  or unreadable text. Bubikon's unreadable text is now read by OCR (not re-measured), Ufhusen's wrong pick has not. The rest are communes with no rule on the topic or no readable list.
 - **Remaining limits:** sites that are JavaScript apps or block bots (e.g. Hersberg via the BL canton portal,
   Bern's stadtrecht.bern.ch), sites without a linked regulations page, and occasional wrong regulation picks.
   In those cases the app says so and asks for an upload.

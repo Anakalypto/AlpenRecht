@@ -1,6 +1,7 @@
-# test100-p1 — expert grades (Apertus-v1.5-70B)
+# test100-p1 — AI grades (Apertus-v1.5-70B)
 
-Run: `bench/results/Apertus-v1.5-70B-test100-p1.json`, 20 questions, 0 pipeline errors, no retries needed.
+Run: `eval/results/Apertus-v1.5-70B-test100-p1.json`, 20 questions, 0 pipeline errors, no retries needed.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a Swiss lawyer against the official texts; not reviewed by a human lawyer.
 Scale: 3 = correct, concrete, right sources/authority · 2 = mostly right, minor gaps · 1 = partly right but important error / wrong source / very vague · 0 = wrong, off-topic or empty.
 
 **Average score: 1.20 / 3** (sum 24/60) · distribution: 3 → 2, 2 → 3, 1 → 12, 0 → 3 · answers with concrete factual errors: 13/20 · answers whose source list contains clearly off-topic acts: 11/20 · language correct: 20/20 · avg latency 87.6 s (min 39.1, max 174.5) · avg 407 words (target < 230).

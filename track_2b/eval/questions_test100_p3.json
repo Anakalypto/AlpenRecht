@@ -1,0 +1,122 @@
+[
+ {
+  "id": "T041",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wann habe ich Anspruch auf Arbeitslosengeld?"
+ },
+ {
+  "id": "T042",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Comment demander les prestations complémentaires AVS ?"
+ },
+ {
+  "id": "T043",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "A che età si va in pensione in Svizzera?"
+ },
+ {
+  "id": "T044",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Muss ich mich als Grenzgänger in der Schweiz krankenversichern?"
+ },
+ {
+  "id": "T045",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Comment obtenir une réduction de prime d'assurance maladie ?"
+ },
+ {
+  "id": "T046",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Was zahlt die IV bei einer Behinderung?"
+ },
+ {
+  "id": "T047",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Ai-je droit aux allocations familiales si je travaille à temps partiel ?"
+ },
+ {
+  "id": "T048",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Wie beziehe ich Sozialhilfe?"
+ },
+ {
+  "id": "T049",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Que couvre l'assurance accident obligatoire ?"
+ },
+ {
+  "id": "T050",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Kann ich mein Pensionskassengeld für ein Haus beziehen?"
+ },
+ {
+  "id": "T051",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Quelle est la réserve héréditaire de mes enfants ?"
+ },
+ {
+  "id": "T052",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wer erbt, wenn kein Testament existiert?"
+ },
+ {
+  "id": "T053",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Comment rédiger un testament valable ?"
+ },
+ {
+  "id": "T054",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quanto eredita il coniuge superstite?"
+ },
+ {
+  "id": "T055",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Wie lange muss ich für mein volljähriges Kind Unterhalt zahlen?"
+ },
+ {
+  "id": "T056",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Comment divorcer à l'amiable ?"
+ },
+ {
+  "id": "T057",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Wer hat nach der Scheidung das Sorgerecht?"
+ },
+ {
+  "id": "T058",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Peut-on se marier à 17 ans ?"
+ },
+ {
+  "id": "T059",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Wie adoptiere ich das Kind meines Partners?"
+ },
+ {
+  "id": "T060",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Muss ein Ehevertrag beurkundet werden?"
+ }
+]

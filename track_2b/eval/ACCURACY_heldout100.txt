@@ -1,6 +1,6 @@
 original: n=100 mean=1.38/3 (46%) | fully correct(3)=19 (19%) | usable(>=2)=46 (46%, 95% CI 37-56) | factual errors=53 (53%) | governing source cited=58 | padding=36
-current: n=100 mean=1.39/3 (46%) | fully correct(3)=21 (21%) | usable(>=2)=46 (46%, 95% CI 37-56) | factual errors=43 (43%) | governing source cited=53 | padding=22
-head-to-head (better): {'original': 36.0, 'current': 43.0, 'tie': 21.0}
-  cantonal  original: mean 1.92 err 8/12 | current: mean 1.58 err 6/12
-  federal   original: mean 1.92 err 23/39 | current: mean 1.95 err 22/39
-  communal  original: mean 0.82 err 22/49 | current: mean 0.90 err 15/49
+evaluated: n=100 mean=1.39/3 (46%) | fully correct(3)=21 (21%) | usable(>=2)=46 (46%, 95% CI 37-56) | factual errors=43 (43%) | governing source cited=53 | padding=22
+head-to-head (better): {'original': 36.0, 'evaluated': 43.0, 'tie': 21.0}
+  cantonal  original: mean 1.92 err 8/12 | evaluated: mean 1.58 err 6/12
+  federal   original: mean 1.92 err 23/39 | evaluated: mean 1.95 err 22/39
+  communal  original: mean 0.82 err 22/49 | evaluated: mean 0.90 err 15/49

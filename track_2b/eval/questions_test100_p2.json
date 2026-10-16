@@ -1,0 +1,122 @@
+[
+ {
+  "id": "T021",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wie hoch darf die Mietkaution sein?"
+ },
+ {
+  "id": "T022",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Mon propriétaire peut-il augmenter le loyer sans formulaire officiel ?"
+ },
+ {
+  "id": "T023",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Quel est le délai de résiliation de mon appartement ?"
+ },
+ {
+  "id": "T024",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Darf ich meine Wohnung untervermieten?"
+ },
+ {
+  "id": "T025",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Il proprietario può entrare in casa mia senza preavviso?"
+ },
+ {
+  "id": "T026",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Meine Wohnung hat Schimmel – darf ich den Mietzins kürzen?"
+ },
+ {
+  "id": "T027",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Puis-je contester le loyer initial ?"
+ },
+ {
+  "id": "T028",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Wer bezahlt kleine Reparaturen in der Mietwohnung?"
+ },
+ {
+  "id": "T029",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Le bailleur peut-il me résilier parce que j'ai demandé des réparations ?"
+ },
+ {
+  "id": "T030",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Darf ich einen Hund in der Mietwohnung halten?"
+ },
+ {
+  "id": "T031",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Darf mein Arbeitgeber Überstunden anordnen?"
+ },
+ {
+  "id": "T032",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quante settimane di vacanze mi spettano?"
+ },
+ {
+  "id": "T033",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Combien dure le temps d'essai ?"
+ },
+ {
+  "id": "T034",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Darf mir während der Krankheit gekündigt werden?"
+ },
+ {
+  "id": "T035",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Mon employeur doit-il payer mon salaire quand je suis malade ?"
+ },
+ {
+  "id": "T036",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Habe ich Anspruch auf einen 13. Monatslohn?"
+ },
+ {
+  "id": "T037",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Le travail du dimanche est-il autorisé ?"
+ },
+ {
+  "id": "T038",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Wie lange dauert der Mutterschaftsurlaub?"
+ },
+ {
+  "id": "T039",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Ist eine Konkurrenzverbotsklausel gültig?"
+ },
+ {
+  "id": "T040",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Mon employeur peut-il me licencier avec effet immédiat ?"
+ }
+]

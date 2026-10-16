@@ -1,6 +1,6 @@
 """Run a question set through the real pipeline and save everything a grader needs, one JSON line per question.
 
-    .venv/Scripts/python.exe bench/accuracy_run.py --set bench/questions_dev60.json --out bench/runs/dev-base.jsonl
+    python eval/accuracy_run.py --set eval/questions_dev60.json --out eval/runs/dev-base.jsonl
         [--root <checkout to import the app from>] [--workers 4]
 
 Unlike bench.py, a crash in one question is recorded instead of killing the run, results are written as they
@@ -54,7 +54,7 @@ def main():
         import apertus, config, pipeline, sources  # noqa: E402,E401
 
     if not config.APERTUS_API_KEY:
-        sys.exit("APERTUS_API_KEY is empty: put the key in .env first.")
+        sys.exit("API key is empty: set LLM_API_KEY (APERTUS_API_KEY for the original eabfc3b checkout) in .env first.")
 
     out = pathlib.Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)

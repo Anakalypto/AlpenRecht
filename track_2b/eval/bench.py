@@ -1,8 +1,9 @@
 """Alpenrecht AI benchmark: retrieval recall, citation fidelity, language/format, latency.
 
-    .venv/Scripts/python.exe bench/bench.py [--model swiss-ai/Apertus-v1.5-8B] [--only id1,id2] [--workers 3]
+    python eval/bench.py [--model swiss-ai/Apertus-v1.5-8B] [--set questions.json] [--only id1,id2] [--workers 3]
 
-Writes bench/results/<model>.json and prints a summary table.
+Run from track_2b/; --set is a file name inside eval/.
+Writes eval/results/<model>[-<tag>].json and .md and prints a summary table.
 """
 import argparse
 import json

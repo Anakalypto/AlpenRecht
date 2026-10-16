@@ -1,4 +1,4 @@
-"""Question -> plan (Apertus) -> live retrieval on three levels -> cited answer (Apertus, streamed)."""
+"""Question -> plan (Apertus) -> live retrieval on three levels -> cited answer (Apertus), streamed to the UI as events."""
 import datetime as dt
 import json
 import re
@@ -359,7 +359,7 @@ def history_block(history, limit=None):
 
 
 def run(question, location_text="", asof=None, lang_hint="", upload_ids=(), history=()):
-    """Generator of events for the UI: step / plan / location / sources / token / done / error.
+    """Generator of events for the UI: step / location / plan / sources / final / done / error.
 
     history: the chat's earlier messages [{role: user|assistant, content}]; the last HISTORY_MESSAGES are used.
     """
@@ -705,8 +705,8 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=(), hist
         return ANSWER_PROMPT.format(
             language=LANG_NAMES.get(lang, "Deutsch"), asof=asof, sources=verify.source_block(answer_ev), question=question + (f"\n(Understood as: {search_q})" if search_q != question else ""),
             h_short=h[0], h_fed=h[1], h_can=h[2].format(canton=canton_name), h_com=h[3].format(commune=commune_name),
-            h_levels=h[4], h_next=h[5], disclaimer=h[6], none=h[7], h_case=h[8],
-            location_line=loc_line, competence=plan.get("competence", ""))
+            h_levels=h[4], h_next=h[5], disclaimer=h[6], none=h[7],
+            location_line=loc_line)
 
     def write(extra=""):
         raw = apertus.chat([{"role": "system", "content": ANSWER_SYSTEM},

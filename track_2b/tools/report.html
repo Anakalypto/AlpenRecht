@@ -1,6 +1,7 @@
 <!doctype html>
-<!-- Source of docs/RedPandas_Alpenrecht_Report.pdf. Rebuild (Edge or Chrome, from track_2b/):
-     msedge --headless --no-pdf-header-footer --print-to-pdf=docs/RedPandas_Alpenrecht_Report.pdf tools/report.html -->
+<!-- Source of RedPandas_Report.pdf (in track_2b/). Rebuild from track_2b/ with Edge or Chrome, absolute paths:
+     PowerShell: msedge --headless --no-pdf-header-footer --print-to-pdf="$PWD\RedPandas_Report.pdf" "$PWD\tools\report.html"
+     cmd:        msedge --headless --no-pdf-header-footer --print-to-pdf="%CD%\RedPandas_Report.pdf" "%CD%\tools\report.html" -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -39,7 +40,7 @@
   <li><b>Track:</b> Track 2B, own project: one legal question → every level of Swiss law</li>
   <li><b>Event:</b> Online</li>
   <li><b>Team:</b> RedPandas: Christopher Yazigi, Giovanni Yazbeck, Alfredo Pio Yazbeck</li>
-  <li><b>Demo:</b> web app via <code>make run</code> (http://localhost:5055); CLI <code>make ask</code>; screenshots in <code>docs/</code></li>
+  <li><b>Demo:</b> video (1:36) <a href="https://youtu.be/cG-jVfxx4d8">https://youtu.be/cG-jVfxx4d8</a> · web app via <code>make run</code> (http://localhost:5055); CLI <code>make ask</code>; screenshots in <code>docs/</code></li>
 </ul>
 
 <h2>1. Summary</h2>
@@ -50,10 +51,13 @@ returns one answer covering all three levels: it retrieves the federal (Fedlex),
 commune's own website) rules live, adds leading court decisions (entscheidsuche.ch), and <b>Apertus-v1.5-70B</b> writes
 an answer per level with every claim cited to the official text and <b>fact-checked three times</b> before display. It
 answers in DE / FR / IT / RM / EN, as of any date for federal law, and remembers the last 6 messages of a chat.</p>
-<p>On a 100-question benchmark with hand-verified gold sources, <b>85/100</b> answers cite the correct source (67 at
-baseline), cantonal retrieval rises from 11/32 to <b>29/32</b>, and answers naming an article that is not a source fall
-from 13 to <b>0</b>. Graded like a lawyer would (0–3), the latest 25-question check averages <b>2.12/3</b>, up from 1.72.
-Fee questions state the amount from the source in <b>18/18</b> cases.</p>
+<p>On <b>100 held-out questions</b> (49 communal), graded blind by AI agents (Claude) against reference answers, the
+evaluated version scores <b>1.39/3</b> against 1.38/3 for the original prototype, a tie within grading noise. Both give
+<b>46/100</b> usable answers. The evaluated version makes fewer factual errors (43 vs 53) and is preferred head-to-head
+43–36, but cites the governing source less often (53 vs 58), and communal questions remain the hardest (0.90/3). This
+set also guided the last day's choice between versions, so it is not fully independent (§5 d). On the 100-question
+development benchmark used for tuning, <b>85/100</b> answers cite a gold source (67 at baseline), and cantonal
+retrieval rises from 11/32 to <b>29/32</b>.</p>
 
 <h2>2. Architecture</h2>
 <pre>question + place + date (+ the last 6 chat messages)
@@ -96,21 +100,27 @@ Fee questions state the amount from the source in <b>18/18</b> cases.</p>
 <p class="keep"><b>Target architecture: (a) on-premise, or (c) sovereign Swiss cloud.</b> The app is one Docker container
 (Flask, Python 3.13) that talks to any OpenAI-compatible Apertus endpoint set by <code>LLM_BASE_URL</code>: a canton's own
 vLLM server (on-premise) or the CSCS inference service in Lugano (Swiss cloud, Swiss jurisdiction and data residency).
-No question or answer leaves that endpoint and the container; nothing is logged. At runtime it reads public Swiss
-legal sources (Fedlex, LexFind, swisstopo, commune websites, entscheidsuche.ch), so it is not air-gapped; build time
-needs only PyPI. External runtime dependencies: those public sources, the Apertus endpoint, and the map tiles and fonts
-loaded by the browser UI.</p>
+Full questions and answers go only to that endpoint; the public sources receive the place and search terms derived
+from the question, never the full question. Questions are not logged (the access log records only request paths and
+place look-ups). At runtime it reads public Swiss legal sources (Fedlex, LexFind, swisstopo, Wikidata for communes
+missing from <code>data/communes.json</code>, commune websites and TLex, entscheidsuche.ch), so it is not air-gapped;
+build time needs only PyPI. The browser UI loads swisstopo map tiles, Leaflet (cdnjs.cloudflare.com) and Google Fonts;
+Leaflet and the fonts can be self-hosted on-premise. An air-gapped deployment (b) would need a local mirror of those
+sources.</p>
 
 <h2>3. Use of Apertus</h2>
 <ul>
   <li><b>Models:</b> <code>swiss-ai/Apertus-v1.5-70B</code> for planning, retrieval steering, answers and
     fact-checks; <code>Apertus-v1.5-8B</code> for reading scanned pages (≈ 20 s for a 24-page regulation). Both run on
     the CSCS OpenAI-compatible endpoint; <code>LLM_NAME</code> / <code>LLM_BASE_URL</code> / <code>LLM_API_KEY</code>
-    follow the judges' convention. The product uses no other model.</li>
-  <li><b>Other models (evaluation only):</b> answer grading in §5 (b) and §5 (d) and the drafting of the held-out
-    reference set were done by automatic grading agents (Claude, Anthropic), each checking answers against the official
-    law text. They are not part of the product and never see user questions.</li>
-  <li><b>How it is used</b> (prompting only, JSON where structure is needed, a tolerant parser and one retry):
+    follow the judges' convention; on a single-model server, set <code>OCR_MODEL</code> to the same value as
+    <code>LLM_NAME</code> in <code>.env</code>. The product uses no other model.</li>
+  <li><b>Other models (evaluation only):</b> AI agents (Claude, Anthropic) drafted the 100 held-out questions and their
+    reference answers from the official sources (each item re-checked by a second agent), and graded the answers in
+    §5 (b) and §5 (d). Claude is not open-weights; it was used offline only, is not part of the product, never sees
+    user questions and is not needed for <code>make run</code>.</li>
+  <li><b>How it is used</b> (prompting only, JSON where structure is needed, a tolerant parser, one re-ask when the
+    planner or fact-checker returns an empty list, and retries on transient API errors):
     <ol>
       <li>planner: language, a clarified standalone question, levels, SR numbers and articles, search terms;</li>
       <li>LexFind agent: act titles and wildcard stems, act choice from up to 25 candidates, article choice from headings
@@ -132,17 +142,20 @@ Art. 30, found on the city's website. 16 claims checked in three rounds.</blockq
 <ul>
   <li><b>Live public sources only:</b> Fedlex (SPARQL + HTML), LexFind (cantonal law of all 26 cantons), swisstopo
     (geocoding), the communes' own websites and TLex, entscheidsuche.ch (court decisions).</li>
-  <li><code>data/communes.json</code>: commune → official website for <b>2,142 communes</b>, built once from Wikidata.</li>
-  <li><b>Evaluation sets</b> in <code>eval/</code>: 14 questions (first rounds), 100 questions with hand-verified gold
-    sources (68 federal, 32 cantonal; DE 46 / FR 30 / IT 15 / EN 9; 15 cantons), 100 graded test questions, 21 communal
-    questions, random-commune sets and 18 fee questions. All answers, sources and verification logs are stored in
-    <code>eval/results/</code>.</li>
-  <li><b>No personal data</b> is stored: questions are not logged, the crawl and law-text cache is emptied after each
+  <li><code>data/communes.json</code>: commune → official website for <b>2,142 communes</b>, built once from Wikidata
+    (CC0); <code>data/wikidata_raw.json</code> is the raw SPARQL export it was built from, kept for provenance and not
+    read at runtime.</li>
+  <li><b>Evaluation sets</b> in <code>eval/</code>: 14 questions (first rounds); 100 questions with gold sources (68
+    federal, 32 cantonal; DE 46 / FR 30 / IT 15 / EN 9; 15 cantons; federal gold articles checked programmatically to
+    exist on Fedlex, cantonal gold acts chosen automatically from LexFind title matches); 100 graded test questions; 21
+    communal questions, three sets of 10 random communes and 18 fee questions; 100 held-out questions with reference answers (<code>questions_heldout100.json</code>,
+    <code>heldout100_reference.json</code>).</li>
+  <li><b>No personal data</b> is stored: questions are not stored, the crawl and law-text cache is emptied after each
     question, and uploaded regulations stay local.</li>
 </ul>
 
 <h2>5. Evaluation</h2>
-<div class="keep"><p class="keep"><b>(a) Gold-source benchmark</b> (100 questions, live retrieval, <code>eval/BENCHMARK100.md</code>):</p>
+<div class="keep"><p class="keep"><b>(a) Gold-source benchmark</b> (100 development questions, live retrieval, <code>eval/BENCHMARK100.md</code>):</p>
 <table>
   <tr><th></th><th>Baseline (keyword LexFind, single pass)</th><th>Final (Apertus LexFind agent + 3× verification)</th></tr>
   <tr><td><b>Answer cites a gold source</b></td><td class="n">67/100</td><td class="n"><b>85/100</b></td></tr>
@@ -153,67 +166,94 @@ Art. 30, found on the city's website. 16 claims checked in three rounds.</blockq
   <tr><td>Prose citations left unconverted · invalid <code>[n]</code></td><td class="n">18 · 0</td><td class="n">0 · 0</td></tr>
   <tr><td>Right language · all headings · disclaimer</td><td class="n">99 · 99 · 99</td><td class="n">99 · 99 · 99</td></tr>
 </table></div>
-<p>The verification loop checks about 10 claims per answer and adds 0.4 real sources per answer on average. On the
-first 14-question set, the 8B model reached the same 13/14 gold citations as the 70B in the final round.</p>
+<p>The “not a source” row checks article numbers only, not which law they belong to. The verification loop checks
+about 10 claims per answer and adds 0.4 real sources per answer on average. On the first 14-question set, the 8B
+model reached the same 13/14 gold citations as the 70B in the final round.</p>
 
-<div class="keep"><p class="keep"><b>(b) Graded like a lawyer</b> (0 = wrong … 3 = correct, concrete, right sources; real pipeline,
-70B, three verification rounds):</p>
+<div class="keep"><p class="keep"><b>(b) Graded 0–3 by an AI grading agent (Claude) with a lawyer's rubric</b> (0 = wrong … 3 =
+correct, concrete, right sources; development questions, real pipeline, 70B, three verification rounds):</p>
 <table>
   <tr><th>Run</th><th>Questions</th><th>Average /3</th><th>Fully correct (3)</th><th>Avg time</th></tr>
   <tr><td>v1</td><td class="n">100</td><td class="n">1.55</td><td class="n">12</td><td class="n">84 s</td></tr>
   <tr><td>v2: Apertus picks federal articles, planner examples, no-invented-figures rules, city readers</td><td class="n">100</td><td class="n">1.72</td><td class="n">21</td><td class="n">121 s</td></tr>
-  <tr class="total"><td>Latest: fee tariffs, communal relevance filter, verifier fixes (every 4th question)</td><td class="n">25</td><td class="n">2.12</td><td class="n">–</td><td class="n">97 s</td></tr>
 </table></div>
-<p class="small">The 100-question runs were graded by separate grading agents; the latest 25-question check was graded
-by the team, so its gain is best read as a direction.</p>
+<p class="small">Both runs are on development questions and were graded once by AI grading agents (Claude) using a
+lawyer's 0–3 rubric, not by lawyers.</p>
 
 <p class="keep"><b>(c) Communal law and figures.</b></p>
 <ul>
   <li><b>Communal benchmark:</b> 19/21 questions in 8 communes find and cite the commune's own regulation, e.g.
     Chur's Polizeigesetz Art. 30 “Nachtruhe 23.00–07.00”. In the graded runs, the communal regulation was retrieved
     for 9/10 communal questions.</li>
-  <li><b>Random communes:</b> the first random set went from 2/10 to 6/10 after the crawler fixes (TLex, two-column
-    PDFs, OCR, polite retries).</li>
+  <li><b>Random communes</b> (<code>eval/random10*.json</code>): 2/10 cite the commune's regulation on a first random
+    set before the crawler fixes (TLex, two-column PDFs, OCR, polite retries); the fixes were tuned on a second set
+    (5/10 → 6/10); on a fresh third set, 6/10 cite a communal regulation, 4 of them the correct, readable one.</li>
   <li><b>Fees</b> (<code>eval/FEES.md</code>, 18 questions in 12 communes and federal fees): the short answer states an
-    amount from a source in <b>18/18</b> (6/18 before), e.g. Basel dog tax CHF 160, Lugano CHF 115, Zürich parking card
+    amount from a source in <b>17/18</b> in the full run, 18/18 after a targeted re-run of the one miss (6/18 before), e.g. Basel dog tax CHF 160, Lugano CHF 115, Zürich parking card
     Fr. 300, passport CHF 140 (OLDI annex 2), debt-collection extract CHF 17 (GebV SchKG 12a).</li>
   <li><b>Robustness:</b> 0 errors and 0 timeouts in the 100-question runs; right language 99/100.</li>
 </ul>
 
-<div class="keep"><p class="keep"><b>(d) Independent held-out check</b> (<code>eval/questions_heldout100.json</code>,
-<code>eval/ACCURACY_heldout100.txt</code>): 100 new questions written after development, each with a reference answer
-checked against the official text (49 communal, 12 cantonal, 39 federal; DE/FR/IT/EN). The original prototype and the
-submitted version were run on the same questions, and graded blind and in pairs, 0–3.</p>
+<div class="keep"><p class="keep"><b>(d) Held-out check</b> (<code>eval/questions_heldout100.json</code>,
+<code>eval/ACCURACY_heldout100.txt</code>, per-question data in <code>eval/heldout/</code>): 100 new questions, separate
+from the development sets (49 communal, 12 cantonal, 39 federal; DE 46 / FR 34 / IT 12 / EN 8). AI agents (Claude)
+drafted the questions and reference answers from the official sources, and a second agent re-checked each item (15
+corrected, 0 dropped); no person or lawyer wrote or checked them. The original prototype and the evaluated version,
+commit <code>c0c4e48</code>, answered the same questions; Claude agents graded them single-pass, blind and in pairs
+against the reference answers, 0–3.</p>
 <table>
-  <tr><th></th><th>Average /3</th><th>Usable (≥ 2)</th><th>Fully correct</th><th>Factual error</th><th>Off-topic padding</th></tr>
-  <tr><td>Original prototype</td><td class="n">1.38</td><td class="n">46</td><td class="n">19</td><td class="n">53</td><td class="n">36</td></tr>
-  <tr class="total"><td>Submitted version</td><td class="n">1.39</td><td class="n">46</td><td class="n">21</td><td class="n">43</td><td class="n">22</td></tr>
+  <tr><th></th><th>Average /3</th><th>Usable (≥ 2)</th><th>Fully correct</th><th>Factual error</th><th>Governing source cited</th><th>Off-topic padding</th></tr>
+  <tr><td>Original prototype</td><td class="n">1.38</td><td class="n">46</td><td class="n">19</td><td class="n">53</td><td class="n">58</td><td class="n">36</td></tr>
+  <tr class="total"><td>Evaluated version (<code>c0c4e48</code>)</td><td class="n">1.39</td><td class="n">46</td><td class="n">21</td><td class="n">43</td><td class="n">53</td><td class="n">22</td></tr>
 </table></div>
-<p class="small">On unseen questions the submitted version is preferred head-to-head 43–36 (21 ties), makes fewer factual
-errors (43 vs 53) and pads less, but is not more often fully right. Communal questions remain the hardest (0.90/3 vs
-1.95 federal), and the tuning-set figures in (a)–(c) overstate accuracy on new questions. The graders were automatic
-(single pass), not lawyers.</p>
+<p class="small">The evaluated version is preferred head-to-head 43–36 (21 ties), makes fewer factual errors (43 vs 53)
+and pads less, but is not more often usable (46 vs 46) and cites the governing source less often (53 vs 58). By level
+(original → evaluated): federal 1.92 → 1.95, cantonal 1.92 → 1.58 (12 questions only), communal 0.82 → 0.90.
+<b>Not fully independent:</b> on the last day, earlier candidate versions were also run and graded on this set; in that
+pass one candidate scored 1.33/3 against 1.51/3 for the original, and the revert to the original source filter and
+federal article choice (<code>c0c4e48</code>) was decided from those grades (an earlier change, <code>9bfe4d7</code>,
+from a partial grading of 66 questions). The same original answers scored 1.51/3 then and 1.38/3 in the final pass, so
+single-pass AI grading varies by about ±0.1/3 here. The later commits <code>9eb4d52</code> and <code>3bef387</code>
+(fee tariffs and ordinances, CHF amount check, Lugano reader, conversation memory, cache clearing) were not measured
+on this set; the fee changes only on the 18 fee questions and a 20-question regression sample. The tuning-set figures in (a)–(c) overstate accuracy on new
+questions.</p>
 
 <h2>6. Limitations</h2>
 <ul>
-  <li><b>Answer time:</b> three verification rounds take an answer to roughly 50–100 s; the UI streams every step
-    meanwhile. <code>VERIFY_MODEL=swiss-ai/Apertus-v1.5-8B</code> speeds this up.</li>
+  <li><b>Accuracy:</b> on new questions about half of the answers are usable and about 4 in 10 contain a factual error,
+    mostly from a neighbouring article or a misread figure. Legal information, not legal advice.</li>
+  <li><b>Answer time:</b> about 100 s on average, because of the three verification rounds. On the held-out set the
+    evaluated version took 99 s on average (median 96 s, 80% between 61 and 142 s, maximum 208 s; 15 answers in parallel
+    on a shared endpoint), against 140 s for the original; the v2 development run averaged 121 s. The UI streams every
+    step meanwhile. <code>VERIFY_MODEL=swiss-ai/Apertus-v1.5-8B</code> is a faster option (its accuracy was not
+    measured).</li>
   <li><b>Federal article choice</b> is the main lever left: the right act is usually found, the governing article not
     always.</li>
   <li><b>Communal coverage</b> depends on the commune's website: JavaScript apps, bot blocking or no linked regulations
     page cannot be crawled; the app then asks for an upload.</li>
   <li><b>Scope:</b> cantonal law is the current version only; case law covers published BGE with an official headnote;
-    article splitting of cantonal PDFs is heuristic. Legal information, not legal advice.</li>
+    article splitting of cantonal PDFs is heuristic.</li>
+  <li><b>Not tested:</b> human grading on the held-out set, the later commits on the held-out set, and air-gapped
+    operation.</li>
 </ul>
 
 <h2>7. Reproducibility</h2>
 <ul>
+  <li><b>Hardware:</b> any x86-64 machine with Docker; no GPU, because inference runs on the hosted CSCS Apertus
+    endpoint (or your own vLLM).</li>
   <li><code>make run</code> (Docker, <code>python:3.13-slim</code>) starts the web app; <code>make test</code> runs the
-    11 offline tests (no network, no API); <code>make ask Q="…" PLACE="…"</code> answers in the terminal.</li>
+    11 offline tests (no network, no API); <code>make ask Q="…" PLACE="…"</code> answers in the terminal;
+    <code>make eval SET=eval/questions_heldout100.json</code> re-runs a question set live.</li>
   <li><code>python eval/bench.py --set questions100.json --tag … --workers 5</code> re-runs a benchmark live;
     <code>eval/build_set100.py</code> rebuilds and re-verifies the gold set.</li>
-  <li>Retrieval is live and Apertus is not perfectly deterministic, so a re-run can differ slightly; every stored run
-    keeps its answers, sources and verification logs in <code>eval/results/</code>.</li>
+  <li>Held-out scores, offline from the stored blind grades (in <code>eval/heldout/</code>): <code>python score.py
+    grades_blind.json blind_key.json original evaluated ../questions_heldout100.json</code> (details in
+    <code>eval/heldout/README.md</code>).</li>
+  <li><b>Seeds:</b> none; answers run at temperature 0.2, planning and checks at 0. Retrieval is live and Apertus is not
+    perfectly deterministic, so a re-run can differ slightly.</li>
+  <li><b>Commit:</b> the held-out numbers were measured at <code>c0c4e48</code>; <code>fdb96d8</code> has the same
+    pipeline code in this layout. Stored runs keep their answers, sources and verification logs in
+    <code>eval/results/</code> (development) and <code>eval/heldout/</code> (held-out, with the blind key and grades).</li>
 </ul>
 
 <h2>8. Next steps</h2>
@@ -225,12 +265,15 @@ errors (43 vs 53) and pads less, but is not more often fully right. Communal que
 </ul>
 
 <h2>License</h2>
-<p>Apache-2.0 (see the repository root). The law texts are official public sources (Fedlex, LexFind, communal websites).</p>
+<p>Following the Hack Apertus Terms &amp; Conditions §6: code Apache-2.0 (<code>LICENSE</code> at the repository root);
+documentation, including this report, CC-BY-4.0; datasets (<code>eval/</code>, <code>data/</code>) CDLA-Permissive-2.0.
+<code>data/communes.json</code> is derived from Wikidata (CC0). The law texts the app retrieves are official enactments
+and decisions, which Swiss copyright law does not protect (Art. 5 para. 1 URG).</p>
 
 <h2>References</h2>
 <p>[1] Fedlex, the publication platform for federal law: https://www.fedlex.admin.ch · [2] LexFind, cantonal law
-collections: https://www.lexfind.ch · [3] swisstopo geocoding API · [4] entscheidsuche.ch, Swiss court decisions ·
-[5] Swiss AI Initiative, Apertus: https://huggingface.co/swiss-ai</p>
+collections: https://www.lexfind.ch · [3] swisstopo geocoding API: https://api3.geo.admin.ch · [4] entscheidsuche.ch,
+Swiss court decisions: https://entscheidsuche.ch · [5] Swiss AI Initiative, Apertus: https://huggingface.co/swiss-ai</p>
 
 </body>
 </html>

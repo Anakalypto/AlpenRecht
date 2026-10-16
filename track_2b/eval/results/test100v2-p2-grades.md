@@ -1,6 +1,6 @@
 # test100v2-p2 grades (T021-T040, Apertus-v1.5-70B, after fixes)
 
-Graded by hand from an expert Swiss-law point of view, using the same rubric as before. 3 = correct, concrete, with the right sources and authority. 2 = mostly right, with minor gaps or imprecision. 1 = partly right, but with an important error, the wrong governing source, or too vague. 0 = wrong, off-topic, empty or an error. Each answer was graded on its own merits before the old grades were opened.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a Swiss lawyer against the official texts; not reviewed by a human lawyer. Same rubric as before. 3 = correct, concrete, with the right sources and authority. 2 = mostly right, with minor gaps or imprecision. 1 = partly right, but with an important error, the wrong governing source, or too vague. 0 = wrong, off-topic, empty or an error. Each answer was graded on its own merits before the old grades were opened.
 
 Run: `bench.py --set questions_test100_p2.json --tag test100v2-p2 --workers 3`. All 20 rows completed with no errors or timeouts, so no retry was needed. bench.py crashed *after* writing the JSON and MD files: `print(summary)` hit a cp1252 UnicodeEncodeError on "✗". This is cosmetic, but it gives exit code 1 on Windows consoles unless PYTHONIOENCODING=utf-8 is set.
 

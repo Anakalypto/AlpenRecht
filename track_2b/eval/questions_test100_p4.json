@@ -1,0 +1,122 @@
+[
+ {
+  "id": "T061",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Faut-il un permis pour des panneaux solaires sur le toit ?"
+ },
+ {
+  "id": "T062",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Brauche ich eine Baubewilligung für einen Gartenschuppen?"
+ },
+ {
+  "id": "T063",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Welche Grenzabstände gelten für Bauten?"
+ },
+ {
+  "id": "T064",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Serve una licenza edilizia per una piscina in giardino?"
+ },
+ {
+  "id": "T065",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Mon voisin fait trop de bruit, que puis-je faire ?"
+ },
+ {
+  "id": "T066",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Darf ich die Äste vom Nachbarbaum abschneiden?"
+ },
+ {
+  "id": "T067",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Ai-je besoin d'une autorisation pour une véranda ?"
+ },
+ {
+  "id": "T068",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "q": "Welche Bauten sind bewilligungsfrei?"
+ },
+ {
+  "id": "T069",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Puis-je louer mon appartement sur Airbnb ?"
+ },
+ {
+  "id": "T070",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Was gilt beim Stockwerkeigentum für Renovationen?"
+ },
+ {
+  "id": "T071",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Ab wann gilt die Nachtruhe?"
+ },
+ {
+  "id": "T072",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Muss ich meinen Hund an der Leine führen?"
+ },
+ {
+  "id": "T073",
+  "lang": "de",
+  "loc": "3063 Ittigen",
+  "q": "Wie hoch ist die Hundetaxe?"
+ },
+ {
+  "id": "T074",
+  "lang": "fr",
+  "loc": "1110 Morges",
+  "q": "Quelles sont les heures de repos ?"
+ },
+ {
+  "id": "T075",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Combien coûte une concession de tombe ?"
+ },
+ {
+  "id": "T076",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Comment sont calculées les taxes sur les déchets ?"
+ },
+ {
+  "id": "T077",
+  "lang": "de",
+  "loc": "8820 Wädenswil",
+  "q": "Wie werden die Abfallgebühren berechnet?"
+ },
+ {
+  "id": "T078",
+  "lang": "de",
+  "loc": "4718 Holderbank",
+  "q": "Was kostet die Kehrichtabfuhr?"
+ },
+ {
+  "id": "T079",
+  "lang": "de",
+  "loc": "@47.4485,9.0485",
+  "q": "Wie lange dauert die Grabesruhe?"
+ },
+ {
+  "id": "T080",
+  "lang": "de",
+  "loc": "6330 Cham",
+  "q": "Brauche ich eine Bewilligung für ein Reklameschild?"
+ }
+]

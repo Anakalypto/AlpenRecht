@@ -1,17 +1,18 @@
 # Alpenrecht AI — 100-question assessment (2026-10-16)
 
-100 questions (bench/questions_test100.json), 5 batches run in parallel through the real pipeline
-(Apertus v1.5 70B, 3 verification rounds), each graded 0–3 by a reviewer agent acting as a Swiss lawyer.
-Per-question grades: bench/results/test100-p{1..5}-grades.md.
+100 questions (eval/questions_test100.json; batches eval/questions_test100_p{1..5}.json), 5 batches run in parallel
+through the real pipeline (Apertus v1.5 70B, 3 verification rounds), each graded 0–3 by an AI reviewer agent
+(Claude, Anthropic) acting as a Swiss lawyer; not reviewed by a human lawyer.
+Per-question grades: eval/results/test100-p{1..5}-grades.md.
 
 | batch | topic | avg /3 | 3 | 2 | 1 | 0 | factual errors | avg s |
 |---|---|---|---|---|---|---|---|---|
 | p1 | permits, naturalisation, traffic | 1.20 | 2 | 3 | 12 | 3 | 13/20 | 87.6 |
 | p2 | tenancy, employment | 1.70 | 4 | 8 | 6 | 2 | 13/20 | 73.0 |
-| p3 | social insurance, family, inheritance | 1.85 | 2 | 12 | 5 | 1 | 11/20 | 88.4 |
+| p3 | social insurance, family, inheritance | 1.75 | 2 | 12 | 5 | 1 | 11/20 | 88.4 |
 | p4 | building, neighbours, communal | 1.50 | 2 | 8 | 8 | 2 | 11/20 | 84.9 |
 | p5 | criminal, data, tax, consumer, short | 1.60 | 2 | 9 | 8 | 1 | 13/20 | 83.7 |
-| **all** | | **1.57** | **12** | **40** | **39** | **9** | **61/100** | **83.5** |
+| **all** | | **1.55** | **12** | **40** | **39** | **9** | **61/100** | **83.5** |
 
 Robustness: 0 errors / 0 timeouts in 100 runs; right language 99/100 (T025 answered in Romansh);
 communal regulation retrieved 8/10, used well 5/10.
@@ -40,7 +41,7 @@ Fixes: Apertus picks federal articles from candidates (incl. the planner's named
 examples for driving / social insurance / family / criminal / data / tax, no-invented-figures rules in answer and
 fact-check, off-topic sources removed from the visible list, unused cantonal/communal sources trigger a revision,
 Italian no longer detected as Romansh, and readers for the Zürich, Geneva, Basel, Lausanne and Bern collections.
-Grades: bench/results/test100v2-p{1..5}-grades.md.
+Grades: eval/results/test100v2-p{1..5}-grades.md.
 
 | batch | v1 avg | v2 avg | v2 3/2/1/0 | factual errors v1 → v2 | avg s v1 → v2 |
 |---|---|---|---|---|---|
@@ -51,7 +52,7 @@ Grades: bench/results/test100v2-p{1..5}-grades.md.
 | p5 criminal, data, tax, short | 1.60 | 2.00 | 6/8/6/0 | ~13 → 10 | 83.7 → 131.9 |
 | **all** | **1.55** | **1.72** | **21/39/31/9** | **~58 → 46** | **83.5 → 120.5** |
 
-*p3's v1 header said 1.85; its own table sums to 1.75.
+*p3's grade file header says 1.85; its own table sums to 1.75.
 
 Better: fully correct answers 12 → 21; factual errors ~58 → 46; key articles now found (OAC 27, LN 9, AHVG 21,
 ZGB 264c, LPD 19, StGB 179bis/ter, OR 340, OR 266c/271a); treaty/noise acts gone from source lists; Bern readers

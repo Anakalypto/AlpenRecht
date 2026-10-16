@@ -1,6 +1,6 @@
 # Grades: test100v2-p5 (Apertus-v1.5-70B, T081-T100, after fixes)
 
-I graded each answer by hand against Swiss law (StGB, revised DSG/DSV, DBG/StHG and cantonal tax law, OR, SchKG, LEI), on a 0-3 scale. Every answer was graded on its own before I compared it with `test100-p5-grades.md`. All 20 rows ran without a pipeline error or timeout, so no retry was needed. The run itself finished, but `bench.py` crashed when printing the summary (UnicodeEncodeError on U+2717 in the cp1252 console), after it had already written the JSON and MD files.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a Swiss lawyer against the official texts (StGB, revised DSG/DSV, DBG/StHG and cantonal tax law, OR, SchKG, LEI); not reviewed by a human lawyer. Scale 0-3. Every answer was graded on its own before it was compared with `test100-p5-grades.md`. All 20 rows ran without a pipeline error or timeout, so no retry was needed. The run itself finished, but `bench.py` crashed when printing the summary (UnicodeEncodeError on U+2717 in the cp1252 console), after it had already written the JSON and MD files.
 
 **New average 2.00 / 3** (old 1.60): six 3s, eight 2s, six 1s, no 0 (old: two 3s, nine 2s, eight 1s, one 0).
 **Average latency 131.9 s** (old 83.7 s); fastest 72.6 s, slowest 205.2 s.

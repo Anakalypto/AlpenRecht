@@ -1,3 +1,8 @@
+# Benchmark progression (14 questions, `questions.json`)
+
+All rounds of the 14-question benchmark described in `BENCHMARK.md`. Raw results are kept only for the final round
+(`results/Apertus-v1.5-70B-v5.json`, `results/Apertus-v1.5-8B-v5.json`).
+
 | model · round | planner ok | fed act | fed gold art. | cant. gold | **gold cited** | invalid [n] | unsupported art. | right lang. | disclaimer | words | TTFT s | total s |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | v1.5-70B · v1 | 14/14 | 5/10 | 3/10 | 4/5 | 6/14 | 0/14 | 5/14 | 13/14 | 9/14 | 221.8 | 6.6 | 13.3 |

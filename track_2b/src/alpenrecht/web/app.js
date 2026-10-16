@@ -26,7 +26,7 @@ const T = {
     fed: "Bund", can: "Kanton", com: "Gemeinde", not_loaded: "nicht geladen", none_found: "nichts gefunden",
     sources: "Quellen", tap_hint: "zum Lesen antippen", official: "Amtlichen Text öffnen", copy: "Kopieren", copied: "Kopiert",
     retry: "Erneut", researching: "Recherchiere…", done_in: (s, n) => `Recherche · ${n} Quellen · ${s}s`,
-    no_key: "Apertus ist nicht verbunden.", no_key_hint: "Die Quellen wurden trotzdem live abgerufen. Tragen Sie APERTUS_API_KEY in alpenrecht/.env ein.",
+    no_key: "Apertus ist nicht verbunden.", no_key_hint: "Die Quellen wurden trotzdem live abgerufen. Tragen Sie LLM_API_KEY in track_2b/.env ein.",
     unsupported: "Nicht durch die Quellen belegt: ", failed: "Fehler", provisions: "Bestimmungen", version: "Fassung",
     steps: { loc: "Ort bestimmen", plan: "Suche planen", fed: "Bundesrecht · Fedlex", can: "Kantonsrecht · LexFind", com: "Gemeinderecht", answer: "Antwort verfassen", draft: "Entwurf verfassen", case: "Rechtsprechung · entscheidsuche.ch" },
     verify_step: "Prüfung", verified: "geprüft", claims: "Aussagen", corrections: "Korrektur(en)", sources_added: "Quelle(n) ergänzt", added_tag: "ergänzt", checking: "Prüfe Antwort an den Quellen…", clean: "keine Beanstandung", skipped: "übersprungen", tip_more: "Klicken für den ganzen Artikel", case: "Rechtsprechung",
@@ -55,7 +55,7 @@ const T = {
     fed: "Confédération", can: "Canton", com: "Commune", not_loaded: "non chargé", none_found: "rien trouvé",
     sources: "Sources", tap_hint: "toucher pour lire", official: "Ouvrir le texte officiel", copy: "Copier", copied: "Copié",
     retry: "Relancer", researching: "Recherche…", done_in: (s, n) => `Recherche · ${n} sources · ${s} s`,
-    no_key: "Apertus n’est pas connecté.", no_key_hint: "Les sources ont tout de même été récupérées. Ajoutez APERTUS_API_KEY dans alpenrecht/.env.",
+    no_key: "Apertus n’est pas connecté.", no_key_hint: "Les sources ont tout de même été récupérées. Ajoutez LLM_API_KEY dans track_2b/.env.",
     unsupported: "Non étayé par les sources : ", failed: "Erreur", provisions: "dispositions", version: "version",
     steps: { loc: "Localisation", plan: "Plan de recherche", fed: "Droit fédéral · Fedlex", can: "Droit cantonal · LexFind", com: "Droit communal", answer: "Rédaction", draft: "Rédaction du brouillon", case: "Jurisprudence · entscheidsuche.ch" },
     verify_step: "Vérification", verified: "vérifié", claims: "affirmations", corrections: "correction(s)", sources_added: "source(s) ajoutée(s)", added_tag: "ajoutée", checking: "Vérification de la réponse…", clean: "aucun problème", skipped: "non effectuée", tip_more: "Cliquer pour l'article entier", case: "Jurisprudence",
@@ -84,7 +84,7 @@ const T = {
     fed: "Confederazione", can: "Cantone", com: "Comune", not_loaded: "non caricato", none_found: "nulla trovato",
     sources: "Fonti", tap_hint: "tocca per leggere", official: "Aprire il testo ufficiale", copy: "Copia", copied: "Copiato",
     retry: "Riprova", researching: "Ricerca…", done_in: (s, n) => `Ricerca · ${n} fonti · ${s} s`,
-    no_key: "Apertus non è collegato.", no_key_hint: "Le fonti sono state comunque recuperate. Aggiunga APERTUS_API_KEY in alpenrecht/.env.",
+    no_key: "Apertus non è collegato.", no_key_hint: "Le fonti sono state comunque recuperate. Aggiunga LLM_API_KEY in track_2b/.env.",
     unsupported: "Non supportato dalle fonti: ", failed: "Errore", provisions: "disposizioni", version: "versione",
     steps: { loc: "Localizzazione", plan: "Piano di ricerca", fed: "Diritto federale · Fedlex", can: "Diritto cantonale · LexFind", com: "Diritto comunale", answer: "Redazione", draft: "Stesura della bozza", case: "Giurisprudenza · entscheidsuche.ch" },
     verify_step: "Verifica", verified: "verificato", claims: "affermazioni", corrections: "correzione/i", sources_added: "fonte/i aggiunta/e", added_tag: "aggiunta", checking: "Verifica della risposta…", clean: "nessun problema", skipped: "non eseguita", tip_more: "Cliccare per l'articolo intero", case: "Giurisprudenza",
@@ -113,7 +113,7 @@ const T = {
     fed: "Confederaziun", can: "Chantun", com: "Vischnanca", not_loaded: "betg chargià", none_found: "nagut chattà",
     sources: "Funtaunas", tap_hint: "tutgar per leger", official: "Avrir il text uffizial", copy: "Copiar", copied: "Copià",
     retry: "Danovamain", researching: "Retschertga…", done_in: (s, n) => `Retschertga · ${n} funtaunas · ${s} s`,
-    no_key: "Apertus n’è betg collià.", no_key_hint: "Las funtaunas èn tuttina vegnidas chargiadas. Agiuntai APERTUS_API_KEY en alpenrecht/.env.",
+    no_key: "Apertus n’è betg collià.", no_key_hint: "Las funtaunas èn tuttina vegnidas chargiadas. Agiuntai LLM_API_KEY en track_2b/.env.",
     unsupported: "Betg cumprovà da las funtaunas: ", failed: "Errur", provisions: "disposiziuns", version: "versiun",
     steps: { loc: "Lieu", plan: "Planisar", fed: "Dretg federal · Fedlex", can: "Dretg chantunal · LexFind", com: "Dretg communal", answer: "Scriver la resposta", draft: "Sbozz", case: "Giurisprudenza · entscheidsuche.ch" },
     verify_step: "Controlla", verified: "controllà", claims: "affirmaziuns", corrections: "correctura(s)", sources_added: "funtauna(s) agiuntada(s)", added_tag: "agiuntà", checking: "Controllar la resposta…", clean: "nagins problems", skipped: "betg fatg", tip_more: "Cliccar per l'artitgel entir", case: "Giurisprudenza",
@@ -142,7 +142,7 @@ const T = {
     fed: "Federal", can: "Canton", com: "Commune", not_loaded: "not loaded", none_found: "nothing found",
     sources: "Sources", tap_hint: "tap to read", official: "Open official text", copy: "Copy", copied: "Copied",
     retry: "Retry", researching: "Researching…", done_in: (s, n) => `Researched · ${n} sources · ${s}s`,
-    no_key: "Apertus is not connected.", no_key_hint: "The sources were still fetched live. Add APERTUS_API_KEY to alpenrecht/.env.",
+    no_key: "Apertus is not connected.", no_key_hint: "The sources were still fetched live. Add LLM_API_KEY to track_2b/.env.",
     unsupported: "Not backed by the sources: ", failed: "Error", provisions: "provisions", version: "version",
     steps: { loc: "Locating", plan: "Planning the search", fed: "Federal law · Fedlex", can: "Cantonal law · LexFind", com: "Communal law", answer: "Writing the answer", draft: "Drafting", case: "Case law · entscheidsuche.ch" },
     verify_step: "Verification", verified: "verified", claims: "claims", corrections: "correction(s)", sources_added: "source(s) added", added_tag: "added", checking: "Checking the answer against the sources…", clean: "no issues", skipped: "skipped", tip_more: "Click for the full article", case: "Case law",
@@ -666,7 +666,7 @@ function renderSources(el, turn) {
 function renderAnswer(el, turn, streaming) {
   const box = $(".answer", el);
   if (turn.error && !turn.text) {
-    const noKey = /APERTUS_API_KEY|401|403/.test(turn.error);
+    const noKey = /LLM_API_KEY|APERTUS_API_KEY|401|403/.test(turn.error);
     box.innerHTML = `<div class="notice"><b>${esc(noKey ? t("no_key") : t("failed"))}</b> ${esc(noKey ? t("no_key_hint") : turn.error)}</div>`;
     return;
   }
@@ -718,7 +718,6 @@ async function send(text) {
 
   const ctrl = new AbortController(); state.busy = ctrl; syncSend();
   const started = performance.now();
-  let pending = false;
   const stick = () => { if (thread.scrollHeight - thread.scrollTop - thread.clientHeight < 160) thread.scrollTop = thread.scrollHeight; };
   try {
     const r = await fetch("/api/ask", {
@@ -742,10 +741,7 @@ async function send(text) {
         } else if (ev.type === "location") { turn.resolved = ev.location; renderLevels(el, turn); }
         else if (ev.type === "plan") { turn.plan = ev.plan; renderLevels(el, turn); }
         else if (ev.type === "sources") { turn.sources = ev.sources; turn.sourcesIn = true; renderLevels(el, turn); renderSources(el, turn); stick(); }
-        else if (ev.type === "token") {
-          turn.text += ev.text;
-          if (!pending) { pending = true; requestAnimationFrame(() => { pending = false; renderAnswer(el, turn, true); stick(); }); }
-        } else if (ev.type === "error") { turn.error = ev.message; renderAnswer(el, turn, false); }
+        else if (ev.type === "error") { turn.error = ev.message; renderAnswer(el, turn, false); }
         else if (ev.type === "final") { turn.text = ev.text; turn.check = ev.check; turn.verification = ev.verification; renderAnswer(el, turn, false); stick(); }
         else if (ev.type === "done") { turn.seconds = ev.seconds; }
       }

@@ -1,16 +1,21 @@
 # Alpenrecht AI: 100-question benchmark
 
 100 everyday legal questions: 68 federal and 32 cantonal, in DE 46 / FR 30 / IT 15 / EN 9, asked from 15 cantons.
-Every gold source was verified live before the run:
-- **Federal:** each gold article was fetched from Fedlex and its heading checked against the question,
+Every gold source was checked live before the run (`build_set100.py`):
+- **Federal:** each gold article was fetched from Fedlex to confirm it exists, and its heading printed for review,
   e.g. OR 257e "Sicherheiten durch den Mieter", StGB 179quater, SVG 91a, BV 136.
-- **Cantonal:** each question is pinned to the canton's main act on LexFind (dog, tax, building and school laws).
+- **Cantonal:** the gold acts were chosen automatically: the canton's in-force acts on LexFind whose title contains
+  the topic stem (dog, tax, building and school laws).
+
+These questions were used while tuning the pipeline, so this is a development benchmark, not a held-out test.
+For held-out answer quality see `ACCURACY_heldout100.txt` and `heldout/README.md`.
 
 Model: `swiss-ai/Apertus-v1.5-70B` on the Hack Apertus CSCS endpoint. Retrieval is live (Fedlex, LexFind, swisstopo).
 
 ```bash
-.venv/Scripts/python.exe bench/build_set100.py        # rebuild + re-verify the gold set
-.venv/Scripts/python.exe bench/bench.py --set questions100.json --tag s100-final --workers 5
+# from track_2b/
+python eval/build_set100.py        # rebuild + re-check the gold set
+python eval/bench.py --set questions100.json --tag s100-final --workers 5
 ```
 
 ## Result
@@ -23,13 +28,15 @@ Model: `swiss-ai/Apertus-v1.5-70B` on the Hack Apertus CSCS endpoint. Retrieval 
 | · cantonal questions | 11/32 | **28/32** |
 | Cantonal gold act retrieved | 11/32 | **29/32** |
 | Federal act / gold article retrieved | 61/68 · 56/68 | 63/68 · 57/68 |
-| Answers naming an article that is not a source | 13/100 | **0/100** |
+| Answers naming an article that is not a source¹ | 13/100 | **0/100** |
 | Invalid citations [n] | 0 | 0 |
 | Prose citations left unconverted | 18 | **0** |
 | Right language · all headings · disclaimer | 99 · 99 · 99 | 99 · 99 · 99 |
 | Avg words | 212 | 223 |
 | Total time per answer (avg · median · p90) | 15 s | 51 s · 47 s · 70 s |
 | Errors | 0 | 0 |
+
+¹ This check compares article numbers only, not which law the article belongs to.
 
 The verification loop checked about 10 claims per answer. It revised 1.5 times per answer on average and added
 0.4 real sources per answer: articles the draft named, or the verifier asked for, are fetched and added only if
@@ -70,5 +77,5 @@ Verification triples latency (15 s → ~50 s). The answer appears all at once af
 shows each step live. For a faster demo, set `VERIFY_MODEL=swiss-ai/Apertus-v1.5-8B` in `.env` to fact-check
 with the 8B model, or lower `VERIFY_ROUNDS` in `pipeline.py`.
 
-All 100 answers, with their sources and verification logs, are in `bench/results/Apertus-v1.5-70B-s100-final.json`.
+All 100 answers, with their sources and verification logs, are in `eval/results/Apertus-v1.5-70B-s100-final.json`.
 The baseline answers are in `…-s100-a.json`.

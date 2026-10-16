@@ -1,7 +1,7 @@
 # Grades: test100v2-p3 (T041–T060), Apertus-v1.5-70B, after fixes
 
 Run: `bench.py --set questions_test100_p3.json --tag test100v2-p3 --workers 3`. 20/20 rows, 0 errors/timeouts, so no retry was needed. bench.py wrote the JSON/MD results but crashed afterwards on the final `print(summary)` (cp1252 console cannot encode U+2717). That is cosmetic; the results are complete.
-Grader: strict expert-lawyer review (Swiss law as of 2026). Scale 0–3. Each answer was graded on its own first, then compared with `test100-p3-grades.md`.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a strict Swiss lawyer against the official texts; not reviewed by a human lawyer (Swiss law as of 2026). Scale 0–3. Each answer was graded on its own first, then compared with `test100-p3-grades.md`.
 
 **New average 1.70 / 3** (old 1.75 from the old table; the old file's header says 1.85, but its own distribution adds up to 35/20 = 1.75).
 Distribution new: 3 → 3, 2 → 10, 1 → 5, 0 → 2 (old: 3 → 2, 2 → 12, 1 → 5, 0 → 1).

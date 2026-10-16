@@ -1,6 +1,7 @@
-# test100v2-p1: expert grades (Apertus-v1.5-70B, after fixes)
+# test100v2-p1: AI grades (Apertus-v1.5-70B, after fixes)
 
-Run: `bench/results/Apertus-v1.5-70B-test100v2-p1.json`, 20 questions. There were 0 pipeline errors and 0 timeouts, so no retry was needed. The bench script crashed only at the final `print(summary)` (cp1252 console cannot encode `✗`). That happened after the JSON/MD had been written.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a Swiss lawyer against the official texts; not reviewed by a human lawyer.
+Run: `eval/results/Apertus-v1.5-70B-test100v2-p1.json`, 20 questions. There were 0 pipeline errors and 0 timeouts, so no retry was needed. The bench script crashed only at the final `print(summary)` (cp1252 console cannot encode `✗`). That happened after the JSON/MD had been written.
 Scale: 3 = correct, concrete, right sources/authority · 2 = mostly right, minor gaps · 1 = partly right but important error / wrong governing source / very vague · 0 = wrong, off-topic or empty. Each answer was graded on its own before the old grades were opened.
 
 **Average score: 1.35 / 3** (sum 27/60), up from 1.20 (24/60).

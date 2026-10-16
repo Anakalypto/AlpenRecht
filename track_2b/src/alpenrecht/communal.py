@@ -516,7 +516,7 @@ def amount_articles(question, loaded, terms, picked, n=2):
 def retrieve(question, location, terms):
     """Full communal step. Returns (site, docs_found, chosen_docs, [(doc_meta, article)])."""
     site = website(location["bfs"])
-    city = cities.documents(location["bfs"])  # the five largest cities have dedicated readers
+    city = cities.documents(location["bfs"])  # the five largest cities and Lugano have dedicated readers
     if city is not None:
         site = "https://" + cities.LABELS[int(location["bfs"])]
         docs = city

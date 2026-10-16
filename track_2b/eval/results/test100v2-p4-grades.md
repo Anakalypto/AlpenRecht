@@ -1,6 +1,6 @@
 # Grades: test100v2-p4 (Apertus-v1.5-70B), building/zoning/neighbour + communal, after the fixes
 
-Graded by hand as a strict Swiss lawyer. Each answer was graded on its own merits first, then compared with `test100-p4-grades.md`.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a strict Swiss lawyer against the official texts; not reviewed by a human lawyer. Each answer was graded on its own merits first, then compared with `test100-p4-grades.md`.
 Run: 20/20 rows, 0 errors or timeouts, no retry needed. (bench.py exited with code 1 only because printing the summary to a cp1252 console failed on "✗". The JSON and MD were written before that.)
 
 **Avg score 1.60 / 3** (old 1.50). Distribution: 3: 4, 2: 6, 1: 8, 0: 2 (old 3: 2, 2: 8, 1: 8, 0: 2).

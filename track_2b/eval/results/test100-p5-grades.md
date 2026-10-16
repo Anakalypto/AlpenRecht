@@ -1,6 +1,6 @@
 # Grades: test100-p5 (Apertus-v1.5-70B, T081-T100)
 
-Graded by hand against Swiss law (StGB, DSG/DSV 2023, DBG/StHG/cantonal tax law, OR, SchKG, LEI). Scale 0-3. All 20 rows ran with no pipeline error, so no retry was needed.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a Swiss lawyer against the official texts (StGB, DSG/DSV 2023, DBG/StHG/cantonal tax law, OR, SchKG, LEI); not reviewed by a human lawyer. Scale 0-3. All 20 rows ran with no pipeline error, so no retry was needed.
 
 **Average 1.60 / 3**: two 3s, nine 2s, eight 1s and one 0. **Average latency 83.7 s** (fastest 37.5 s, slowest 164.6 s).
 

@@ -13,36 +13,34 @@ A Python package and Flask backend stream progress to a browser chat interface. 
 - **Locate and plan:** swisstopo resolves the commune and canton. Apertus identifies relevant levels and generates act names, article references and search terms.
 - **Federal law:** Fedlex SPARQL discovers acts and consolidations valid on the requested date. Official HTML is split into articles with section context.
 - **Cantonal law:** Apertus generates LexFind searches and selects acts and articles. Wildcard stems help with compound terms. Current cantonal texts are used.
-- **Communal law:** a stored inventory maps 2,142 commune entries to websites. A crawler discovers regulation lists, with TLex support and dedicated readers for Zurich, Geneva, Basel, Lausanne and Bern. Basel uses the cantonal collection. This inventory is not a coverage guarantee.
+- **Communal law:** a stored inventory maps 2,142 commune entries to websites. A crawler discovers regulation lists, with TLex support and dedicated readers for Zurich, Geneva, Basel, Lausanne, Bern and Lugano. Basel uses the cantonal collection. This inventory is not a coverage guarantee.
 - **Documents:** extraction includes articles, annexes and tariff tables. Scanned or garbled PDFs can use image transcription. Caching, URL handling and rate-limit retries support retrieval.
 - **Case law:** the system searches entscheidsuche.ch and selects up to two published Federal Supreme Court decisions with headnotes.
-- **Answer and check:** rank evidence, draft a cited answer, validate citation identifiers and named articles, then run model-based claim checking and rewriting for up to three rounds.
-
-<!-- PAGE -->
+- **Answer and check:** rank evidence, draft a cited answer, validate citation identifiers and named articles, then run model-based claim checking and rewriting for three rounds.
 
 ## Final held-out evaluation
 
-The final recorded comparison covers 100 held-out questions: 39 federal, 12 cantonal and 49 communal. Answers were graded blind by AI against references and official-law text. There was one AI grading pass and no human adjudication. These are internal prototype results, not independently validated accuracy.
+The final recorded comparison covers 100 held-out questions: 39 federal, 12 cantonal and 49 communal (46 DE, 34 FR, 12 IT, 8 EN). The questions and reference answers were drafted by AI agents (Claude, Anthropic) researching the official sources, and a second Claude agent re-checked each item (15 corrected, none dropped); none was written by a human or checked by a lawyer. The original prototype and the evaluated version (commit c0c4e48) answered the same questions, and Claude agents graded the answers blind and pairwise against the references on a 0-3 rubric. There was one AI grading pass and no human adjudication. These are internal prototype results, not independently validated accuracy.
 
-- **Mean score (0-3):** original 1.38; current 1.39.
-- **Fully correct (score 3):** original 19/100; current 21/100.
+- **Mean score (0-3):** original 1.38; evaluated 1.39.
+- **Fully correct (score 3):** original 19/100; evaluated 21/100.
 - **Usable under the rubric (score at least 2):** 46/100 for both versions. The recorded 95% interval is approximately 37-56%; it does not account for grading errors or dataset representativeness.
-- **Answers flagged with a factual error:** original 53/100; current 43/100.
-- **Governing source cited:** original 58/100; current 53/100.
-- **Off-topic padding flagged:** original 36/100; current 22/100.
-- **Blind preference:** current preferred on 43 questions, original on 36, with 21 ties.
+- **Answers flagged with a factual error:** original 53/100; evaluated 43/100.
+- **Governing source cited:** original 58/100; evaluated 53/100.
+- **Off-topic padding flagged:** original 36/100; evaluated 22/100.
+- **Blind preference:** evaluated version preferred on 43 questions, original on 36, with 21 ties.
 
-Current mean scores by level were 1.95/3 federal, 1.58/3 cantonal and 0.90/3 communal. Original means were 1.92, 1.92 and 0.82 respectively. The cantonal sample contains only 12 questions; its apparent decline needs further investigation.
+Mean scores of the evaluated version by level were 1.95/3 federal, 1.58/3 cantonal and 0.90/3 communal. Original means were 1.92, 1.92 and 0.82 respectively. The cantonal sample contains only 12 questions; its apparent decline needs further investigation.
 
 The usable-answer rate was unchanged. Factual-error and padding flags were less frequent in this sample, but governing-source citation declined and communal performance remains weak. A usable rubric score is not an error-free-answer guarantee: correctness scores and factual-error flags were recorded separately.
 
 ## Measurement limits
 
-Earlier development benchmarks measured retrieval or citation success, sometimes on hand-picked communes. They are not interchangeable with held-out answer correctness. The earlier 85/100 source-citation claim is therefore not presented as final accuracy. No supported current end-to-end latency estimate is claimed here; OCR, networking and verification can materially affect response time.
+Earlier development benchmarks measured retrieval or citation success, sometimes on hand-picked communes. They are not interchangeable with held-out answer correctness. The earlier 85/100 source-citation claim is therefore not presented as final accuracy. In the held-out run (15 answers in parallel on a shared endpoint), the evaluated version took 99 s per answer on average (median 96 s, 10-90% range 61-142 s, maximum 208 s), against 140 s for the original; OCR, networking and verification can materially affect response time.
 
-The final aggregate is recorded in eval/ACCURACY_heldout100.txt, with questions in eval/questions_heldout100.json and references in eval/heldout100_reference.json. Development runs remain under eval/. This report documents repository checkpoint 2a7f9fb.
+The held-out set is not fully independent of development. On the last day, earlier candidate versions were run and graded on it; one candidate scored 1.33/3 against 1.51/3 for the original in that pass, and the decision to restore the original relevance filter and federal article choice (commit c0c4e48) was taken from those grades. The same original answers scored 1.51/3 in that earlier pass and 1.38/3 in the final pass, so single-pass AI grading noise is about ±0.1/3 on this set.
 
-<!-- PAGE -->
+The final aggregate is recorded in eval/ACCURACY_heldout100.txt, with questions in eval/questions_heldout100.json and references in eval/heldout100_reference.json. The answers of both versions, the blind grades and the unblinding key are in eval/heldout/, where score.py recomputes the aggregate. Development runs remain under eval/. The held-out figures were measured on commit c0c4e48 (the same pipeline code as fdb96d8). Later commits 9eb4d52 (fee and tariff handling, CHF amount check, the Lugano reader) and 3bef387 (conversation memory, cache clearing) were not measured on the held-out set; the fee changes were checked only on 18 fee questions and a 20-question regression sample (eval/FEES.md).
 
 ## Implementation and review
 
@@ -67,7 +65,7 @@ A related but incorrect provision can yield a fluent answer with valid citation 
 - **Correctness:** investigate wrong provisions, missed exceptions, authority names and deadlines with fresh held-out questions and human legal review.
 - **Temporal coverage:** extend point-in-time retrieval to cantonal law, which currently uses current texts.
 - **Case law:** evaluate coverage and relevance beyond the current published BGE/headnote subset before expanding it.
-- **Performance:** measure current end-to-end latency before making speed claims. Explore early stopping only if correctness is preserved.
+- **Performance:** answers took about 100 s on average in the held-out run, and later commits have not been re-timed. Explore early stopping only if correctness is preserved.
 - **Deployment:** assess a limited pilot with curated regulations and human oversight. On-premise hosting is an architectural possibility, not a completed deployment or privacy certification.
 
-This is legal information for source discovery and inspection. Automated checking does not guarantee complete or correct legal answers. The hackathon form and demo video remain separate submission items.
+This is legal information for source discovery and inspection. Automated checking does not guarantee complete or correct legal answers. Demo video: https://youtu.be/cG-jVfxx4d8.

@@ -1,0 +1,122 @@
+[
+ {
+  "id": "T001",
+  "lang": "fr",
+  "loc": "1024 Ecublens",
+  "q": "Comment avoir le permis C ?"
+ },
+ {
+  "id": "T002",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "permis b renouvellement"
+ },
+ {
+  "id": "T003",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wie bekomme ich die Niederlassungsbewilligung C früher?"
+ },
+ {
+  "id": "T004",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quali sono i requisiti per il permesso B per lavoratori UE?"
+ },
+ {
+  "id": "T005",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Mon conjoint étranger peut-il me rejoindre en Suisse ?"
+ },
+ {
+  "id": "T006",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Kann mein Permis C widerrufen werden, wenn ich Sozialhilfe beziehe?"
+ },
+ {
+  "id": "T007",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Combien de temps faut-il habiter en Suisse pour se naturaliser ?"
+ },
+ {
+  "id": "T008",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Wie läuft die Einbürgerung in Chur ab?"
+ },
+ {
+  "id": "T009",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Welche Sprachkenntnisse brauche ich für die Einbürgerung?"
+ },
+ {
+  "id": "T010",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Qu'est-ce que le permis G pour frontaliers ?"
+ },
+ {
+  "id": "T011",
+  "lang": "fr",
+  "loc": "1433 Suchy",
+  "q": "Comment obtenir le permis de conduire catégorie C (camion) ?"
+ },
+ {
+  "id": "T012",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wie lange ist der Lernfahrausweis gültig?"
+ },
+ {
+  "id": "T013",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Posso guidare in Svizzera con una patente straniera?"
+ },
+ {
+  "id": "T014",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Was passiert bei 0.8 Promille am Steuer?"
+ },
+ {
+  "id": "T015",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Que risque-t-on pour un excès de vitesse de 25 km/h en localité ?"
+ },
+ {
+  "id": "T016",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Muss ich mein Auto nach einem Umzug neu einlösen?"
+ },
+ {
+  "id": "T017",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Le casque est-il obligatoire à vélo électrique ?"
+ },
+ {
+  "id": "T018",
+  "lang": "de",
+  "loc": "8400 Winterthur",
+  "q": "Welche Höchstgeschwindigkeit gilt auf Autobahnen?"
+ },
+ {
+  "id": "T019",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "q": "Quando devo fare il controllo medico per la patente dopo i 75 anni?"
+ },
+ {
+  "id": "T020",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Peut-on utiliser une trottinette électrique sur le trottoir ?"
+ }
+]

@@ -3,11 +3,13 @@
 Set: eval/questions_fees.json, 18 questions (communal dog/waste/grave/parking/building fees in 12 communes incl. the
 big cities and Lugano; federal fees for debt-collection extracts, passports, naturalisation; a speeding fine).
 Metric: the short answer states an amount taken from a source.
+These changes (commit 9eb4d52) came after the held-out evaluation. They were measured on this set and on the
+regression sample below, not on the held-out 100 questions (see `heldout/README.md`).
 
 | run | amount in short answer | avg time |
 |---|---|---|
-| before | 6/18 | 71 s |
-| after  | 18/18 (F18 fixed in a final targeted re-run) | 78 s |
+| before (`results/Apertus-v1.5-70B-fees-base.json`) | 6/18 | 71 s |
+| after (`results/Apertus-v1.5-70B-fees-v4.json`) | 17/18 in the full run; 18/18 after a targeted re-run of F18 (`results/Apertus-v1.5-70B-fees-v6.json`) | 78 s |
 
 Verified figures: Ittigen dog tax Fr. 100; Basel CHF 160; Lugano CHF 115; Fribourg CHF 100; Chur Fr. 150–300;
 Wädenswil waste base fee CHF 140 / 90; Lausanne bag CHF 1.95 (35 L); Sion grave concession CHF 1 500 / 25 years;

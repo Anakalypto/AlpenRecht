@@ -1,4 +1,4 @@
-"""Build bench/questions100.json: 68 federal + 32 cantonal questions, then verify every gold source live.
+"""Build eval/questions100.json: 68 federal + 32 cantonal questions, then verify every gold source live.
 
 Federal gold = (SR, article) pairs; each is fetched from Fedlex and its heading printed for review.
 Cantonal gold = every in-force act of that canton whose LexFind title contains the topic stem.

@@ -21,13 +21,18 @@ def main(argv=None):
         serve()
         return
     from . import cache, pipeline
+    srcs = []
     for ev in cache.stream(pipeline.run(a.question, a.place, a.asof, a.lang, [])):
         if a.json:
             print(json.dumps(ev, ensure_ascii=False), flush=True)
         elif ev["type"] == "step" and ev["status"] != "running":
             print(f"· {ev['label']}", file=sys.stderr, flush=True)
+        elif ev["type"] == "sources":
+            srcs = ev["sources"]
         elif ev["type"] == "final":
             print(ev["text"])
+            for s in srcs:
+                print(f"[{s['id']}] {s.get('law') or ''} {s.get('number') or ''} — {s.get('url') or ''}")
         elif ev["type"] == "error":
             print(f"error: {ev['message']}", file=sys.stderr)
 

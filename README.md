@@ -8,13 +8,15 @@ decisions (entscheidsuche.ch), and **Apertus** writes one answer per level with 
 text and fact-checked before display. DE / FR / IT / RM / EN.
 
 ➡ **Project:** [`track_2b/`](track_2b) · [README](track_2b/README.md) · [technical report](track_2b/technical_report.md)
-([PDF](track_2b/RedPandas_Report.pdf)) · [evaluation](track_2b/eval)
+([PDF](track_2b/RedPandas_Report.pdf)) · [evaluation](track_2b/eval) · [demo video](https://youtu.be/cG-jVfxx4d8)
 
 ```bash
 cd track_2b && make run      # needs LLM_API_KEY (and optionally LLM_BASE_URL / LLM_NAME) → http://localhost:5055
 ```
 
-Without Docker: `cd track_2b && python -m venv .venv && .venv/Scripts/pip install -r requirements.txt`, then
-`PYTHONPATH=src .venv/Scripts/python -m alpenrecht serve` (Python 3.12+).
+Without Docker (Python 3.12+): `cd track_2b && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`,
+then `PYTHONPATH=src .venv/bin/python -m alpenrecht serve` (on Windows use `.venv/Scripts/`; PowerShell steps in the
+[project README](track_2b/README.md)).
 
-Licence: Apache-2.0 (see [LICENSE](LICENSE)).
+Licence (Hack Apertus T&C §6): code Apache-2.0 ([LICENSE](LICENSE)); documentation and report CC-BY-4.0; datasets
+CDLA-Permissive-2.0 (`track_2b/data/communes.json` is derived from Wikidata, CC0).

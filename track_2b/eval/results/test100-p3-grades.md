@@ -1,7 +1,7 @@
 # Grades — test100-p3 (T041–T060), Apertus-v1.5-70B
 
 Run: `bench.py --set questions_test100_p3.json --tag test100-p3 --workers 3`. 20/20 rows, 0 errors/timeouts, no retry needed.
-Grader: expert-lawyer review (Swiss federal/cantonal law, state as of 2026). Scale 0–3.
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a Swiss lawyer against the official texts; not reviewed by a human lawyer (Swiss federal/cantonal law, state as of 2026). Scale 0–3.
 
 **Average 1.85 / 3** · distribution: 3 → 2, 2 → 12, 1 → 5, 0 → 1 · avg latency 88.4 s (min 25.0, max 207.3) · language correct 20/20.
 

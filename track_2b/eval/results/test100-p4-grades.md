@@ -1,6 +1,6 @@
 # Grades: test100-p4 (Apertus-v1.5-70B), building/zoning/neighbour + communal
 
-Graded by hand, as an expert Swiss lawyer would. Run: 20/20 rows, 0 errors/timeouts. Avg score **1.50 / 3** (3: 2, 2: 8, 1: 8, 0: 2). Avg latency **84.9 s** (min 24.5, max 151.4).
+Graded by an AI reviewer agent (Claude, Anthropic) instructed to grade as a Swiss lawyer against the official texts; not reviewed by a human lawyer. Run: 20/20 rows, 0 errors/timeouts. Avg score **1.50 / 3** (3: 2, 2: 8, 1: 8, 0: 2). Avg latency **84.9 s** (min 24.5, max 151.4).
 
 | id | question | score | sources ok | main issue | total_s |
 |---|---|---|---|---|---|
