@@ -6,6 +6,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 import apertus
+import caselaw
 import checks
 import sources
 import uploads
@@ -81,7 +82,7 @@ Question: {question}
 Location: {location}"""
 
 ANSWER_SYSTEM = """You are Alpenrecht AI, a Swiss legal information assistant built on Apertus.
-You answer using ONLY the numbered sources the user gives you, retrieved live from Fedlex (federal), LexFind (cantonal) and communal documents.
+You answer using ONLY the numbered sources the user gives you, retrieved live from Fedlex (federal), LexFind (cantonal), communal documents and entscheidsuche.ch (court decisions).
 
 Citation style (strict):
 - Every sentence that states a rule ends with its source number(s) in square brackets: [9] or [2][3].
@@ -132,6 +133,8 @@ ANSWER_PROMPT = """Rules:
   ## {h_fed}   (bullets: each concrete federal rule with its figures/conditions)
   ## {h_can}   (bullets: each concrete cantonal rule)
   ## {h_com}   (bullets: each concrete communal rule)
+  ## {h_case}   (ONLY if a COURT DECISION source is listed and it decides a point of THIS question: 1-2 bullets
+     saying what the court held, as the headnote says it, cited [n]. Otherwise leave out this heading entirely.)
   ## {h_levels}   (ONE sentence: what the canton/commune adds to federal law, concretely; federal law prevails, Art. 49 BV)
   ## {h_next}   (2-5 bullets: concrete actions, with the authority, form, fee or deadline when the sources give them)
   Under a level heading without relevant sources, write only the plain sentence "{none}" (not a heading). Under
@@ -149,15 +152,19 @@ QUESTION
 
 HEADINGS = {
     "de": ("Kurzantwort", "Bund", "Kanton {canton}", "Gemeinde {commune}", "Zusammenspiel der Ebenen", "Nächste Schritte",
-           "Rechtsinformation, keine Rechtsberatung.", "Keine einschlägige Quelle abgerufen."),
+           "Rechtsinformation, keine Rechtsberatung.", "Keine einschlägige Quelle abgerufen.",
+           "Rechtsprechung"),
     "fr": ("Réponse courte", "Confédération", "Canton de {canton}", "Commune de {commune}", "Articulation des niveaux",
-           "Prochaines étapes", "Information juridique, pas un conseil juridique.", "Aucune source pertinente récupérée."),
+           "Prochaines étapes", "Information juridique, pas un conseil juridique.", "Aucune source pertinente récupérée.",
+           "Jurisprudence"),
     "it": ("Risposta breve", "Confederazione", "Cantone {canton}", "Comune di {commune}", "Interazione dei livelli",
-           "Prossimi passi", "Informazione giuridica, non consulenza legale.", "Nessuna fonte pertinente recuperata."),
+           "Prossimi passi", "Informazione giuridica, non consulenza legale.", "Nessuna fonte pertinente recuperata.",
+           "Giurisprudenza"),
     "rm": ("Resposta curta", "Confederaziun", "Chantun {canton}", "Vischnanca {commune}", "Interacziun dals nivels",
-           "Proxims pass", "Infurmaziun giuridica, nagin cussegl giuridic.", "Nagina funtauna relevanta chattada."),
+           "Proxims pass", "Infurmaziun giuridica, nagin cussegl giuridic.", "Nagina funtauna relevanta chattada.",
+           "Giurisprudenza"),
     "en": ("Short answer", "Federal level", "Canton {canton}", "Commune {commune}", "How the levels fit together",
-           "Next steps", "Legal information, not legal advice.", "No relevant source retrieved."),
+           "Next steps", "Legal information, not legal advice.", "No relevant source retrieved.", "Case law"),
 }
 
 MAX_FED_ACTS = 5
@@ -399,7 +406,13 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             known = {a["act"] for a in acts}
             acts += [a for a in sources.fedlex_find_acts(["210", "220"], [], fed_lang) if a["act"] not in known]
         terms = plan.get("federal_keywords", []) + plan.get("federal_title_terms", []) + q_words
-        loaded = sources.parallel(lambda a: (a, *sources.fedlex_articles(a, asof, fed_lang)), acts)
+        def fed_one(a):  # one failed act download used to drop every federal source
+            try:
+                return (a, *sources.fedlex_articles(a, asof, fed_lang))
+            except Exception:
+                return a, None, []
+
+        loaded = sources.parallel(fed_one, acts)
         library += [{"kind": "federal", "act": a, "version": v, "arts": arts} for a, v, arts in loaded if v]
         pool, candidates = [], []
         stems = {sources.fold(t)[:6] for t in terms if len(t) >= 5}
@@ -447,6 +460,12 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
     except Exception as e:
         yield step("fed", f"Fedlex error: {e}", "warn")
 
+    # Court decisions interpreting those statutes: Apertus writes the entscheidsuche.ch queries from the question and
+    # the federal articles just found, then picks at most two rulings. Runs while cantonal/communal retrieval goes on.
+    statutes = [f"Art. {checks.art_key(e['number'])} {e['law']}" for e in evidence
+                if e["level"] == "federal" and checks.art_key(e["number"]) and len(e["law"]) <= 12][:4]
+    case_job = ThreadPoolExecutor(1).submit(caselaw.retrieve, search_q, statutes, canton, lang)
+
     # 3b. cantonal ------------------------------------------------------------------------------
     if canton:
         yield step("can", f"Apertus searches LexFind ({canton} cantonal law)")
@@ -468,7 +487,13 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
                 ai_queries = []
             search_terms = list(dict.fromkeys(ai_queries + search_terms))[:12]
             tols, seen = [], set()
-            for found in sources.parallel(lambda term: sources.lexfind_search(term, canton, can_lang, limit=15), search_terms):
+            def search_one(term):  # one slow or failing query must not cost the whole cantonal level
+                try:
+                    return sources.lexfind_search(term, canton, can_lang, limit=15)
+                except Exception:
+                    return []
+
+            for found in sources.parallel(search_one, search_terms):
                 for tol in found:
                     if tol["tol_id"] not in seen:
                         seen.add(tol["tol_id"])
@@ -490,7 +515,13 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             # No on-topic act means the canton has nothing on this: loading the off-topic hits anyway made the
             # answer cite unrelated cantonal law under the canton heading.
             tols = lexfind_agent.pick_acts(search_q, location["canton_name"], on_topic[:25]) or on_topic[:MAX_CAN_TEXTS]
-            loaded = sources.parallel(lambda t: (t, sources.lexfind_articles(t, can_lang)), tols)
+            def load_one(t):
+                try:
+                    return t, sources.lexfind_articles(t, can_lang)
+                except Exception:
+                    return t, []
+
+            loaded = [x for x in sources.parallel(load_one, tols) if x[1]]
             library += [{"kind": "cantonal", "tol": t, "arts": arts, "canton": canton, "lang": can_lang} for t, arts in loaded]
             picked = lexfind_agent.pick_articles(search_q, loaded, terms)
             for tol, art in picked[:TOTAL_CAN]:
@@ -520,7 +551,8 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
     if communal_job:
         yield step("com", f"Apertus searches {location['commune']}'s website for regulations")
         try:
-            site, found, chosen, picked = communal_job.result(timeout=120)
+            # A cold crawl with OCR of a scanned regulation can take minutes under load; it is cached afterwards.
+            site, found, chosen, picked = communal_job.result(timeout=240)
             host = (site or "").split("//")[-1].strip("/")
             for meta, art in picked[:TOTAL_COM]:
                 evidence.append({
@@ -540,7 +572,19 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
                 names = ", ".join(m["title"][:40] for m in chosen)
                 yield step("com", f"{host}: {len(found)} regulations → {names} → {len(picked[:TOTAL_COM])} articles", "done")
         except Exception as e:
-            yield step("com", f"Commune website: {str(e)[:100]}", "warn")
+            yield step("com", f"Commune website: {str(e)[:100] or type(e).__name__}", "warn")
+
+    # 3d. case law ------------------------------------------------------------------------------
+    yield step("case", "Apertus searches court decisions (entscheidsuche.ch)")
+    try:
+        queries, cands, rulings = case_job.result(timeout=90)
+        evidence += rulings[:caselaw.MAX_PICK]
+        if rulings:
+            yield step("case", f"{len(cands)} decisions found → {', '.join(r['law'] for r in rulings)}", "done")
+        else:
+            yield step("case", f"{len(cands)} decisions found, none decides this question", "done")
+    except Exception as e:
+        yield step("case", f"Court decisions unavailable: {str(e)[:80] or type(e).__name__}", "warn")
 
     for i, ev in enumerate(evidence, 1):
         ev["id"] = i
@@ -555,7 +599,7 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
         return ANSWER_PROMPT.format(
             language=LANG_NAMES.get(lang, "Deutsch"), asof=asof, sources=verify.source_block(answer_ev), question=question + (f"\n(Understood as: {search_q})" if search_q != question else ""),
             h_short=h[0], h_fed=h[1], h_can=h[2].format(canton=canton_name), h_com=h[3].format(commune=commune_name),
-            h_levels=h[4], h_next=h[5], disclaimer=h[6], none=h[7],
+            h_levels=h[4], h_next=h[5], disclaimer=h[6], none=h[7], h_case=h[8],
             location_line=loc_line, competence=plan.get("competence", ""))
 
     def write(extra=""):
@@ -565,7 +609,9 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
 
     # Only the provisions that answer this question go into the answer (the UI still lists everything retrieved).
     # Off-topic hits are dropped from the list the user sees too (they made the source list look random).
-    answer_ev = verify.relevant_sources(search_q, evidence)
+    # Rulings were already chosen by Apertus from their headnotes; the snippet filter would judge them on a date.
+    statute_ev = [e for e in evidence if e["level"] != "case"]
+    answer_ev = verify.relevant_sources(search_q, statute_ev) + [e for e in evidence if e["level"] == "case"]
     if len(answer_ev) < len(evidence):
         evidence[:] = answer_ev
         for i, ev in enumerate(evidence, 1):
