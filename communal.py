@@ -462,6 +462,14 @@ def retrieve(question, location, terms):
         loaded.append((meta, arts))
     # No keyword top-up here: a commune without a rule on the topic should contribute nothing.
     picked = lexfind_agent.pick_articles(question, loaded, terms, topup=False) if loaded else []
+    if loaded and not picked:
+        # The regulation was chosen for this question, yet the article pick came back empty: in graded runs this
+        # lost Chur's sign permit, Ittigen's parking and waste fees and Wädenswil's grave periods. One more try,
+        # asking for the closest provisions instead of a perfect match.
+        picked = lexfind_agent.pick_articles(
+            question + "\n(These regulations were selected because they cover this subject: pick the articles that "
+                       "come closest to answering it, e.g. the permit duty, the fee or tariff, the time limits.)",
+            loaded, terms, topup=False)
     hint = next((t for q, t in TOPIC_HINTS if re.search(q, sources.fold(question))), None)
     if loaded and not picked and hint and re.search(hint, sources.fold(loaded[0][0]["title"])):
         # A regulation that plainly covers the topic (noise question, police regulation) but whose headings convinced

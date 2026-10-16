@@ -134,7 +134,8 @@ ANSWER_PROMPT = """Rules:
   ## {h_can}   (bullets: each concrete cantonal rule)
   ## {h_com}   (bullets: each concrete communal rule)
   ## {h_case}   (ONLY if a COURT DECISION source is listed and it decides a point of THIS question: 1-2 bullets
-     saying what the court held, as the headnote says it, cited [n]. Otherwise leave out this heading entirely.)
+     saying what the court held, in the headnote's own terms, cited [n]. Never add an outcome, a party or a rule
+     the headnote does not state. Otherwise leave out this heading entirely.)
   ## {h_levels}   (ONE sentence: what the canton/commune adds to federal law, concretely; federal law prevails, Art. 49 BV)
   ## {h_next}   (2-5 bullets: concrete actions, with the authority, form, fee or deadline when the sources give them)
   Under a level heading without relevant sources, write only the plain sentence "{none}" (not a heading). Under
@@ -671,6 +672,10 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             rounds.append({"round": r, "issues": 0, "added": [], "revised": False, "error": msg[:200]})
             yield step(key, f"Verification {r}/{VERIFY_ROUNDS} skipped: {msg[:80]}", "warn")
 
+    # The case-law heading is optional: drop it when no ruling is cited (the model writes "no source" under it anyway).
+    case_ids = {e["id"] for e in evidence if e["level"] == "case"}
+    if not case_ids & set(checks.check(text, evidence)["cited_ids"]):
+        text = re.sub(rf"(?ms)^##\s*{re.escape(h[8])}\s*\n.*?(?=^##\s|^\*|\Z)", "", text)
     if h[6].rstrip(".") not in text:
         text = text.rstrip() + f"\n\n*{h[6]}*"
     report = dict(checks.check(text, evidence), repaired=repaired)

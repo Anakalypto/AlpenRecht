@@ -111,7 +111,7 @@ def _fallback_queries(question, statutes):
 
 def candidates(queries, canton):
     """Run every query on the Federal Supreme Court and on the canton's courts; merge by decision."""
-    scopes = [["CH_BGE"], ["CH_BGer"]] + ([[canton]] if canton else [])
+    scopes = [["CH_BGE"]]  # only published leading cases are shown (see retrieve); other courts were searched for nothing
     jobs = [(q, scope) for q in queries for scope in scopes]
     found = {}
     for hits in sources.parallel(lambda job: _safe_search(*job), jobs, workers=6):
@@ -173,11 +173,17 @@ def retrieve(question, statutes, canton, lang):
     cands = candidates(queries, canton)
     if not cands:
         return queries, [], []
+    # Only published leading cases with an official headnote reach the answer: from bare passages of other decisions
+    # the writer inferred outcomes that were wrong (a cantonal appeal that was upheld was cited as confirming the
+    # revocation it overturned).
+    cands = [c for c in cands if _is_bge(c) and _headnote(c, lang)]
+    if not cands:
+        return queries, [], []
     if ai:
         try:
             chosen = pick(question, cands, lang)
         except (apertus.ApertusError, ValueError):
-            chosen = cands[:1]
+            chosen = []
     else:
-        chosen = cands[:1]
+        chosen = []  # without the model there is no judgement of relevance: show no ruling rather than a random one
     return queries, cands, [evidence(c, lang) for c in chosen]
