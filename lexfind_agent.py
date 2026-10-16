@@ -38,7 +38,8 @@ ARTICLE_PROMPT = """Question: {question}
 Articles of the acts selected for this question, as [label] heading/first words:
 {listing}
 
-Which articles most directly answer the question? Return ONLY a JSON list of up to {n} labels copied exactly
+Which articles most directly answer the question? For amounts, fees, taxes, rates or times, include the
+article or annex/tariff part (Anhang, Annexe, Allegato, Tarif) that lists the figures. Return ONLY a JSON list of up to {n} labels copied exactly
 from the brackets, most relevant first, e.g. ["{example}"]. Return [] if none of them answers the question."""
 
 

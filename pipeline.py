@@ -545,7 +545,7 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             d = art["doc"]
             evidence.append({
                 "level": "communal", "law": d["name"], "title": d["name"], "sr": f"upload-{d['id']}", "number": art["number"],
-                "path": "", "text": art["text"][:2200], "url": d.get("url", ""), "version": "as provided",
+                "path": "", "text": art["text"][:3500], "url": d.get("url", ""), "version": "as provided",
                 "lang": "", "origin": "Upload" if not d.get("url") else "Web"})
         yield step("com", f"{min(len(pool), TOTAL_COM)} provisions from uploaded documents", "done")
     if communal_job:
@@ -557,7 +557,7 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             for meta, art in picked[:TOTAL_COM]:
                 evidence.append({
                     "level": "communal", "law": f"{location['commune']}: {meta['title'][:70]}", "title": meta["title"],
-                    "sr": f"{location['bfs']}-{meta['sr']}", "number": art["number"], "path": "", "text": art["text"][:2200],
+                    "sr": f"{location['bfs']}-{meta['sr']}", "number": art["number"], "path": "", "text": art["text"][:3500],
                     "url": art.get("url") or meta["url"], "version": "as published", "lang": "", "origin": host or "website"})
             if not site:
                 yield step("com", f"No website known for {location['commune']} — upload its regulation to include it", "warn")

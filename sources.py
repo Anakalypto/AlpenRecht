@@ -350,8 +350,44 @@ _ART_INLINE = re.compile(
     r"((?:§\s*\d+[a-z]?|Art(?:\.|icle|icolo)?\s*\d+[a-z]*)(?=\s+[A-ZÄÖÜÉÈ]))")
 
 
+_ANNEX_START = re.compile(
+    r"^\s*(?:Anhang|Anh[äa]nge|Annexe|Annexes|Allegato|Allegati|Tarif(?:ordnung|e)?|Geb[üu]hrentarif|Taxordnung|Tabelle|"
+    r"Bar[èe]me|Tariffa|Tariffario)\b[^\n]{0,80}$", re.M | re.I)
+ART_MAX = 3500
+
+
+def _annexes(text):
+    """Fee amounts mostly sit in annexes and tariff tables after the last article. Before, they were glued to the last
+    article and cut off at 2,500 characters, so 'Hundetaxe CHF 120' never reached the model. -> [(start, label)]"""
+    out = []
+    for m in _ANNEX_START.finditer(text):
+        label = re.sub(r"\s+", " ", m.group(0)).strip()[:60]
+        # A reference like "Tarif gemäss Art. 5" inside an article is not a heading: require a short line.
+        if len(label) <= 60 and not re.search(r"\b(?:gem[äa]ss|selon|secondo|nach|gestützt)\b", label, re.I):
+            out.append((m.start(), label))
+    return out
+
+
 def split_articles(text):
-    """Cantonal/communal texts come as PDFs: cut at 'Art. 12', 'Article 3', '§ 5' line starts."""
+    """Cantonal/communal texts come as PDFs: cut at 'Art. 12', 'Article 3', '§ 5' line starts, and at annex/tariff
+    headings. Long pieces (tariff tables) are kept in several parts instead of being truncated."""
+    arts = _split_articles(text)
+    out = []
+    for a in arts:
+        body = a["text"]
+        if len(body) <= ART_MAX:
+            out.append(a)
+            continue
+        for i in range(0, len(body), ART_MAX - 300):
+            part = body[i:i + ART_MAX]
+            out.append({"number": a["number"] if i == 0 else f"{a['number']} ({i // (ART_MAX - 300) + 1})",
+                        "path": a["path"], "text": part if i == 0 else f"{a['number']} (…) {part}"})
+            if i + ART_MAX >= len(body):
+                break
+    return out
+
+
+def _split_articles(text):
     text = re.sub(r"[ \t]+", " ", text.replace("\xa0", " "))
     starts = [m.start() for m in _ART_START.finditer(text)]
     # PDFs that lost their line breaks put headings inline: "… zu bringen. § 3 Vollzug 1 Sowohl …".
@@ -366,15 +402,23 @@ def split_articles(text):
         starts = sorted(set(starts) | set(inline))
     if len(starts) < 3:  # no usable structure: fixed-size chunks
         chunks = [text[i:i + 1400] for i in range(0, len(text), 1200)]
-        return [{"number": f"§{i + 1}", "path": "", "text": c.strip()} for i, c in enumerate(chunks) if c.strip()]
+        # "Teil 1", not "§1": a made-up section number was cited as if the regulation had a § 1.
+        return [{"number": f"Teil {i + 1}", "path": "", "text": c.strip()} for i, c in enumerate(chunks) if c.strip()]
+    # Annexes only count after the first article (a table of contents or preamble can mention "Anhang").
+    annex = [(p, lb) for p, lb in _annexes(text) if p > starts[0]]
+    labels = dict(annex)
+    starts = sorted(set(starts) | {p for p, _ in annex})
     arts = []
     for i, s in enumerate(starts):
         chunk = text[s:starts[i + 1] if i + 1 < len(starts) else len(text)].strip()
-        m = _ART_START.match(chunk) or re.match(r"§\s*\d+[a-z]?|Art(?:\.|icle|icolo)?\s*\d+[a-z]*", chunk)
-        number = m.group(0).strip() if m else chunk[:8]
+        if s in labels:
+            number = labels[s]
+        else:
+            m = _ART_START.match(chunk) or re.match(r"§\s*\d+[a-z]?|Art(?:\.|icle|icolo)?\s*\d+[a-z]*", chunk)
+            number = m.group(0).strip() if m else chunk[:8]
         if re.search(r"\.{5,}|…{2,}|(?:\. ){4,}", chunk[:200]) and len(chunk) < 250:
             continue  # table-of-contents line ("Art. 35 Grabesruhe ........ 12"), the real article comes later
-        arts.append({"number": number, "path": "", "text": chunk[:2500]})
+        arts.append({"number": number, "path": "", "text": chunk[:12000]})
     return arts
 
 

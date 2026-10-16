@@ -353,7 +353,7 @@ def pick_documents(question, commune, canton, docs):
     try:
         raw = apertus.chat([{"role": "user", "content": PICK_PROMPT.format(
             commune=commune, canton=canton, question=question, listing=listing, n=MAX_DOCS)}],
-            temperature=0.0, max_tokens=60)
+            temperature=0.0, max_tokens=200)
     except apertus.ApertusError:
         return []
     picks = lexfind_agent._json(raw, [])
@@ -396,6 +396,10 @@ TOPIC_HINTS = [
     (r"park|parkier|stationn|parcage|posteggi|parchegg", r"park|stationn|parcage|posteggi|parchegg"),
     (r"wasser|abwasser|eaux?|acqua", r"wasser|eaux?|acqua"),
     (r"plakat|reklame|affich|insegn", r"plakat|reklame|affich|insegn|polizei|police"),
+    # Fees, emoluments and the tax multiplier: the figures sit in fee/tariff regulations and their annexes.
+    (r"steuerfuss|steuersatz|gemeindesteuer|coefficient|impot communal|moltiplicatore", r"steuer|impot|fiscal|imposta|budget|voranschlag"),
+    (r"gebuhr|emolument|tarif|taxe|tassa|kosten|frais|prix|preis|cost|bescheinigung|attestation|ausweis",
+     r"gebuhr|emolument|tarif|taxe|tass|kosten|frais|abgabe"),
 ]
 
 

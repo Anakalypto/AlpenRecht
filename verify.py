@@ -105,19 +105,19 @@ def source_block(evidence):
     return "\n\n".join(
         f"[{e['id']}] {e['level'].upper()} · {e['law']}{' (SR ' + e['sr'] + ')' if e['sr'] and e['level'] == 'federal' else ''}"
         f" · {e['number']} · act: {e['title'][:160]}{' · section: ' + e['path'][-160:] if e['path'] else ''}"
-        f" · version {e['version']}\n{e['text'][:2200]}"
+        f" · version {e['version']}\n{e['text'][:3500]}"
         for e in evidence) or "(no sources retrieved)"
 
 
 def federal_evidence(act, version, art):
     return {"level": "federal", "law": act["short"] or act["title"], "title": act["title"], "sr": act["sr"],
-            "number": art["number"], "path": art["path"], "text": art["text"][:2200], "url": art["url"],
+            "number": art["number"], "path": art["path"], "text": art["text"][:3500], "url": art["url"],
             "version": version["date"], "lang": version["lang"], "origin": "Fedlex"}
 
 
 def cantonal_evidence(tol, art, canton, lang):
     return {"level": "cantonal", "law": f"{canton} {tol['sr']}", "title": tol["title"], "sr": tol["sr"],
-            "number": art["number"], "path": tol.get("category", ""), "text": art["text"][:2200],
+            "number": art["number"], "path": tol.get("category", ""), "text": art["text"][:3500],
             "url": art["url"], "version": tol.get("since") or "current", "lang": lang, "origin": "LexFind"}
 
 
