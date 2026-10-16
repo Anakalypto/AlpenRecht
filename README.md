@@ -7,8 +7,8 @@ federal (Fedlex), cantonal (LexFind) and communal (the commune's own website) ru
 decisions (entscheidsuche.ch), and **Apertus** writes one answer per level with every claim cited to the official
 text and fact-checked before display. DE / FR / IT / RM / EN.
 
-➡ **Project:** [`track_2b/`](track_2b) · [README](track_2b/README.md) · [submission text](track_2b/docs/SUBMISSION.md)
-· [evaluation](track_2b/eval)
+➡ **Project:** [`track_2b/`](track_2b) · [README](track_2b/README.md) · [technical report](track_2b/technical_report.md)
+([PDF](track_2b/RedPandas_Report.pdf)) · [evaluation](track_2b/eval)
 
 ```bash
 cd track_2b && make run      # needs LLM_API_KEY (and optionally LLM_BASE_URL / LLM_NAME) → http://localhost:5055
