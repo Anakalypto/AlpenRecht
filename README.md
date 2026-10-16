@@ -6,7 +6,7 @@ decisions (entscheidsuche.ch), and **Apertus** writes one answer per level with 
 text and fact-checked before display. DE / FR / IT / RM / EN.
 
 ➡ **Project:** [`track_2b/`](track_2b) · [README](track_2b/README.md) · [submission text](track_2b/docs/SUBMISSION.md)
-· [evaluation](track_2b/eval) · [submission PDF](track_2b/docs/output/pdf/Alpenrecht_Submission_Report.pdf)
+· [evaluation](track_2b/eval)
 
 ```bash
 cd track_2b && make run      # needs LLM_API_KEY (and optionally LLM_BASE_URL / LLM_NAME) → http://localhost:5055
