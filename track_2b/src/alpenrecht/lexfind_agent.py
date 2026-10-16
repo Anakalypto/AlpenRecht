@@ -8,8 +8,8 @@ Three steps, each with a keyword fallback so LexFind keeps working if the model 
 import json
 import re
 
-import apertus
-import sources
+from . import apertus
+from . import sources
 
 MAX_TEXTS = 3
 MAX_ARTICLES = 6

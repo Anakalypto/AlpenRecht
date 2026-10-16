@@ -12,11 +12,11 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "src"))
 
-import checks  # noqa: E402
-import config  # noqa: E402
-import pipeline  # noqa: E402
+from alpenrecht import checks  # noqa: E402
+from alpenrecht import config  # noqa: E402
+from alpenrecht import pipeline  # noqa: E402
 
 HERE = pathlib.Path(__file__).resolve().parent
 sys.stdout.reconfigure(encoding="utf-8")  # the summary's ✓/✗ crashed the cp1252 Windows console

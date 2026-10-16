@@ -1,19 +1,22 @@
 """Alpenrecht AI — Swiss multi-level legal research on Apertus."""
+from pathlib import Path
+
 from flask import Flask, Response, jsonify, request, send_from_directory
 
-import apertus
-import config
-import pipeline
-import sources
-import uploads
+from . import apertus
+from . import config
+from . import pipeline
+from . import sources
+from . import uploads
 
-app = Flask(__name__, static_folder="static", static_url_path="/static")
+WEB = str(Path(__file__).resolve().parent / "web")
+app = Flask(__name__, static_folder=WEB, static_url_path="/static")
 app.config["MAX_CONTENT_LENGTH"] = 25 * 1024 * 1024
 
 
 @app.get("/")
 def index():
-    return send_from_directory("static", "index.html")
+    return send_from_directory(WEB, "index.html")
 
 
 @app.get("/api/health")
@@ -79,5 +82,5 @@ def upload():
     return jsonify({"id": doc["id"], "name": doc["name"], "articles": len(doc["articles"]), "chars": doc["chars"]})
 
 
-if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=config.PORT, debug=False, threaded=True)
+def main():
+    app.run(host=config.HOST, port=config.PORT, debug=False, threaded=True)

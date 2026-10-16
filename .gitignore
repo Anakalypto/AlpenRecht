@@ -1,4 +1,19 @@
+# Secrets and local config
 .env
-.venv/
-cache/
+.env.*
+!.env.example
+
+# Python
 __pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime cache (downloaded law texts, crawls) and local run outputs
+track_2b/cache/
+track_2b/eval/runs/
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/

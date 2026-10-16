@@ -4,7 +4,7 @@ Used live (the UI shows the repaired text and any warnings) and by the benchmark
 """
 import re
 
-import sources
+from . import sources
 
 # "Art. 257d", "art. 32abis", "Artikel 7", "article 18a", "articolo 3"
 _ART = re.compile(r"\b(?:Art(?:ikel|icle|icolo)?\.?|art(?:icle|icolo)?\.?)\s*"

@@ -45,10 +45,13 @@ def main():
     args = ap.parse_args()
 
     load_env(pathlib.Path(args.env))
-    sys.path.insert(0, str(pathlib.Path(args.root).resolve()))
-    import apertus  # noqa: E402
-    import config  # noqa: E402
-    import pipeline  # noqa: E402
+    root = pathlib.Path(args.root).resolve()
+    if (root / "src" / "alpenrecht").is_dir():  # current layout: track_2b/src/alpenrecht
+        sys.path.insert(0, str(root / "src"))
+        from alpenrecht import apertus, config, pipeline, sources  # noqa: E402
+    else:  # the original flat checkout (eabfc3b), used as the baseline
+        sys.path.insert(0, str(root))
+        import apertus, config, pipeline, sources  # noqa: E402,E401
 
     if not config.APERTUS_API_KEY:
         sys.exit("APERTUS_API_KEY is empty: put the key in .env first.")
@@ -75,7 +78,6 @@ def main():
         # Give an older checkout the same network patience as the current code (3 attempts on dropped
         # connections), so a busy line doesn't count as a quality difference between versions.
         import urllib.error
-        import sources  # noqa: E402
         orig_http = sources.http
 
         def http_retry(url, data=None, headers=None, timeout=60, cache=False):

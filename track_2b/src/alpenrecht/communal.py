@@ -16,11 +16,11 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-import apertus
-import cities
-import config
-import lexfind_agent
-import sources
+from . import apertus
+from . import cities
+from . import config
+from . import lexfind_agent
+from . import sources
 
 CACHE = config.CACHE_DIR / "communes"
 CACHE.mkdir(exist_ok=True)

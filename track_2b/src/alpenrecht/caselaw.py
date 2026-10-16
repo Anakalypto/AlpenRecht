@@ -14,8 +14,8 @@ import html
 import json
 import re
 
-import apertus
-import sources
+from . import apertus
+from . import sources
 
 SEARCH_URL = "https://entscheidsuche.ch/_search.php"
 MAX_PICK = 2

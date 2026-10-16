@@ -1,0 +1,19 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime cache (downloaded law texts, crawls) and local run outputs
+cache/
+eval/runs/
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/

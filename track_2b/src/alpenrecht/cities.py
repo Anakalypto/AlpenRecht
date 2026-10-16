@@ -18,8 +18,8 @@ import time
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
-import config
-import sources
+from . import config
+from . import sources
 
 CACHE = config.CACHE_DIR / "communes"
 CACHE.mkdir(exist_ok=True)
@@ -78,7 +78,7 @@ def geneva():
 
 
 def basel():
-    import communal  # local import: communal imports this module
+    from . import communal  # local import: communal imports this module
     return communal.tlex_documents("www.gesetzessammlung.bs.ch")
 
 

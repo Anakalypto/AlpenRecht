@@ -10,10 +10,10 @@ Each round:
 import json
 import re
 
-import apertus
-import checks
-import config
-import sources
+from . import apertus
+from . import checks
+from . import config
+from . import sources
 
 MAX_SOURCES = 20
 

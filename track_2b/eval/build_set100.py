@@ -8,9 +8,9 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
-import checks  # noqa: E402
-import sources  # noqa: E402
+sys.path.insert(0, str(ROOT / "src"))
+from alpenrecht import checks  # noqa: E402
+from alpenrecht import sources  # noqa: E402
 
 HERE = pathlib.Path(__file__).resolve().parent
 

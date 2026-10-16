@@ -5,7 +5,7 @@ import time
 import urllib.error
 import urllib.request
 
-import config
+from . import config
 
 
 class ApertusError(RuntimeError):

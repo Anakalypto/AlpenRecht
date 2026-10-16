@@ -2,8 +2,8 @@
 import json
 import uuid
 
-import config
-import sources
+from . import config
+from . import sources
 
 UPLOAD_DIR = config.CACHE_DIR / "uploads"
 UPLOAD_DIR.mkdir(exist_ok=True)

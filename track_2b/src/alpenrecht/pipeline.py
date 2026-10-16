@@ -5,14 +5,14 @@ import re
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-import apertus
-import caselaw
-import checks
-import sources
-import uploads
-import communal
-import lexfind_agent
-import verify
+from . import apertus
+from . import caselaw
+from . import checks
+from . import sources
+from . import uploads
+from . import communal
+from . import lexfind_agent
+from . import verify
 
 LANG_NAMES = {"de": "Deutsch", "fr": "français", "it": "italiano", "rm": "rumantsch", "en": "English"}
 

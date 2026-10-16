@@ -16,7 +16,7 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
-import config
+from . import config
 
 logging.getLogger("pypdf").setLevel(logging.ERROR)  # cantonal PDFs trigger harmless font warnings
 
@@ -507,7 +507,7 @@ def ocr_pdf(raw, max_pages=40):
     try:
         import base64
         import pypdfium2 as pdfium
-        import apertus
+        from . import apertus
     except ImportError:
         return ""
     # PDFium is not thread-safe: render every page image first, then transcribe them in parallel.
