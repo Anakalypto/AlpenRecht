@@ -1,0 +1,2907 @@
+{
+ "tag": "v5full",
+ "grades": [
+  {
+   "id": "H001",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "States 'Die Selbstnutzung der Liegenschaft ist kein Befreiungsgrund'. Wrong: Art. 11a/11b HStG BE give a deferral and later exemption on the first CHF 800,000 for a main residence.",
+     "Names the Steuerverwaltung as the competent authority. The Grundbuchamt levies and defers the tax (Art. 11a)."
+    ],
+    "missing": [
+     "CHF 800,000 exemption for a main residence on request at the land-registry filing",
+     "Conditions: move in within 1 year (2 for a new build), at least 2 years of personal use"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Names the Steuerverwaltung as the competent authority. The tax is levied through the Grundbuchamt."
+    ],
+    "missing": [
+     "CHF 800,000 main-residence exemption (Art. 11a/11b), which is the core of a question about owner occupation",
+     "Conditions on moving in and the 2-year minimum use"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H002",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Next steps tell the debtor to prove that the creditor did not start proceedings. Inverted: the creditor must prove it within 20 days (Art. 8a para. 3 lit. d SchKG).",
+     "Adds an exception (debtor proves the removal request was definitively rejected) that is not in the law. BGE 147 III 41 holds that the creditor losing the Rechtsöffnung does not prevent disclosure.",
+     "Short answer wrongly says the request is granted if the enforcement 'nicht fortgesetzt' (garbled condition)."
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [
+     "Cites a non-existent 'Ziff. 4' of lit. d (cosmetic)"
+    ],
+    "missing": [
+     "5-year expiry of third-party inspection rights (Art. 8a para. 4)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H003",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Deadline given as 6 months from discovery / 2 years from the resolution. That is Art. 269b ZGB (challenging an adoption). Correct: 1 month from knowledge (Art. 75 ZGB via Art. 712m para. 2).",
+     "Cites § 76 GOG ZG (supervisory complaint) as the form rule for the claim",
+     "Asserts court competence thresholds without a source"
+    ],
+    "missing": [
+     "1-month deadline from knowledge",
+     "Only owners who did not approve may challenge",
+     "A conciliation request filed in time preserves the deadline"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Applies Art. 269b ZGB (adoption challenge): 6 months / 2 years. Correct: 1 month from knowledge (Art. 75 i.V.m. Art. 712m para. 2 ZGB)."
+    ],
+    "missing": [
+     "1-month deadline",
+     "Who may challenge",
+     "Conciliation preserves the deadline"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H004",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H005",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Art. 216 OR (also covers preliminary contracts)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says to file the deed with the Grundbuchinspektorat. That is the BewG authority for foreign buyers; registration is with the competent Grundbuchamt.",
+     "Tells the user to have the deed certified 'von einem Notar'. In St. Gallen the Grundbuchverwalter does the public certification."
+    ],
+    "missing": [
+     "Art. 216 OR; preliminary contracts also need certification"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H006",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "A late notice takes effect at the next possible date (Art. 266a para. 2)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Tells the user to observe the local end-of-month termination date (§ 214 EG ZGB BS). That rule covers Art. 266b–d OR, not furnished rooms under Art. 266e.",
+     "Presents the form-approval rule (§ 214b) as relevant to a tenant's notice"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H007",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "States the 3% maximum only implicitly"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Names the Service cantonal des contributions as the authority that calculates and collects the transfer duties, with no source. They are handled through the registre foncier."
+    ],
+    "missing": [
+     "Communal additional centimes up to 100% (total up to 3%), art. 22 LDMG"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H008",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Applies a Vaud agricultural-lease appeal rule (LVLBFA art. 23) as form requirements for the conciliation request"
+    ],
+    "missing": [
+     "The extension request is due within the same 30 days"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Presents '60 days before expiry for a fixed-term lease' as the deadline to contest a termination. That is the deadline for requesting an extension (art. 273 al. 2 let. b), not for contesting the termination (always 30 days, al. 1)."
+    ],
+    "missing": [
+     "Extension request in the same 30 days"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H009",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Short answer says the féries 'suspendent le cours des délais'. Wrong: deadlines keep running (art. 63 LP).",
+     "Explains the ban partly by office opening hours. The real ground is art. 56 ch. 2 LP.",
+     "Next steps misapply art. 63 to the timing of notification"
+    ],
+    "missing": [
+     "Art. 56 ch. 2 LP: 7 days before and after Christmas",
+     "Other féries periods and prohibited times"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Implies notification on 27 December is possible unless it is a cantonal public holiday. Wrong: it falls within the Christmas féries (art. 56 ch. 2 LP), when no enforcement act is allowed."
+    ],
+    "missing": [
+     "Rule on debt-enforcement holidays (féries)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H010",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Next steps say 'ne pas conserver le produit', which misstates the option: there is no duty to keep it, but no instruction not to keep it"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H011",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "No interest on the ADB claim (art. 149 al. 4 LP)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Radiation after full payment not in the Confederation section; no interest (art. 149 al. 4 LP)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H012",
+   "A": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Scope of LCC (CHF 500-80'000)"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says an 'indennità adeguata' for 'uso abusivo della cosa' is owed during the revocation period; art. 40f CO (4 paragraphs) only provides restitution, a reasonable rent if the thing was used, and expenses, with no other compensation"
+    ],
+    "missing": [
+     "Scope of LCC (CHF 500-80'000)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H013",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says federal law sets general minimum planting distances and that cantonal rules 'prevail over federal law'; art. 688 CC only delegates distances to the cantons",
+     "Gives an unsourced Bellinzona technical-office email and phone, probably invented"
+    ],
+    "missing": [
+     "10-year tolerance (art. 160 LAC)",
+     "Communal plan reserve prevails (art. 168 LAC)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Applies building boundary-distance rules (RLE art. 41-42, the 1.50 m rule) to tree plantings; the governing rule is LAC art. 155 (8 m / 6 m for walnut trees)"
+    ],
+    "missing": [
+     "8 m from dwellings/gardens/orchards/vineyards, 6 m from other buildings/land (art. 155 LAC)",
+     "10-year tolerance",
+     "Communal reserve"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H014",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says art. 201 OR gives 60 days from discovery for hidden defects; art. 201 requires immediate notice, and the 60-day rule for real estate is art. 219a OR"
+    ],
+    "missing": [
+     "5-year limitation from acquisition of ownership, not shortenable (art. 219a al. 3)",
+     "Shorter contractual deadlines invalid",
+     "Warranty exclusion void if fraudulently concealed (art. 199)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": true,
+    "errors": [
+     "Says defects visible on inspection must be notified immediately; for real-estate sales art. 219a al. 1 OR sets a 60-day notice period (minor side point, not the question asked)"
+    ],
+    "missing": [
+     "Art. 199 OR fraudulent concealment",
+     "Free repair for new buildings (art. 219a al. 2)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H015",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says paternity leave lasts until the child's 2nd birthday under 'Art. 16n EOG'; correct law is 2 weeks (14 daily allowances), taken within 6 months of birth (OR 329g, EOG 16j/16k). The figure comes from a Schaffhausen cantonal benefit for single parents",
+     "Wrong SR number (831.10 is the AHVG; the EOG is 834.1)"
+    ],
+    "missing": [
+     "2 weeks / 14 daily allowances",
+     "Within 6 months after birth",
+     "Can be taken in weeks or days"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says federal law has no paternity leave and that cantonal/communal rules govern; federal law provides 2 weeks (OR 329g, EOG 16i ff.)"
+    ],
+    "missing": [
+     "2 weeks, within 6 months, in weeks or days"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H016",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Opposition only needed if parties don't agree to continue (minor)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says art. 336 al. 2 let. c CO is dismissal infringing personality; it concerns collective dismissal without consulting workers",
+     "Calls the 180 days a prescription period; it is forfeiture (péremption)"
+    ],
+    "missing": [
+     "Written opposition to the employer before the end of the notice period (art. 336b al. 1), which is required to keep the claim"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H017",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says the 25% supplement for temporary night work can be replaced by 10% time compensation; the 10% compensation and its art. 17b al. 3 exceptions apply only to regular/periodic night work",
+     "Next steps tell the employee to request the authorization and pay the cantonal fee; that is the employer's obligation"
+    ],
+    "missing": [
+     "Temporary = fewer than 25 nights per year (OLL 1 art. 31)",
+     "Night hours 23-6"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Presents 10% time compensation as an alternative to the 25% supplement for temporary night work and applies the art. 17b al. 3 exceptions to it; these apply only to regular/periodic night work"
+    ],
+    "missing": [
+     "Under 25 nights per year threshold",
+     "Night hours 23-6"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H018",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says federal law sets no minimum age for employed persons and contributions start with the apprenticeship; employed children are exempt until 31 Dec of the year they turn 17 (AHVG art. 3 al. 2 let. a)"
+    ],
+    "missing": [
+     "Contributions from 1 January after the 17th birthday"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Headline says apprentices pay from 1 January after their 20th birthday; that rule is for non-employed persons. Employed persons pay from 1 January after turning 17"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H019",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says an AHV compensation fund decision can be appealed within 10 days under the cantonal administrative-procedure law; for AHV the rule is opposition within 30 days, then appeal within 30 days (ATSG art. 52, 60)",
+     "Cites a non-existent '§ 21bis Abs. 3ter' for a 10-day reasoning request"
+    ],
+    "missing": [
+     "Permanent actuarial reduction (art. 40a)",
+     "Transitional-generation women can draw from 62 (art. 40c)"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Permanent actuarial reduction (art. 40a)",
+     "Transitional-generation women can draw from 62 (art. 40c)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H020",
+   "A": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Concrete 30 November deadline (notice must reach the insurer) after premium notification",
+     "Restriction to year-end for optional deductibles/alternative models (KVV 94/100)",
+     "Example dates outdated (2025/2026)"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Concrete 30 November deadline (receipt by the insurer)",
+     "Year-end restriction for optional deductibles/alternative models",
+     "New insurer's confirmation of uninterrupted cover (art. 7 al. 5)"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H021",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Annual cap CHF 700 for adults (OAMal art. 103 al. 2)",
+     "Cap CHF 350 for children stated as a figure",
+     "Short answer is about children rather than the asker"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says the 'quote-part maximale' is 10 %; 10 % is the rate, and the cap is CHF 700 (OAMal 103 al. 2)",
+     "Says premium-reduction income is taken from the tax period preceding the year of the request; VS 832.105 art. 8 uses the tax period 2 years earlier (x-2)"
+    ],
+    "missing": [
+     "Annual cap CHF 700 adults / CHF 350 children"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H022",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Leisure accident cover through health insurance (KVG accident cover)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Leisure accident cover through health insurance (KVG accident cover)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H023",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Presents GR 170.440 (sickness daily-allowance insurance for cantonal staff) as cantonal rules that concretise the UVG accident daily allowance; that is the wrong regime",
+     "Says the forfeiture of the claim is governed by Art. 24 UVG; Art. 24 UVG concerns the integrity compensation"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Under 'Bund' it defines the insured earnings with the GR cantonal-staff sickness-insurance rules (last monthly wage, maximum of the top salary class); under the UVG the insured earnings are the last wage before the accident up to the UVG maximum (UVV 15/22)",
+     "Says the daily allowance is halved for intentional self-harm, citing a cantonal staff ordinance; that is not the UVG rule",
+     "Applies the cantonal staff-insurance start of benefits (after the 365th day of salary continuation) as if it were relevant to the accident allowance"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H024",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "The conditions for the 70 % rate (cumulative)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Presents the 70 % conditions as alternatives ('ou'); under LACI art. 22 al. 2 they are cumulative (no child under 25 AND an allowance over CHF 140 AND no disability pension)"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H025",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says the pension is paid retroactively up to one year before the application; under LAI art. 29 al. 1 the right arises at the earliest 6 months after the claim is filed"
+    ],
+    "missing": [
+     "Sliding scale (40 % degree = 25 % pension; full pension from 70 %)",
+     "Six-month rule of art. 29 LAI"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Sliding scale (40 % degree = 25 % pension; full pension from 70 %)",
+     "Six-month rule of art. 29 LAI"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H026",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Short answer adds a confusing condition (exit benefit lower than annual contributions); that is a separate ground (let. c), not a condition for self-employment",
+     "Applies the art. 25f LFLP restriction to self-employment; it only concerns leaving Switzerland (let. a)"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H027",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says the amount paid is the one of the child's canton of residence; for employees the canton of the employer's seat applies (LAFam art. 12 al. 2 / 13)"
+    ],
+    "missing": [
+     "Rank counts only children giving entitlement (RELAFC art. 11)"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Explicit employer-seat rule (LAFam art. 12 al. 2)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H028",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Lists residence in the canton of Zug as an entitlement condition; the applicable regime is the canton of the employer's seat (FamZG art. 12 al. 2)",
+     "Says cantonal provisions take precedence under Art. 49 BV; this inverts the rule (federal law prevails)"
+    ],
+    "missing": [
+     "Employer-seat rule"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Employer-seat rule (FamZG art. 12 al. 2)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H029",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Suggests a single judge decides based on an amount in dispute of CHF 20,000 or less; that criterion does not determine jurisdiction for a contested divorce action",
+     "Wording 'gerechnet ab' the date of lis pendens is misleading: the two years must already have elapsed at that date"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Refers to a 'Zivilprozessordnung des Kantons Luzern'; civil procedure has been governed by the federal ZPO since 2011"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H030",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Names a notary or the probate court as the receiving authority; in the canton of Bern the declaration is made to the competent cantonal authority (the Regierungsstatthalteramt), not to a notary (not verified online)"
+    ],
+    "missing": [
+     "Presumed renunciation when insolvency is officially established or obvious (Art. 566 Abs. 2 ZGB)",
+     "Loss of the right to renounce after interfering in the estate (Art. 571 Abs. 2)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Presents Art. 578 ZGB as a creditors' challenge 'bei Überschuldung' of the estate; it concerns an over-indebted heir renouncing to defeat his own creditors and is irrelevant here",
+     "Names the Regionalgericht Bern-Mittelland (with a sample form) as the receiving authority; in Bern this is the Regierungsstatthalteramt (not verified online)",
+     "Tells the user to have the estate sealed; sealing is ordered by the official, not something the heir arranges"
+    ],
+    "missing": [
+     "Presumption under Art. 566 Abs. 2 ZGB",
+     "Art. 571 Abs. 2 interference rule"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H031",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Forced marriage and endangered reintegration in Brazil not named as examples of important personal reasons (Art. 50 Abs. 2 AIG)",
+     "The 3 years count only cohabitation in Switzerland up to the separation (BGE 136 II 113)",
+     "Not stated that the AIG governs her case, not the FZA"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "The 3 years count only cohabitation in Switzerland up to the separation (BGE 136 II 113)",
+     "Not stated that the AIG governs her case, not the FZA"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H032",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Claims a C permit (Niederlassungsbewilligung) is required. Art. 9 BüG applies only to ordinary naturalisation, not to facilitated naturalisation under Art. 21 BüG",
+     "Applies St. Gallen residence periods for ordinary naturalisation (Art. 9/10 SG BüG). These are irrelevant to facilitated naturalisation",
+     "Says to file with the cantonal Amt für Bürgerrecht and that the canton decides. Under Art. 25 BüG the SEM decides and only consults the canton",
+     "Next steps on cantonal VOSTRA checks and the lapse of communal citizenship belong to ordinary naturalisation"
+    ],
+    "missing": [
+     "SEM is the competent authority (Art. 25 BüG)",
+     "No C permit or 10 years of residence needed"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Claims a C permit is required (Art. 9 BüG applies only to ordinary naturalisation)",
+     "Says to file with the cantonal authority. Under Art. 25 BüG the SEM decides on facilitated naturalisation",
+     "Applies St. Gallen residence periods for ordinary naturalisation"
+    ],
+    "missing": [
+     "SEM is the competent authority (Art. 25 BüG)",
+     "No C permit or 10 years of residence needed"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H033",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Exemption applies regardless of the amount inherited (not stated explicitly)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says cantonal provisions prevail where they differ from federal law (Art. 49 BV). This inverts the rule: Art. 49 BV gives federal law precedence"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H034",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Gives the wrong reason for the exclusion: says heirs and legatees are excluded as witnesses, citing Art. 501 CC. Under Art. 503 al. 1 CC, descendants, ascendants, siblings, their spouses and the testator's spouse are excluded. Art. 503 al. 2 only bars witnesses and their relatives from receiving gifts under the will",
+     "Implies the son could act as witness if he were not an heir"
+    ],
+    "missing": [
+     "Descendants are excluded (Art. 503 al. 1 CC)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [
+     "Attributes the exclusion to Art. 500/501 CC instead of Art. 503 CC (wrong source; the rule itself is correct)"
+    ],
+    "missing": [
+     "Siblings and the spouses of relatives are also excluded",
+     "Witnesses and their relatives cannot benefit under the will (Art. 503 al. 2)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H035",
+   "A": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "The request to maintain the permit must be filed before the 6-month period expires (Art. 79 OASA)",
+     "Declaring departure ends the permit (Art. 61 al. 1 let. a LEI). The statement that the permit does not lapse merely because of a departure is imprecise",
+     "Short visits to Switzerland do not interrupt the 6-month period"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Advises declaring departure to the OCPM to avoid automatic lapse after six months. Under Art. 61 al. 1 let. a LEI, declaring departure itself ends the permit unless maintenance is requested"
+    ],
+    "missing": [
+     "The request must be filed before the 6-month period expires (Art. 79 OASA)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H036",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says the matrimonial regime is liquidated by the child/adult protection authority (KESB). On divorce the divorce court is competent",
+     "Cites a Valais child/adult protection forum rule as the competent authority"
+    ],
+    "missing": [
+     "Default regime is participation in acquired property (Art. 181 CC)",
+     "Earnings from work are acquired property (Art. 197 CC)",
+     "Own property such as inheritances is not shared"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Default regime is participation in acquired property (Art. 181 CC) and earnings are acquired property (Art. 197 CC) not explicitly stated",
+     "Own property is not shared"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H037",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Names the cantonal child protection authorities as competent for adoption in Fribourg. Adoption is handled by a dedicated cantonal adoption authority, not the child protection authority (justice de paix)"
+    ],
+    "missing": [
+     "General conditions such as one year of care (Art. 264 CC)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "General conditions such as one year of care (Art. 264 CC)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H038",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says federal law sets two years in the canton including the year before the application. Federal law (Art. 18 LN) only sets a 2-5 year range; the two years are cantonal (Art. 12 LDCV)",
+     "Says the communal one-year requirement would add further delay. That year is not additional, and with 18 months in Yverdon it is already met"
+    ],
+    "missing": [
+     "Federal conditions are already met (C permit, 10 years)",
+     "About 6 months left to wait; years in Zurich do not count"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [
+     "Imprecisely presents the federal 2-5 year range as an additional requirement on top of the cantonal two years"
+    ],
+    "missing": [
+     "Federal conditions are already met",
+     "About 6 months left to wait; years in Zurich do not count; the communal year is already met"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H039",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Treats the return to the maiden name as a name-change application (authenticated signature, supporting justification, decision by the office). Under Art. 119 CC a simple declaration to the civil registrar is enough, with no name-change procedure"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "The new married name is kept by default unless the declaration is made"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H040",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "5 years of residence in Ticino (Art. 12 LCCit)",
+     "3 years in the commune, the last 2 uninterrupted (Art. 13 LCCit)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [
+     "The short answer gives the vague federal 2-5 year range instead of the 5 years Ticino requires, which conflicts with the body"
+    ],
+    "missing": [
+     "3 years in the commune, the last 2 uninterrupted (Art. 13 LCCit)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H041",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Sole custodian only has to inform the other parent in good time (only alluded to)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Claims a move within Switzerland never needs consent; Art. 301a para. 2 lit. b ZGB requires consent or a court/KESB decision where the move significantly affects the other parent's parental responsibility and contact"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H042",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "From age 16 the declaration can be made without consent (implied only)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Relies on name-change rules (BS EG ZGB § 6) and Art. 43 ZGB; gender change is a declaration to the civil registrar under Art. 30b ZGB",
+     "Wrong authority: the civil registrar, not the cantonal department",
+     "The relevant condition is consent of the legal representative under age 16, not comprehensive guardianship"
+    ],
+    "missing": [
+     "Art. 30b para. 4: consent required under 16",
+     "Simple declaration at the civil registry office"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H043",
+   "A": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Simple property damage is an offence prosecuted only on complaint (Art. 144 para. 1 StGB)",
+     "Übertretungsstrafbehörde as a third filing authority"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Art. 144 StGB offence prosecuted only on complaint",
+     "Art. 304 StPO not cited"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H044",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says cycling on the pavement is forbidden; Art. 41 para. 4 VRV allows children up to 12 to cycle on pavements when there is no cycle path or lane",
+     "Points to Art. 46 SVG / Art. 47 SSV as the prohibiting rules, which is wrong"
+    ],
+    "missing": [
+     "Exception for children up to 12",
+     "Pedestrians have priority"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Does not state the age limit of 12 explicitly in the short answer"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H045",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Cites the ban as Art. 5 Abs. 1 Bst. c Ziff. 1 WG; the correct provision is Art. 5 Abs. 2 Bst. a WG"
+    ],
+    "missing": [
+     "Size threshold: over 12 cm opened and blade over 5 cm (Art. 7 WV)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Claims possession (Besitz) of butterfly knives is banned; Art. 5 Abs. 2 WG / Art. 13a WV ban transfer, acquisition, brokering and import, not possession",
+     "Claims carrying is not allowed without a permit, a claim that is not supported"
+    ],
+    "missing": [
+     "Size threshold of 12 cm and 5 cm"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H046",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Presents a 10-year retention duty under Art. 957-958f OR as applying to every taxpayer; Art. 126 Abs. 3 DBG applies it only to the self-employed and legal persons"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Claims the St. Gallen tax law has no donation-deduction provision; cantonal law must provide one (StHG Art. 9 Abs. 2 lit. i)",
+     "Mentions only cash donations, although other assets are also deductible"
+    ],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H047",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "States that the police removal order is limited to a maximum of three months; police protective measures last 14 days from notification (§ 3 Abs. 3 GSG ZH), and three months is the cap for court-extended measures"
+    ],
+    "missing": [
+     "14-day duration"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "14 days run from notification to the person removed",
+     "§ 3 Abs. 3 GSG not cited"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H048",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Gear limits: one rod, barbless single hook, natural bait, no bait fish (§ 14 SRL 724b)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says a licence is mandatory; § 18 FiG LU allows fishing with a simple rod from public banks without a permit or fee",
+     "Relies on the Lake Constance (Bodensee) ordinance, which does not apply to Lake Lucerne"
+    ],
+    "missing": [
+     "Free angling from the bank under § 18 FiG LU"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H049",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says the opposition must be reasoned; the accused does not have to give reasons (Art. 354 al. 2 CPP)"
+    ],
+    "missing": [
+     "Without a valid opposition the order becomes a final judgment"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "The accused does not have to give reasons",
+     "Effect of no opposition"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H051",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Asserts that Vaud cantonal law sets no seasonal period and leaves it to the communes; Art. 7b al. 3 RLFaune VD requires a leash in forests from 1 April to 15 July"
+    ],
+    "missing": [
+     "1 April to 15 July period",
+     "Leash at all times in pastures occupied by livestock"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "1 April to 15 July rule (Art. 7b RLFaune VD)",
+     "Leash at all times in pastures occupied by livestock"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H052",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "States cantonal law prevails over federal law under Art. 49 Cst. (inverted: federal law prevails)",
+     "Says to file a request with the cantonal tax administration; the FR vehicle tax is handled by the OCN, not the tax administration"
+    ],
+    "missing": [
+     "Additional cumulative 30% reduction for energy label A is not clearly stated (only muddled in next steps)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Calls it a 'cantonal and communal' vehicle tax; LIVAR is a cantonal tax",
+     "Names the Administration cantonale des finances as competent; it is the OCN"
+    ],
+    "missing": [
+     "Additional cumulative 30% reduction for energy label A not stated"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H057",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Nachtruhe 23.00-06.00 (Art. 12 Abs. 1 OPR Thun)",
+     "Innenstadt weekend exception does not apply on weekdays"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Nachtruhe 23.00-06.00 (Art. 12 Abs. 1 OPR Thun)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H058",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Noisy fireworks banned in Volketswil since 1 May 2026 (Art. 13 PolV), no New Year exception, only exceptional permit"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Treats LSV Art. 40 (limits for fixed installations) as directly governing private fireworks; LSV does not apply to fireworks"
+    ],
+    "missing": [
+     "Noisy fireworks banned since 1 May 2026 (Art. 13 PolV Volketswil), exception only by permit"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H059",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says firecrackers are prohibited on public rest days/holidays under SG Ruhetagsgesetz; in fact Gossau Polizeireglement Art. 11 allows firecrackers precisely on 31 July/1 August, New Year's Eve/New Year and during Fasnacht and bans them otherwise"
+    ],
+    "missing": [
+     "Allowed days: 31.7/1.8, Silvester/Neujahr, Fasnachtszeit (Art. 11 PolR Gossau)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Claims larger fireworks require an environmental impact assessment (UVP) under USG Art. 10a; UVP applies to installations, not fireworks"
+    ],
+    "missing": [
+     "Allowed days: 31.7/1.8, Silvester/Neujahr, Fasnachtszeit (Art. 11 PolR Gossau)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H060",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Weekday/Saturday permitted times not given (not strictly needed)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H061",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Asserts that neither cantonal nor communal law sets times for Saturday mowing; Binningen Polizeireglement § 4 Abs. 2 sets Saturday 08-12 and 13-18"
+    ],
+    "missing": [
+     "Saturday 08.00-12.00 and 13.00-18.00 (§ 4 Abs. 2 PolR Binningen)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Saturday 08.00-12.00 and 13.00-18.00 (§ 4 Abs. 2 PolR Binningen)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H062",
+   "A": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Current Regionalpolizei Wettingen-Limmattal Polizeireglement Art. 9 (since 1.1.2026) not cited",
+     "LRV Art. 26b not mentioned"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Regional Polizeireglement Art. 9 (since 1.1.2026) not cited"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H063",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Max 25 kg per piece/bundle (Art. 15 Abs. 2 Abfallreglement Bezirk Einsiedeln)",
+     "6 Gebührenmarken at CHF 1.80"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "States that no relevant cantonal or communal rules exist; the Bezirk Einsiedeln Abfallreglement regulates it"
+    ],
+    "missing": [
+     "Max 25 kg; 6 Gebührenmarken at CHF 1.80"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H064",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 70 per dog older than 3 months, CHF 35 farm guard dogs, reference date 31 March (Art. 2 Hundereglement Risch)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 70 per dog per year, CHF 35 farm guard dogs (Art. 2 Hundereglement Risch)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H065",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says the tax for an ordinary dog in Le Locle is CHF 30; it is CHF 120 incl. the State's share (art. 1 arrete communal); CHF 30 is only the State's share"
+    ],
+    "missing": [
+     "CHF 120 per dog per year as the standard rate"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says the Confederation receives the CHF 30 share; it is the canton (State of Neuchatel)"
+    ],
+    "missing": [
+     "Exact Le Locle rate CHF 120 (equals the cap) and CHF 60 for one farmer's dog"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H066",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H067",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says the communal rule prevails over federal law; the opposite is true (art. 49 Cst.: federal law prevails)"
+    ],
+    "missing": [
+     "Rule that compostable waste must not be burned (art. 31 al. 4)"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H068",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Gives 20h00 from the former Charrat regulation; Martigny police regulation art. 19 bans motorised machines from 21h00 to 07h00",
+     "Wording suggests mowing is allowed on Sundays and holidays before 20h00; it is banned all day on those days"
+    ],
+    "missing": [
+     "Correct 21h00 start time under the Martigny regulation"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Gives 20h00 from the former Charrat regulation; Martigny police regulation art. 19 bans motorised machines from 21h00 to 07h00"
+    ],
+    "missing": [
+     "Correct 21h00 start time under the Martigny regulation"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H069",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Presents the ACR law's cap of CHF 180/t (art. 24) as the cantonal limit within which the commune sets bag prices; that cap is the ACR disposal fee, not the limit on bag fees"
+    ],
+    "missing": [
+     "Annual base fee (CHF 67.50/90.00 + VAT)",
+     "Prices of the other bag sizes"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Annual base fee (CHF 67.50/90.00 + VAT)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H070",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Saturday hours 09.00-12.00 and 13.30-18.00 (art. 6 cpv. 2 of the Brissago ordinance)",
+     "Sunday and holiday ban"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Saturday hours 09.00-12.00 and 13.30-18.00 (art. 6 cpv. 2 of the Brissago ordinance)",
+     "Sunday and holiday ban"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H071",
+   "A": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Holder also pays the CHF 30 cantonal contribution, CHF 160 in total",
+     "One-off registration fee of CHF 20/40",
+     "Course reduction and exemptions under the city rules"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says the levy is CHF 200; the city levy is CHF 130 plus the CHF 30 cantonal contribution (AS 554.510 Art. 2)",
+     "Says the city has no communal rules; the city's Vollzugsvorschriften set the amount",
+     "Says cantonal law prevails over federal law (art. 49 BV is the opposite)",
+     "Sends the holder to the cantonal Veterinäramt for payment; the commune collects the levy"
+    ],
+    "missing": [
+     "Correct amount CHF 130 + CHF 30"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H072",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "119% of the simple state tax, set by the Gemeinderat budget decision of 11.12.2025"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "119% of the simple state tax, set by the Gemeinderat budget decision of 11.12.2025"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H073",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Short answer and next steps say 23:00 applies on Saturdays and Sundays; APV Art. 19 says Fridays and Saturdays",
+     "Gives a non-emergency number (058 648 81 11) and attributes it to the police ordinance, which does not contain it"
+    ],
+    "missing": [
+     "Standard 22:00 rule outside summer Friday/Saturday nights"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Misreads ZH 822.4 § 1 as treating Saturdays that coincide with holidays as Sundays",
+     "Says no source gives the time; APV Art. 19 (23:00 on summer-time Fridays and Saturdays) governs"
+    ],
+    "missing": [
+     "23:00 start time under APV Art. 19 Abs. 1"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H074",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Communal tax of CHF 90 per dog (CHF 20 for guard dogs) under the 2025-2029 arrêté d'imposition",
+     "Exemptions"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says the communal arrêté prevails over federal law; federal law prevails (art. 49 Cst.)"
+    ],
+    "missing": [
+     "Communal tax of CHF 90 per dog (CHF 20 for guard dogs) under the 2025-2029 arrêté d'imposition"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H075",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Lausanne communal coefficient of 78.5% (arrêté d'imposition 2025-2029, chiffre I)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Suggests Lausanne levies no extra communal coefficient; it levies 78.5% of the cantonal base tax"
+    ],
+    "missing": [
+     "Lausanne communal coefficient of 78.5% (arrêté d'imposition 2025-2029, chiffre I)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H076",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 20 online (Recueil lausannois 110.1 art. 1 let. d)",
+     "CHF 25 at the counter, CHF 30 + CHF 5 postage by post or e-mail"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 20 online (Recueil lausannois 110.1 art. 1 let. d)",
+     "Counter and postal tariffs"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H077",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 3'000 HT for at least 20 years, plus CHF 150 per extra year (Annex let. D)",
+     "Renewal CHF 750 per 5 years; no perpetual concession"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 3'000 HT for at least 20 years, plus CHF 150 per extra year (Annex let. D)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H078",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "The 'Articulation' section says the CC requires cohabiting heirs to bear a month of housing and food costs. Art. 606 CC is the reverse: those heirs may require the estate to bear those costs."
+    ],
+    "missing": [
+     "Art. 15 list of covered services (free cover is limited to that list)",
+     "Condition that the Service des pompes funèbres provides the services within the city territory"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H079",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Applies Riehen's rates (CHF 150 / 300, total CHF 450) to the City of Basel. Basel pays CHF 160 per dog, double for the second dog (Hundegesetz BS § 5 Abs. 4 and 7)."
+    ],
+    "missing": [
+     "CHF 160 + CHF 320 = CHF 480 per year"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says CHF 320 total (CHF 160 per dog). § 5 Abs. 7 doubles the tax for the second dog, so the total is CHF 160 + CHF 320 = CHF 480."
+    ],
+    "missing": [
+     "Correct total of CHF 480"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H080",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says vehicle length does not affect the price. Since 2025, fees are tiered by length (VO Parkraumbewirtschaftung § 3 Abs. 2, § 20): a 4.5 m car is medium, Fr. 33.50 per month.",
+     "Treats Riehen's ordinance (RiE 725.100, Einwohnerrat) as Basel's. Basel's fees are set by cantonal ordinance SG 952.560."
+    ],
+    "missing": [
+     "Fr. 33.50 per month (about Fr. 402 per year) for a medium car, plus Fr. 20 processing fee"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says an 'Einwohnerrat der Gemeinde Basel' sets the fee, based on Riehen's ordinance. Basel's fees are set by cantonal ordinance SG 952.560 § 20."
+    ],
+    "missing": [
+     "Fr. 33.50 per month for a medium car (3.90-4.90 m), plus Fr. 20 processing fee"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H081",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Gives CHF 20, which is the communal share of the fee for a settlement permit (Niederlassungsbewilligung), not a naturalisation fee. The city fee for a married couple is Fr. 600 per application (GebR Anhang III Ziff. 4.5.3)."
+    ],
+    "missing": [
+     "Fr. 600 per application for a married couple"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Fr. 600 per application for a married couple (GebR Anhang III Ziff. 4.5.3)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H082",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Fr. 264 per year, or Fr. 22 per month with a 3-month minimum (GebR Anhang III Ziff. 4.9.1)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Says validity can be shortened to 'maximal drei Monate'. PKV Art. 6 makes three months the minimum (shortest) validity, not the maximum."
+    ],
+    "missing": [
+     "Fr. 264 per year"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H083",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "49% of the cantonal rate for 2026, with a 3% rebate (effective 47.53%)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "49% of the cantonal rate for 2026, with a 3% rebate (effective 47.53%)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H084",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 120 for the first dog + CHF 240 for the second = CHF 360 per year"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 120 for the first dog + CHF 240 for the second = CHF 360 per year"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H085",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 10, plus a CHF 5 surcharge for postal delivery with invoice"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 10, plus a CHF 5 surcharge for postal delivery with invoice"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H086",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Steuerfuss 2026 of 4.1 units",
+     "Set by the Einwohnerrat with the 2026 budget"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Steuerfuss 2026 of 4.1 units",
+     "Competent body (Einwohnerrat with budget)",
+     "Any useful next step"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H087",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Steuerfuss 2026 of 2.35 units",
+     "Set by the Herbst-Gemeindeversammlung of 26.11.2025"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says Art. 49 BV makes cantonal law prevail over communal law; Art. 49 BV concerns federal over cantonal law"
+    ],
+    "missing": [
+     "Steuerfuss 2026 of 2.35 units"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H088",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 720 per year or CHF 60 per month (Art. 6 Gebührenreglement Parkkarten, Bezirk Einsiedeln)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 720 per year or CHF 60 per month (Art. 6 Gebührenreglement Parkkarten)",
+     "Bezirk Einsiedeln as competent authority"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H089",
+   "A": {
+    "score": 2,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Olten communal rate CHF 130, total CHF 165",
+     "Billing in April, payable within 30 days"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Presents the annual dog tax as CHF 50-200 total, leaving out the cantonal CHF 35 (§ 11 Abs. 1 Hundegesetz SO)"
+    ],
+    "missing": [
+     "Cantonal tax CHF 35",
+     "Olten rate CHF 130, total CHF 165"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H090",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "EBZ annual resident permit CHF 400 (monthly CHF 35), valid only in own sector"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "EBZ annual resident permit CHF 400 (monthly CHF 35), valid only in own sector"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H091",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Mowing banned 20.00-07.00 and 12.00-13.00 (Art. 8 Polizeireglement Repol Wettingen-Limmattal)",
+     "Banned on Sundays and holidays"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Mowing banned 20.00-07.00 and 12.00-13.00 (Art. 8 Polizeireglement)",
+     "Banned on Sundays and holidays"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H092",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "States Horw charges no additional surcharge; Horw charges CHF 600 for earth burial of non-residents plus all related costs (Gebührenverordnung Nr. 391 Art. 8 Abs. 1 lit. f)"
+    ],
+    "missing": [
+     "CHF 600 surcharge plus burial costs"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 600 surcharge plus burial costs (Gebührenverordnung Horw Art. 8)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H093",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "60-litre bag CHF 4.00 incl. VAT, max 10 kg (Gebührenblatt 2026)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "60-litre bag CHF 4.00 incl. VAT, max 10 kg (Gebührenblatt 2026)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H094",
+   "A": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Possible doubling for extra effort (§ 4), external experts billed separately (§ 5)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Says under Art. 49 BV the communal rule prevails; Art. 49 BV establishes the primacy of federal law over cantonal law"
+    ],
+    "missing": [
+     "Possible doubling for extra effort (§ 4)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H095",
+   "A": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Claims the Ordinanza tasse d'uso 2026 sets no per-person annual base fee; it does (cifra 1.1 lett. a: persona sola fr. 72 plus IVA)",
+     "Claims no reduction based on household size; the base fee varies by household size and has a fr. 30 reduction per child under 3"
+    ],
+    "missing": [
+     "Base fee fr. 72 plus IVA for a single person"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": true,
+    "errors": [
+     "Says Art. 49 BV establishes primacy of cantonal over communal law; Art. 49 BV concerns federal over cantonal law"
+    ],
+    "missing": [
+     "Base fee fr. 72 plus IVA for a single person (Ordinanza 640.11 cifra 1.1)"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H096",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Communal amount CHF 90 per dog (Tenero-Contra ordinance art. 1)",
+     "Cantonal range 75-125 CHF",
+     "Payment within 30 days"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Exact communal amount CHF 90 (ordinance art. 1, in force 1.1.2026)",
+     "Payment within 30 days of notification"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H097",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Fr. 300/year for natural persons (Ordinanza 5.1.01.04 art. 8 cpv. 1)",
+     "Fr. 540 for legal persons",
+     "Supplement for cantonal connection tax; request to Polizia comunale"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Applies the cantonal law on parking in the cantonal Administration (TI 173.600 art. 12) as if it governed public-use parking fees in Mendrisio; the communal ordinance 5.1.01.04 fixes Fr. 300/540"
+    ],
+    "missing": [
+     "Fr. 300/year for natural persons",
+     "Fr. 540 for legal persons",
+     "Competent authority: Polizia comunale"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H098",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Saturday 09.00-12.00 and 13.00-19.00 (Ordinanza 1.7 art. 6 cpv. 2)",
+     "Sunday/holiday ban"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Saturday 09.00-12.00 and 13.00-19.00 (Ordinanza 1.7 art. 6 cpv. 2)",
+     "Sunday/holiday ban"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H099",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "States CHF 150/year; the Moudon directive (let. B) sets CHF 90/year TVA incl. for residents 25+"
+    ],
+    "missing": [
+     "18-25 rate CHF 60",
+     "Children exempt"
+    ],
+    "governing_source_cited": true,
+    "padding": true
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Bag tax in addition (minor)"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H100",
+   "A": {
+    "score": 2,
+    "factual_error": true,
+    "errors": [
+     "Next steps say the fixed fee is paid at filing; the emolument is exigible on delivery of the permit (art. 8)",
+     "Says the owner chooses a specialist validated by the Municipality; the Municipality chooses the specialist"
+    ],
+    "missing": [
+     "Permit extension CHF 260",
+     "Enquiry costs at cost price"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "B": {
+    "score": 3,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Exigible on delivery of permit (art. 8)",
+     "Extension CHF 260"
+    ],
+    "governing_source_cited": true,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H101",
+   "A": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Coefficient 2026 = 1.30",
+     "Indexation 156 %",
+     "Legal range 1.0-1.5"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Frames the question as cantonal wealth tax rates and a 'coefficient communal sur la fortune'; the Valais coefficient (art. 178/179 LF, set by the conseil municipal, art. 232 LF) applies to income and wealth, Nendaz 2026 = 1.30"
+    ],
+    "missing": [
+     "Coefficient 1.30",
+     "Competent authority conseil municipal"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H102",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Treats the taxe non-pompier as a tourist tax (taxe de séjour, FR 951.16); it is the fire-service exemption tax: Fr. 150/person/year, residents from year of 21 to year of 40"
+    ],
+    "missing": [
+     "Fr. 150",
+     "Liable persons aged 21-40, any nationality",
+     "Exemptions"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Equates taxe non-pompier with taxe de séjour; real rule: Fr. 150/person/year, domiciled persons from year of 21 to year of 40"
+    ],
+    "missing": [
+     "Fr. 150",
+     "Liable persons aged 21-40",
+     "Exemptions"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H103",
+   "A": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "States the income tax coefficient is 25 % taken from the plus-value (added-value) tax regulation; actual coefficient for natural persons is 63.90 % of cantonal tax"
+    ],
+    "missing": [
+     "63.90 % for natural persons",
+     "69 % for legal persons"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 1,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "63.90 % for natural persons",
+     "69 % for legal persons"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "B",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H104",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Urn burial tax CHF 150 (Budget 2026 ch. 3.2.4)",
+     "Concession tax CHF 400"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "Urn burial tax CHF 150 (Budget 2026 ch. 3.2.4)",
+     "Concession tax CHF 400"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "better": "tie",
+   "verified_online": false,
+   "vote": 0
+  },
+  {
+   "id": "H105",
+   "A": {
+    "score": 0,
+    "factual_error": false,
+    "errors": [],
+    "missing": [
+     "CHF 10 per day",
+     "Paying 7h00-12h00 and 13h30-19h00 every day (Ordonnance sur les tarifs de stationnement art. 3)"
+    ],
+    "governing_source_cited": false,
+    "padding": false
+   },
+   "B": {
+    "score": 0,
+    "factual_error": true,
+    "errors": [
+     "Directs user to the cantonal Office des immeubles et des constructions; BE 761.612.1 concerns parking places of the cantonal administration, not communal public parking at the Place de la Gare, which is governed by the communal tariff ordinance"
+    ],
+    "missing": [
+     "CHF 10 per day",
+     "Paying hours 7h00-12h00 and 13h30-19h00 daily"
+    ],
+    "governing_source_cited": false,
+    "padding": true
+   },
+   "better": "A",
+   "verified_online": false,
+   "vote": 0
+  }
+ ],
+ "adjudicated": [],
+ "missing": []
+}
