@@ -454,7 +454,10 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             stems_q = list(dict.fromkeys(_title_stem(w) for w in words))[:4]
             search_terms = [t for st in stems_q for t in (f"{st}*", f"*{st}*")]
             # Apertus-written queries first: likely act titles of this canton + title stems.
-            ai_queries = lexfind_queries.result(timeout=30) if lexfind_queries else []
+            try:
+                ai_queries = lexfind_queries.result(timeout=60) if lexfind_queries else []
+            except Exception:  # a slow query writer used to drop the whole cantonal level; stems still work
+                ai_queries = []
             search_terms = list(dict.fromkeys(ai_queries + search_terms))[:12]
             tols, seen = [], set()
             for found in sources.parallel(lambda term: sources.lexfind_search(term, canton, can_lang, limit=15), search_terms):
@@ -562,9 +565,9 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
     yield step("draft", "Apertus drafts a cited answer")
     try:
         text, repaired = write()
-    except apertus.ApertusError as e:
+    except Exception as e:
         yield step("draft", "Apertus unavailable — sources only", "warn")
-        yield {"type": "error", "message": str(e)}
+        yield {"type": "error", "message": str(e) or type(e).__name__}
         return
     det = checks.check(text, evidence)
     yield step("draft", f"Draft: {det['words']} words, {det['citations']} citations", "done")
@@ -606,9 +609,11 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             label = (f"{checked}, {rounds[-1]['issues']} issue(s), {len(added)} source(s) added → revised" if revised
                      else f"{checked}, all supported")
             yield step(key, f"Verification {r}/{VERIFY_ROUNDS}: {label}", "done")
-        except apertus.ApertusError as e:
-            rounds.append({"round": r, "issues": 0, "added": [], "revised": False, "error": str(e)})
-            yield step(key, f"Verification {r}/{VERIFY_ROUNDS} skipped: {str(e)[:80]}", "warn")
+        except Exception as e:
+            # Any failure (API, malformed verifier JSON, Fedlex) skips this round; the current text is kept.
+            msg = str(e) or type(e).__name__
+            rounds.append({"round": r, "issues": 0, "added": [], "revised": False, "error": msg[:200]})
+            yield step(key, f"Verification {r}/{VERIFY_ROUNDS} skipped: {msg[:80]}", "warn")
 
     if h[6].rstrip(".") not in text:
         text = text.rstrip() + f"\n\n*{h[6]}*"
@@ -618,5 +623,8 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
 
 
 def sse(events):
-    for ev in events:
-        yield f"data: {json.dumps(ev, ensure_ascii=False)}\n\n"
+    try:
+        for ev in events:
+            yield f"data: {json.dumps(ev, ensure_ascii=False)}\n\n"
+    except Exception as e:  # never end the stream silently: the UI would show an empty "finished" answer
+        yield f"data: {json.dumps({'type': 'error', 'message': f'Internal error: {type(e).__name__}'})}\n\n"

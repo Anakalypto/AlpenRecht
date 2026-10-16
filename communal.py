@@ -78,7 +78,9 @@ def website(bfs):
     global _SITES
     if _SITES is None:
         path = config.ROOT / "data" / "communes.json"
-        _SITES = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        # 33 keys are zero-padded ("0198" Uster) while swisstopo BFS numbers aren't: normalise both sides.
+        _SITES = {str(int(k)) if k.isdigit() else k: v for k, v in
+                  (json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}).items()}
     if str(bfs) in _SITES:
         return _SITES[str(bfs)]
     q = f'SELECT ?site WHERE {{ ?item wdt:P771 "{int(bfs)}" ; wdt:P856 ?site . }}'

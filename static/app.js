@@ -29,7 +29,7 @@ const T = {
     no_key: "Apertus ist nicht verbunden.", no_key_hint: "Die Quellen wurden trotzdem live abgerufen. Tragen Sie APERTUS_API_KEY in alpenrecht/.env ein.",
     unsupported: "Nicht durch die Quellen belegt: ", failed: "Fehler", provisions: "Bestimmungen", version: "Fassung",
     steps: { loc: "Ort bestimmen", plan: "Suche planen", fed: "Bundesrecht · Fedlex", can: "Kantonsrecht · LexFind", com: "Gemeinderecht", answer: "Antwort verfassen", draft: "Entwurf verfassen" },
-    verify_step: "Prüfung", verified: "geprüft", claims: "Aussagen", corrections: "Korrektur(en)", sources_added: "Quelle(n) ergänzt", added_tag: "ergänzt", checking: "Prüfe Antwort an den Quellen…", clean: "keine Beanstandung",
+    verify_step: "Prüfung", verified: "geprüft", claims: "Aussagen", corrections: "Korrektur(en)", sources_added: "Quelle(n) ergänzt", added_tag: "ergänzt", checking: "Prüfe Antwort an den Quellen…", clean: "keine Beanstandung", skipped: "übersprungen",
     topic_list: [
       ["home", "Wohnen & Miete", "Wie lange ist die Kündigungsfrist für meine Mietwohnung?", "f"],
       ["build", "Bauen", "Brauche ich eine Baubewilligung für eine Solaranlage auf dem Dach?", "fcg"],
@@ -58,7 +58,7 @@ const T = {
     no_key: "Apertus n’est pas connecté.", no_key_hint: "Les sources ont tout de même été récupérées. Ajoutez APERTUS_API_KEY dans alpenrecht/.env.",
     unsupported: "Non étayé par les sources : ", failed: "Erreur", provisions: "dispositions", version: "version",
     steps: { loc: "Localisation", plan: "Plan de recherche", fed: "Droit fédéral · Fedlex", can: "Droit cantonal · LexFind", com: "Droit communal", answer: "Rédaction", draft: "Rédaction du brouillon" },
-    verify_step: "Vérification", verified: "vérifié", claims: "affirmations", corrections: "correction(s)", sources_added: "source(s) ajoutée(s)", added_tag: "ajoutée", checking: "Vérification de la réponse…", clean: "aucun problème",
+    verify_step: "Vérification", verified: "vérifié", claims: "affirmations", corrections: "correction(s)", sources_added: "source(s) ajoutée(s)", added_tag: "ajoutée", checking: "Vérification de la réponse…", clean: "aucun problème", skipped: "non effectuée",
     topic_list: [
       ["home", "Logement & bail", "Quel est le délai de résiliation de mon bail d’appartement ?", "f"],
       ["build", "Construire", "Faut-il un permis de construire pour des panneaux solaires sur le toit ?", "fcg"],
@@ -87,7 +87,7 @@ const T = {
     no_key: "Apertus non è collegato.", no_key_hint: "Le fonti sono state comunque recuperate. Aggiunga APERTUS_API_KEY in alpenrecht/.env.",
     unsupported: "Non supportato dalle fonti: ", failed: "Errore", provisions: "disposizioni", version: "versione",
     steps: { loc: "Localizzazione", plan: "Piano di ricerca", fed: "Diritto federale · Fedlex", can: "Diritto cantonale · LexFind", com: "Diritto comunale", answer: "Redazione", draft: "Stesura della bozza" },
-    verify_step: "Verifica", verified: "verificato", claims: "affermazioni", corrections: "correzione/i", sources_added: "fonte/i aggiunta/e", added_tag: "aggiunta", checking: "Verifica della risposta…", clean: "nessun problema",
+    verify_step: "Verifica", verified: "verificato", claims: "affermazioni", corrections: "correzione/i", sources_added: "fonte/i aggiunta/e", added_tag: "aggiunta", checking: "Verifica della risposta…", clean: "nessun problema", skipped: "non eseguita",
     topic_list: [
       ["home", "Abitare & affitto", "Qual è il termine di disdetta del mio appartamento in affitto?", "f"],
       ["build", "Costruire", "Serve una licenza edilizia per pannelli solari sul tetto?", "fcg"],
@@ -116,7 +116,7 @@ const T = {
     no_key: "Apertus n’è betg collià.", no_key_hint: "Las funtaunas èn tuttina vegnidas chargiadas. Agiuntai APERTUS_API_KEY en alpenrecht/.env.",
     unsupported: "Betg cumprovà da las funtaunas: ", failed: "Errur", provisions: "disposiziuns", version: "versiun",
     steps: { loc: "Lieu", plan: "Planisar", fed: "Dretg federal · Fedlex", can: "Dretg chantunal · LexFind", com: "Dretg communal", answer: "Scriver la resposta", draft: "Sbozz" },
-    verify_step: "Controlla", verified: "controllà", claims: "affirmaziuns", corrections: "correctura(s)", sources_added: "funtauna(s) agiuntada(s)", added_tag: "agiuntà", checking: "Controllar la resposta…", clean: "nagins problems",
+    verify_step: "Controlla", verified: "controllà", claims: "affirmaziuns", corrections: "correctura(s)", sources_added: "funtauna(s) agiuntada(s)", added_tag: "agiuntà", checking: "Controllar la resposta…", clean: "nagins problems", skipped: "betg fatg",
     topic_list: [
       ["home", "Abitar & fittar", "Tge è il termin da disditga per mia abitaziun?", "f"],
       ["build", "Construir", "Dovrel jau ina permissiun da construcziun per in implant solar?", "fcg"],
@@ -145,7 +145,7 @@ const T = {
     no_key: "Apertus is not connected.", no_key_hint: "The sources were still fetched live. Add APERTUS_API_KEY to alpenrecht/.env.",
     unsupported: "Not backed by the sources: ", failed: "Error", provisions: "provisions", version: "version",
     steps: { loc: "Locating", plan: "Planning the search", fed: "Federal law · Fedlex", can: "Cantonal law · LexFind", com: "Communal law", answer: "Writing the answer", draft: "Drafting" },
-    verify_step: "Verification", verified: "verified", claims: "claims", corrections: "correction(s)", sources_added: "source(s) added", added_tag: "added", checking: "Checking the answer against the sources…", clean: "no issues",
+    verify_step: "Verification", verified: "verified", claims: "claims", corrections: "correction(s)", sources_added: "source(s) added", added_tag: "added", checking: "Checking the answer against the sources…", clean: "no issues", skipped: "skipped",
     topic_list: [
       ["home", "Housing & rent", "What is the notice period for my rented flat?", "f"],
       ["build", "Building", "Do I need a building permit for rooftop solar panels?", "fcg"],
@@ -622,11 +622,15 @@ function verificationBadge(turn) {
   const claims = v.reduce((n, r) => n + (r.claims || 0), 0);
   const revised = v.filter((r) => r.revised).length;
   const added = v.reduce((n, r) => n + (r.added || []).length, 0);
-  const rows = v.map((r) => `<li><b>${esc(t("verify_step"))} ${r.round}/3</b> · ${r.claims || 0} ${esc(t("claims"))}`
-    + (r.revised ? ` · ${r.issues} → ${esc(t("corrections"))}` : ` · ${esc(t("clean"))}`)
+  // A round that errored or whose report was unreadable checked nothing: never show it as "no issues".
+  const failed = (r) => r.error || r.unreadable;
+  const done = v.filter((r) => !failed(r)).length;
+  const rows = v.map((r) => `<li><b>${esc(t("verify_step"))} ${r.round}/${v.length}</b> · `
+    + (failed(r) ? esc(t("skipped"))
+      : `${r.claims || 0} ${esc(t("claims"))}` + (r.revised ? ` · ${r.issues} → ${esc(t("corrections"))}` : ` · ${esc(t("clean"))}`))
     + (r.added && r.added.length ? ` · + ${esc(r.added.join(", "))}` : "")
     + (r.notes && r.notes.length ? `<br><small>${r.notes.map(esc).join("<br>")}</small>` : "") + "</li>").join("");
-  return `<details class="verified"><summary><span class="vcheck">✓</span> ${v.length}× ${esc(t("verified"))} · ${claims} ${esc(t("claims"))}`
+  return `<details class="verified"><summary><span class="vcheck">${done ? "✓" : "!"}</span> ${done}× ${esc(t("verified"))} · ${claims} ${esc(t("claims"))}`
     + ` · ${revised} ${esc(t("corrections"))} · ${added} ${esc(t("sources_added"))}</summary><ol>${rows}</ol></details>`;
 }
 
