@@ -1,0 +1,39 @@
+### Apertus-v1.5-70B-v5
+
+| metric | value |
+|---|---|
+| planner JSON ok | 100% (14/14) |
+| federal act retrieved | 100% (10/10) |
+| federal gold article retrieved | 90% (9/10) |
+| cantonal act retrieved | 100% (5/5) |
+| cantonal gold article retrieved | 100% (5/5) |
+| answer cites a gold source | 93% (13/14) |
+| answers with an invalid [n] | 0% (0/14) |
+| answers with unsupported article no. | 14% (2/14) |
+| prose citations repaired / left (total) | 24 / 9 |
+| answer in right language | 100% (14/14) |
+| all headings present | 100% (14/14) |
+| disclaimer present | 100% (14/14) |
+| avg words (target < 230) | 239.1 |
+| avg citations | 10.9 |
+| avg plan time (s) | 3.6 |
+| avg time to first token (s) | 7.8 |
+| avg total time (s) | 14.8 |
+| errors | 0 |
+
+| id | lang | fed act/art | can act/art | gold cited | invalid | unsupported | words | ttft | total |
+|---|---|---|---|---|---|---|---|---|---|
+| rent-notice | de | ✓/✓ | –/– | ✓ | 0 | 0 | 178 | 14.8 | 20.1 |
+| rent-arrears | fr | ✓/✓ | –/– | ✓ | 0 | art. 266l, art. 34 | 371 | 17.1 | 28.8 |
+| solar-roof | fr | ✓/✓ | ✓/✓ | ✓ | 0 | art. 22 | 241 | 14.5 | 21.2 |
+| dog-leash-be | de | –/– | ✓/✓ | ✓ | 0 | 0 | 221 | 4.8 | 12.4 |
+| dog-register-zh | de | –/– | ✓/✓ | ✓ | 0 | 0 | 183 | 4.8 | 10.6 |
+| dog-ge | fr | –/– | ✓/✓ | ✓ | 0 | 0 | 257 | 7.2 | 13.0 |
+| dog-leash-ti | it | –/– | ✓/✓ | ✓ | 0 | 0 | 204 | 6.6 | 12.8 |
+| overtime | de | ✓/✓ | –/– | ✓ | 0 | 0 | 173 | 7.2 | 13.0 |
+| holidays | it | ✓/✓ | –/– | ✓ | 0 | 0 | 260 | 5.0 | 12.6 |
+| probation | fr | ✓/✓ | –/– | ✓ | 0 | 0 | 228 | 5.6 | 11.4 |
+| sick-dismissal | de | ✓/✓ | –/– | ✓ | 0 | 0 | 241 | 5.0 | 12.9 |
+| data-access | en | ✓/✓ | –/– | ✓ | 0 | 0 | 209 | 6.4 | 11.0 |
+| inheritance | fr | ✓/✗ | –/– | ✗ | 0 | 0 | 232 | 4.9 | 10.5 |
+| drunk-driving | it | ✓/✓ | –/– | ✓ | 0 | 0 | 349 | 5.1 | 16.8 |

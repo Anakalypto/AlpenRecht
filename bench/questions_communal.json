@@ -1,0 +1,23 @@
+[
+ {"id": "G01", "lang": "de", "loc": "7000 Chur", "q": "Ab wann gilt in Chur die Nachtruhe?", "com": ["Polizeigesetz der Stadt Chur"]},
+ {"id": "G02", "lang": "de", "loc": "7000 Chur", "q": "Darf ich mein Auto in Chur über Nacht auf öffentlichem Grund abstellen?", "com": ["nächtliche Dauerparkieren"]},
+ {"id": "G03", "lang": "de", "loc": "7000 Chur", "q": "Brauche ich in Chur eine Bewilligung für ein Reklameschild?", "com": ["Reklamereglement"]},
+ {"id": "G04", "lang": "de", "loc": "7000 Chur", "q": "Wie lange dauert die Grabesruhe auf dem Friedhof in Chur?", "com": ["Friedhofreglement", "Bestattungs- und Friedhofverordnung"]},
+ {"id": "G05", "lang": "de", "loc": "3063 Ittigen", "q": "Wie hoch ist die Hundetaxe in Ittigen?", "com": ["Hundetaxe"]},
+ {"id": "G06", "lang": "de", "loc": "3063 Ittigen", "q": "Wie werden in Ittigen die Abfallgebühren erhoben?", "com": ["Abfall"]},
+ {"id": "G07", "lang": "de", "loc": "3063 Ittigen", "q": "Brauche ich in Ittigen eine Parkkarte für die blaue Zone?", "com": ["Parkplatz"]},
+ {"id": "G08", "lang": "de", "loc": "8820 Wädenswil", "q": "Welche Lärmvorschriften gelten in Wädenswil?", "com": ["Polizeiverordnung"]},
+ {"id": "G09", "lang": "de", "loc": "8820 Wädenswil", "q": "Wie berechnet Wädenswil die Abfallgebühren?", "com": ["Abfallgebühr", "Abfallverordnung"]},
+ {"id": "G10", "lang": "de", "loc": "8820 Wädenswil", "q": "Wie lange bleiben Gräber in Wädenswil bestehen?", "com": ["Bestattungs- und Friedhof"]},
+ {"id": "G11", "lang": "de", "loc": "6020 Emmen", "q": "Welche Grenzabstände gelten in Emmen für Bauten?", "com": ["Bau- und Zonenreglement"]},
+ {"id": "G12", "lang": "fr", "loc": "1110 Morges", "q": "Quelles sont les règles contre le bruit et pour le repos à Morges ?", "com": ["Règlement de police"]},
+ {"id": "G13", "lang": "fr", "loc": "1110 Morges", "q": "Comment est calculée la taxe sur les déchets à Morges ?", "com": ["gestion des déchets"]},
+ {"id": "G14", "lang": "fr", "loc": "1110 Morges", "q": "Combien de temps une tombe est-elle conservée au cimetière de Morges ?", "com": ["inhumations"]},
+ {"id": "G15", "lang": "fr", "loc": "1950 Sion", "q": "Combien coûte une concession de tombe à Sion ?", "com": ["inhumations"]},
+ {"id": "G16", "lang": "fr", "loc": "1950 Sion", "q": "Faut-il payer une taxe pour son chien à Sion ?", "com": ["taxe pour les chiens"]},
+ {"id": "G17", "lang": "fr", "loc": "1950 Sion", "q": "Comment sont taxés les déchets ménagers à Sion ?", "com": ["gestion des déchets"]},
+ {"id": "G18", "lang": "fr", "loc": "1700 Fribourg", "q": "Comment sont financées les taxes sur les déchets à Fribourg ?", "com": ["gestion des déchets"]},
+ {"id": "G19", "lang": "fr", "loc": "1700 Fribourg", "q": "Combien de temps puis-je stationner dans une zone à stationnement limité à Fribourg ?", "com": ["stationnement", "parcage"]},
+ {"id": "G20", "lang": "fr", "loc": "1700 Fribourg", "q": "Qu'interdit le règlement de police de Fribourg en matière de bruit ?", "com": ["Règlement général de police"]},
+ {"id": "G21", "lang": "de", "loc": "1712 Tafers", "q": "Wie hoch ist die Hundesteuer in Tafers?", "com": ["Hunde"]}
+]

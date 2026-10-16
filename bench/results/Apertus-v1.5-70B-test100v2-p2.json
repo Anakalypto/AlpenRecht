@@ -1,0 +1,1440 @@
+[
+ {
+  "id": "T021",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 1,
+  "total_s": 104.2,
+  "plan_s": 9.7,
+  "ttft_s": null,
+  "words": 269,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nAuf Bundesebene darf die Mietkaution bei Wohnräumen höchstens drei Monatszinse betragen [1]. Die Hinterlegung muss zwingend auf einem Konto oder Depot auf den Namen des Mieters erfolgen [1]. Kantonale oder kommunale Vorschriften dürfen diese bundesrechtliche Obergrenze nicht überschreiten [1].\n\n## Bund  \n- Bei der Miete von Wohnräumen darf der Vermieter höchstens drei Monatszinse als Sicherheit verlangen [1].  \n- Die Sicherheit muss auf einem Konto oder Depot auf den Namen des Mieters hinterlegt werden [1].  \n- Die Bank darf die Kaution nur mit Zustimmung beider Parteien, gestützt auf einen rechtskräftigen Zahlungsbefehl oder ein rechtskräftiges Gerichtsurteil herausgeben [1].  \n- Hat der Vermieter innert einem Jahr nach Beendigung des Mietverhältnisses keinen Anspruch gegenüber dem Mieter rechtlich geltend gemacht, kann der Mieter von der Bank die Rückerstattung der Sicherheit verlangen [1].\n\n## Kanton Zürich  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nKantonale oder kommunale Vorschriften dürfen die bundesrechtliche Obergrenze von höchstens drei Monatszinsen nicht überschreiten [1]; Art. 49 BV regelt die Hierarchie zwischen Bundes- und kantonalem Recht.\n\n## Nächste Schritte  \n- Prüfen Sie den Mietvertrag auf die Höhe der vereinbarten Kaution und vergleichen Sie diese mit den drei Monatszinsen der aktuellen Miete [1].  \n- Fordern Sie den Vermieter auf, die Kaution auf ein auf Ihren Namen lautendes Konto oder Depot bei einer Bank zu hinterlegen [1].  \n- Falls die vereinbarte Kaution höher als drei Monatszinse ist, können Sie die Herabsetzung auf das zulässige Mass verlangen [1].  \n- Bei Rückerstattungsanspruch nach einem Jahr ohne geltend gemachte Forderung wenden Sie sich an die Bank und verlangen Sie die Rückzahlung der Sicherheit [1].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2771,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Art. 49 BV ist nicht die Norm, die die Höhe der Mietkaution regelt (Art. 257e OR ist die einschlägige Norm)."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2652,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Art. 257e OR regelt nur die Höhe der Kaution und die Hinterlegungspflicht; die Frage der kantonalen Kompetenz zur Verschärfung ist nicht explizit im zitierten Artikel enthalten."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2426,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 27,
+  "sources": [
+   "[1] fed OR Art. 257e"
+  ]
+ },
+ {
+  "id": "T022",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 116.2,
+  "plan_s": 11.6,
+  "ttft_s": null,
+  "words": 316,
+  "citations": 21,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nNon. Toute hausse de loyer doit être notifiée au moyen d’une formule officielle agréée par le canton [2]; à défaut, la hausse est nulle [2]. L’avis doit parvenir au locataire au moins dix jours avant le début du délai de résiliation et contenir les motifs de la hausse [2][1].\n\n## Confédération  \n- Le bailleur peut majorer le loyer pour le prochain terme de résiliation [2].  \n- L’avis de majoration du loyer, avec indication des motifs, doit parvenir au locataire dix jours au moins avant le début du délai de résiliation [2].  \n- L’avis doit être effectué au moyen d’une formule agréée par le canton [2].  \n- Les majorations de loyer sont nulles lorsque la formule officielle n’est pas utilisée [2].  \n- Les motifs de la hausse doivent être indiqués dans l’avis [2].  \n- Une signature reproduite sur la formule officielle par un moyen mécanique suffit [2].\n\n## Canton de Genève  \nAucune règle cantonale supplémentaire sur la forme de la notification de hausse de loyer n’est fournie dans les sources [3].\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral impose l’usage d’une formule officielle cantonale pour toute hausse de loyer [2][1]; les sources cantonales et communales fournies ne prévoient pas de dispositions complémentaires sur la notification de la hausse de loyer.\n\n## Prochaines étapes  \n- Le bailleur utilise la formule officielle agréée par le canton de Genève [2].  \n- Il motive la hausse et indique les voies de recours [2].  \n- Il adresse l’avis au locataire au moins dix jours avant le début du délai de résiliation [2].  \n- Le locataire conserve l’avis et, le cas échéant, joint une copie du formulaire à sa demande auprès de l’autorité de conciliation [4].  \n- Aucun émolument cantonal ou communal n’est mentionné dans les sources pour la notification de la hausse de loyer [1][2][3][4].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 11,
+    "raw_chars": 2629,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette instruction spécifique"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 1582,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette affirmation spécifique (pas de source citée)"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 1954,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette affirmation spécifique"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 27,
+  "sources": [
+   "[1] fed OLOG Art. 12 Annonce des hausses de loyer",
+   "[2] fed CO Art. 269d",
+   "[3] can GE I 4 07 §1",
+   "[4] can GE I 4 45.03 Art. 2"
+  ]
+ },
+ {
+  "id": "T023",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 96.0,
+  "plan_s": 9.8,
+  "ttft_s": null,
+  "words": 249,
+  "citations": 7,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour un bail d’habitation, le délai de résiliation est de trois mois pour le terme fixé par l’usage local ou, à défaut d’un tel usage, pour la fin d’un trimestre de bail [1]. Les sources fournies ne précisent pas comment déterminer l’usage local applicable à votre quartier; cette information n’est pas contenue dans les textes cités.\n\n## Confédération  \n- Le bail d’une habitation peut être résilié en observant un délai de congé de trois mois pour le terme fixé par l’usage local ou, à défaut d’un tel usage, pour la fin d’un trimestre de bail [1].\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe le délai minimal de résiliation pour les baux d’habitation; les sources cantonales et communales fournies ne contiennent aucune disposition complémentaire sur ce délai [1][2][3].\n\n## Prochaines étapes  \n- Se renseigner auprès du bailleur ou des autorités locales pour identifier le terme de résiliation fixé par l’usage local applicable à votre quartier (les sources ne précisent pas cette procédure).  \n- Rédiger et envoyer une lettre de résiliation au bailleur en respectant le délai de trois mois avant le terme choisi [1].  \n- En cas de litige, saisir le Tribunal des baux du canton de Vaud conformément à la Loi sur la juridiction en matière de bail (LOJ/VD) [2], qui détermine la compétence judiciaire en matière de contestations de baux à loyers.  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1354,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Deadline or authority not found in any source; 'usage local' is not cited in the provided sources",
+     "No source mentions 'Tribunal des baux' or 'LOJ' in the provided texts"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1292,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction spécifique"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 2157,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source ne contient cette information; les sources citées ne détaillent pas la détermination de l'usage local.",
+     "Les sources cantonales [2] et [3] existent mais ne portent pas sur le délai de résiliation des baux d'habitation.",
+     "Aucune source ne cite une disposition imposant ou indiquant comment obtenir l'usage local auprès du bailleur ou des autorités.",
+     "La source [2] ne contient pas de disposition sur la saisine du Tribunal des baux ou sur la procédure de résiliation; elle définit uniquement l'objet de la loi."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 13,
+  "sources": [
+   "[1] fed CO Art. 266c",
+   "[2] can VD 173.655 Art. 1",
+   "[3] can VD 221.313 Art. 15"
+  ]
+ },
+ {
+  "id": "T024",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 126.4,
+  "plan_s": 6.6,
+  "ttft_s": null,
+  "words": 508,
+  "citations": 15,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa, Sie dürfen Ihre Wohnung untervermieten, jedoch nur mit der Zustimmung des Vermieters. Der Vermieter kann die Zustimmung nach Art. 262 Abs. 2 OR nur verweigern, wenn Sie ihm die Untermietbedingungen nicht bekanntgeben, diese im Vergleich zur Hauptmiete missbräuchlich sind oder ihm wesentliche Nachteile entstehen. Der Untermieter darf die Sache nur so gebrauchen, wie es Ihnen selbst gestattet ist. Bei einem Leerwohnungsbestand von höchstens 1,5 % im Kanton Bern kann der Regierungsrat die Verwendung des Formulars gemäss Art. 270 Abs. 2 OR für den Hauptmietvertrag obligatorisch erklären; dies betrifft die Hauptmiete und erhöht die Transparenz, ohne die bundesrechtliche Zustimmungspflicht des Vermieters für die Untermiete zu ändern.\n\n## Bund\n- Nach Art. 262 Abs. 1 OR kann der Mieter die Sache mit Zustimmung des Vermieters ganz oder teilweise untervermieten [1].\n- Der Vermieter kann die Zustimmung nach Art. 262 Abs. 2 OR nur verweigern, wenn:\n  a) der Mieter sich weigert, dem Vermieter die Bedingungen der Untermiete bekanntzugeben [1];\n  b) die Bedingungen der Untermiete im Vergleich zu denjenigen des Hauptmietvertrags missbräuchlich sind [1];\n  c) dem Vermieter aus der Untermiete wesentliche Nachteile entstehen [1].\n- Der Mieter haftet dem Vermieter dafür, dass der Untermieter die Sache nicht anders gebraucht, als es dem Mieter selbst gestattet ist [1]; der Vermieter kann den Untermieter unmittelbar dazu anhalten [1].\n- Art. 273b Abs. 1 OR erklärt den Kündigungsschutz bei der Miete von Wohn- und Geschäftsräumen für die Untermiete für anwendbar, solange das Hauptmietverhältnis nicht aufgelöst ist [2].\n\n## Kanton Bern\n- Art. 135a Abs. 1 des kantonalen Einführungsgesetzes erklärt die Verwendung des Formulars gemäss Art. 270 Abs. 2 OR für den Abschluss von Mietverträgen im gesamten Kantonsgebiet oder in einzelnen Verwaltungskreisen als obligatorisch, wenn ein Wohnungsmangel vorliegt [3].\n- Ein Wohnungsmangel liegt vor, wenn der Leerwohnungsbestand im Kanton oder in einzelnen Verwaltungskreisen höchstens 1,5 % beträgt [3].\n- Die Formularpflicht gilt ab dem 1. November des betreffenden Jahres, nachdem der Leerwohnungsstand am 1. Juni erhoben wurde [3].\n\n## Gemeinde Bern\n- Keine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt die grundsätzliche Zulässigkeit der Untermiete und die Voraussetzungen für eine Verweigerung der Zustimmung durch den Vermieter [1]. Der Kanton Bern kann bei einem Leerwohnungsbestand von höchstens 1,5 % die Verwendung eines Formulars für den Hauptmietvertrag verpflichten [3]; dies erhöht die Transparenz der Hauptmiete und kann indirekt die Rahmenbedingungen für eine Untermiete beeinflussen, ohne jedoch die bundesrechtliche Zustimmungspflicht des Vermieters nach Art. 262 OR zu ändern.\n\n## Nächste Schritte\n- Zustimmung des Vermieters einholen und die Bedingungen der Untermiete (Mietzins, Dauer, Nutzung) schriftlich festhalten [1].\n- Prüfen, ob der Vermieter die Zustimmung nach Art. 262 Abs. 2 OR verweigern darf (Kenntnisgabe der Bedingungen, Missbräuchlichkeit, wesentliche Nachteile) und gegebenenfalls eine einvernehmliche Lösung suchen.\n- Den aktuellen Leerwohnungsstand am 1. Juni im Kanton Bern beobachten; bei einem Bestand ≤ 1,5 % tritt die Formularpflicht für den Hauptmietvertrag ab 1. November des jeweiligen Jahres in Kraft [3]. Das Formular ist beim Kanton Bern, Amt für Gemeinden und Raumordnung, erhältlich; die Quellen enthalten keine Angabe zu einer Gebühr für das Formular [3].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2799,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine kantonale Pflicht zur Formularverwendung für die Untermiete; Art. 273b OR regelt den Kündigungsschutz, nicht die Zustimmungspflicht. Kantonale Formularpflichten (Art. 135a OR) betreffen nur die Hauptmiete und ändern nichts an der bundesrechtlichen Zustimmungspflicht nach Art. 262 OR.",
+     "Keine Quelle nennt das Amt für Gemeinden und Raumordnung als Ausgabestelle oder bestätigt, dass keine Gebühr anfällt."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2015,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "OR Art. 270"
+    ],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt das Amt für Gemeinden und Raumordnung als Ausgabestelle oder bestätigt das Fehlen einer Gebühr."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1816,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt das Amt für Gemeinden und Raumordnung als Ausgabestelle oder bestätigt das Fehlen einer Gebühr."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 17,
+  "sources": [
+   "[1] fed OR Art. 262",
+   "[2] fed OR Art. 273b",
+   "[3] can BE 211.1 Art. 135a",
+   "[4] can BE 211.1 Art. 109",
+   "[5] fed OR Art. 270"
+  ]
+ },
+ {
+  "id": "T025",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 122.1,
+  "plan_s": 4.5,
+  "ttft_s": null,
+  "words": 460,
+  "citations": 15,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 274"
+  ],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nIl proprietario non può entrare nell’abitazione locata senza preavviso. Il Codice delle obbligazioni impone al conduttore di usare riguardo verso il locatore e i vicini; il locatore può recedere dal contratto solo dopo diffida scritta. Per le abitazioni, in caso di persistenza nella violazione dell’obbligo di diligenza o riguardo, il locatore può recedere con preavviso di 30 giorni per la fine di un mese [1]. Le disposizioni cantonali e comunali citate concernono l’espropriazione e gli atti preparatori, non l’accesso ordinario del proprietario all’abitazione locata.\n\n## Confederazione  \n- [1] Il conduttore è tenuto alla diligenza nell’uso della cosa locata e deve usare riguardo verso il locatore e i vicini [1].  \n- [1] Qualora il conduttore persista nella violazione dell’obbligo di diligenza o riguardo nonostante diffida scritta del locatore, il locatore può recedere dal contratto con preavviso di 30 giorni per la fine di un mese, nel caso di locazione di abitazioni o commerciali [1].  \n- [2] Nella locazione di abitazioni, ciascuna delle parti può dare la disdetta con preavviso di tre mesi per la fine di un trimestre di locazione [2].\n\n## Cantone Ticino  \n- [3] Per atti preparatori indispensabili all’espropriazione (quali accessi, transiti, rilievi planimetrici, picchettamenti, misurazioni, sondaggi), gli stessi devono essere notificati per iscritto al proprietario almeno cinque giorni prima dell’inizio e non possono essere eseguiti contro la sua volontà senza l’autorizzazione del Consiglio di Stato [3].  \n- [4] Fino all’entrata in possesso dell’espropriante, l’espropriato può asportare o rivendicare l’asportazione delle parti costitutive e degli accessori del fondo per i quali non viene indennizzato, purché ciò sia possibile senza pregiudizio per il diritto espropriato; in caso di disaccordo decide inappellabilmente il presidente del Tribunale d’espropriazione [4].  \n*(Nota: queste disposizioni cantonali concernono l'espropriazione e gli atti preparatori, non l'accesso ordinario del proprietario all'abitazione locata)*\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale (CO) disciplina gli obblighi di diligenza del conduttore e i termini di disdetta per le abitazioni; il Cantone Ticino ha introdotto norme specifiche per gli atti preparatori espropriativi e l’asportazione di parti del fondo in caso di espropriazione, che non si applicano all’accesso ordinario del proprietario all’abitazione locata. Prevale il diritto federale (Art. 49 Cost.).\n\n## Prossimi passi  \n- Se il locatore intende disdire per violazione dell’obbligo di riguardo, deve inviare una diffida scritta al conduttore [1].  \n- Per una disdetta ordinaria dell’abitazione, il locatore deve notificare la disdetta con preavviso di tre mesi per la fine di un trimestre di locazione [2].  \n- In caso di controversia sulla validità della disdetta o sugli obblighi contrattuali, il conduttore può avviare la procedura di conciliazione obbligatoria presso l’autorità di conciliazione in materia di locazione del Cantone Ticino, secondo gli art. 274 segg. CO [1][2].  \n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 3041,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "L'art. 257f cpv. 3 prevede la possibilità di recedere senza preavviso solo in caso di deterioramento intenzionale e grave della cosa (non per violazione di diligenza/ riguardo), mentre per la violazione di diligenza/ riguardo il recesso senza preavviso è possibile solo per locali commerciali (cpv. 4), non per abitazioni. Inoltre, per abitazioni la disdetta per violazione richiede preavviso di 30 giorni per la fine di un mese (cpv. 3), non senza preavviso.",
+     "Nessuna delle fonti citate (1, 2, 3, 4) tratta dell'accesso del proprietario all'abitazione locata o della competenza giudiziaria specifica per tale disaccordo. Le fonti trattano di disdetta e obblighi di diligenza, non di accesso fisico."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1970,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Le fonti cantonali citate (art. 85 e 13Fino della Legge di espropriazione TI) concernono l'espropriazione e gli atti preparatori, non l'accesso ordinario del proprietario all'abitazione locata."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2423,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Il CO non contiene articoli 274 segg. che disciplinano la competenza giudiziaria cantonale; l'art. 274 CO riguarda la procedura di conciliazione obbligatoria, non la competenza cantonale. Inoltre, non è citata alcuna fonte per questa affermazione."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed CO Art. 257f",
+   "[2] fed CO Art. 266c",
+   "[3] can TI 710.100 Art. 85",
+   "[4] can TI 710.100 Art. 13Fino"
+  ]
+ },
+ {
+  "id": "T026",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 137.8,
+  "plan_s": 6.8,
+  "ttft_s": null,
+  "words": 346,
+  "citations": 15,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nJa. Bei Schimmelbefall, der die Tauglichkeit der Wohnung zum vorausgesetzten Gebrauch beeinträchtigt oder vermindert, kann der Mieter den Mietzins verhältnismässig herabsetzen [1]. Er muss dem Vermieter schriftlich eine angemessene Frist zur Beseitigung des Schimmels setzen und die Hinterlegung künftig fälliger Mietzinse androhen [3]. Zudem kann er Schadenersatz verlangen, sofern den Vermieter kein Verschulden trifft [2].\n\n## Bund  \n- **Mietzinsherabsetzung**: Wird die Tauglichkeit der Sache zum vorausgesetzten Gebrauch beeinträchtigt oder vermindert, kann der Mieter eine entsprechende Herabsetzung des Mietzinses vom Zeitpunkt der Kenntnisnahme des Mangels bis zur Behebung verlangen [1].  \n- **Schadenersatz**: Hat der Mieter durch den Mangel Schaden erlitten, muss ihm der Vermieter Ersatz leisten, wenn er nicht beweist, dass ihn kein Verschulden trifft [2].  \n- **Fristsetzung und Hinterlegung**: Verlangt der Mieter die Beseitigung eines Mangels an einer unbeweglichen Sache, muss er dem Vermieter schriftlich eine angemessene Frist setzen und die Hinterlegung künftig fälliger Mietzinse androhen. Die Hinterlegung ist dem Vermieter schriftlich anzukündigen; mit der Hinterlegung gelten die Mietzinse als bezahlt [3].  \n- **Allgemeine Mängelrechte**: Entstehen Mängel, die der Mieter nicht zu verantworten hat und nicht auf eigene Kosten beseitigen muss, oder wird er im vertragsgemässen Gebrauch gestört, kann er unter anderem die verhältnismässige Herabsetzung des Mietzinses oder Schadenersatz verlangen [4].\n\n## Kanton Basel-Stadt  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Basel  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDas Bundesrecht (OR) regelt die Rechte des Mieters bei Mängeln, insbesondere die Mietzinsherabsetzung und Schadenersatzansprüche, abschliessend [1][2][3][4]. Kantonale oder kommunale Bestimmungen dürfen keine davon abweichenden oder einschränkenden Regeln zur Mietzinsherabsetzung bei Schimmel aufstellen (Art. 49 BV).\n\n## Nächste Schritte  \n- Schriftliche Fristsetzung an den Vermieter zur Beseitigung des Schimmels mit Androhung der Mietzinshinterlegung [3].  \n- Bei unbenütztem Ablauf der Frist: Künftig fällige Mietzinse bei einer vom Kanton bezeichneten Stelle hinterlegen und dem Vermieter schriftlich ankündigen [3].  \n- Nachweis des Schadens und des fehlenden Verschuldens des Vermieters sammeln und Schadenersatz geltend machen [2].  \n- Bei vorübergehender Zahlungsunfähigkeit: Antrag auf zeitlich beschränkte Ermässigung beim Stiftungsrat unter Offenlegung der finanziellen Verhältnisse stellen [5] (falls die Situation eine vorübergehende Zahlungsunfähigkeit betrifft und nicht den Mangel selbst).  \n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2771,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine kantonalen oder kommunalen Quellen wurden für die Frage der Mietzinsherabsetzung bei Schimmelbefall herangezogen, obwohl das Zusammenspiel der Ebenen erwähnt wird."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 12,
+    "raw_chars": 3652,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für diese konkrete Handlungsschritt-Anweisung"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 2458,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Art. 49 BV betrifft die derogatorische Kraft des Bundesrechts, regelt aber nicht spezifisch die Mietzinsherabsetzung bei Schimmel."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 29,
+  "sources": [
+   "[1] fed OR Art. 259d",
+   "[2] fed OR Art. 259e",
+   "[3] fed OR Art. 259g",
+   "[4] fed OR Art. 259a",
+   "[5] can BS 861.625 § 19",
+   "[6] can BS 724.115 § 65"
+  ]
+ },
+ {
+  "id": "T027",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 84.8,
+  "plan_s": 6.6,
+  "ttft_s": null,
+  "words": 466,
+  "citations": 17,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, vous pouvez contester le loyer initial dans les 30 jours suivant la remise des locaux si vous avez été contraint de conclure le bail par nécessité personnelle ou familiale, ou si le bailleur a sensiblement augmenté le loyer par rapport au précédent. Vous devez adresser une demande écrite au bailleur, qui dispose de 30 jours pour répondre ; à défaut, saisissez l’autorité de conciliation dans les 30 jours. Le canton de Fribourg impose en outre l’usage obligatoire de la formule officielle contenant les éléments requis, à notifier au plus tard le jour de la remise des locaux [1][4].\n\n## Confédération  \n- Vous pouvez contester le loyer initial dans les 30 jours suivant la réception de la chose louée [1].  \n  - Conditions : vous avez été contraint de conclure le bail par nécessité personnelle ou familiale, ou le bailleur a sensiblement augmenté le loyer initial par rapport au précédent [1].  \n- Vous devez adresser votre demande de diminution par écrit au bailleur [2].  \n  - Le bailleur dispose d’un délai de 30 jours pour se déterminer [2].  \n  - Si le bailleur ne répond pas, n’accepte que partiellement ou ne répond pas dans le délai prescrit, vous devez saisir l’autorité de conciliation dans les 30 jours [2].  \n- Pendant le bail, vous ne pouvez pas contester le loyer initial après sa contestation [3].\n\n## Canton de Fribourg  \n- En période de pénurie de logements, le bailleur doit utiliser la formule officielle à la conclusion de tout nouveau bail [4].  \n  - La formule doit contenir le montant du loyer et l’état des charges du précédent locataire, le nouveau loyer et nouvel état des charges, les motifs précis d’une nouvelle augmentation, le droit de contestation du locataire, le délai de contestation et l’adresse de la commission compétente [4].  \n  - La formule doit être notifiée au plus tard le jour de la remise de la chose louée au locataire [4].\n\n## Commune de Fribourg  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe le délai de contestation du loyer initial (30 jours) et les conditions de recevabilité, tandis que le canton de Fribourg impose l’usage obligatoire de la formule officielle en cas de pénurie et précise les mentions obligatoires, complétant ainsi le cadre fédéral [1][4].\n\n## Prochaines étapes  \n- Dans les 30 jours suivant la remise des locaux, rédigez une demande écrite de diminution du loyer initial et adressez-la au bailleur [1][2].  \n- Si le bailleur ne répond pas ou ne satisfait pas votre demande dans les 30 jours, saisissez l’autorité de conciliation compétente dans les 30 jours [2].  \n- Vérifiez que la formule officielle remise par le bailleur contient tous les éléments requis (anciens et nouveaux loyers, charges, motifs d’augmentation, adresse de la commission, délai de contestation) [4].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1864,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 3106,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3098,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed CO Art. 270",
+   "[2] fed CO Art. 270a",
+   "[3] fed CO Art. 270d",
+   "[4] can FR 222.3.1 Art. 27",
+   "[5] can FR 222.4.3 Art. 11"
+  ]
+ },
+ {
+  "id": "T028",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 69.9,
+  "plan_s": 6.6,
+  "ttft_s": null,
+  "words": 199,
+  "citations": 5,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nKleine Reparaturen in der Mietwohnung muss der Mieter selbst auf eigene Kosten nach dem Ortsgebrauch ausführen [1]. Kantonale oder kommunale Bestimmungen enthalten keine davon abweichende Regelung; Art. 49 BV bestimmt, dass Bundesrecht vorgeht und kantonale Vorschriften die bundesrechtliche Kostentragung nicht ändern dürfen.\n\n## Bund  \nDer Mieter muss Mängel, die durch kleine, für den gewöhnlichen Unterhalt erforderliche Reinigungen oder Ausbesserungen behoben werden können, nach Ortsgebrauch auf eigene Kosten beseitigen [1].\n\n## Kanton Luzern  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Luzern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDas kantonale Recht enthält keine Bestimmung, welche die Kostentragung für kleine Reparaturen in der Mietwohnung abändert; Art. 49 BV bestimmt, dass Bundesrecht vorgeht und kantonale Vorschriften die bundesrechtliche Regelung nicht aufheben dürfen.\n\n## Nächste Schritte  \n- Prüfen Sie den lokalen Ortsgebrauch, um festzustellen, welche Arbeiten als „kleine, für den gewöhnlichen Unterhalt erforderliche Reinigungen oder Ausbesserungen“ gelten [1].  \n- Falls ein Beistand eingesetzt ist, richtet sich dessen Entschädigung nach kantonaler Regelung [2]; diese Entschädigung ist nicht Teil der Kosten für die kleinen Reparaturen.  \n- Grundbuchabgaben nach § 93g des luzernischen Einführungsgesetzes zum ZGB [3] betreffen Eintragungen im Grundbuch und sind für die Mängelbehebung in der Mietwohnung nicht relevant.  \n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2063,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Der zitierte kantonale Artikel [2] regelt Entschädigung und Spesen eines Beistands bzw. einer Beiständin und hat nichts mit der Kostentragung für kleine Reparaturen in der Mietwohnung zu tun.",
+     "Der zitierte kantonale Artikel [2] betrifft die Entschädigung von Beistandspersonen und nicht die Kostentragung für kleine Reparaturen."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1789,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert, die kantonale Regelungen zu kleinen Reparaturen verneint oder bestätigt",
+     "Keine Quelle zitiert, die Art. 49 BV in diesem Kontext wörtlich oder inhaltlich korrekt wiedergibt"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1902,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Art. 49 BV regelt die Kollisionsnorm zwischen Bund und Kantonen, sagt aber nicht explizit, dass kantonale Bestimmungen zur Kostentragung für kleine Reparaturen nicht abweichend sein dürfen – die Aussage ist zu absolut und nicht durch die angegebenen Quellen belegt."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 17,
+  "sources": [
+   "[1] fed OR Art. 259",
+   "[2] can LU 200 § 38",
+   "[3] can LU 200 § 93g"
+  ]
+ },
+ {
+  "id": "T029",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 137.3,
+  "plan_s": 5.7,
+  "ttft_s": null,
+  "words": 473,
+  "citations": 18,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 202"
+  ],
+  "prose_left": 1,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nNon, le bailleur ne peut pas résilier le bail de bonne foi uniquement parce que le locataire fait valoir des prétentions découlant du bail, notamment une demande de réparations. Une telle résiliation est annulable selon le droit fédéral [2] et le canton de Valais prévoit une commission de conciliation compétente pour traiter les litiges de bail [5][6].\n\n## Confédération  \n- Le congé est annulable lorsqu’il contrevient aux règles de la bonne foi [1].  \n- Le congé est annulable notamment parce que le locataire fait valoir de bonne foi des prétentions découlant du bail [2] (let. a).  \n- En cas de défaut de la chose louée, le locataire peut exiger la remise en état, une réduction proportionnelle du loyer ou des dommages-intérêts [3].  \n- La réduction du loyer est proportionnelle et s’applique à partir du moment où le bailleur a eu connaissance du défaut jusqu’à son élimination [4].\n\n## Canton de Valais  \n- Il existe une commission de conciliation cantonale compétente pour les litiges de bail, dont le siège est à Sion et qui peut tenir ses audiences dans n’importe quelle localité du canton [5].  \n- La commission est composée d’un président, de deux présidents substituts (en principe titulaires d’un titre universitaire en droit) et de douze membres assesseurs nommés par le Conseil d’Etat, avec représentation paritaire des bailleurs et locataires [6].  \n- La commission est également compétente pour l’établissement de formules officielles de congé et le contrôle de leur disponibilité dans les greffes communaux [5].\n\n## Commune de Sion  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral interdit la résiliation abusive en représailles à une demande de réparation [2][3][4]. Le canton de Valais complète ce cadre en instituant une commission de conciliation compétente pour traiter les litiges de bail et en organisant sa composition et son fonctionnement [5][6], sans toutefois modifier les règles de fond de l’annulabilité du congé.\n\n## Prochaines étapes  \n- Introduire une requête en annulation du congé devant la commission de conciliation du canton de Valais dans les 30 jours suivant la réception du congé [9] (délai de contestation de la résiliation).  \n- Préparer les éléments de preuve pertinents (courriers, photos, constats, échanges) pour étayer la demande de réparations et l’action en annulation du congé, car la charge de la preuve incombe au locataire selon l’art. 8 CC [non cité dans les sources fournies mais principe général du droit fédéral applicable] et ces pièces sont utiles à la procédure [2].  \n- Saisir la commission de conciliation par écrit, en indiquant le nom du requérant, la date, l’heure et le lieu pour lesquels l’audience est sollicitée ainsi que tous renseignements utiles, conformément aux exigences générales de forme applicables devant l’autorité de conciliation [7] (obligation de forme découlant de l’art. 202 CPC, non explicitement cité dans les sources mais applicable).\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 13,
+    "raw_chars": 4609,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "CO Art. 273"
+    ],
+    "revised": true,
+    "notes": [
+     "L'article 273 CO prévoit un délai de 30 jours pour contester la résiliation, mais l'article 271a al. 1 let. a CO ne fixe pas de délai spécifique pour l'annulation du congé en cas de représailles; le délai de 30 jours s'applique à la contestation de la résiliation, pas spécifiquement à l'action en annulation du congé pour motif abusif. De plus, la référence à l'article 273 CO n'est pas citée dans la réponse.",
+     "Aucune source citée ne prescrit la nécessité de produire des preuves de la demande de réparations pour saisir la commission de conciliation."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 11,
+    "raw_chars": 3581,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction procédurale spécifique.",
+     "Pas de source citée pour prescrire légalement cette production de preuves."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 11,
+    "raw_chars": 3606,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction procédurale spécifique.",
+     "Pas de source citée pour imposer cette obligation de preuve."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 35,
+  "sources": [
+   "[1] fed CO Art. 271",
+   "[2] fed CO Art. 271a",
+   "[3] fed CO Art. 259a",
+   "[4] fed CO Art. 259d",
+   "[5] can VS 211.1 Art. 82",
+   "[6] can VS 211.1 Art. 83",
+   "[7] com Sion: Règlement communal de police Article 8",
+   "[8] com Sion: Règlement communal de police Article 21 bis",
+   "[9] fed CO Art. 273"
+  ]
+ },
+ {
+  "id": "T030",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 154.2,
+  "plan_s": 6.0,
+  "ttft_s": null,
+  "words": 479,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Haltung eines Hundes in einer Mietwohnung ist nach OR Art. 257f grundsätzlich zulässig, solange der Mieter auf Hausbewohner und Nachbarn Rücksicht nimmt. Bei fortgesetzter Pflichtverletzung trotz schriftlicher Mahnung kann der Vermieter bei Wohnräumen fristlos kündigen, jedoch erst nach einer Frist von mindestens 30 Tagen auf Ende eines Monats [1]. Der Kanton St. Gallen kann bei Vorliegen der in Art. 17 SG 456.1 genannten Voraussetzungen (erhebliche Verletzung von Mensch oder Tier, übermässiges Aggressionsverhalten oder ungenügende Gewähr des Halters) zusätzliche Massnahmen anordnen [2][3]. Die Stadt St. Gallen hat in den vorliegenden Dokumenten keine spezifischen Vorschriften zur Hundehaltung in Mietwohnungen erlassen. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Bund\n[1] Nach OR Art. 257f Abs. 2 muss der Mieter einer unbeweglichen Sache auf Hausbewohner und Nachbarn Rücksicht nehmen. Verletzt er diese Pflicht trotz schriftlicher Mahnung des Vermieters weiter, sodass die Fortsetzung des Mietverhältnisses nicht mehr zumutbar ist, kann der Vermieter bei Wohn- und Geschäftsräumen fristlos kündigen, jedoch erst nach einer Frist von mindestens 30 Tagen auf Ende eines Monats.\n\n## Kanton St. Gallen\n[2] Kantonale Einschränkungen der Hundehaltung können angeordnet werden, wenn:\na) der Hund Mensch oder Tier erheblich verletzt hat;\nb) der Hund übermässiges Aggressionsverhalten oder andere Verhaltensauffälligkeiten zeigt;\nc) die Hundehalterin oder der Hundehalter nicht genügend Gewähr für eine sichere und verantwortungsbewusste Hundehaltung bietet.\n[3] Als Massnahmen können insbesondere angeordnet werden: Verpflichtung, den Hund auf öffentlichem Grund an der Leine zu halten; Maulkorbpflicht; bauliche Vorkehrungen, die verhindern, dass sich der Hund vom privaten Grund entfernt; vorübergehende Platzierung des Hundes in einem Tierheim; Verbot, Hunde auszuführen; befristetes oder unbefristetes Verbot des Haltens von Hunden bestimmter Grösse oder von Hunden im Allgemeinen; Sterilisation oder Kastration des Hundes; Beschlagnahmung und Unterbringung des Hundes; Einschläfern des Hundes. Mehrere Massnahmen können gleichzeitig angeordnet werden.\n\n## Gemeinde St. Gallen\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht erlaubt die Hundehaltung in Mietwohnungen grundsätzlich und verlangt Rücksichtnahme auf Nachbarn [1]. Der Kanton St. Gallen kann bei Vorliegen der in Art. 17 SG 456.1 genannten Voraussetzungen zusätzliche Einschränkungen oder Massnahmen anordnen [2][3]. Die Stadt St. Gallen hat in den vorliegenden Dokumenten keine spezifischen Vorschriften zur Hundehaltung in Mietwohnungen erlassen. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte\n- Prüfen Sie, ob Ihr Hund bereits zu Konflikten mit Nachbarn oder Vermieter geführt hat (z. B. Bissverletzungen, Aggressionen, mangelnde Beaufsichtigung).\n- Holen Sie bei anhaltenden Problemen eine schriftliche Mahnung des Vermieters ein und verbessern Sie die Situation (z. B. konsequente Leinenpflicht, Hundetraining).\n- Informieren Sie sich bei der zuständigen kantonalen Stelle (Amt für Lebensmittelsicherheit und Veterinärwesen, Fachstelle Hundewesen) über kantonale Vorgaben zu Leinenpflicht, Hundesteuer und möglichen Haltungsbeschränkungen.\n- Bei drohender Kündigung: Lassen Sie die Vorfälle dokumentieren (Zeugen, Fotos, Mietvertragsnotizen) und suchen Sie das Gespräch mit dem Vermieter; bei fristloser Kündigung muss der Vermieter die gesetzliche Frist von mindestens 30 Tagen auf Ende eines Monats einhalten.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 10,
+    "raw_chars": 4918,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (1–5) enthält eine Aussage, die die grundsätzliche Erlaubnis der Hundehaltung in einer Mietwohnung bestätigt. Die Quellen regeln Pflichten, Kündigungsgründe und kantonale Massnahmen, nicht aber eine generelle Erlaubnis.",
+     "Keine der Quellen (1–5) belegt, dass die Gemeinde St. Gallen keine einschlägigen Vorschriften erlassen hat. Die Aussage ist unbelegt.",
+     "Keine der Quellen enthält Art. 49 BV oder eine entsprechende Aussage.",
+     "Keine Quelle verlangt eine solche Prüfung oder ein solches Vorgehen."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 3232,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 3447,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "BV Art. 49 Vorrang und Einhaltung des Bundesrechts"
+    ],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 29,
+  "sources": [
+   "[1] fed OR Art. 257f",
+   "[2] can SG 456.1 Art. 17",
+   "[3] can SG 456.1 Art. 18",
+   "[4] com St. Gallen: 412.11 Polizeireglement Art. 8",
+   "[5] com St. Gallen: 412.11 Polizeireglement Art. 3",
+   "[6] fed BV Art. 49 Vorrang und Einhaltung des Bundesrechts"
+  ]
+ },
+ {
+  "id": "T031",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 131.0,
+  "plan_s": 5.9,
+  "ttft_s": null,
+  "words": 573,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa, Ihr Arbeitgeber darf Überstunden anordnen, wenn deren Leistung gegenüber dem vereinbarten, üblichen oder durch Normalarbeitsvertrag/GAV bestimmten zeitlichen Umfang notwendig ist und Ihnen nach Treu und Glauben zumutbar ist [1]. Ohne schriftliche Vereinbarung oder abweichende NAV/GAV-Regelung muss der Arbeitgeber für nicht durch Freizeit ausgeglichene Überstunden einen Lohnzuschlag von mindestens 25 % auf den Normallohn zahlen [1]. Für kantonale Angestellte des Kantons Basel-Stadt dürfen jährlich höchstens 170 angeordnete Überstunden ohne Bewilligung der Departementsleitung überschritten werden [6]; Überstunden werden von der Führungskraft angeordnet und müssen möglichst tagsüber zwischen 06.00 Uhr und 20.00 Uhr geleistet werden [7][8]. Können Überstunden nicht innerhalb von 12 Monaten durch Freizeit kompensiert werden, sind sie entweder in den folgenden 12 Monaten zu kompensieren oder auf schriftlichen Antrag der bzw. des Führungsverantwortlichen ausnahmsweise auszuzahlen; über die Auszahlung entscheidet die Departementsleitung bzw. Direktion. Nach 24 Monaten sind nicht kompensierte Überstunden auszuzahlen [9].\n\n## Bund\n- Nach OR Art. 321c Abs. 1 ist der Arbeitnehmer zur Leistung von Überstunden verpflichtet, wenn diese gegenüber dem vereinbarten, üblichen oder durch Normalarbeitsvertrag/GAV bestimmten zeitlichen Umfang notwendig ist und ihm nach Treu und Glauben zumutbar ist [1].\n- Im Einverständnis mit dem Arbeitnehmer kann der Arbeitgeber die Überstunden durch Freizeit von mindestens gleicher Dauer ausgleichen [1].\n- Wird die Überstundenarbeit nicht durch Freizeit ausgeglichen und ist nichts anderes schriftlich verabredet oder durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt, so hat der Arbeitgeber für die Überstundenarbeit Lohn zu entrichten, der sich nach dem Normallohn samt einem Zuschlag von mindestens einem Viertel bemisst [1].\n\n## Kanton Basel-Stadt\n- § 41 der Verordnung zur Arbeitszeit der kantonalen Mitarbeitenden legt fest, dass die jährlich angeordnete Überstundenarbeit 170 Stunden nur mit Bewilligung des Departements bzw. der Betriebs‑ oder Direktion überschreiten darf [6].\n- § 42 bestimmt, dass Überstunden von der bzw. dem Führungsverantwortlichen angeordnet werden; unvorhergesehene und unaufschiebbare Überstunden können nachträglich genehmigt werden, sofern sie den maximalen Gleitzeitsaldo überschreiten [7].\n- § 43 schreibt vor, dass Überstunden möglichst auf Tagesstunden während Werktagen zwischen 06.00 Uhr und 20.00 Uhr zu leisten sind [8].\n- § 44 regelt die Kompensation und Abgeltung: Überstunden sind in der Regel durch Freizeit zu kompensieren; finanzielle Abgeltung ist die Ausnahme. Können Überstunden nicht innerhalb von 12 Monaten durch Freizeit kompensiert werden, sind sie entweder in den nächsten 12 Monaten zu kompensieren oder auf schriftlichen Antrag der bzw. des Führungsverantwortlichen ausnahmsweise auszuzahlen; über die Auszahlung entscheidet die Departementsleitung bzw. Direktion. Können sie innerhalb von 24 Monaten nicht kompensiert werden, sind sie auszuzahlen [9].\n\n## Gemeinde Basel\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht [1] legt den grundsätzlichen Rahmen fest; der Kanton Basel‑Stadt konkretisiert die zulässige jährliche Obergrenze von 170 angeordneten Überstunden, das Genehmigungsverfahren für Überschreitungen, das Zeitfenster für die Leistung (06.00 Uhr bis 20.00 Uhr) sowie die Kompensations- und Auszahlungsfristen (12 Monate für Kompensation bzw. Auszahlung, 24 Monate für zwingende Auszahlung). Art. 49 BV bestimmt, dass kantonales Recht dem Bundesrecht vorgeht, wenn es strengere Bestimmungen enthält.\n\n## Nächste Schritte\n- Prüfen Sie, ob Ihr Arbeitsvertrag oder ein anwendbarer Gesamtarbeitsvertrag (GAV) abweichende Regelungen zu Überstunden enthält.\n- Bitten Sie die Führungskraft um eine schriftliche Anordnung der Überstunden, falls noch keine vorliegt.\n- Fordern Sie bei der zuständigen Departementsleitung bzw. Direktion eine Genehmigung, wenn die angeordneten Überstunden die jährliche Grenze von 170 Stunden überschreiten sollen.\n- Verlangen Sie bei Nichtkompensation innerhalb von 12 Monaten einen schriftlichen Antrag auf Auszahlung an die Departementsleitung bzw. Direktion.\n- Dokumentieren Sie geleistete Überstunden (Datum, Dauer, Anlass), um spätere Abgeltungsansprüche nachzuweisen.\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 1969,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 3209,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert",
+     "Keine Quelle zitiert",
+     "Keine Quelle zitiert; zudem ist Art. 49 BV nicht die Norm, die die Vorrangfrage zwischen Bund und Kanton regelt"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2091,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed OR Art. 321c",
+   "[2] fed OR Art. 321d",
+   "[3] fed Verordnung vom 11. Januar 1984 über den Normalarbeitsvertrag für milchwirtschaftliche Arbeitnehmer Art. 8 Überstunden",
+   "[4] fed Verordnung vom 11. Januar 1984 über den Normalarbeitsvertrag für milchwirtschaftliche Arbeitnehmer Art. 7 Arbeitszeit",
+   "[5] fed Verordnung vom 11. Januar 1984 über den Normalarbeitsvertrag für milchwirtschaftliche Arbeitnehmer Art. 9 Tägliche Ruhezeit",
+   "[6] can BS 162.200 § 41",
+   "[7] can BS 162.200 § 42",
+   "[8] can BS 162.200 § 43",
+   "[9] can BS 162.200 § 44"
+  ]
+ },
+ {
+  "id": "T032",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 100.6,
+  "plan_s": 5.1,
+  "ttft_s": null,
+  "words": 389,
+  "citations": 13,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nSecondo il Codice delle obbligazioni (CO), il datore di lavoro deve accordare almeno quattro settimane di vacanza all'anno per ogni lavoratore e almeno cinque settimane per i lavoratori sino ai 20 anni compiuti; inoltre, i lavoratori sino ai 30 anni compiuti hanno diritto a un congedo giovanile massimo di una settimana di lavoro all'anno per attività extrascolastiche non retribuite. Le vacanze devono essere assegnate di regola durante l'anno di lavoro e comprendere almeno due settimane consecutive [2][1][5].\n\n## Confederazione  \n- [2] Per ogni anno di lavoro, il datore di lavoro deve accordare almeno quattro settimane di vacanza; per i lavoratori sino ai 20 anni compiuti, almeno cinque settimane [2].  \n- [1] Per i lavoratori sino ai 30 anni compiuti che intendono svolgere attività giovanili extrascolastiche non retribuite, il datore di lavoro deve concedere un congedo giovanile della durata massima complessiva di una settimana di lavoro per anno [1].  \n- [5] Le vacanze devono essere assegnate di regola durante l'anno di lavoro e comprendere almeno due settimane consecutive; il datore di lavoro stabilisce la data considerando i desideri del lavoratore compatibilmente con gli interessi dell'azienda [5].\n\n## Cantone Ticino  \nNessuna fonte pertinente recuperata.\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale (CO) fissa i minimi di vacanza; i cantoni non possono prevedere disposizioni meno favorevoli al lavoratore, ma possono introdurre regole più favorevoli. Nel caso specifico, il Cantone Ticino non ha emanato norme che modifichino la durata delle vacanze lavorative previste dal CO.\n\n## Prossimi passi  \n- Verificare nel contratto individuale di lavoro o nel contratto collettivo applicabile eventuali diritti più estesi rispetto al minimo legale [2].  \n- In caso di mancata intesa sul periodo delle vacanze ordinarie, richiedere per iscritto al datore di lavoro la concessione delle vacanze; in caso di mancata concessione, tutelare il diritto secondo le norme generali del CO e del Codice di procedura civile (CPC) [5].  \n- Per controversie relative al congedo giovanile, richiedere per iscritto al datore di lavoro la concessione del congedo entro due mesi dall'annuncio dell'intenzione di far valere la pretesa [1].  \n- Se il datore di lavoro non concede le vacanze o il congedo giovanile, rivolgersi all'autorità di conciliazione cantonale competente per il diritto del lavoro o al giudice civile competente secondo la procedura cantonale [4].  \n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 3271,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La fonte [2] stabilisce le vacanze ordinarie (4 settimane fino a 20 anni, 5 settimane fino a 20 anni). La fonte [1] riguarda un congedo giovanile specifico (una settimana all'anno) per attività extrascolastiche non retribuite, non le vacanze lavorative ordinarie. Il testo dell'ANSWER confonde i due istituti e non cita correttamente [1] per la regola generale delle vacanze.",
+     "La fonte [3] riguarda la chiusura di aziende e il perseguimento penale; la fonte [4] riguarda la conciliazione per controversie sulla parità dei sessi. Nessuna di queste fonti tratta la procedura per far valere il diritto alle vacanze lavorative.",
+     "Nessuna fonte citata tratta le controversie di diritto pubblico relative alle vacanze lavorative."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 1684,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "CO Art. 329c"
+    ],
+    "revised": true,
+    "notes": [
+     "La fonte [2] stabilisce un minimo di quattro settimane per tutti i lavoratori e cinque settimane per i lavoratori fino ai 20 anni compiuti, senza distinguere ulteriormente in base all'intenzione di svolgere attività giovanili extrascolastiche. La distinzione aggiuntiva presente nella frase dell'ANSWER non è supportata da [2]."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 2286,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La fonte [1] prevede che in caso di mancata intesa il congedo dev'essere concesso qualora il lavoratore abbia già da due mesi annunciato l'intenzione di far valere la sua pretesa, ma si riferisce specificamente al congedo giovanile e non alle vacanze ordinarie. Inoltre, non cita alcuna fonte per questa regola procedurale.",
+     "L'art. 329c CO riguarda la continuità e la data delle vacanze, non la procedura per ottenere le vacanze in caso di mancata concessione. Non esiste una procedura specifica nel CO per 'avviare' un'azione giudiziaria; si applicano le norme generali di procedura civile."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 12,
+  "sources": [
+   "[1] fed CO Art. 329e",
+   "[2] fed CO Art. 329a",
+   "[3] can TI 843.100 Art. 8",
+   "[4] can TI 270.200 Art. 2Le",
+   "[5] fed CO Art. 329c"
+  ]
+ },
+ {
+  "id": "T033",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 67.5,
+  "plan_s": 4.7,
+  "ttft_s": null,
+  "words": 290,
+  "citations": 7,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLe temps d’essai dans un contrat de travail ne peut pas dépasser trois mois; chaque partie peut résilier le contrat à tout moment moyennant un préavis de sept jours. Si le travail est interrompu pour maladie, accident ou accomplissement d’une obligation légale incombant au travailleur, sans que celui‑ci en ait demandé l’assumption, le temps d’essai est prolongé d’une durée égale à celle de l’interruption [1].\n\n## Confédération  \n- Pendant le temps d’essai, chaque partie peut résilier le contrat de travail à tout moment moyennant un délai de congé de sept jours [1].  \n- Le temps d’essai ne peut dépasser trois mois [1].  \n- Lorsque, pendant le temps d’essai, le travail est interrompu par suite de maladie, d’accident ou d’accomplissement d’une obligation légale incombant au travailleur sans qu’il ait demandé de l’assumer, le temps d’essai est prolongé d’autant [1].\n\n## Canton de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Commune de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral (CO) fixe la durée maximale du temps d’essai à trois mois et le délai de congé à sept jours; le canton de Neuchâtel ne contient aucune disposition complémentaire sur la durée du temps d’essai, de sorte que le droit fédéral s’applique directement (Art. 49 BV).\n\n## Prochaines étapes  \n- Insérer dans le contrat de travail une clause écrite précisant la durée du temps d’essai, qui ne doit pas excéder trois mois [1].  \n- En cas d’interruption du travail pour maladie, accident ou obligation légale du travailleur, prolonger le temps d’essai d’une durée égale à celle de l’interruption [1].  \n- Aucun émolument cantonal ou communal n’est prévu par les sources fournies pour la fixation ou la prolongation du temps d’essai [1].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1282,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 769,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1672,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette recommandation procédurale",
+     "Pas de citation pour cette recommandation procédurale",
+     "Pas de citation pour cette affirmation; les sources fournies sont du droit fédéral et cantonal non pertinent"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed CO Art. 335b",
+   "[2] can NE 224.1 Art. 9",
+   "[3] can NE 322.0 Art. 3622"
+  ]
+ },
+ {
+  "id": "T034",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 123.4,
+  "plan_s": 7.6,
+  "ttft_s": null,
+  "words": 363,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 3,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEine Kündigung während einer Krankheit ist nach Ablauf der Probezeit nur eingeschränkt zulässig. Der Arbeitgeber darf das Arbeitsverhältnis nicht kündigen, wenn der Arbeitnehmer ohne eigenes Verschulden durch Krankheit ganz oder teilweise an der Arbeitsleistung verhindert ist: im ersten Dienstjahr während 30 Tagen, ab zweitem bis und mit fünftem Dienstjahr während 90 Tagen und ab sechstem Dienstjahr während 180 Tagen. Missbräuchliche Kündigungen sind zudem nach Art. 336 OR verboten, wenn sie wegen der Krankheit ausgesprochen werden. Das kantonale Personalgesetz regelt die Beendigungsarten und eine vorgängige schriftliche Mahnung mit einer Frist zur Verbesserung von längstens drei Monaten bei Kündigungen wegen mangelnder Leistung oder unbefriedigenden Verhaltens, nicht jedoch den Kündigungsschutz bei Krankheit selbst.\n\n## Bund\n[1] Nach Ablauf der Probezeit darf der Arbeitgeber das Arbeitsverhältnis nicht kündigen, wenn der Arbeitnehmer ohne eigenes Verschulden durch Krankheit ganz oder teilweise an der Arbeitsleistung verhindert ist: im ersten Dienstjahr während 30 Tagen, ab zweitem bis und mit fünftem Dienstjahr während 90 Tagen und ab sechstem Dienstjahr während 180 Tagen [1].\n[5] Die Kündigung ist missbräuchlich, wenn sie wegen der Krankheit des Arbeitnehmers ausgesprochen wird [5].\n\n## Kanton Zürich\n[3] Das Arbeitsverhältnis endet durch Kündigung [3].\n[4] Vor einer Kündigung aufgrund mangelnder Leistung oder unbefriedigenden Verhaltens erfolgt eine schriftliche Mahnung, verbunden mit einer Frist zur Verbesserung von längstens drei Monaten [4].\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht legt den grundsätzlichen Kündigungsschutz bei Krankheit fest [1]; das kantonale Personalgesetz ergänzt dies mit einer vorgängigen schriftlichen Mahnung und einer dreimonatigen Verbesserungsfrist, bevor eine Kündigung wegen mangelnder Leistung oder unbefriedigenden Verhaltens ausgesprochen werden darf. Art. 49 BV: Bundesrecht geht entgegenstehenden kantonalen Bestimmungen vor.\n\n## Nächste Schritte\n- Bei einer Kündigung während der gesetzlichen Krankheitssperrfrist nach Art. 336c OR (30 Tage im ersten Dienstjahr, 90 Tage ab zweitem bis und mit fünftem Dienstjahr, 180 Tage ab sechstem Dienstjahr): Die Kündigung ist nichtig; der Arbeitnehmer kann die Nichtigkeit geltend machen. Die Sperrfristen gelten, sofern die Arbeitsunfähigkeit ohne eigenes Verschulden eintritt [1].\n- Bei einer Kündigung wegen mangelnder Leistung oder unbefriedigenden Verhaltens: Eine schriftliche Mahnung mit einer Frist zur Verbesserung von längstens drei Monaten an den Arbeitnehmer richten – an die Anstellungsbehörde (Arbeitgeber) [4].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 3123,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (1, 2, 3, 4) enthält eine Regelung, dass eine schriftliche Mahnung mit einer dreimonatigen Frist zur Verbesserung vor einer Kündigung ausgesprochen werden muss. Die Quellen behandeln den Kündigungsschutz bei Krankheit (Bund) und kantonale Beendigungsarten (Kanton Zürich), nicht aber eine vorgängige Mahnpflicht mit Frist. Die Angabe „längstens drei Monaten“ ist zudem nicht in den zitierten Quellen enthalten.",
+     "Keine der angegebenen Quellen enthält eine Regelung über die Klagefrist oder das Verfahren zur Anfechtung einer Kündigung während der Sperrfrist. Die Quellen behandeln den Kündigungsschutz (Art. 336c OR) und kantonale Beendigungsarten (§§ 16, 19), nicht aber die prozessuale Anfechtung oder Fristen für eine Klage."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 3492,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "OR Art. 336"
+    ],
+    "revised": true,
+    "notes": [
+     "Die Aussage, dass das kantonale Personalgesetz den Kündigungsschutz bei Krankheit selbst regelt, ist falsch. Die kantonalen Quellen [3] und [4] regeln die Beendigungsarten und die Mahnfrist bei Leistungsgründen, nicht den Krankheitsschutz, der ausschliesslich im Bundesrecht (OR Art. 336c) verankert ist. Die Aussage ist inhaltlich unzutreffend.",
+     "Die Angabe einer fixen Frist von \"innert 180 Tagen (je nach Dienstjahr)\" ist ungenau und irreführend. Die Sperrfristen betragen je nach Dienstjahr 30, 90 oder 180 Tage, aber die Klagefrist ist nicht gesetzlich auf 180 Tage beschränkt. Zudem wird Art. 336 ff. OR korrekt zitiert, jedoch fehlt eine klare Zitierung für die Sperrfristen selbst (Art. 336c OR), die die Grundlage der Ungültigkeit bilden. Die Formulierung \"innert 180 Tagen\" suggeriert eine absolute Verwirkungsfrist, die so nicht existiert."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 3656,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Aussage, dass das kantonale Personalgesetz den Kündigungsschutz bei Krankheit selbst regelt, ist falsch. Die kantonalen Quellen [3] und [4] regeln die Beendigungsarten und die Mahnfrist bei Leistungsgründen, nicht aber die Sperrfristen bei Krankheit, die ausschliesslich im Bundesrecht (Art. 336c OR) festgelegt sind. Die Aussage suggeriert eine kantonale Regelung des Krankheitsschutzes, was nicht zutrifft.",
+     "Art. 336c OR regelt die Unzulässigkeit der Kündigung während der Sperrfrist und macht die Kündigung nichtig. Die Rechtsfolge ist die Nichtigkeit der Kündigung, nicht die Notwendigkeit einer Klage auf Feststellung der Ungültigkeit. Zudem verlangt Art. 336c OR keinen Nachweis des fehlenden Verschuldens, sondern nur, dass die Arbeitsunfähigkeit ohne eigenes Verschulden eintritt. Die Angabe des Gerichtswegs ist zudem nicht durch die Quelle gestützt."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 13,
+  "sources": [
+   "[1] fed OR Art. 336c",
+   "[2] fed OR Art. 336d",
+   "[3] can ZH 177.10 § 16",
+   "[4] can ZH 177.10 § 19",
+   "[5] fed OR Art. 336"
+  ]
+ },
+ {
+  "id": "T035",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 100.0,
+  "plan_s": 5.7,
+  "ttft_s": null,
+  "words": 447,
+  "citations": 16,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, votre employeur doit vous verser votre salaire en cas d’empêchement de travailler pour cause de maladie sans faute de votre part, pour une durée limitée fixée par le Code des obligations [1]. Pour la première année de service, il doit payer trois semaines de salaire [1]; ensuite, la durée est fixée équitablement selon la durée des rapports de travail et les circonstances. Si vous êtes un ressortissant étranger avec une autorisation de séjour valable moins de trois mois et non couvert par une assurance équivalente à la LAMal, votre employeur doit vous affilier obligatoirement à l’assurance-maladie [3].\n\n## Confédération  \n- En cas d’empêchement de travailler pour cause de maladie sans faute du travailleur, l’employeur verse le salaire pour un temps limité [1].  \n- Durant la première année de service, il paie le salaire pendant trois semaines [1].  \n- Ensuite, pour une période plus longue, il paie le salaire pour une durée fixée équitablement, compte tenu de la durée des rapports de travail et des circonstances particulières [1].  \n- En cas de grossesse de la travailleuse, l’employeur est tenu de lui verser le salaire dans la même mesure [1].  \n- Un accord écrit, un contrat-type de travail ou une convention collective peut déroger aux présentes dispositions à condition d’accorder au travailleur des prestations au moins équivalentes [1].\n\n## Canton de Genève  \n- L’employeur d’un ressortissant étranger exerçant une activité dépendante et dont l’autorisation de séjour est valable pour moins de trois mois doit l’affilier à l’assurance-maladie obligatoire si l’étranger ne bénéficie pas d’une couverture équivalente à la LAMal [3].\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral [1] fixe l’obligation de base de l’employeur de verser le salaire en cas de maladie; le canton de Genève complète ce cadre en imposant l’affiliation obligatoire à l’assurance-maladie pour certains travailleurs étrangers, sans modifier la durée ou le montant du salaire maladie prévu par le CO [1][3].\n\n## Prochaines étapes  \n- Informez immédiatement votre employeur de votre incapacité de travail pour cause de maladie, conformément à l’obligation prévue par l’art. 324a CO [1].  \n- Fournissez les certificats médicaux requis dès le premier jour d’incapacité, selon les usages ou les dispositions contractuelles applicables [1].  \n- Si vous êtes un ressortissant étranger avec une autorisation de séjour valable moins de trois mois et non couvert par une assurance équivalente à la LAMal, exigez de votre employeur qu’il procède à votre affiliation obligatoire à l’assurance-maladie [3].  \n- En cas de désaccord sur le paiement du salaire maladie, saisissez le Tribunal des Prud’hommes du canton de Genève, autorité compétente pour les litiges découlant du contrat de travail [1].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 3760,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source [3] traite de l'affiliation à l'assurance-maladie obligatoire pour les étrangers non couverts, mais ne mentionne pas l'obligation de l'employeur de verser le salaire maladie. La source [1] ne contient pas cette information cantonale. Le contenu du claim mélange deux sujets distincts (salaire maladie vs affiliation LAMal) et ne correspond pas aux textes cités.",
+     "La source [1] ne contient pas d'instruction procédurale sur la manière de notifier l'incapacité ou de fournir des certificats médicaux. Elle ne décrit que l'obligation de paiement.",
+     "La source [1] ne contient pas d'instruction pour le travailleur de vérifier son contrat ou une convention collective. Elle ne mentionne pas ces documents comme base de la durée d'indemnisation.",
+     "La source [1] ne mentionne pas le Tribunal des Prud’hommes ni la procédure de saisine. Elle ne traite que des obligations de l'employeur en matière de salaire."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 2658,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "deadline or authority not in cited source",
+     "deadline or authority not in cited source",
+     "deadline or authority not in cited source"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2236,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed CO Art. 324a",
+   "[2] can GE J 3 05 Art. 16C",
+   "[3] can GE J 3 05 Art. 4"
+  ]
+ },
+ {
+  "id": "T036",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 58.8,
+  "plan_s": 4.7,
+  "ttft_s": null,
+  "words": 145,
+  "citations": 2,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEin Anspruch auf einen 13. Monatslohn besteht nur, wenn er vertraglich vereinbart ist oder als Gratifikation verabredet wurde. Endet das Arbeitsverhältnis vor dem Anlass zur Ausrichtung, hat der Arbeitnehmer einen verhältnismässigen Teilanspruch, sofern dies verabredet ist. Die kantonalen Quellen regeln andere Zulagen (Familien- und Betreuungszulage), enthalten jedoch keine Bestimmungen zum 13. Monatslohn.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDa keine kantonalen oder kommunalen Bestimmungen zum 13. Monatslohn vorliegen, gilt das Bundesrecht direkt. Art. 49 BV (Cst.) bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte\n- Prüfen Sie Ihren Arbeitsvertrag auf eine explizite Vereinbarung eines 13. Monatslohns oder einer Gratifikation [1].\n- Falls das Arbeitsverhältnis vor dem Auszahlungszeitpunkt endet, verlangen Sie einen verhältnismässigen Anteil der Gratifikation, sofern dies vertraglich vereinbart war [1].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1578,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1313,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1337,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 16,
+  "sources": [
+   "[1] fed OR Art. 322d",
+   "[2] can BE 153.01 Art. 62",
+   "[3] can BE 153.01 Art. 86"
+  ]
+ },
+ {
+  "id": "T037",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 130.0,
+  "plan_s": 5.1,
+  "ttft_s": null,
+  "words": 510,
+  "citations": 19,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLe travail du dimanche est interdit de principe, du samedi 23 h au dimanche 23 h [1]. Il ne peut être autorisé que dans les cas suivants : avec l’accord des représentants des travailleurs ou, à défaut, de la majorité des travailleurs concernés, l’intervalle de repos peut être avancé ou retardé d’une heure au plus [1] ; par autorisation du SECO lorsque des raisons techniques ou économiques rendent le travail indispensable [2] ; par autorisation cantonale en cas de besoin urgent dûment établi, l’employeur devant alors verser une majoration de salaire de 50 % au travailleur [2] ; ou, dans les limites fixées par les cantons, jusqu’à quatre dimanches par an où le travail est autorisé sans autorisation supplémentaire [2]. Sans ces conditions, le travail dominical reste prohibé.\n\n## Confédération  \n- Interdiction générale : du samedi 23 h au dimanche 23 h, il est interdit d’occuper des travailleurs [1].  \n- Dérogation possible avec accord : avec l’accord des représentants des travailleurs dans l’entreprise ou, à défaut, de la majorité des travailleurs concernés, l’intervalle de 24 heures défini à l’al. 1 peut être avancé ou retardé d’une heure au plus [1].  \n- Dérogation pour travail régulier ou périodique : autorisation du SECO requise lorsque des raisons techniques ou économiques rendent le travail indispensable [2].  \n- Dérogation pour besoin urgent temporaire : autorisation des autorités cantonales nécessaire ; l’employeur doit accorder une majoration de salaire de 50 % au travailleur [2].  \n- Consentement du travailleur : le travailleur ne peut être affecté au travail dominical sans son consentement [2].  \n- Exception cantonale : les cantons peuvent fixer au plus quatre dimanches par an pendant lesquels le personnel peut être employé dans les commerces sans qu’une autorisation soit nécessaire [2].\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe l’interdiction de principe et les conditions de dérogation (autorisation, accord des travailleurs, majoration salariale). Le canton de Vaud ne contient pas de règle spécifique sur le travail dominical dans les documents fournis ; il ne peut donc pas modifier les exigences fédérales, mais peut, le cas échéant, désigner les quatre dimanches annuels sans autorisation supplémentaire conformément à l’art. 19 al. 6 LTr [2]. La loi fédérale prévaut (art. 49 Cst.).\n\n## Prochaines étapes  \n- Vérifier si l’activité relève d’un besoin urgent temporaire ou de raisons techniques ou économiques indispensables [2].  \n- Obtenir l’accord écrit des représentants des travailleurs ou, à défaut, la majorité des travailleurs concernés [1] et, le cas échéant, autoriser un report d’une heure maximum de l’intervalle de repos [1].  \n- Si nécessaire, déposer une demande d’autorisation : pour un travail régulier ou périodique, adresser la demande au SECO avec les justificatifs requis [2] ; pour un besoin urgent, la déposer auprès de l’autorité cantonale compétente [2].  \n- Prévoir une majoration de salaire de 50 % pour tout travail dominical temporaire autorisé [2].  \n- Consulter le règlement cantonal pour connaître les quatre dimanches annuels éventuellement exemptés d’autorisation [2].  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 11,
+    "raw_chars": 2731,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "pas de citation"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 11,
+    "raw_chars": 2711,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "pas de citation"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 12,
+    "raw_chars": 2939,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "pas de citation"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 34,
+  "sources": [
+   "[1] fed LTr Art. 18",
+   "[2] fed LTr Art. 19",
+   "[3] can VD 173.61 Art. 1",
+   "[4] can VD 173.61 Art. 3"
+  ]
+ },
+ {
+  "id": "T038",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 95.0,
+  "plan_s": 5.4,
+  "ttft_s": null,
+  "words": 313,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nDer gesetzliche Mutterschaftsurlaub dauert grundsätzlich 98 aufeinanderfolgende Tage ab dem Tag der Niederkunft [3]. Bei einem Spitalaufenthalt des Neugeborenen verlängert sich die Ausrichtung der Entschädigung um die Dauer der Hospitalisierung, höchstens jedoch um 56 Tage, wenn das Neugeborene unmittelbar nach der Geburt ununterbrochen mindestens zwei Wochen im Spital verweilt und die Mutter nachweist, dass sie bereits vor der Geburt die Wiederaufnahme einer Erwerbstätigkeit nach dem Mutterschaftsurlaub beschlossen hatte [3]. Der Anspruch endet am 98. Tag nach seinem Beginn [4] oder mit dem Ende der Verlängerung nach Art. 16c Abs. 3 EOG [4].\n\n## Bund  \n- Nach Art. 16c Abs. 2 EOG wird die Mutterschaftsentschädigung an 98 aufeinanderfolgenden Tagen ab dem Tag der Niederkunft ausgerichtet [3].  \n- Bei Hospitalisierung des Neugeborenen verlängert sich die Ausrichtungsdauer um die Dauer der Hospitalisierung, höchstens jedoch um 56 Tage, wenn das Neugeborene unmittelbar nach der Geburt ununterbrochen mindestens zwei Wochen im Spital verweilt und die Mutter nachweist, dass sie bereits vor der Geburt die Wiederaufnahme einer Erwerbstätigkeit nach dem Mutterschaftsurlaub beschlossen hatte [3].  \n- Der Anspruch endet am 98. Tag nach seinem Beginn [4]; bei Hospitalisierung endet er mit dem Ende der Verlängerung nach Art. 16c Abs. 3 EOG [4].\n\n## Kanton Luzern  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Luzern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDer Bund legt die Dauer des Mutterschaftsurlaubs und die Verlängerung bei Spitalaufenthalt des Neugeborenen fest; der Kanton Luzern hat keine zusätzlichen Bestimmungen zu dieser Dauer erlassen. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte  \n- Antrag auf Mutterschaftsentschädigung bei der zuständigen Ausgleichskasse einreichen [3].  \n- Arztzeugnis beilegen, das den ununterbrochenen Spitalaufenthalt des Neugeborenen von mindestens zwei Wochen nach der Geburt bestätigt [1].  \n- Nachweis erbringen, dass die Wiederaufnahme einer Erwerbstätigkeit nach dem Mutterschaftsurlaub bereits vor der Geburt beschlossen war, falls eine Verlängerung um bis zu 56 Tage geltend gemacht wird [3].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2436,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die zuständige Behörde/den Antragsweg",
+     "Keine Quelle zitiert, die eine Gebührenfreiheit bestätigt"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1678,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine Gebührenfreiheit; die Quellen regeln Anspruchsvoraussetzungen und Auszahlung, nicht explizit die Gebührenfrage."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2059,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für Antragstellung bei Ausgleichskasse"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed EOV Art. 24 Dauer der Ausrichtung der Mutterschaftsentschädigung bei längerem Spitalaufenthalt des Neugeborenen",
+   "[2] fed EOV Art. 35 Festsetzung und Auszahlung der Entschädigung",
+   "[3] fed EOG Art. 16c Beginn des Anspruchs und Dauer der Ausrichtung der Entschädigung",
+   "[4] fed EOG Art. 16d Ende des Anspruchs",
+   "[5] can LU 218a § 1",
+   "[6] can LU 218 § 8"
+  ]
+ },
+ {
+  "id": "T039",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 155.3,
+  "plan_s": 5.5,
+  "ttft_s": null,
+  "words": 560,
+  "citations": 18,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEine Konkurrenzverbotsklausel ist nur gültig, wenn sie schriftlich vereinbart ist, dem Arbeitnehmer Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse gewährt und die Verwendung dieser Kenntnisse den Arbeitgeber erheblich schädigen könnte [1]. Das Verbot muss örtlich, zeitlich und gegenständlich angemessen begrenzt sein und darf ohne besondere Umstände höchstens drei Jahre dauern [2]; der Richter kann ein übermässiges Verbot einschränken [2]. Bei Verstoß schuldet der Arbeitnehmer Schadenersatz [3], kann sich aber durch Leistung einer vereinbarten Konventionalstrafe befreien, bleibt jedoch für weiteren Schaden ersatzpflichtig [3]. Das Verbot fällt weg, wenn der Arbeitgeber nachweisbar kein erhebliches Interesse mehr daran hat oder er das Arbeitsverhältnis ohne begründeten Anlass des Arbeitnehmers kündigt bzw. der Arbeitnehmer aus einem vom Arbeitgeber zu verantwortenden Anlass auflöst [4]. Kantonale oder kommunale Bestimmungen enthalten keine zusätzlichen Gültigkeitsvoraussetzungen; Art. 49 BV: Bundesrecht geht entgegenstehendem kantonalem oder kommunalem Recht vor.\n\n## Bund\n- Schriftliche Vereinbarung: Das Konkurrenzverbot muss schriftlich zwischen Arbeitgeber und handlungsfähigem Arbeitnehmer vereinbart werden [1].\n- Einblick in sensible Bereiche: Das Verbot ist nur verbindlich, wenn das Arbeitsverhältnis dem Arbeitnehmer Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse gewährt und die Verwendung dieser Kenntnisse den Arbeitgeber erheblich schädigen könnte [1].\n- Angemessene Beschränkung: Das Verbot ist nach Ort, Zeit und Gegenstand angemessen zu begrenzen, sodass eine unbillige Erschwerung des wirtschaftlichen Fortkommens des Arbeitnehmers ausgeschlossen ist; es darf ohne besondere Umstände höchstens drei Jahre dauern [2].\n- Richterliche Einschränkung: Der Richter kann ein übermässiges Konkurrenzverbot unter Würdigung aller Umstände nach seinem Ermessen einschränken; dabei ist eine allfällige Gegenleistung des Arbeitgebers angemessen zu berücksichtigen [2].\n- Folgen bei Verstoß: Übertritt der Arbeitnehmer das Verbot, hat er den dem Arbeitgeber erwachsenden Schaden zu ersetzen [3]. Ist eine Konventionalstrafe geschuldet und nichts anderes verabredet, kann sich der Arbeitnehmer durch deren Leistung vom Verbot befreien; er bleibt jedoch für weiteren Schaden ersatzpflichtig [3]. Ist es besonders schriftlich verabredet, kann der Arbeitgeber neben der Konventionalstrafe und dem Ersatz weiteren Schadens die Beseitigung des vertragswidrigen Zustandes verlangen, sofern die verletzten oder bedrohten Interessen des Arbeitgebers und das Verhalten des Arbeitnehmers dies rechtfertigen [3].\n- Wegfall des Verbots: Das Verbot fällt dahin, wenn der Arbeitgeber nachweisbar kein erhebliches Interesse mehr daran hat, es aufrecht zu erhalten [4]. Es fällt ferner dahin, wenn der Arbeitgeber das Arbeitsverhältnis ohne begründeten Anlass des Arbeitnehmers kündigt oder wenn der Arbeitnehmer aus einem vom Arbeitgeber zu verantwortenden Anlass auflöst [4].\n\n## Kanton Graubünden\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Chur\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt die Gültigkeitsvoraussetzungen, die Beschränkung und die Folgen eines Konkurrenzverbots abschliessend; kantonale und kommunale Bestimmungen enthalten keine zusätzlichen Voraussetzungen für die Gültigkeit einer Konkurrenzverbotsklausel. Art. 49 BV: Bundesrecht geht entgegenstehendem kantonalem oder kommunalem Recht vor.\n\n## Nächste Schritte\n- Prüfen Sie, ob die schriftliche Vereinbarung vorliegt [1].\n- Klären Sie, ob dem Arbeitnehmer tatsächlich Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse gewährt wurde und ob die Verwendung dieser Kenntnisse den Arbeitgeber erheblich schädigen könnte [1].\n- Überprüfen Sie, ob das Verbot örtlich, zeitlich und gegenständlich angemessen begrenzt ist und nicht ohne besondere Umstände drei Jahre überschreitet [2].\n- Bei Unklarheiten oder übermässiger Beschränkung kann der Arbeitnehmer beim zuständigen Zivilgericht des Kantons Graubünden eine gerichtliche Einschränkung des Verbots beantragen (zuständigkeitsbestimmend ist das kantonale Zivilprozessrecht).\n- Im Streitfall entscheidet das zuständige Zivilgericht des Kantons Graubünden über die Gültigkeit und die Folgen des Konkurrenzverbots nach kantonalem Zivilprozessrecht.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 13,
+    "raw_chars": 4073,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Zuständigkeit ist kantonal geregelt und nicht im OR festgelegt."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 3064,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; kantonales Zivilprozessrecht ist nicht unter den angegebenen Quellen enthalten"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 3535,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle stützt diese Aussage; die kantonalen Quellen behandeln andere Themen (Lohnzahlung bei Krankheit/Unfall) und ändern nichts an den bundesrechtlichen Voraussetzungen des Konkurrenzverbots.",
+     "Die angegebenen Quellen enthalten keine Informationen über kantonale Gerichtsbehörden oder die kantonale Zivilprozessordnung. Die Zuständigkeit ergibt sich aus dem kantonalen Recht, ist aber nicht in den vorliegenden OR-Quellen enthalten."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 31,
+  "sources": [
+   "[1] fed OR Art. 340",
+   "[2] fed OR Art. 340a",
+   "[3] fed OR Art. 340b",
+   "[4] fed OR Art. 340c",
+   "[5] can GR 170.400 Art. 36",
+   "[6] can GR 170.400 Art. 37"
+  ]
+ },
+ {
+  "id": "T040",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 103.1,
+  "plan_s": 4.1,
+  "ttft_s": null,
+  "words": 546,
+  "citations": 19,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, votre employeur peut résilier votre contrat de travail avec effet immédiat s’il existe de justes motifs au sens de l’art. 337 CO. Il doit motiver sa décision par écrit si vous le demandez. En l’absence de justes motifs, il doit vous verser ce que vous auriez gagné si les rapports de travail avaient pris fin à l’échéance du délai de congé, déduire ce que vous avez épargné et le revenu que vous avez tiré d’un autre travail, et peut être condamné à une indemnité maximale équivalente à six mois de salaire. Les sources fournies ne précisent pas de délai légal pour que l’employeur prononce la résiliation immédiate ni ne mentionnent de frais administratifs de la procédure.\n\n## Confédération  \n- Résiliation immédiate possible uniquement en présence de justes motifs [1].  \n- L’employeur doit motiver sa décision par écrit si le travailleur le demande [1].  \n- En cas de résiliation injustifiée, le travailleur a droit à ce qu’il aurait gagné si les rapports de travail avaient pris fin à l’échéance du délai de congé ou à la fin du contrat de durée déterminée [2].  \n- Sur ce montant, on impute ce que le travailleur a épargné par suite de la cessation du contrat ainsi que le revenu qu’il a tiré d’un autre travail ou auquel il a intentionnellement renoncé [2].  \n- Le juge peut allouer une indemnité maximale équivalente à six mois de salaire du travailleur [2].\n\n## Canton de Valais  \nAucune source pertinente récupérée.\n\n## Commune de Sion  \n- En cas de non‑respect des prescriptions du règlement communal de police, l’animal peut être mis en fourrière, sans préjudice de l’amende [5].  \n- Le propriétaire peut reprendre l’animal dans un délai de 6 jours contre paiement de tous les frais [5].  \n- Si l’animal n’est pas réclamé dans ce délai de 6 jours, la fourrière en dispose [5].  \n- En cas de danger imminent, l’animal peut être abattu immédiatement [5].  \n- La pose d’affiches‑réclames n’est permise qu’aux emplacements désignés et aménagés à cette fin; seules les entreprises bénéficiant d’une convention avec la Municipalité peuvent installer et exploiter des panneaux ou colonnes d’affichage [6].  \n- L’autorité peut interdire ou faire cesser tout affichage contraire à l’ordre et à la décence publique [6].\n\n## Articulation des niveaux  \nLa Confédération fixe les conditions et les conséquences du licenciement avec effet immédiat [1]. Le canton du Valais et la commune de Sion ne prévoient pas de règles spécifiques sur ce type de résiliation du contrat de travail; la loi fédérale s’applique directement, conformément à l’art. 49 Cst.\n\n## Prochaines étapes  \n- Demandez par écrit à votre employeur les motifs du licenciement immédiat [1].  \n- Si vous contestez le caractère justifié du congé, saisissez le Tribunal des prud’hommes compétent dans les délais de prescription du droit du travail [7] pour réclamer les salaires impayés, l’imputation des gains et l’éventuelle indemnité [2].  \n- Si une décision administrative du Service cantonal du travail vous concerne, déposez une réclamation dans les 30 jours dès notification [3], puis un recours au Tribunal cantonal dans les 30 jours suivant la décision sur réclamation [3].  \n- Respectez les prescriptions du règlement communal de police de Sion pour éviter la mise en fourrière de votre animal ou l’interdiction d’affichage [5][6].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2364,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "CO Art. 127"
+    ],
+    "revised": true,
+    "notes": [
+     "Le CO ne fixe pas de délai pour la décision de résiliation immédiate; l'affirmation selon laquelle aucune source ne fixe de délai est incorrecte car aucune source ne fixe de délai, mais l'affirmation elle-même est factuellement correcte (aucune source ne fixe un délai). Cependant, la formulation suggère une absence de règle là où il n'y a simplement pas de règle spécifique citée.",
+     "Les sources fournies ne traitent pas des frais administratifs de procédure de résiliation; l'affirmation est correcte mais aucune source ne permet de la valider ou de l'infirmer spécifiquement sur ce point précis (les sources portent sur les conséquences financières du licenciement injustifié, pas sur les frais de procédure)."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1584,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Le CO ne fixe pas de délai légal pour la décision de résiliation immédiate, mais les sources ne contiennent pas d’information sur les frais administratifs de la procédure (citation inexistante)."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1833,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source citée (art. 337 CO) ne contient aucune information sur un délai légal pour prendre la décision de résiliation immédiate; l’affirmation est donc non étayée.",
+     "Aucune des sources citées ne traite des frais administratifs liés à une procédure de licenciement immédiat."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 17,
+  "sources": [
+   "[1] fed CO Art. 337",
+   "[2] fed CO Art. 337c",
+   "[3] can VS 822.1 Art. 67",
+   "[4] can VS 172.4 Art. 21",
+   "[5] com Sion: Règlement communal de police Article 45",
+   "[6] com Sion: Règlement communal de police Article 22",
+   "[7] fed CO Art. 127"
+  ]
+ }
+]

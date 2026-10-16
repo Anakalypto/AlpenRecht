@@ -1,0 +1,1517 @@
+[
+ {
+  "id": "T081",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 136.8,
+  "plan_s": 6.0,
+  "ttft_s": null,
+  "words": 371,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa. Das heimliche Filmen einer Tatsache aus dem Geheim- oder Privatbereich einer Person ohne deren Einwilligung ist nach Art. 179quater StGB strafbar (Freiheitsstrafe bis zu drei Jahren oder Geldstrafe). Für bestimmte Berufsgruppen (z. B. Ärzte, Anwälte) ist zudem das Offenbaren eines infolge Berufes anvertrauten oder wahrgenommenen Geheimnisses nach Art. 321 StGB strafbar, es sei denn, es liegt eine Einwilligung des Berechtigten oder eine schriftliche Bewilligung der vorgesetzten Behörde oder Aufsichtsbehörde vor.\n\n## Bund\n- Nach Art. 179quater StGB wird bestraft, wer eine Tatsache aus dem Geheimbereich eines anderen oder eine nicht jedermann ohne weiteres zugängliche Tatsache aus dessen Privatbereich ohne dessen Einwilligung mit einem Aufnahmegerät beobachtet oder auf einen Bildträger aufnimmt [1].\n- Wer eine Aufnahme, von der er weiss oder annehmen muss, dass sie durch eine nach Absatz 1 strafbare Handlung hergestellt wurde, aufbewahrt oder einem Dritten zugänglich macht, wird ebenfalls bestraft [1].\n- Nach Art. 321 StGB wird bestraft, wer als Geistlicher, Rechtsanwalt, Verteidiger, Notar, Patentanwalt, nach Obligationenrecht zur Verschwiegenheit verpflichteter Revisor, Arzt, Zahnarzt, Chiropraktor, Apotheker, Hebamme, Psychologe, Pflegefachperson, Physiotherapeut, Ergotherapeut, Ernährungsberater, Optometrist, Osteopath oder deren Hilfsperson ein Geheimnis offenbart, das ihm infolge seines Berufes anvertraut wurde oder das er in dessen Ausübung wahrgenommen hat (Freiheitsstrafe bis zu drei Jahren oder Geldstrafe) [2]. Studierende werden ebenso bestraft, wenn sie ein bei ihrem Studium wahrgenommenes Geheimnis offenbaren. Die Strafbarkeit entfällt, wenn die Offenbarung auf einer Einwilligung des Berechtigten oder einer schriftlichen Bewilligung der vorgesetzten Behörde oder Aufsichtsbehörde beruht.\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKantonale oder kommunale Bestimmungen ergänzen die hier relevanten Strafbestimmungen nicht; Art. 49 BV sieht vor, dass Bundesrecht dem kantonalen Recht vorgeht. Die konkreten Tatbestände und Strafandrohungen ergeben sich ausschliesslich aus dem StGB.\n\n## Nächste Schritte\n- Bei Verdacht einer Straftat: Strafanzeige bei der zuständigen Staatsanwaltschaft einreichen (schriftlich per Einschreiben oder mündlich bei der Polizei; das kantonale Strafprozessrecht regelt das Verfahren, ist jedoch nicht in den vorliegenden Quellen enthalten).\n- Als betroffene Person: Aufnahmen und Screenshots sichern sowie Zeugenkontakte dokumentieren (allgemeine Empfehlung).\n- Für Berufspersonen (z. B. Ärzte, Anwälte): Vor Weitergabe eines Geheimnisses muss eine schriftliche Einwilligung des Berechtigten oder eine schriftliche Bewilligung der vorgesetzten Behörde oder Aufsichtsbehörde vorliegen [2].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2201,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; keine Rechtsnorm im StGB regelt, wie eine Strafanzeige zu erfolgen hat (dies ist Verfahrensrecht, nicht materielles Strafrecht).",
+     "Keine Rechtsquelle zitiert; handelt sich um allgemeine Empfehlung, nicht um eine gesetzliche Pflicht oder Regel."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2854,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Art. 301 StPO ist kantonales Strafprozessrecht, nicht Bundesstrafrecht und nicht in den angegebenen Quellen enthalten.",
+     "Keine Quelle zitiert; allgemeine Empfehlung ohne Rechtsgrundlage."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3411,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen enthält Art. 301 StPO oder beschreibt das Verfahren zur Einreichung einer Strafanzeige. Die Aussage ist nicht durch die gelieferten Quellen gedeckt.",
+     "Die Quellen enthalten keine Hinweise zu Beweissicherung oder Empfehlung, einen Anwalt zu konsultieren."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed StGB Art. 179quater",
+   "[2] fed StGB Art. 321",
+   "[3] can ZH 312 § 2",
+   "[4] can ZH 331 § 25"
+  ]
+ },
+ {
+  "id": "T082",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 142.1,
+  "plan_s": 15.2,
+  "ttft_s": null,
+  "words": 599,
+  "citations": 27,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 10,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, insulter quelqu’un ou le diffamer sur les réseaux sociaux est punissable en droit suisse. L’injure [3] constitue une contravention pouvant entraîner une peine pécuniaire jusqu’à 90 jours-amende. La diffamation [1] et la calomnie [2] sont des délits poursuivis sur plainte, avec des sanctions pécuniaires ou privatives de liberté selon les circonstances. Les dispositions fédérales s’appliquent directement aux publications en ligne, et le canton de Vaud renvoie aux mêmes règles du Code pénal pour les infractions d’honneur.\n\n## Confédération  \n- **Injure [3]** : quiconque attaque autrui dans son honneur par la parole, l’écriture, l’image, le geste ou des voies de fait est puni, sur plainte, d’une peine pécuniaire de 90 jours-amende au plus [3]. Le juge peut renoncer à une peine si l’injurié a provoqué directement l’injure par une conduite répréhensible [3]. Si l’injurié riposte immédiatement par une injure ou des voies de fait, le juge peut renoncer à une peine contre les deux auteurs ou l’un d’eux [3].  \n- **Diffamation [1]** : quiconque, en s’adressant à un tiers, accuse une personne ou jette sur elle le soupçon d’une conduite contraire à l’honneur est puni, sur plainte, d’une peine pécuniaire. L’auteur n’encourt aucune peine s’il prouve que ses allégations sont conformes à la vérité ou qu’il les tenait de bonne foi pour vraies [1]. Si l’auteur agit sans motif suffisant, principalement pour nuire, il est punissable même s’il prouve la vérité [1].  \n- **Calomnie [2]** : quiconque, connaissant la fausseté de ses allégations, accuse une personne ou propage de tels soupçons est puni, sur plainte, d’une peine privative de liberté de trois ans au plus ou d’une peine pécuniaire. La peine est aggravée si l’auteur cherche de propos délibéré à ruiner la réputation de sa victime [2].  \n- **Responsabilité des médias [4]** : lorsqu’une infraction d’honneur est commise sous forme de publication par un média, l’auteur est seul punissable. Si l’auteur ne peut être traduit en Suisse, le rédacteur responsable ou, à défaut, la personne responsable de la publication est punissable en vertu de l’art. 322bis CP [4].  \n- **Délai de plainte [8]** : le droit de porter plainte se prescrit par trois mois à compter du jour où l’ayant droit a connu l’auteur de l’infraction [8].  \n- **Définitions applicables [9]** : les « proches » comprennent le conjoint, le partenaire enregistré, les parents en ligne directe, les frères et sœurs germains, consanguins ou utérins ainsi que les parents, frères et sœurs et enfants adoptifs [9]. Les « familiers » sont ceux qui font ménage commun avec la personne visée [9]. Ces définitions s’appliquent pour déterminer qui peut porter plainte ou bénéficier de certaines atténuations.\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe canton de Vaud renvoie aux infractions du Code pénal fédéral pour les délits contre l’honneur et les infractions aux prescriptions cantonales d’administration [5], de sorte que les dispositions fédérales s’appliquent directement aux actes d’injure ou de diffamation commis sur les réseaux sociaux, sans ajout cantonal ou communal spécifique.\n\n## Prochaines étapes  \n- Déposer une plainte pénale auprès du Ministère public du canton de Vaud dans les trois mois à compter du jour où l’auteur et l’infraction ont été connus [8].  \n- Rassembler toutes preuves de la publication (captures d’écran, liens, horodatage) pour démontrer le contenu, la date et l’auteur présumé [9] [1][2][3][9].  \n- Si l’auteur ne peut être identifié ou traduit en Suisse, le rédacteur responsable ou la personne responsable de la publication du compte peut être poursuivi conformément à l’art. 28 CP [4].  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2133,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "CP Art. 322bis",
+     "CP Art. 31",
+     "CP Art. 31"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction procédurale."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 1972,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "CP Art. 110"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 2783,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 4,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed CP Art. 173",
+   "[2] fed CP Art. 174",
+   "[3] fed CP Art. 177",
+   "[4] fed CP Art. 28",
+   "[5] can VD 311.15 Art. 3",
+   "[6] can VD 311.15 Art. 14",
+   "[7] fed CP Art. 322bis",
+   "[8] fed CP Art. 31",
+   "[9] fed CP Art. 110"
+  ]
+ },
+ {
+  "id": "T083",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 107.5,
+  "plan_s": 4.5,
+  "ttft_s": null,
+  "words": 299,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nEine Ohrfeige ist nach Art. 126 StGB als Tätlichkeit strafbar, wenn sie keine Schädigung des Körpers oder der Gesundheit zur Folge hat und auf Antrag verfolgt wird. Die Strafverfolgung erfolgt von Amtes wegen, wenn die Ohrfeige wiederholt an einer Person unter Obhut, dem Ehegatten, eingetragenen Partner oder Lebenspartner (unbestimmte Zeit gemeinsamen Haushalt) verübt wird.\n\n## Bund\n- Nach Art. 126 Abs. 1 StGB wird, auf Antrag, mit Busse bestraft, wer Tätlichkeiten begeht, die keine Schädigung des Körpers oder der Gesundheit zur Folge haben [1].\n- Von Amtes wegen verfolgt wird der Täter, wenn er die Tat wiederholt begeht:\n  - an einer Person, die unter seiner Obhut steht oder für die er zu sorgen hat, namentlich an einem Kind [1];\n  - an seinem Ehegatten während der Ehe oder bis zu einem Jahr nach der Scheidung [1];\n  - an seiner eingetragenen Partnerin oder seinem eingetragenen Partner während der Dauer der eingetragenen Partnerschaft oder bis zu einem Jahr nach deren Auflösung [1];\n  - an seinem hetero- oder homosexuellen Lebenspartner, sofern sie auf unbestimmte Zeit einen gemeinsamen Haushalt führen und die Tat während dieser Zeit oder bis zu einem Jahr nach der Trennung begangen wurde [1].\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Kanton Bern konkretisiert im Einführungsgesetz zum Bundesgesetz über die Hilfe an Opfer von Straftaten (BE 326.1) die Beratungsangebote und Kostenbeiträge für Opferhilfe, regelt jedoch nicht die Strafbarkeit der Ohrfeige; diese richtet sich allein nach dem Bundesrecht [1]. Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte\n- Bei Antragsdelikt: Strafantrag bei der zuständigen Polizei- oder Staatsanwaltschaft einreichen [1].\n- Bei Offizialdelikt (Wiederholung an den genannten Personenkreisen): Die Polizei ermittelt von Amtes wegen; keine gesonderte Handlung des Opfers erforderlich [1].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2588,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Quelle [1] erwähnt die Busse, sagt aber nicht explizit, dass die Strafe \"auf Antrag\" erfolgt (dies ist der Tatbestand, nicht die Strafart allein). Zudem fehlt eine Zitation."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2183,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2183,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed StGB Art. 126",
+   "[2] can BE 326.1 Art. 1",
+   "[3] can BE 326.1 Art. 7"
+  ]
+ },
+ {
+  "id": "T084",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 138.9,
+  "plan_s": 4.3,
+  "ttft_s": null,
+  "words": 507,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 31"
+  ],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nSe danneggi la proprietà altrui, rischi una pena detentiva fino a tre anni o una pena pecuniaria (a querela di parte) ai sensi dell’art. 144 CP [1]. Se il danno è considerevole o il reato avviene in un pubblico assembramento, la pena detentiva sale fino a cinque anni e il perseguimento è d’ufficio. Le norme cantonali non prevedono sanzioni penali aggiuntive per il danneggiamento; disciplinano indennità ed espropriazioni in casi specifici diversi dal reato penale di danneggiamento.\n\n## Confederazione  \n[1] Chiunque deteriora, distrugge o rende inservibile una cosa altrui è punito, a querela di parte, con una pena detentiva sino a tre anni o con una pena pecuniaria. Se il danneggiamento avviene in occasione di un pubblico assembramento, si procede d’ufficio. Se il colpevole ha causato un danno considerevole, il giudice pronuncia una pena detentiva sino a cinque anni o una pena pecuniaria; il perseguimento ha luogo d’ufficio.\n\n## Cantone Ticino  \n[2] L’indennità per espropriazione deve di regola essere corrisposta in denaro sotto forma di capitale [2]. L’ente espropriante può sostituire in tutto o in parte la prestazione in denaro con un’equivalente prestazione in natura nei casi di razionale rettifica dei confini, sostituzione di beni destinati ad uso pubblico, garanzia dell’esercizio di un’azienda agricola, mantenimento delle vie di comunicazione o delle condotte, o compensazione di diritti d’acqua [2]. Le prestazioni in natura possono essere imposte all’espropriato solo se i suoi interessi e quelli dei creditori ipotecari siano sufficientemente tutelati [2]; l’assegnazione di un fondo a titolo di indennità in natura non può essere imposta senza il consenso dell’espropriato e dei creditori aventi diritti di pegno sul fondo espropriato [2].\n\n[3] Se un fiume o torrente danneggia i beni adiacenti, il proprietario del fondo inferiore può obbligare quello del fondo immediatamente superiore, danneggiato o evidentemente pericolante, a riparare il proprio fondo oppure a cedergli gratuitamente tutta la parte danneggiata o pericolante del suo fondo [3].\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale (Codice penale) disciplina direttamente le sanzioni penali per il danneggiamento della proprietà altrui; le norme cantonali regolano indennità ed espropriazioni in ambiti specifici diversi dal reato penale di danneggiamento, senza introdurre pene penali aggiuntive per questo reato.\n\n## Prossimi passi  \n- Se sei querelato per danneggiamento, presenta la querela scritta all’autorità penale competente (polizia o ministero pubblico) entro il termine di prescrizione previsto dall’art. 31 CP (di regola dieci anni per il reato di danneggiamento, salvo disposizioni contrarie); in caso di danno in pubblico assembramento, l’autorità procede d’ufficio senza necessità di querela [1].  \n- In caso di danno da corsi d’acqua, rivolgiti all’autorità cantonale competente per le opere idrauliche per verificare eventuali obblighi di riparazione o cessione gratuita del fondo secondo l’art. 154 della legge cantonale di applicazione e complemento del Codice civile svizzero [3].  \n- Per questioni di espropriazione o indennità in denaro o natura, contatta l’ente espropriante o l’autorità cantonale competente per l’applicazione dell’art. 10 della legge di espropriazione [2], presentando i documenti richiesti per la valutazione dell’indennità.\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2844,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Le fonti cantonali non trattano sanzioni penali per il danneggiamento; la norma penale è federale (CP). Le disposizioni cantonali citate riguardano indennità/espropriazione, non sanzioni penali aggiuntive per il reato di danneggiamento.",
+     "Non è una norma giuridica citabile; è un consiglio pratico non supportato da fonte."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 3675,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Nessuna fonte citata per questa indicazione procedurale."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2358,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Il testo dell’art. 144 CP non indica alcun termine di prescrizione/querela di tre mesi; tale informazione non è presente nella fonte citata."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 23,
+  "sources": [
+   "[1] fed CP Art. 144",
+   "[2] can TI 710.100 Art. 10",
+   "[3] can TI 211.100 Art. 154"
+  ]
+ },
+ {
+  "id": "T085",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 80.1,
+  "plan_s": 5.2,
+  "ttft_s": null,
+  "words": 408,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 9,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui. Une entreprise doit vous informer adéquatement dès la collecte de vos données personnelles, en communiquant au moins l’identité et les coordonnées du responsable, la finalité du traitement et les destinataires éventuels. Si les données ne sont pas collectées auprès de vous, elle doit vous transmettre ces informations au plus tard un mois après la collecte. Les institutions publiques genevoises doivent en outre pouvoir indiquer la source des données qu’elles détiennent.\n\n## Confédération  \n[1] Selon la LPD [1], le responsable du traitement doit informer la personne concernée de la collecte de données personnelles de manière adéquate. Lors de la collecte, il doit communiquer au moins :  \n- son identité et ses coordonnées [1] ;  \n- la finalité du traitement [1] ;  \n- les destinataires ou catégories de destinataires auxquels des données personnelles sont transmises [1].  \nSi les données ne sont pas collectées auprès de la personne concernée, il doit lui communiquer les informations des alinéas 2 à 4 au plus tard un mois après la collecte [1].\n\n## Canton de Genève  \n[2] Selon la LIPAD [2], la collecte de données personnelles doit être faite de manière reconnaissable pour la personne concernée.  \n[3] La LIPAD définit les notions de données personnelles [3], de traitement (let. e) et de données personnelles sensibles (let. b), qui s’appliquent à toute opération relative aux données, notamment la collecte.\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral impose l’obligation d’information lors de la collecte de données personnelles (LPD). Le canton de Genève précise que la collecte doit être reconnaissable et exige que les institutions publiques puissent indiquer la source des données qu’elles détiennent; ces dispositions cantonales complètent le cadre fédéral sans le contredire (Art. 49 Cst.).\n\n## Prochaines étapes  \n- Exiger de l’entreprise qu’elle vous communique, au moment de la collecte ou au plus tard un mois après, les informations prévues à l’art. 19 LPD : identité du responsable, finalité du traitement et destinataires éventuels.  \n- Si les données sont collectées sans votre intervention directe, demander par écrit à l’entreprise les catégories de données traitées et les garanties en cas de transfert à l’étranger [1].  \n- En cas de doute sur le respect de ces obligations, saisir le Préposé fédéral à la protection des données et à la transparence (PFPDT) ou, pour les institutions genevoises, le Préposé cantonal à la protection des données et à la transparence (PPDT).\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 881,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2069,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 886,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 12,
+  "sources": [
+   "[1] fed LPD Art. 19 Devoir d’informer lors de la collecte de données personnelles",
+   "[2] can GE A 2 08 Art. 38",
+   "[3] can GE A 2 08 Art. 4"
+  ]
+ },
+ {
+  "id": "T086",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 74.5,
+  "plan_s": 6.5,
+  "ttft_s": null,
+  "words": 496,
+  "citations": 34,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nEin Unternehmen muss eine Datenschutzverletzung melden, wenn sie voraussichtlich zu einem hohen Risiko für die Persönlichkeit oder die Grundrechte der betroffenen Person führt [1]. Die Meldung ist unverzüglich an den EDÖB zu richten und muss mindestens die Art der Verletzung, deren Folgen sowie die ergriffenen oder vorgesehenen Massnahmen enthalten [1]. Öffentliche Organe im Kanton Basel-Stadt melden die Verletzung unverzüglich dem Datenschutzbeauftragten [3][5]; eine Meldepflicht entfällt, wenn die Verletzung voraussichtlich kein Risiko für Grundrechte darstellt [3][5]. Einschränkung, Aufschub oder Verzicht auf Information sind zulässig, wenn Gründe nach Art. 26 DSG bzw. § 29 BS vorliegen [1][3][5].\n\n## Bund  \n- Nach Art. 24 Abs. 1 DSG meldet der Verantwortliche dem EDÖB so rasch als möglich eine Verletzung der Datensicherheit, die voraussichtlich zu einem hohen Risiko für die Persönlichkeit oder die Grundrechte der betroffenen Person führt [1].  \n- Die Meldung muss mindestens die Art der Verletzung der Datensicherheit, deren Folgen und die ergriffenen oder vorgesehenen Massnahmen enthalten [1].  \n- Der Auftragsbearbeiter informiert den Verantwortlichen unverzüglich über eine Verletzung der Datensicherheit [1].  \n- Der Verantwortliche informiert die betroffene Person, wenn es zu ihrem Schutz erforderlich ist oder der EDÖB es verlangt [1].  \n- Die Information kann eingeschränkt, aufgeschoben oder unterlassen werden, wenn ein Grund nach Art. 26 Abs. 1 lit. b oder Abs. 2 lit. b DSG vorliegt, die Information unmöglich oder unverhältnismässig ist oder eine vergleichbare öffentliche Bekanntmachung erfolgt [1].\n\n## Kanton Basel-Stadt  \n- Das verantwortliche öffentliche Organ meldet der oder dem Datenschutzbeauftragten ohne unangemessene Verzögerung eine Datenschutzverletzung [3][5].  \n- Eine Datenschutzverletzung liegt vor, wenn durch eine Verletzung der Informationssicherheit bearbeitete Personendaten unwiederbringlich vernichtet, verloren gehen, unbeabsichtigt oder unrechtmässig verändert oder offenbart werden oder Unbefugte Zugang erhalten [3][5].  \n- Eine Meldepflicht besteht nicht, wenn die Datenschutzverletzung voraussichtlich nicht zu einem Risiko für die Grundrechte der betroffenen Person führt [3][5].  \n- Das öffentliche Organ informiert die betroffenen Personen, wenn die Umstände dies erfordern oder der oder die Datenschutzbeauftragte es verlangt [3][5].  \n- Die Benachrichtigung der betroffenen Personen kann ganz oder teilweise unterbleiben oder aufgeschoben werden, wenn eine Einschränkung gemäss § 29 zulässig ist [3][5].\n\n## Gemeinde Basel  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nKantonale und kommunale Bestimmungen konkretisieren die Meldewege und Adressaten (Datenschutzbeauftragte statt EDÖB) sowie die Definition der Datenschutzverletzung; sie ergänzen das Bundesrecht, wobei Bundesrecht nach Art. 49 BV vorgeht.\n\n## Nächste Schritte  \n- Prüfen, ob die Verletzung voraussichtlich zu einem hohen Risiko für die Persönlichkeit oder Grundrechte der betroffenen Person führt [1].  \n- Bei öffentlichem Organ im Kanton Basel-Stadt: unverzügliche Meldung an den Datenschutzbeauftragten mit Art der Verletzung, Folgen und Massnahmen [3][5].  \n- Bei privatem Unternehmen: unverzügliche Meldung an den EDÖB mit den in Art. 24 Abs. 2 DSG geforderten Angaben [1].  \n- Betroffene Personen informieren, sofern erforderlich oder vom EDÖB verlangt [1]; bei öffentlichem Organ nach kantonalem Recht, wenn die Umstände dies erfordern oder der Datenschutzbeauftragte es verlangt [3][5].  \n- Dokumentieren, ob Gründe für Einschränkung, Aufschub oder Verzicht auf Information nach Art. 26 DSG bzw. § 29 BS vorliegen [1][3][5].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 1091,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "DSG Art. 26 Einschränkungen des Auskunftsrechts"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 1329,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1309,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 1,
+  "claims_checked": 11,
+  "sources": [
+   "[1] fed DSG Art. 24 Meldung von Verletzungen der Datensicherheit",
+   "[2] fed DSG Art. 19 Informationspflicht bei der Beschaffung von Personendaten",
+   "[3] can BS 153.260 § 16a",
+   "[4] can BS 153.260 § 14",
+   "[5] com Basel: 153.260 Gesetz über die Information und den Datenschutz § 16a",
+   "[6] com Basel: 153.260 Gesetz über die Information und den Datenschutz § 16",
+   "[7] fed DSG Art. 26 Einschränkungen des Auskunftsrechts"
+  ]
+ },
+ {
+  "id": "T087",
+  "lang": "en",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 159.2,
+  "plan_s": 6.2,
+  "ttft_s": null,
+  "words": 755,
+  "citations": 23,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 3,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Short answer\nYes. Under federal law [1], you may demand from any data controller—including a private company—that it disclose whether it processes personal data about you and, if so, provide the data together with the information listed in DSG Art. 25 Abs. 2 lit. a–g. The controller may refuse, restrict or postpone disclosure only under the conditions set out in DSG Art. 26 [2]. Cantonal law (ZH DSG § 12.28) confirms this right against public bodies; the Zürich communal ordinance [7] provides a specific written-application procedure for accessing certain municipal personal data held by the Population Office, but it does not extend the right to private companies beyond federal law.\n\n## Federal level\n- Right to request: Any person may demand from any data controller—including a private company—that it disclose whether personal data about them are processed and, if yes, provide the data together with the information in DSG Art. 25 Abs. 2 lit. a–g [1].\n- Required information: Identity and contact details of the controller; the personal data themselves; purpose of processing; retention period or criteria for determining it; origin of data if not collected from the person; details of any automated decision-making and its logic; recipients or categories of recipients if data are disclosed to third parties [1].\n- Limitations: The controller may refuse, restrict or postpone disclosure if a formal law so provides (e.g., professional secrecy) [2]; if third-party interests outweigh the data subject’s interests [2]; or if the request is manifestly unfounded or harassing [2].\n- Reasoning: The controller must state the grounds for any limitation [2].\n\n## Canton Zürich\n- Right to request: Every person has the right to access their own personal data held by a public body; the same principle applies to private companies under federal law [6] § 12.28.\n- Information to be provided: Identity of the public body; categories or the data themselves; legal basis and purpose of processing; data recipients if disclosed; rights of the data subject [6].\n- Exceptions to information: If the person already possesses the information; if data collection is legally required; if providing the information is impossible or would require disproportionate effort; or in cases listed in § 23 (not detailed in excerpt) [6].\n- Reporting duty: Public bodies must immediately notify the cantonal data protection officer of unauthorized processing or loss of personal data if fundamental rights are at risk [6] § 12 a.27; they must inform the data subject if circumstances require or the officer demands it.\n\n## Commune Zürich\n- Access via written application: Private individuals may request access to specific municipal personal data (listed in § 18 Abs. 2 MERG) from the Population Office through a written application [7] Art. 4.\n- Application requirements: Must contain description of all requested data with intended use; proof of a legitimate interest for the data listed in § 18 Abs. 2 MERG; justification for needing access via the retrieval procedure [7] Art. 4 Para 2.\n- Decision: The Population Office issues a written decision and may attach conditions [7] Art. 4 Para 3.\n- Data scope: Only necessary personal data may be retrieved [7] Art. 4 Para 4.\n\n## How the levels fit together\nFederal law (DSG) establishes the substantive right to access personal data held by any data controller, including private companies; cantonal law (ZH DSG § 12.28) confirms this right against public bodies; communal ordinance [7] provides a specific procedure for accessing certain municipal data held by the Population Office, but it does not extend the right to private companies beyond what federal law already grants.\n\n## Next steps\n- Step 1: Send a written request (by mail or email) to the company’s data protection contact or the person responsible for data processing, clearly identifying the personal data you wish to see [1].\n- Step 2: If the data are held by a Zürich public body, submit the request to the Population Office with the required details (data description, legitimate interest, justification for retrieval procedure) as per communal ordinance [7].\n- Step 3: If the company refuses or limits disclosure, ask for written reasons under DSG Art. 26 [2]; if dissatisfied, lodge a complaint with the cantonal data protection officer within 30 days of receiving the decision [6] § 12 a.27.\n- Step 4: If the company is not a public body and you remain concerned, file a complaint with the federal data protection and information commissioner (EDÖB) within 30 days of the company’s response, in accordance with DSG Art. 30 [8].\n\n*Legal information, not legal advice.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 4862,
+    "unreadable": false,
+    "issues": 3,
+    "added": [
+     "DSG Art. 30 Persönlichkeitsverletzungen"
+    ],
+    "revised": true,
+    "notes": [
+     "Canton Zürich cantonal law (ZH DSG § 12.28) is cited correctly in the answer, but the communal ordinance [7] is not cited for this sentence. The sentence incorrectly implies that the communal ordinance [7] provides the right to request data from private companies, whereas [7] only governs access to specific municipal data via the Population Office. The cantonal law (ZH DSG § 12.28) does provide the right against public bodies, but the answer conflates cantonal law with the communal ordinance regarding private companies.",
+     "DSG Art. 25 does not specify that the request must be addressed to a 'data protection officer' or that the purpose must be stated in the request. The source only guarantees the right to request information and receive the listed details if data are processed. The procedural instruction in the answer is not supported by the cited source.",
+     "DSG Art. 25 does not mention filing a complaint with the EDÖB as a next step. The complaint procedure is governed by Art. 30 DSG, but the source [1] does not contain the procedural details about filing with the EDÖB within 30 days. The answer incorrectly cites Art. 25 for this procedural instruction."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 4117,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "The claim mixes cantonal law (§ 12.28) with a communal ordinance (§ 4 of Zürich DSV) and incorrectly suggests the communal ordinance extends the right to private companies beyond federal law; communal ordinance [7] only governs access to municipal data held by the Population Office, not private companies."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 2862,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Deadline, authority name, or specific citation missing; this is procedural advice not directly supported by cited sources"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 27,
+  "sources": [
+   "[1] fed DSG Art. 25 Auskunftsrecht",
+   "[2] fed DSG Art. 26 Einschränkungen des Auskunftsrechts",
+   "[3] fed DSG Art. 19 Informationspflicht bei der Beschaffung von Personendaten",
+   "[4] can ZH 170.4 § 20",
+   "[5] can ZH 170.41 § 12",
+   "[6] can ZH 170.4 § 12",
+   "[7] com Zürich: 236.100 Datenschutzverordnung (DSV) Art. 4",
+   "[8] fed DSG Art. 30 Persönlichkeitsverletzungen"
+  ]
+ },
+ {
+  "id": "T088",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 109.5,
+  "plan_s": 6.7,
+  "ttft_s": null,
+  "words": 443,
+  "citations": 15,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 4,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLa diffamation est l’acte, sur plainte, d’accuser une personne ou de jeter sur elle le soupçon d’une conduite contraire à l’honneur ou de tout autre fait propre à porter atteinte à sa considération, en s’adressant à un tiers [1]. Elle est punie d’une peine pécuniaire. L’auteur n’encourt aucune peine s’il prouve que les allégations sont conformes à la vérité ou s’il avait des raisons sérieuses de les tenir de bonne foi [1]. Il est punissable s’il agit sans intérêt public ni autre motif suffisant, principalement dans le dessein de nuire [1]. Si l’auteur reconnaît la fausseté de ses allégations et les rétracte, le juge peut atténuer la peine ou y renoncer [1]. Le droit de porter plainte se prescrit par trois mois à compter du jour où le lésé a connu l’auteur de l’infraction [7], et l’action pénale se prescrit par quatre ans [4].\n\n## Confédération  \n- Art. 173 CP : Quiconque, en s’adressant à un tiers, accuse une personne ou jette sur elle le soupçon d’une conduite contraire à l’honneur ou de tout autre fait propre à porter atteinte à sa considération, ou propage une telle accusation ou un tel soupçon, est, sur plainte, puni d’une peine pécuniaire [1].  \n- L’auteur n’encourt aucune peine s’il prouve que les allégations sont conformes à la vérité ou qu’il avait des raisons sérieuses de les tenir de bonne foi [1].  \n- L’auteur est punissable s’il agit sans intérêt public ni autre motif suffisant, principalement dans le dessein de dire du mal d’autrui, notamment lorsque les allégations concernent la vie privée ou la vie de famille [1].  \n- Si l’auteur reconnaît la fausseté de ses allégations et les rétracte, le juge peut atténuer la peine ou y renoncer [1].  \n- L’action pénale se prescrit par quatre ans [4].\n\n## Canton de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Commune de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe les éléments constitutifs, la sanction et les délais de prescription de la diffamation; le canton de Neuchâtel n’a pas fourni de règles spécifiques complémentaires sur ce point.\n\n## Prochaines étapes  \n- Déposer une plainte pénale auprès du Ministère public compétent dans les trois mois suivant la connaissance de l’auteur de l’infraction [7].  \n- Rassembler les preuves de la vérité ou les raisons sérieuses de croire à la véracité des allégations, conformément à l’art. 173 al. 2 CP [1], ou préparer une rétractation écrite en cas de reconnaissance de fausseté, comme prévu à l’art. 173 al. 4 CP [1].  \n- Respecter le délai de prescription de l’action pénale de quatre ans [4] pour toute démarche judiciaire.  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2392,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour ce délai de plainte",
+     "Pas de source citée pour ces exigences procédurales"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2493,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "CP Art. 31"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour ce délai de plainte dans les sources fournies"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 2532,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Deadline provided without citation"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 27,
+  "sources": [
+   "[1] fed CP Art. 173",
+   "[2] fed CP Art. 174",
+   "[3] fed CP Art. 177",
+   "[4] fed CP Art. 178",
+   "[5] can NE 312.0 Art. 53",
+   "[6] can NE 312.0 Art. 64",
+   "[7] fed CP Art. 31"
+  ]
+ },
+ {
+  "id": "T089",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 133.4,
+  "plan_s": 5.3,
+  "ttft_s": null,
+  "words": 327,
+  "citations": 7,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa. Die heimliche Aufnahme eines Telefongesprächs ist nach Art. 179bis StGB auf Antrag mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe strafbar, wenn es sich um ein fremdes nichtöffentliches Gespräch ohne Einwilligung aller Beteiligten handelt. Ebenso macht sich nach Art. 179ter StGB strafbar, wer als Gesprächsteilnehmer ein nichtöffentliches Gespräch ohne Einwilligung der anderen aufnimmt. Nach Art. 179quater StGB ist es strafbar, eine Tatsache aus dem Geheim- oder Privatbereich eines anderen ohne dessen Einwilligung mit einem Aufnahmegerät zu beobachten oder aufzunehmen. Kantonale Polizeibefugnisse nach Art. 52ter und Art. 52quater SG PolG regeln die Observation und verdeckte Fahndung durch die Polizei und begründen keine Berechtigung für Privatpersonen, Telefongespräche heimlich aufzunehmen. Art. 49 BV gewährleistet den Vorrang des Bundesrechts.\n\n## Bund\n- Nach Art. 179bis StGB wird auf Antrag bestraft, wer ein fremdes nichtöffentliches Gespräch ohne Einwilligung aller daran Beteiligten mit einem Abhörgerät abhört oder auf einen Tonträger aufnimmt [1].\n- Nach Art. 179ter StGB wird auf Antrag bestraft, wer als Gesprächsteilnehmer ein nichtöffentliches Gespräch ohne Einwilligung der anderen auf einen Tonträger aufnimmt [2].\n- Nach Art. 179quater StGB wird auf Antrag bestraft, wer eine Tatsache aus dem Geheimbereich eines anderen oder eine nicht jedermann ohne weiteres zugängliche Tatsache aus dem Privatbereich eines anderen ohne dessen Einwilligung mit einem Aufnahmegerät beobachtet oder auf einen Bildträger aufnimmt [3].\n\n## Kanton St. Gallen\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde St. Gallen\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKantonale Polizeibefugnisse [4] und [5] regeln die Observation und verdeckte Fahndung durch die Polizei; sie begründen keine Berechtigung für Privatpersonen, Telefongespräche heimlich aufzunehmen. Art. 49 BV: Bundesrecht geht entgegenstehenden kantonalen oder kommunalen Bestimmungen vor.\n\n## Nächste Schritte\n- Bei Verdacht einer strafbaren Aufnahme: Anzeige bei einer Strafverfolgungsbehörde (Polizei oder Staatsanwaltschaft) erstatten [7].\n- Als betroffene Person: Strafantrag bei der Polizei oder Staatsanwaltschaft stellen, sofern die Tat nicht von Amtes wegen verfolgt wird [7].\n- Konkrete Fristen oder Gebühren für die Anzeigeerstattung sind in den zitierten Quellen nicht genannt.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 3761,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "StPO Art. 30 Ausnahmen"
+    ],
+    "revised": true,
+    "notes": [
+     "Die kantonalen Polizeibefugnisse (Art. 52ter und Art. 52quater SG PolG) sind nicht zitiert, und die Aussage, dass sie nichts an den strafrechtlichen Verboten für Privatpersonen ändern, ist eine rechtliche Schlussfolgerung, die nicht explizit in den zitierten Strafgesetzartikeln (179bis, 179ter, 179quater StGB) enthalten ist. Zudem fehlt eine Zitation für diese Behauptung.",
+     "Die Quelle für die Verfahrensweise der Anzeigeerstattung (z. B. Art. 301 StPO) fehlt. Die Antwort nennt keine konkrete Gesetzesbestimmung für das Vorgehen bei der Anzeige.",
+     "Die Quelle für die Voraussetzungen des Strafantrags (z. B. Art. 30 StGB) fehlt. Die Antwort nennt keine Gesetzesbestimmung, die diese Verfahrensschritte regelt.",
+     "Die Aussage, dass keine Fristen oder Gebühren genannt sind, ist korrekt, aber da keine Quelle für die Anzeigeerstattung zitiert wurde, ist die Aussage als eigenständige Behauptung ohne Beleg zu werten. Zudem ist die Aussage redundant, da keine Quelle zitiert wurde, die Fristen oder Gebühren enthalten würde."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 4208,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die zitierten kantonalen Artikel [4] und [5] regeln Befugnisse der Polizei (Observation, verdeckte Fahndung), nicht die Berechtigung von Privatpersonen. Die Aussage ist nicht durch die angegebenen Quellen belegt.",
+     "Die Aussage ist eine allgemeine Verfassungsbestimmung, aber im Kontext der spezifischen Frage nach der Strafbarkeit der Aufnahme durch Privatpersonen wird Art. 49 BV nicht durch die angegebenen Quellen [1-6] belegt oder spezifisch auf die Strafnormen bezogen.",
+     "Art. 6 StPO regelt die Anzeigepflicht und -möglichkeit, enthält aber keine spezifische Verpflichtung zur Einreichung einer Strafanzeige durch Privatpersonen im Sinne einer konkreten Handlungsanweisung wie im Answer formuliert. Die Quelle bezieht sich auf die Zuständigkeit der Staatsanwaltschaft und Gerichte, nicht auf die Handlung des Bürgers.",
+     "Art. 30 StPO regelt die Trennung und Vereinigung von Verfahren, Art. 6 StPO die Anzeigepflicht. Die spezifische Handlungsanweisung zur Stellung eines Strafantrags ist nicht durch die zitierte Quelle [6] gedeckt."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3623,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "StPO Art. 301 Anzeigerecht"
+    ],
+    "revised": true,
+    "notes": [
+     "Die Quelle [4] und [5] regeln Observation und verdeckte Fahndung durch die Polizei, nicht die Aufnahme von Telefongesprächen durch Privatpersonen. Die Aussage ist nicht durch die angegebenen Quellen belegt.",
+     "Die Aussage ist eine allgemeine Rechtsgrundlage, aber keine spezifische Ausführung aus einer der zitierten Quellen.",
+     "Art. 6 StPO regelt die Anzeigepflicht und die Möglichkeit der Anzeigeerstattung, aber nicht explizit die Erstattung einer Strafanzeige bei Polizei oder Staatsanwaltschaft als konkrete Handlungsschritt in diesem Kontext. Die Quelle [6] behandelt die Trennung/Vereinigung von Verfahren.",
+     "Art. 6 StPO regelt die Trennung/Vereinigung von Verfahren, nicht die Stellung eines Strafantrags. Eine passende Quelle wäre Art. 30 StPO (Zuständigkeit) oder Art. 301 StPO (Anzeigepflicht)."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 2,
+  "claims_checked": 23,
+  "sources": [
+   "[1] fed StGB Art. 179bis",
+   "[2] fed StGB Art. 179ter",
+   "[3] fed StGB Art. 179quater",
+   "[4] can SG 451.1 Art. 52ter",
+   "[5] can SG 451.1 Art. 52quater",
+   "[6] fed StPO Art. 30 Ausnahmen",
+   "[7] fed StPO Art. 301 Anzeigerecht"
+  ]
+ },
+ {
+  "id": "T090",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 174.2,
+  "plan_s": 8.8,
+  "ttft_s": null,
+  "words": 769,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 6,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour installer une caméra de surveillance filmant la rue publique à Sion, vous devez respecter les règles cantonales et communales valaisannes. Au niveau fédéral, la LPD impose des principes de protection des données applicables au traitement des images collectées [1][2], mais ne réglemente pas directement l’installation de caméras publiques. Au niveau cantonal, la vidéosurveillance de l’espace public est autorisée uniquement pour des motifs d’intérêt public et selon le principe de proportionnalité [3]; elle peut viser la surveillance directe pour une intervention rapide, la régulation du trafic, les manifestations avec présomption sérieuse d’infractions ou la prévention d’un crime/délit lorsque les autres modes d’intervention paraissent insuffisants. À Sion, le règlement communal exige que la mesure vise la sauvegarde de l’ordre et de la sécurité publics, soit décidée par l’autorité, que la population soit informée lorsqu’elle entre dans le champ d’action des caméras, que les données ne soient exploitées que pour les besoins d’une enquête pénale ou de police, que l’accès aux enregistrements soit limité aux organes de police et de justice, que l’accord écrit du propriétaire privé soit obtenu si le champ d’action capte un domaine privé, et que l’autorité édicte des directives techniques et organisationnelles [7].\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Valais  \n- Art. 58 Loi sur la police cantonale [3]: la vidéo et l’audio-surveillance dans l’espace public sont autorisées uniquement si elles sont dictées par un motif d’intérêt public et respectent le principe de proportionnalité; les buts admissibles sont la surveillance directe pour une intervention rapide (let. a), la régulation du trafic (let. b), les manifestations avec présomption sérieuse d’infractions (let. c), ou la prévention d’un crime/délit lorsque les autres modes d’intervention paraissent insuffisants (let. d).  \n- Art. 28a Loi sur l’information, la protection des données et l’archivage [5]: l’installation d’appareils de prise de vues dans l’espace public communal à des fins de sécurité et d’ordre publics nécessite des dispositions dans un règlement communal avalisé par le conseil général ou l’assemblée primaire et homologué par le Conseil d’État; le canton publie des dispositions types; le règlement communal doit définir les personnes habilitées à visionner les images, dûment assermentées.\n\n## Commune de Sion  \n- Article 21 bis Règlement communal de police [7]: le recours à des moyens vidéo à des fins de surveillance du domaine public et du patrimoine administratif est légitimé lorsqu’il vise la sauvegarde de l’ordre et de la sécurité publics; l’autorité décide d’engager de tels moyens; la population est informée lorsqu’elle entre dans le champ d’action des caméras; les données ne peuvent être exploitées que pour les besoins d’une enquête pénale ou de police; si le champ d’action des caméras couvre, en tout ou en partie un domaine privé, l’accord écrit du propriétaire privé est nécessaire; l’autorité édicte des directives concernant les mesures organisationnelles et techniques d’utilisation des moyens vidéo.\n\n## Articulation des niveaux  \nLe droit fédéral (LPD) fixe les principes de protection des données applicables au traitement des données collectées par vidéosurveillance [1][2], mais ne contient pas de règles d’installation de caméras publiques. Le canton du Valais précise les motifs, buts et modalités de la vidéosurveillance dans l’espace public cantonal et communal, ainsi que l’homologation des règlements communaux [5]. La commune de Sion complète ces règles par un règlement qui impose que la vidéosurveillance vise la sauvegarde de l’ordre et de la sécurité publics, soit décidée par l’autorité, que la population soit informée, que les données ne soient exploitées que pour les besoins d’une enquête pénale ou de police, que l’accès aux enregistrements soit limité aux organes de police et de justice, que l’accord du propriétaire privé soit requis si le champ d’action capte un domaine privé, et que l’autorité édicte des directives techniques et organisationnelles [7].\n\n## Prochaines étapes  \n- Adresser une demande écrite à l’autorité compétente de la commune de Sion [7] en précisant le but de la vidéosurveillance (sauvegarde de l’ordre et de la sécurité publics), l’emplacement exact, les mesures de protection de la sphère privée prévues et les personnes habilitées à visionner les images.  \n- Obtenir l’aval du conseil général ou de l’assemblée primaire et l’homologation du Conseil d’État si le règlement communal doit être adopté ou modifié [5].  \n- Respecter les exigences du règlement communal de Sion : limiter l’exploitation des données aux besoins d’une enquête pénale ou de police, restreindre l’accès aux enregistrements aux organes de police et de justice, et obtenir l’accord écrit du propriétaire privé si le champ d’action de la caméra capte un domaine privé.  \n- Mettre en place les directives organisationnelles et techniques édictées par l’autorité communale pour l’utilisation des moyens vidéo [7].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 5409,
+    "unreadable": false,
+    "issues": 8,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source citée ne confirme cette exigence d'autorisation communale pour un particulier. Les sources cantonales et communales traitent de la vidéosurveillance par les autorités publiques, mais pas de l'obligation d'un particulier d'obtenir une autorisation communale pour installer une caméra filmant la rue.",
+     "L'art. 16 LPD traite de la communication de données personnelles à l'étranger, pas de la vidéosurveillance publique. Aucune source ne mentionne l'art. 16 LPD comme régissant la surveillance publique.",
+     "Aucune source citée ne contient l'ensemble de ces affirmations spécifiques (but exclusif, décision par l'autorité, information de la population, durée de conservation de 30 jours sauf enquête, accès restreint). L'art. 21 bis du règlement communal de Sion mentionne la sauvegarde de l'ordre et de la sécurité publics, l'autorisation de l'autorité, l'information de la population, l'utilisation pour enquête pénale/police, mais ne fixe pas explicitement une durée de conservation de 30 jours ni un accès strictement limité aux organes de police et de justice.",
+     "Cette affirmation n'est pas explicitement formulée dans les sources fournies. L'art. 21 bis du règlement communal de Sion indique que le recours à des moyens vidéo est légitimé lorsqu'il vise la sauvegarde de l'ordre et de la sécurité publics, mais ne précise pas explicitement que seule l'autorité peut décider de l'engagement dans le texte fourni."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 3657,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source citée ne confirme cette exigence d'autorisation communale pour une installation privée filmant la rue publique; les sources cantonales et communales prévoient des règles pour la police ou les communes, mais pas une obligation générale d'autorisation pour un particulier.",
+     "Les sources [1] et [2] de la LPD traitent de la communication de données personnelles et des atteintes à la personnalité, mais ne contiennent pas de disposition fédérale directement applicable à l'installation de caméras publiques filmant la rue.",
+     "Cette phrase résume plusieurs règles mais mélange des éléments provenant de sources différentes sans citation précise. Par exemple, l'exigence que la mesure vise la sauvegarde de l'ordre et de la sécurité publics et soit décidée par l'autorité provient de l'art. 58 de la Loi sur la police cantonale [3] et de l'art. 21 bis du règlement communal de Sion [7]. L'exigence d'information de la population et de limitation de l'exploitation des données provient de l'art. 21 bis du règlement communal de Sion [7]. Aucune source citée ne contient l'ensemble de ces conditions dans une seule disposition.",
+     "Cette phrase provient de l'art. 21 bis du règlement communal de Sion [7] mais aucune source n'est citée dans l'answer pour cette affirmation."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2453,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Aucune source citée ne confirme cette affirmation générale. Les sources cantonales et communales précisent les conditions, mais aucune ne contient une phrase aussi générale sans référence.",
+     "Source [3] et [5] sont pertinentes pour le canton et la commune."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 17,
+  "sources": [
+   "[1] fed LPD Art. 16 Principes",
+   "[2] fed LPD Art. 30 Atteintes à la personnalité",
+   "[3] can VS 550.1 Art. 58",
+   "[4] can VS 550.1 Art. 58a",
+   "[5] can VS 170.2 Art. 28a",
+   "[6] can VS 550.1 Art. 59a",
+   "[7] com Sion: Règlement communal de police Article 21 bis",
+   "[8] fed CO Art. 266c"
+  ]
+ },
+ {
+  "id": "T091",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 10,
+  "total_s": 205.2,
+  "plan_s": 6.5,
+  "ttft_s": null,
+  "words": 674,
+  "citations": 21,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 20"
+  ],
+  "prose_left": 1,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nBei der direkten Bundessteuer können Sie Berufskosten bis maximal CHF 3'300 für die Fahrt zwischen Wohn‑ und Arbeitsstätte, pauschale Mehrkosten für auswärtige Verpflegung und übrige berufliche Kosten, private Schuldzinsen bis zu den steuerbaren Vermögenserträgen plus CHF 50'000, dauernde Lasten sowie 40 % der bezahlten Leibrenten, Unterhaltsbeiträge an getrennt lebende Ehegatten oder Kinder, Einlagen/Prämien an AHV/IV und berufliche Vorsorge, Beiträge an anerkannte gebundene Selbstvorsorge, Prämien für Erwerbsersatz‑, Arbeitslosen‑ und obligatorische Unfallversicherung sowie freiwillige Spenden bis zu 20 % der um die Aufwendungen verminderten Einkünfte (mindestens CHF 100 pro Steuerjahr) abziehen. Im Kanton Zürich gelten höhere Berufskosten‑Grenze (CHF 5'200), ein höherer Pauschalansatz für auswärtige Verpflegung, 40 % der Leibrenten‑Erträge, ein zusätzlicher Abzug für Krankheits‑ und Unfallkosten (ab 5 % der bereinigten Einkünfte) sowie dieselben Spenden‑Bedingungen wie auf Bundesebene. Kommunale Steuern sind in der Schweiz nicht vorgesehen; kantonale Regelungen dürfen nicht im Widerspruch zum Bundesrecht stehen (Art. 49 BV).\n\n## Bund  \n- Berufskosten: CHF 3'300 für Fahrten zwischen Wohn‑ und Arbeitsstätte; darüber hinaus notwendige Mehrkosten für auswärtige Verpflegung und übrige berufliche Kosten nach Art. 26 Abs. 1 DBG [2].  \n- Private Schuldzinsen: im Umfang der nach Art. 20, 20a und 21 steuerbaren Vermögenserträge plus CHF 50'000; Ausnahmen bei ungewöhnlichen Darlehensbedingungen [4].  \n- Dauernde Lasten und Leibrenten: dauernde Lasten sowie 40 % des Ertragsanteils aus Leibrenten‑Verträgen [4].  \n- Unterhaltsbeiträge: an geschiedene, gerichtlich oder tatsächlich getrennt lebende Ehegatten sowie an Kinder, nicht jedoch andere familienrechtliche Leistungen [4].  \n- Sozialabzüge: CHF 6'800 pro minderjähriges oder in Ausbildung stehendes Kind [4] und CHF 6'800 pro erwerbsunfähige oder beschränkt erwerbsfähige Person, zu deren Unterhalt der Steuerpflichtige mindestens in Höhe des Abzugs beiträgt; nicht für Ehegatten und Kinder, für die bereits ein Kinderabzug gewährt wird [6].  \n- Freiwillige Spenden: bis zu 20 % der um die Aufwendungen (Art. 26–33) verminderten Einkünfte, mindestens CHF 100 pro Steuerjahr; im gleichen Umfang abzugsfähig für Bund, Kantone, Gemeinden und deren Anstalten [5].\n\n## Kanton Zürich  \n- Berufskosten: CHF 5'200 für Fahrten zwischen Wohn‑ und Arbeitsstätte [7]; darüber hinaus notwendige Mehrkosten für auswärtige Verpflegung und übrige berufliche Kosten.  \n- Private Schuldzinsen: im Umfang der nach §§ 20, 20a und 21 steuerbaren Vermögenserträge plus CHF 50'000 [8].  \n- Dauernde Lasten und Leibrenten: 40 % der bezahlten Leibrenten [8].  \n- Unterhaltsbeiträge: an geschiedene, gerichtlich oder tatsächlich getrennt lebende Ehegatten sowie an Kinder, nicht jedoch andere familienrechtliche Leistungen [8].  \n- Weitere Abzüge: Einlagen/Prämien an AHV/IV, berufliche Vorsorge, gebundene Selbstvorsorge, Erwerbsersatz‑, Arbeitslosen‑ und obligatorische Unfallversicherung sowie Prämien für Lebens‑, Kranken‑ und nicht unter lit. f fallende Unfallversicherung und Zinsen von Sparkapitalien [8].  \n- Krankheits‑ und Unfallkosten: abziehbar, wenn der Steuerpflichtige die Kosten selbst trägt und diese 5 % der um die Aufwendungen gemäss §§ 26–31 verminderten steuerbaren Einkünfte übersteigen [9].  \n- Freiwillige Spenden: bis zu 20 % der um die Aufwendungen gemäss §§ 26–31 verminderten steuerbaren Einkünfte, mindestens CHF 100 pro Steuerperiode; an Bund, Kanton, Gemeinden und deren Anstalten sowie an andere gemeinnützige juristische Personen mit Sitz in der Schweiz [9].\n\n## Gemeinde Zürich  \nIn der Schweiz gibt es keine kommunalen Steuern.\n\n## Zusammenspiel der Ebenen  \nKantonale Regelungen konkretisieren die bundesrechtlichen Abzüge; sie dürfen nicht im Widerspruch zum Bundesrecht stehen (Art. 49 BV). Bei Abweichungen gehen die bundesrechtlichen Vorgaben vor.\n\n## Nächste Schritte  \n1. Sammeln Sie Belege für Berufskosten (Fahrtkosten, Verpflegungsbelege, Spesenbelege) und wählen Sie entweder den Pauschalansatz oder den Nachweis höherer Kosten [2][7].  \n2. Prüfen Sie Ihre Schuldzinsen‑Belege und addieren Sie die steuerbaren Vermögenserträge; ergänzen Sie bis maximal CHF 50'000 [4].  \n3. Erfassen Sie Unterhaltszahlungen und dokumentieren Sie die Trennung bzw. elterliche Sorge, um den Kinder‑ bzw. Unterstützungsabzug zu beanspruchen [6].  \n4. Legen Sie Nachweise für geleistete Sozialversicherungs‑ und Vorsorgebeiträge sowie für freiwillige Spenden (mindestens CHF 100 pro Jahr, insgesamt ≤ 20 % der bereinigten Einkünfte) vor [5][9].  \n5. Bei Krankheits‑ und Unfallkosten: Belegen Sie die selbst getragenen Kosten und berechnen Sie, ob sie mindestens 5 % der um die Aufwendungen gemäss §§ 26–31 verminderten Einkünfte ausmachen [9].  \n6. Reichen Sie die Steuererklärung fristgerecht beim kantonalen Steueramt Zürich ein; die genaue Frist richtet sich nach kantonaler Verordnung (aktuell in der Regel bis Ende März des Folgejahres).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 13,
+    "raw_chars": 2896,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "OR Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "keine Quelle nennt, dass es keine kommunalen Steuern gibt; kommunale Steuern existieren in vielen Gemeinden"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 13,
+    "raw_chars": 3045,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "keine Quelle nennt das Fehlen kommunaler Steuern; die Aussage ist nicht belegt",
+     "keine Quelle zitiert Art. 49 BV in diesem Zusammenhang"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 19,
+    "raw_chars": 4740,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "keine kantonale oder kommunale Quelle für Gemeindesteuern existiert",
+     "keine Quelle nennt diese Frist"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 45,
+  "sources": [
+   "[1] fed DBG Art. 25",
+   "[2] fed DBG Art. 26",
+   "[3] fed DBG Art. 32",
+   "[4] fed DBG Art. 33 Schuldzinsen und andere Abzüge",
+   "[5] fed DBG Art. 33a Freiwillige Leistungen",
+   "[6] fed DBG Art. 35",
+   "[7] can ZH 631.1 § 26",
+   "[8] can ZH 631.1 § 31",
+   "[9] can ZH 631.1 § 32",
+   "[10] fed OR Art. 266c"
+  ]
+ },
+ {
+  "id": "T092",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 14,
+  "total_s": 185.3,
+  "plan_s": 8.5,
+  "ttft_s": null,
+  "words": 785,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "articolo 22"
+  ],
+  "prose_left": 0,
+  "repaired": 11,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": false,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nIn Ticino, per l’imposta federale diretta e cantonale/comunale, puoi dedurre le seguenti spese:  \n- spese professionali per dipendenti (trasporto, doppia economia domestica, alloggio) secondo gli art. 26 e 33 LIFD e gli art. 2–6 del Decreto esecutivo TI 640.210;  \n- interessi su debiti privati fino a 50 000 CHF più i redditi da sostanza imponibili [6];  \n- alimenti al coniuge divorziato/separato e agli figli sotto autorità parentale [6];  \n- contributi AVS/AI e a istituzioni previdenziali professionali [6];  \n- contributi alla previdenza individuale vincolata [7];  \n- deduzioni sociali: 6 800 CHF per figlio minorenne o in formazione, 6 800 CHF per persona a carico totalmente o parzialmente incapace di lavorare, 2 800 CHF per coniugi in comunione domestica [8];  \n- valore locativo dell’abitazione primaria: mediamente 60‑70 % del valore di mercato della pigione; in mancanza di elementi utili, di regola 90 % del valore di reddito stabilito dall’Ufficio di stima [9];  \n- spese di trasporto: costo effettivo dei mezzi pubblici; fino a 700 CHF l’anno per bicicletta, ciclomotore o motocicletta con targa gialla (massimo costo del mezzo pubblico); spese del mezzo pubblico disponibile per motocicletta bianca o automobile privata; eccezionalmente fino a 40 cts/km per motocicletta bianca o 60 cts/km per automobile se nessun mezzo pubblico disponibile o non utilizzabile per infermità, distanza notevole o orario sfavorevole [11];  \n- spese supplementari per doppia economia domestica: 15 CHF al giorno o 3 200 CHF l’anno se si rientra ogni giorno a domicilio e si consumano regolarmente i pasti fuori casa; oppure 15 CHF al giorno o 6 400 CHF l’anno se si soggiorna al lavoro ma si rientra regolarmente il fine settimana; se il datore di lavoro riduce il costo dei pasti o versa un contributo, la deduzione è dimezzata (7,50 CHF al giorno o 1 600 CHF l’anno) [12];  \n- spese supplementari di alloggio: deducibile l’effettivo costo fino a 800 CHF per una camera e fino a 1 000 CHF per un monolocale o appartamento con cucina, oltre alle spese di trasporto dalla propria abitazione al luogo di lavoro secondo l’articolo 3 del decreto cantonale [13];  \n- deduzione per lavoro a turni o notturno: 15 CHF al giorno o 3 200 CHF l’anno per ogni giorno di lavoro a turni o notturno di almeno 8 ore consecutive, non cumulabile con le spese per pasti fuori casa; il totale dei giorni deve essere attestato dal datore di lavoro nel certificato di salario [14].\n\n## Confederazione  \n- Art. 26 LIFD: spese professionali deducibili per dipendenti includono le spese di trasporto fino a un importo massimo di 3 300 CHF; le spese supplementari necessarie per pasti fuori domicilio o lavoro a turni; le altre spese necessarie per l’esercizio della professione; per le spese di cui al capoverso 1 lettere b e c sono stabilite deduzioni complessive [2].  \n- Art. 33 LIFD: deducibili gli interessi maturati su debiti privati fino a concorrenza dei redditi da sostanza imponibili in virtù degli articoli 20 e 21 e di ulteriori 50 000 CHF; gli oneri permanenti e la quota di reddito secondo l’articolo 22 capoverso 3 lettera c delle prestazioni derivanti da contratti di rendita vitalizia; gli alimenti versati al coniuge divorziato o separato legalmente o di fatto nonché agli alimenti versati a un genitore per i figli sotto la sua autorità parentale; i versamenti, premi e contributi legali, statutari o regolamentari all’assicurazione vecchiaia, superstiti e invalidità, nonché a istituzioni di previdenza professionale; i versamenti, premi e contributi per acquisire diritti contrattuali in forme riconosciute della previdenza individuale vincolata [6].  \n- Art. 35 LIFD: deduzioni sociali ammontano a 6 800 CHF per ogni figlio minorenne, a tirocinio o agli studi al cui sostentamento il contribuente provvede; 6 800 CHF per ogni persona totalmente o parzialmente incapace d’esercitare attività lucrativa al cui sostentamento il contribuente provvede; 2 800 CHF per i coniugi che vivono in comunione domestica; le deduzioni sono stabilite secondo la situazione alla fine del periodo fiscale o dell’assoggettamento e, se i genitori sono tassati separatamente e non sono versati alimenti secondo l’articolo 33 capoverso 1 lettera c, la deduzione per i figli è ripartita per metà [8].  \n- Art. 32 LIFD: deducibili i costi d’amministrazione da terzi per beni mobili privati e le imposte alla fonte estere non rimborsabili; per immobili privati deducibili le spese di manutenzione, le spese di riattazione di immobili di nuova acquisizione, i premi d’assicurazione e le spese d’amministrazione da terzi; il Dipartimento federale delle finanze stabilisce gli investimenti destinati al risparmio di energia e alla protezione dell’ambiente assimilabili alle spese di manutenzione; deducibili anche le spese per lavori di cura di monumenti storici intrapresi su ordine delle autorità [5].\n\n## Cantone Ticino  \n- Art. 1 del Decreto es\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 1400,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No source provided in the answer text.",
+     "No source provided in the answer text.",
+     "No source provided in the answer text."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 3103,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "The answer summarizes a broad range of deductions without citing any specific article or source. No single source in the provided list contains all these items together in one sentence; each deduction type is covered by different articles (e.g., Art. 26 LIFD for professional expenses, Art. 33 LIFD for interest and alimony, Art. 35 LIFD for social deductions). The claim as a whole is not directly supported by any cited source because it aggregates multiple rules from different provisions without referencing them.",
+     "The statement refers to cantonal rules on imputed rental value, but the answer does not cite any source. The correct cantonal provision is Art. 1 of the cantonal decree TI 640.210, which states the 60‑70 % average and the fallback 90 % rule based on the Ufficio di stima. No source is referenced in the answer.",
+     "The answer lists cantonal deduction limits without citing the relevant cantonal articles. The correct sources are Art. 3 (transport), Art. 4 (double economy), Art. 5 (lodging), and Art. 6 (shift/night work) of the cantonal decree TI 640.210. No citations are provided."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 2,
+    "raw_chars": 1136,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No source provided for this specific list of deductions in Ticino; federal and cantonal provisions are cited later but not linked to this sentence."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 8,
+  "sources": [
+   "[1] fed LIFD Art. 25",
+   "[2] fed LIFD Art. 26",
+   "[3] fed LIFD Art. 27 In generale",
+   "[4] fed LIFD Art. 28 Ammortamenti",
+   "[5] fed LIFD Art. 32",
+   "[6] fed LIFD Art. 33 Interessi su debiti e altre deduzioni",
+   "[7] fed LIFD Art. 33a Prestazioni volontarie",
+   "[8] fed LIFD Art. 35",
+   "[9] can TI 640.210 Art. 1",
+   "[10] can TI 640.210 Art. 2",
+   "[11] can TI 640.210 Art. 3",
+   "[12] can TI 640.210 Art. 4",
+   "[13] can TI 640.210 Art. 5",
+   "[14] can TI 640.210 Art. 6"
+  ]
+ },
+ {
+  "id": "T093",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 193.0,
+  "plan_s": 6.0,
+  "ttft_s": null,
+  "words": 920,
+  "citations": 23,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 5,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nL’impôt sur la fortune est prélevé sur l’ensemble de la fortune nette après déductions sociales. Au niveau fédéral, la loi sur l’impôt fédéral direct (LIFD) prévoit une imposition d’après la dépense [1] qui remplace l’impôt sur le revenu pour les personnes physiques remplissant cumulativement les conditions suivantes : ne pas posséder la nationalité suisse, être assujetties à titre illimité pour la première fois ou après une absence d’au moins dix ans, et ne pas exercer d’activité lucrative en Suisse; les époux vivant en ménage commun doivent tous deux satisfaire ces conditions. Au niveau cantonal genevois, la loi sur l’imposition des personnes physiques (LIPP) définit l’objet de l’impôt [3], la liste exhaustive des biens imposables [4], les règles d’évaluation à la valeur vénale (ou à la valeur déterminante pour l’impôt sur le revenu pour certains actifs) [6], ainsi que les déductions sociales [8] et les règles de déduction des dettes [7].\n\n## Confédération  \n- **Art. 14 LIFD** [1] : l’imposition d’après la dépense remplace l’impôt sur le revenu pour les personnes physiques qui remplissent cumulativement les conditions suivantes :  \n  a) ne pas avoir la nationalité suisse;  \n  b) être assujetties à titre illimité pour la première fois ou après une absence d’au moins dix ans;  \n  c) ne pas exercer d’activité lucrative en Suisse.  \n  Les époux vivant en ménage commun doivent tous deux remplir ces conditions.  \n- **Art. 13 LIFD** [2] : les époux vivant en ménage commun répondent solidairement du montant global de l’impôt; en cas d’insolvabilité d’un conjoint, chacun répond de sa part; ils sont également solidairement responsables de la part d’impôt afférente aux revenus des enfants. Lorsque les époux ne vivent pas en ménage commun, l’obligation de répondre solidairement du montant global de l’impôt s’éteint pour tous les montants encore dus. Des tiers (enfants sous autorité parentale, associés de sociétés, acheteur/vendeur d’immeuble, liquidateurs) peuvent être solidairement responsables selon des limites précises.\n\n## Canton de Genève  \n- **Art. 46 LIPP** [3] : l’impôt sur la fortune a pour objet l’ensemble de la fortune nette après déductions sociales.  \n- **Art. 47 LIPP** [4] : la fortune imposable comprend notamment les immeubles, les actions, obligations, mises de fonds, parts de placements collectifs détenant des immeubles en propriété directe (pour la différence entre la valeur totale des actifs et celle des immeubles), les créances hypothécaires et chirographaires, les éléments de la fortune commerciale, les assurances‑vie et vieillesse, ainsi que les bijoux et argenterie dont la valeur dépasse CHF 2 000 et le cheptel.  \n- **Art. 48 LIPP** [5] : la fortune grevée d’usufruit est imposable auprès de l’usufruitier.  \n- **Art. 49 LIPP** [6] : l’état de la fortune est établi au 31 décembre de l’année d’imposition; la fortune est estimée à la valeur vénale, sauf les biens immatériels et la fortune commerciale qui sont évalués à la valeur déterminante pour l’impôt sur le revenu; les brevets et droits comparables sont pris en compte à 50 % de cette valeur, et seules 50 % des dettes sont déductibles, proportionnellement au rapport entre ces brevets/droits et la fortune brute.  \n- **Art. 56 LIPP** [7] : les dettes chirographaires ou hypothécaires justifiées par titres, extraits de comptes, quittances d’intérêts ou déclaration du créancier sont déductibles; les cautionnements ne sont déductibles qu’en cas d’insolvabilité constatée du débiteur principal, et uniquement pour la part incombant au contribuable.  \n- **Art. 58 LIPP** [8] : déductions sociales : CHF 82 200 pour le contribuable célibataire, veuf, séparé de corps ou de fait ou divorcé; CHF 164 400 pour les époux vivant en ménage commun ou les contribuables seuls avec enfants mineurs à charge; CHF 41 100 par charge de famille (la fortune personnelle de l’apprenti ou de l’étudiant étant soustraite de cette somme). Une déduction supplémentaire de 50 % des éléments de fortune investis dans l’exploitation commerciale, artisanale ou industrielle, jusqu’à CHF 500 000, est accordée. En cas de biens hors canton non imposés, ces déductions sont réparties proportionnellement à l’actif soumis à l’impôt cantonal.\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe les principes généraux de l’imposition de la fortune et, pour l’impôt fédéral direct, les conditions et le mode de calcul de l’imposition d’après la dépense [1]. Le canton de Genève précise l’objet de l’impôt [3], la liste exhaustive des biens imposables [4], les règles d’évaluation [6], les déductions sociales [8] et les règles de déduction des dettes [7]. Le canton complète ainsi le cadre fédéral et peut, le cas échéant, prévoir des règles supplémentaires, tout en restant soumis à la primauté du droit fédéral (art. 49 Cst.).\n\n## Prochaines étapes  \n1. **Vérifier le statut d’assujettissement** : s’assurer que vous remplissez les conditions de l’imposition d’après la dépense (nationalité étrangère, assujettissement illimité pour la première fois ou après plus de dix ans, absence d’activité lucrative en Suisse) – art. 14 LIFD [1].  \n2. **Inventorier tous les éléments de fortune** : recenser immeubles, actions, obligations, créances, assurances‑vie, bijoux de plus de CHF 2 000, cheptel, etc. – art. 47 LIPP [4].  \n3. **Estimer chaque bien** : appliquer la valeur vénale pour la plupart des actifs; pour les biens immatériels et la fortune commerciale, utiliser la valeur déterminante pour l’impôt sur le revenu – art. 49 al. 2 et 3 LIPP [6].  \n4. **Calculer les déductions sociales** : appliquer les montants forfaitaires (CHF 82 200, CHF 164 400 ou CHF 41 100 par charge de famille) et, le cas échéant, la déduction de 50 % des éléments de fortune investis dans l’exploitation commerciale, artisanale\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 3645,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No source provided for this statement. Federal LIFD does not impose a general 'impôt sur la fortune' on all taxpayers; it only provides for 'imposition d'après la dépense' under Art. 14 LIFD, which is a special regime, not the standard wealth tax. Cantonal law (GE LIPP Art. 46) mentions 'fortune nette après déductions sociales', but no source is cited in the answer.",
+     "Source [1] (Art. 14 LIFD) describes the conditions for *imposition d'après la dépense*, which replaces income tax. It does not describe a general federal wealth tax applying to all income taxpayers. The sentence incorrectly implies that Art. 14 LIFD is the rule for 'impôt sur la fortune' for all income taxpayers, whereas it is a special alternative regime. The thresholds mentioned (CHF 435'000, etc.) are part of the calculation for the *imposition d'après la dépense*, not a general wealth tax rule. The sentence misrepresents the legal rule."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 15,
+    "raw_chars": 4371,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source citée et aucune source disponible pour la commune de Genève."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 14,
+    "raw_chars": 5801,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 34,
+  "sources": [
+   "[1] fed LIFD Art. 14 Imposition d’après la dépense",
+   "[2] fed LIFD Art. 13 Responsabilité et responsabilité solidaire",
+   "[3] can GE D 3 08 Art. 46",
+   "[4] can GE D 3 08 Art. 47",
+   "[5] can GE D 3 08 Art. 48",
+   "[6] can GE D 3 08 Art. 49",
+   "[7] can GE D 3 08 Art. 56",
+   "[8] can GE D 3 08 Art. 58"
+  ]
+ },
+ {
+  "id": "T094",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 93.5,
+  "plan_s": 4.1,
+  "ttft_s": null,
+  "words": 503,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa. Ein Haustürvertrag kann widerrufen werden, wenn das Angebot an einem Arbeitsplatz, in Wohnräumen oder deren unmittelbarer Umgebung, in öffentlichen Verkehrsmitteln, auf öffentlichen Strassen und Plätzen, an einer Werbeveranstaltung mit Ausflugsfahrt oder am Telefon gemacht wurde. Ausnahmen bestehen, wenn der Kunde die Vertragsverhandlungen ausdrücklich gewünscht hat oder seine Erklärung an einem Markt- oder Messestand abgegeben hat. Der Widerruf ist formfrei und muss innerhalb von 14 Tagen erklärt werden, wobei die Frist ab Kenntnis der Angaben nach Art. 40d OR läuft. Der letzte Tag der Frist ist eingehalten, wenn der Widerruf dem Anbieter vorliegt oder der Post übergeben wird. Der Vertrag muss über bewegliche Sachen oder Dienstleistungen für den persönlichen oder familiären Gebrauch des Kunden und über 100 CHF lauten [5].\n\n## Bund\n- Widerruf möglich, wenn das Angebot unter einer der folgenden Bedingungen gemacht wurde: an Arbeitsplatz, in Wohnräumen oder deren unmittelbarer Umgebung [1]; in öffentlichen Verkehrsmitteln oder auf öffentlichen Strassen und Plätzen [1]; an einer Werbeveranstaltung, die mit einer Ausflugsfahrt oder einem ähnlichen Anlass verbunden war [1]; am Telefon oder über vergleichbare Mittel der gleichzeitigen mündlichen Telekommunikation [1].\n- Kein Widerrufsrecht, wenn der Kunde die Vertragsverhandlungen ausdrücklich gewünscht hat [2] oder seine Erklärung an einem Markt- oder Messestand abgegeben hat [2].\n- Widerruf ist an keine Form gebunden [3]; der Nachweis des fristgemässen Widerrufs obliegt dem Kunden.\n- Widerrufsfrist beträgt 14 Tage und beginnt, sobald der Kunde den Vertrag beantragt oder angenommen hat und von den Angaben nach Art. 40d OR Kenntnis erhalten hat [3].\n- Frist ist eingehalten, wenn der Widerruf dem Anbieter am letzten Tag der Frist vorliegt oder der Post übergeben wird [3].\n- Der Anbieter muss den Kunden schriftlich oder in einer anderen Form, die den Nachweis durch Text ermöglicht, über das Widerrufsrecht sowie über Form und Frist des Widerrufs unterrichten und ihm seine Adresse bekannt geben [6]; diese Angaben müssen datiert sein und die Identifizierung des Vertrags ermöglichen und dem Kunden so übermittelt werden, dass er sie kennt, wenn er den Vertrag beantragt oder annimmt [6].\n- Anwendbar sind die Bestimmungen nur auf Verträge über bewegliche Sachen und Dienstleistungen für den persönlichen oder familiären Gebrauch des Kunden, wenn die Leistung 100 CHF übersteigt [5].\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt den Widerruf von Haustürgeschäften abschliessend [5]. Kanton und Gemeinde können keine davon abweichenden Bestimmungen erlassen; die Ausführung erfolgt kantonal und kommunal, jedoch ohne zusätzliche kantonale oder kommunale Regeln zu diesem Thema.\n\n## Nächste Schritte\n- Prüfen, ob das Angebot unter einer der in Art. 40b OR genannten Situationen (Arbeitsplatz, Wohnräume, öffentliche Verkehrsmittel, Werbeveranstaltung mit Ausflug, Telefon) gemacht wurde.\n- Falls eine Ausnahme nach Art. 40c OR vorliegt (ausdrücklich gewünschte Verhandlungen oder Markt-/Messestand), ist kein Widerruf möglich.\n- Widerrufserklärung formfrei an den Anbieter richten oder der Post übergeben.\n- Frist von 14 Tagen ab Kenntnis der Angaben nach Art. 40d OR einhalten; der letzte Tag der Frist ist fristwahrend, wenn die Erklärung vorliegt oder der Post übergeben wird.\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1568,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "OR Art. 40a",
+     "OR Art. 40d",
+     "OR Art. 40a"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2085,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "OR Art. 40a"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2397,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 4,
+  "claims_checked": 18,
+  "sources": [
+   "[1] fed OR Art. 40b",
+   "[2] fed OR Art. 40c",
+   "[3] fed OR Art. 40e",
+   "[4] fed OR Art. 40f",
+   "[5] fed OR Art. 40a",
+   "[6] fed OR Art. 40d"
+  ]
+ },
+ {
+  "id": "T095",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 120.8,
+  "plan_s": 6.3,
+  "ttft_s": null,
+  "words": 457,
+  "citations": 10,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLa durée de la garantie varie selon le bien acquis : pour un immeuble, l’acheteur doit signaler les défauts cachés découverts après vérification usuelle dans les 60 jours à compter de leur découverte et dispose d’une action en garantie qui se prescrit par cinq ans à compter du transfert de propriété ; pour les choses mobilières, l’action se prescrit par deux ans à compter de la livraison, pouvant être portée à cinq ans si le bien est intégré à un ouvrage immobilier, et à un an (au maximum 30 ans) pour les biens culturels. Les dispositions cantonales et communales ne modifient pas ces délais.\n\n## Confédération  \n- Pour les défauts cachés d’un immeuble vendu : l’acheteur doit signaler les défauts découverts après vérification usuelle dans les 60 jours à compter de leur découverte [1] et dispose d’une action en garantie qui se prescrit par cinq ans à compter du transfert de propriété [1].  \n- Pour les défauts cachés d’une chose mobilière : l’action en garantie se prescrit par deux ans à compter de la livraison [2]. Si la chose est intégrée à un ouvrage immobilier, la prescription est de cinq ans [2]. Pour les biens culturels, l’action se prescrit par un an à compter du moment où l’acheteur a découvert les défauts, mais au maximum de 30 ans à compter de la conclusion du contrat [2].  \n- Toute clause contractuelle réduisant ces délais est nulle si elle fixe un délai inférieur à deux ans (ou à un an pour les biens d’occasion) et si la chose est destinée à l’usage personnel ou familial de l’acheteur, et que le vendeur agit à titre professionnel ou commercial [2].\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe directement les délais de garantie et de prescription pour les ventes mobilières et immobilières ; le canton de Vaud ne contient aucune disposition modifiant ces règles.\n\n## Prochaines étapes  \n- En cas d’achat d’un immeuble et découverte d’un défaut caché : notifier le vendeur par écrit dans les 60 jours suivant la découverte du défaut [1].  \n- En cas d’achat d’un bien mobilier et constatation d’un défaut caché : envoyer un avis écrit au vendeur dans les deux ans suivant la livraison [2].  \n- Pour les biens culturels : aviser le vendeur dans l’année suivant la découverte du défaut [2].  \n- En cas de litige, saisir le tribunal civil compétent dans les délais de prescription indiqués ci‑dessus.  \n- Le Code des obligations ne prescrit pas de formulaire obligatoire ; l’avis peut être donné par lettre recommandée, courriel ou tout autre moyen permettant d’établir la date de réception [2].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 11,
+    "raw_chars": 2998,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Les sources cantonales (VD) ne contiennent aucune disposition modifiant les délais de garantie ou de prescription du CO."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2611,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "pas de citation de source pour ce délai d'action",
+     "pas de citation de source pour ce délai d'avis",
+     "pas de citation de source pour ce délai",
+     "les sources ne contiennent pas d'information sur l'existence ou l'absence de formulaire"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 2724,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "pas de citation de source pour ce délai d’avis",
+     "pas de citation de source pour ce délai d’avis",
+     "pas de citation de source pour ce délai d’avis",
+     "pas de citation de source pour cette affirmation"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 30,
+  "sources": [
+   "[1] fed CO Art. 219a",
+   "[2] fed CO Art. 210",
+   "[3] can VD 914.01.3 Art. 28",
+   "[4] can VD 914.01.3 Art. 25"
+  ]
+ },
+ {
+  "id": "T096",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 115.3,
+  "plan_s": 7.9,
+  "ttft_s": null,
+  "words": 453,
+  "citations": 19,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nUm Rechtsvorschlag gegen einen Zahlungsbefehl zu erheben, erklären Sie dies mündlich oder schriftlich entweder sofort dem Überbringer des Zahlungsbefehls oder innert zehn Tagen nach Zustellung dem zuständigen Betreibungsamt [1]. Bei teilweiser Bestreitung muss der exakt bestrittene Betrag angegeben werden [1]; andernfalls gilt die gesamte Forderung als bestritten. Der Rechtsvorschlag bedarf keiner Begründung [2] und bewirkt die Einstellung der Betreibung [4]; bei teilweiser Bestreitung kann die Betreibung für den unbestrittenen Betrag fortgesetzt werden. In der Wechselbetreibung ist innert fünf Tagen nach Zustellung schriftlich Rechtsvorschlag zu erheben und die Voraussetzungen nach Art. 182 SchKG darzulegen [5]. Eine Einrede zu neuem Vermögen muss ausdrücklich erklärt werden, sonst ist sie verwirkt [2].\n\n## Bund\n- **Frist und Form** [1]: Rechtsvorschlag ist sofort dem Überbringer des Zahlungsbefehls oder innert zehn Tagen nach Zustellung dem Betreibungsamt mündlich oder schriftlich zu erklären.\n- **Teilweise Bestreitung** [1]: Bestreitet der Betriebene nur einen Teil der Forderung, muss er den bestrittenen Betrag genau angeben; unterlässt er dies, gilt die gesamte Forderung als bestritten.\n- **Keine Begründung nötig** [2]: Der Rechtsvorschlag bedarf keiner Begründung; eine Begründung führt nicht zum Verlust weiterer Einreden.\n- **Einrede zu neuem Vermögen** [2]: Bestreitet der Schuldner, zu neuem Vermögen gekommen zu sein [9], muss er dies ausdrücklich im Rechtsvorschlag erklären; andernfalls ist diese Einrede verwirkt.\n- **Wechselbetreibung** [5]: Schriftlicher Rechtsvorschlag innert fünf Tagen nach Zustellung des Zahlungsbefehls beim Betreibungsamt; dabei muss dargelegt werden, dass eine der Voraussetzungen nach Art. 182 SchKG erfüllt ist.\n- **Wirkung** [4]: Der Rechtsvorschlag bewirkt die Einstellung der Betreibung; bei teilweiser Bestreitung kann die Betreibung für den unbestrittenen Betrag fortgesetzt werden.\n- **Mitteilung** [3]: Der Inhalt des Rechtsvorschlags wird dem Betreibenden auf der für ihn bestimmten Ausfertigung des Zahlungsbefehls mitgeteilt; erfolgte kein Rechtsvorschlag, ist dies auf derselben vorzumerken.\n\n## Kanton Basel-Stadt\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Basel\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKanton und Gemeinde ergänzen die bundesrechtlichen Vorgaben zum Rechtsvorschlag nicht; das Verfahren richtet sich nach dem SchKG (SR 281.1). Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte\n- **Schriftlich oder mündlich beim Betreibungsamt**: Erklären Sie den Rechtsvorschlag sofort dem Überbringer oder innert zehn Tagen nach Zustellung schriftlich oder mündlich dem zuständigen Betreibungsamt [1].\n- **Teilweise Bestreitung**: Falls nur ein Teil der Forderung bestritten wird, geben Sie den genauen bestrittenen Betrag an [1].\n- **Einrede zu neuem Vermögen**: Wenn Sie die Einrede zu neuem Vermögen erheben, erklären Sie dies ausdrücklich im Rechtsvorschlag [2].\n- **Wechselbetreibung**: Bei Wechselbetreibung reichen Sie den schriftlichen Rechtsvorschlag innert fünf Tagen nach Zustellung ein und legen Sie dar, dass eine Voraussetzung von Art. 182 SchKG erfüllt ist [5].\n- **Bescheinigung**: Fordern Sie auf Verlangen eine gebührenfreie Bescheinigung über die Erklärung des Rechtsvorschlags beim Betreibungsamt an [1].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 10,
+    "raw_chars": 2655,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "SchKG Art. 182",
+     "SchKG Art. 265"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 1846,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 1814,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 2,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed SchKG Art. 74",
+   "[2] fed SchKG Art. 75",
+   "[3] fed SchKG Art. 76",
+   "[4] fed SchKG Art. 78",
+   "[5] fed SchKG Art. 179",
+   "[6] can BS 815.100 § 25",
+   "[7] can BS 230.100 § 22",
+   "[8] fed SchKG Art. 182",
+   "[9] fed SchKG Art. 265"
+  ]
+ },
+ {
+  "id": "T097",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 17,
+  "total_s": 173.5,
+  "plan_s": 6.8,
+  "ttft_s": null,
+  "words": 1031,
+  "citations": 21,
+  "invalid": 0,
+  "unsupported": 2,
+  "unsupported_list": [
+   "art. 62",
+   "art. 66a"
+  ],
+  "prose_left": 0,
+  "repaired": 13,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": false,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nEn Suisse, l’octroi d’une autorisation de séjour ou d’établissement est régi par la Loi sur les étrangers et l’intégration (LEI) fédérale [1] qui définit les conditions générales (but déterminé, absence de motifs de révocation, durée minimale de séjour selon le type d’autorisation, etc.). Dans le canton de Fribourg, la Direction de la sécurité, de la justice et du sport – Service de la population et des migrants [9] est l’autorité compétente pour traiter les demandes d’autorisation de séjour, d’établissement ou d’autres titres de séjour. Pour les autorisations liées à l’utilisation du domaine public communal (manifestations, terrasses, etc.), la Ville de Fribourg exige une demande écrite déposée au moins 20 jours avant l’événement [12], une taxe d’utilisation calculée selon surface, durée et nature de l’usage (maximum 500 CHF/m² par année ou 2'000 CHF par jour) [13], et peut imposer des charges (sécurité, déchets, horaires) [16]. Les décisions du Service sont directement sujettes à recours auprès du Tribunal cantonal [10]; la loi fédérale prévaut en cas de conflit (art. 49 Cst.).\n\n## Confédération  \n- Selon l’art. 30 LEI [1], il est possible de déroger aux conditions d’admission dans les buts suivants: a. régler l’activité lucrative des étrangers admis dans le cadre du regroupement familial, pour autant qu’il n’existe pas de droit à l’exercice d’une activité lucrative; b. tenir compte des cas individuels d’une extrême gravité ou d’intérêts publics majeurs; c. régler le séjour des enfants placés; d. protéger les personnes particulièrement menacées d’être exploitées dans l’exercice de leur activité lucrative; e. régler le séjour des victimes ou des témoins de la traite d’êtres humains et des personnes qui coopèrent avec les autorités de poursuite pénale dans le cadre d’un programme de protection des témoins; f. permettre des séjours dans le cadre de projets d’aide et de développement menés au titre de la coopération économique et technique; g. simplifier les échanges internationaux dans les domaines économique, scientifique et culturel ainsi que la formation professionnelle et la formation professionnelle continue; h. simplifier les échanges de cadres supérieurs et de spécialistes indispensables au sein d’une entreprise déployant des activités internationales; i. …; j. permettre aux personnes au pair.  \n- L’art. 31 LEI [2] prévoit que les apatrides reconnus en Suisse ont droit à une autorisation de séjour dans le canton dans lequel ils séjournent légalement; ils peuvent exercer une activité lucrative dans toute la Suisse s’ils ne remplissent pas les conditions d’expulsion pénale prévues aux art. 66a ou 66abis CP, 49a ou 49abis CPM ou à l’art. 68 LEI.  \n- L’autorisation de courte durée [3] est octroyée pour un séjour de durée limitée d’une année au plus, avec but déterminé et conditions éventuelles; sa durée de validité peut être prolongée jusqu’à deux ans au total, un changement d’emploi n’étant accordé que pour des raisons majeures.  \n- L’autorisation de séjour [4] est délivrée pour un séjour de plus d’une année, avec but déterminé et conditions possibles; sa durée de validité est limitée mais prolongeable si aucun motif de révocation au sens de l’art. 62, al. 1 n’existe; l’intégration de l’étranger est prise en compte pour fixer sa durée et une convention d’intégration peut être exigée en cas de besoins particuliers.  \n- L’autorisation d’établissement [5] est octroyée pour une durée indéterminée et sans conditions; elle requiert généralement dix ans de séjour en Suisse (dont les cinq dernières années de manière ininterrompue au titre d’une autorisation de séjour), l’absence de motifs de révocation au sens des art. 62 ou 63, al. 2, et une intégration réussie; des exceptions existent pour des raisons majeures ou pour ceux aptes à bien communiquer dans la langue nationale du lieu de domicile après un séjour ininterrompu de cinq ans au titre d’une autorisation de séjour.  \n- L’autorisation frontalière [6] est délivrée en vue de l’exercice d’une activité lucrative dans une zone frontalière; le titulaire doit regagner au moins une fois par semaine son lieu de résidence à l’étranger; après une activité ininterrompue de cinq ans, la prolongation est accordée en l’absence de motifs de révocation au sens de l’art. 62, al. 1.  \n- Le titulaire d’une autorisation de courte durée, de séjour ou d’établissement peut choisir librement son lieu de résidence sur le territoire du canton qui a octroyé l’autorisation [7].  \n- Les cantons octroient les autorisations prévues aux art. 32 à 35 et 37 à 39 LEI [8]; le SEM rend la décision préalable en matière de marché du travail pour les demandes imputables sur le contingent de la Confédération.\n\n## Canton de Fribourg  \n- L’autorité compétente est la Direction de la sécurité, de la justice et du sport – Service de la population et des migrants [9].  \n- Les décisions prises par le Service sont directement sujettes à recours auprès du Tribunal cantonal [10].\n\n## Commune de Fribourg  \n- Pour toute autorisation exigée par le règlement de police, la demande doit être déposée par écrit auprès du Service désigné par le Conseil communal, au moins 20 jours avant l’événement, avec tous les documents nécessaires [12].  \n- L’autorisation est personnelle et incessible [12].  \n- Une taxe d’utilisation est due par le bénéficiaire; pour les utilisations durables (plus de 20 jours), le montant maximum est de 500 CHF/m² par année; pour les utilisations temporaires, il est de 2'000 CHF par jour [13].  \n- Le calcul de la taxe tient compte de la surface utilisée, de la durée, du lieu, du type d’utilisation du domaine public et du caractère lucratif ou non de l’activité [14].  \n- Pour les manifestations d’une durée égale ou supérieure à cinq jours, la demande est publiée durant 14 jours dans la Feuille officielle; toute personne intéressée peut faire opposition par mémoire motivé au secrétariat communal; l’autorisation peut être assortie de charges (sécurité, déchets, horaires, durée, nombre) et de sûretés [16].\n\n## Articulation des niveaux  \nLe droit fédéral fixe les conditions matérielles et les catégories d’autorisations (courte durée, séjour, établissement, frontalière). Le canton de Fribourg précise l’autorité compétente (Direction de la sécurité, de la justice et du sport – Service de la population et des migrants) et la procédure de recours (directement auprès du Tribunal cantonal). La Ville de Fribourg complète ces règles en imposant des exigences spécifiques pour l’utilisation du\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 2395,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No source provided in the answer cites a specific article of the LEI that states this general rule about the federal law being the primary source for granting residence or establishment permits with these listed conditions.",
+     "No source provided in the answer cites the specific cantonal law or article that designates this authority or describes the cantonal application law.",
+     "No source provided in the answer cites the specific municipal regulation (e.g., Art. 12 or 13 of the communal police regulation) that establishes these specific deadlines, fees, or conditions for public space usage.",
+     "No source provided in the answer cites the specific cantonal or federal article that establishes the appeal procedure for these decisions."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 5016,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source [1] mentionne uniquement les buts de dérogation (a à j), mais ne contient pas la formulation exacte de la phrase de l'ANSWER. L'ANSWER résume et paraphrase les buts, ce qui constitue une reformulation et non une citation littérale.",
+     "La source [2] traite spécifiquement des apatrides et de leur droit à une autorisation de séjour dans le canton de séjour et à l'exercice d'une activité lucrative dans toute la Suisse sous certaines conditions pénales. Cependant, l'ANSWER généralise ce qui est une disposition spécifique aux apatrides en le présentant comme une règle générale applicable à tous, ce qui est erroné.",
+     "La source [10] mentionne la procédure de recours au Tribunal cantonal, mais ne cite pas l'art. 49 Cst. L'affirmation selon laquelle la loi fédérale prévaut en cas de conflit est une règle générale de droit constitutionnel (art. 49 Cst.) qui n'est pas explicitement formulée dans les sources fournies."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 4,
+    "raw_chars": 1626,
+    "unreadable": false,
+    "issues": 3,
+    "added": [
+     "LEI Art. 68 Expulsion"
+    ],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed LEI Art. 30",
+   "[2] fed LEI Art. 31",
+   "[3] fed LEI Art. 32 Autorisation de courte durée",
+   "[4] fed LEI Art. 33 Autorisation de séjour",
+   "[5] fed LEI Art. 34 Autorisation d’établissement",
+   "[6] fed LEI Art. 35 Autorisation frontalière",
+   "[7] fed LEI Art. 36 Lieu de résidence",
+   "[8] fed LEI Art. 40 Octroi des autorisations et décision préalable des autorités du marché du travail",
+   "[9] can FR 114.22.1 Art. 3",
+   "[10] can FR 114.22.1 Art. 7",
+   "[11] can FR 866.2.16 Art. 2",
+   "[12] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 9",
+   "[13] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 10",
+   "[14] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 11",
+   "[15] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 12",
+   "[16] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 13",
+   "[17] fed LEI Art. 68 Expulsion"
+  ]
+ },
+ {
+  "id": "T098",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 10,
+  "total_s": 143.5,
+  "plan_s": 8.1,
+  "ttft_s": null,
+  "words": 484,
+  "citations": 23,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür die Kündigung eines Mietvertrags bestimmen Art und Dauer des Mietobjekts die Fristen und Formerfordernisse. Bei Wohnungen ist eine schriftliche Kündigung mit einer Frist von drei Monaten auf einen ortsüblichen Termin oder, wenn kein Ortsgebrauch besteht, auf Ende einer dreimonatigen Mietdauer erforderlich [3]; bei Geschäftsräumen beträgt die Frist sechs Monate auf einen ortsüblichen Termin oder, wenn kein Ortsgebrauch besteht, auf Ende einer dreimonatigen Dauer [4]; bei möblierten Zimmern und Einstellplätzen zwei Wochen auf Ende einer einmonatigen Dauer [5]; bei beweglichen Sachen drei Tage auf einen beliebigen Zeitpunkt [6]; bei unbeweglichen Sachen und Fahrnisbauten drei Monate auf einen ortsüblichen Termin oder, wenn kein Ortsgebrauch besteht, auf Ende einer sechsmonatigen Dauer [8]. Vermieter von Wohn- und Geschäftsräumen müssen mit einem vom Kanton genehmigten Formular kündigen, das Angaben zur Anfechtung und Erstreckung enthält [2]. Wird die Frist nicht eingehalten, gilt die Kündigung auf den nächstmöglichen Termin [7]. Der Kanton Zürich entscheidet über die Allgemeinverbindlicherklärung von Rahmenmietverträgen [9]; kommunale Vorschriften zur Kündigungsfrist sind in den vorliegenden Quellen nicht enthalten.\n\n## Bund\n- Wohnungen: schriftliche Kündigung mit einer Frist von drei Monaten auf einen ortsüblichen Termin oder, wenn kein Ortsgebrauch besteht, auf Ende einer dreimonatigen Mietdauer [3].\n- Geschäftsräume: schriftliche Kündigung mit einer Frist von sechs Monaten auf einen ortsüblichen Termin oder, wenn kein Ortsgebrauch besteht, auf Ende einer dreimonatigen Mietdauer [4].\n- Möblierte Zimmer und Einstellplätze: schriftliche Kündigung mit einer Frist von zwei Wochen auf Ende einer einmonatigen Mietdauer [5].\n- Bewegliche Sachen: schriftliche Kündigung mit einer Frist von drei Tagen auf einen beliebigen Zeitpunkt [6].\n- Unbewegliche Sachen und Fahrnisbauten: schriftliche Kündigung mit einer Frist von drei Monaten auf einen ortsüblichen Termin oder, wenn kein Ortsgebrauch besteht, auf Ende einer sechsmonatigen Mietdauer [8].\n- Formularpflicht: Vermieter von Wohn- und Geschäftsräumen müssen mit einem vom Kanton genehmigten Formular kündigen, das angibt, wie der Mieter vorzugehen hat, wenn er die Kündigung anfechten oder eine Erstreckung des Mietverhältnisses verlangen will [2].\n- Fristversäumnis: Halten die Parteien die Frist oder den Termin nicht ein, so gilt die Kündigung für den nächstmöglichen Termin [7].\n\n## Kanton Zürich\n- Rahmenmietverträge: Über die Allgemeinverbindlicherklärung von Rahmenmietverträgen, die für das Gebiet des Kantons Zürich gelten, entscheidet der Regierungsrat [9].\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nBundesrecht geht kantonalem Recht vor, Art. 49 BV. Der Kanton Zürich kann durch den Regierungsrat die Allgemeinverbindlicherklärung von Rahmenmietverträgen anordnen; kommunale Vorschriften zur Kündigungsfrist sind in den vorliegenden Quellen nicht enthalten.\n\n## Nächste Schritte\n- Kündigung vorbereiten: Schriftform wählen und das vom Kanton Zürich genehmigte Kündigungsformular verwenden, falls es für Wohn- oder Geschäftsräume erforderlich ist [2].\n- Frist prüfen: Die gesetzliche Kündigungsfrist je nach Mietobjekt (z. B. drei Monate für Wohnungen, sechs Monate für Geschäftsräume) einhalten [3][4][5][6][8].\n- Kündigung zustellen: Das unterschriebene Kündigungsschreiben per Einschreiben oder gegen Empfangsbestätigung an den Mieter senden (allgemeine praktische Empfehlung).\n- Fristen beachten: Bei Versäumnis der Frist gilt die Kündigung auf den nächstmöglichen Termin [7].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 15,
+    "raw_chars": 4661,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (1-10) fasst die Unterschiede nach Mietobjekt zusammen; jede Quelle behandelt nur eine Kategorie. Die Antwort stellt eine eigene Zusammenfassung dar, die nicht direkt aus den Quellen abgeleitet werden kann.",
+     "Keine Quelle belegt das Fehlen kommunaler Vorschriften. Die Antwort behauptet etwas Negatives ohne Beleg.",
+     "Art. 49 BV ist nicht in den Quellen enthalten und wird nicht zitiert. Die Aussage ist eine allgemeine Verfassungsbestimmung, die nicht aus den OR-Quellen abgeleitet werden kann.",
+     "Keine Quelle regelt die Zustellungsart (Einschreiben, Empfangsbestätigung). Dies ist eine praktische Empfehlung, keine Rechtsquelle."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 14,
+    "raw_chars": 4325,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; keine kommunalen Vorschriften in den vorliegenden Quellen enthalten.",
+     "Art. 49 BV ist nicht in den vorliegenden Quellen enthalten und wird nicht zitiert.",
+     "Keine Quelle zitiert; keine gesetzliche Vorschrift in den vorliegenden Quellen, die die Zustellform vorschreibt."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 14,
+    "raw_chars": 4356,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; keine kommunalen Vorschriften in den vorliegenden Quellen erwähnt, aber das Fehlen einer Quelle macht die Aussage nicht belegbar.",
+     "Keine Quelle zitiert; dies ist eine praktische Empfehlung, keine Rechtsnorm."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 43,
+  "sources": [
+   "[1] fed OR Art. 266l",
+   "[2] fed OR Art. 266",
+   "[3] fed OR Art. 266c",
+   "[4] fed OR Art. 266d",
+   "[5] fed OR Art. 266e",
+   "[6] fed OR Art. 266f",
+   "[7] fed OR Art. 266a",
+   "[8] fed OR Art. 266b",
+   "[9] can ZH 235.3 § 1",
+   "[10] can ZH 230 § 267"
+  ]
+ },
+ {
+  "id": "T099",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 79.3,
+  "plan_s": 6.4,
+  "ttft_s": null,
+  "words": 546,
+  "citations": 21,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nChi detiene un cane in Svizzera deve nutrirlo, curarlo e garantirgli l’attività e la libertà di movimento necessarie al suo benessere (federale [1]). Nel Canton Ticino il proprietario deve stipulare un’assicurazione RC con copertura minima fissata dal Consiglio di Stato (cantonale [3]), rispettare obblighi di socializzazione, controllo e guinzaglio nei luoghi pubblici (cantonale [5]), e, per cani nati dopo il 1° aprile 2009 delle razze elencate (es. Bull Terrier, Rottweiler, Pastore tedesco, ecc.), ottenere un’autorizzazione di detenzione dall’Ufficio del veterinario cantonale prima dell’acquisto (cantonale [7]). I comuni intervengono sui cani vaganti: identificano il proprietario o collocano temporaneamente l’animale presso un ente riconosciuto dallo Stato (cantonale [8]). Le norme cantonali e comunali si aggiungono al diritto federale.\n\n## Confederazione  \n- [1] Chi detiene o accudisce un animale deve nutrirlo, curarlo adeguatamente e garantirgli l’attività e la libertà di movimento necessarie al suo benessere [1].\n\n## Cantone Ticino  \n- [3] Ogni proprietario di cani deve stipulare un’assicurazione contro la responsabilità civile, la cui copertura minima è fissata dal Consiglio di Stato [3].\n- [4] Il Dipartimento competente può vietare o limitare la detenzione di un cane a chi, per dipendenza da alcol o sostanze stupefacenti o per impedimenti fisici o psichici, non sia in grado di garantire una corretta gestione; può richiedere certificazioni mediche [4].\n- [5] Il detentore deve provvedere a una corretta socializzazione ed educazione del cane, adottare le precauzioni necessarie affinché non sfugga o nuoccia a persone o altri animali, segnalare immediatamente la fuga di un cane agli organi di polizia e tenere i cani al guinzaglio e, se richiesto dalle circostanze, muniti di museruola nei luoghi frequentati dal pubblico; i cani di razze pericolose possono essere condotti soltanto individualmente nelle aree pubbliche [5].\n- [6] La detenzione di cani nati dopo il 1° aprile 2009 delle razze elencate (es. Bull Terrier, Rottweiler, Pastore tedesco, ecc.) e i loro incroci è soggetta a restrizioni [6].\n- [7] I detentori di cani di tali razze devono ottenere un’autorizzazione di detenzione rilasciata dall’Ufficio del veterinario cantonale prima dell’entrata in possesso del cane; per i cuccioli non ceduti a terzi la domanda di autorizzazione deve essere presentata entro il quarto mese di età [7].\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale stabilisce i requisiti minimi di protezione animale; il Cantone Ticino e i suoi comuni introducono norme più specifiche e severe (es. assicurazione RC, autorizzazioni per razze pericolose, intervento sui cani vaganti), che si aggiungono al diritto federale e prevalgono in materia di sicurezza e ordine locale.\n\n## Prossimi passi  \n- Presentare domanda di autorizzazione di detenzione all’Ufficio del veterinario cantonale prima dell’acquisto del cane; per cuccioli non ceduti a terzi, la domanda va inoltrata entro il quarto mese di età [7].\n- Stipulare un’assicurazione RC per il cane con copertura minima stabilita dal Consiglio di Stato ticinese [3].\n- Tenere sempre il cane al guinzaglio e, se richiesto dalle circostanze, munito di museruola nei luoghi pubblici; segnalare immediatamente la fuga di un cane agli organi di polizia [5].\n- In caso di cane vagante sul suolo pubblico, il Comune provvederà a identificare il detentore o a collocare temporaneamente l’animale presso un ente per il soccorso agli animali riconosciuto dallo Stato [8].\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 1952,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2037,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 3053,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Il riferimento all'articolo 49 Cost. non è presente nelle fonti citate e non è specificato quale norma cantonale/comunale prevalga in materia di sicurezza e ordine locale; la frase non è supportata dalle fonti"
+    ]
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed LPAn Art. 6 Requisiti generali",
+   "[2] fed LPAn Art. 7 Obbligo di annuncio e di autorizzazione, divieti",
+   "[3] can TI 482.300 Art. 5",
+   "[4] can TI 482.300 Art. 6",
+   "[5] can TI 482.300 Art. 77",
+   "[6] can TI 482.310 Art. 14",
+   "[7] can TI 482.310 Art. 16",
+   "[8] can TI 482.310 Art. 23"
+  ]
+ },
+ {
+  "id": "T100",
+  "lang": "en",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 72.6,
+  "plan_s": 4.9,
+  "ttft_s": null,
+  "words": 411,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Short answer\nYour landlord may keep the deposit only if they obtain a final court judgment or enforceable payment order against you within one year after the lease ends; otherwise you can demand the bank return the money. Federally the maximum deposit for residential rent is three months’ rent; cantonal law requires disputed deposits to be lodged with the regional conciliation authority at the rental location and makes certain lease forms mandatory when the vacancy rate is at most 1.5 %.\n\n## Federal level\n- The landlord must deposit the money on a savings account or securities account in the tenant’s name at a bank [1].\n- For residential rent the landlord may demand a security deposit of at most three months’ rent [1].\n- The bank may only release the deposit with the written consent of both parties, a final court judgment, or a final payment order; if the landlord does not enforce any claim against the tenant within one year after the lease ends, the tenant may demand the deposit back from the bank [1].\n\n## Canton Bern\n- Disputed deposits must be deposited with the regional conciliation authority at the location of the rental property [2].\n- The cantonal government declares the mandatory use of the OR form for lease conclusion when the vacancy rate in the whole canton or in a specific administrative district is at most 1.5 %; if the vacancy rate rises above 1.5 %, the obligation is lifted [3].\n- The cantonal authority measures the vacancy rate annually on 1 June; any change in the form requirement takes effect on 1 November of the same year [3].\n\n## How the levels fit together\nCantonal law supplements federal rules by prescribing where disputed deposits must be lodged and by introducing a vacancy-rate trigger that makes certain lease forms obligatory, while the federal cap on the deposit amount and the bank’s release conditions remain directly applicable.\n\n## Next steps\n- Lodge any disputed deposit with the regional conciliation authority at the rental address [2].\n- Within one year after the lease ends, verify whether the landlord has obtained a final court judgment or enforceable payment order; if none exists, instruct the bank to return the deposit [1].\n- When signing a new lease, check the cantonal vacancy rate on 1 June; if it is ≤ 1.5 %, insist on using the official lease form required by Art. 135a BE [3].\n*Legal information, not legal advice.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 10,
+    "raw_chars": 3156,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No citation provided for the timeframe of the cantonal procedure"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 3054,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Deadline or procedure not found in cited sources; source [2] only mentions where deposits must be lodged, not when or how to lodge them."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 2713,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Deadline, authority or procedure not found in any source; this is a procedural instruction without citation."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 30,
+  "sources": [
+   "[1] fed OR Art. 257e",
+   "[2] can BE 211.1 Art. 136",
+   "[3] can BE 211.1 Art. 135a"
+  ]
+ }
+]

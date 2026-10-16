@@ -1,0 +1,1481 @@
+[
+ {
+  "id": "T061",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 10,
+  "total_s": 135.9,
+  "plan_s": 12.1,
+  "ttft_s": null,
+  "words": 582,
+  "citations": 29,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, l’installation de panneaux solaires sur un toit nécessite une autorisation de construire, sauf si les panneaux sont de minime importance et respectent les conditions cumulatives de l’art. 103 al. 3 de la loi cantonale (VD 700.11). Selon le droit fédéral [1], toute construction ou installation modifiant sensiblement la configuration, l’apparence ou l’affectation d’un terrain ou d’un bâtiment requiert une autorisation de l’autorité compétente.\n\n## Confédération  \n[1] Aucune construction ou installation ne peut être créée ou transformée sans autorisation de l’autorité compétente [1]. L’autorisation est délivrée si la construction ou l’installation est conforme à l’affectation de la zone et si le terrain est équipé [1].\n\n## Canton de Vaud  \n[3] Aucun travail de construction modifiant sensiblement la configuration, l’apparence ou l’affectation d’un terrain ou d’un bâtiment ne peut être exécuté sans autorisation [3].  \n[4] Avant la mise à l’enquête du projet de construction, une autorisation préalable d’implantation peut être requise [4]. Cette autorisation est périmée si, dans les deux ans dès sa délivrance, elle n’est pas suivie d’une demande de permis de construire [4].  \n[5] Un plan d’affectation peut équivaloir à un permis de construire ou à une autorisation préalable d’implantation lorsqu’il contient les éléments d’une demande [5]. La construction doit commencer dans les cinq ans qui suivent la mise en vigueur du plan ; passé ce délai, une demande de permis de construire doit être présentée pour chaque projet [5].  \n[6] La municipalité peut dispenser de l’enquête publique les constructions et installations de minime importance ne servant pas à l’habitation ou à l’activité professionnelle, telles que les installations liées aux énergies renouvelables, pour autant qu’aucun intérêt public prépondérant ne soit touché et qu’elles ne portent pas atteinte aux intérêts dignes de protection des voisins [6].  \n[7] Le permis d’implantation ou de construire ne peut être délivré par la municipalité qu’après l’octroi de l’autorisation spéciale cantonale [7].\n\n## Commune de Lausanne  \n[9] Toute installation d’antenne extérieure pour la réception des émissions de radiodiffusion et de télévision est soumise à l’autorisation préalable de la Municipalité [9]. Le règlement communal ne s’applique pas aux antennes extérieures comprises dans une installation de station radioélectrique nécessitant une concession spéciale [9].\n\n## Articulation des niveaux  \nLe droit fédéral impose une autorisation de construire pour toute installation modifiant sensiblement la configuration, l’apparence ou l’affectation du bâtiment [1]. Le canton de Vaud précise que les travaux de construction doivent être autorisés, sauf les objets de minime importance qui respectent les conditions cumulatives de l’art. 103 al. 3 [3] et peut prévoir une dispense d’enquête publique pour certaines installations de minime importance [6]. La commune de Lausanne exige une autorisation municipale pour les antennes extérieures de réception [9], mais ne traite pas spécifiquement des panneaux solaires sur toit.\n\n## Prochaines étapes  \n1. Vérifier si les panneaux solaires sont de minime importance et respectent les conditions cumulatives de l’art. 103 al. 3 de la loi cantonale (VD 700.11) pour savoir s’ils sont dispensés d’autorisation [3][6].  \n2. Si une autorisation est requise, déposer une demande d’autorisation préalable d’implantation auprès de la commune de Lausanne avant la mise à l’enquête du projet [4].  \n3. Obtenir l’autorisation spéciale cantonale nécessaire avant que la municipalité ne délivre le permis d’implantation ou de construire [7].  \n4. Respecter le délai de cinq ans pour commencer les travaux après la mise en vigueur d’un plan d’affectation valant permis [5].  \n5. En cas d’installation d’antenne extérieure de réception, déposer une demande d’autorisation préalable auprès de la Municipalité de Lausanne [9].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 2,
+    "raw_chars": 808,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 2,
+    "raw_chars": 808,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 2,
+    "raw_chars": 808,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 3,
+  "claims_checked": 6,
+  "sources": [
+   "[1] fed LAT Art. 22 Autorisation de construire",
+   "[2] fed LAT Art. 24ter Installations solaires qui ne revêtent pas un intérêt national",
+   "[3] can VD 700.11 Art. 103",
+   "[4] can VD 700.11 Art. 119",
+   "[5] can VD 700.11 Art. 28",
+   "[6] can VD 700.11.1 Art. 72d",
+   "[7] can VD 700.11.1 Art. 75",
+   "[8] can VD 700.11 Art. 109",
+   "[9] com Lausanne: 700.5 Règlement sur les antennes extérieures pour la réception des émi Art. 4",
+   "[10] fed CO Art. 266c"
+  ]
+ },
+ {
+  "id": "T062",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 195.9,
+  "plan_s": 15.8,
+  "ttft_s": null,
+  "words": 253,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür einen Gartenschuppen ist grundsätzlich eine Baubewilligung erforderlich, da Art. 22 RPG vorschreibt, dass Bauten und Anlagen nur mit behördlicher Bewilligung errichtet oder geändert werden dürfen [1]. Ob eine Ausnahme von der Bewilligungspflicht besteht, ergibt sich aus kantonalen oder kommunalen Vorschriften; die vorliegenden Quellen regeln das Verfahren und die Zuständigkeiten, nicht die materiellen Ausnahmen für Gartenschuppen.\n\n## Bund\n[1] Nach Art. 22 RPG dürfen Bauten und Anlagen nur mit behördlicher Bewilligung errichtet oder geändert werden. Voraussetzung ist, dass das Vorhaben dem Zweck der Nutzungszone entspricht und das Land erschlossen ist. Die übrigen Voraussetzungen des Bundesrechts und des kantonalen Rechts bleiben vorbehalten.\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKeine einschlägige Quelle abgerufen.\n\n## Nächste Schritte\n1. Prüfen Sie anhand der einschlägigen kantonalen oder kommunalen Vorschriften, ob für Gartenschuppen Ausnahmen von der Baubewilligungspflicht bestehen; die vorliegenden Quellen enthalten keine Angaben zu materiellen Ausnahmen [1].\n2. Reichen Sie das Baugesuch elektronisch über die kantonale Plattform ein, sobald alle Unterlagen vollständig sind [5].\n3. Nach Eingang des Gesuchs nennt das örtliche Bauamt das Datum, an welchem die 30-tägige Behandlungsfrist endet [4].\n4. Falls zum Rekurs berechtigte Dritte vorhanden sind, holen Sie deren schriftliche Zustimmung ein; diese muss mit qualifizierter elektronischer Signatur oder handschriftlich unterschrieben und als PDF über die Plattform eingereicht werden [3].\n5. Nach Ablauf der Auflagefrist entscheidet die örtliche Baubehörde (Bausektion der Stadt Zürich) im ordentlichen oder Anzeigeverfahren und erlässt die Baubewilligung oder teilt die Bewilligungsfreiheit mit [3][4].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 15,
+    "raw_chars": 6021,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt einen kantonalen Anhang zur Bauverfahrensverordnung, der bewilligungsfreie Vorhaben für Gartenschuppen auflistet. Die kantonalen Quellen [2] und [3] erwähnen zwar einen Anhang (§ 7 ZH 700.6), aber sie definieren nicht, welche Gartenschuppen konkret bewilligungsfrei sind; die Aussage, dass dies im Anhang steht, ist eine unbelegte Behauptung.",
+     "Die kantonalen Quellen nennen zwar einen Anhang (§ 7 ZH 700.6), aber sie enthalten keine Liste, die besagt, dass Gartenschuppen dort als bewilligungsfrei aufgeführt sind oder nicht. Die Aussage, dass man dort nachschauen muss, ist korrekt, aber die Behauptung, dass dort die Antwort für Gartenschuppen steht, ist unbelegt."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 3007,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt, dass die Notwendigkeit einer Bewilligung davon abhängt, ob das Vorhaben im Anhang der kantonalen Bauverfahrensverordnung als bewilligungsfrei aufgeführt ist. Die kantonale Verordnung regelt das Verfahren, nicht die generelle Ausnahme von der Bewilligungspflicht nach RPG."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 18,
+    "raw_chars": 6071,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle stützt diese Aussage; Art. 22 RPG enthält keine Aussage zu Ausnahmen, und die kantonale Bauverfahrensverordnung regelt Verfahren und Zuständigkeiten, nicht die materiellen Ausnahmen der Bewilligungspflicht.",
+     "Keine Quelle nennt Art. 49 BV in diesem Zusammenhang; die Aussage ist zudem ungenau, da Art. 49 BV die derogatorische Kraft des Bundesrechts gegenüber kantonalem Recht regelt, aber nicht spezifisch für Baubewilligungen.",
+     "Keine Quelle stützt diese Aussage; die kantonale Bauverfahrensverordnung regelt Verfahren und Zuständigkeiten, nicht die materiellen Ausnahmen."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 41,
+  "sources": [
+   "[1] fed RPG Art. 22 Baubewilligung",
+   "[2] can ZH 700.6 § 7",
+   "[3] can ZH 700.6 § 15",
+   "[4] can ZH 700.6 § 17",
+   "[5] can ZH 700.6 § 19",
+   "[6] com Zürich: 172.450 Organisationsreglement der Bausektion (OrgR BS) Art. 4"
+  ]
+ },
+ {
+  "id": "T063",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 83.2,
+  "plan_s": 14.7,
+  "ttft_s": null,
+  "words": 493,
+  "citations": 28,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür Bauten in der Stadt Bern gelten die Grenzabstände nach Art. 33 und Art. 34 der Bauordnung der Stadt Bern (BO). Der grosse Grenzabstand ist die rechtwinklig und horizontal zur projizierten Fassadenlinie gemessene Entfernung der Längsseiten vom Grundstücksrand; bei einer Schmalseite von mehr als 20,00 m muss er auch dort eingehalten werden. Der kleine Grenzabstand misst die Entfernung zwischen projizierter Fassadenlinie und Grundstücksgrenze. Der Gebäudeabstand entspricht der Summe der beidseits erforderlichen Grenzabstände. Ein Näherbau an die Grenze ist mit schriftlicher Zustimmung des Nachbarn zulässig, sofern der Gebäudeabstand gewahrt bleibt.\n\n## Bund\n[1] Eine Baubewilligung ist erforderlich, wenn die Bauten und Anlagen dem Zweck der Nutzungszone entsprechen und das Land erschlossen ist [1].\n[2] Land ist erschlossen, wenn eine hinreichende Zufahrt und erforderliche Wasser-, Energie- sowie Abwasserleitungen so nahe heranführen, dass ein Anschluss ohne erheblichen Aufwand möglich ist [2]. Das Gemeinwesen erschliesst Bauzonen innerhalb der im Erschliessungsprogramm vorgesehenen Frist; bei Säumnis dürfen Grundeigentümer die Erschliessung selber vornehmen oder bevorschussen lassen [2].\n\n## Kanton Bern\n[3] Die Gemeinden bestimmen die gegenüber Nachbargrundstücken einzuhaltenden Grenz- und Gebäudeabstände [3]. Die Abstände gegenüber Strassen richten sich nach dem Strassengesetz und Gemeindevorschriften, gegenüber Gewässern nach dem Wasserbaugesetz und gegenüber Wald nach der Forstgesetzgebung [3]. Vorbehalten bleiben besondere Abstandsvorschriften eidgenössischer und anderer kantonaler Gesetze sowie Baulinien und Baubereich [3].\n\n## Gemeinde Bern\n[5] Der grosse Grenzabstand ist die rechtwinklig und horizontal zur projizierten Fassadenlinie gemessene Entfernung der Längsseiten vom Grundstücksrand; bei einer Schmalseite von mehr als 20,00 m muss er auch dort eingehalten werden [5]. Der kleine Grenzabstand ist die Entfernung zwischen projizierter Fassadenlinie und Grundstücksgrenze [5].\n[6] Der Gebäudeabstand entspricht der Summe der beidseits erforderlichen reglementarischen Grenzabstände; bei Gebäuden auf demselben Grundstück wird er wie bei einer Grenze zwischen ihnen berechnet [6].\n[7] Mit schriftlicher Zustimmung der Nachbarin oder des Nachbarn dürfen Bauten näher an die Grenze gebaut oder gestellt werden, sofern der vorgeschriebene Gebäudeabstand eingehalten bleibt [7].\n\n## Zusammenspiel der Ebenen\nDas kantonale Recht delegiert die konkrete Festlegung der Grenz- und Gebäudeabstände an die Gemeinden; diese dürfen im gesetzlichen Rahmen namentlich die Art und Mass der baulichen Nutzung sowie die Abstände näher ordnen [3][4]. Die Stadt Bern konkretisiert diese Vorgaben in ihrer Bauordnung mit spezifischen Messweisen und Ausnahmen (z. B. Näherbau mit Zustimmung des Nachbarn) [5][6][7]. Bundesrecht bleibt massgebend, kantonale und kommunale Vorschriften dürfen nicht im Widerspruch dazu stehen (Art. 49 BV).\n\n## Nächste Schritte\n1. Prüfen Sie die Zonenzugehörigkeit des Grundstücks im Zonenplan der Stadt Bern, da der zulässige Abstand vom Nutzungszweck abhängt [3].\n2. Konsultieren Sie das Baureglement der Stadt Bern [5], um die exakten Abmessungen des grossen und kleinen Grenzabstands sowie des Gebäudeabstands zu ermitteln [5][6].\n3. Bei geplantem Näherbau an die Grenze holen Sie eine schriftliche Zustimmung des Nachbarn ein [7].\n4. Für die Erschliessung des Grundstücks vergewissern Sie sich, dass eine hinreichende Zufahrt und Anschlussmöglichkeiten für Wasser, Energie und Abwasser vorhanden sind [2]; bei fehlender Erschliessung durch das Gemeinwesen klären Sie die Möglichkeiten zur Selbsterschliessung oder Bevorschussung [2].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1389,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1389,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1389,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed RPG Art. 22 Baubewilligung",
+   "[2] fed RPG Art. 19 Erschliessung",
+   "[3] can BE 721.0 Art. 12",
+   "[4] can BE 721.0 Art. 69",
+   "[5] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 33",
+   "[6] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 34",
+   "[7] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 36"
+  ]
+ },
+ {
+  "id": "T064",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 94.7,
+  "plan_s": 6.6,
+  "ttft_s": null,
+  "words": 382,
+  "citations": 0,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nSì, a Lugano è richiesta una licenza edilizia per installare una piscina in giardino. La licenza è rilasciata dal Municipio previo avviso cantonale; non è esclusa dalle disposizioni cantonali né qualificata come manutenzione ordinaria, quindi non è dispensata per questo intervento.\n\n## Confederazione  \nNessuna fonte pertinente recuperata.\n\n## Cantone Ticino  \n- Art. 1 cpv. 2 della Legge edilizia cantonale (TI 705.100) stabilisce che la licenza edilizia è necessaria per la costruzione di piscine, poiché rientrano tra le opere edilizie soggette a permesso.  \n- Art. 4 del Regolamento di applicazione della legge edilizia (TI 705.110) elenca le opere soggette a licenza, includendo esplicitamente le piscine tra le opere edilizie per le quali è richiesta la licenza.  \n- Art. 32 cpv. 1 lett. b del Regolamento di applicazione della legge edilizia (TI 705.110) esclude dalla licenza i lavori di ordinaria manutenzione che non modificano né l’aspetto esterno né la destinazione degli edifici; una piscina nuova non costituisce manutenzione ordinaria e resta quindi soggetta a licenza.  \n- Art. 21 del Regolamento di applicazione della legge edilizia (TI 705.110) prevede che la licenza è concessa dal Municipio previo avviso cantonale, in particolare dai Servizi generali per le domande di costruzione che richiedono una ponderazione degli interessi.\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale (LPT) fissa i principi generali per l’autorizzazione edilizia; il Cantone Ticino, tramite la Legge edilizia e il relativo Regolamento, definisce concretamente quali opere richiedono la licenza e quali sono escluse. Il Comune di Lugano applica le norme cantonali e rilascia la licenza edilizia, previo avviso cantonale quando richiesto.\n\n## Prossimi passi  \n- Redigere una domanda di costruzione completa (planimetrie, descrizione dell’opera, dati catastali) e inoltrarla all’Ufficio delle domande di costruzione (UDC) del Cantone Ticino.  \n- Versare la tassa di istruttoria (importo non indicato nelle fonti; verificare sul sito dell’UDC).  \n- Attendere l’avviso cantonale, che deve essere emesso entro 30 giorni dalla ricezione degli atti e delle eventuali opposizioni; in casi particolari è possibile una proroga di ulteriori 30 giorni o, per circostanze eccezionali, una proroga ulteriore decisa dal Presidente del Consiglio di Stato.  \n- Ricevere la decisione del Municipio di Lugano sulla concessione della licenza edilizia, vincolante per l’autorità comunale salvo i casi specifici previsti dalla legge.  \n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 2,
+    "raw_chars": 757,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 2,
+    "raw_chars": 1445,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La frase contiene due affermazioni non supportate dalle fonti: (1) l'esclusione per legge speciale non è confermata dalle fonti federali o cantonali presentate (le fonti non elencano eccezioni specifiche per piscine); (2) l'esclusione per manutenzione ordinaria è contraddetta dall'art. 6 lett. c dell'art. 32 del Regolamento di applicazione della legge edilizia (TI 705.110), che esclude solo lavori di manutenzione ordinaria che non modificano aspetto o destinazione, mentre una piscina nuova non rientra in questa categoria."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 2,
+    "raw_chars": 672,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 6,
+  "sources": [
+   "[1] fed LPT Art. 23 Eccezioni nelle zone edificabili",
+   "[2] fed LPT Art. 24 Edifici e impianti a ubicazione vincolata",
+   "[3] fed LPT Art. 22 Autorizzazione edilizia",
+   "[4] can TI 705.100 Art. 1",
+   "[5] can TI 705.100 Art. 2",
+   "[6] can TI 705.110 Art. 4",
+   "[7] can TI 705.110 Art. 21",
+   "[8] can TI 705.110 Art. 32",
+   "[9] can TI 705.100 Art. 74"
+  ]
+ },
+ {
+  "id": "T065",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 11,
+  "total_s": 185.0,
+  "plan_s": 6.2,
+  "ttft_s": null,
+  "words": 845,
+  "citations": 15,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nVous pouvez d’abord demander à votre voisin de cesser les bruits excessifs. Si les nuisances persistent, vous pouvez former opposition contre tout projet de construction ou modification d’une installation bruyante pendant l’enquête publique, puis recourir contre la décision communale auprès de la Direction cantonale et, en dernier ressort, au Tribunal cantonal fribourgeois. En cas de nuisances déjà existantes, le conseil communal peut ordonner des mesures de police (interdiction d’activités bruyantes, réduction des émissions) et le préfet peut agir d’office. Les valeurs limites d’immissions et de planification fixées par le droit fédéral s’appliquent, et les frais d’isolation acoustique sont à la charge du propriétaire de l’installation bruyante si les conditions légales sont remplies.\n\n## Confédération  \n- Selon l’art. 15 LPE [1], les valeurs limites d’immissions relatives au bruit et aux vibrations sont fixées de telle sorte que les immissions inférieures à ces valeurs ne gênent pas de manière sensible la population dans son bien-être.  \n- L’art. 7 OPB [2] impose de limiter les émissions de bruit d’une nouvelle installation fixe de manière réalisable techniquement et économiquement supportable, de sorte que les immissions dues exclusivement à l’installation ne dépassent pas les valeurs de planification. Des allégements sont possibles si le respect des valeurs de planification constituerait une charge disproportionnée et que l’installation présente un intérêt public prépondérant, à condition de ne pas dépasser les valeurs limites d’immission. Une réduction d’au moins 3 dB moyennant au plus 1 % des coûts d’investissement est requise pour les nouvelles pompes à chaleur air‑eau destinées au chauffage ou à l’eau potable dont les immissions ne dépassent pas les valeurs de planification.  \n- L’art. 37a OPB [3] prévoit que l’autorité d’exécution consigne les immissions de bruit admissibles dans sa décision concernant la construction, modification ou assainissement d’une installation, et qu’elle prenne les mesures nécessaires si les immissions diffèrent notablement et durablement des immissions consignées.\n\n## Canton de Fribourg  \n- L’art. 84 LATeC [5] reconnaît la qualité pour faire opposition à toute personne touchée par les plans ou leur réglementation et ayant un intérêt digne de protection, ainsi qu’aux associations cantonales ou nationales s’occupant principalement d’aménagement du territoire et de protection de la nature et du paysage. L’opposition doit être déposée par écrit et motivée auprès du secrétariat communal ou de la préfecture pendant la durée de l’enquête publique.  \n- L’art. 85 LATeC [6] dispose que le conseil communal statue, par une décision motivée, sur les oppositions non liquidées et adopte les plans et leur réglementation.  \n- L’art. 86 LATeC [7] décrit la procédure d’établissement d’un préavis de synthèse par le Service cantonal, puis l’examen et l’approbation des plans par la Direction, qui peut entendre les intéressés avant de prendre des mesures non prévues dans le dossier d’enquête.  \n- L’art. 87 LATeC [8] précise que les plans et règlements approuvés ont force obligatoire pour les autorités communales et cantonales ainsi que pour les propriétaires fonciers.  \n- L’art. 88 LATeC [9] ouvre un recours à la Direction contre les décisions communales sur les oppositions, puis un recours au Tribunal cantonal contre les décisions de la Direction.  \n- L’art. 170 LATeC [10] autorise le conseil communal, en l’absence de règlement, à ordonner des mesures de police (entretien, déblaiement, suppression de dépôts, consolidation, démolition, interdiction d’activités bruyantes, réduction d’émissions, évacuation de locaux non conformes) si des raisons de sécurité, salubrité ou protection des biens l’exigent. Le préfet peut ordonner ces mesures d’office.\n\n## Commune de Fribourg  \n- L’art. 38 du Règlement général de police de la Ville de Fribourg [11] interdit les activités, jeux et sports particulièrement bruyants qui troublent le repos d’autrui, sauf aux endroits, jours, horaires et conditions indiqués à cet effet.\n\n## Articulation des niveaux  \nLe droit fédéral fixe les valeurs limites d’immissions et les principes de limitation des émissions (LPE, OPB). Le canton de Fribourg précise les procédures d’opposition, d’adoption et d’approbation des plans, ainsi que les compétences des autorités communales et cantonales pour ordonner des mesures de police ou d’assainissement, et définit les voies de recours. La commune de Fribourg complète ces règles par des prescriptions locales de police, notamment sur les horaires et lieux autorisés pour les activités bruyantes.\n\n## Prochaines étapes  \n- Si une nouvelle installation bruyante est projetée, déposer une opposition motivée par écrit auprès du secrétariat communal ou de la préfecture pendant l’enquête publique [5] ; préciser les nuisances attendues et les valeurs limites concernées.  \n- Si l’opposition est rejetée, recourir à la Direction cantonale dans le délai prévu par la décision communale [9] ; le recours doit être motivé et indiquer les griefs juridiques.  \n- Si des nuisances existent déjà, saisir le conseil communal d’une demande de mesures de police [10] en décrivant les faits, les horaires et l’impact sur votre bien‑être [10] ; le conseil communal rendra une décision motivée.  \n- En cas de refus ou de carence communale, le préfet peut être saisi d’office pour ordonner les mesures nécessaires [10].  \n- Pour toute question technique sur les valeurs limites ou les mesures d’isolation, consulter l’autorité d’exécution cantonale compétente en matière de protection contre le bruit.\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 13,
+    "raw_chars": 4656,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 15,
+    "raw_chars": 5598,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 16,
+    "raw_chars": 6225,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Citation manquante ou source incorrecte — cette phrase ne provient d'aucune source fournie."
+    ]
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 44,
+  "sources": [
+   "[1] fed LPE Art. 15 Valeurs limites d’immissions relatives au bruit et aux vibrations",
+   "[2] fed OPB Art. 7 Limitation des émissions de nouvelles installations fixes",
+   "[3] fed OPB Art. 37a Fixation des immissions de bruit et contrôle",
+   "[4] fed LPE Art. 20 Isolation acoustique des immeubles existants",
+   "[5] can FR 710.1 Art. 84",
+   "[6] can FR 710.1 Art. 85",
+   "[7] can FR 710.1 Art. 86",
+   "[8] can FR 710.1 Art. 87",
+   "[9] can FR 710.1 Art. 88",
+   "[10] can FR 710.1 Art. 170",
+   "[11] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 38"
+  ]
+ },
+ {
+  "id": "T066",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 134.9,
+  "plan_s": 4.2,
+  "ttft_s": null,
+  "words": 406,
+  "citations": 17,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nJa, Sie dürfen überragende Äste abschneiden, wenn sie Ihr Eigentum schädigen und der Nachbar die Beseitigung nach Ihrer Beschwerde nicht binnen angemessener Frist vornimmt [1]. Der Schnitt muss die kantonalen Grenzabstände einhalten: 3 m für hochstämmige Obstbäume, 6 m für Nuss‑, Kastanien‑ und alle übrigen hochstämmigen Bäume sowie 0,5 m für Zwergbäume, Sträucher, Grünhecken und Reben gegenüber Wald [2]. Zum Betreten des Nachbargrundstücks benötigen Sie das nachbarliche Zutrittsrecht, das Sie rechtzeitig anzeigen, sorgfältig ausführen und einen allfälligen Schaden ersetzen müssen [3]. Die kommunale Verordnung über die Nutzung des öffentlichen Grundes (VNöG) ist für das Nachbarschaftsrecht nicht einschlägig [4][5].\n\n## Bund  \n- Nach Art. 687 ZGB kann der Nachbar überragende Äste kappen und behalten, wenn sie sein Eigentum schädigen und auf seine Beschwerde hin nicht binnen angemessener Frist beseitigt werden [1].  \n- Art. 687 ZGB findet keine Anwendung auf Waldgrundstücke, die aneinander grenzen [1].\n\n## Kanton Luzern  \n- Nach § 86 LU 200 beträgt der Grenzabstand 3 m für hochstämmige Obstbäume, 6 m für Nuss‑, Kastanien‑ und alle übrigen hochstämmige Bäume sowie 0,5 m für Zwergbäume, Sträucher, Grünhecken und Reben gegenüber Wald [2].  \n- Wachsen Zwergbäume, Sträucher, Grünhecken und Reben höher als 1 m, muss der Grenzabstand mindestens die Hälfte ihrer Höhe betragen und sie sind entsprechend zurückzuschneiden [2].  \n- Werden Gewächse, die zu nahe an der Grenze stehen, während zehn Jahren geduldet, gelten sie als zugelassen; eingehen sie, ist für Neupflanzungen wieder der gesetzliche Grenzabstand einzuhalten [2].\n\n## Gemeinde Luzern  \n- Die kommunale Verordnung über die Nutzung des öffentlichen Grundes (VNöG) betrifft die Nutzung von öffentlichem Grund und ist für das Nachbarschaftsrecht nicht einschlägig [4][5].\n\n## Zusammenspiel der Ebenen  \nDas kantonale Recht konkretisiert die bundesrechtlichen Nachbarrechtsvorschriften durch festgelegte Grenzabstände und das nachbarliche Zutrittsrecht; die Gemeinde hat in diesem Bereich keine zusätzlichen Regeln erlassen. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte  \n- Prüfen Sie den Grenzabstand gemäss § 86 LU 200 und dokumentieren Sie die Lage der Äste [2].  \n- Mahnen Sie den Nachbarn schriftlich zur Beseitigung der überragenden Äste und setzen Sie eine angemessene Frist [1].  \n- Falls der Nachbar nicht reagiert, informieren Sie ihn rechtzeitig über Ihr Vorhaben und das nachbarliche Zutrittsrecht nach § 87 LU 200 [3].  \n- Führen Sie die Schnittarbeiten mit grösstmöglicher Sorgfalt aus und ersetzen Sie einen allfälligen Schaden am Nachbargrundstück [3].  \n- Bei Streitigkeiten über das Zutrittsrecht oder den Umfang des Schnitts wenden Sie sich an das zuständige Gericht [3].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2248,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für diese konkrete Handlungshinweis-Forderung",
+     "Keine Quelle zitiert, die eine schriftliche Mahnung oder Fristsetzung vorschreibt"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 15,
+    "raw_chars": 4632,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; kommunale Bestimmungen sind nicht per se irrelevant, aber die angegebenen Artikel (4 und 5) regeln Nutzung des öffentlichen Grundes, nicht das Nachbarschaftsrecht. Die Aussage ist daher nicht durch die angegebenen Quellen belegt."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2772,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; kantonales Recht (§ 86 LU 200) ist vorhanden, aber nicht als Quelle angegeben",
+     "Keine Quelle zitiert; Art. 687 ZGB verlangt Beschwerde, aber keine explizite schriftliche Mahnung als Voraussetzung"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 32,
+  "sources": [
+   "[1] fed ZGB Art. 687",
+   "[2] can LU 200 § 86",
+   "[3] can LU 200 § 87",
+   "[4] com Luzern: Verordnung über die Nutzung des öffentlichen Grundes (VNöG) Art. 2",
+   "[5] com Luzern: Verordnung über die Nutzung des öffentlichen Grundes (VNöG) Art. 18"
+  ]
+ },
+ {
+  "id": "T067",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 149.1,
+  "plan_s": 6.0,
+  "ttft_s": null,
+  "words": 562,
+  "citations": 18,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, la construction d’une véranda est en principe soumise à autorisation de construire dans le canton de Genève. Elle nécessite une demande adressée au département compétent, accompagnée de plans signés par un mandataire professionnellement qualifié, et fait l’objet d’une publication de 30 jours dans la Feuille d’avis officielle. L’autorisation est délivrée si la véranda est conforme à l’affectation de la zone et si le terrain est équipé; une véranda située à l’intérieur d’une villa isolée ou en ordre contigu qui ne modifie pas la surface habitable est exemptée d’autorisation [4]. La résiliation d’un bail pour une habitation relève du Code des obligations [8] et n’est pas traitée ici.  \n\n## Confédération  \n[1] Aucune construction ou installation ne peut être créée ou transformée sans autorisation de l’autorité compétente.  \n[2] Les exceptions prévues à l’intérieur de la zone à bâtir sont réglées par le droit cantonal.  \n[3] Les cantons règlent la compétence et la procédure d’autorisation, fixent les délais et décident des projets hors zone à bâtir; le rétablissement d’une situation conforme au droit se prescrit par 30 ans, sauf mise en péril de biens de police.  \n\n## Canton de Genève  \n[4] Toute modification d’une construction ou d’une installation, y compris l’érection d’une véranda, nécessite une autorisation, sauf pour les travaux à l’intérieur d’une villa isolée ou en ordre contigu qui ne modifient pas la surface habitable [4].  \n[5] La demande d’autorisation doit être adressée au département (37). Elle doit contenir les pièces requises et être signée par une personne inscrite au tableau des mandataires professionnellement qualifiés (architecte ou ingénieur). Le département peut exiger, aux frais du requérant, un piquetage sommaire ou la pose de gabarits. La modélisation BIM n’est pas obligatoire pour le dépôt de la demande [5].  \n[6] La demande est publiée dans la Feuille d’avis officielle pendant 30 jours, durant lesquels chacun peut consulter les plans et transmettre ses observations par écrit. Les communes et organismes intéressés formulent leur préavis dans les 30 jours suivant l’enregistrement de la demande; à défaut de réponse, le département peut statuer comme si le préavis était favorable. L’autorisation est publiée dans la Feuille d’avis officielle avec mention des dérogations éventuelles [6].  \n[7] Une demande préalable peut être déposée pour obtenir une réponse sur l’implantation, le gabarit, le volume et la dévestiture de la véranda. Si le projet est traité comme demande préalable, la procédure s’applique par analogie (publication de 30 jours sauf cas spéciaux) [7].  \n\n## Articulation des niveaux  \nLe droit fédéral impose une autorisation de construire générale [1], tandis que le canton de Genève précise l’assujettissement, la forme de la demande, la procédure de publication et de préavis, ainsi que les exceptions locales (notamment pour les vérandas à l’intérieur de villas ne modifiant pas la surface habitable).  \n\n## Prochaines étapes  \n1. Vérifier si la véranda modifie la surface habitable de la villa (exemption possible selon [4] al. 2).  \n2. Adresser une demande d’autorisation au département (37) en joignant les plans signés par un mandataire professionnellement qualifié.  \n3. Prévoir les frais éventuels de piquetage ou de gabarits, à la charge du requérant [5].  \n4. Attendre la publication de la demande dans la Feuille d’avis officielle pendant 30 jours, puis répondre aux éventuelles observations [6].  \n5. Si la demande est traitée comme préalable, s’informer des modalités spécifiques de publication (cas de projets de plan d’affectation du sol) [7].  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 11,
+    "raw_chars": 3146,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "La Constitution fédérale (art. 49 Cst.) n’est pas citée dans les sources fournies et n’est pas mentionnée dans les textes de loi présentés."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 2825,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Deadline or authority not in cited source; claim about exemption is supported by source [4] but this sentence adds no new legal rule and cites no source."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 2749,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Deadline or authority not in cited sources; claim about exemption is present in source [4] but this sentence adds no new legal rule and cites no source."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 3,
+  "claims_checked": 31,
+  "sources": [
+   "[1] fed LAT Art. 22 Autorisation de construire",
+   "[2] fed LAT Art. 23 Exceptions prévues à l’intérieur de la zone à bâtir",
+   "[3] fed LAT Art. 25 Compétence cantonale",
+   "[4] can GE L 5 05 Art. 1",
+   "[5] can GE L 5 05 Art. 2",
+   "[6] can GE L 5 05 Art. 3",
+   "[7] can GE L 5 05 Art. 5",
+   "[8] fed CO Art. 266c"
+  ]
+ },
+ {
+  "id": "T068",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 139.2,
+  "plan_s": 7.3,
+  "ttft_s": null,
+  "words": 349,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 6,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nDie vorliegenden Quellen nennen keine Bauten, die ohne Baubewilligung errichtet werden dürfen. Art. 22 Abs. 1 RPG verlangt grundsätzlich eine Bewilligung; kantonale und kommunale Bestimmungen regeln Ausnahmen und erleichterte Ausnahmebewilligungen, jedoch keine zusätzlichen bewilligungsfreien Tatbestände.\n\n## Bund  \n- Nach Art. 22 Abs. 1 RPG dürfen Bauten und Anlagen nur mit behördlicher Bewilligung errichtet oder geändert werden [1].  \n- Voraussetzung einer Bewilligung ist, dass die Bauten und Anlagen dem Zweck der Nutzungszone entsprechen [1] und das Land erschlossen ist [1].  \n- Ausnahmen innerhalb der Bauzonen werden durch das kantonale Recht geregelt [2].\n\n## Kanton Aargau  \n- Nach § 59 Abs. 1 AG Baugesetz bedürfen alle Bauten und Anlagen sowie wesentliche Umgestaltungen, Erweiterungen, Zweckänderungen und Beseitigungen einer Bewilligung durch den Gemeinderat [3].  \n- Die Gemeinden können die Bewilligungspflicht für bestimmte Schutzzonen erweitern (§ 59 Abs. 2 AG Baugesetz).  \n- Für untergeordnete Bauten und Anlagen wie Klein‑ und Anbauten kann eine erleichterte Ausnahmebewilligung betreffend Abstände gegenüber Strassen oder Baulinien erteilt werden, sofern kein überwiegendes, aktuelles öffentliches Interesse entgegensteht (§ 67a Abs. 1 AG Baugesetz [4]).  \n- Bewilligungen nach § 67a sind auflageweise mit der Verpflichtung zur entschädigungslosen Entfernung oder Versetzung bei überwiegenden öffentlichen Interessen zu versehen (§ 67a Abs. 2 AG Baugesetz [4]).  \n- Für erleichterte Ausnahmebewilligungen an Kantonsstrassen ist die Zustimmung des zuständigen kantonalen Departements erforderlich (§ 67a Abs. 3 AG Baugesetz [4]).\n\n## Gemeinde Aarau  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDas Bundesrecht legt die Grundbewilligungspflicht fest; kantonale und kommunale Vorschriften konkretisieren die Anforderungen und können Ausnahmen oder erleichterte Bewilligungen vorsehen, dürfen jedoch keine zusätzlichen bewilligungsfreien Tatbestände einführen, die dem RPG widersprechen. Art. 49 BV (Vorrang des Bundesrechts) bleibt massgeblich.\n\n## Nächste Schritte  \n- Prüfen, ob das Vorhaben dem Zweck der Nutzungszone entspricht und das Land erschlossen ist [1].  \n- Bei Klein‑ oder Anbauten: Antrag auf erleichterte Ausnahmebewilligung nach § 67a AG Baugesetz beim Gemeinderat Aarau einreichen und nachweisen, dass kein überwiegendes öffentliches Interesse entgegensteht [4].  \n- Bei Bauten an Kantonsstrassen: Zustimmung des zuständigen kantonalen Departements einholen (§ 67a Abs. 3 AG Baugesetz [4]).  \n- Keine Fristen oder Gebühren aus den Quellen ersichtlich.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 11,
+    "raw_chars": 3140,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt Fristen oder Gebühren; diese Information ist nicht belegt."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 14,
+    "raw_chars": 3820,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 12,
+    "raw_chars": 4185,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "The sources provided do not contain any information about which buildings can be erected without a building permit. The sources only discuss the requirement for permits and exceptions.",
+     "The source [5] and [6] are listed but not used to support any legal rule related to building permits. They are irrelevant to the question about building permits.",
+     "This is a general legal principle not directly supported by the provided sources. The sources do not explicitly state that cantonal law cannot introduce additional exemptions beyond federal law.",
+     "The sources do not mention deadlines or fees related to building permits, so this statement cannot be verified as true or false based on the provided texts."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 37,
+  "sources": [
+   "[1] fed RPG Art. 22 Baubewilligung",
+   "[2] fed RPG Art. 23 Ausnahmen innerhalb der Bauzonen",
+   "[3] can AG 713.100 § 59",
+   "[4] can AG 713.100 § 67a",
+   "[5] com Aarau: 7.1-1 Bau- und Nutzungsordnung (BNO) § 17",
+   "[6] com Aarau: 7.1-1 Bau- und Nutzungsordnung (BNO) § 23"
+  ]
+ },
+ {
+  "id": "T069",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 134.0,
+  "plan_s": 8.8,
+  "ttft_s": null,
+  "words": 579,
+  "citations": 23,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 8,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour louer votre appartement sur Airbnb à Sion, vous devez disposer d’un bail principal valide et obtenir le consentement écrit du bailleur pour la sous-location [2]. La location courte durée est soumise à la Loi sur le tourisme du Valais (VS 935.1) : une taxe de séjour est perçue par nuitée, sauf exonérations (domiciliés, famille, enfants <6 ans, élèves/apprentis/étudiants, patients, militaires/pompiers en service) [4]. Le propriétaire ou le locataire à long terme doit encaisser et reverser la taxe à la commune ou à l’organe délégué ; un forfait annuel est possible sur demande, fixé par le Conseil municipal selon le taux local moyen d’occupation de la catégorie d’hébergement [6]. Le bail d’habitation peut être résilié en respectant un délai de congé de trois mois pour la fin d’un trimestre de bail [7].\n\n## Confédération  \n[1] Le bail peut être conclu pour une durée déterminée ou indéterminée [1].  \n[2] La sous-location d’un logement n’est autorisée qu’avec le consentement du bailleur ; ce dernier peut refuser si le locataire refuse de communiquer les conditions de la sous-location, si celles-ci sont abusives par rapport au bail principal, ou si la sous-location cause des inconvénients majeurs au bailleur [2].  \n[7] Une partie peut résilier le bail d’une habitation en observant un délai de congé de trois mois pour la fin d’un trimestre de bail [7].\n\n## Canton de Valais  \n[3] Une taxe de séjour est perçue par nuitée auprès des hôtes dans le rayon d’activité d’une société de développement reconnue [3].  \n[4] Sont exonérés de la taxe de séjour : les personnes domiciliées sur le territoire communal, les visiteurs chez un membre de la famille non assujetti, les enfants de moins de six ans (demi-taxe de six à seize ans), les élèves, apprentis et étudiants des établissements reconnus, les patients et pensionnaires d’établissements autorisés, ainsi que les militaires et pompiers en service commandé [4].  \n[5] Le produit de la taxe sert à financer la promotion touristique [5].  \n[6] La taxe est perçue par nuitée ; le propriétaire ou le locataire à long terme doit l’encaisser et la reverser à la commune ou à l’organe délégué, sous peine de responsabilité personnelle ; un forfait annuel est possible sur demande, fixé par le Conseil municipal selon le taux local moyen d’occupation de la catégorie d’hébergement [6].\n\n## Commune de Sion  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa législation fédérale (CO) fixe les principes du bail et de la sous-location, ainsi que les délais de congé pour les habitations, tandis que le canton du Valais, par sa Loi sur le tourisme (VS 935.1), impose une taxe de séjour par nuitée, précise les exonérations, le mode de perception et la possibilité d’un forfait annuel, le tout applicable dans la commune de Sion.\n\n## Prochaines étapes  \n1. Consulter votre contrat de bail principal et obtenir le consentement écrit du bailleur pour la sous-location [2].  \n2. S’informer auprès de la société de développement touristique de Sion sur le règlement communal de la taxe de séjour, les exonérations applicables et les modalités de versement [3][4].  \n3. Si vous souhaitez un forfait annuel, déposer une demande écrite au Conseil municipal de Sion, en précisant la catégorie d’hébergement et le taux d’occupation moyen local [6].  \n4. Encaisser la taxe de séjour par nuitée ou le forfait annuel fixé par le Conseil municipal, puis la reverser à la commune ou à l’organe délégué dans les délais indiqués par le règlement communal [6].  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 3272,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette étape spécifique",
+     "Pas de source citée pour les informations communales spécifiques",
+     "Pas de source citée pour la procédure de demande de forfait annuel",
+     "Pas de source citée pour les délais de versement"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 2796,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction spécifique",
+     "Pas de source citée pour cette instruction",
+     "Pas de source citée pour cette instruction",
+     "Pas de source citée pour cette instruction"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1490,
+    "unreadable": false,
+    "issues": 0,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 3,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed CO Art. 255",
+   "[2] fed CO Art. 262",
+   "[3] can VS 935.1 Art. 17",
+   "[4] can VS 935.1 Art. 18",
+   "[5] can VS 935.1 Art. 26",
+   "[6] can VS 935.1 Art. 21",
+   "[7] fed CO Art. 266c"
+  ]
+ },
+ {
+  "id": "T070",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 175.2,
+  "plan_s": 4.6,
+  "ttft_s": null,
+  "words": 684,
+  "citations": 21,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 10,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nFür Renovationen im Stockwerkeigentum gilt: Notwendige Unterhalts-, Wiederherstellungs- und Erneuerungsarbeiten [2] dürfen mit Zustimmung der Mehrheit aller Miteigentümer ausgeführt werden, sofern sie nicht als gewöhnliche Verwaltungshandlungen von jedem einzelnen vorgenommen werden dürfen. Bauarbeiten zur Verschönerung, Ansehnlichkeit oder Bequemlichkeit [3] benötigen die Zustimmung aller Miteigentümer; mit Zustimmung der Mehrheit aller Miteigentümer, die zugleich mehr als die Hälfte der Sache vertritt, sind sie auch gegen einzelne Eigentümer zulässig, sofern diese nicht dauernd in ihrem Nutzungs- und Gebrauchsrecht beeinträchtigt werden und die übrigen Miteigentümer Ersatz für eine bloss vorübergehende Beeinträchtigung leisten sowie den Kostenanteil übernehmen. Änderungen von Bestimmungen der Nutzungs- und Verwaltungsordnung über die Zuteilung ausschliesslicher Nutzungsrechte [4] bedürfen zusätzlich der Zustimmung der direkt betroffenen Stockwerkeigentümer. Kantonale Bestimmungen ergänzen dies: Nach Art. 99 Abs. 1 GR-Einführungsgesetz hat jeder Miteigentümer das Recht, die Brandmauer auf eigene Kosten zu erhöhen oder tieferzuführen [6]; baut ein Nachbar an das neue Mauerwerk an, hat er den Kostenbeitrag gemäss Art. 99 Abs. 1 GR-Einführungsgesetz zu leisten [6]; bei Neu- oder Umbau ist der Bauende berechtigt, die bestehende Brandmauer zu ersetzen [6], trägt die Kosten allein, nimmt den benötigten Boden auf seinem Grundstück und hat dem Nachbarn den verursachten Schaden zu ersetzen; war die Mauer schadhaft oder entsprach sie den Vorschriften nicht, leistet der Nachbar einen verhältnismässigen Beitrag an die Kosten [6]. An der Brandmauer dürfen keine Veränderungen vorgenommen werden, welche ihre Funktion beeinträchtigen; insbesondere dürfen keine Balken, Schränke oder Vertiefungen eingelassen werden, die weiter als bis auf 5 cm an die Mittellinie heranreichen [6].\n\n## Bund  \n- Notwendige Unterhalts-, Wiederherstellungs- und Erneuerungsarbeiten [2] können mit Zustimmung der Mehrheit aller Miteigentümer ausgeführt werden, sofern sie nicht als gewöhnliche Verwaltungshandlungen von jedem einzelnen vorgenommen werden dürfen.  \n- Bauarbeiten zur Verschönerung, Ansehnlichkeit oder Bequemlichkeit [3] dürfen nur mit Zustimmung aller Miteigentümer ausgeführt werden; mit Zustimmung der Mehrheit aller Miteigentümer, die zugleich mehr als die Hälfte der Sache vertritt, sind sie auch gegen den Willen eines nicht zustimmenden Miteigentümers zulässig, sofern dieser nicht dauernd in seinem Nutzungs- und Gebrauchsrecht beeinträchtigt wird und die übrigen Miteigentümer Ersatz für eine bloss vorübergehende Beeinträchtigung leisten sowie seinen Kostenanteil übernehmen.  \n- Änderungen von Bestimmungen der Nutzungs- und Verwaltungsordnung über die Zuteilung ausschliesslicher Nutzungsrechte [4] bedürfen zusätzlich der Zustimmung der direkt betroffenen Stockwerkeigentümer.\n\n## Kanton Graubünden  \n- Nach Art. 99 Abs. 1 GR-Einführungsgesetz hat jeder Miteigentümer das Recht, die Brandmauer in den Schranken des Gesetzes auf eigene Kosten zu erhöhen oder tiefer in den Boden hinunterzuführen [6].  \n- Baut der Nachbar an das neu erstellte Mauerwerk an, hat er den entsprechenden Kostenbeitrag gemäss Art. 99 Abs. 1 GR-Einführungsgesetz zu bezahlen [6].  \n- Wenn ein Neu- oder Umbau dies verlangt, ist der Bauende berechtigt, die bestehende Brandmauer abzureißen und durch eine neue zu ersetzen [6]; er trägt die Kosten allein, nimmt den für vermehrte Mauerdicke benötigten Boden auf seinem Grundstück und hat dem Nachbarn den durch die Baute verursachten Schaden zu ersetzen. War die Mauer schadhaft oder entsprach sie den gesetzlichen Vorschriften nicht, leistet der Nachbar einen verhältnismässigen Beitrag an die Kosten [6].  \n- Von keiner Seite dürfen an der Brandmauer bauliche Veränderungen vorgenommen werden, welche sie in ihrer Funktion beeinträchtigen; insbesondere dürfen keine Balken, Schränke oder andere Vertiefungen eingelassen werden, die weiter als bis auf 5 cm an die Mittellinie der Mauer heranreichen [6].\n\n## Gemeinde Chur  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nKantonale Bestimmungen zum Stockwerkeigentum und zu Brandmauern ergänzen das Bundesrecht; Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte  \n- Lassen Sie ein Reglement über die Verwaltung und Benutzung aufstellen [1]; zur Verbindlichkeit ist ein Beschluss mit Mehrheit der Stockwerkeigentümer, die zugleich mehr als die Hälfte anteilsberechtigt ist, erforderlich.  \n- Einholen Sie die Zustimmung der Mehrheit aller Miteigentümer für notwendige Erhaltungs-, Wiederherstellungs- und Erneuerungsarbeiten [2].  \n- Holen Sie bei Änderungen ausschliesslicher Nutzungsrechte zusätzlich die Zustimmung der direkt betroffenen Stockwerkeigentümer ein [4].  \n- Dokumentieren Sie die Beschlüsse schriftlich; eine Anmerkung im Grundbuch ist nur für das Reglement selbst nach Art. 712g Abs. 3 ZGB vorgesehen [1].  \n- Prüfen Sie bei Brandmauerarbeiten die kantonalen Vorgaben nach Art. 99 GR-Einführungsgesetz [6] und holen Sie die notwendigen Zustimmungen sowie die Kostenregelungen ein.  \n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 3027,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine kantonalen oder kommunalen Quellen wurden für diese Aussage zitiert; die Aussage ist eine Schlussfolgerung, die nicht durch die bereitgestellten Quellen belegt ist (Quellen 5 und 6 betreffen andere Themen)."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 12,
+    "raw_chars": 5456,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die Aussage zur Verbindlichkeit des Reglements und zur erforderlichen Mehrheit.",
+     "Die Quelle [2] regelt die Zustimmung für notwendige Erhaltungs-, Wiederherstellungs- und Erneuerungsarbeiten, aber nicht spezifisch für \"die geplante Renovationsart\" ohne weitere Differenzierung. Die Antwort suggeriert eine pauschale Anwendung der Mehrheit, ohne zu klären, ob es sich um notwendige Arbeiten handelt.",
+     "Art. 712g ZGB regelt die Aufstellung eines Reglements, aber nicht explizit die Pflicht zur schriftlichen Dokumentation der Beschlüsse oder deren Anmerkung im Grundbuch. Diese Aussage ist nicht direkt durch die zitierte Quelle gestützt."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 12,
+    "raw_chars": 4254,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 32,
+  "sources": [
+   "[1] fed ZGB Art. 712g",
+   "[2] fed ZGB Art. 647c",
+   "[3] fed ZGB Art. 647e",
+   "[4] fed ZGB Art. 647",
+   "[5] can GR 210.100 Art. 153",
+   "[6] can GR 210.100 Art. 99"
+  ]
+ },
+ {
+  "id": "T071",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 82.3,
+  "plan_s": 5.8,
+  "ttft_s": null,
+  "words": 210,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nIn Chur beginnt die Nachtruhe um 23.00 Uhr und dauert bis 07.00 Uhr [4]. An öffentlichen Ruhetagen sowie werktags zwischen 20.00 Uhr und 23.00 Uhr ist dem erhöhten Ruhebedürfnis der Bevölkerung Rechnung zu tragen [4]. Übermässige Störungen sind in den übrigen Zeiten zu unterlassen, sofern sie durch zumutbare Vorkehrungen vermieden werden können [4].\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Graubünden\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Chur\n- Nachtruhe: Von 23.00 Uhr bis 07.00 Uhr ist die Ruhe oder den Schlaf störender Lärm zu unterlassen [4].\n- Erhöhtes Ruhebedürfnis: An öffentlichen Ruhetagen sowie werktags von 20.00 Uhr bis 23.00 Uhr ist dem Ruhebedürfnis der Bevölkerung Rechnung zu tragen [4].\n- Übrige Zeiten: Übermässige Störungen sind zu unterlassen; lärmerzeugende Arbeiten sind nach Möglichkeit in geschlossene Räume zu verlegen [4].\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht enthält keine Bestimmungen über die Nachtruhe; daher sind die Vorschriften der Stadt Chur direkt anwendbar. Die Stadt Chur konkretisiert die Zeiten und Ausnahmen im städtischen Polizeigesetz [4].\n\n## Nächste Schritte\n- Prüfen Sie die lokalen Ruhezeiten vor geplanten Aktivitäten in Chur anhand des städtischen Polizeigesetzes [4].\n- Für Ausnahmen von den Ruhezeiten wenden Sie sich an die Gemeindebehörde (Polizei oder Gemeindeverwaltung Chur), da diese die lokalen Vorschriften vollzieht [4].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 2641,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "OR Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (insbesondere keine Bundesquelle) enthält die Aussage, dass das Bundesrecht die Nachtruhe nicht regelt oder dass kantonale und kommunale Bestimmungen aufgrund von Art. 49 BV direkt anwendbar sind. Die Quellen behandeln Nachtruhe nicht auf Bundesebene und Art. 49 BV wird nicht zitiert.",
+     "Quelle [2] regelt öffentliche Ruhetage und verbotene Tätigkeiten, enthält aber keine Ausnahmen für landwirtschaftliche Arbeiten oder Nothilfe. Quelle [4] regelt die Ruhezeiten in Chur, enthält aber keine Ausnahmen für landwirtschaftliche Arbeiten oder Nothilfe. Die Aussage ist inhaltlich nicht durch die zitierten Quellen gedeckt."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1747,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Art. 437 ZGB betrifft fürsorgerische Unterbringung, nicht Nachtruhe.",
+     "Keine Quelle zitiert; Art. 49 BV betrifft Kompetenzverteilung, aber keine spezifische Norm für Nachtruhe."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1250,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 16,
+  "sources": [
+   "[1] fed ZGB Art. 437",
+   "[2] can GR 520.100 Art. 4",
+   "[3] can GR 613.000 Art. 36g",
+   "[4] com Chur: Polizeigesetz der Stadt Chur (PG) Art. 30",
+   "[5] fed OR Art. 266c"
+  ]
+ },
+ {
+  "id": "T072",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 67.4,
+  "plan_s": 8.9,
+  "ttft_s": null,
+  "words": 493,
+  "citations": 10,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nIn der Stadt Bern (Kanton Bern) besteht eine Leinenpflicht für Hunde in mehreren Situationen: auf Schulanlagen, öffentlichen Spiel- und Sportplätzen, in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen, auf bestossenen Weiden, in öffentlichen Gebäuden der Stadt Bern, im eintrittsfreien Teil des Tierparks, im öffentlichen Raum gemäss Anhang 1 der Hundeverordnung sowie in den öffentlichen Park- und Grünanlagen gemäss Anhängen 2 und 3. Ausnahmen sind im Einzelfall möglich und müssen von der Gemeinde bewilligt werden. Die Kennzeichnung mit Mikrochip ist zwingend, muss spätestens drei Monate nach der Geburt durch einen in der Schweiz praktizierenden Tierarzt erfolgen und umfasst die Erfassung spezifischer Daten.\n\n## Bund\n[2] Hunde müssen spätestens drei Monate nach der Geburt mit einem Mikrochip gekennzeichnet werden; die Kennzeichnung muss durch einen Tierarzt mit kantonaler Berufsausübungsbewilligung und Praxisstandort in der Schweiz vorgenommen werden. Dabei werden Name, Geschlecht, Geburtsdatum, Rasse oder Rassetyp, Fellfarbe, Vorname, Name und Adresse der Person, bei welcher der Hund geboren wurde, Vorname, Name und Adresse des Hundehalters zum Zeitpunkt der Kennzeichnung, Vorname und Name des kennzeichnenden Tierarztes, Datum der Kennzeichnung sowie die Mikrochipnummer erfasst.\n\n## Kanton Bern\n[3] Wer einen Hund mit sich führt, muss ihn an der Leine halten: a) beim Fehlen anderer wirksamer Kontrollmöglichkeiten; b) auf Schulanlagen, öffentlichen Spiel- und Sportplätzen; c) in öffentlichen Verkehrsmitteln, an Bahnhöfen und Haltestellen; d) beim Betreten von Weiden, auf denen sich Nutztiere aufhalten; e) auf Anordnung im Einzelfall. [3] Gemeinden überwachen die Einhaltung der Leinenpflicht und können weitere Orte bezeichnen, an denen Hunde an der Leine zu führen sind. [3] Gemeinden können in Einzelfällen Ausnahmen von der Leinenpflicht bewilligen. [3] Hunde müssen einen Maulkorb tragen, wenn sie bissig sind oder dies im Einzelfall angeordnet worden ist.\n\n## Gemeinde Bern\n[5] Zusätzlich zu den kantonalen Pflichten muss der Hund an der Leine geführt werden: a) in öffentlichen Gebäuden der Stadt Bern; b) im eintrittsfreien Teil des Tierparks; c) im öffentlichen Raum gemäss Anhang 1 der Hundeverordnung; d) in den öffentlichen Park- und Grünanlagen gemäss Anhängen 2 und 3; e) auf städtischen Friedhöfen.\n\n## Zusammenspiel der Ebenen\nDer Kanton Bern konkretisiert die bundesrechtliche Pflicht zur Kennzeichnung und legt die grundsätzliche Leinenpflicht fest; die Stadt Bern ergänzt diese Pflicht mit zusätzlichen Orten, an denen eine Leine zwingend ist (öffentliche Gebäude, Tierpark, Friedhöfe etc.). Art. 49 BV: Bundesrecht geht entgegenstehenden kantonalen oder kommunalen Bestimmungen vor.\n\n## Nächste Schritte\n1. Hund spätestens drei Monate nach der Geburt durch einen in der Schweiz praktizierenden Tierarzt mit Mikrochip kennzeichnen lassen [2]; dabei Name, Adresse und Mikrochipnummer dokumentieren.\n2. Bei Haltung in der Stadt Bern die spezifischen Leinenpflichten gemäss kantonalem Hundegesetz und städtischer Hundeverordnung beachten [3][5]; in den aufgeführten Orten immer Leine verwenden.\n3. Für Ausnahmen von der Leinenpflicht bei besonderen Umständen (z. B. gut erzogener Hund) ein begründetes Gesuch bei der Stadt Bern (kompetente Behörde) einreichen [3]; das Gesuch kann abgelehnt werden.\n4. Bei Fragen zur genauen Abgrenzung der öffentlichen Räume gemäss Anhang 1 der Hundeverordnung die aktuelle Version der Hundeverordnung der Stadt Bern konsultieren.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 1169,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 1141,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 1141,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 9,
+  "sources": [
+   "[1] fed TSG Art. 30 Hundekontrolle",
+   "[2] fed TSV Art. 17 Kennzeichnung der Hunde",
+   "[3] can BE 916.31 Art. 7",
+   "[4] can BE 551.1 Art. 75",
+   "[5] com Bern: 559.61 Verordnung über das Halten von Hunden (Hundeverordnung; HV) Art. 3"
+  ]
+ },
+ {
+  "id": "T073",
+  "lang": "de",
+  "loc": "3063 Ittigen",
+  "error": "",
+  "planner_ok": false,
+  "n_sources": 4,
+  "total_s": 80.6,
+  "plan_s": 3.3,
+  "ttft_s": null,
+  "words": 201,
+  "citations": 6,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Quellen enthalten keinen festen CHF-Betrag für die Hundetaxe; deren Höhe wird ausschliesslich durch die Gemeinde Ittigen nach den Vorschriften der Gemeindegesetzgebung festgelegt [3]. Befreiungen gelten für Hilfs- und Begleithunde von Menschen mit Behinderung, für vorübergehend in Tierheimen platzierte Hunde sowie für Hunde, für die bereits in einer anderen Gemeinde oder einem anderen Kanton eine Hundetaxe entrichtet wurde [3].\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Bern\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Ittigen\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas kantonale Hundegesetz überlässt die Festsetzung der Höhe und die Ausgestaltung der Hundetaxe der Gemeinde Ittigen; das Bundesrecht enthält keine spezifischen Bestimmungen zur Höhe der Hundetaxe [3].\n\n## Nächste Schritte\n1. Wenden Sie sich an die Gemeindeverwaltung Ittigen, um den aktuellen Tarif der Hundetaxe und die geltenden Befreiungsgründe zu erfragen [3].\n2. Prüfen Sie anhand der von der Gemeinde Ittigen vorgegebenen Nachweise, ob Ihr Hund die Befreiungsvoraussetzungen (z. B. als Hilfs‑ oder Begleithund bei Behinderung) erfüllt; legen Sie die erforderlichen Dokumente vor [3].\n3. Zahlen Sie die von der Gemeindeverwaltung Ittigen festgesetzte Hundetaxe nach den von ihr kommunizierten Zahlungsmodalitäten und Fristen auf das von ihr bezeichnete Konto ein, um Bussen zu vermeiden [3].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2617,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Art. 49 BV ist nicht unter den angegebenen Quellen enthalten und wird nicht belegt.",
+     "Keine Rechtsquelle zitiert; es handelt sich um eine Handlungsanweisung, nicht um eine Rechtsnorm.",
+     "Keine Rechtsquelle zitiert; es handelt sich um eine Handlungsanweisung.",
+     "Keine Rechtsquelle zitiert; es handelt sich um eine Handlungsanweisung."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2413,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die Aussage, dass die Gemeindeverwaltung Ittigen den aktuellen Tarif und die Befreiungsgründe bereitstellt.",
+     "Keine Quelle zitiert, die besagt, welche Nachweise für eine Befreiung erforderlich sind.",
+     "Keine Quelle zitiert, die eine Frist oder ein Konto für die Zahlung der Hundetaxe durch die Gemeinde Ittigen nennt."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2159,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die konkreten Zahlungsmodalitäten und Fristen; diese sind nicht in den angegebenen Quellen enthalten."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed ZGB Art. 779l",
+   "[2] fed OR Art. 1170",
+   "[3] can BE 916.31 Art. 13",
+   "[4] can BE 661.11 Art. 66"
+  ]
+ },
+ {
+  "id": "T074",
+  "lang": "fr",
+  "loc": "1110 Morges",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 151.7,
+  "plan_s": 6.8,
+  "ttft_s": null,
+  "words": 604,
+  "citations": 17,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 12"
+  ],
+  "prose_left": 0,
+  "repaired": 10,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour les travailleurs, le droit fédéral impose un repos quotidien d’au moins onze heures consécutives [1]. Pour le travailleur adulte, ce repos peut être réduit à huit heures une fois par semaine, à condition que la moyenne sur deux semaines atteigne onze heures [1]. Pour les conducteurs professionnels de véhicules légers, le repos quotidien doit être de 11 heures dans les 24 heures précédant l’activité professionnelle [2]; ce repos peut être ramené à 9 heures trois fois par semaine, avec la possibilité de le diviser en trois périodes au maximum, à condition que l’une des périodes comporte au moins 8 heures et qu’aucune période ne soit inférieure à 1 heure, le total devant être d’au moins 12 heures [2]. Les sources fournies ne contiennent aucune disposition cantonale ou communale modifiant ces heures de repos minimales pour les travailleurs; les règlements de Morges concernent la police des feux et l’hygiène publique [5][6]. Le droit fédéral prime (art. 49 Cst. [7]).\n\n## Confédération  \n- Selon la LTr [1], le travailleur doit bénéficier d’une durée de repos quotidien d’au moins onze heures consécutives.  \n- Pour le travailleur adulte, la durée du repos peut être réduite à huit heures une fois par semaine, pour autant que la moyenne sur deux semaines atteigne onze heures [1].  \n- Pour les conducteurs professionnels de véhicules légers, le repos quotidien doit être de 11 heures au cours des 24 heures précédant l’activité professionnelle [2]. Ce repos peut être ramené à 9 heures trois fois par semaine, avec la possibilité de diviser le repos en trois périodes au maximum, à condition que l’une des périodes comporte au moins 8 heures et qu’aucune période ne soit inférieure à 1 heure, le total devant être d’au moins 12 heures [2].\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Morges  \n- Selon l’art. 52 du règlement de police de Morges, les feux de plein air sont interdits la nuit et les jours de repos public [5].  \n- Selon l’art. 12 du même règlement, la Municipalité édicte les prescriptions nécessaires à la sauvegarde de l’hygiène et de la salubrité publiques, notamment pour le contrôle des denrées alimentaires, le maintien de l’hygiène dans les habitations et la lutte contre les maladies transmissibles [6].  \n- Aucune règle communale ne fixe les heures de repos minimales pour les travailleurs.\n\n## Articulation des niveaux  \nLe droit fédéral fixe les heures de repos minimales obligatoires pour les travailleurs et les conducteurs professionnels de véhicules légers; les sources fournies ne contiennent aucune disposition cantonale ou communale modifiant ces heures de repos minimales. Les communes de Morges ne réglementent pas les heures de repos des travailleurs, mais édictent des règles de police (interdiction de feux de plein air la nuit et les jours de repos public) et d’hygiène publique. Le droit fédéral prime (art. 49 Cst. [7]).\n\n## Prochaines étapes  \n- Pour un employeur ou un travailleur, vérifier le respect du repos quotidien de 11 heures consécutives ou de la moyenne de 11 heures sur deux semaines pour les adultes, conformément à la LTr [1].  \n- Pour un conducteur professionnel de véhicule léger, s’assurer d’un repos de 11 heures (ou 9 heures trois fois par semaine) dans les 24 heures précédant l’activité, en respectant les conditions de division du repos prévues par l’OTR 2 [2].  \n- En cas de litige relatif à ces heures de repos, saisir le tribunal de la juridiction du travail du canton de Vaud, composé d’un président ou vice‑président et de deux assesseurs (un représentant les employeurs, l’autre les travailleurs), conformément à la LOJ VD art. 10 [4].  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 10,
+    "raw_chars": 3626,
+    "unreadable": false,
+    "issues": 3,
+    "added": [
+     "Cst. Art. 49 Primauté et respect du droit fédéral"
+    ],
+    "revised": true,
+    "notes": [
+     "Aucune source cantonale vaudoise pertinente citée; les sources cantonales fournies (VD 173.61) portent sur la juridiction du travail et non sur les heures de repos",
+     "Les sources communales (Morges) portent sur la police des feux et l’hygiène publique, pas sur les heures de repos des travailleurs",
+     "Aucune source citée pour l’article 49 Cst."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 3134,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 3619,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source pertinente citée pour affirmer l’absence de disposition cantonale; affirmation non vérifiable avec les sources fournies",
+     "Aucune source citée pour affirmer l’absence de règle communale sur les heures de repos des travailleurs; les sources communales fournies traitent de police des feux et d’hygiène publique, pas de repos des travailleurs"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 30,
+  "sources": [
+   "[1] fed LTr Art. 15a",
+   "[2] fed OTR 2 Art. 9 Repos quotidien",
+   "[3] can VD 173.61 Art. 1",
+   "[4] can VD 173.61 Art. 10",
+   "[5] com Morges: Règlement de police Art. 52",
+   "[6] com Morges: Règlement de police Art. 81",
+   "[7] fed Cst. Art. 49 Primauté et respect du droit fédéral"
+  ]
+ },
+ {
+  "id": "T075",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 60.3,
+  "plan_s": 8.6,
+  "ttft_s": null,
+  "words": 223,
+  "citations": 2,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 50"
+  ],
+  "prose_left": 1,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLes sources fournies ne contiennent aucun chiffre CHF indiquant le coût d’une concession de tombe à Sion. Seul l’article 27 du règlement communal renvoie à une annexe intégrante qui fixe les taxes, mais les montants exacts ne sont pas reproduits dans les documents consultés [7].\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Valais  \nAucune source pertinente récupérée.\n\n## Commune de Sion  \nArticle 27 du règlement communal sur les inhumations, les crémations et les cimetières prévoit que les taxes sont fixées dans l’annexe qui fait partie intégrante du règlement [7]. Les montants exacts ne sont pas disponibles dans les documents consultés.\n\n## Articulation des niveaux  \nLa compétence exclusive pour fixer les tarifs des concessions de tombes appartient à la commune de Sion (compétence communale en matière de cimetières, art. 50 Cst., non reproduit dans les sources fournies). Ni le canton ni la Confédération ne prévoient de règles tarifaires à ce sujet. Art. 49 BV.\n\n## Prochaines étapes  \n- S’adresser au service des cimetières ou à l’état civil de la commune de Sion afin d’obtenir l’annexe intégrante du règlement communal sur les inhumations, les crémations et les cimetières.  \n- Consulter l’annexe intégrante du règlement communal pour connaître le montant exact de la concession de tombe selon la durée et le type de concession souhaité.  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 2120,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source ne mentionne un article 50 Cst. relatif aux concessions de tombes; l'article 50 Cst. traite de la répartition des compétences entre la Confédération et les cantons, sans précision sur les concessions de tombes.",
+     "Il s'agit d'une recommandation pratique et non d'une règle juridique citable dans les sources fournies.",
+     "Il s'agit d'une recommandation pratique et non d'une règle juridique citable dans les sources fournies."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 0,
+    "raw_chars": 288,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 1,
+    "raw_chars": 638,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La citation « Art. 49 BV » ne correspond à aucun article du texte fourni dans les sources. De plus, aucune source ne mentionne un article 50 Cst. relatif aux concessions de tombes."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 6,
+  "sources": [
+   "[1] fed CC Art. 5",
+   "[2] fed CC Art. 915",
+   "[3] can VS 173.8 Art. 23",
+   "[4] can VS 743.20 Art. 1",
+   "[5] can VS 173.8 Art. 43",
+   "[6] can VS 173.8 Art. 31",
+   "[7] com Sion: Règlement sur les inhumations, les crémations et les cimetières + List Article 27"
+  ]
+ },
+ {
+  "id": "T076",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 11,
+  "total_s": 58.7,
+  "plan_s": 6.1,
+  "ttft_s": null,
+  "words": 560,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLes taxes communales sur les déchets se composent d’une taxe de base et d’une taxe proportionnelle (au sac). La taxe de base, fixée au maximum à CHF 150.-- par contribuable, couvre les frais de collecte, transport et les collectes sélectives; elle est arrêtée chaque année par le Conseil général. La taxe proportionnelle dépend du volume du sac utilisé et est fixée annuellement par le Conseil communal, avec des tarifs maximaux de CHF 1.50 (17 l), CHF 2.50 (35 l), CHF 4.00 (60 l) et CHF 7.50 (110 l). Les déchets apportés aux postes de collecte ou aux collectes sélectives (verre, papier, ferraille) ne sont pas soumis à la taxe proportionnelle. Au niveau cantonal, la loi prévoit que la commune prélève une taxe couvrant au moins 70 % des frais d’élimination des déchets urbains, dont la moitié au moins doit être proportionnelle à la quantité de déchets, calculée selon leur volume ou leur poids. Une taxe cantonale anticipée peut également être perçue pour les déchets particuliers.\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Fribourg  \n- Selon l’art. 23 de la Loi sur la gestion des déchets (FR 810.2), la commune prélève une taxe couvrant au moins 70 % des frais d’élimination des déchets urbains [3].  \n- Au moins la moitié de cette taxe doit être proportionnelle à la quantité de déchets, calculée selon leur volume ou leur poids [3].\n\n## Commune de Fribourg  \n- La taxe d’élimination se compose d’une taxe de base et d’une taxe proportionnelle (au sac) [9].  \n- La taxe de base, affectée à la couverture des frais de collecte, transport et collectes sélectives, est fixée au maximum à CHF 150.-- par contribuable et arrêtée chaque année par le Conseil général [10].  \n- La taxe proportionnelle dépend de la capacité du sac imposé par la commune; les tarifs maximaux sont CHF 1.50 pour un sac de 17 l, CHF 2.50 pour 35 l, CHF 4.00 pour 60 l et CHF 7.50 pour 110 l, et sont arrêtés chaque année par le Conseil communal [11].  \n- Les déchets apportés aux postes de collecte ou aux collectes sélectives (verre, papier, ferraille) ne sont pas soumis à la taxe proportionnelle [8].\n\n## Articulation des niveaux  \nLe droit fédéral fixe les principes environnementaux, tandis que le canton de Fribourg impose à la commune de couvrir au moins 70 % des frais d’élimination des déchets urbains, dont la moitié au moins doit être proportionnelle à la quantité de déchets [3]. La commune complète ces exigences en définissant les modalités concrètes (composition de la taxe, montants maximaux, types de sacs autorisés) et en arrêtant chaque année les montants par le Conseil général (taxe de base) et le Conseil communal (taxe proportionnelle), conformément à l’art. 49 Cst. (principe de la primauté du droit fédéral).\n\n## Prochaines étapes  \n- Pour connaître le montant exact de la taxe de base et de la taxe proportionnelle de l’année en cours, consulter le budget communal adopté par le Conseil général [10].  \n- Se procurer les sacs officiels de la commune (capacités 17 l, 35 l, 60 l ou 110 l) afin de respecter l’obligation d’utiliser le modèle imposé [11].  \n- En cas de doute sur l’exemption de la taxe proportionnelle, vérifier la liste des déchets collectés gratuitement (verre, papier, ferraille) auprès du service communal de gestion des déchets.\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1538,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1615,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1538,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 0,
+  "sources_added": 0,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed CC Art. 5",
+   "[2] fed CC Art. 686",
+   "[3] can FR 810.2 Art. 23",
+   "[4] can FR 810.2 Art. 24",
+   "[5] can FR 810.2 Art. 25",
+   "[6] can FR 142.1 Art. 4",
+   "[7] can FR 142.1 Art. 23",
+   "[8] com Fribourg: Règlement concernant la gestion des déchets Art. 21",
+   "[9] com Fribourg: Règlement concernant la gestion des déchets Art. 23",
+   "[10] com Fribourg: Règlement concernant la gestion des déchets Art. 24",
+   "[11] com Fribourg: Règlement concernant la gestion des déchets Art. 25"
+  ]
+ },
+ {
+  "id": "T077",
+  "lang": "de",
+  "loc": "8820 Wädenswil",
+  "error": "",
+  "planner_ok": false,
+  "n_sources": 12,
+  "total_s": 153.2,
+  "plan_s": 4.0,
+  "ttft_s": null,
+  "words": 702,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Abfallgebühren in Wädenswil setzen sich aus Grundgebühren und Verursachergebühren zusammen. Die Grundgebühr wird pro bebauter Liegenschaft erhoben und bemisst sich nach Nutzungsart und Fläche: bei Wohnraum nach Zimmerzahl (auf ganze Zimmer abgerundet) oder bei Lofts nach Nettowohnfläche in Quadratmetern; bei Betrieben nach Quadratmetern der potentiell abfallverursachenden Fläche. Sie ist auch für ungenutzte Gebäude, Wohnungen oder Betriebsflächen nach dem vorgesehenen Verwendungszweck geschuldet; bei ganzjähriger Unbenutzung kann der Pflichtige unter Vorlage entsprechender Unterlagen 50 % der Grundgebühr zurückverlangen. Verursachergebühren werden für Gebührensäcke, Sperrgutmarken oder Container mit Gewichtserfassung erhoben. Selbstentsorgung befreit nicht von der Grundgebühr. Kantonale Vorschriften (ZH 710.2) legen die allgemeinen Gebührengrundsätze im Umweltvollzug fest; die Gemeinde Wädenswil konkretisiert diese in ihrer Abfallgebührenordnung.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zürich\n- **ZH 710.2 § 2**: Die Bewilligungs- und Kontrollorgane erheben Gebühren für das Durchführen von Bewilligungsverfahren, mit besonderem Aufwand verbundene Anordnungen von Sanierungen, Anordnungen von Ersatzvornahmen, Kontrollen bestehender Anlagen, Beurteilungen von Umweltverträglichkeitsberichten, Kurzberichten und Risikoermittlungen sowie Einsätze bei Störfällen und besondere Dienstleistungen im Rahmen des Vollzugs des Umweltrechts [3].\n- **ZH 710.2 § 4**: Die Gebühren bestimmen sich grundsätzlich nach dem Aufwand [4].\n- **ZH 710.2 § 5**: Für Personalkosten wird pro Stunde und Mitarbeiter der Zeit-Mitteltarif nach der jeweils gültigen Weisung der Baudirektion über die Tarif- und Spesenansätze bei Architekten- und Ingenieuraufträgen, abzüglich 20 %, in Rechnung gestellt [5].\n- **ZH 710.2 § 6**: Ist der Einsatz von besonderen Einrichtungen wie Messwagen und Messgeräte erforderlich, werden dafür Kosten pro Einsatztag von 1,2‰ des eingesetzten Kapitals in Rechnung gestellt [6].\n- **ZH 710.2 § 7**: Schreibgebühren werden gemäss der Gebührenordnung für die Verwaltungsbehörden in Rechnung gestellt; zusätzlich werden tatsächliche Kosten von Veröffentlichungen und Reisekosten nach den Ansätzen der Vollziehungsbestimmungen zur Beamtenverordnung verrechnet [7].\n- **ZH 710.2 § 9**: Wenn die nach Aufwand berechneten Gebühren in einem offensichtlichen Missverhältnis zur Bedeutung der Verrichtung für den Gebührenschuldner stehen oder wenn ein überwiegendes öffentliches Interesse es rechtfertigt, können die Gebühren herabgesetzt oder erlassen werden [8].\n\n## Gemeinde Wädenswil\n- **Art. 2**: Für die Abfallentsorgung werden Grundgebühren (für privat genutzten Wohnraum, Lofts, Betriebe), Verursachergebühren (Gebührensäcke, Sperrgutmarken, Betriebscontainer mit Gewichtserfassung) sowie Annahme‑ und Umtriebsgebühren erhoben [9].\n- **Art. 3**: Eine Grundgebühr pro bebauter Liegenschaft deckt die Aufwendungen für Bereitstellung und Unterhalt der Entsorgungsdienstleistungen ab. Sie ist auch für ungenutzte Gebäude/Wohnungen/Betriebsflächen nach dem vorgesehenen Verwendungszweck geschuldet. Bei ganzjähriger Unbenutzung kann der Gebührenpflichtige unter Vorlage entsprechender Unterlagen 50 % der Grundgebühr zurückverlangen [10].\n- **Art. 4**: Für privat genutzten Wohnraum wird die Grundgebühr pro Wohneinheit nach Zimmerzahl erhoben (auf ganze Zimmer abgerundet); für Lofts erfolgt die Abstufung nach Nettowohnfläche in Quadratmetern. Fehlende Angaben werden durch die Werke anhand der Gesamtfläche bestimmt; in begründeten Ausnahmefällen kann die Gebühr entsprechend der speziellen Nutzungsart des Wohnraums angepasst werden [11].\n- **Art. 5**: Für Betriebe wird die Grundgebühr nach Quadratmetern der potentiell abfallverursachenden Betriebsfläche erhoben; in begründeten Ausnahmefällen kann die Gebühr nach der tatsächlichen Nutzung erhöht oder gesenkt werden. Eine Direktanlieferung der Abfälle an die KVA Horgen oder eigene Entsorgungswege befreit nicht von der Pflicht zur Bezahlung der Grundgebühr [12].\n\n## Zusammenspiel der Ebenen\nDie kantonale Gebührenverordnung zum Vollzug des Umweltrechts (ZH 710.2) definiert die allgemeinen Grundsätze für Gebühren im Umweltbereich (Aufwand, Personalkosten, Einsatz von Messgeräten usw.). Die Gemeinde Wädenswil konkretisiert diese Grundsätze in ihrer Abfallgebührenordnung und legt die konkreten Gebührenarten, Bemessungsgrundlagen (Zimmerzahl, Quadratmeter, Nutzungsart) und Ausnahmen fest. Art. 49 BV bestimmt, dass Bundesrecht vorgeht, wenn es eine abweichende Regelung trifft.\n\n## Nächste Schritte\n- **Antrag auf 50 % Reduktion der Grundgebühr**: Reichen Sie schriftlich bei den Werken Wädenswil einen Nachweis über die ganzjährige Unbenutzung der Liegenschaft ein, um die Reduktion der Grundgebühr nach Art. 3 Abs. 3 der Abfallgebührenordnung zu beantragen [10].\n- **Prüfung der in Rechnung gestellten Grundgebühr**: Vergleichen Sie die abgerechnete Grundgebühr mit den in Art. 4 und Art. 5 genannten Bemessungsgrundlagen (Zimmerzahl, Quadratmeter, Nutzungsart) und melden Sie Abweichungen den Werken, falls die Gebühr nicht den Vorgaben entspricht [11][12].\n- **Erfüllung der Verursachergebühren**: Besorgen Sie die erforderlichen Gebührensäcke, Sperrgutmarken oder ein Gewichtserfassungssystem für Ihren Betrieb, um die Verursachergebühren korrekt zu entrichten [9].\n- **Dokumentation**: Bewahren Sie alle Gebührenrechnungen, Nutzungsnachweise und Korrespondenz auf, um im Streitfall die Berechnungsgrundlagen nachweisen zu können (entsprechend den allgemeinen verwaltungsrechtlichen Beweisregeln des Kantons Zürich) [allgemeine verwaltungsrechtliche Beweisregeln des Kantons Zürich].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 7,
+    "raw_chars": 2209,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Aussage ist nicht durch die angegebenen Quellen belegt; die kantonalen Quellen (ZH 710.2) regeln Gebühren für Umweltkontrollen, sind aber nicht Teil der kommunalen Abfallgebührenordnung.",
+     "Die kommunalen Quellen (Art. 2–5 der Abfallgebührenordnung Wädenswil) sind einschlägig.",
+     "Die kantonalen Quellen (ZH 710.2) sind einschlägig."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2693,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die kantonalen Quellen (ZH 710.2) regeln Gebühren für Umweltkontrollen, Sanierungen und besondere Dienstleistungen im Vollzug des Umweltrechts, nicht jedoch die kommunalen Abfallgebühren. Die Aussage suggeriert eine Trennung, die nicht zutrifft, da die kantonalen Bestimmungen die Grundlage für die kommunale Gebührenerhebung bilden.",
+     "Es existieren einschlägige Quellen (z. B. Art. 2–5 der Abfallgebührenordnung Wädenswil), die die Berechnung der Abfallgebühren regeln.",
+     "Es existieren einschlägige kantonale Quellen (ZH 710.2), die Gebühren im Umweltvollzug regeln."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 3718,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die konkrete Antragsform (schriftlich, Nachweise, 50 % Reduktion).",
+     "Keine Quelle zitiert, die die Prüfung der Gebühr anhand der genannten Artikel und die Meldepflicht an die Werke regelt.",
+     "Keine Quelle zitiert, die eine Aufbewahrungspflicht für Nachweise im Streitfall regelt."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed ZGB Art. 474",
+   "[2] fed OR Art. 132",
+   "[3] can ZH 710.2 § 2",
+   "[4] can ZH 710.2 § 4",
+   "[5] can ZH 710.2 § 5",
+   "[6] can ZH 710.2 § 6",
+   "[7] can ZH 710.2 § 7",
+   "[8] can ZH 710.2 § 9",
+   "[9] com Wädenswil: Abfallgebührenordnung Art. 2",
+   "[10] com Wädenswil: Abfallgebührenordnung Art. 3",
+   "[11] com Wädenswil: Abfallgebührenordnung Art. 4",
+   "[12] com Wädenswil: Abfallgebührenordnung Art. 5"
+  ]
+ },
+ {
+  "id": "T078",
+  "lang": "de",
+  "loc": "4718 Holderbank",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 68.0,
+  "plan_s": 7.1,
+  "ttft_s": null,
+  "words": 190,
+  "citations": 1,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie konkreten Gebühren für die Kehrichtabfuhr in Holderbank (SO) sind im bereitgestellten Auszug nicht enthalten; sie werden durch das kommunale Gebührenreglement der Gemeinde Holderbank unter Punkt d) festgelegt. Die Höhe ist bei der Gemeinde Holderbank zu erfragen; kantonales Recht geht vor, Art. 49 BV.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Solothurn\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Holderbank (SO)\n- Das kommunale Gebührenreglement der Gemeinde Holderbank (SO) regelt unter Punkt d) die Gebührensätze für die Kehrichtbeseitigung [9].\n- Die exakten CHF-Beträge sind im vorliegenden Auszug nicht spezifiziert; sie sind im vollständigen Reglement auf der Website der Gemeinde Holderbank oder bei der Baukommission zu finden.\n\n## Zusammenspiel der Ebenen\nDas kommunale Gebührenreglement konkretisiert die kantonalen Vorgaben zur Kehrichtbeseitigung (vgl. kantonale Verordnung SO 711.41), indem es die Gebührensätze festlegt; kantonales Recht geht vor, Art. 49 BV.\n\n## Nächste Schritte\n- Beziehen Sie das vollständige kommunale Gebührenreglement der Gemeinde Holderbank (SO) von deren Website oder der Baukommission, um die exakten Gebührensätze für die Kehrichtabfuhr zu ermitteln.\n- Wenden Sie sich an die Gemeindeverwaltung Holderbank, um die aktuellen Gebührenhöhen und die Zahlungsmodalitäten für die Kehrichtabfuhr zu erfragen.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 3759,
+    "unreadable": false,
+    "issues": 8,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt die Gebühren für Kehrichtabfuhr in Holderbank konkret oder verweist auf eine Norm, die dies regelt.",
+     "Der bereitgestellte Auszug aus dem kommunalen Reglement enthält keine CHF-Zahlen für die Kehrichtgebühren; Punkt d) ist nicht abgedruckt.",
+     "Keine Quelle bestätigt explizit die Zuständigkeit der Gemeinde Holderbank für die Kehrichtgebührenerhebung.",
+     "Es wurden keine Quellen für die Frage nach den Kehrichtabfuhrgebühren herangezogen."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 0,
+    "raw_chars": 68,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 0,
+    "raw_chars": 68,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 8,
+  "sources": [
+   "[1] fed OR Art. 941",
+   "[2] fed ZGB Art. 954",
+   "[3] can SO 615.11 § 32",
+   "[4] can SO 615.11 § 69",
+   "[5] can SO 711.41 § 29",
+   "[6] can SO 711.41 § 25",
+   "[7] can SO 711.41 § 33",
+   "[8] com Holderbank (SO): Gebührenreglement §5",
+   "[9] com Holderbank (SO): Gebührenreglement §1"
+  ]
+ },
+ {
+  "id": "T079",
+  "lang": "de",
+  "loc": "@47.4485,9.0485",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 70.8,
+  "plan_s": 4.1,
+  "ttft_s": null,
+  "words": 224,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nAuf dem Friedhof Rickenbach dauert die Grabesruhe für Erdbestattungen mindestens 20 Jahre und für Urnenbestattungen mindestens 15 Jahre. Acht Jahre vor Ablauf dieser Mindestdauer dürfen keine Urnenbeisetzungen mehr in bereits bestehende Gräber erfolgen. Kantonale oder eidgenössische Vorschriften zur Grabesruhe sind in den vorliegenden Dokumenten nicht enthalten.\n\n## Bund  \nKeine einschlägige Quelle abgerufen.\n\n## Kanton Thurgau  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Rickenbach (TG)  \n- Nach Art. 35 Abs. 1 des Bestattungs- und Friedhofreglements beträgt die Grabesruhe für Erdbestattungen mindestens 20 Jahre und für Urnenbestattungen mindestens 15 Jahre [4].  \n- Gemäss Art. 35 Abs. 2 dürfen acht Jahre vor Ablauf der Mindestdauer keine Urnenbeisetzungen mehr in bereits bestehende Gräber erfolgen [4].\n\n## Zusammenspiel der Ebenen  \nDer Bund regelt die Grabesruhe nicht; die konkrete Dauer und die Einschränkung für Urnenbeisetzungen richten sich nach der Friedhofssatzung der Gemeinde Rickenbach. Art. 49 BV bestimmt, dass Bundesrecht kantonalem und kommunalem Recht vorgeht, hier jedoch keine abweichende Bundesregelung besteht.\n\n## Nächste Schritte  \n- Für die Beisetzung eines Verstorbenen: Antrag auf Grabzuteilung und Beisetzung beim Friedhofamt Rickenbach stellen; die Mindestruhe von 20 Jahren (Erdbestattung) bzw. 15 Jahren (Urnenbestattung) einhalten [4].  \n- Acht Jahre vor Ablauf der Mindestruhe: Keine Urnenbeisetzungen mehr in bereits belegte Gräber vornehmen; bei Bedarf neue Urnengräber wählen [4].  \n- Keine spezifischen Fristen oder Gebühren für die Einhaltung der Grabesruhe in den Quellen genannt.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1519,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1569,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1572,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 18,
+  "sources": [
+   "[1] fed ZGB Art. 686",
+   "[2] can TG 187.28 § 14",
+   "[3] can TG 187.28 § 6",
+   "[4] com Rickenbach (TG): Bestattungs- und Friedhofreglement Art. 35"
+  ]
+ },
+ {
+  "id": "T080",
+  "lang": "de",
+  "loc": "6330 Cham",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 128.6,
+  "plan_s": 5.9,
+  "ttft_s": null,
+  "words": 537,
+  "citations": 1,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür ein Reklameschild ist grundsätzlich eine Bewilligung erforderlich. Ausnahmen sind im kommunalen Reklamereglement Cham (§ 3) und in der kantonalen Verordnung zum Planungs- und Baugesetz (§ 44) konkretisiert. Die Zuständigkeit liegt bei der Gemeindebehörde Cham. Baubewilligungsfreie Vorhaben benötigen lediglich eine Bauanzeige.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton Zug\n*   **Grundsatz:** Wer Bauten und Anlagen erstellen, ändern oder anders nutzen will, bedarf einer Bewilligung der zuständigen Gemeindebehörde (§ 44 Abs. 1 Planungs- und Baugesetz ZG).\n*   **Baubewilligungsfreie Vorhaben (nur Bauanzeige nötig):**\n    *   Heizungs-, Lüftungs- und Klimatisierungsanlagen innerhalb des Gebäudes, sofern keine Änderung der Nutzung sowie des Nutzungsmasses einhergeht (§ 44 Abs. 1 lit. a Verordnung zum Planungs- und Baugesetz ZG).\n    *   Fahrnisbauten wie Festhütten, Zelte, Tribünen sowie Materiallager bis zu einer Dauer von höchstens vier Monaten (§ 44 Abs. 1 lit. b Verordnung zum Planungs- und Baugesetz ZG).\n    *   Sämmtliche Baustelleninstallationen von bewilligten Bauten und Anlagen (§ 44 Abs. 1 lit. c Verordnung zum Planungs- und Baugesetz ZG).\n    *   Erdwärmenutzungsanlagen bis 500 m unter Terrain ausserhalb des Strassenabstands und ausserhalb des Baulinienraums von Strassen (§ 44 Abs. 2 lit. a Verordnung zum Planungs- und Baugesetz ZG).\n    *   Ein kleines Dachflächenfenster mit einer Grösse von maximal 0.5 m² pro Hauptdachfläche, ausser in ortsbildgeschützten Gebieten oder an inventarisierten, schützenswerten oder geschützten Gebäuden (§ 44 Abs. 2 lit. b Verordnung zum Planungs- und Baugesetz ZG).\n    *   Umbauten im Gebäudeinnern ohne Eingriff in die tragende Gebäudestruktur, ohne Beanspruchung zusätzlicher Ausnützung oder Baumasse und ohne Änderung des Nutzungszwecks (§ 44 Abs. 2 lit. c Verordnung zum Planungs- und Baugesetz ZG).\n\n## Gemeinde Cham\n*   **Allgemeine Pflicht:** Alle Reklamen sind bewilligungspflichtig (§ 3 Abs. 1 Reklamereglement Cham).\n*   **Ausnahmen ohne Baubewilligung (nur Bauanzeige nötig):**\n    *   Angebotstafeln beim Eingang zu Detailhandelsgeschäften, Gastwirtschafts- und Landwirtschaftsbetrieben, sofern sie nur während der Geschäftsöffnungszeiten aufgestellt werden, keine Sichtzonen beeinträchtigen und den Fussgängerverkehr nicht behindern (minimale Durchgangsbreite 1.5 m) (§ 3 Abs. 1 lit. a Reklamereglement Cham).\n    *   Eigenreklamen von max. 25 cm Höhe an Volants von Sonnenstoren (§ 3 Abs. 1 lit. b Reklamereglement Cham).\n    *   Unbeleuchtete Einzeltafeln von 0.2 m² Fläche im Bereich des Geschäftseingangs (§ 3 Abs. 1 lit. c Reklamereglement Cham).\n\n## Zusammenspiel der Ebenen\nBundesrecht [1] legt die Grundsätze der Baubewilligungspflicht fest; das kantonale Recht konkretisiert die Anforderungen und Ausnahmen für Bauten und Anlagen (§ 44 Verordnung zum Planungs- und Baugesetz ZG), während die Gemeinde Cham die Bewilligungspflicht für Reklamen im Detail regelt und spezifische Ausnahmen definiert (§ 3 Reklamereglement Cham). Art. 49 BV bestimmt die hierarchische Geltung des Bundesrechts.\n\n## Nächste Schritte\n1.  **Prüfen Sie die Ausnahmen:** Vergleichen Sie Ihr Reklameschild mit den Ausnahmen in § 3 des Reklamereglements Cham (§ 3 Abs. 1 lit. a-c) und den baubewilligungsfreien Vorhaben gemäss § 44 der kantonalen Verordnung (§ 44 Abs. 1 und 2 Verordnung zum Planungs- und Baugesetz ZG).\n2.  **Kontaktieren Sie die Behörde:** Wenden Sie sich an die zuständige Gemeindebehörde Cham (Bauamt/Planungsamt), um das Verfahren einzuleiten.\n3.  **Einreichen des Gesuchs:** Reichen Sie ein Gesuch ein, das Art, Grösse, Positionierung und Gestaltung des Schildes beschreibt.\n4.  **Abwarten der Entscheidung:** Die Behörde prüft das Vorhaben auf Einordnung ins Ortsbild und erteilt die Bewilligung oder weist das Gesuch ab. Die Quellen nennen keine spezifischen Fristen oder Gebühren für das Bewilligungsverfahren.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2824,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Aussage impliziert, dass keine relevanten Quellen vorliegen, obwohl Quelle [5] (Gemeinde Cham) und [3] (Kanton Zug) einschlägig sind.",
+     "Keine Quelle zitiert. Art. 49 BV regelt die Hierarchie, aber die Aussage ist eine allgemeine Rechtslehre, die nicht explizit in den bereitgestellten Gesetzestexten steht."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 4,
+    "raw_chars": 3777,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine generelle Bewilligungspflicht für \"ein Reklameschild\" ohne weitere Spezifikationen. Die Quellen regeln \"Bauten und Anlagen\" oder \"Bauanzeige\" im Kontext von Baugesetzen, nicht spezifisch Reklameschilder als eigenständige Kategorie ohne Bezug zu Bauten/Anlagen oder Nutzungsänderungen.",
+     "Die Formulierung suggeriert, dass alle Ausnahmen ausschliesslich in diesen beiden Texten stehen. Die kantonale Verordnung (§ 44) enthält Ausnahmen für \"Baubewilligungsfreie Vorhaben\" (z. B. Heizungsanlagen, Fahrnisbauten), die nicht spezifisch \"Reklamen\" sind. Das Reklamereglement Cham (§ 3) regelt spezifisch Reklamen, aber die kantonale Verordnung enthält weitere Ausnahmen, die nicht im Reklamereglement stehen (z. B. Erdwärmenutzungsanlagen). Zudem wird die Hierarchie nicht korrekt dargestellt (Bundesrecht RPG ist Grundlage für kantonale Ausnahmen).",
+     "Die Quellen nennen zwar die Gemeindebehörde als Bewilligungsstelle (§ 44 Abs. 1 Planungs- und Baugesetz ZG), aber es wird nicht explizit gesagt, dass *nur* die Gemeinde Cham zuständig ist für alle Reklamen im Kanton Zug, und es fehlt ein Zitat. Zudem wird nicht unterschieden, ob eine Baubewilligung oder eine Bauanzeige nötig ist."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3444,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Quelle [1] (RPG Art. 22 Baubewilligung) ist einschlägig und regelt die Grundsatzbewilligungspflicht für Bauten und Anlagen.",
+     "Die Quellen enthalten keine konkreten Prüfkriterien für Reklameschilder, sondern allgemeine Definitionen von baubewilligungsfreien Vorhaben. Die spezifischen Details (Grösse, Standort, Beleuchtung) sind im kommunalen Reglement enthalten, aber die Quellenangabe fehlt für diesen Satz.",
+     "Keine Quelle nennt explizit die zuständige Behörde Cham oder den genauen Namen des Amtes.",
+     "Keine Quelle verlangt explizit ein schriftliches Gesuch mit diesen spezifischen Angaben."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed RPG Art. 22 Baubewilligung",
+   "[2] fed RPG Art. 19 Erschliessung",
+   "[3] can ZG 721.11 § 44",
+   "[4] can ZG 721.111 § 44",
+   "[5] com Cham: 7.6-2 Reklamereglement § 3"
+  ]
+ }
+]

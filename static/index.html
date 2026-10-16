@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alpenrecht AI</title>
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="is-home">
+<div class="backdrop" aria-hidden="true"><span></span><span></span><span></span></div>
+
+<div class="app" id="app">
+  <!-- Sidebar -->
+  <aside class="side" id="side">
+    <div class="side-top">
+      <button class="brand" id="home-btn" type="button">
+        <img class="logo-mark" src="/static/logo.png" alt="" width="27" height="34">
+        <span class="brand-name">Alpenrecht <em>AI</em></span>
+      </button>
+      <button class="icon-btn only-mobile" id="side-close" type="button" aria-label="Close menu"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+
+    <button class="new-chat" id="new-chat" type="button">
+      <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg><span data-i18n="new_chat">Neuer Chat</span>
+    </button>
+
+    <nav class="side-scroll">
+      <p class="side-label" data-i18n="topics">Themen</p>
+      <div class="nav" id="topics"></div>
+
+      <p class="side-label" id="recent-label" data-i18n="recent">Verlauf</p>
+      <div class="nav recent" id="recent"></div>
+      <p class="side-empty" id="recent-empty" data-i18n="no_recent">Noch keine Chats.</p>
+    </nav>
+
+    <div class="side-foot">
+      <div class="status" id="status">
+        <span class="orb orb-xs" aria-hidden="true"></span>
+        <span class="status-t"><b id="model-name">Apertus</b><small><i class="dot" id="status-dot"></i><span id="status-text">…</span></small></span>
+      </div>
+      <div class="legend">
+        <span class="f"><i></i><span data-i18n="fed">Bund</span></span>
+        <span class="c"><i></i><span data-i18n="can">Kanton</span></span>
+        <span class="g"><i></i><span data-i18n="com">Gemeinde</span></span>
+      </div>
+    </div>
+  </aside>
+  <div class="side-scrim" id="side-scrim" hidden></div>
+
+  <!-- Main stage -->
+  <main class="stage">
+    <header class="stage-bar">
+      <button class="icon-btn only-mobile" id="menu" type="button" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button>
+      <span class="model-pill"><span class="orb orb-dot" aria-hidden="true"></span><span id="model-pill">Apertus</span></span>
+      <span class="chat-title" id="chat-title"></span>
+      <div class="seg" id="langs" role="group" aria-label="Language">
+        <button data-lang="de">DE</button><button data-lang="fr">FR</button><button data-lang="it">IT</button><button data-lang="rm">RM</button><button data-lang="en">EN</button>
+      </div>
+      <select class="lang-select" id="lang-select" aria-label="Language">
+        <option value="de">DE</option><option value="fr">FR</option><option value="it">IT</option><option value="rm">RM</option><option value="en">EN</option>
+      </select>
+    </header>
+
+    <section class="welcome" id="welcome">
+      <!-- Three levels of Swiss law as stacked plates: Switzerland, the canton, the commune -->
+      <div class="hero">
+        <div class="stack" id="stack">
+          <button type="button" class="plate f" data-plate="federal"><svg id="plate-federal" preserveAspectRatio="xMidYMid meet"></svg></button>
+          <button type="button" class="plate c" data-plate="cantonal"><svg id="plate-cantonal" preserveAspectRatio="xMidYMid meet"></svg></button>
+          <button type="button" class="plate g" data-plate="communal"><svg id="plate-communal" preserveAspectRatio="xMidYMid meet"></svg></button>
+        </div>
+        <ol class="lv-legend" id="lv-legend">
+          <li><button type="button" class="g" data-plate="communal"><i></i><span><b></b><small></small></span><em>Web</em></button></li>
+          <li><button type="button" class="c" data-plate="cantonal"><i></i><span><b></b><small></small></span><em>LexFind</em></button></li>
+          <li><button type="button" class="f" data-plate="federal"><i></i><span><b></b><small></small></span><em>Fedlex</em></button></li>
+        </ol>
+      </div>
+      <h1 class="greet"><span id="greet-a">Guten Abend,</span><br><span data-i18n="greet_b1">welche</span> <em data-i18n="greet_em">Rechtsfrage</em> <span data-i18n="greet_b2">klären wir heute?</span></h1>
+    </section>
+
+    <section class="thread" id="thread" hidden></section>
+
+    <form class="composer" id="composer" autocomplete="off">
+      <div class="input-row">
+        <svg class="spark-ic" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg>
+        <textarea id="q" rows="1" placeholder="…"></textarea>
+      </div>
+      <div class="tool-row">
+        <div class="chip-wrap">
+          <button type="button" class="tool" id="loc-chip">
+            <svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            <span id="loc-label"></span>
+          </button>
+        </div>
+        <div class="chip-wrap">
+          <button type="button" class="tool" id="date-chip">
+            <svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>
+            <span id="date-label"></span>
+          </button>
+          <div class="pop" id="date-pop" hidden>
+            <label class="pop-label" for="asof" data-i18n="asof">Rechtsstand am</label>
+            <input id="asof" type="date">
+            <p class="pop-hint" data-i18n="asof_hint">Bundesrecht in der damals geltenden Fassung.</p>
+          </div>
+        </div>
+        <div class="chip-wrap">
+          <button type="button" class="tool" id="doc-chip">
+            <svg viewBox="0 0 24 24"><path d="M20.5 11.5 12 20a5 5 0 0 1-7-7l8.5-8.5a3.3 3.3 0 0 1 4.7 4.7L9.7 17.7a1.7 1.7 0 0 1-2.4-2.4L15 7.6"/></svg>
+            <span id="doc-label"></span>
+          </button>
+          <div class="pop pop-wide" id="doc-pop" hidden>
+            <span class="pop-label" data-i18n="communal_title">Gemeinderecht</span>
+            <p class="pop-hint" data-i18n="communal_hint">Es gibt keine zentrale Sammlung. Laden Sie das Reglement Ihrer Gemeinde hoch oder fügen Sie einen Link ein.</p>
+            <label class="drop" id="drop">
+              <input type="file" id="file" accept=".pdf,.txt,.html,.htm" hidden>
+              <svg viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M5 20h14"/></svg>
+              <span data-i18n="upload">PDF auswählen oder hierher ziehen</span>
+            </label>
+            <div class="url-row"><input id="docurl" placeholder="https://…/reglement.pdf"><button type="button" class="btn-sm" id="addurl" data-i18n="add">Hinzufügen</button></div>
+            <div class="doc-list" id="docs"></div>
+          </div>
+        </div>
+        <button class="send" id="send" type="submit" aria-label="Send">
+          <svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+        </button>
+      </div>
+    </form>
+
+    <div class="suggestions" id="examples"></div>
+    <p class="fineprint" data-i18n="disclaimer">Rechtsinformation, keine Rechtsberatung.</p>
+
+    <!-- Source panel -->
+    <aside class="drawer" id="drawer" aria-hidden="true">
+      <div class="drawer-grip"></div>
+      <div class="drawer-head">
+        <span class="lvl-tag" id="d-level"></span>
+        <button class="icon-btn" id="d-close" type="button" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <h3 id="d-title"></h3>
+      <p class="d-law" id="d-law"></p>
+      <p class="d-path" id="d-path"></p>
+      <div class="d-text" id="d-text"></div>
+      <div class="d-meta" id="d-meta"></div>
+      <a class="btn-primary" id="d-link" target="_blank" rel="noopener"></a>
+    </aside>
+  </main>
+</div>
+
+
+<div class="map-modal" id="map-modal" hidden>
+  <div class="map-card" role="dialog" aria-modal="true" aria-labelledby="map-title">
+    <div class="map-head">
+      <b id="map-title" data-i18n="pick_title">Wählen Sie Ihren Ort auf der Karte</b>
+      <button class="icon-btn" id="map-close" type="button" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div id="map" aria-label="Map of Switzerland"></div>
+    <div class="map-foot">
+      <div class="map-pick" id="map-pick"><span data-i18n="pick_hint">Klicken Sie auf die Karte, um Ihre Gemeinde zu wählen.</span></div>
+      <div class="map-actions">
+        <button type="button" class="btn-sm ghost" id="map-locate"><span data-i18n="my_pos">Mein Standort</span></button>
+        <button type="button" class="btn-sm ghost" id="map-clear"><span data-i18n="no_place">Ohne Ort (nur Bund)</span></button>
+        <button type="button" class="btn-sm" id="map-use" disabled><span data-i18n="use_place">Übernehmen</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<title>Alpenrecht Benchmark</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout: a working table of 100 questions under a two-run comparison; rows open in place to the full answer. */
+:root {
+  --bg: #f4f3fb; --panel: #ffffff; --sunk: #f7f6fd; --ink: #1d1a4b; --muted: #6f6d92; --line: #e6e3f3;
+  --violet: #6a5af9; --violet-soft: #eeebff;
+  --fed: #d93f55; --can: #3a72d6; --com: #1f9468; --good: #1f9468; --bad: #c0392b; --warn: #b7791f;
+  --display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --body: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0f1d; --panel: #121a2e; --sunk: #0f1527; --ink: #eceefe; --muted: #959bbd; --line: #222b47;
+    --violet: #9d8fff; --violet-soft: #221e48; --fed: #ff7486; --can: #74a9ff; --com: #52d394; --good: #52d394; --bad: #ff7a6b; --warn: #e8b04f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b0f1d; --panel: #121a2e; --sunk: #0f1527; --ink: #eceefe; --muted: #959bbd; --line: #222b47;
+  --violet: #9d8fff; --violet-soft: #221e48; --fed: #ff7486; --can: #74a9ff; --com: #52d394; --good: #52d394; --bad: #ff7a6b; --warn: #e8b04f;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--body); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font: 400 clamp(38px, 6vw, 56px)/1 var(--display); letter-spacing: -.01em; margin: 0; text-wrap: balance; }
+h1 em { color: var(--violet); }
+.lede { color: var(--muted); max-width: 64ch; margin: 12px 0 0; }
+.lede b { color: var(--ink); font-weight: 600; }
+.mono { font-family: var(--mono); font-size: .86em; }
+
+/* comparison */
+.compare { margin-top: 30px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow-x: auto; }
+.compare table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.compare th, .compare td { text-align: left; padding: 11px 16px; border-bottom: 1px solid var(--line); vertical-align: baseline; }
+.compare thead th { font-size: 11.5px; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); font-weight: 600; background: var(--sunk); }
+.compare tbody tr:last-child td { border-bottom: 0; }
+.compare td.num { font-family: var(--mono); white-space: nowrap; }
+.compare td.final { font-weight: 600; }
+.bar { display: inline-block; vertical-align: middle; height: 6px; border-radius: 3px; background: var(--line); width: 90px; margin-left: 8px; position: relative; overflow: hidden; }
+.bar i { position: absolute; inset: 0 auto 0 0; background: var(--muted); border-radius: 3px; }
+.final .bar i { background: var(--violet); }
+.compare .lowerbetter { color: var(--muted); font-weight: 400; font-size: 12px; }
+
+/* filters */
+.filters { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 34px 0 12px; }
+.group { display: flex; gap: 4px; padding: 3px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+.group button { border: 0; background: none; color: var(--muted); font: 600 12.5px var(--body); padding: 5px 10px; border-radius: 7px; cursor: pointer; }
+.group button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.group button:focus-visible, summary:focus-visible, input:focus-visible { outline: 2px solid var(--violet); outline-offset: 2px; }
+#search { flex: 1 1 200px; min-width: 0; border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 10px; padding: 7px 12px; font: inherit; }
+.count { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+
+/* rows */
+.list { display: flex; flex-direction: column; gap: 6px; }
+details.row { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
+details.row[open] { border-color: color-mix(in srgb, var(--violet) 40%, var(--line)); }
+details.row > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 46px 74px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 10px 14px; }
+details.row > summary::-webkit-details-marker { display: none; }
+.rid { font: 500 12.5px var(--mono); color: var(--muted); }
+.tags { display: flex; gap: 4px; }
+.tag { font: 600 10.5px var(--body); letter-spacing: .05em; text-transform: uppercase; padding: 2px 6px; border-radius: 5px; color: var(--c); background: color-mix(in srgb, var(--c) 13%, transparent); }
+.tag.federal { --c: var(--fed); } .tag.cantonal { --c: var(--can); } .tag.lang { --c: var(--muted); }
+.qtext { min-width: 0; }
+.qtext b { font-weight: 500; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.qtext small { color: var(--muted); font-size: 12px; }
+details[open] .qtext b { white-space: normal; }
+.verdicts { display: flex; gap: 10px; align-items: center; font-size: 12px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.v { display: inline-flex; align-items: center; gap: 4px; }
+.dot { width: 18px; height: 18px; border-radius: 50%; display: inline-grid; place-items: center; font-size: 11px; font-weight: 700; color: var(--panel); background: var(--c); }
+.dot.ok { --c: var(--good); } .dot.no { --c: var(--bad); }
+.v.base .dot { opacity: .55; }
+
+.detail { border-top: 1px solid var(--line); padding: 16px; display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 20px; }
+.answer { min-width: 0; font-size: 14.5px; line-height: 1.65; }
+.answer h2 { font: 600 14.5px var(--body); margin: 14px 0 2px; }
+.answer h2:first-child { margin-top: 0; }
+.answer p { margin: 4px 0; } .answer ul { margin: 4px 0; padding-left: 20px; } .answer em { color: var(--muted); }
+.cite { display: inline-grid; place-items: center; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 5px; font: 700 10px var(--body); vertical-align: 2px; color: var(--panel); background: var(--violet); }
+.side { min-width: 0; display: flex; flex-direction: column; gap: 14px; font-size: 13px; }
+.box h3 { margin: 0 0 6px; font: 600 11px var(--body); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.box ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 3px; }
+.box li { overflow-wrap: anywhere; }
+.gold { font-family: var(--mono); font-size: 12.5px; color: var(--good); }
+.src { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.src.hit { color: var(--good); font-weight: 500; }
+.round { padding: 7px 9px; border-radius: 8px; background: var(--sunk); }
+.round b { font-weight: 600; } .round small { display: block; color: var(--muted); margin-top: 2px; }
+.added { color: var(--com); }
+.basebtn { border: 1px solid var(--line); background: var(--sunk); color: var(--ink); border-radius: 8px; padding: 6px 10px; font: 600 12.5px var(--body); cursor: pointer; align-self: flex-start; }
+.baseline { grid-column: 1 / -1; border-top: 1px dashed var(--line); padding-top: 14px; }
+.baseline .answer { opacity: .85; }
+.warnline { color: var(--warn); font-size: 12.5px; margin-bottom: 6px; }
+.foot { margin-top: 36px; color: var(--muted); font-size: 12.5px; max-width: 70ch; }
+
+@media (max-width: 720px) {
+  .bar { display: none; }
+  .compare th, .compare td { padding: 9px 10px; }
+  .wrap { padding-block: 28px 48px; }
+  details.row > summary { grid-template-columns: 38px minmax(0, 1fr) auto; }
+  .tags { grid-column: 2; grid-row: 2; }
+  .qtext { grid-column: 2; grid-row: 1; }
+  .verdicts { grid-column: 3; grid-row: 1 / span 2; flex-direction: column; gap: 4px; align-items: flex-end; }
+  .verdicts .time { display: none; }
+  .detail { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: no-preference) { details.row { transition: border-color .15s; } }
+</style>
+
+<div class="wrap">
+  <h1>Alpenrecht <em>Benchmark</em></h1>
+  <p class="lede">100 everyday Swiss legal questions, each with a gold source checked on Fedlex or LexFind, answered twice by
+    <b>Apertus v1.5 70B</b>: once by the baseline pipeline and once by the final one, where an Apertus agent searches
+    LexFind and every answer is <b>verified three times</b> against its sources before it is shown.</p>
+
+  <div class="compare">
+    <table>
+      <thead><tr><th>Measure</th><th>Baseline</th><th>Final</th></tr></thead>
+      <tbody id="compare"></tbody>
+    </table>
+  </div>
+
+  <div class="filters" role="toolbar" aria-label="Filter questions">
+    <div class="group" data-key="level"><button aria-pressed="true" data-v="all">All</button><button aria-pressed="false" data-v="federal">Federal</button><button aria-pressed="false" data-v="cantonal">Cantonal</button></div>
+    <div class="group" data-key="lang"><button aria-pressed="true" data-v="all">All languages</button><button aria-pressed="false" data-v="de">DE</button><button aria-pressed="false" data-v="fr">FR</button><button aria-pressed="false" data-v="it">IT</button><button aria-pressed="false" data-v="en">EN</button></div>
+    <div class="group" data-key="ok"><button aria-pressed="true" data-v="all">Any result</button><button aria-pressed="false" data-v="yes">Gold cited</button><button aria-pressed="false" data-v="no">Missed</button><button aria-pressed="false" data-v="gained">Fixed by final</button></div>
+    <input id="search" type="search" placeholder="Search questions, e.g. Kaution, chien, permis" aria-label="Search questions">
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <p class="foot">Gold cited means the answer cites a retrieved source that is the gold article (federal) or an article of
+    the gold act (cantonal). Times include live retrieval from Fedlex, LexFind and swisstopo on the Hack Apertus
+    CSCS endpoint, measured with five questions running in parallel. Legal information, not legal advice.</p>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+"use strict";
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+// comparison table
+const count = (f) => DATA.filter(f).length;
+const avg = (k, sub) => (DATA.reduce((n, d) => n + d[sub].t, 0) / DATA.length);
+const rows = [
+  ["Answer cites a gold source", count((d) => d.base.ok), count((d) => d.final.ok), 100],
+  ["· federal questions", count((d) => d.level === "federal" && d.base.ok), count((d) => d.level === "federal" && d.final.ok), 68],
+  ["· cantonal questions", count((d) => d.level === "cantonal" && d.base.ok), count((d) => d.level === "cantonal" && d.final.ok), 32],
+  ["Answers naming an article that is not a source", count((d) => d.base.unsupported.length), 0, 100, true],
+];
+$("#compare").innerHTML = rows.map(([label, a, b, n, lower]) => {
+  const cell = (v, cls) => `<td class="num ${cls}">${v}/${n}<span class="bar"><i style="width:${(100 * v / n).toFixed(0)}%"></i></span></td>`;
+  return `<tr><td>${esc(label)}${lower ? ' <span class="lowerbetter">lower is better</span>' : ""}</td>${cell(a, "")}${cell(b, "final")}</tr>`;
+}).join("") + `<tr><td>Average time per answer</td><td class="num">${avg("t", "base").toFixed(0)} s</td><td class="num final">${avg("t", "final").toFixed(0)} s</td></tr>`;
+
+// markdown (headings, bullets, bold/italic, [n] chips)
+function inline(s) {
+  return esc(s).replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>").replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<em>$2</em>")
+    .replace(/\[(\d{1,2})\]/g, '<span class="cite">$1</span>');
+}
+function md(text) {
+  const out = []; let ul = false;
+  for (const raw of (text || "").split("\n")) {
+    const line = raw.trimEnd(); let m;
+    if ((m = line.match(/^#{1,4}\s+(.*)/))) { if (ul) { out.push("</ul>"); ul = false; } out.push(`<h2>${inline(m[1])}</h2>`); }
+    else if ((m = line.match(/^\s*(?:[-*•]|\d+[.)])\s+(.*)/))) { if (!ul) { out.push("<ul>"); ul = true; } out.push(`<li>${inline(m[1])}</li>`); }
+    else if (!line.trim()) { if (ul) { out.push("</ul>"); ul = false; } }
+    else { if (ul) { out.push("</ul>"); ul = false; } out.push(`<p>${inline(line)}</p>`); }
+  }
+  if (ul) out.push("</ul>");
+  return out.join("") || "<p><em>No answer.</em></p>";
+}
+
+function goldHit(d, src) {
+  return d.gold.some((g) => {
+    const m = g.match(/^SR (\S+)(?: Art\. (\S+))?/);
+    if (!m) return false;
+    return m[2] ? new RegExp(`Art\\. ${m[2]}(?![a-z0-9])`).test(src) && src.includes(" ") : src.includes(` ${m[1]} `);
+  });
+}
+
+function detail(d) {
+  const f = d.final;
+  const ver = f.ver.map((r) => `<div class="round"><b>Round ${r.round}/3</b> · ${r.claims || 0} claims checked · ${r.revised ? `${r.issues} issue(s), revised` : "no change"}`
+    + (r.added && r.added.length ? ` · <span class="added">+ ${esc(r.added.join(", "))}</span>` : "")
+    + (r.notes && r.notes.length ? `<small>${r.notes.slice(0, 2).map(esc).join("<br>")}</small>` : "") + "</div>").join("");
+  return `<div class="detail">
+    <div class="answer">${md(f.answer)}</div>
+    <div class="side">
+      <div class="box"><h3>Gold source</h3><ul>${d.gold.map((g) => `<li class="gold">${esc(g)}</li>`).join("")}</ul></div>
+      <div class="box"><h3>Sources used (${f.sources.length})</h3><ul>${f.sources.map((s) => `<li class="src">${esc(s.slice(0, 90))}</li>`).join("")}</ul></div>
+      <div class="box"><h3>Verification</h3><div style="display:flex;flex-direction:column;gap:5px">${ver || "<span class='src'>none</span>"}</div></div>
+      <button type="button" class="basebtn" data-base>Show baseline answer</button>
+    </div>
+    <div class="baseline" hidden>
+      ${d.base.unsupported.length ? `<div class="warnline">Baseline named articles not in its sources: ${esc(d.base.unsupported.join(", "))}</div>` : ""}
+      <div class="answer">${md(d.base.answer)}</div>
+    </div>
+  </div>`;
+}
+
+const state = { level: "all", lang: "all", ok: "all", q: "" };
+function visible(d) {
+  if (state.level !== "all" && d.level !== state.level) return false;
+  if (state.lang !== "all" && d.lang !== state.lang) return false;
+  if (state.ok === "yes" && !d.final.ok) return false;
+  if (state.ok === "no" && d.final.ok) return false;
+  if (state.ok === "gained" && !(d.final.ok && !d.base.ok)) return false;
+  if (state.q && !(d.q + " " + d.loc + " " + d.gold.join(" ")).toLowerCase().includes(state.q)) return false;
+  return true;
+}
+function render() {
+  const shown = DATA.filter(visible);
+  $("#count").textContent = `${shown.length} of ${DATA.length}`;
+  $("#list").innerHTML = shown.map((d) => `
+    <details class="row" data-id="${d.id}">
+      <summary>
+        <span class="rid">${d.id}</span>
+        <span class="tags"><span class="tag ${d.level}">${d.level === "federal" ? "Bund" : "Kanton"}</span><span class="tag lang">${d.lang}</span></span>
+        <span class="qtext"><b>${esc(d.q)}</b><small>${esc(d.loc)} · gold ${esc(d.gold[0])}${d.gold.length > 1 ? ` +${d.gold.length - 1}` : ""}</small></span>
+        <span class="verdicts">
+          <span class="v base" title="Baseline"><span class="dot ${d.base.ok ? "ok" : "no"}">${d.base.ok ? "✓" : "✗"}</span>base</span>
+          <span class="v" title="Final"><span class="dot ${d.final.ok ? "ok" : "no"}">${d.final.ok ? "✓" : "✗"}</span>final</span>
+          <span class="time">${d.final.t.toFixed(0)} s</span>
+        </span>
+      </summary>
+    </details>`).join("");
+}
+$("#list").addEventListener("toggle", (e) => {
+  const el = e.target;
+  if (el.open && !el.querySelector(".detail")) el.insertAdjacentHTML("beforeend", detail(DATA.find((d) => d.id === el.dataset.id)));
+}, true);
+$("#list").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-base]"); if (!b) return;
+  const box = b.closest(".detail").querySelector(".baseline");
+  box.hidden = !box.hidden; b.textContent = box.hidden ? "Show baseline answer" : "Hide baseline answer";
+});
+document.querySelectorAll(".group").forEach((g) => g.addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  g.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+  state[g.dataset.key] = b.dataset.v; render();
+}));
+$("#search").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
+render();
+// Open the first row so the page shows a full answer at rest.
+const first = document.querySelector("details.row"); if (first) first.open = true;
+</script>

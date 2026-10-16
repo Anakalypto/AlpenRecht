@@ -1,0 +1,122 @@
+[
+ {
+  "id": "T081",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Ist es strafbar, jemanden heimlich zu filmen?"
+ },
+ {
+  "id": "T082",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Insulter quelqu'un sur les réseaux sociaux est-il punissable ?"
+ },
+ {
+  "id": "T083",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Ist eine Ohrfeige strafbar?"
+ },
+ {
+  "id": "T084",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Cosa rischio se danneggio la proprietà altrui?"
+ },
+ {
+  "id": "T085",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Une entreprise doit-elle m'informer quand elle collecte mes données ?"
+ },
+ {
+  "id": "T086",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Muss ein Unternehmen eine Datenpanne melden?"
+ },
+ {
+  "id": "T087",
+  "lang": "en",
+  "loc": "8001 Zürich",
+  "q": "Can I ask a company which personal data it holds about me?"
+ },
+ {
+  "id": "T088",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Qu'est-ce que la diffamation ?"
+ },
+ {
+  "id": "T089",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Ist es strafbar, ein Telefongespräch aufzunehmen?"
+ },
+ {
+  "id": "T090",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Puis-je installer une caméra qui filme la rue ?"
+ },
+ {
+  "id": "T091",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Welche Abzüge kann ich bei den Steuern machen?"
+ },
+ {
+  "id": "T092",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quali deduzioni fiscali posso fare in Ticino?"
+ },
+ {
+  "id": "T093",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Comment est imposée la fortune ?"
+ },
+ {
+  "id": "T094",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Kann ich einen Haustürvertrag widerrufen?"
+ },
+ {
+  "id": "T095",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Combien de temps dure la garantie sur un achat ?"
+ },
+ {
+  "id": "T096",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Wie erhebe ich Rechtsvorschlag gegen einen Zahlungsbefehl?"
+ },
+ {
+  "id": "T097",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "permis"
+ },
+ {
+  "id": "T098",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Kündigung"
+ },
+ {
+  "id": "T099",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "cane"
+ },
+ {
+  "id": "T100",
+  "lang": "en",
+  "loc": "3011 Bern",
+  "q": "Can my landlord keep my deposit?"
+ }
+]

@@ -1,0 +1,1294 @@
+[
+ {
+  "id": "F01",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wie hoch darf die Mietkaution maximal sein?",
+  "fed": [
+   [
+    "220",
+    "257e"
+   ]
+  ]
+ },
+ {
+  "id": "F02",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Mon propriétaire peut-il augmenter le loyer sans formulaire officiel ?",
+  "fed": [
+   [
+    "220",
+    "269d"
+   ]
+  ]
+ },
+ {
+  "id": "F03",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Posso subaffittare il mio appartamento?",
+  "fed": [
+   [
+    "220",
+    "262"
+   ]
+  ]
+ },
+ {
+  "id": "F04",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Kann ich eine Mietzinserhöhung anfechten?",
+  "fed": [
+   [
+    "220",
+    "270b"
+   ]
+  ]
+ },
+ {
+  "id": "F05",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Puis-je contester le loyer initial de mon nouvel appartement ?",
+  "fed": [
+   [
+    "220",
+    "270"
+   ]
+  ]
+ },
+ {
+  "id": "F06",
+  "lang": "en",
+  "loc": "8001 Zürich",
+  "q": "Can I leave my rented flat before the end of the notice period?",
+  "fed": [
+   [
+    "220",
+    "264"
+   ]
+  ]
+ },
+ {
+  "id": "F07",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Muss die Kündigung meiner Wohnung durch den Vermieter auf einem amtlichen Formular erfolgen?",
+  "fed": [
+   [
+    "220",
+    "266l"
+   ]
+  ]
+ },
+ {
+  "id": "F08",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Mon conjoint peut-il résilier le bail de notre logement familial sans mon accord ?",
+  "fed": [
+   [
+    "220",
+    "266m"
+   ],
+   [
+    "220",
+    "266n"
+   ]
+  ]
+ },
+ {
+  "id": "F09",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Meine Wohnung hat Schimmel – darf ich den Mietzins herabsetzen?",
+  "fed": [
+   [
+    "220",
+    "259d"
+   ]
+  ]
+ },
+ {
+  "id": "F10",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "q": "Il proprietario può disdire il contratto perché ho chiesto delle riparazioni?",
+  "fed": [
+   [
+    "220",
+    "271a"
+   ]
+  ]
+ },
+ {
+  "id": "F11",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Puis-je obtenir une prolongation du bail après une résiliation ?",
+  "fed": [
+   [
+    "220",
+    "272"
+   ]
+  ]
+ },
+ {
+  "id": "F12",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Darf der Vermieter Nebenkosten verlangen, die nicht im Mietvertrag stehen?",
+  "fed": [
+   [
+    "220",
+    "257a"
+   ]
+  ]
+ },
+ {
+  "id": "F13",
+  "lang": "de",
+  "loc": "8400 Winterthur",
+  "q": "Wie lange muss mein Lohn bei Krankheit weiterbezahlt werden?",
+  "fed": [
+   [
+    "220",
+    "324a"
+   ]
+  ]
+ },
+ {
+  "id": "F14",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Quel est le délai de congé après deux ans de travail ?",
+  "fed": [
+   [
+    "220",
+    "335c"
+   ]
+  ]
+ },
+ {
+  "id": "F15",
+  "lang": "it",
+  "loc": "6600 Locarno",
+  "q": "Il datore di lavoro deve rilasciarmi un certificato di lavoro?",
+  "fed": [
+   [
+    "220",
+    "330a"
+   ]
+  ]
+ },
+ {
+  "id": "F16",
+  "lang": "en",
+  "loc": "4051 Basel",
+  "q": "Can my employer dismiss me with immediate effect?",
+  "fed": [
+   [
+    "220",
+    "337"
+   ]
+  ]
+ },
+ {
+  "id": "F17",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "q": "Ist eine Kündigung wegen meiner Gewerkschaftszugehörigkeit missbräuchlich?",
+  "fed": [
+   [
+    "220",
+    "336"
+   ]
+  ]
+ },
+ {
+  "id": "F18",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Une clause de non-concurrence dans mon contrat de travail est-elle valable ?",
+  "fed": [
+   [
+    "220",
+    "340"
+   ],
+   [
+    "220",
+    "340a"
+   ]
+  ]
+ },
+ {
+  "id": "F19",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Habe ich Anspruch auf eine Gratifikation oder einen 13. Monatslohn?",
+  "fed": [
+   [
+    "220",
+    "322d"
+   ]
+  ]
+ },
+ {
+  "id": "F20",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quante pause mi spettano durante una giornata di lavoro?",
+  "fed": [
+   [
+    "822.11",
+    "15"
+   ]
+  ]
+ },
+ {
+  "id": "F21",
+  "lang": "de",
+  "loc": "6300 Zug",
+  "q": "Wie viele Stunden pro Woche darf ich höchstens arbeiten?",
+  "fed": [
+   [
+    "822.11",
+    "9"
+   ]
+  ]
+ },
+ {
+  "id": "F22",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Mon employeur peut-il me faire travailler le dimanche ?",
+  "fed": [
+   [
+    "822.11",
+    "18"
+   ]
+  ]
+ },
+ {
+  "id": "F23",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Muss ich Schäden ersetzen, die ich bei der Arbeit verursacht habe?",
+  "fed": [
+   [
+    "220",
+    "321e"
+   ]
+  ]
+ },
+ {
+  "id": "F24",
+  "lang": "en",
+  "loc": "1204 Genève",
+  "q": "How many weeks of holiday do employees under 20 get?",
+  "fed": [
+   [
+    "220",
+    "329a"
+   ]
+  ]
+ },
+ {
+  "id": "F25",
+  "lang": "de",
+  "loc": "4500 Solothurn",
+  "q": "Wie wird mein Ferienlohn berechnet, wenn ich im Stundenlohn arbeite?",
+  "fed": [
+   [
+    "220",
+    "329d"
+   ]
+  ]
+ },
+ {
+  "id": "F26",
+  "lang": "fr",
+  "loc": "2800 Delémont",
+  "q": "Mon employeur peut-il traiter mes données personnelles comme il veut ?",
+  "fed": [
+   [
+    "220",
+    "328b"
+   ]
+  ]
+ },
+ {
+  "id": "F27",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "q": "Posso essere licenziata durante la gravidanza?",
+  "fed": [
+   [
+    "220",
+    "336c"
+   ]
+  ]
+ },
+ {
+  "id": "F28",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Kann ich einen an der Haustür abgeschlossenen Vertrag widerrufen?",
+  "fed": [
+   [
+    "220",
+    "40b"
+   ],
+   [
+    "220",
+    "40e"
+   ]
+  ]
+ },
+ {
+  "id": "F29",
+  "lang": "fr",
+  "loc": "1400 Yverdon-les-Bains",
+  "q": "Dans quel délai dois-je signaler un défaut sur un objet acheté ?",
+  "fed": [
+   [
+    "220",
+    "201"
+   ]
+  ]
+ },
+ {
+  "id": "F30",
+  "lang": "en",
+  "loc": "6003 Luzern",
+  "q": "How long can I claim under the warranty when I buy a product?",
+  "fed": [
+   [
+    "220",
+    "210"
+   ]
+  ]
+ },
+ {
+  "id": "F31",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Dopo quanto tempo si prescrive un credito?",
+  "fed": [
+   [
+    "220",
+    "127"
+   ],
+   [
+    "220",
+    "128"
+   ]
+  ]
+ },
+ {
+  "id": "F32",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Ich habe einen Zahlungsbefehl erhalten – wie und wann erhebe ich Rechtsvorschlag?",
+  "fed": [
+   [
+    "281.1",
+    "74"
+   ]
+  ]
+ },
+ {
+  "id": "F33",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Comment engager une poursuite contre quelqu'un qui me doit de l'argent ?",
+  "fed": [
+   [
+    "281.1",
+    "67"
+   ]
+  ]
+ },
+ {
+  "id": "F34",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Darf man Verzugszins verlangen, wenn eine Rechnung zu spät bezahlt wird?",
+  "fed": [
+   [
+    "220",
+    "104"
+   ]
+  ]
+ },
+ {
+  "id": "F35",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Un contrat conclu par un mineur est-il valable ?",
+  "fed": [
+   [
+    "210",
+    "19"
+   ]
+  ]
+ },
+ {
+  "id": "F36",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Ab welchem Alter ist man in der Schweiz volljährig?",
+  "fed": [
+   [
+    "210",
+    "14"
+   ]
+  ]
+ },
+ {
+  "id": "F37",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Comment rédiger un testament manuscrit valable ?",
+  "fed": [
+   [
+    "210",
+    "505"
+   ]
+  ]
+ },
+ {
+  "id": "F38",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quanto eredita il coniuge superstite?",
+  "fed": [
+   [
+    "210",
+    "462"
+   ]
+  ]
+ },
+ {
+  "id": "F39",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wer erbt, wenn kein Testament vorhanden ist und ich Kinder habe?",
+  "fed": [
+   [
+    "210",
+    "457"
+   ]
+  ]
+ },
+ {
+  "id": "F40",
+  "lang": "en",
+  "loc": "6300 Zug",
+  "q": "What share of my estate is reserved for my children?",
+  "fed": [
+   [
+    "210",
+    "471"
+   ]
+  ]
+ },
+ {
+  "id": "F41",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Die Äste vom Baum meines Nachbarn ragen auf mein Grundstück – darf ich sie abschneiden?",
+  "fed": [
+   [
+    "210",
+    "687"
+   ]
+  ]
+ },
+ {
+  "id": "F42",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Mon voisin cause du bruit et de la fumée excessifs, que dit le Code civil ?",
+  "fed": [
+   [
+    "210",
+    "684"
+   ]
+  ]
+ },
+ {
+  "id": "F43",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "q": "Muss ich Unterhalt für mein volljähriges Kind in Ausbildung bezahlen?",
+  "fed": [
+   [
+    "210",
+    "277"
+   ]
+  ]
+ },
+ {
+  "id": "F44",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "q": "Chi ha l'autorità parentale dopo il divorzio?",
+  "fed": [
+   [
+    "210",
+    "133"
+   ],
+   [
+    "210",
+    "296"
+   ],
+   [
+    "210",
+    "298"
+   ]
+  ]
+ },
+ {
+  "id": "F45",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Quelles sont les conditions pour pouvoir se marier ?",
+  "fed": [
+   [
+    "210",
+    "94"
+   ]
+  ]
+ },
+ {
+  "id": "F46",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "q": "Was gilt beim Stockwerkeigentum für die Nutzung meiner Wohnung?",
+  "fed": [
+   [
+    "210",
+    "712a"
+   ]
+  ]
+ },
+ {
+  "id": "F47",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Ist es strafbar, jemanden heimlich zu fotografieren oder zu filmen?",
+  "fed": [
+   [
+    "311.0",
+    "179quater"
+   ]
+  ]
+ },
+ {
+  "id": "F48",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Insulter quelqu'un sur les réseaux sociaux est-il punissable ?",
+  "fed": [
+   [
+    "311.0",
+    "177"
+   ]
+  ]
+ },
+ {
+  "id": "F49",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Cosa rischio se danneggio una cosa altrui?",
+  "fed": [
+   [
+    "311.0",
+    "144"
+   ]
+  ]
+ },
+ {
+  "id": "F50",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Ist eine Ohrfeige strafbar?",
+  "fed": [
+   [
+    "311.0",
+    "126"
+   ]
+  ]
+ },
+ {
+  "id": "F51",
+  "lang": "en",
+  "loc": "4051 Basel",
+  "q": "Is it a crime to enter someone's home without permission?",
+  "fed": [
+   [
+    "311.0",
+    "186"
+   ]
+  ]
+ },
+ {
+  "id": "F52",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Que risque-t-on pour un vol ?",
+  "fed": [
+   [
+    "311.0",
+    "139"
+   ]
+  ]
+ },
+ {
+  "id": "F53",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Ist es strafbar, ein Telefongespräch ohne Einwilligung aufzunehmen?",
+  "fed": [
+   [
+    "311.0",
+    "179ter"
+   ]
+  ]
+ },
+ {
+  "id": "F54",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Qu'est-ce que la diffamation en droit suisse ?",
+  "fed": [
+   [
+    "311.0",
+    "173"
+   ]
+  ]
+ },
+ {
+  "id": "F55",
+  "lang": "de",
+  "loc": "8400 Winterthur",
+  "q": "Welche Höchstgeschwindigkeit gilt innerorts?",
+  "fed": [
+   [
+    "741.11",
+    "4a"
+   ]
+  ]
+ },
+ {
+  "id": "F56",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Combien de temps perd-on son permis après un grave excès de vitesse ?",
+  "fed": [
+   [
+    "741.01",
+    "16c"
+   ]
+  ]
+ },
+ {
+  "id": "F57",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "q": "Cosa succede se rifiuto il test dell'alcol?",
+  "fed": [
+   [
+    "741.01",
+    "91a"
+   ]
+  ]
+ },
+ {
+  "id": "F58",
+  "lang": "de",
+  "loc": "6300 Zug",
+  "q": "Was gilt als grobe Verletzung der Verkehrsregeln?",
+  "fed": [
+   [
+    "741.01",
+    "90"
+   ]
+  ]
+ },
+ {
+  "id": "F59",
+  "lang": "en",
+  "loc": "8001 Zürich",
+  "q": "Do drivers have to stop for pedestrians at a zebra crossing?",
+  "fed": [
+   [
+    "741.01",
+    "33"
+   ]
+  ]
+ },
+ {
+  "id": "F60",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Wie viele Promille darf ich beim Autofahren haben?",
+  "fed": [
+   [
+    "741.01",
+    "55"
+   ],
+   [
+    "741.01",
+    "91"
+   ]
+  ]
+ },
+ {
+  "id": "F61",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Une entreprise doit-elle m'informer quand elle collecte mes données ?",
+  "fed": [
+   [
+    "235.1",
+    "19"
+   ]
+  ]
+ },
+ {
+  "id": "F62",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Muss ein Unternehmen eine Datenschutzverletzung melden?",
+  "fed": [
+   [
+    "235.1",
+    "24"
+   ]
+  ]
+ },
+ {
+  "id": "F63",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Posso chiedere la cancellazione dei miei dati personali?",
+  "fed": [
+   [
+    "235.1",
+    "32"
+   ]
+  ]
+ },
+ {
+  "id": "F64",
+  "lang": "en",
+  "loc": "1204 Genève",
+  "q": "What principles apply when a company processes my personal data?",
+  "fed": [
+   [
+    "235.1",
+    "6"
+   ]
+  ]
+ },
+ {
+  "id": "F65",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Ist die Meinungsfreiheit in der Bundesverfassung garantiert?",
+  "fed": [
+   [
+    "101",
+    "16"
+   ]
+  ]
+ },
+ {
+  "id": "F66",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "La Constitution garantit-elle l'égalité entre femmes et hommes ?",
+  "fed": [
+   [
+    "101",
+    "8"
+   ]
+  ]
+ },
+ {
+  "id": "F67",
+  "lang": "it",
+  "loc": "6600 Locarno",
+  "q": "Ho diritto alla protezione della sfera privata?",
+  "fed": [
+   [
+    "101",
+    "13"
+   ]
+  ]
+ },
+ {
+  "id": "F68",
+  "lang": "en",
+  "loc": "8001 Zürich",
+  "q": "From what age can I vote in federal elections?",
+  "fed": [
+   [
+    "101",
+    "136"
+   ]
+  ]
+ },
+ {
+  "id": "C01",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Muss ich meinen Hund im Kanton Luzern registrieren?",
+  "can": [
+   [
+    "849",
+    null
+   ],
+   [
+    "848",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C02",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Gilt im Kanton St. Gallen eine Leinenpflicht für Hunde?",
+  "can": [
+   [
+    "456.1",
+    null
+   ],
+   [
+    "456.11",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C03",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "q": "Welche Pflichten habe ich als Hundehalter im Aargau?",
+  "can": [
+   [
+    "393.400",
+    null
+   ],
+   [
+    "393.411",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C04",
+  "lang": "de",
+  "loc": "4500 Solothurn",
+  "q": "Muss ich für meinen Hund eine Haftpflichtversicherung haben?",
+  "can": [
+   [
+    "614.71",
+    null
+   ],
+   [
+    "614.72",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C05",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "q": "Quelles règles s'appliquent aux chiens en Valais ?",
+  "can": [
+   [
+    "455.1",
+    null
+   ],
+   [
+    "455.100",
+    null
+   ],
+   [
+    "652.100",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C06",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Dois-je déclarer mon chien à la commune ?",
+  "can": [
+   [
+    "636.20",
+    null
+   ],
+   [
+    "636.201",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C07",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Mon chien doit-il être tenu en laisse dans le canton de Fribourg ?",
+  "can": [
+   [
+    "725.3",
+    null
+   ],
+   [
+    "725.31",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C08",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Certaines races de chiens sont-elles interdites dans le canton de Vaud ?",
+  "can": [
+   [
+    "133.75",
+    null
+   ],
+   [
+    "133.75.1",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C09",
+  "lang": "de",
+  "loc": "8500 Frauenfeld",
+  "q": "Welche Regeln gelten für Hunde im Thurgau?",
+  "can": [
+   [
+    "641.2",
+    null
+   ],
+   [
+    "641.21",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C10",
+  "lang": "de",
+  "loc": "4410 Liestal",
+  "q": "Brauche ich im Kanton Basel-Landschaft eine Bewilligung für einen potenziell gefährlichen Hund?",
+  "can": [
+   [
+    "342",
+    null
+   ],
+   [
+    "342.12",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C11",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Welche Abzüge kann ich bei den Staatssteuern im Kanton Zürich machen?",
+  "can": [
+   [
+    "631.1",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C12",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Wie werden Kapitalgewinne auf Grundstücken im Kanton Bern besteuert?",
+  "can": [
+   [
+    "661.11",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C13",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Wann muss ich meine Steuererklärung im Kanton Luzern einreichen?",
+  "can": [
+   [
+    "620",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C14",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "q": "Gibt es im Aargau einen Abzug für Kinderbetreuungskosten?",
+  "can": [
+   [
+    "651.100",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C15",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "q": "Muss ich im Kanton St. Gallen Vermögenssteuer bezahlen?",
+  "can": [
+   [
+    "811.1",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C16",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Comment est imposée la fortune dans le canton de Genève ?",
+  "can": [
+   [
+    "D 3 08",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C17",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "q": "Quelles déductions puis-je faire sur mes impôts dans le canton de Vaud ?",
+  "can": [
+   [
+    "642.11",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C18",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "q": "Quand dois-je payer mes impôts cantonaux à Neuchâtel ?",
+  "can": [
+   [
+    "631.0",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C19",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quali deduzioni fiscali posso fare in Ticino?",
+  "can": [
+   [
+    "640.100",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C20",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Brauche ich im Kanton Zürich eine Baubewilligung für einen Gartenschuppen?",
+  "can": [
+   [
+    "700.1",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C21",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Welche Bauten sind im Kanton Bern baubewilligungsfrei?",
+  "can": [
+   [
+    "721.0",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C22",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Wie lange dauert ein Baubewilligungsverfahren im Kanton Luzern?",
+  "can": [
+   [
+    "735",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C23",
+  "lang": "de",
+  "loc": "5000 Aarau",
+  "q": "Welche Grenzabstände gelten für Bauten im Aargau?",
+  "can": [
+   [
+    "713.100",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C24",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "q": "Brauche ich in Basel eine Bewilligung, um mein Haus umzubauen?",
+  "can": [
+   [
+    "730.100",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C25",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Ai-je besoin d'une autorisation pour construire une véranda à Genève ?",
+  "can": [
+   [
+    "L 5 05",
+    null
+   ],
+   [
+    "L 5 05.01",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C26",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "q": "Quelles constructions sont dispensées de permis dans le canton de Fribourg ?",
+  "can": [
+   [
+    "710.1",
+    null
+   ],
+   [
+    "710.11",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C27",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "q": "Serve una licenza edilizia per una piccola tettoia in Ticino?",
+  "can": [
+   [
+    "705.100",
+    null
+   ],
+   [
+    "705.110",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C28",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "q": "Wie lange dauert die Schulpflicht im Kanton Zürich?",
+  "can": [
+   [
+    "412.100",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C29",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "q": "Darf ich mein Kind im Kanton Bern zu Hause unterrichten?",
+  "can": [
+   [
+    "432.210",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C30",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "q": "Ab welchem Alter beginnt im Kanton Luzern der Kindergarten?",
+  "can": [
+   [
+    "405",
+    null
+   ],
+   [
+    "400a",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C31",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "q": "Jusqu'à quel âge la formation est-elle obligatoire à Genève ?",
+  "can": [
+   [
+    "C 1 10",
+    null
+   ]
+  ]
+ },
+ {
+  "id": "C32",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "q": "Quanti anni dura la scuola obbligatoria in Ticino?",
+  "can": [
+   [
+    "400.100",
+    null
+   ],
+   [
+    "411.100",
+    null
+   ]
+  ]
+ }
+]

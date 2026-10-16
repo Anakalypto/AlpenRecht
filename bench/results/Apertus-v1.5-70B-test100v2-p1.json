@@ -1,0 +1,1553 @@
+[
+ {
+  "id": "T001",
+  "lang": "fr",
+  "loc": "1024 Ecublens",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 11,
+  "total_s": 191.2,
+  "plan_s": 14.7,
+  "ttft_s": null,
+  "words": 562,
+  "citations": 15,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 62"
+  ],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour obtenir le permis C, il faut remplir les conditions de la LEI (séjour de dix ans ou cinq ans avec intégration), ne pas avoir de motifs de révocation et être intégré. Le canton de Vaud examine la demande via le Service cantonal compétent en matière de police des étrangers et peut imposer des exigences supplémentaires. Le SEM doit approuver certains cas particuliers (ex. passeport non valable, atteinte grave à l’ordre public, révocation de nationalité).  \n\n## Confédération  \n- L’autorisation d’établissement est octroyée pour une durée indéterminée [1].  \n- Conditions générales: séjour de dix ans en Suisse au titre d’une autorisation de courte durée ou de séjour, dont les cinq dernières années de manière ininterrompue au titre d’une autorisation de séjour [1]; absence de motifs de révocation au sens des art. 62 ou 63 LEI; intégration [1].  \n- Possibilité d’obtenir le permis C après cinq ans de séjour ininterrompu au titre d’une autorisation de séjour si l’étranger remplit les conditions de l’art. 62 al. 1 let. b et c LEI et est apte à bien communiquer dans la langue nationale parlée au lieu de domicile [1].  \n- Les séjours temporaires et à des fins de formation ne comptent pas dans le séjour ininterrompu de cinq ans, sauf si, après la formation, l’étranger a été en possession d’une autorisation de séjour durable pendant deux ans sans interruption [1].  \n- Le SEM doit approuver l’octroi anticipé du permis C en vertu de l’art. 34 al. 3 LEI (hors cas de professeur) et l’octroi d’une autorisation de séjour ou d’établissement suite à la révocation de la nationalité suisse entrée en force [3].  \n- Les critères d’intégration (respect de la sécurité et de l’ordre publics, des valeurs constitutionnelles, compétences linguistiques, participation à la vie économique ou formation) sont évalués par l’autorité compétente [4].  \n\n## Canton de Vaud  \n- Le Service cantonal compétent en matière de police des étrangers (service) octroie, prolonge, révoque ou refuse les autorisations de séjour et d’établissement, y compris le permis C [6].  \n- Le chef du département est compétent pour révoquer l’autorisation d’établissement et prononcer le renvoi ou proposer l’admission provisoire [5].  \n\n## Commune de Ecublens (VD)  \nAucune source pertinente récupérée.  \n\n## Articulation des niveaux  \nLe droit fédéral fixe les conditions générales d’octroi du permis C; le canton de Vaud examine les demandes et peut prévoir des exigences supplémentaires conformément à la législation fédérale; la commune d’Ecublens ne contient pas de règles spécifiques sur l’octroi du permis C (Art. 49 BV).  \n\n## Prochaines étapes  \n- Rassembler les preuves de séjour (registre des habitants, contrats de travail, attestations de formation) couvrant au moins cinq ans ininterrompus d’autorisation de séjour ou dix ans incluant les cinq dernières années ininterrompues [1].  \n- Préparer les documents attestant de l’intégration (certificats de langue, preuves de participation économique, absence de condamnations) [1][4].  \n- Déposer la demande d’autorisation d’établissement auprès du Service cantonal compétent en matière de police des étrangers du canton de Vaud [6].  \n- Si le cas relève d’une approbation fédérale (ex. passeport non valable, atteinte grave à l’ordre public, révocation de nationalité), le Service cantonal transmet la demande au SEM [3].  \n- Attendre la décision du Service cantonal ou du SEM; en cas de refus, recourir par acte écrit motivé dans le délai indiqué, à déposer au Greffe municipal d’Ecublens ou au siège du Comité de Direction [8].  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 14,
+    "raw_chars": 4286,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "LEI Art. 6 Établissement du visa"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de citation; la source ne précise pas l’autorité cantonale compétente pour le dépôt de la demande (seulement les compétences d’octroi, refus, révocation)."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 14,
+    "raw_chars": 3980,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 14,
+    "raw_chars": 3993,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 2,
+  "claims_checked": 42,
+  "sources": [
+   "[1] fed LEI Art. 34 Autorisation d’établissement",
+   "[2] fed LEI Art. 63 Révocation de l’autorisation d’établissement",
+   "[3] fed OA-DFJP Art. 3 Octroi des autorisations de courte durée, de séjour et d’établissement dans des cas particuliers",
+   "[4] fed LEI Art. 58a Critères d’intégration",
+   "[5] can VD 142.11 Art. 5",
+   "[6] can VD 142.11 Art. 3",
+   "[7] can VD 142.11 Art. 1",
+   "[8] com Ecublens (VD): Règlement de police de l'Association de communes \"Sécurité dans l'Oues Art. 18",
+   "[9] com Ecublens (VD): Règlement de police de l'Association de communes \"Sécurité dans l'Oues Art. 43",
+   "[10] fed LEI Art. 6 Établissement du visa",
+   "[11] fed CO Art. 266c"
+  ]
+ },
+ {
+  "id": "T002",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 152.4,
+  "plan_s": 8.9,
+  "ttft_s": null,
+  "words": 544,
+  "citations": 16,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 62"
+  ],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour renouveler un permis B, il faut déposer une demande auprès du Service de la population du canton de Vaud avant l’échéance du titre de séjour, démontrer l’absence de motifs de révocation au sens de l’art. 62 LEI (non cité dans les sources fournies) et, si l’autorité l’exige, prouver une intégration suffisante selon les critères de l’art. 58a LEI. Le canton peut assortir le renouvellement de conditions supplémentaires et perçoit une taxe communale fixée par le règlement communal de Lausanne. Le droit au changement de canton s’exerce conformément aux art. 33 à 37 LEI, selon le type d’autorisation et l’absence de chômage ou de motifs de révocation.\n\n## Confédération  \n- Art. 33 LEI: l’autorisation de séjour est octroyée pour un séjour de plus d’une année, pour un but déterminé, peut être assortie de conditions et sa durée est limitée mais prolongeable si aucun motif de révocation n’existe [1].  \n- Art. 34 LEI: l’autorisation d’établissement est octroyée pour une durée indéterminée, sans conditions, aux étrangers ayant séjourné au moins dix ans au total dont cinq ans ininterrompus au titre d’un permis de séjour, sans motif de révocation et intégrés [2].  \n- Art. 37 LEI: le titulaire d’un permis de séjour peut changer de canton s’il n’est pas au chômage et qu’aucun motif de révocation n’existe; le titulaire d’un permis d’établissement peut changer de canton s’il n’existe aucun motif de révocation [3].  \n- Art. 58a LEI: l’intégration est évaluée selon le respect de la sécurité et de l’ordre publics, le respect des valeurs de la Constitution, les compétences linguistiques et la participation à la vie économique ou l’acquisition d’une formation; la situation des personnes handicapées ou malades est prise en compte de manière appropriée [9].\n\n## Canton de Vaud  \n- Art. 2 et 3 LOI VD 142.11: le Service de la population du canton de Vaud (service cantonal en matière de police des étrangers) est compétent pour octroyer, prolonger, refuser ou révoquer les autorisations de séjour et d’établissement, ainsi que pour prononcer les renvois et mettre en œuvre les décisions de renvoi [4][5].\n\n## Commune de Lausanne  \n- Art. 12 du règlement communal 700.2: le règlement entre en vigueur dès son approbation par le département cantonal compétent [7].  \n- Art. 13 du règlement communal 700.2: toute demande déposée avant l’entrée en vigueur du règlement est soumise à l’ancien régime jusqu’à clôture de la procédure [8].\n\n## Articulation des niveaux  \nLe canton de Vaud désigne l’autorité compétente (Service de la population) et peut imposer des conditions supplémentaires au renouvellement; la commune de Lausanne fixe les taxes applicables aux demandes de permis via son règlement communal, sans modifier les conditions matérielles prévues par la LEI.\n\n## Prochaines étapes  \n1. Rassembler les pièces d’identité, preuves de moyens financiers et tout document attestant de l’intégration (langue, formation, respect de l’ordre public) conformément aux exigences de la procédure de demande [1][2][9].  \n2. Déposer la demande de renouvellement auprès du Service de la population du canton de Vaud avant l’échéance du permis B [1].  \n3. Payer la taxe communale prévue par le règlement communal de Lausanne [7][8].  \n4. Attendre la décision du Service de la population; en cas de refus ou de conditions, contester la décision dans les délais indiqués par l’autorité [4][5].  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2412,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source citée (art. 33 LEI) ne mentionne pas de délai de dépôt de deux mois avant l’échéance ; ce délai n’est pas dans les sources fournies.",
+     "Ce délai n’est pas mentionné dans les sources fournies."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1894,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "LEI Art. 58a Critères d’intégration"
+    ],
+    "revised": true,
+    "notes": [
+     "L’art. 33 LEI (cité) ne mentionne pas de condition d’intégration selon l’art. 58a LEI pour la prolongation d’un permis B après cinq ans. L’art. 58a traite des critères d’intégration, mais n’est pas explicitement lié à une condition de prolongation après cinq ans dans le texte fourni."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 2505,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette liste de documents"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed LEI Art. 33 Autorisation de séjour",
+   "[2] fed LEI Art. 34 Autorisation d’établissement",
+   "[3] fed LEI Art. 37 Nouvelle résidence dans un autre canton",
+   "[4] can VD 142.11 Art. 2",
+   "[5] can VD 142.11 Art. 3",
+   "[6] can VD 142.11 Art. 15",
+   "[7] com Lausanne: 700.2 Règlement concernant les taxes perçues en matière de permis de c Art. 12",
+   "[8] com Lausanne: 700.2 Règlement concernant les taxes perçues en matière de permis de c Art. 13",
+   "[9] fed LEI Art. 58a Critères d’intégration"
+  ]
+ },
+ {
+  "id": "T003",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 125.5,
+  "plan_s": 13.8,
+  "ttft_s": null,
+  "words": 283,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDie Niederlassungsbewilligung C kann bereits nach fünf Jahren ununterbrochenem Aufenthalt mit Aufenthaltsbewilligung erteilt werden, wenn die Integrationskriterien erfüllt sind und sich die Person gut in der am Wohnort gesprochenen Landessprache verständigen kann [1]. Wichtige Gründe können eine weitere Verkürzung rechtfertigen [1].\n\n## Bund\n- Nach Art. 34 Abs. 4 AIG kann die Niederlassungsbewilligung bereits nach einem ununterbrochenen Aufenthalt mit Aufenthaltsbewilligung während der letzten fünf Jahre erteilt werden, wenn die Bewerberin oder der Bewerber die Integrationskriterien nach Art. 58a AIG erfüllt und sich gut in der am Wohnort gesprochenen Landessprache verständigen kann [1].\n- Wichtige Gründe können eine weitere Verkürzung rechtfertigen [1].\n- Vorübergehende Aufenthalte werden an die fünfjährige Frist nicht angerechnet, sofern die betroffene Person nach deren Beendigung während zweier Jahre ununterbrochen im Besitz einer Aufenthaltsbewilligung war [1].\n\n## Kanton Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund legt die Mindestvoraussetzungen fest; der Kanton konkretisiert die Integrationskriterien und entscheidet über die Erteilung. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte\n1. Prüfen Sie, ob Sie bereits fünf Jahre ununterbrochen im Besitz einer Aufenthaltsbewilligung in der Schweiz sind [1].\n2. Erfüllen Sie die Integrationskriterien nach Art. 58a AIG (Beachtung der öffentlichen Sicherheit und Ordnung, Respektierung der Verfassungswerte, Sprachkompetenzen, Teilnahme am Wirtschaftsleben oder Bildung) [3].\n3. Nachweisen Sie sichere Sprachkenntnisse in der am Wohnort gesprochenen Landessprache (z. B. durch ein anerkanntes Sprachzertifikat) [1].\n4. Reichen Sie ein schriftliches Gesuch um Erteilung der Niederlassungsbewilligung bei der zuständigen kantonalen Ausländerbehörde ein [1]; im Kanton Zürich ist dies das Migrationsamt des Kantons Zürich [1].\n5. Bei Vorliegen wichtiger Gründe diese im Gesuch darlegen und mit entsprechenden Belegen untermauern [1].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2450,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für diese konkrete Prüfanweisung/Behauptung.",
+     "Keine Quelle zitiert für die Zuständigkeit des Migrationsamts Zürich."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 2344,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für diese Aussage",
+     "Keine Quelle zitiert für die Zuständigkeit des Migrationsamts Zürich"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 2152,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für diese Aussage",
+     "Keine Quelle zitiert für die Zuständigkeit des Migrationsamts Zürich"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed AIG Art. 34 Niederlassungsbewilligung",
+   "[2] fed AIG Art. 47 Frist für den Familiennachzug",
+   "[3] fed AIG Art. 58a Integrationskriterien",
+   "[4] can ZH 631.41 § 12",
+   "[5] can ZH 631.41 § 1"
+  ]
+ },
+ {
+  "id": "T004",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 193.1,
+  "plan_s": 7.9,
+  "ttft_s": null,
+  "words": 728,
+  "citations": 21,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "articolo 62"
+  ],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nPer ottenere un permesso B (dimora) in Ticino come lavoratore UE occorre dimostrare l’impossibilità di reperire un lavoratore indigeno o un cittadino di uno Stato con accordo di libera circolazione con il profilo richiesto [2]; il datore di lavoro presenta la domanda per attività dipendente [3]; il richiedente deve essere un quadro, specialista o altro lavoratore qualificato oppure rientrare in un’eccezione (investitore, imprenditore, scienziato, sportivo, persona con conoscenze specifiche o trasferito da azienda internazionale) [3]; occorre soddisfare i criteri di integrazione (qualifica, adattamento, lingua, età) [3]; la domanda va inoltrata elettronicamente tramite la piattaforma digitale dell’Ufficio della migrazione [5]; in caso di primo rilascio l’Ufficio convoca il richiedente una volta ricevuta l’istanza [5]; i comuni notificano all’Ufficio della migrazione, entro 30 giorni, ogni cambiamento di identità, decesso di titolari di permesso, nascita di figli che necessitano di permesso, modifica di indirizzo o partenza per altro Cantone o l’estero [6].\n\n## Confederazione  \n- Lo straniero che intende esercitare un’attività lucrativa in Svizzera necessita di un permesso indipendentemente dalla durata del soggiorno; la domanda va presentata all’autorità competente per il luogo di lavoro previsto [1].  \n- Per essere ammesso occorre dimostrare l’impossibilità di reperire un lavoratore indigeno o un cittadino di uno Stato con accordo di libera circolazione che corrisponda al profilo richiesto [2].  \n- È considerata attività lucrativa qualsiasi attività dipendente o indipendente normalmente esercitata dietro compenso, anche se svolta gratuitamente [1].  \n- Il permesso di dimora può essere rilasciato solo a quadri, specialisti e altri lavoratori qualificati; in deroga possono essere ammessi investitori/imprenditori che mantengono o creano posti di lavoro, persone riconosciute in ambito scientifico, culturale o sportivo, persone con conoscenze o attitudini professionali specifiche dimostrate necessarie, persone trasferite da aziende internazionali o la cui attività in Svizzera è indispensabile in relazioni d’affari internazionali importanti [3].  \n- Il permesso di dimora è rilasciato per un determinato scopo, di durata limitata e può essere prorogato se non vi sono motivi di revoca secondo l’articolo 62 capoverso 1; può essere vincolato alla conclusione di un accordo d’integrazione se necessario [4].\n\n## Cantone Ticino  \n- Le domande nominative per rilascio, modifica o rinnovo di permesso di lavoro o soggiorno possono essere presentate elettronicamente tramite la piattaforma digitale dell’Ufficio della migrazione; il richiedente dichiara che si tratta di copie originali [5].  \n- In occasione del primo rilascio del permesso, l’Ufficio convoca il richiedente una volta ricevuta l’istanza; lo straniero è tenuto a presentarsi all’autorità competente [5].  \n- Nel caso della richiesta di rilascio di un permesso di lavoro per frontaliere UE dipendente, l’Ufficio può prescindere dal convocare l’istante; i cittadini stranieri interessati sono tenuti a presentarsi al competente posto di Polizia cantonale prima dell’invio della domanda all’Ufficio, per il controllo del proprio documento d’identità [5].  \n- Gli uffici del controllo abitanti notificano all’Ufficio della migrazione, entro 30 giorni, i cambiamenti e le rettifiche di identità, i casi di decesso di cittadini stranieri titolari di un permesso di soggiorno, i casi di nascita di figli che necessitano di un permesso, le modifiche di indirizzo all’interno del Cantone o dello stesso Comune nonché le partenze per un altro Cantone rispettivamente per l’estero [6].\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl Cantone Ticino precisa le modalità di presentazione della domanda (piattaforma digitale, obbligo di conservare gli originali, convocazione e controlli di polizia per frontalieri UE dipendenti) e definisce i compiti di segnalazione dei comuni; tali disposizioni si aggiungono alle condizioni federali senza contraddirle e sono subordinate alla legge federale sugli stranieri (Art. 49 Cost).\n\n## Prossimi passi  \n- Il datore di lavoro (per attività dipendente) o lo straniero stesso (per attività indipendente) invia elettronicamente la domanda e la documentazione tramite la piattaforma digitale dell’Ufficio della migrazione [5].  \n- In caso di primo rilascio di permesso B, attendere la convocazione dell’Ufficio della migrazione e presentarsi all’autorità competente [5].  \n- In caso di frontaliere UE dipendente, recarsi al competente posto di Polizia cantonale per il controllo del documento d’identità prima dell’invio della domanda all’Ufficio [5].  \n- Conservare gli originali di tutta la documentazione fino alla crescita in giudicato della decisione [5].  \n- Gli uffici del controllo abitanti di Lugano segnalano all’Ufficio della migrazione, entro 30 giorni, ogni cambiamento di identità, decesso di titolari di permesso, nascita di figli che necessitano di permesso, modifica di indirizzo o partenza per altro Cantone o l’estero [6].\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 13,
+    "raw_chars": 4458,
+    "unreadable": false,
+    "issues": 5,
+    "added": [
+     "CO Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questo passo specifico",
+     "nessuna fonte citata per questo passo specifico",
+     "nessuna fonte citata per questo passo specifico",
+     "nessuna fonte citata per questo passo specifico"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 13,
+    "raw_chars": 4087,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte cita questo passaggio; si tratta di una raccomandazione procedurale non presente nei testi normativi forniti"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 13,
+    "raw_chars": 4699,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questa affermazione specifica",
+     "nessuna fonte citata per questa affermazione specifica",
+     "nessuna fonte citata per questa affermazione specifica",
+     "nessuna fonte citata per questa affermazione specifica"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 39,
+  "sources": [
+   "[1] fed LStrI Art. 11 Soggiorno con attività lucrativa",
+   "[2] fed LStrI Art. 21 Priorità",
+   "[3] fed LStrI Art. 23 Condizioni personali",
+   "[4] fed LStrI Art. 33 Permesso di dimora",
+   "[5] can TI 143.110 Art. 828",
+   "[6] can TI 143.110 Art. 1349",
+   "[7] can TI 143.110 Art. 725",
+   "[8] fed CO Art. 266c"
+  ]
+ },
+ {
+  "id": "T005",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 174.6,
+  "plan_s": 7.7,
+  "ttft_s": null,
+  "words": 720,
+  "citations": 0,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 47"
+  ],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, votre conjoint étranger peut vous rejoindre en Suisse au titre du regroupement familial prévu par la LEI : il doit vivre avec vous, disposer d’un logement approprié, ne pas dépendre de l’aide sociale, être apte à communiquer dans la langue nationale parlée à Genève (ou être inscrit à une offre d’encouragement linguistique ; cette condition ne s’applique pas aux enfants de moins de 18 ans) et vous ne devez ni percevoir ni pouvoir percevoir des prestations complémentaires annuelles au sens de la LPC. La demande doit être déposée dans les cinq ans (ou 12 mois si votre conjoint a plus de 12 ans) à compter de l’octroi de votre autorisation de séjour ou de l’établissement du lien familial ; passé ce délai, un regroupement différé n’est autorisé que pour des raisons familiales majeures.\n\n## Confédération  \n- Selon l’art. 44 LEI, le conjoint étranger du titulaire d’une autorisation de séjour ainsi que ses enfants célibataires étrangers de moins de 18 ans peuvent obtenir une autorisation de séjour aux conditions suivantes :  \n  a. vivre en ménage commun avec le titulaire ;  \n  b. disposer d’un logement approprié ;  \n  c. ne pas dépendre de l’aide sociale ;  \n  d. être apte à communiquer dans la langue nationale parlée au lieu de domicile ou être inscrit à une offre d’encouragement linguistique ; la condition d) ne s’applique pas aux enfants célibataires de moins de 18 ans ;  \n  e. la personne à l’origine de la demande ne percevoir pas de prestations complémentaires annuelles au sens de la LPC ni ne pouvoir en percevoir du fait du regroupement familial.  \n- L’art. 47 al. 3 LEI précise que les délais commencent à courir :  \n  a. pour les membres de la famille d’étrangers, lors de l’octroi de l’autorisation de séjour ou d’établissement ou lors de l’établissement du lien familial ;  \n  b. (point b non pertinent pour votre situation).  \n- L’art. 85c al. 1 LEI prévoit que le conjoint et les enfants célibataires de moins de 18 ans d’une personne admise à titre provisoire peuvent bénéficier du regroupement familial au plus tôt trois ans après la décision d’admission provisoire, aux mêmes conditions que ci‑dessus, avec la précision que la condition de langue ne s’applique pas aux enfants de moins de 18 ans et peut être levée pour des raisons majeures.\n\n## Canton de Genève  \n- Aucune règle cantonale spécifique sur le regroupement familial n’a été fournie dans les sources consultées.\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral (LEI) fixe les conditions, les délais et les exigences du regroupement familial ; aucune disposition cantonale ou communale supplémentaire n’a été fournie dans les sources pour ce domaine précis, de sorte que le droit fédéral s’applique directement, conformément à l’art. 49 Cst.\n\n## Prochaines étapes  \n1. Déterminer le point de départ du délai : le délai de cinq ans (ou 12 mois si votre conjoint a plus de 12 ans) court à compter de l’octroi de votre autorisation de séjour ou de l’établissement du lien familial, conformément à l’art. 47 al. 3 LEI.  \n2. Rassembler les documents prouvant la vie commune (contrat de bail, factures communes, attestations de domicile) afin de satisfaire à l’exigence de l’art. 44 al. 1 let. a LEI.  \n3. Obtenir une attestation de non‑dépendance de l’aide sociale (certificat du service social ou de l’Hospice général) pour démontrer la condition de l’art. 44 al. 1 let. c LEI.  \n4. Si votre conjoint a plus de 12 ans, préparer une preuve d’inscription à une offre d’encouragement linguistique ou une attestation de maîtrise suffisante de la langue parlée à Genève, conformément à l’art. 44 al. 1 let. d LEI (condition non applicable aux enfants de moins de 18 ans).  \n5. Rédiger une demande de regroupement familial et la déposer auprès de l’Office cantonal de la population et des migrations (OCPM) de Genève, en y joignant tous les documents requis par l’autorité.  \n6. Respecter le délai applicable : déposer la demande dans les cinq ans (ou 12 mois si votre conjoint a plus de 12 ans) à compter du point de départ défini à l’art. 47 al. 3 LEI.  \n7. En cas de dépassement du délai, préparer un dossier détaillé exposant les raisons familiales majeures justifiant un regroupement différé, conformément à l’art. 47 al. 4 LEI.  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 10,
+    "raw_chars": 5085,
+    "unreadable": false,
+    "issues": 7,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source [4] et [5] sont cantonales genevoises et ne traitent pas du regroupement familial; aucune source cantonale ou communale pertinente n'a été fournie pour le droit cantonal.",
+     "Cette information n'est pas explicitement citée dans les sources fournies. Elle découle d'une interprétation de l'art. 47 LEI mais n'est pas textuellement reprise dans les sources [1] ou [2].",
+     "Cette instruction pratique n'est pas mentionnée dans les sources juridiques fournies.",
+     "Cette instruction n'est pas citée dans les sources juridiques fournies."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 11,
+    "raw_chars": 4811,
+    "unreadable": false,
+    "issues": 7,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source ne confirme l’absence de règles cantonales/communales supplémentaires pour le regroupement familial; les sources cantonales fournies ne portent pas sur le regroupement familial.",
+     "Cette précision sur le point de départ du délai n’est pas explicitement mentionnée dans les sources fournies.",
+     "Les sources ne détaillent pas les types de preuves à fournir.",
+     "Les sources ne précisent pas qu’une attestation de l’aide sociale est requise."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2870,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "source manquante"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 30,
+  "sources": [
+   "[1] fed LEI Art. 44 Conjoint et enfants étrangers du titulaire d’une autorisation de séjour",
+   "[2] fed LEI Art. 47 Délai pour le regroupement familial",
+   "[3] fed LEI Art. 85c Regroupement familial",
+   "[4] can GE F 2 10 Art. 11",
+   "[5] can GE F 2 10 Art. 12"
+  ]
+ },
+ {
+  "id": "T006",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 122.9,
+  "plan_s": 6.3,
+  "ttft_s": null,
+  "words": 445,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 82"
+  ],
+  "prose_left": 0,
+  "repaired": 5,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nJa. Nach Art. 63 Abs. 1 lit. c AIG kann die Niederlassungsbewilligung widerrufen werden, wenn der Inhaber oder eine von ihm zu versorgende Person dauerhaft und in erheblichem Mass auf Sozialhilfe angewiesen ist. Ein Widerruf ist jedoch unzulässig, wenn er allein damit begründet wird, dass ein Delikt begangen wurde, für das ein Strafgericht bereits eine Strafe oder Massnahme verhängt, jedoch von einer Landesverweisung abgesehen hat [1]. Kantonale Bestimmungen des Kantons Bern [4] regeln den Ausschluss von der Sozialhilfe und die Nothilfe, enthalten jedoch keine zusätzlichen Widerrufsgründe bezüglich der Niederlassungsbewilligung [4]. Kommunale Vorschriften der Stadt Bern [6] befassen sich nicht mit dem Widerruf von Aufenthaltsbewilligungen [6][7].\n\n## Bund  \n- Nach Art. 63 Abs. 1 lit. c AIG kann die Niederlassungsbewilligung widerrufen werden, wenn der Inhaber oder eine von ihm zu versorgende Person dauerhaft und in erheblichem Mass auf Sozialhilfe angewiesen ist [1].  \n- Ein Widerruf ist unzulässig, wenn er allein damit begründet wird, dass ein Delikt begangen wurde, für das ein Strafgericht bereits eine Strafe oder Massnahme verhängt, jedoch von einer Landesverweisung abgesehen hat [1].\n\n## Kanton Bern  \n- Nach Art. 6 Abs. 1 Einführungsgesetz zum AIG sind Personen mit rechtskräftigem Wegweisungsentscheid, denen eine Ausreisefrist angesetzt worden ist, und bei denen die Frist gemäss kantonaler Regelung abgelaufen ist, sowie Personen, die Verfahren nach Art. 82 AsylG durchlaufen, von der Sozialhilfe ausgeschlossen und haben auf Ersuchen Anspruch auf Nothilfe [4].  \n- Nach Art. 16 Abs. 1 Einführungsgesetz zum AIG beschränken sich Nothilfeleistungen grundsätzlich auf das verfassungsrechtliche Minimum und werden in der Regel in Form von Sachleistungen ausgerichtet (Unterbringung in Kollektivunterkunft, Nahrung und Hygieneartikel im Umfang der tiefsten Stufe der Asylsozialhilfe, KVG-Leistungen, Kleidungsstücke bei dringendem Bedarf) [5].  \n- Diese kantonalen Bestimmungen regeln den Sozialhilfeausschluss und die Nothilfe, nicht jedoch zusätzliche Widerrufsgründe für die Niederlassungsbewilligung.\n\n## Gemeinde Bern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nBundesrecht (AIG) regelt die Widerrufsgründe für die Niederlassungsbewilligung abschließend; kantonale Vorschriften des Kantons Bern konkretisieren den Sozialhilfeausschluss und die Nothilfe, enthalten jedoch keine abweichenden Widerrufsgründe bezüglich der Sozialhilfeabhängigkeit. Kommunale Vorschriften der Stadt Bern befassen sich nicht mit dem Widerruf von Aufenthaltsbewilligungen. Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte  \n- Prüfen, ob die Sozialhilfeabhängigkeit dauerhaft und in erheblichem Mass vorliegt [1].  \n- Prüfen, ob bereits eine Strafe oder Massnahme für ein Delikt verhängt wurde und das Gericht von einer Landesverweisung abgesehen hat (falls zutreffend: Widerruf unzulässig) [1].  \n- Einsicht in die Sozialhilfeunterlagen und die Strafakten verlangen.  \n- Bei drohendem Widerruf rechtlichen Beistand in Anspruch nehmen.  \n- Gegen einen Widerrufsentscheid kann Beschwerde beim Verwaltungsgericht des Kantons Bern erhoben werden; die konkrete Rechtsmittelfrist richtet sich nach dem kantonalen Verwaltungsrechtspflegegesetz (nicht in den vorliegenden Quellen enthalten).\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 3264,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle stützt diese Aussage; kantonale Bestimmungen können Vollzugsmodalitäten regeln, nicht die bundesrechtlichen Widerrufsgründe aufheben.",
+     "Kommunale Vorschriften regeln in der Regel Bau- und Nutzungsfragen (siehe Quellen 6 und 7), nicht Bewilligungswiderrufe.",
+     "Keine Quelle zitiert Art. 49 BV in diesem Zusammenhang.",
+     "Keine Quelle nennt eine 30‑tägige Frist für Beschwerden gegen Widerrufsentscheide im Kanton Bern."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2747,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine kantonalen Quellen zitiert, die diese Aussage stützen; kantonale Quellen (Art. 6 und 16 BE) behandeln Sozialhilfe nur im Kontext von Nothilfe und deren Ausschluss, nicht den Widerruf der Niederlassungsbewilligung",
+     "Kommunale Quellen (Art. 80 und 31 BO Bern) regeln Bau- und Nutzungsfragen, nicht den Widerruf von Bewilligungen",
+     "Keine Quelle zitiert, die eine Frist nennt; kantonale Verwaltungsrechtspflegegesetze sind nicht in den Quellen enthalten"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 3077,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die Aussage, dass keine einschlägige Quelle abgerufen wurde.",
+     "Die Rechtsmittelfrist ist nicht in den vorliegenden Quellen enthalten und kann daher nicht als durch diese belegt gelten."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 24,
+  "sources": [
+   "[1] fed AIG Art. 63 Widerruf der Niederlassungsbewilligung",
+   "[2] fed AIG Art. 62 Widerruf von Bewilligungen und anderen Verfügungen",
+   "[3] fed AIG Art. 34 Niederlassungsbewilligung",
+   "[4] can BE 122.20 Art. 6",
+   "[5] can BE 122.20 Art. 16",
+   "[6] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 80",
+   "[7] com Bern: 721.1 Bauordnung der Stadt Bern (BO) Art. 31"
+  ]
+ },
+ {
+  "id": "T007",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 94.8,
+  "plan_s": 5.9,
+  "ttft_s": null,
+  "words": 487,
+  "citations": 17,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour déposer une demande de naturalisation ordinaire, la Confédération exige un séjour total de dix ans en Suisse, dont trois ans durant les cinq années précédant le dépôt de la demande; le temps passé en Suisse entre huit et dix-huit ans compte double. Le canton de Fribourg exige un domicile de trois ans dans le canton, dont deux au cours des cinq ans précédant la demande; pour les personnes de la deuxième génération, deux ans en tout dans le canton ou dans un canton désigné, dont un an au cours des deux ans précédents. Les communes fribourgeoises exigent au minimum deux ans de résidence légale sur le territoire communal, sauf dérogation pour justes motifs.\n\n## Confédération  \n- Séjour total requis: dix ans en Suisse [2].  \n- Séjour requis dans les cinq ans précédant la demande: trois ans [2].  \n- Compte double: le temps passé en Suisse entre l’âge de huit et dix-huit ans [2].  \n- Séjour effectif minimal requis: six ans [2].  \n- Condition préalable: être titulaire d’une autorisation d’établissement [2].\n\n## Canton de Fribourg  \n- Domicile cantonal requis: trois ans au moins, dont deux au cours des cinq ans précédant la demande [3].  \n- Pour les personnes de la deuxième génération: deux ans en tout dans le canton ou dans un canton désigné par le règlement d’exécution, dont un an au cours des deux ans précédant la demande [3].  \n- Principe de résidence pendant la procédure: applicable [3].  \n- Justes motifs: peuvent atténuer ou lever l’exigence de la période de résidence précédente, mais la durée totale de résidence reste requise [3].\n\n## Commune de Fribourg  \n- Résidence légale sur le territoire communal: au moins deux ans, sauf dérogation pour justes motifs par le Conseil communal [5].\n\n## Articulation des niveaux  \nLe canton de Fribourg et les communes fribourgeoises précisent et complètent les conditions minimales fixées par la Confédération; les exigences cantonales et communales sont cumulatives et doivent être remplies en plus des conditions fédérales (Art. 49 BV).\n\n## Prochaines étapes  \n1. Vérifier que vous êtes titulaire d’une autorisation d’établissement [2].  \n2. Calculer la durée de séjour en Suisse, en comptant double le temps passé entre l’âge de huit et dix-huit ans [2].  \n3. S’assurer d’un domicile dans le canton de Fribourg depuis trois ans, dont deux au cours des cinq ans précédents, ou deux ans en tout dans le canton (personne de la deuxième génération) dont un an au cours des deux ans précédents [3].  \n4. Respecter une résidence légale sur le territoire communal depuis au moins deux ans, sauf dérogation [5].  \n5. Rassembler les documents requis (pièces d’identité, titres de séjour, certificats de domicile, attestations d’impôts, etc.) et déposer la demande auprès de l’autorité compétente communale ou cantonale selon le règlement communal [5] et cantonal [3].  \n6. Pour les enfants mineurs, obtenir l’assentiment du représentant légal selon l’âge de l’enfant et l’exercice de l’autorité parentale [4].  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2861,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La condition de l’autorisation d’établissement est mentionnée dans l’ANSWER mais aucune source n’est citée pour l’étayer."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2357,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2357,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 27,
+  "sources": [
+   "[1] fed LN Art. 18 Durée de séjour cantonal et communal",
+   "[2] fed LN Art. 9 Conditions formelles",
+   "[3] can FR 114.1.1 Art. 9",
+   "[4] can FR 114.1.1 Art. 14",
+   "[5] com Fribourg: Règlement sur le droit de cité Art. 2",
+   "[6] com Fribourg: Règlement sur le droit de cité Art. 4"
+  ]
+ },
+ {
+  "id": "T008",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 16,
+  "total_s": 182.9,
+  "plan_s": 7.7,
+  "ttft_s": null,
+  "words": 540,
+  "citations": 17,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDas Einbürgerungsgesuch ist bei der vom Kanton Graubünden bezeichneten kantonalen Behörde einzureichen. Nach Prüfung und Erteilung der Einbürgerungsbewilligung des Bundes durch das Staatssekretariat für Migration (SEM) entscheidet die kantonale Behörde innerhalb eines Jahres über die Einbürgerung; andernfalls verliert die Bewilligung ihre Gültigkeit [2]. Erforderlich sind eine Niederlassungsbewilligung, insgesamt zehn Jahre Aufenthalt in der Schweiz (davon drei in den letzten fünf Jahren), wobei die Zeit zwischen dem vollendeten 8. und 18. Lebensjahr doppelt zählt und der tatsächliche Aufenthalt mindestens sechs Jahre betragen muss [5]. Zudem müssen erfolgreiche Integration, Vertrautheit mit den schweizerischen Lebensverhältnissen sowie keine Gefährdung der inneren oder äusseren Sicherheit der Schweiz vorliegen [6][7]. Die konkrete kantonale Behörde und Gebührenhöhe sind in den Quellen nicht genannt.\n\n## Bund\n- [1] Der Kanton bezeichnet die Behörde, bei welcher das Einbürgerungsgesuch einzureichen ist.\n- [5] Der Bund erteilt die Einbürgerungsbewilligung nur, wenn die Bewerberin oder der Bewerber eine Niederlassungsbewilligung besitzt und bei der Gesuchstellung insgesamt zehn Jahre in der Schweiz gelebt hat, wovon drei in den letzten fünf Jahren; die Zeit zwischen dem vollendeten 8. und 18. Lebensjahr wird doppelt gerechnet, wobei der tatsächliche Aufenthalt mindestens sechs Jahre betragen muss.\n- [6] Die Erteilung der Einbürgerungsbewilligung des Bundes erfordert erfolgreiche Integration, Vertrautheit mit den schweizerischen Lebensverhältnissen und keine Gefährdung der inneren oder äusseren Sicherheit der Schweiz.\n- [7] Erfolgreiche Integration zeigt sich insbesondere im Beachten der öffentlichen Sicherheit und Ordnung, in der Respektierung der Werte der Bundesverfassung, in der Fähigkeit, sich im Alltag in Wort und Schrift in einer Landessprache zu verständigen, in der Teilnahme am Wirtschaftsleben oder am Erwerb von Bildung sowie in der Förderung und Unterstützung der Integration der Familie; bei Behinderung oder Krankheit wird angemessen Rechnung getragen.\n- [4] Die kantonale Gesetzgebung sieht eine Mindestaufenthaltsdauer von zwei bis fünf Jahren vor; bei Wegzug bleiben die ursprünglich zuständigen Behörden zuständig, wenn sie die Einbürgerungsvoraussetzungen gemäss den Artikeln 11 und 12 abschliessend geprüft haben.\n- [2] Die zuständige kantonale Behörde trifft den Einbürgerungsentscheid innert einem Jahr nach Erteilung der Einbürgerungsbewilligung des Bundes; nach Ablauf dieser Frist verliert die Einbürgerungsbewilligung ihre Gültigkeit.\n- [3] Das Verfahren im Kanton und in der Gemeinde wird durch das kantonale Recht geregelt; das kantonale Recht kann vorsehen, dass ein Einbürgerungsgesuch den Stimmberechtigten an einer Gemeindeversammlung zum Entscheid vorgelegt wird.\n\n## Kanton Graubünden\nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Chur\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht legt die materiellen und formellen Mindestanforderungen fest; der Kanton Graubünden regelt das Verfahren; in Chur richtet sich das Einbürgerungsverfahren nach kantonalem Verwaltungsrecht; die kommunalen Quellen [14][15] betreffen die städtische Polizei und Ordnungsbussen und sind für das Einbürgerungsverfahren nicht einschlägig.\n\n## Nächste Schritte\n- Einreichung des Gesuchs bei der vom Kanton Graubünden bezeichneten kantonalen Einbürgerungsbehörde (konkrete Behörde und Gebührenhöhe sind in den Quellen nicht enthalten).\n- Nach Abschluss der kantonalen Prüfung Weiterleitung des Gesuchs an das Staatssekretariat für Migration (SEM) zur Erteilung der Einbürgerungsbewilligung des Bundes.\n- Die kantonale Behörde entscheidet innert einem Jahr nach Erteilung der Bundesbewilligung über die Einbürgerung [2]; bei Fristversäumnis verliert die Bewilligung ihre Gültigkeit.\n- Nach Rechtskraft des kantonalen Entscheids Erwerb des Gemeinde-, Kantons- und Schweizer Bürgerrechts [2].\n- Während des Verfahrens ermittelt die Behörde den Sachverhalt von Amtes wegen und die Parteien sind zur Mitwirkung verpflichtet [10][11].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 12,
+    "raw_chars": 4288,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "OR Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt die zuständige Behörde im Kanton Graubünden oder eine Gebühr."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 11,
+    "raw_chars": 3888,
+    "unreadable": false,
+    "issues": 1,
+    "added": [
+     "OR Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt die zuständige kantonale Behörde im Kanton Graubünden oder Gebührenhöhe."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 12,
+    "raw_chars": 5233,
+    "unreadable": false,
+    "issues": 3,
+    "added": [
+     "OR Art. 266c"
+    ],
+    "revised": true,
+    "notes": [
+     "Keine der genannten Quellen (8, 10, 11) wird im ANSWER als Zitation für diese spezifische Aussage aufgeführt; die Quellen behandeln allgemeine Verwaltungsgrundsätze, nicht explizit das Einbürgerungsverfahren.",
+     "Die Quellen nennen zwar, dass der Kanton die Behörde bezeichnet (Art. 13 Abs. 1 BüG), nennen aber nicht die konkrete Behörde in Chur und keine Gebührenhöhe.",
+     "Die kantonalen Verwaltungsgrundsätze (Art. 8) sind allgemeiner Natur und beziehen sich nicht spezifisch auf das Einbürgerungsverfahren. Die Polizeigesetze (Art. 12, 15) behandeln Überwachung und Ordnungsbussen, haben aber keinen Bezug zum Einbürgerungsverfahren."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 3,
+  "claims_checked": 35,
+  "sources": [
+   "[1] fed BüG Art. 13 Einbürgerungsverfahren",
+   "[2] fed BüG Art. 14 Kantonaler Einbürgerungsentscheid",
+   "[3] fed BüG Art. 15 Verfahren im Kanton",
+   "[4] fed BüG Art. 18 Kantonale und kommunale Aufenthaltsdauer",
+   "[5] fed BüG Art. 9 Formelle Voraussetzungen",
+   "[6] fed BüG Art. 11 Materielle Voraussetzungen",
+   "[7] fed BüG Art. 12 Integrationskriterien",
+   "[8] can GR 370.100 Art. 2",
+   "[9] can GR 370.100 Art. 3",
+   "[10] can GR 370.100 Art. 11",
+   "[11] can GR 370.100 Art. 16",
+   "[12] can GR 370.100 Art. 27",
+   "[13] can GR 370.100 Art. 30",
+   "[14] com Chur: Polizeigesetz der Stadt Chur (PG) Art. 12",
+   "[15] com Chur: Polizeigesetz der Stadt Chur (PG) Art. 45",
+   "[16] fed OR Art. 266c"
+  ]
+ },
+ {
+  "id": "T009",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 89.6,
+  "plan_s": 7.0,
+  "ttft_s": null,
+  "words": 303,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nFür die ordentliche Einbürgerung müssen Sie sich im Alltag in Wort und Schrift in einer Landessprache verständigen können [1]. Der Kanton Basel-Stadt konkretisiert die Prüfung dieser Sprachkenntnisse im Rahmen der Gesamtbeurteilung durch die Einbürgerungskommission; bei Behinderungen oder Krankheiten wird angemessen Rechnung getragen [1][3]. Die konkreten Prüfungsmodalitäten, Fristen und Gebühren sind in den vorliegenden Quellen nicht festgelegt.\n\n## Bund\n- Nach Art. 12 Abs. 1 lit. c BüG zeigt sich eine erfolgreiche Integration insbesondere in der Fähigkeit, sich im Alltag in Wort und Schrift in einer Landessprache zu verständigen [1].\n- Art. 11 BüG verlangt zudem, dass die Bewerberin oder der Bewerber erfolgreich integriert ist [2].\n\n## Kanton Basel-Stadt\n- Die Gesamteinbürgerungskommission behandelt Einbürgerungsgesuche und entscheidet über die Aufnahme ins Bürgerrecht, wobei die gesetzlichen Einbürgerungsvoraussetzungen erfüllt sein müssen [4].\n- Die Kammern der Einbürgerungskommission stellen dem Bürgerrat Antrag auf Aufnahme ins Bürgerrecht, wenn die gesetzlichen Einbürgerungsvoraussetzungen erfüllt sind, oder auf Ablehnung, wenn diese nicht erfüllt sind [3].\n- Die Einbürgerungskommission kann in begründeten Fällen ein Gesuch bis zu drei Jahre zurückstellen und die Bewerbenden zu einem zweiten Gespräch vorladen [3].\n\n## Gemeinde Basel\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDas Bundesrecht legt die Integrationskriterien fest, insbesondere die Sprachkenntnisse [1][2]. Der Kanton Basel-Stadt konkretisiert die Prüfung dieser Voraussetzungen durch die Einbürgerungskommission, die im Einzelfall entscheidet und bei besonderen Umständen wie Behinderungen angemessen Rechnung trägt [3]. Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte\n- Einbürgerungsgesuch schriftlich bei der zuständigen kantonalen Stelle einreichen (konkrete Einreichungsmodalitäten, Gebühren und zuständige Behörde sind in den vorliegenden Quellen nicht enthalten).\n- Die Einbürgerungskommission führt Gespräche und prüft die Sprachkenntnisse im Rahmen der Gesamtbeurteilung (keine festgelegten Termine oder Fristen in den Quellen).\n- Bei Ablehnung kann eine schriftliche, begründete und mit Rechtsmittelbelehrung versehene Verfügung des Bürgerrats verlangt werden [3].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2114,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt den Einreichungsort oder bestätigt, dass keine Gebühr anfällt (Quellen enthalten keine Verwaltungsanweisungen zu Einreichung oder Gebühren).",
+     "Quellen nennen keine konkreten Termine, Abläufe oder Verfahren zur Sprachprüfung; § 4 Abs. 1 spricht nur von Antragstellung, nicht von Gesprächen oder Prüfungsmodalitäten."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 11,
+    "raw_chars": 4147,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "OR Art. 12"
+    ],
+    "revised": true,
+    "notes": [
+     "Die kantonalen Quellen [3] und [4] regeln die Organisation und das Verfahren der Einbürgerungskommission, enthalten jedoch keine konkreten Vorgaben zur Prüfung oder Festlegung von Sprachkenntnissen. Die Prüfung der Sprachkenntnisse wird nicht spezifisch in diesen Paragraphen beschrieben.",
+     "Quelle [4] regelt die Organisation der Kommission (Zusammensetzung, Kammern), nicht aber die Prüfung von Sprachkenntnissen als konkrete Voraussetzung.",
+     "Keine der angegebenen Quellen enthält Informationen zu Einreichungsmodalitäten, Gebühren oder der zuständigen Stelle für die Gesuchseinreichung.",
+     "Die Quellen enthalten keine Angaben zu Fristen, Terminen oder dem konkreten Ablauf der Sprachprüfung."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1761,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 1,
+  "claims_checked": 23,
+  "sources": [
+   "[1] fed BüG Art. 12 Integrationskriterien",
+   "[2] fed BüG Art. 11 Materielle Voraussetzungen",
+   "[3] can BS BaB 153.300 § 4",
+   "[4] can BS BaB 153.300 § 3",
+   "[5] can BS BaB 153.300 § 2",
+   "[6] fed OR Art. 12"
+  ]
+ },
+ {
+  "id": "T010",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 163.8,
+  "plan_s": 5.1,
+  "ttft_s": null,
+  "words": 764,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "art. 62"
+  ],
+  "prose_left": 0,
+  "repaired": 6,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLe permis G est une autorisation frontalière délivrée aux personnes résidant à l’étranger qui souhaitent exercer une activité lucrative dans une zone frontalière suisse. Il impose au titulaire de regagner son lieu de résidence à l’étranger au moins une fois par semaine, est de durée limitée mais prolongeable, et après cinq années d’activité ininterrompue le frontalier a droit à la prolongation du permis, à condition qu’aucun motif de révocation au sens de l’art. 62 al. 1 LEI ne soit réalisé. Sous réserve de l’ordre de priorité prévu à l’art. 21 LEI, le titulaire peut également demander un changement de canton ou d’emploi après ce délai. Les demandes sont adressées au Service cantonal de la population et des migrations du canton de Valais, après préavis de la commune de Sion.\n\n## Confédération  \n- Selon l’art. 35 LEI [1], l’autorisation frontalière est octroyée en vue de l’exercice d’une activité lucrative dans une zone frontalière.  \n- Le titulaire doit regagner son lieu de résidence à l’étranger au moins une fois par semaine [1].  \n- L’autorisation est de durée limitée mais peut être prolongée [1].  \n- Après cinq années d’activité ininterrompue, le titulaire a droit à la prolongation du permis, à condition qu’aucun motif de révocation au sens de l’art. 62 al. 1 LEI ne soit réalisé [1].  \n- L’art. 39 LEI [2] précise que le titulaire peut exercer une activité lucrative temporaire hors zone frontalière, mais doit obtenir une autorisation du canton concerné s’il souhaite déplacer le centre de son activité dans une autre zone frontalière. Après cinq ans d’activité ininterrompue, il peut demander le changement de canton ou d’emploi, sous réserve des conditions des art. 21 et 22 LEI.  \n- L’art. 21 LEI [7] impose un ordre de priorité : un étranger ne peut être admis que si aucun travailleur en Suisse ni aucun ressortissant d’un État avec lequel un accord sur la libre circulation a été conclu correspondant au profil requis n’a pu être trouvé.\n\n## Canton de Valais  \n- Le Service cantonal de la population et des migrations [3] est compétent pour octroyer, renouveler et prolonger les autorisations frontalières.  \n- Les communes, par l’intermédiaire de leur bureau de police des étrangers, doivent veiller à ce que le frontalier déclare son arrivée dans les délais légaux, produise une pièce d’identité ainsi que, le cas échéant, son permis de séjour ou d’établissement, entreprenne toutes les démarches nécessaires en vue d’obtenir l’autorisation requise et demande la prolongation dans les délais [4].\n\n## Commune de Sion  \n- Selon l’art. 36 du Règlement communal de police [5], les feux à l’air libre dans les jardins, vergers, vignes ou parcs privés ne sont autorisés que dans les limites de la législation fédérale et cantonale, en prenant toutes dispositions pour ne pas incommoder le voisinage par les odeurs ou la fumée et pour empêcher le feu de s’étendre.  \n- Selon l’art. 22 du Règlement communal de police [6], la pose d’affiches-réclames n’est permise qu’aux emplacements désignés et aménagés à cet effet; seules les entreprises bénéficiant d’une convention avec la Municipalité peuvent installer et exploiter des panneaux ou colonnes d’affichage, l’autorité pouvant interdire tout affichage contraire à l’ordre et à la décence publique.\n\n## Articulation des niveaux  \nLe droit fédéral (LEI) fixe les conditions essentielles du permis G (destination frontalière, obligation de retour hebdomadaire, durée limitée, droit à prolongation après cinq ans, ordre de priorité). Le canton de Valais précise l’autorité décisionnaire (Service cantonal de la population et des migrations) et les modalités de préavis communal. Les règlements communaux de Sion complètent le cadre en imposant des restrictions locales (feux à l’air libre, affichage), qui s’ajoutent aux exigences fédérales et cantonales. Le droit cantonal et communal ne déroge pas aux exigences fédérales mais en précise l’application et les contrôles locaux.\n\n## Prochaines étapes  \n1. Rassembler les pièces requises : pièce d’identité valide, contrat de travail ou preuve d’activité lucrative, justificatif de résidence à l’étranger (bail, attestation de domicile) [1] ; ces documents sont nécessaires pour la demande d’autorisation frontalière.  \n2. Saisir la demande auprès du Service cantonal de la population et des migrations du canton de Valais, en indiquant la zone frontalière concernée et le lieu de résidence à l’étranger [3].  \n3. La commune de Sion, via son bureau de police des étrangers, transmet le dossier préavisé au service cantonal [4].  \n4. Attendre la décision du Service cantonal ; après cinq années d’activité ininterrompue, déposer une demande de prolongation accompagnée des justificatifs d’activité continue et, le cas échéant, des documents prouvant le respect de l’ordre de priorité prévu à l’art. 21 LEI [7].  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2757,
+    "unreadable": false,
+    "issues": 3,
+    "added": [
+     "LEI Art. 21 Ordre de priorité"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour ces exigences de pièces.",
+     "Pas de source citée pour la procédure de dépôt de la demande."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 3224,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "L’art. 35 LEI ne mentionne pas le droit au changement de canton ou d’emploi après cinq ans ; ce point relève de l’art. 39 LEI mais ne précise pas qu’il s’agit d’un droit automatique sans examen des conditions. De plus, l’art. 21 LEI impose un ordre de priorité qui doit être respecté, ce qui n’est pas indiqué dans la phrase."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 13,
+    "raw_chars": 4400,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette affirmation spécifique.",
+     "L’art. 35 al. 4 LEI précise que la prolongation est accordée «à condition qu’aucun motif de révocation au sens de l’art. 62 al. 1 ne soit réalisé». Le texte de l’ANSWER supprime cette condition.",
+     "Aucune source citée pour ces exigences de pièces."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 31,
+  "sources": [
+   "[1] fed LEI Art. 35 Autorisation frontalière",
+   "[2] fed LEI Art. 39 Activité lucrative des frontaliers",
+   "[3] can VS 142.100 Art. 1",
+   "[4] can VS 142.100 Art. 2",
+   "[5] com Sion: Règlement communal de police Article 36",
+   "[6] com Sion: Règlement communal de police Article 22",
+   "[7] fed LEI Art. 21 Ordre de priorité"
+  ]
+ },
+ {
+  "id": "T011",
+  "lang": "fr",
+  "loc": "1433 Suchy",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 188.5,
+  "plan_s": 6.6,
+  "ttft_s": null,
+  "words": 672,
+  "citations": 16,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 14,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour obtenir le permis de conduire catégorie C (camion), le candidat doit d’abord réussir l’examen théorique de base tel que défini à l’annexe 11 ch. II.1 de l’OAC [3] et, ensuite, réussir l’examen pratique organisé par le Service des automobiles du canton de Vaud, autorité cantonale compétente [5]. En cas d’annulation du permis à l’essai pour une deuxième infraction moyennement grave ou grave, le candidat doit repasser l’examen théorique de base avant de pouvoir se présenter à l’examen pratique [1].\n\n## Confédération  \n- **Définition de la catégorie C** : l’art. 4 al. 1 ch. C de l’OAC précise que la catégorie C autorise la conduite de voitures automobiles dont le poids total excède 3500 kg et dont le nombre de places, outre le siège du conducteur, n’excède pas huit ; ainsi que les ensembles de véhicules composés d’un véhicule tracteur de la catégorie C et d’une remorque dont le poids total n’excède pas 750 kg [7].  \n- **Examen théorique de base** : obligatoire pour tout candidat, sauf les cas d’exemption prévus à l’art. 13 al. 3 OAC. Le candidat peut le passer au plus tôt un mois avant d’avoir atteint l’âge minimal requis [3].  \n- **Conditions d’obtention** : réussite de l’examen théorique de base et de l’examen pratique organisé par le canton [2].  \n- **Mesure d’annulation** : si le titulaire du permis à l’essai commet une deuxième infraction moyennement grave ou grave entraînant le retrait du permis, le permis est annulé [1]. En cas d’annulation, le permis doit être restitué à l’autorité et le candidat doit repasser l’examen théorique de base avant toute nouvelle demande [1].\n\n## Canton de Vaud  \n- **Autorité compétente** : le Service des automobiles [5].  \n- **Procédure** : le Service organise les examens pratiques pour les catégories de permis, dont la catégorie C, et délivre le permis de conduire après réussite de ces examens, conformément aux prescriptions fédérales [5].  \n- **Avis préalable** : avant de prononcer un retrait ou une annulation, le Service avise l’intéressé et lui accorde un délai raisonnable pour consulter le dossier et se déterminer [6]. En cas d’avertissement ou de mesure de retrait d’un ou trois mois pour excès de vitesse ou conduite en état d’ébriété, le Service peut rendre une décision directe sans audition préalable [6].  \n- **Voies de recours** : la décision du Service peut faire l’objet d’une réclamation gratuite, la loi sur la procédure administrative étant applicable [6].\n\n## Commune de Suchy  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral (OAC) fixe les catégories de véhicules, les exigences de l’examen théorique de base et les mesures d’annulation du permis à l’essai. Le canton de Vaud, par son Service des automobiles, organise les examens pratiques et délivre le permis de conduire catégorie C, en respectant les conditions fédérales et en appliquant la procédure d’avis et de réclamation prévue par la loi cantonale sur la circulation routière. La loi fédérale prévaut sur les règles cantonales et communales (art. 49 Cst.).\n\n## Prochaines étapes  \n1. **Préparer l’examen théorique** : s’inscrire auprès du Service des automobiles du canton de Vaud et se préparer aux connaissances décrites à l’annexe 11 ch. II.1 de l’OAC ; passer l’examen au plus tôt un mois avant d’avoir atteint l’âge minimal requis [3].  \n2. **Passer l’examen pratique** : une fois l’examen théorique réussi, s’inscrire à l’examen pratique organisé par le Service des automobiles du canton de Vaud.  \n3. **Obtenir le permis** : après réussite de l’examen pratique, le Service délivre le permis de conduire catégorie C pour une durée illimitée selon les modalités prévues par l’OAC et les règlements cantonaux.  \n4. **En cas d’annulation antérieure** : si le candidat a déjà subi une annulation du permis à l’essai, il doit d’abord repasser l’examen théorique de base avant de déposer une nouvelle demande d’examen pratique [1].  \n5. **Contester une décision** : si le Service refuse ou retire le permis, déposer une réclamation gratuite dans le délai indiqué par la décision, conformément à la loi sur la procédure administrative [6].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 12,
+    "raw_chars": 6001,
+    "unreadable": false,
+    "issues": 5,
+    "added": [
+     "OAC Art. 4 Autorisations"
+    ],
+    "revised": true,
+    "notes": [
+     "The cited sources do not contain the specific procedural rule that one must first pass the theoretical exam and then the practical exam to obtain a category C license. Source [3] discusses the theoretical exam requirements and retesting after annulment, but not the general sequential requirement for category C. Source [5] describes the cantonal authority's powers but does not state the specific exam sequence for category C. The answer presents a procedural rule not found in the provided texts.",
+     "No source is cited for this statement. Source [2] mentions that category A and B are issued on probation, but it does not mention category C. Source [4] defines category C, but does not mention probation or duration of issuance. The claim about category C not being on probation is not supported by the provided sources.",
+     "Source [5] lists the powers of the cantonal authority (delivering, refusing, withdrawing permits) but does not specify that it *organizes* practical exams for category C or that it *delivers* the category C license after practical success. Source [2] mentions practical exams generally but not the specific role of the Vaud Service for category C. The answer adds specific procedural details not in the source.",
+     "Source [5] does not mention organizing practical exams for category C. Source [2] mentions practical exams exist but does not specify the Vaud Service's role in category C practical exams. The claim about the Service organizing the practical exam is not supported."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 4622,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source [3] ne décrit pas la procédure d’obtention du permis de conduire catégorie C, mais uniquement les conditions relatives à l’examen théorique de base et à la nécessité de le repasser en cas d’annulation du permis à l’essai. Elle ne mentionne pas l’examen pratique ni l’autorité cantonale qui l’organise.",
+     "Aucune des sources fournies ne précise que le permis de conduire catégorie C est délivré pour une durée illimitée après la réussite des examens. Les textes traitent des catégories, des examens et des mesures d’annulation, mais pas de la durée du permis.",
+     "La source [5] indique que le Service des automobiles est compétent pour délivrer, refuser et retirer des permis de conduire, mais ne précise pas qu’il délivre le permis de conduire catégorie C après réussite d’un examen pratique. Elle ne décrit pas la procédure d’obtention de la catégorie C.",
+     "Cette affirmation ne figure dans aucune des sources fournies. Elle relève d’un principe constitutionnel général, non d’une règle légale citée dans les textes de l’OAC ou de la loi cantonale."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 4033,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "The source [3] describes the theoretical exam requirements and the rule about retaking the theoretical exam after an annulment, but does not contain information about the practical exam organization by the canton or the overall procedure for obtaining the category C license. The source [5] is about cantonal authority competence, not the exam procedure itself.",
+     "Source [5] describes the cantonal authority's general competence to issue licenses, but does not state that it organizes the practical exam for category C or that it issues the license after passing such an exam.",
+     "This is a constitutional principle, not a legal rule stated in the cited sources."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 1,
+  "claims_checked": 31,
+  "sources": [
+   "[1] fed OAC Art. 35a Annulation",
+   "[2] fed OAC Art. 24a Permis de conduire à l’essai",
+   "[3] fed OAC Art. 13 Examen théorique de base",
+   "[4] fed OAC Art. 3 Catégories de permis",
+   "[5] can VD 741.01 Art. 3a",
+   "[6] can VD 741.01 Art. 21",
+   "[7] fed OAC Art. 4 Autorisations"
+  ]
+ },
+ {
+  "id": "T012",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 71.4,
+  "plan_s": 5.3,
+  "ttft_s": null,
+  "words": 373,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nDer Lernfahrausweis ist bundesrechtlich auf vier Monate für die Kategorie A und A1, zwölf Monate für die Kategorie B1 und die Spezialkategorie F sowie auf 24 Monate für alle übrigen Kategorien befristet. Bei erfolgreich absolvierter praktischer Grundschulung verlängert sich die Gültigkeit für die Kategorie A und A1 um zwölf Monate. Er erlischt, wenn der Inhaber dreimal hintereinander die Prüfung nicht bestanden hat und die Behörde die Fahreignung verneint, oder wenn der Lehrvertrag bestimmter Lernender vor Vollendung des 18. Altersjahres aufgelöst wird.\n\n## Bund\n- Für die Kategorie A und die Unterkategorie A1 beträgt die Gültigkeitsdauer vier Monate (Ziff. 1 lit. a) [1].\n- Für die Unterkategorie B1 und die Spezialkategorie F gilt eine Gültigkeitsdauer von zwölf Monaten (Ziff. 1 lit. b) [1].\n- Für alle übrigen Kategorien ist der Lernfahrausweis 24 Monate gültig (Ziff. 1 lit. c) [1].\n- Die Gültigkeitsdauer für die Kategorie A und A1 verlängert sich um zwölf Monate, wenn der Nachweis der erfolgreichen Absolvierung der praktischen Grundschulung nach Artikel 19 vorliegt (Ziff. 2) [1].\n- Der Lernfahrausweis erlischt, wenn der Inhaber dreimal in Folge die Führerprüfung nicht bestanden hat und die Zulassungsbehörde aufgrund eines Tests die Fahreignung verneint (Ziff. 3 lit. a) [1].\n- Er erlischt zudem, wenn der Lehrvertrag folgender Lernender vor Vollendung des 18. Altersjahres aufgelöst wird: Lernende der beruflichen Grundbildung «Strassentransportfachfrau/Strassentransportfachmann EFZ», Lernende der beruflichen Grundbildung «Automobil-Fachfrau/Automobil-Fachmann EFZ» mit der Fachrichtung «Nutzfahrzeuge» sowie Lernende der beruflichen Grundbildung «Automobil-Mechatronikerin/Automobil-Mechatroniker EFZ» mit der Fachrichtung «Nutzfahrzeuge» (Ziff. 3 lit. b) [1].\n\n## Kanton Zürich\n- Das Gesuch für die erstmalige Erteilung des Lernfahrausweises kann auch bei der Einwohnerkontrolle der Wohnsitzgemeinde eingereicht werden [3].\n- Der Gesuchsteller muss bei der erstmaligen Einreichung persönlich vorsprechen [3].\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund legt die Gültigkeitsdauer des Lernfahrausweises sowie die Verlängerung bei erfolgreicher Grundschulung und die Erlöschensgründe fest [1]. Der Kanton Zürich ergänzt dies durch die Möglichkeit, das Gesuch bei der Einwohnerkontrolle der Wohnsitzgemeinde einzureichen und die Pflicht zur persönlichen Vorsprache sowie Identitätsprüfung [3]. Er regelt die Gültigkeitsdauer selbst nicht.\n\n## Nächste Schritte\n- Das Gesuch für den Lernfahrausweis persönlich bei der Einwohnerkontrolle der Wohnsitzgemeinde einreichen [3].\n- Identitätsnachweis vorlegen; die Behörde prüft die Identität und leitet das Gesuch weiter.\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1501,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1946,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1946,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 16,
+  "sources": [
+   "[1] fed VZV Art. 16 Gültigkeit",
+   "[2] fed VZV Art. 15 Erteilung",
+   "[3] can ZH 741.11 § 39",
+   "[4] can ZH 741.11 § 19"
+  ]
+ },
+ {
+  "id": "T013",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 132.9,
+  "plan_s": 7.7,
+  "ttft_s": null,
+  "words": 453,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nLe fonti disponibili non prevedono un riconoscimento automatico della patente straniera per la circolazione su strada in Svizzera; il diritto federale impone al conducente di astenersi da molestie evitabili (rumore, polvere, fumo, puzzo) e vieta l’uso di altoparlanti salvo per informare i passeggeri [2]; il Cantone Ticino richiede un permesso di domicilio o di dimora annuale per l’immatricolazione definitiva del veicolo [3] e attribuisce alla polizia cantonale i poteri di controllo e di sequestro delle licenze [4].\n\n## Confederazione  \n- Il conducente deve astenersi dal cagionare molestie evitabili agli utenti della strada e ai vicini, in particolare con rumore, polvere, fumo o puzzo [2]; l’uso di altoparlanti su veicoli a motore è vietato, salvo per informare i passeggeri; l’autorità competente secondo il diritto cantonale può permettere eccezioni in singoli casi [2].\n\n## Cantone Ticino  \n- La licenza di circolazione per l’immatricolazione definitiva è rilasciata ai detentori provenienti dall’estero solo se in possesso di un permesso di domicilio o di dimora annuale [3].  \n- La polizia cantonale è competente per effettuare i controlli della circolazione, sequestrare sul posto le licenze di condurre o di circolazione con relative targhe, far sottoscrivere il divieto di circolazione su territorio svizzero alle persone in possesso della licenza di condurre straniera fino a decisione contraria dell’autorità amministrativa e trasmettere subito le licenze ed i relativi rapporti alla Sezione della circolazione, Ufficio giuridico [4].\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale stabilisce le norme di comportamento sulla strada; il Cantone Ticino integra l’obbligo di possedere un permesso di domicilio o di dimora annuale per ottenere la licenza di circolazione definitiva e conferisce alla polizia cantonale i poteri di controllo e di sequestro delle licenze, con prevalenza della legge federale ai sensi dell’art. 49 Cost.\n\n## Prossimi passi  \n- Verificare presso l’autorità competente (es. Sezione della circolazione o UFT, a seconda del tipo di veicolo) i requisiti specifici per il riconoscimento della patente straniera e i certificati necessari, poiché le fonti non li dettagliano [1][3].  \n- Se si intende immatricolare il veicolo in Ticino, rivolgersi alla Sezione della circolazione, Ufficio giuridico, per richiedere la licenza di circolazione definitiva presentando il permesso di domicilio o di dimora annuale e tutti i documenti richiesti (le fonti non indicano i documenti aggiuntivi né i costi o i termini) [3].  \n- In caso di controllo da parte della polizia cantonale, attenersi alle istruzioni e, se richiesto, sottoscrivere il divieto di circolazione fino a decisione amministrativa [4].  \n- Le fonti non forniscono informazioni su tasse o termini specifici per il rilascio della licenza di circolazione definitiva; contattare direttamente la Sezione della circolazione per ottenere i costi e i tempi aggiornati.\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 2932,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Nessuna delle fonti citate conferma che sia possibile guidare in Svizzera con una patente straniera riconosciuta dall'UFT e con un certificato. Le fonti disponibili trattano di licenze ferroviarie (OVF), norme di comportamento stradale (LCStr) e procedure cantonali di immatricolazione e controllo, ma non forniscono una regola generale di riconoscimento delle patenti straniere per la circolazione stradale.",
+     "Nessuna delle fonti citate fornisce informazioni su tasse o termini per il rilascio della licenza di circolazione definitiva. Le fonti disponibili non contengono dati su costi o scadenze."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 4344,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Nessuna fonte citata; la frase contiene un’affermazione di principio sul rapporto tra diritto federale e cantonale non supportata dalle fonti fornite (le fonti non trattano la prevalenza dell’art. 49 Cost. né un obbligo cantonale di permesso per la circolazione stradale)",
+     "Nessuna fonte cita l’UFT o specifica quali certificati siano richiesti per il riconoscimento della patente straniera",
+     "Nessuna fonte indica che sia necessario presentare il permesso di domicilio o di dimora annuale alla Sezione della circolazione per ottenere la licenza di circolazione definitiva; la fonte cantonale [3] riguarda l’immatricolazione definitiva ma non specifica i documenti da presentare alla Sezione della circolazione",
+     "Nessuna fonte fornisce informazioni su tasse o termini per il rilascio della licenza di circolazione definitiva"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2665,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La fonte [1] riguarda la guida di veicoli sulle tratte ferroviarie e non la circolazione su strada; inoltre non specifica i certificati richiesti per la patente straniera su strada.",
+     "Le fonti non indicano i documenti aggiuntivi richiesti per l’immatricolazione né confermano che la sola presenza di un permesso di domicilio/dimora sia sufficiente senza ulteriori requisiti (es. traduzione della patente, validità, ecc.)."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed OVF Art. 44 Licenze straniere",
+   "[2] fed LCStr Art. 42",
+   "[3] can TI 760.110 Art. 1141",
+   "[4] can TI 760.110 Art. 517"
+  ]
+ },
+ {
+  "id": "T014",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 116.4,
+  "plan_s": 4.9,
+  "ttft_s": null,
+  "words": 311,
+  "citations": 6,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 8"
+  ],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nBei einer Blutalkoholkonzentration von 0,8 Promille oder mehr begeht man eine Straftat nach Art. 91 Abs. 2 SVG und wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft [1]. Als qualifizierte Blutalkoholkonzentration gilt gemäss Art. 2 der Verordnung der Bundesversammlung über Alkoholgrenzwerte im Strassenverkehr eine Konzentration von 0,8 Promille oder mehr [2]. Kantonale und kommunale Bestimmungen enthalten keine abweichenden Sanktionen für diesen Wert; Art. 49 BV bestimmt, dass Bundesrecht entgegenstehendem kantonalem Recht vorgeht.\n\n## Bund\n- Nach Art. 91 Abs. 2 SVG wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft, wer in angetrunkenem Zustand mit qualifizierter Blutalkoholkonzentration ein Motorfahrzeug führt [1].\n- Als qualifizierte Blutalkoholkonzentration gilt gemäss Art. 2 der Verordnung der Bundesversammlung über Alkoholgrenzwerte im Strassenverkehr eine Konzentration von 0,8 Gewichtspromille oder mehr [2].\n\n## Kanton Bern\n- Nach Art. 18 Abs. 1 des kantonalen Strassenverkehrsgesetzes (BE 761.11) werden Verstösse gegen Art. 8 und 16 dieses Gesetzes mit Busse bestraft [3].\n- Die Strassenverkehrsverordnung des Kantons Bern (BE 761.111) regelt in Art. 38c den Lesezugriff der Steuerverwaltung auf Fahrzeugdaten, enthält jedoch keine abweichenden Sanktionen für eine Blutalkoholkonzentration von 0,8 Promille [4].\n\n## Gemeinde Bern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKantonale und kommunale Bestimmungen ergänzen das Bundesrecht hinsichtlich der Sanktion bei 0,8 Promille nicht; Art. 49 BV sieht vor, dass Bundesrecht entgegenstehendem kantonalen Recht vorgeht.\n\n## Nächste Schritte\n- Die Polizei stellt den Vorfall fest und rapportiert ihn an die Staatsanwaltschaft (allgemeine strafprozessuale Pflicht gemäss StPO, nicht spezifisch in den vorliegenden SVG-Quellen enthalten).\n- Die Staatsanwaltschaft entscheidet über die Eröffnung eines Strafverfahrens und die Anordnung der Sanktion gemäss Art. 91 SVG (prozessuale Kompetenz nach StPO, nicht in den vorliegenden SVG-Quellen enthalten).\n- Die strafrechtliche Verfolgung richtet sich nach den bundesrechtlichen Vorgaben des SVG und der Alkoholgrenzwertverordnung; kantonale oder kommunale Meldepflichten bezüglich der Alkoholkonzentration sind in den vorliegenden Quellen nicht enthalten.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2882,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die zitierte kantonale Quelle (Art. 18 BE 761.11) spricht von Busse für Verstösse gegen Art. 8 und 16, nicht spezifisch für 0,8 Promille. Zudem ist die Aussage, kantonale Bestimmungen regelten nicht die spezifische Sanktion bei 0,8 Promille, korrekt, da diese durch das Bundesrecht abschliessend geregelt ist, aber die Begründung verweist auf eine falsche kantonale Norm.",
+     "Die Antwort behauptet eine automatische Anzeige, die Quelle sagt nichts über das Verfahren oder die Anzeigeerstattung.",
+     "Die Quelle sagt nichts über die Zuständigkeit der Staatsanwaltschaft oder das Verfahren.",
+     "Die Antwort behauptet eine generelle Nicht-Existenz kantonaler Meldepflichten ohne Beleg. Kantonale Verfahrensbestimmungen können Meldepflichten enthalten."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2767,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "StGB Art. 306"
+    ],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; Art. 306 StPO betrifft die Rapportierungspflicht der Polizei bei Straftaten, ist aber nicht spezifisch auf Alkoholkonzentrationen bei 0,8 Promille beschränkt und wird in den angegebenen Quellen nicht genannt.",
+     "Keine Quelle zitiert; Art. 91 SVG regelt die Strafbestimmung, aber die Verfahrenshoheit der Staatsanwaltschaft ergibt sich aus der StPO und ist nicht spezifisch in den genannten SVG-Quellen enthalten.",
+     "Keine Quelle zitiert; weder die angegebenen Quellen noch das SVG/StPO enthalten eine Aussage über eine Meldepflicht der betroffenen Person bezüglich der Alkoholkonzentration."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 3979,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "BV Art. 49 Vorrang und Einhaltung des Bundesrechts"
+    ],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (SVG, Alkoholgrenzwertverordnung, kantonale Strassenverkehrsgesetze/Verordnungen) enthält eine Zitation oder Ausführung zur polizeilichen Rapportierungspflicht an die Staatsanwaltschaft. Die StPO ist nicht unter den gelieferten Quellen aufgeführt.",
+     "Die vorliegenden Quellen regeln die Tatbestände und Strafandrohungen, enthalten aber keine Ausführungen zu den prozessualen Kompetenzen der Staatsanwaltschaft bezüglich der Eröffnung und Anordnung von Sanktionen. Dies ist prozessrechtlicher Natur (StPO) und nicht im SVG enthalten.",
+     "Die Quellen enthalten keine Informationen zu Meldepflichten der betroffenen Person. Die Aussage zur Vorherrschaft des Bundesrechts (Art. 49 BV) ist zwar richtig, aber nicht durch die gelieferten SVG/Verordnungsquellen belegt."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 2,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed SVG Art. 91",
+   "[2] fed Verordnung der Bundesversammlung vom 15. Juni 2012 über Alkoholgrenzwerte im Strassenverkehr Art. 2 Qualifizierte Alkoholkonzentrationen",
+   "[3] can BE 761.11 Art. 18",
+   "[4] can BE 761.111 Art. 38c",
+   "[5] fed StGB Art. 306",
+   "[6] fed BV Art. 49 Vorrang und Einhaltung des Bundesrechts"
+  ]
+ },
+ {
+  "id": "T015",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 150.4,
+  "plan_s": 7.7,
+  "ttft_s": null,
+  "words": 578,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 6,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nUn excès de vitesse de 25 km/h en localité constitue une infraction légère au sens de l'art. 16a al. 1 LCR [3]. Au niveau fédéral, l'auteur est puni de l'amende [1] et encourt un retrait de permis d'un mois au moins s'il a déjà fait l'objet d'un retrait ou d'une autre mesure administrative au cours des deux années précédentes [3]; sinon un avertissement est prononcé [3]. Au niveau cantonal genevois, la violation d'une interdiction de circuler ou de stationner dûment signalée est punissable de l'amende sur plainte [4], et le véhicule peut être enlevé, saisi ou mis en fourrière selon les conditions de l'art. 11 al. 36 LALCR/GE [5].\n\n## Confédération  \n- Selon l'art. 90 al. 1 LCR [1], toute violation des règles de la circulation prévues par la LCR ou ses dispositions d'exécution est punie de l'amende.  \n- Un excès de vitesse de 25 km/h en localité constitue une infraction légère au sens de l'art. 16a al. 1 LCR [3].  \n- Après une infraction légère, le permis d'élève conducteur ou le permis de conduire est retiré pour un mois au moins si le conducteur a fait l'objet d'un retrait ou d'une autre mesure administrative au cours des deux années précédentes [3]; sinon un avertissement est prononcé [3].  \n- En cas d'infraction particulièrement légère, il est renoncé à toute mesure administrative [3].  \n- Les limitations générales de vitesse sont fixées à 50 km/h dans les localités [2].\n\n## Canton de Genève  \n- Selon l'art. 10 LPG [4], celui qui viole une interdiction, dûment signalée, de circuler ou de stationner sur le fonds d'autrui est puni de l'amende sur plainte.  \n- Selon l'art. 11 al. 36 LALCR/GE [5], le véhicule peut être enlevé, saisi ou mis en fourrière notamment s'il est parqué sur la voie publique en un lieu interdit ou gênant la circulation (let. c), empêchant la réalisation de travaux ou d'une manifestation (let. d), ou n'étant plus autorisé à circuler en vertu du droit fédéral (let. i).\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe les infractions et les sanctions minimales (amende, retrait de permis selon la gravité et les antécédents), tandis que le droit cantonal genevois précise les cas d'amende pour violation d'interdiction de circuler ou de stationner et les conditions d'enlèvement, saisie ou mise en fourrière du véhicule. Le droit cantonal ne peut pas être plus sévère que le droit fédéral (Art. 49 Cst.).\n\n## Prochaines étapes  \n- En cas de constat d'excès de vitesse par la police, une procédure d'amende d'ordre ou une procédure administrative sera engagée conformément aux dispositions fédérales et cantonales applicables [procédures administratives genevoises].  \n- Le détenteur doit acquitter l'amende dans le délai indiqué sur l'acte administratif afin d'éviter des frais supplémentaires, conformément aux règles cantonales de recouvrement [dispositions cantonales de recouvrement].  \n- En cas de contestation du retrait de permis ou de l'amende, le détenteur peut former opposition dans le délai mentionné sur l'acte, puis, le cas échéant, saisir le Tribunal administratif de première instance du canton de Genève selon les règles de procédure administrative cantonale [règles de procédure administrative genevoises].  \n- Si le véhicule est mis en fourrière, le détenteur doit se présenter aux guichets de la fourrière avec les documents d'identité et du véhicule pour le récupérer, après paiement des frais de fourrière et des amendes éventuelles, selon les modalités fixées par les dispositions cantonales applicables [dispositions cantonales sur la fourrière].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 10,
+    "raw_chars": 4147,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "LCR Art. 16"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour ce qui relève de la procédure administrative de notification et des mentions obligatoires de l'avis de contravention.",
+     "Pas de source citée pour les conséquences du non-paiement dans le délai.",
+     "Pas de source citée pour les délais d'opposition et la compétence du Tribunal administratif de première instance.",
+     "Pas de source citée pour les modalités de récupération du véhicule en fourrière."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 3508,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "LCR Art. 16"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette procédure administrative spécifique",
+     "Pas de source citée pour les conséquences du non-paiement dans le délai",
+     "Pas de source citée pour les délais d'opposition ou la compétence du Tribunal administratif de première instance",
+     "Pas de source citée pour les modalités de récupération du véhicule en fourrière"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 11,
+    "raw_chars": 3799,
+    "unreadable": false,
+    "issues": 4,
+    "added": [
+     "LCR Art. 16b"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette affirmation spécifique sur la notification de l'avis de contravention",
+     "Pas de source citée pour cette affirmation spécifique sur les frais supplémentaires",
+     "Pas de source citée pour cette affirmation spécifique sur la procédure d'opposition et de recours",
+     "Pas de source citée pour cette affirmation spécifique sur les modalités de récupération du véhicule en fourrière"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 3,
+  "claims_checked": 31,
+  "sources": [
+   "[1] fed LCR Art. 90",
+   "[2] fed OCR Art. 4a Limitations générales de vitesse; règle fondamentale",
+   "[3] fed LCR Art. 16a",
+   "[4] can GE E 4 05 Art. 10",
+   "[5] can GE H 1 05 Art. 11",
+   "[6] fed LCR Art. 16",
+   "[7] fed LCR Art. 16b"
+  ]
+ },
+ {
+  "id": "T016",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 128.0,
+  "plan_s": 5.4,
+  "ttft_s": null,
+  "words": 356,
+  "citations": 18,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa. Nach einem Umzug muss das Fahrzeug beim Strassenverkehrsamt des neuen Standortkantons umgemeldet werden. Die Kontrollschilder und der Fahrzeugausweis bleiben gültig, wenn die Zulassungsvoraussetzungen nach Art. 71 VZV erfüllt sind. Die kantonale Verkehrssteuer ist für mindestens 15 Tage zu entrichten [3], und Tagesausweise sowie provisorische Fahrzeugausweise werden nur gegen Barzahlung der für die Gültigkeitsdauer geschuldeten Steuern und Abgaben erteilt [4].\n\n## Bund\n- Bei Verlegung des Standortkantons oder Halterwechsel ist eine Ummeldung beim Strassenverkehrsamt des neuen Standortkantons erforderlich [2].\n- Für die Erteilung des Fahrzeugausweises müssen unter anderem die vorgeschriebene Haftpflichtversicherung bestehen [1], das Fahrzeug den Bau- und Ausrüstungsvorschriften entsprechen [1] und die für die Zulassung erforderlichen Angaben vorliegen [1].\n\n## Kanton Luzern\n- Die Steuerpflicht beginnt am Tag der amtlichen Zulassung oder in dem Zeitpunkt, in dem ein Fahrzeug mit luzernischen Kontrollschildern hätte versehen werden müssen; sie endet mit dem Tag, an dem der Halter die Kontrollschilder zurückgibt [3].\n- Die Verkehrssteuer ist ungeachtet des Zeitpunkts der Rückgabe der Kontrollschilder für mindestens 15 Tage zu entrichten [3].\n- Tagesausweise und Fahrzeugausweise bei provisorischer Immatrikulation von Fahrzeugen werden nur gegen Barzahlung der für die Gültigkeitsdauer geschuldeten Steuern und Abgaben erteilt [4].\n- Das Strassenverkehrsamt kann in begründeten Fällen (ausserkantonaler Wohnsitz, Zahlungsrückstände, Minderjährigkeit) Barzahlung verlangen [4].\n\n## Gemeinde Luzern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Kanton vollzieht die eidgenössische Zulassungsordnung und verlangt bei einem Wohnsitzwechsel die Ummeldung. Zusätzlich konkretisiert der Kanton Luzern die Steuerpflicht und die Zahlungsmodalitäten: Die kantonale Verkehrssteuer ist für mindestens 15 Tage zu entrichten [3] und Tagesausweise sowie provisorische Fahrzeugausweise werden nur gegen Barzahlung der geschuldeten Steuern und Abgaben erteilt [4]; kommunale Regelungen zu dieser Zulassungsfrage bestehen nicht.\n\n## Nächste Schritte\n1. Melden Sie den Wohnsitzwechsel dem Strassenverkehrsamt des neuen Standortkantons (Kanton Luzern) [2].\n2. Stellen Sie sicher, dass der Versicherungsnachweis für die vorgeschriebene Haftpflichtversicherung vorliegt [1].\n3. Bezahlen Sie die kantonale Verkehrssteuer für mindestens 15 Tage im Voraus [3].\n4. Reichen Sie den alten Fahrzeugausweis ein [2].\n5. Liegen Sie alle weiteren Unterlagen gemäss Art. 71 VZV vor (Prüfungsbericht, Zollbewilligung etc.) [1].\n6. Zahlen Sie Tagesausweise oder provisorische Fahrzeugausweise bar, sofern diese benötigt werden [4].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 16,
+    "raw_chars": 4301,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert für die konkrete Meldepflicht an den Kanton Luzern (nur allgemeine Ummeldung in Quelle 2, keine spezifische kantonale Meldepflicht mit dieser Formulierung)."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 14,
+    "raw_chars": 5024,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Quelle [1] nennt keine Gültigkeitsdauer der Kontrollschilder oder Fahrzeugausweise bei Umzug. Die Quelle [3] regelt kantonale Steuerpflicht und -dauer, nicht die Gültigkeit von Ausweisen. Die Quelle [4] betrifft Barzahlungspflicht für Tagesausweise/provisorische Ausweise, nicht die Gültigkeit bestehender Ausweise bei Umzug.",
+     "Die Quellen [3] und [4] regeln kantonale Steuerpflicht und Barzahlungspflicht für bestimmte Ausweise, nicht die allgemeine Zahlungspflicht für die Verkehrssteuer im Zusammenhang mit einem Umzug. Die Mindestdauer von 15 Tagen ist kantonal geregelt [3], nicht eidgenössisch als allgemeine Voraussetzung für den Umzug."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 13,
+    "raw_chars": 3385,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 43,
+  "sources": [
+   "[1] fed VZV Art. 71 Grundsätze",
+   "[2] fed VZV Art. 74 Erteilung",
+   "[3] can LU 777 § 6",
+   "[4] can LU 777 § 8a",
+   "[5] com Luzern: Reglement über private Fahrzeugabstellplätze (Parkplatzreglement) Art. 13",
+   "[6] com Luzern: Reglement über private Fahrzeugabstellplätze (Parkplatzreglement) Art. 13"
+  ]
+ },
+ {
+  "id": "T017",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 85.6,
+  "plan_s": 5.8,
+  "ttft_s": null,
+  "words": 408,
+  "citations": 11,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, le port du casque est obligatoire pour les conducteurs de cyclomoteurs équipés d’un système de propulsion électrique dont la vitesse maximale par construction ne dépasse pas 25 km/h [2]. Pour les vélos électriques qui ne sont pas qualifiés de cyclomoteurs, les sources fédérales ne prévoient pas d’obligation de casque ; toutefois, la classification du véhicule doit être vérifiée auprès de l’autorité cantonale compétente, car les cantons peuvent édicter des règles supplémentaires.\n\n## Confédération  \n- Conducteurs de cyclomoteurs équipés d’un système de propulsion électrique dont la vitesse maximale par construction ne dépasse pas 25 km/h : port du casque obligatoire [2].  \n- Conducteurs de cyclomoteurs classiques, quadricycles légers, quadricycles et tricycles à moteur : port du casque obligatoire [2].  \n- Dispensés de l’obligation de porter le casque (conditions cumulatives) : livreurs dans leur quartier desservi à une vitesse n’excédant pas 25 km/h [2] ; personnes circulant dans l’enceinte d’une entreprise à une vitesse n’excédant pas 25 km/h [2] ; occupants de cabines fermées [2] ; personnes occupant des sièges équipés de ceintures de sécurité [2] ; utilisateurs de véhicules dont la vitesse maximale par construction n’excède pas 20 km/h [2] ; conducteurs de cyclomoteurs munis d’un certificat médical prouvant que le port du casque ne peut leur être imposé [2] ; personnes circulant avec un cyclomoteur équipé d’un système de propulsion électrique actif jusqu’à 25 km/h au maximum [2].\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa réglementation fédérale s’applique directement à Lausanne ; le canton et la commune n’ont pas fourni de règles spécifiques sur le port du casque pour les vélos électriques dans les sources consultées (Art. 49 BV).\n\n## Prochaines étapes  \n- Pour un cyclomoteur électrique ≤25 km/h : porter un casque conforme aux normes en vigueur pendant tout le trajet [2].  \n- Pour un vélo électrique non qualifié de cyclomoteur : aucune obligation de casque selon les sources fédérales ; se référer au Service des automobiles et de la navigation du canton de Vaud pour obtenir la classification officielle du véhicule (démarche administrative usuelle, non documentée dans les sources fournies).  \n- En cas de doute sur la classification du véhicule : contacter le Service des automobiles et de la navigation du canton de Vaud afin de clarifier si le vélo électrique relève de la catégorie des cyclomoteurs soumis à l’obligation de casque.\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 2,
+    "raw_chars": 1187,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source ne confirme l'absence d'obligation pour les « autres vélos électriques » (c'est-à-dire ceux qui ne sont pas qualifiés de cyclomoteurs électriques ≤25 km/h). La réponse généralise une absence d'obligation qui n'est pas établie par les sources fournies pour tous les vélos électriques."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2351,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "LCR Art. 17"
+    ],
+    "revised": true,
+    "notes": [
+     "Pas de source fédérale citée pour affirmer l'absence d'obligation pour les vélos électriques non qualifiés de cyclomoteurs",
+     "Pas de source citée pour cette recommandation"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 3122,
+    "unreadable": false,
+    "issues": 3,
+    "added": [
+     "LCR Art. 17"
+    ],
+    "revised": true,
+    "notes": [
+     "La source [2] ne traite pas spécifiquement des vélos électriques non qualifiés de cyclomoteurs ; l'absence d'obligation fédérale ne signifie pas qu'il n'y en a pas au niveau cantonal ou communal, et aucune source cantonale n'a été fournie pour confirmer l'absence d'obligation. De plus, la classification du véhicule n'est pas déterminée par l'utilisateur.",
+     "Cette information pratique ne repose sur aucune des sources fournies. Aucune source ne cite le Service des automobiles et de la navigation du canton de Vaud ni ne confirme que la classification du véhicule relève de cette autorité dans le contexte du port du casque.",
+     "Les sources fédérales [1] et [2] ne mentionnent pas les vélos électriques non qualifiés de cyclomoteurs. L'absence de mention dans les sources fédérales ne prouve pas l'absence d'obligation cantonale ou communale."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 2,
+  "claims_checked": 13,
+  "sources": [
+   "[1] fed OCR Art. 42 Motocycles, cyclomoteurs et cycles; généralités",
+   "[2] fed OCR Art. 3b Port du casque",
+   "[3] can VD 741.01.1 Art. 13",
+   "[4] can VD 741.01.1 Art. 47",
+   "[5] fed LCR Art. 17"
+  ]
+ },
+ {
+  "id": "T018",
+  "lang": "de",
+  "loc": "8400 Winterthur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 49.2,
+  "plan_s": 3.3,
+  "ttft_s": null,
+  "words": 189,
+  "citations": 7,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nAuf Autobahnen beträgt die allgemeine gesetzliche Höchstgeschwindigkeit **120 km/h** [1]. Diese Grenze beginnt beim Signal „Autobahn“ (4.03) und endet beim Signal „Ende der Autobahn“ (4.02) [1]. Für bestimmte Fahrzeugarten (Gesellschaftswagen, schwere Wohnmotorwagen, leichte Motorwagen mit Anhänger) gilt stattdessen **100 km/h** [2].\n\n## Bund  \n- Auf Autobahnen gilt die allgemeine Höchstgeschwindigkeit von **120 km/h** [1].  \n- Diese Grenze beginnt beim Signal „Autobahn“ (4.03) und endet beim Signal „Ende der Autobahn“ (4.02) [1].  \n- Für Gesellschaftswagen, schwere Wohnmotorwagen und leichte Motorwagen mit Anhänger beträgt die Höchstgeschwindigkeit **100 km/h** [2].\n\n## Kanton Zürich  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Winterthur  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDer Bund legt die Höchstgeschwindigkeit auf Autobahnen fest; Kanton und Gemeinde dürfen keine davon abweichenden Geschwindigkeiten festlegen (Art. 49 BV).\n\n## Nächste Schritte  \n- Prüfen Sie das Signal „Autobahn“ (4.03) und das Signal „Ende der Autobahn“ (4.02), um den Geltungsbereich der 120 km/h‑Grenze zu erkennen.  \n- Beachten Sie besondere Fahrzeugkategorien (Gesellschaftswagen, schwere Wohnmotorwagen, leichte Motorwagen mit Anhänger), für die 100 km/h gilt [2].  \n- Bei Unklarheiten wenden Sie sich an das kantonale Strassenverkehrsamt Zürich für Auskünfte zu lokalen Besonderheiten.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 747,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 744,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 744,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 9,
+  "sources": [
+   "[1] fed VRV Art. 4a Allgemeine Höchstgeschwindigkeiten; Grundregel",
+   "[2] fed VRV Art. 5 Höchstgeschwindigkeit für einzelne Fahrzeugarten",
+   "[3] fed SVG Art. 57a",
+   "[4] can ZH 722.1 § 45",
+   "[5] can ZH 722.21 § 3"
+  ]
+ },
+ {
+  "id": "T019",
+  "lang": "it",
+  "loc": "6500 Bellinzona",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 93.7,
+  "plan_s": 5.2,
+  "ttft_s": null,
+  "words": 489,
+  "citations": 18,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nDopo i 75 anni, i titolari di una licenza di condurre devono sottoporsi a una visita di controllo di idoneità alla guida ogni due anni [1]. Per i conducenti delle categorie C o D, sottocategorie C1 o D1 o con permesso per trasporto professionale di persone, l’obbligo è ogni cinque anni; dopo il 50° anno d’età la cadenza passa a ogni tre anni fino al 75° anno, dopodiché la visita deve avvenire entro i 77 anni e poi riprende ogni cinque anni [1]. Il Cantone Ticino designa i medici fiduciari e i periti competenti e la Sezione della circolazione emana le direttive [3][4].\n\n## Confederazione  \n- [1] Titolari di licenza di condurre: visita di controllo obbligatoria ogni due anni a partire dal compimento del 75° anno d’età.  \n- [1] Titolari di licenza delle categorie C o D, sottocategorie C1 o D1 o di un permesso per il trasporto professionale di persone: visita ogni cinque anni; dopo il 50° anno d’età, ogni tre anni fino al 75° anno; dopo il 75° anno, visita entro i 77 anni e poi ogni cinque anni.  \n- [1] Titolari affetti o precedentemente affetti da gravi minorazioni fisiche dovute a lesioni da incidente o a malattie: visita di controllo obbligatoria.  \n- [1] L’autorità cantonale invia un promemoria tre mesi prima del termine di scadenza calcolato a partire dalla data dell’ultimo esame medico di idoneità per le visite di controllo di cui al capoverso 1 lettere a e b.\n\n## Cantone Ticino  \n- [3] Il Consiglio di Stato designa una lista di medici fiduciari autorizzati ad effettuare le visite di controllo prescritte dalle leggi federali e una di medici incaricati di rilasciare i certificati di idoneità a condurre per conducenti oggetto di provvedimenti amministrativi di sicurezza o con licenze vincolate a condizioni mediche speciali.  \n- [4] Il Consiglio di Stato designa uno o più periti chiamati a stabilire il grado di idoneità a condurre nell’ambito di provvedimenti amministrativi di sicurezza.  \n- [3] La Sezione della circolazione emana le direttive necessarie all’indirizzo dei medici fiduciari e della polizia.\n\n## Comune di Bellinzona  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nIl diritto federale stabilisce l’obbligo e la cadenza dei controlli medici per i conducenti oltre i 75 anni [1]; il Cantone Ticino disciplina l’organizzazione operativa, designando i medici fiduciari e i periti e definendo le direttive per l’esecuzione [3][4]; la legge federale prevale su quella cantonale (Art. 49 Cost.).\n\n## Prossimi passi  \n- Richiedi alla Sezione della circolazione del Cantone Ticino l’elenco dei medici fiduciari autorizzati [3].  \n- Verifica la cadenza applicabile alla tua licenza (biennale dopo i 75 anni, quinquennale o triennale per categorie C/D secondo l’età [1]).  \n- Attendi il promemoria dell’autorità cantonale, inviato tre mesi prima del termine di scadenza calcolato dall’ultimo esame medico [1].  \n- In caso di provvedimento amministrativo di sicurezza, il perito designato dal Consiglio di Stato stabilirà il grado di idoneità [4].  \n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1669,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questa indicazione specifica di contatto"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1715,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questa indicazione operativa"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1719,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questa indicazione operativa"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 18,
+  "sources": [
+   "[1] fed OAC Art. 27 Visite di controllo di idoneità alla guida",
+   "[2] fed OAC Art. 5g Estinzione del riconoscimento",
+   "[3] can TI 760.110 Art. 50",
+   "[4] can TI 760.110 Art. 51"
+  ]
+ },
+ {
+  "id": "T020",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 87.3,
+  "plan_s": 7.8,
+  "ttft_s": null,
+  "words": 272,
+  "citations": 3,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nLes sources fournies ne contiennent aucune règle fédérale, cantonale ou communale qui autoriserait ou interdirait explicitement l’usage des trottinettes électriques sur les trottoirs à Neuchâtel. Le droit fédéral (LCR) définit le champ d’application de la circulation sur la voie publique [1], sans mention des trottinettes électriques ni des trottoirs. Aucune disposition cantonale ou communale traitant spécifiquement des trottinettes électriques sur les trottoirs n’est disponible dans les documents fournis.\n\n## Confédération  \nAucune source pertinente.\n\n## Canton de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Commune de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral (LCR) fixe le champ d’application de la circulation routière à la voie publique [1], mais ne contient aucune règle spécifique sur les trottinettes électriques ni sur leur usage sur les trottoirs. Le canton de Neuchâtel et la commune de Neuchâtel conservent la compétence d’adopter des mesures locales de circulation, mais aucune disposition cantonale ou communale traitant explicitement des trottinettes électriques sur les trottoirs n’est disponible dans les sources fournies.\n\n## Prochaines étapes  \n- S’adresser au Service cantonal des automobiles du canton de Neuchâtel pour demander s’il existe une directive ou une information officielle concernant l’usage des trottinettes électriques sur les trottoirs [4].  \n- Consulter les règlements ou plans de circulation publiés par la Ville de Neuchâtel ou son service de la mobilité afin de rechercher une interdiction ou une autorisation spécifique concernant les trottinettes électriques sur les trottoirs.  \n- Examiner les éventuelles ordonnances de police de la circulation ou décisions communales publiées par la commune de Neuchâtel qui pourraient préciser l’usage des trottinettes électriques sur les trottoirs.  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 3232,
+    "unreadable": false,
+    "issues": 4,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source fédérale pertinente ne confirme que les trottinettes électriques sont « assimilées aux véhicules » au sens d'une interdiction générale sur les trottoirs, ni que le droit fédéral impose de circuler « sur la chaussée ou les pistes cyclables ». Les art. 1 et 2 LCR définissent le champ d'application mais ne contiennent pas cette règle spécifique.",
+     "Aucune source cantonale ou communale ne confirme l'existence de telles mesures. Les sources cantonales fournies (art. 46 RLN, art. 6 LICR) ne traitent pas spécifiquement des trottinettes électriques ou des trottoirs.",
+     "Aucune source fournie ne confirme l'existence de réglementations communales spécifiques sur ce sujet.",
+     "Aucune source fournie ne confirme l'existence de telles ordonnances ou plans de circulation locaux."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 4427,
+    "unreadable": false,
+    "issues": 7,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source fédérale citée (art. 1 LCR) définit le champ d'application de la LCR mais ne contient pas de disposition spécifique sur les trottinettes électriques ni sur leur usage sur les trottoirs. Aucune source ne confirme cette règle spécifique.",
+     "Les sources cantonales fournies (art. 46 et art. 6 de la loi d'introduction) ne contiennent pas de règles spécifiques sur les trottinettes électriques ou leur usage sur les trottoirs. Aucune disposition cantonale ou communale pertinente n'est citée.",
+     "L'article 1 LCR cité ne contient pas cette règle spécifique. Il définit le champ d'application général de la LCR mais ne précise pas que les véhicules doivent circuler sur la chaussée ou les pistes cyclables.",
+     "Cette affirmation est correcte car aucune source pertinente ne traite spécifiquement de la question posée."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 4243,
+    "unreadable": false,
+    "issues": 6,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "This is a conclusion drawn from the absence of sources, not a legal rule stated by a cited source. No source in the provided list contains information about electric scooters on sidewalks in Neuchâtel.",
+     "Source [1] (LCR Art. 1 & 2) defines the scope of the LCR as 'circulation sur la voie publique' and mentions 'routes ouvertes aux véhicules automobiles ou aux cycles', but does not contain any specific rule about electric scooters or sidewalks. The sentence misrepresents the source by implying it 'submits vehicles to the road or cycle paths' as a prohibition on sidewalks, which is not stated in the source text.",
+     "While it is true that cantons/communes have competence (Art. 6 of cantonal law [6] mentions the Council of State designates authorities), no specific cantonal or communal source in the list contains a rule about electric scooters on sidewalks. The claim that 'no disposition... is available' is supported by the provided sources, but the sentence itself is a factual observation rather than a legal rule stated by a source.",
+     "Source [4] is an article about the 'Service cantonal des automobiles' and its general attributions (issuing permits, examining aptitude, etc.). It does not contain any text about electric scooters, sidewalks, or specific usage rules. The sentence suggests source [4] contains this information, which is false."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 19,
+  "sources": [
+   "[1] fed LCR Art. 1",
+   "[2] fed LCR Art. 2",
+   "[3] fed OAC Art. 27g Compétences des cantons",
+   "[4] can NE 761.100 Art. 46",
+   "[5] can NE 916.421 Art. 58",
+   "[6] can NE 761.10 Art. 6"
+  ]
+ }
+]

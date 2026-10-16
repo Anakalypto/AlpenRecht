@@ -1,0 +1,1449 @@
+[
+ {
+  "id": "T041",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 123.7,
+  "plan_s": 5.2,
+  "ttft_s": null,
+  "words": 369,
+  "citations": 25,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 21"
+  ],
+  "prose_left": 0,
+  "repaired": 14,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nAnspruch auf Arbeitslosengeld besteht, wenn Sie ganz oder teilweise arbeitslos sind [6], einen anrechenbaren Arbeitsausfall erlitten haben [7], in der Schweiz wohnen, die obligatorische Schulzeit zurückgelegt und das Referenzalter nach Art. 21 Abs. 1 AHVG noch nicht erreicht haben [1], die Beitragszeit erfüllt haben (mindestens zwölf Monate beitragspflichtige Beschäftigung innerhalb der Rahmenfrist [2]) oder von der Erfüllung der Beitragszeit befreit sind [3], vermittlungsfähig sind [8] und die Kontrollvorschriften erfüllen [9] [1]. Zusätzlich erhalten Sie Leistungen an Karfreitag, Ostermontag, Pfingstmontag sowie am 1. Mai und Stephanstag, wenn diese auf einen Werktag fallen [4].\n\n## Bund  \n- Anspruch auf Arbeitslosenentschädigung besteht, wenn die versicherte Person:  \n  a) ganz oder teilweise arbeitslos ist [6];  \n  b) einen anrechenbaren Arbeitsausfall erlitten hat [7];  \n  c) in der Schweiz wohnt;  \n  d) die obligatorische Schulzeit zurückgelegt und das Referenzalter nach Art. 21 Abs. 1 AHVG noch nicht erreicht hat [1];  \n  e) die Beitragszeit erfüllt hat: mindestens zwölf Monate beitragspflichtige Beschäftigung innerhalb der Rahmenfrist [2]; oder von der Erfüllung der Beitragszeit befreit ist [3];  \n  f) vermittlungsfähig ist [8];  \n  g) die Kontrollvorschriften erfüllt [9] [1].  \n- Für Personen, die vor der Arbeitslosigkeit als Heimarbeitnehmer tätig waren, regelt der Bundesrat die Anspruchsvoraussetzungen unter Berücksichtigung der Besonderheiten der Heimarbeit [1].\n\n## Kanton Zürich  \n- Zusätzlich zu den Bundesvoraussetzungen besteht ein Anspruch auf Arbeitslosenentschädigung an Karfreitag, Ostermontag und Pfingstmontag sowie, wenn sie auf einen Werktag fallen, am 1. Mai und Stephanstag [4].\n\n## Gemeinde Zürich  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDer Kanton Zürich ergänzt das Bundesrecht, indem er zusätzliche Feiertage als anspruchsberechtigte Tage für Arbeitslosenentschädigung festlegt (Karfreitag, Ostermontag, Pfingstmontag sowie 1. Mai und Stephanstag, wenn sie auf einen Werktag fallen). Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte  \n- Prüfen Sie, ob Sie die Bundesvoraussetzungen erfüllen [6] [1][2][3].  \n- Melden Sie sich persönlich bei der zuständigen kantonalen Amtsstelle (RAV) zur Arbeitsvermittlung und zum Leistungsbezug an; die regionalen Arbeitsvermittlungszentren stehen kostenlos zur Verfügung [5].  \n- Reichen Sie die erforderlichen Unterlagen (Arbeitszeugnisse, Lohnabrechnungen, Ausweise, Nachweise über Beitragszeit oder Befreiungsgründe) fristgerecht ein; die konkreten Fristen sind in der AVIG‑Praxis bzw. den kantonalen Weisungen festgelegt (nicht in den vorliegenden Quellen spezifiziert).  \n- Beachten Sie bei Heimarbeitnehmertätigkeit die speziellen bundesrätlichen Bestimmungen zu den Anspruchsvoraussetzungen [1].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 1299,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "AVIG Art. 10 Arbeitslosigkeit",
+     "AVIG Art. 11 Anrechenbarer Arbeitsausfall",
+     "AVIG Art. 15 Vermittlungsfähigkeit",
+     "AVIG Art. 17 Pflichten des Versicherten und Kontrollvorschriften"
+    ],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 1364,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 1364,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 4,
+  "claims_checked": 9,
+  "sources": [
+   "[1] fed AVIG Art. 8 Anspruchsvoraussetzungen",
+   "[2] fed AVIG Art. 13 Beitragszeit",
+   "[3] fed AVIG Art. 14 Befreiung von der Erfüllung der Beitragszeit",
+   "[4] can ZH 837.1 § 6",
+   "[5] can ZH 837.1 § 7",
+   "[6] fed AVIG Art. 10 Arbeitslosigkeit",
+   "[7] fed AVIG Art. 11 Anrechenbarer Arbeitsausfall",
+   "[8] fed AVIG Art. 15 Vermittlungsfähigkeit",
+   "[9] fed AVIG Art. 17 Pflichten des Versicherten und Kontrollvorschriften"
+  ]
+ },
+ {
+  "id": "T042",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 107.6,
+  "plan_s": 8.3,
+  "ttft_s": null,
+  "words": 365,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour demander les prestations complémentaires AVS, il faut remplir une formule officielle de demande, la signer et y joindre les justificatifs nécessaires, puis la transmettre à la Caisse cantonale de compensation du canton de Vaud. La demande peut être signée par le requérant lui-même ou, en cas d'incapacité, par son représentant légal, son conjoint, son partenaire enregistré, ses parents, ses enfants, ses frères et sœurs, ou par des tiers ou autorités habilités [3][4][5].\n\n## Confédération  \nAucune source pertinente récupérée.\n\n## Canton de Vaud  \n- Art. 5 du règlement cantonal (VD 831.21.1) : Pour exercer son droit à une prestation complémentaire annuelle, le requérant doit remplir une formule officielle de demande, la signer et y joindre les justificatifs nécessaires [3].  \n- Art. 6 du règlement cantonal (VD 831.21.1) : Le requérant signe la demande ; en cas d'incapacité, son représentant légal, conjoint, partenaire enregistré, parents, enfants, frères et sœurs, ainsi que tiers ou autorités habilités peuvent signer [4].  \n- Art. 6 de la loi cantonale (VD 831.21) : La Caisse cantonale de compensation est l'autorité compétente pour recevoir les demandes, prendre les décisions et payer les prestations ; les autorités cantonales et communales doivent fournir gratuitement tous les renseignements nécessaires [5].\n\n## Commune de Lausanne  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe canton de Vaud précise les modalités de dépôt de la demande et désigne la Caisse cantonale de compensation comme autorité compétente pour instruire et décider des prestations complémentaires AVS ; la Confédération fixe les conditions générales du droit aux prestations [2], et le droit fédéral prévaut sur le droit cantonal (Art. 49 Cst.).\n\n## Prochaines étapes  \n1. Remplir et signer la formule officielle de demande de prestations complémentaires AVS [3].  \n2. Rassembler tous les justificatifs requis (ex. décisions de rente, déclarations fiscales, etc.) [3].  \n3. Envoyer le dossier complet à la Caisse cantonale de compensation du canton de Vaud [5].  \n4. En cas d'incapacité, faire signer la demande par un représentant légal ou un proche habilité selon l'art. 6 du règlement cantonal [4].  \n5. Collaborer avec la Caisse en fournissant toute information complémentaire demandée pour éviter une décision de non-entrée en matière [4].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2553,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de citation pour cette instruction spécifique dans les sources fournies",
+     "Pas de citation pour cette instruction spécifique dans les sources fournies",
+     "Pas de citation pour cette instruction spécifique dans les sources fournies"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2423,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2423,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 22,
+  "sources": [
+   "[1] fed LPC Art. 2 Principe",
+   "[2] fed LPC Art. 4 Conditions générales",
+   "[3] can VD 831.21.1 Art. 5",
+   "[4] can VD 831.21.1 Art. 6",
+   "[5] can VD 831.21 Art. 6"
+  ]
+ },
+ {
+  "id": "T043",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 87.1,
+  "plan_s": 6.3,
+  "ttft_s": null,
+  "words": 254,
+  "citations": 6,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": false,
+  "headings_ok": false,
+  "disclaimer_ok": false,
+  "answer": "## Short answer  \nUnder federal law, men become entitled to an ordinary old‑age pension at 65 years of age and women at 64 years of age; the pension right arises on the first day of the month following the month in which the respective reference age is reached [1].\n\n## Federal level  \n- Ordinary retirement age: men at 65 years, women at 64 years [1].  \n- Pension entitlement begins on the first day of the month following the month in which the reference age is attained [1].\n\n## Canton Ticino  \nNo cantonal provision alters the federal retirement ages; the cantonal legislation preserves acquired pension rights and guarantees specific pension amounts for insured persons whose status was fixed as of 31 December 2012, subject to transitional provisions [2][3].\n\n## Commune Lugano  \nNo relevant source retrieved.\n\n## How the levels fit together  \nCantonal and communal regulations may provide supplementary pension guarantees for insured persons already covered by the federal scheme, but they cannot change the federal retirement ages of 65 for men and 64 for women; federal law prevails under Art. 49 BV.\n\n## Next steps  \n- To claim the federal old‑age pension: submit the pension application to the competent Swiss pension fund (AHV) after reaching the reference age; the cited sources do not prescribe a minimum advance notice period.  \n- For information on possible cantonal supplementary benefits: contact the Istituto di previdenza del Cantone Ticino with proof of insured status and age as of 31 December 2012 if applicable [2].  \n*Legal information, not legal advice.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 1003,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Deadline not found in cited sources; source [1] does not mention application deadline"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1386,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "No source mentions a requirement to submit the application before reaching the reference age; the cited texts do not contain any deadline or procedural instruction for application submission.",
+     "The cited sources do not address any advance notice period for pension applications; this statement is not supported by the provided texts."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1748,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Deadline/notice period not found in any cited source"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed LAVS Art. 21 Età di riferimento e rendita di vecchiaia",
+   "[2] can TI 174.100 Art. 24",
+   "[3] can TI 851.100 Art. 16"
+  ]
+ },
+ {
+  "id": "T044",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 115.0,
+  "plan_s": 5.5,
+  "ttft_s": null,
+  "words": 345,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nGrenzgänger sind grundsätzlich nicht der schweizerischen Krankenversicherungspflicht unterstellt. Sie können jedoch auf eigenes Gesuch hin der Versicherung unterstellt werden, wenn sie in der Schweiz eine Erwerbstätigkeit ausüben und im Ausland keine krankenversicherungspflichtige Erwerbstätigkeit ausüben. Als Familienangehörige gelten Ehegatten sowie Kinder bis zum vollendeten 18. Altersjahr und Kinder bis zum vollendeten 25. Altersjahr, die sich in Ausbildung befinden. Der Kanton Bern vollzieht diese Bestimmungen; das Amt für Sozialversicherungen (ASV) entscheidet auf Gesuch hin über die Unterstellung oder Befreiung. Die Quellen enthalten keine Angaben zu einer Gebühr für das Verfahren.\n\n## Bund  \n- Nach Art. 3 KVV werden Grenzgänger und ihre Familienangehörigen, die in der Schweiz eine Erwerbstätigkeit ausüben und im Ausland keine krankenversicherungspflichtige Erwerbstätigkeit ausüben, auf eigenes Gesuch hin der schweizerischen Versicherung unterstellt [1].  \n- Als Familienangehörige gelten Ehegatten sowie Kinder bis zum vollendeten 18. Altersjahr und Kinder bis zum vollendeten 25. Altersjahr, die sich in Ausbildung befinden [1].  \n- Die Kantone sorgen für die Einhaltung der Versicherungspflicht und weisen säumige Personen einem Versicherer zu [2].\n\n## Kanton Bern  \n- Jede Person mit Wohnsitz, Aufenthalt oder Arbeitgeber im Kanton hat den Krankenversicherungsschutz nachzuweisen; das Amt für Sozialversicherungen (ASV) nimmt auf Gesuch hin Personen von der Versicherungspflicht aus, wenn die bundesrechtlichen Voraussetzungen dafür erfüllt sind [3].  \n- Das ASV unterstellt Personen, welche die Voraussetzungen von Art. 3 oder Art. 6 KVV erfüllen, auf Gesuch hin durch Verfügung der Versicherungspflicht [3].\n\n## Gemeinde Bern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDer Bund regelt die Krankenversicherungspflicht und die Möglichkeit einer freiwilligen Unterstellung für Grenzgänger; der Kanton Bern vollzieht diese Bestimmungen und entscheidet auf Gesuch hin über Ausnahmen und Unterstellungen durch das Amt für Sozialversicherungen (ASV).\n\n## Nächste Schritte  \n- Einreichen eines schriftlichen Gesuchs beim Amt für Sozialversicherungen (ASV), Postfach, 3001 Bern, mit Nachweis der Erwerbstätigkeit in der Schweiz und des fehlenden krankenversicherungspflichtigen Erwerbs im Ausland [1][3].  \n- Bei Familienangehörigen zusätzlich Nachweise über das Verwandtschaftsverhältnis und das Alter bzw. die Ausbildungsnachweise beilegen [1].  \n- Das ASV entscheidet durch Verfügung über die Unterstellung oder Befreiung; die Quellen enthalten keine Angaben zu einer Gebühr [3].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 3645,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "KVV Art. 6 Personen mit Vorrechten nach internationalem Recht",
+     "KVG Art. 3 Versicherungspflichtige Personen"
+    ],
+    "revised": true,
+    "notes": [
+     "Die zitierte Quelle (Art. 3 KVV) besagt, dass Grenzgänger auf eigenes Gesuch hin unterstellt werden, aber nicht, dass grundsätzlich keine Pflicht besteht. Die Aussage ist irreführend, da die Versicherungspflicht nur entfällt, wenn keine Erwerbstätigkeit in der Schweiz ausgeübt wird oder keine Unterstellung erfolgt.",
+     "Die Quelle [3] nennt keine Gebühr, aber es wird behauptet, dass keine Gebühr genannt ist. Dies ist eine korrekte Beobachtung, aber die Formulierung suggeriert, dass die Quelle eine Aussage zur Gebühr trifft, was sie nicht tut. Zudem ist die Aussage 'eine Gebühr ist in den Quellen nicht genannt' eine Interpretation, keine wörtliche Wiedergabe."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1997,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "KVG Art. 3 Versicherungspflichtige Personen"
+    ],
+    "revised": true,
+    "notes": [
+     "Die Quelle [1] besagt, dass sie auf eigenes Gesuch hin unterstellt werden, nicht dass sie grundsätzlich nicht unterstellt sind.",
+     "Keine der angegebenen Quellen enthält Art. 49 BV oder eine Aussage dazu, dass Bundesrecht kantonalem Recht vorgeht."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2433,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Die Quelle [1] besagt, dass sie auf eigenes Gesuch hin unterstellt werden können, aber nicht, dass sie grundsätzlich nicht unterstellt sind. Artikel 6 KVG sieht die Pflicht für Personen mit Erwerbstätigkeit in der Schweiz vor, wobei Ausnahmen möglich sind."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 3,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed KVV Art. 3 Grenzgänger und Grenzgängerinnen",
+   "[2] fed KVG Art. 6 Kontrolle des Beitritts und Zuweisung an einen Versicherer",
+   "[3] can BE 842.111.1 Art. 2",
+   "[4] can BE 842.111.1 Art. 13",
+   "[5] fed KVV Art. 6 Personen mit Vorrechten nach internationalem Recht",
+   "[6] fed KVG Art. 3 Versicherungspflichtige Personen"
+  ]
+ },
+ {
+  "id": "T045",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 11,
+  "total_s": 117.2,
+  "plan_s": 6.8,
+  "ttft_s": null,
+  "words": 626,
+  "citations": 26,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour obtenir une réduction de prime d’assurance-maladie à Genève, l’assuré doit adresser une demande écrite au Service de l’assurance-maladie (SAM). Le droit dépend du revenu déterminant du groupe familial plafonné par des montants progressifs (de CHF 30 000 à CHF 115 000 selon le groupe familial, majorés de CHF 6 000 par charge légale). Les montants des subsides varient de CHF 50 à CHF 320 par mois pour les adultes, de CHF 60 à CHF 150 par mois pour les enfants et de CHF 25 par mois pour les enfants de rentiers UE/AELE, calculés sur la prime moyenne fédérale. Les frontaliers, membres de leur famille et personnes au chômage en Suisse bénéficient des mêmes critères cantonaux, et les rentiers résidant dans l’UE/AELE reçoivent des montants spécifiques (CHF 50 à CHF 140 par mois). [1][2][6][7][8][9][10][11]\n\n## Confédération  \n- Les cantons accordent une réduction de primes aux assurés de condition économique modeste et versent le montant directement aux assureurs [1].  \n- Pour les assurés de condition modeste résidant dans un État membre de l’UE, en Islande, en Norvège ou au Royaume-Uni, les cantons accordent également une réduction aux frontaliers, aux membres de leur famille et aux membres de la famille de personnes titulaires d’une autorisation de séjour ou de prestations de chômage suisse [2].  \n- Les primes moyennes déterminantes sont celles fixées chaque année par le DFI pour chaque État concerné [3].  \n- La demande doit être déposée sur une formule élaborée par l’institution commune, à commander auprès de celle‑ci ou des représentations compétentes à l’étranger [4].  \n- L’institution commune examine la demande et peut demander des renseignements complémentaires [5].\n\n## Canton de Genève  \n- Le canton accorde des subsides aux assurés de condition économique modeste, aux bénéficiaires de prestations complémentaires et aux assurés présumés modestes qui prouvent leur situation [6][7].  \n- Les limites de revenu déterminant ouvrant le droit aux subsides sont fixées par groupe familial (de CHF 30 000 à CHF 115 000 sans charge légale, majorés de CHF 6 000 par charge légale) [8].  \n- Le montant des subsides mensuels pour les adultes varie de CHF 50 à CHF 320 selon le groupe familial [9].  \n- Pour chaque enfant mineur à charge, le subside couvre 80 % de la prime moyenne fédérale, arrondi au franc supérieur et majoré de CHF 10 [9].  \n- Pour les jeunes assurés majeurs (jusqu’à 25 ans) présumés modestes, le subside couvre 50 % de la prime moyenne fédérale, arrondi et majoré de CHF 15 [9].  \n- Les nouveaux assurés domiciliés à l’étranger ou arrivant dans le canton peuvent déposer une demande écrite au SAM, le droit étant calculé sur le revenu déterminant de l’année d’ouverture du droit [10].  \n- Les assurés domiciliés à l’étranger (UE/AELE) reçoivent des montants spécifiques : CHF 50 à CHF 140 par mois pour les adultes et CHF 25 par mois pour les enfants, calculés sur la prime moyenne fédérale [11].\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe le principe de la réduction de primes aux assurés modestes et charge les cantons de l’appliquer; le canton de Genève précise les limites de revenu, les montants des subsides et les modalités de demande, les communes n’intervenant pas directement dans ce domaine. (Art. 49 BV)\n\n## Prochaines étapes  \n- Commander la formule de demande de réduction de primes auprès de l’institution commune ou des représentations compétentes à l’étranger [4].  \n- Remplir la demande et la transmettre par écrit au Service de l’assurance-maladie (SAM) [6][10].  \n- Fournir les pièces justificatives demandées (déclarations de revenus, attestations de prestations complémentaires, etc.) dans les délais fixés par le département [6].  \n- Attendre la décision de l’institution commune, qui peut solliciter des renseignements complémentaires [5].  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2513,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 11,
+    "raw_chars": 3090,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 11,
+    "raw_chars": 3090,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 31,
+  "sources": [
+   "[1] fed LAMal Art. 65 Réduction des primes par les cantons",
+   "[2] fed LAMal Art. 65a Réduction des primes par les cantons en faveur des assurés qui résident dans un État membre de l’Union européenne, en Islande, en Norvège ou au Royaume-Uni",
+   "[3] fed ORPMUE Art. 7 Primes moyennes",
+   "[4] fed ORPMUE Art. 8 Dépôt de la demande",
+   "[5] fed ORPMUE Art. 11 Appréciation des demandes",
+   "[6] can GE J 3 05 Art. 19",
+   "[7] can GE J 3 05 Art. 20",
+   "[8] can GE J 3 05 Art. 21",
+   "[9] can GE J 3 05 Art. 22",
+   "[10] can GE J 3 05.01 Art. 13A",
+   "[11] can GE J 3 05.01 Art. 13"
+  ]
+ },
+ {
+  "id": "T046",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 210.7,
+  "plan_s": 6.3,
+  "ttft_s": null,
+  "words": 609,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nDie Invalidenversicherung (IV) gewährt Renten, deren Höhe vom Invaliditätsgrad abhängt: bei 50–69 % entspricht der Rentenanteil dem Invaliditätsgrad in Prozent, ab 70 % besteht Anspruch auf eine ganze Rente und bei unter 50 % gelten gestaffelte prozentuale Anteile (z. B. 49 % → 47,5 %, 48 % → 45 % usw.). Zusätzlich erhalten im Kanton Basel‑Stadt wohnhafte, rentenberechtigte Personen eine kantonale Beihilfe an zu Hause Wohnende, wenn ihr Einnahmenüberschuss unter bestimmten Schwellen liegt (Alleinstehende ≤ 500 CHF, Ehepaare ≤ 750 CHF, Waisen ≤ 250 CHF für die volle Beihilfe; Teilbeihilfe bei 501–1 000 CHF, 751–1 500 CHF bzw. 251–500 CHF). Die kantonale Beihilfe entspricht der Differenz zwischen kantonalem und eidgenössischem Lebensbedarf und muss mindestens 1 000 CHF (Alleinstehende), 1 500 CHF (Ehepaare/Partnerschaften) oder 500 CHF (Waisen) betragen.\n\n## Bund  \n- **Rentenhöhe nach Invaliditätsgrad** [1]:  \n  - 50–69 %: Rente entspricht dem Invaliditätsgrad in Prozent.  \n  - ≥ 70 %: Anspruch auf eine ganze Rente.  \n  - < 50 %: gestaffelte prozentuale Anteile (z. B. 49 % → 47,5 %, 48 % → 45 %, …, 25 % → 25 %).  \n- **Kinderrente** [3]: beträgt 40 % der dem massgebenden durchschnittlichen Jahreseinkommen entsprechenden Invalidenrente; bei zwei Anspruchsberechtigten wird die Summe der Kinderrenten gekürzt, wenn sie 60 % der maximalen Invalidenrente übersteigt.  \n- **Anspruchsvoraussetzungen** [7]: Anspruch auf eine Rente besteht, wenn die versicherte Person ihre Erwerbsfähigkeit nicht durch zumutbare Eingliederungsmassnahmen wieder herstellen, erhalten oder verbessern kann, während eines Jahres ohne wesentlichen Unterbruch durchschnittlich mindestens 40 % arbeitsunfähig war und nach Ablauf dieses Jahres zu mindestens 40 % invalid ist; eine Rente wird nicht zugesprochen, solange Eingliederungsmöglichkeiten nicht ausgeschöpft sind.  \n- **Beitragspflicht** [6]: Beitragspflichtig sind die in den Artikeln 3 und 12 AHVG genannten Versicherten und Arbeitgeber.\n\n## Kanton Basel-Stadt  \n- **Anspruch auf volle Beihilfe an zu Hause Wohnende** [4]:  \n  - Alleinstehende: Einnahmenüberschuss ≤ 500 CHF.  \n  - Ehepaare oder eingetragene Partnerschaften: Einnahmenüberschuss ≤ 750 CHF.  \n  - Waisen: Einnahmenüberschuss ≤ 250 CHF.  \n- **Anspruch auf Teilbeihilfe** [4]:  \n  - Alleinstehende: Einnahmenüberschuss 501–1 000 CHF.  \n  - Ehepaare oder eingetragene Partnerschaften: Einnahmenüberschuss 751–1 500 CHF.  \n  - Waisen: Einnahmenüberschuss 251–500 CHF.  \n- **Höhe der kantonalen Beihilfe** [5]:  \n  - Als Betrag für den allgemeinen Lebensbedarf für die kantonale Beihilfe gelten (Stand 1. Januar 2003):  \n    - Alleinstehende: **18 740 CHF**.  \n    - Ehepaare und eingetragene Partnerschaften: **28 110 CHF**.  \n    - Waisen: **9 780 CHF**.  \n  - Die kantonale Beihilfe entspricht der Differenz zwischen diesem kantonalen Betrag und dem eidgenössischen Lebensbedarf; sie muss mindestens **1 000 CHF** (Alleinstehende), **1 500 CHF** (Ehepaare/Partnerschaften) oder **500 CHF** (Waisen) betragen.  \n  - Anpassung erfolgt jährlich nach dem Basler Index der Konsumentenpreise durch den Regierungsrat.\n\n## Gemeinde Basel  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDer Bund legt die Grundlagen für Invalidenrenten und Kinderrenten fest; der Kanton Basel‑Stadt ergänzt diese Leistungen durch eine kantonale Beihilfe an zu Hause Wohnende, die an die Einnahmenüberschüsse der Bezüger anknüpft und Mindestdifferenzbeträge zwischen kantonalem und eidgenössischem Lebensbedarf garantiert. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte  \n- **Antrag auf Invalidenrente**: Antrag bei der zuständigen IV‑Stelle (IV-Stelle für Versicherte im Ausland oder kantonale IV-Stelle) einreichen; Antragsformular, medizinische Unterlagen und Nachweise über Erwerbs‑ und Einkommensverhältnisse beilegen [7].  \n- **Berechnung der Rente**: Die IV‑Stelle ermittelt den Invaliditätsgrad und wendet die bundesrechtlichen Prozentsätze an; bei unter 25 Jahren wird die Mindesthöhe nach Art. 2 Abs. 2 IVG geprüft.  \n- **Antrag auf kantonale Beihilfe**: Nach Erhalt der IV‑Rente einen separaten Antrag auf Ergänzungsleistungen und kantonale Beihilfe bei der Sozialhilfe Basel‑Stadt (Ergänzungsleistungen und Beihilfen) stellen; Nachweise über Einnahmen, Ausgaben und Mietzins beifügen.  \n- **Überprüfung der Beihilfeberechnung**: Nach Bewilligung die Berechnung anhand der in § 18 BS 832.700 festgelegten Lebensbedarfszahlen und des Basler Konsumentenpreisindexes kontrollieren; bei Unstimmigkeiten Einsprache beim Regierungsrat einlegen.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 11,
+    "raw_chars": 3256,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 16,
+    "raw_chars": 4456,
+    "unreadable": false,
+    "issues": 3,
+    "added": [
+     "IVG Art. 2 Beitragspflicht",
+     "IVG Art. 28 Grundsatz"
+    ],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; dies ist eine Handlungsanweisung, keine Rechtsnorm.",
+     "Keine Quelle zitiert; dies beschreibt ein Verwaltungsverfahren, nicht eine Gesetzesnorm.",
+     "Keine Quelle zitiert; dies ist eine Empfehlung, keine Rechtsgrundlage."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 13,
+    "raw_chars": 3552,
+    "unreadable": false,
+    "issues": 5,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "keine Quelle zitiert",
+     "keine Quelle zitiert",
+     "keine Quelle zitiert",
+     "keine Quelle zitiert"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 2,
+  "claims_checked": 40,
+  "sources": [
+   "[1] fed IVG Art. 28b Festlegung der Höhe des Rentenanspruchs",
+   "[2] fed IVG Art. 37 Höhe der Invalidenrenten",
+   "[3] fed IVG Art. 38 Höhe der Kinderrenten",
+   "[4] can BS 832.700 § 14",
+   "[5] can BS 832.700 § 18",
+   "[6] fed IVG Art. 2 Beitragspflicht",
+   "[7] fed IVG Art. 28 Grundsatz"
+  ]
+ },
+ {
+  "id": "T047",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 10,
+  "total_s": 140.7,
+  "plan_s": 6.9,
+  "ttft_s": null,
+  "words": 696,
+  "citations": 29,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nOui, vous avez droit aux allocations familiales si vous travaillez à temps partiel, à condition d’être obligatoirement assuré à l’AVS et que votre employeur soit assujetti à la LAFam ou que vous soyez salarié dont l’employeur n’est pas tenu de cotiser, ou indépendant assujetti à l’AVS. La loi fédérale prévoit le versement d’allocations entières sans distinction de taux d’occupation; les montants sont fixés par le canton de Fribourg. Le droit naît avec le droit au salaire (salarié) ou le premier jour du mois où débute l’activité indépendante (indépendant), et expire avec la fin de ce droit.\n\n## Confédération  \n[1] Les salariés au service d’un employeur assujetti à l’AVS ont droit aux allocations familiales [1]. Le droit naît et expire avec le droit au salaire.  \n[2] Sont assujettis à la LAFam les employeurs tenus de cotiser à l’AVS, les salariés dont l’employeur n’est pas tenu de cotiser, et les indépendants obligatoirement assurés à l’AVS [2].  \n[1] Les indépendants obligatoirement assurés à l’AVS ont droit aux allocations familiales [1]. Le droit naît le premier jour du mois où débute l’activité indépendante et expire le dernier jour du mois où elle cesse.  \n[1] Seules des allocations entières sont versées; le droit dépend du paiement de cotisations AVS sur un revenu annuel provenant d’une activité lucrative [1].\n\n## Canton de Fribourg  \n[3] Ont droit aux allocations familiales les personnes salariées, indépendantes et, à certaines conditions, sans activité lucrative de condition modeste [3].  \n[4] Toute personne salariée ou exerçant une activité lucrative indépendante a droit aux allocations [4]. Pour un salarié, le droit prend naissance avec le droit au salaire et s’éteint avec lui; pour un indépendant, il naît le premier jour du mois d’activité et expire le dernier jour du mois de cessation [4].  \n[5] Les enfants des travailleurs agricoles ouvrant le droit aux allocations pour enfants en vertu de la LFA donnent droit, en plus des prestations fédérales, à un complément cantonal si l’allocation fédérale est plus basse, ainsi qu’à l’allocation de naissance ou d’accueil [5].  \n[6] Sont obligatoirement affiliés à la Caisse cantonale de compensation pour allocations familiales les employeurs agricoles soumis à la LFA, les corporations de droit public (canton, communes, paroisses) et les institutions qui en dépendent, ainsi que les employeurs et indépendants non affiliés à une autre caisse prévue par la LAFam [6].  \n[7] Le domicile de la personne salariée dont l’employeur cotise n’influence pas le droit; pour les salariés dont l’employeur ne cotise pas, le domicile fribourgeois est déterminant [7].  \n[8] Les enfants donnant droit aux allocations incluent les enfants des parents, reconnus, du conjoint/partenaire enregistré, adoptés, recueillis, ainsi que les frères, sœurs et petits-enfants si l’ayant droit en assume l’entretien de façon prépondérante et durable; pour les enfants résidant à l’étranger, les dispositions fédérales s’appliquent [8].\n\n## Commune de Fribourg  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit cantonal fribourgeois complète le droit fédéral en précisant le cercle des ayants droit (notamment les personnes sans activité lucrative de condition modeste), en fixant les modalités de naissance et d’extinction du droit selon le statut (salarié ou indépendant), en prévoyant un complément cantonal pour les travailleurs agricoles et en définissant les conditions d’affiliation obligatoire des employeurs et indépendants. Le droit fédéral reste déterminant pour les principes généraux et le versement d’allocations entières sans distinction de taux d’occupation; les règles cantonales s’appliquent dans la mesure où elles ne contreviennent pas au droit fédéral (Art. 49 Cst.).\n\n## Prochaines étapes  \n1. Vérifier l’assujettissement AVS auprès de la caisse de compensation compétente (cantonale ou fédérale selon le statut) [2][7].  \n2. Si vous êtes salarié, demander à votre employeur s’il est assujetti à la LAFam; si non, vérifier votre droit selon votre canton de domicile [7].  \n3. Si vous êtes indépendant, vous inscrire auprès d’une caisse d’allocations familiales fribourgeoise si votre siège se trouve à Fribourg [6][7].  \n4. Rassembler les documents prouvant l’entretien prépondérant et durable pour les frères, sœurs ou petits-enfants donnant droit aux allocations [8].  \n5. Déposer la demande d’allocations auprès de la Caisse cantonale de compensation pour allocations familiales du canton de Fribourg, en indiquant le statut (salarié, indépendant, etc.) et les enfants concernés [3][4].  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 1382,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La loi fédérale ne contient aucune disposition indiquant que le montant des allocations familiales ne dépend pas du taux d’occupation. Aucune source citée ne confirme cette affirmation."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 3,
+    "raw_chars": 1438,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La loi fédérale (LAFam) ne prévoit pas de distinction selon le taux d’occupation; le montant est fixé par le canton, mais aucune source ne confirme qu’il n’y a « aucune distinction de taux d’occupation » dans la loi fédérale."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 3,
+    "raw_chars": 1633,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La LAFam (art. 13) ne contient pas d’exception cantonale liée au taux d’occupation; l’article 13 al. 3 précise uniquement que «Seules des allocations entières sont versées», sans mention de distinction selon le temps partiel. Le canton peut fixer les montants, mais le droit fédéral ne prévoit pas de distinction de taux d’occupation pour l’octroi d’une allocation entière."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 9,
+  "sources": [
+   "[1] fed LAFam Art. 13 Droit aux allocations familiales",
+   "[2] fed LAFam Art. 11 Assujettissement",
+   "[3] can FR 836.1 Art. 6",
+   "[4] can FR 836.1 Art. 21",
+   "[5] can FR 836.1 Art. 8",
+   "[6] can FR 836.1 Art. 34",
+   "[7] can FR 836.11 Art. 13",
+   "[8] can FR 836.1 Art. 7",
+   "[9] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 40",
+   "[10] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 38"
+  ]
+ },
+ {
+  "id": "T048",
+  "lang": "de",
+  "loc": "9000 St. Gallen",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 124.4,
+  "plan_s": 7.3,
+  "ttft_s": null,
+  "words": 441,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nSozialhilfe erhalten Sie, wenn Sie für Ihren Lebensunterhalt nicht rechtzeitig aus eigenen Mitteln aufkommen können und die Bedürftigkeit nachweisen. Asylsuchende, vorläufig aufgenommene Personen sowie Schutzbedürftige nach der eidgenössischen Asylgesetzgebung erhalten einen reduzierten Anspruch. Leistungen werden rechtzeitig gewährt und können als Geld- oder Sachleistungen ausgerichtet werden; bei fehlender Gewähr für die bestimmungsgemässe Verwendung werden sie an berechtigte Dritte ausbezahlt. Flüchtlinge mit Landesverweisung erhalten ausschliesslich Nothilfe als Sachleistung. Sie müssen wahrheitsgetreu und vollständig Auskunft erteilen und jede Veränderung Ihrer Verhältnisse unverzüglich melden.\n\n## Bund\nKeine einschlägige Quelle abgerufen.\n\n## Kanton St. Gallen\n- Anspruch auf finanzielle Sozialhilfe besteht, wenn die eigenen Mittel für den Lebensunterhalt nicht hinreichend oder nicht rechtzeitig vorhanden sind [1].\n- Asylsuchende, vorläufig aufgenommene Personen und Schutzbedürftige nach der eidgenössischen Asylgesetzgebung haben einen reduzierten Anspruch [1].\n- Der Anspruch fällt dahin, wenn der Nachweis der Bedürftigkeit nicht erbracht wird [1].\n- Leistungen werden rechtzeitig gewährt und bei Bedarf mit betreuender Sozialhilfe verbunden [2].\n- Leistungen werden so erbracht, dass Missbrauch durch die hilfebedürftige Person oder ihre Familienangehörigen ausgeschlossen ist; bei fehlender Gewähr für die bestimmungsgemässe Verwendung können Leistungen an berechtigte Dritte ausgerichtet werden [2].\n- Sozialhilfe für Wohn- und Nebenkosten von anerkannten Flüchtlingen und vorläufig aufgenommenen Flüchtlingen wird grundsätzlich als Sachleistung ausgerichtet; als Geldleistung nur in Ausnahmefällen, wenn dies dem Integrationsziel dient und die bisherige sowie die neue Wohnsitzgemeinde dem Wohnsitzwechsel zustimmen [2].\n- Flüchtlinge mit Landesverweisung werden von der Sozialhilfe ausgeschlossen; es wird ausschliesslich Nothilfe gewährt, die grundsätzlich als Sachleistung ausgerichtet wird [2].\n- Wer um finanzielle Sozialhilfe ersucht, muss wahrheitsgetreu und vollständig Auskunft erteilen und Amtsstellen sowie Dritte zur Auskunftserteilung ermächtigen [3].\n- Wer finanzielle Sozialhilfe bezieht, muss Tatsachen, die Anspruch oder Berechnung verändern, umgehend melden [3].\n\n## Gemeinde St. Gallen\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Bund legt die Grundsätze der Sozialhilfe fest (SR 831.0); die Kantone vollziehen sie und bestimmen die konkreten Leistungen und Verfahren. Die Gemeinde St. Gallen hat in den vorliegenden Quellen keine abweichenden Bestimmungen festgelegt; die kantonalen Vorgaben gelten direkt.\n\n## Nächste Schritte\n- Wenden Sie sich an die Sozialhilfe des Kantons St. Gallen (konkrete Anlaufstelle entnehmen Sie dem kantonalen Sozialhilfehandbuch oder der kantonalen Webseite).\n- Belegen Sie Ihre Einkommens- und Vermögensverhältnisse sowie Ihre Lebenshaltungskosten mit geeigneten Unterlagen (z. B. Lohnabrechnungen, Kontoauszüge, Mietvertrag, Nachweise über Schulden oder Vermögen).\n- Erteilen Sie wahrheitsgetreu und vollständig Auskunft und ermächtigen Sie Amtsstellen sowie Dritte zur Einholung von Auskünften.\n- Melden Sie unverzüglich jede Änderung Ihrer persönlichen oder wirtschaftlichen Verhältnisse, die den Anspruch beeinflussen könnte.\n- Beachten Sie, dass für Flüchtlinge mit Landesverweisung nur Nothilfe als Sachleistung gewährt wird; ein Antrag auf reguläre Sozialhilfe ist in diesem Fall ausgeschlossen.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 13,
+    "raw_chars": 4462,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt die Stadt St. Gallen als zuständige Behörde; die kantonalen Quellen verweisen nicht auf eine spezifische Gemeindebehörde.",
+     "Keine der angegebenen Quellen enthält eine Liste der erforderlichen Belege."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 9,
+    "raw_chars": 2653,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 12,
+    "raw_chars": 4085,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle zitiert; keine gesetzliche Bestimmung über die konkrete Anlaufstelle in den vorliegenden Quellen.",
+     "Keine Quelle nennt die erforderlichen Nachweise."
+    ]
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 34,
+  "sources": [
+   "[1] can SG 381.1 Art. 9",
+   "[2] can SG 381.1 Art. 10",
+   "[3] can SG 381.1 Art. 16"
+  ]
+ },
+ {
+  "id": "T049",
+  "lang": "fr",
+  "loc": "2000 Neuchâtel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 8,
+  "total_s": 107.4,
+  "plan_s": 6.2,
+  "ttft_s": null,
+  "words": 685,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nL’assurance accident obligatoire (LAA) couvre le traitement médical approprié (ambulatoire, hospitalier, médicaments, analyses, cures, moyens et appareils de guérison), la remise ou le prêt de moyens auxiliaires pour compenser un dommage corporel ou une perte de fonction, le remboursement des frais de voyage, de transport et de sauvetage nécessaires, le remboursement des frais de transport du corps et des frais funéraires jusqu’à concurrence de sept fois le montant maximum du gain journalier assuré, ainsi que la prise en charge des maladies professionnelles et des accidents professionnels définis par la loi. Les travailleurs occupés en Suisse, les personnes au chômage, celles participant à des mesures de l’assurance-invalidité et les catégories assimilées sont assurés obligatoirement [1]; l’assuré choisit librement son médecin, son dentiste, son chiropraticien, sa pharmacie et l’hôpital ou l’établissement de cure [4].\n\n## Confédération  \n- **Traitement médical** [4] : l’assuré a droit au traitement ambulatoire dispensé par le médecin, le dentiste, le personnel paramédical, le chiropraticien ou dans un hôpital, aux médicaments et analyses prescrits, au traitement, à la nourriture et au logement en division commune d’un hôpital, aux cures complémentaires et aux cures de bain prescrites par le médecin, ainsi qu’aux moyens et appareils servant à la guérison. L’assuré choisit librement son médecin, son dentiste, son chiropraticien, sa pharmacie et l’hôpital ou l’établissement de cure.  \n- **Moyens auxiliaires** [5] : l’assuré a droit aux moyens auxiliaires destinés à compenser un dommage corporel ou la perte d’une fonction; ils sont d’un modèle simple et adéquat et remis en toute propriété ou en prêt.  \n- **Frais de voyage, de transport et de sauvetage** [7] : remboursés dans la mesure où ils sont nécessaires; le Conseil fédéral peut limiter le remboursement des frais à l’étranger.  \n- **Frais de transport du corps et frais funéraires** [8] : remboursés jusqu’à concurrence de sept fois le montant maximum du gain journalier assuré; le Conseil fédéral peut limiter le remboursement des frais de transport à l’étranger.  \n- **Accidents professionnels** [2] : sont réputés accidents professionnels les accidents subis lorsqu’il exécute des travaux sur ordre de son employeur ou dans son intérêt, ainsi qu’au cours d’interruptions de travail, avant ou après le travail, lorsqu’il se trouve à bon droit au lieu de travail ou dans la zone de danger liée à son activité; les accidents sur le trajet aller/retour sont aussi réputés professionnels pour les travailleurs occupés à temps partiel dont la durée de travail n’atteint pas un minimum fixé par le Conseil fédéral.  \n- **Maladies professionnelles** [3] : sont réputées maladies professionnelles celles dues exclusivement ou de manière prépondérante, dans l’exercice de l’activité professionnelle, à des substances nocives ou à certains travaux (liste établie par le Conseil fédéral); elles sont assimilées à un accident professionnel dès le jour où elles se déclarent, c’est-à-dire dès que la personne atteinte doit se soumettre pour la première fois à un traitement médical ou est incapable de travailler.\n\n## Canton de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Commune de Neuchâtel  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa LAA fixe le catalogue fédéral des prestations (traitement médical, moyens auxiliaires, frais de voyage, transport du corps, frais funéraires, maladies professionnelles, accidents professionnels). Le canton de Neuchâtel et la commune de Neuchâtel n’ont pas fourni de règles spécifiques complémentaires dans les sources reçues; la loi fédérale s’applique donc directement, conformément à l’art. 49 Cst.\n\n## Prochaines étapes  \n- Informez immédiatement votre employeur ou l’assureur LAA de l’événement accidentel ou de la maladie professionnelle [2][3].  \n- Consultez un médecin ou un hôpital pour obtenir le traitement médical nécessaire [4] et conservez toutes les ordonnances, factures et certificats médicaux.  \n- Demandez à l’assureur LAA la remise ou le prêt des moyens auxiliaires requis [5] en fournissant les rapports médicaux justifiant le besoin.  \n- Pour les frais de voyage, de transport ou de sauvetage, conservez les justificatifs et adressez-les à l’assureur LAA dès que possible [7].  \n- En cas de décès, faites parvenir à l’assureur LAA les factures de transport du corps et d’ensevelissement afin d’obtenir le remboursement dans la limite de sept fois le gain journalier maximum assuré [8].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 1659,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source ne mentionne l'absence de franchise ou de participation aux coûts pour les assurés obligatoires. L'art. 10 LAA parle de prise en charge des frais, mais ne précise pas qu'il n'y a pas de franchise ni participation."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2975,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La phrase contient des affirmations sur les conditions et la liste établies par la loi fédérale ainsi que sur le libre choix du médecin/hôpital/pharmacie qui ne sont pas explicitement citées dans les sources fournies (les sources citées ne contiennent pas ces affirmations spécifiques)."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 2,
+    "raw_chars": 1306,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 12,
+  "sources": [
+   "[1] fed LAA Art. 1a Assurés",
+   "[2] fed LAA Art. 7 Accidents professionnels",
+   "[3] fed LAA Art. 9 Maladies professionnelles",
+   "[4] fed LAA Art. 10 Traitement médical",
+   "[5] fed LAA Art. 11 Moyens auxiliaires",
+   "[6] fed LAA Art. 12 Dommages matériels",
+   "[7] fed LAA Art. 13 Frais de voyage, de transport et de sauvetage",
+   "[8] fed LAA Art. 14 Frais de transport du corps et frais funéraires"
+  ]
+ },
+ {
+  "id": "T050",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 9,
+  "total_s": 126.8,
+  "plan_s": 7.5,
+  "ttft_s": null,
+  "words": 581,
+  "citations": 23,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nJa. Sie können Ihr Pensionskassengeld bis drei Jahre vor dem ordentlichen Rentenalter für den Erwerb von Wohneigentum zum eigenen Bedarf oder für Anteilscheine einer Wohnbaugenossenschaft beziehen. Der Bezug ist auf die Freizügigkeitsleistung begrenzt: bis zum 50. Geburtstag höchstens die Freizügigkeitsleistung, nach dem 50. Geburtstag höchstens die Freizügigkeitsleistung im Alter 50 oder die Hälfte der aktuellen Freizügigkeitsleistung. Bei Ehe oder eingetragener Partnerschaft ist die Zustimmung des Partners erforderlich. Die Veräusserungsbeschränkung ist im Grundbuch anzumerken und bleibt bestehen, bis ein Vorsorgefall eintritt, eine Barauszahlung erfolgt oder der investierte Betrag an die Kasse zurückfließt. Bei Unterdeckung kann die Kasse die Auszahlung zeitlich und betragsmässig einschränken oder verweigern, wenn der Vorbezug der Rückzahlung von Hypothekardarlehen dient.\n\n## Bund\n- Nach Art. 30c Abs. 1 BVG kann der Versicherte bis drei Jahre vor Entstehung des Anspruchs auf Altersleistungen einen Betrag für Wohneigentum zum eigenen Bedarf geltend machen [1].\n- Bis zum 50. Altersjahr darf der Vorbezug die Freizügigkeitsleistung nicht übersteigen; nach dem 50. Geburtstag höchstens die Freizügigkeitsleistung, auf die im Alter von 50 Jahren Anspruch bestanden hätte, oder die Hälfte der Freizügigkeitsleistung im Zeitpunkt des Bezuges [1][2].\n- Zulässige Objekte des Wohneigentums sind die Wohnung und das Einfamilienhaus; zulässige Formen sind Eigentum, Miteigentum (namentlich Stockwerkeigentum), Gesamteigentum mit Ehegatten oder eingetragener Partner sowie selbständiges und dauerndes Baurecht [3].\n- Der Mindestbetrag für den Vorbezug beträgt 20 000 CHF; dieser Mindestbetrag gilt nicht für den Erwerb von Anteilscheinen einer Wohnbaugenossenschaft oder ähnlicher Beteiligungen [2].\n- Ein Vorbezug kann alle fünf Jahre geltend gemacht werden [2].\n- Bei Unterdeckung kann die Vorsorgeeinrichtung die Auszahlung zeitlich und betragsmässig einschränken oder ganz verweigern, wenn der Vorbezug der Rückzahlung von Hypothekardarlehen dient; die Massnahme ist nur für die Dauer der Unterdeckung möglich [4].\n- Ist der Versicherte verheiratet oder lebt er in eingetragener Partnerschaft, so sind der Bezug und jede nachfolgende Begründung eines Grundpfandrechts nur zulässig, wenn sein Ehegatte oder Partner zustimmt [1].\n\n## Kanton Luzern\n- Nach Art. 46 Abs. 1 Reglement LUPK können Versicherte bis spätestens zum Rentenalter einen Vorbezug oder eine Verpfändung für selbstgenutztes Wohneigentum oder Anteilscheine einer Wohnbaugenossenschaft verlangen [6].\n- Vorbezug und Verpfändung sind nur zulässig für Wohneigentum zum eigenen Bedarf und für Anteilscheine, durch die Versicherte eine selbstbenutzte Wohnung mitfinanzieren [6].\n- Der Betrag darf die Freizügigkeitsleistung nicht übersteigen; nach dem 50. Geburtstag höchstens die Freizügigkeitsleistung im Alter 50 oder die Hälfte der aktuellen Freizügigkeitsleistung [6].\n- Die LUPK vermittelt auf Gesuch eine Zusatzversicherung, die die Differenz zwischen den vollen und den wegen des Vorbezugs verminderten Risikoleistungen deckt [6].\n\n## Gemeinde Luzern\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nKanton und Gemeinde konkretisieren die bundesrechtlichen Vorgaben (z. B. Zustimmungspflicht bei Ehe/Partnerschaft, Zusatzversicherung, Sanierungsmassnahmen bei Unterdeckung) und ergänzen sie mit reglementarischen Bestimmungen; Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte\n- Prüfen Sie Ihr Alter und die Freizügigkeitsleistung: Wenn Sie das 50. Lebensjahr noch nicht vollendet haben, darf der Vorbezug die Freizügigkeitsleistung nicht übersteigen; nach dem 50. Geburtstag höchstens die Freizügigkeitsleistung im Alter 50 oder die Hälfte der aktuellen Freizügigkeitsleistung [1][2][6].\n- Klären Sie die Zustimmung des Ehegatten oder eingetragenen Partners, falls zutreffend [1][6].\n- Stellen Sie bei Ihrer Vorsorgeeinrichtung (z. B. LUPK oder PKSL) ein schriftliches Gesuch um Vorbezug oder Verpfändung für das konkrete Wohneigentum oder die Anteilscheine einer Wohnbaugenossenschaft [1][6][8].\n- Lassen Sie sich von der Kasse eine Zusatzversicherung vermitteln, falls Sie die Risikoleistungen wegen des Vorbezugs sichern wollen [6].\n- Informieren Sie sich bei Ihrer Kasse über die aktuelle Unterdeckungslage und mögliche Auszahlungseinschränkungen [4][9].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 13,
+    "raw_chars": 3852,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 11,
+    "raw_chars": 3203,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 12,
+    "raw_chars": 3652,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 36,
+  "sources": [
+   "[1] fed BVG Art. 30c Vorbezug",
+   "[2] fed WEFV Art. 5 Mindestbetrag und Begrenzung",
+   "[3] fed WEFV Art. 2 Wohneigentum",
+   "[4] fed WEFV Art. 6a Beschränkung der Auszahlung bei Unterdeckung",
+   "[5] fed BVG Art. 30e Sicherung des Vorsorgezwecks",
+   "[6] can LU 135 Art. 46",
+   "[7] can LU 135 Art. 32",
+   "[8] com Luzern: Reglement über die Pensionskasse Stadt Luzern (PKR) Art. 1",
+   "[9] com Luzern: Reglement über die Pensionskasse Stadt Luzern (PKR) Art. 19"
+  ]
+ },
+ {
+  "id": "T051",
+  "lang": "fr",
+  "loc": "1700 Fribourg",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 5,
+  "total_s": 73.5,
+  "plan_s": 7.6,
+  "ttft_s": null,
+  "words": 319,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nSelon le Code civil suisse, la réserve héréditaire de vos enfants correspond à la moitié de leur part légale dans la succession [1]. Le canton de Fribourg impose au notaire de remettre immédiatement toute disposition pour cause de mort au juge de paix dès connaissance du décès [2] et au juge de paix de convoquer les héritiers légaux et institués dix jours à l’avance pour l’ouverture [3]. Aucune règle communale ne modifie ce minimum légal.\n\n## Confédération  \n- La réserve héréditaire est fixée à la moitié du droit de succession [1].\n\n## Canton de Fribourg  \n- Le notaire qui a la garde d’une disposition pour cause de mort l’avise immédiatement, dès connaissance du décès, au ou à la juge de paix du lieu d’ouverture de la succession [2].\n- En vue de l’ouverture d’une disposition pour cause de mort, le ou la juge de paix fait convoquer par le ou la notaire les héritiers et héritières légaux et institués qui lui sont connus ou leurs représentants, dix jours à l’avance [3].\n\n## Commune de Fribourg  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe la réserve héréditaire à la moitié du droit de succession [1]. Le canton de Fribourg précise les obligations de remise des dispositions pour cause de mort au juge de paix et la procédure de convocation des héritiers, mais ne modifie pas le montant de la réserve, qui reste régi par le droit fédéral (Art. 49 Cst.).\n\n## Prochaines étapes  \n- Si vous détenez un testament ou une autre disposition pour cause de mort, le remettre immédiatement au notaire de votre lieu de domicile ou au juge de paix du lieu d’ouverture de la succession dès connaissance du décès [2].\n- Si vous êtes héritier légal ou institué, vous serez convoqué par le notaire, dix jours à l’avance, pour l’ouverture de la disposition [3].\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 1566,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 1487,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 1478,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 18,
+  "sources": [
+   "[1] fed CC Art. 471",
+   "[2] can FR 210.1 Art. 16",
+   "[3] can FR 210.1 Art. 17",
+   "[4] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 4",
+   "[5] com Fribourg: Règlement général de police de la Ville de Fribourg Art. 13"
+  ]
+ },
+ {
+  "id": "T052",
+  "lang": "de",
+  "loc": "8001 Zürich",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 100.9,
+  "plan_s": 6.1,
+  "ttft_s": null,
+  "words": 376,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nWenn kein Testament vorliegt, bestimmt das ZGB die gesetzliche Erbfolge: Zuerst erben die Nachkommen zu gleichen Teilen; fehlen Nachkommen, erben die Elternteile zu gleichen Teilen; fehlen auch diese, erben die Grosselternteile zu gleichen Teilen; fehlen auch diese, fällt die Erbschaft an den Kanton des letzten Wohnsitzes oder an die vom Kanton bezeichnete Gemeinde. Der überlebende Ehegatte erhält je nach vorhandenem Erbenkreis die Hälfte, drei Viertel oder die ganze Erbschaft neben den Verwandten. Im Kanton Zürich muss der Kanton Zürich bei einer Erbschaftsannahme die Hälfte des Liquidationsergebnisses an die Gemeinde des letzten Wohnsitzes des Erblassers abgeben.\n\n## Bund\n- Nachkommen erben als erste Erbenklasse zu gleichen Teilen [1].\n- Fehlen Nachkommen, erben die Elternteile zu gleichen Teilen [2].\n- Fehlen Elternteile, erben die Grosselternteile zu gleichen Teilen [3].\n- Überlebende Ehegatten erhalten die Hälfte der Erbschaft, wenn sie mit Nachkommen teilen müssen; drei Viertel, wenn sie mit Erben des elterlichen Stammes teilen müssen; die ganze Erbschaft, wenn keine Verwandten vorhanden sind [4].\n- Fehlen alle Erben, fällt die Erbschaft an den Kanton des letzten Wohnsitzes oder an die vom Kanton bezeichnete Gemeinde [5].\n\n## Kanton Zürich\n- Fällt eine Erbschaft nach Art. 466 ZGB an den Kanton Zürich, hat dieser die Hälfte des Liquidationsergebnisses an die Gemeinde des letzten Wohnsitzes des Erblassers abzugeben [7].\n\n## Gemeinde Zürich\nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen\nDer Kanton Zürich ergänzt das Bundesrecht, indem er bei einer Erbschaftsannahme durch den Kanton Zürich die Hälfte des Liquidationsergebnisses an die Gemeinde des letzten Wohnsitzes des Erblassers überweist; die Reihenfolge der gesetzlichen Erben bleibt durch das ZGB bestimmt und geht kantonalen oder kommunalen Regelungen vor (Art. 49 BV).\n\n## Nächste Schritte\n- Ermitteln Sie den letzten Wohnsitz des Erblassers, um die erbberechtigte Körperschaft (Kanton Zürich oder bezeichnete Gemeinde) zu bestimmen [5].\n- Im Kanton Zürich: Der Kanton Zürich nimmt die Erbschaft an und leitet die Hälfte des Liquidationsergebnisses an die zuständige Gemeinde des letzten Wohnsitzes weiter [7].\n- Für die konkrete Erbteilung: Das Verfahren richtet sich nach kantonalem Recht; ein Erbschein kann beim Einzelgericht am letzten Wohnsitz des Erblassers beantragt werden; die konkreten Kosten und Fristen sind der kantonalen Gebührenverordnung zu entnehmen und vorab zu begleichen. (Hinweis: Die vorliegenden Quellen enthalten keine Angaben zu Kosten oder Fristen.)\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 4,
+    "raw_chars": 2044,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt, dass kantonale oder kommunale Ergänzungen die Reihenfolge der Erben ändern würden; die Aussage ist eine Interpretation, nicht eine wörtliche Wiedergabe der Quellen.",
+     "Die Quellen enthalten keine Angaben zu Fristen, Kosten oder dem Antragsverfahren für einen Erbschein. Diese Informationen sind nicht im ZGB oder den kantonalen Quellen enthalten."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 2557,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine der angegebenen Quellen (5 oder 7) enthält eine Anweisung oder Information, die den Erblasser oder einen Dritten dazu auffordert, den letzten Wohnsitz zu prüfen. Die Quellen beschreiben lediglich die Rechtsfolgen, nicht das Vorgehen zur Feststellung.",
+     "Die angegebenen Quellen (1-7) enthalten keine Informationen zu Verfahrenswegen, Erbscheinanträgen, kantonalen Zivilprozessordnungen, Gebührenverordnungen oder Fristen. Diese Informationen liegen außerhalb des ZGB und der kantonalen Einführungsgesetze, die nur die Erbenordnung regeln."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2100,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt konkrete Kosten oder Fristen; die Aussage ist nicht durch die vorliegenden Quellen belegt."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 15,
+  "sources": [
+   "[1] fed ZGB Art. 457",
+   "[2] fed ZGB Art. 458",
+   "[3] fed ZGB Art. 459",
+   "[4] fed ZGB Art. 462",
+   "[5] fed ZGB Art. 466",
+   "[6] can ZH 230 § 123",
+   "[7] can ZH 230 § 124"
+  ]
+ },
+ {
+  "id": "T053",
+  "lang": "fr",
+  "loc": "1003 Lausanne",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 7,
+  "total_s": 136.6,
+  "plan_s": 5.6,
+  "ttft_s": null,
+  "words": 464,
+  "citations": 14,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour rédiger un testament valable, la personne doit être capable de discernement et âgée d’au moins 18 ans révolus [1]. Le testament olographe doit être entièrement écrit, daté (année, mois, jour) et signé de la main du testateur [3]. En cas d’impossibilité d’utiliser une autre forme, un testament oral est admissible devant deux témoins qui doivent rédiger ou faire rédiger un acte [4]. Un pacte successoral requiert les mêmes conditions de capacité et, pour les personnes sous curatelle, l’autorisation du représentant légal [5]. Au niveau cantonal vaudois, les honoraires du notaire sont fixés selon l’actif brut de la succession (ex. entre CHF 3 M et CHF 5 M : CHF 1 500 ; supplément en cas de liquidation de régime matrimonial selon les mêmes tranches) [7].\n\n## Confédération  \n- Capacité et âge : toute personne capable de discernement et âgée d’au moins 18 ans révolus peut disposer de ses biens par testament [1].  \n- Testament olographe : doit être entièrement écrit, daté (année, mois, jour) et signé de la main du testateur [3].  \n- Testament oral : admissible uniquement lorsqu’un empêchement extraordinaire (danger de mort imminent, communications interceptées, épidémie, guerre) rend impossible l’utilisation d’une autre forme; le testateur doit déclarer ses dernières volontés à deux témoins, qui doivent dresser ou faire dresser un acte [4].  \n- Pacte successoral : le disposant doit être capable de discernement et avoir au moins 18 ans; les personnes sous curatelle doivent être autorisées par leur représentant légal [5].\n\n## Canton de Vaud  \nAucune source pertinente récupérée.\n\n## Commune de Lausanne  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLa Confédération fixe les exigences de forme et de capacité pour les testaments et les pactes successoraux; le canton de Vaud complète ces règles en précisant les émoluments notariaux applicables lors de l’ouverture de la succession [7].\n\n## Prochaines étapes  \n1. Rédiger le testament entièrement à la main, le dater précisément (année, mois, jour) et le signer [3].  \n2. Si l’on opte pour un testament oral, réunir deux témoins capables et leur faire rédiger un acte constatant les dernières volontés [4].  \n3. Remettre l’acte au notaire ou à une autorité habilitée par le canton de Vaud (les cantons peuvent organiser le dépôt, sans obligation de remise obligatoire) [3].  \n4. Prévoir les frais notariaux selon l’actif brut de la succession :  \n   - inférieur à CHF 3 000 000 : CHF 750 ;  \n   - entre CHF 3 000 000 et CHF 5 000 000 : CHF 1 500 ;  \n   - entre CHF 5 000 000 et CHF 10 000 000 : CHF 2 500 ;  \n   - supérieur à CHF 10 000 000 : CHF 3 000 ;  \n   avec un supplément en cas de liquidation de régime matrimonial calculé selon les mêmes tranches [7].\n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 10,
+    "raw_chars": 3095,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La source citée (art. 7) ne traite pas des frais notariaux; les barèmes mentionnés proviennent d’une source cantonale ignorée dans l’ANSWER",
+     "La source citée (art. 7) ne traite pas des frais notariaux; les barèmes mentionnés proviennent d’une source cantonale ignorée dans l’ANSWER"
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 3104,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Pas de source citée pour cette instruction spécifique de dépôt cantonal",
+     "Pas de source citée pour cette instruction spécifique de dépôt cantonal"
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 10,
+    "raw_chars": 3665,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Aucune source ne mentionne une obligation de déposer le testament auprès d’une autorité cantonale vaudoise; l’art. 505 al. 2 CC prévoit uniquement que les cantons pourvoient à ce que l’acte puisse être remis à une autorité, mais ne prescrit pas un dépôt obligatoire ni une pratique usuelle spécifique au canton de Vaud.",
+     "Aucune source ne confirme une obligation de dépôt auprès d’une autorité cantonale vaudoise ni une pratique usuelle spécifique."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 30,
+  "sources": [
+   "[1] fed CC Art. 467",
+   "[2] fed CC Art. 471",
+   "[3] fed CC Art. 505",
+   "[4] fed CC Art. 506",
+   "[5] fed CC Art. 468",
+   "[6] can VD 648.11 Art. 28",
+   "[7] can VD 648.11.1 Art. 24"
+  ]
+ },
+ {
+  "id": "T054",
+  "lang": "it",
+  "loc": "6900 Lugano",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 130.3,
+  "plan_s": 6.4,
+  "ttft_s": null,
+  "words": 477,
+  "citations": 26,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Risposta breve  \nIl coniuge superstite eredita la metà della successione se concorre con i discendenti [1]; tre quarti se concorre con gli eredi della stirpe dei genitori [1]; l’intera successione se non vi sono né discendenti né eredi della stirpe dei genitori [1]. Queste quote si applicano in tutta la Svizzera; nel cantone Ticino le norme cantonali [3][4][5] disciplinano le procedure di inventario, pubblicazione della grida e iscrizione d’ufficio dei crediti e debiti, senza modificare le quote ereditarie. La porzione legittima minima è fissata al 50 % della quota ereditaria dal diritto federale [2].\n\n## Confederazione  \n- Il coniuge superstite riceve la metà della successione in concorso con i discendenti [1].  \n- In concorso con gli eredi della stirpe dei genitori, la quota è di tre quarti [1].  \n- Se non vi sono né discendenti né eredi della stirpe dei genitori, l’intera successione spetta al coniuge superstite [1].  \n- La porzione legittima è stabilita al 50 % della quota ereditaria [2].\n\n## Cantone Ticino  \n- L’inventario per l’adizione con beneficio d’inventario segue le norme dell’inventario assicurativo [3].  \n- La grida viene pubblicata dal pretore ad istanza dell’erede legittimato [6] e deve contenere nome, cognome, domicilio del defunto, paternità e luogo di origine, diffida a tutti i creditori e debitori di notificare per iscritto i loro debiti e crediti alla cancelleria della pretura entro il termine indicato, comminatoria per crediti non notificati e indicazione della scadenza [3].  \n- La pubblicazione avviene nel Foglio ufficiale del Cantone per due volte, con intervallo di quindici giorni [4]; il pretore può ordinare pubblicazioni aggiuntive al luogo di origine o di precedente domicilio del defunto [4].  \n- Il termine per le contraddizioni è fissato dal pretore, è di almeno un mese dalla prima pubblicazione [4].  \n- I crediti ed i debiti risultanti dai registri pubblici o dalle carte dell’eredità devono essere inventariati d’ufficio ai sensi dell’art. 583 CC [5].\n\n## Comune di Lugano  \nNessuna fonte pertinente recuperata.\n\n## Interazione dei livelli  \nNel cantone Ticino le quote di eredità del coniuge superstite previste dal Codice civile federale [1] si applicano direttamente; le norme cantonali [3][4][5] regolano esclusivamente le procedure di inventario, pubblicazione della grida e iscrizione d’ufficio dei crediti e debiti, senza alterare le quote ereditarie. Prevale il diritto federale ai sensi dell’art. 49 Cost.\n\n## Prossimi passi  \n- L’erede legittimato presenta istanza al pretore per l’apertura dell’inventario con beneficio d’inventario [6].  \n- Il pretore fissa il termine per la pubblicazione della grida nel Foglio ufficiale del Cantone e stabilisce un termine di almeno un mese per le contraddizioni [4].  \n- I creditori e i debitori del defunto notificano per iscritto i loro crediti e debiti alla cancelleria della pretura entro il termine indicato nella grida [3].  \n- Il pretore redige l’inventario includendo i crediti e i debiti da iscrivere d’ufficio ai sensi dell’art. 583 CC [5].\n\n*Informazione giuridica, non consulenza legale.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 12,
+    "raw_chars": 3271,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "CC Art. 583"
+    ],
+    "revised": true,
+    "notes": [
+     "Le fonti cantonali [3][4] trattano procedure di inventario e pubblicazione della grida, non modificano le quote ereditarie del coniuge superstite. Le quote sono regolate esclusivamente dal diritto federale (art. 462 CC).",
+     "Nessuna fonte citata per questo passaggio."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 10,
+    "raw_chars": 2657,
+    "unreadable": false,
+    "issues": 2,
+    "added": [
+     "CC Art. 580"
+    ],
+    "revised": true,
+    "notes": [
+     "Nessuna fonte cita che le quote federali non si applichino nel Ticino; le fonti cantonali trattano procedure, non quote ereditarie."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2269,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "nessuna fonte citata per questa affermazione procedurale"
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 2,
+  "claims_checked": 31,
+  "sources": [
+   "[1] fed CC Art. 462",
+   "[2] fed CC Art. 471",
+   "[3] can TI 211.100 Art. 92146",
+   "[4] can TI 211.100 Art. 93",
+   "[5] fed CC Art. 583",
+   "[6] fed CC Art. 580"
+  ]
+ },
+ {
+  "id": "T055",
+  "lang": "de",
+  "loc": "3011 Bern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 4,
+  "total_s": 98.9,
+  "plan_s": 7.6,
+  "ttft_s": null,
+  "words": 263,
+  "citations": 9,
+  "invalid": 0,
+  "unsupported": 1,
+  "unsupported_list": [
+   "Art. 4"
+  ],
+  "prose_left": 0,
+  "repaired": 2,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nFür ein volljähriges Kind müssen Sie Unterhalt zahlen, solange es noch keine angemessene Ausbildung abgeschlossen hat und Ihnen die Weiterzahlung nach den gesamten Umständen zumutbar ist [1]. Die Unterhaltspflicht endet grundsätzlich mit der Volljährigkeit, kann jedoch bis zum ordentlichen Abschluss einer Ausbildung fortbestehen [1].\n\n## Bund  \n- Die Unterhaltspflicht der Eltern dauert grundsätzlich bis zur Volljährigkeit des Kindes [1].  \n- Hat das volljährige Kind noch keine angemessene Ausbildung, so haben die Eltern, soweit es ihnen nach den gesamten Umständen zugemutet werden darf, für seinen Unterhalt aufzukommen, bis eine entsprechende Ausbildung ordentlicherweise abgeschlossen werden kann [1].  \n- Der Unterhalt wird durch Pflege, Erziehung und Geldzahlung geleistet; die Eltern sorgen gemeinsam nach ihren Kräften für den gebührenden Unterhalt des Kindes, insbesondere für Kosten von Betreuung, Erziehung, Ausbildung und Kindesschutzmassnahmen [2].\n\n## Kanton Bern  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Bern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDer Bund legt den Rahmen der Unterhaltspflicht fest [2]. Der Kanton Bern regelt die Inkassohilfe und die Zuständigkeit der Gemeinden für die Inkassohilfe; die Gemeinden vollziehen diese kantonalen Bestimmungen. Art. 49 BV bestimmt, dass Bundesrecht kantonalem Recht vorgeht.\n\n## Nächste Schritte  \n- Prüfen Sie, ob Ihr volljähriges Kind noch in Ausbildung ist und ob Ihnen die Weiterzahlung des Unterhalts nach den gesamten Umständen zumutbar ist [1].  \n- Beantragen Sie bei der Gemeinde am zivilrechtlichen Wohnsitz des Kindes Inkassohilfe; die Gemeinde ist für diese kantonale Leistung zuständig [4].  \n- Reichen Sie auf Aufforderung der zuständigen Gemeindebehörde die Unterlagen gemäss Art. 4 der kantonalen Verordnung ein, wenn Sie eine Weiterführung der Inkassohilfe beantragen [3].\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 6,
+    "raw_chars": 2400,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt die Gemeinde als zuständige Stelle für die Vollstreckung der Unterhaltspflicht; Art. 277 ZGB regelt die Unterhaltspflicht selbst, nicht die Vollstreckung durch die Gemeinde. Kantonale Inkassohilfe betrifft die Vollstreckung bevorschusster oder eingezogener Beiträge, nicht die zivilrechtliche Unterhaltspflicht selbst."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 2917,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt die Gemeinde als zuständige Stelle für Inkassohilfe oder Bevorschussung von Unterhaltsbeiträgen; Art. 4 des kantonalen Gesetzes (Quelle 4) regelt die Zuständigkeit der Gemeinde nur für die Inkassohilfe, nicht für die Bevorschussung, und verweist auf kantonale Bestimmungen, die nicht zitiert sind."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2216,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": []
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed ZGB Art. 277",
+   "[2] fed ZGB Art. 276",
+   "[3] can BE 213.221 Art. 17",
+   "[4] can BE 213.22 Art. 1"
+  ]
+ },
+ {
+  "id": "T056",
+  "lang": "fr",
+  "loc": "1204 Genève",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 73.2,
+  "plan_s": 9.6,
+  "ttft_s": null,
+  "words": 509,
+  "citations": 19,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 6,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nPour divorcer à l'amiable, les époux doivent déposer une requête commune accompagnée soit d'une convention complète réglant tous les effets du divorce (régime matrimonial, garde des enfants, contributions d'entretien, partage de la prévoyance professionnelle) [2], soit d'un accord partiel confiant au juge le règlement des effets restants [1]. Le juge entend séparément et ensemble les époux, vérifie que la requête et la convention ont été déposées après mûre réflexion et de plein gré, puis prononce le divorce [2] ou fixe les effets à régler [1]. Le partage de la prévoyance professionnelle peut être modifié pour équité selon l'art. 124b CC [3].\n\n## Confédération  \n- **Art. 111 CC [2]** : les époux produisent une convention complète sur tous les effets du divorce, accompagnée des documents nécessaires et des conclusions communes concernant les enfants. Le juge les entend séparément et ensemble, s’assure que la requête et la convention ont été déposées après mûre réflexion et de plein gré, puis prononce le divorce.  \n- **Art. 112 CC [1]** : les époux peuvent demander le divorce par une requête commune et charger le juge de régler les effets sur lesquels subsiste un désaccord. Ils sont entendus comme en cas d’accord complet sur leur volonté de divorcer, sur les effets convenus et sur leur décision de faire régler les autres effets par le juge.  \n- **Art. 124b CC [3]** : dans la convention, les époux peuvent s’écarter du partage par moitié ou y renoncer, à condition qu’une prévoyance vieillesse et invalidité adéquate reste assurée. Le juge attribue moins ou plus de la moitié de la prestation de sortie pour de justes motifs (situation économique, besoins de prévoyance, différence d’âge, prise en charge d’enfants, etc.).\n\n## Canton de Genève  \n- Aucune règle cantonale spécifique relative aux conditions ou à la procédure du divorce par consentement mutuel n’a été trouvée dans les sources fournies [4][5][6].\n\n## Commune de Genève  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe les conditions générales du divorce par consentement mutuel [2], tandis que le canton de Genève ne prévoit pas, dans les documents fournis, de disposition complémentaire à appliquer ; la procédure s’applique donc directement selon le Code civil fédéral.\n\n## Prochaines étapes  \n1. Rédiger une convention complète sur tous les effets du divorce ou, à défaut, une convention partielle confiant au juge les points litigieux [2][1].  \n2. Rassembler les documents requis (actes d’état civil, attestations de prévoyance professionnelle, etc.) et les conclusions communes concernant les enfants [2].  \n3. Déposer la requête commune et la convention auprès du Tribunal civil de Genève, en indiquant les conclusions communes relatives aux enfants [2].  \n4. Se présenter aux audiences d’audition séparée et conjointe fixées par le juge [2].  \n5. Si le juge constate que la convention peut être ratifiée et que la volonté de divorcer est libre et réfléchie, il prononce le divorce [2].  \n6. En cas de désaccord sur le partage de la prévoyance, préparer les arguments et pièces justificatives pour une éventuelle attribution inéquitable selon l’art. 124b CC [3].  \n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 3,
+    "raw_chars": 985,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 5,
+    "raw_chars": 1262,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 5,
+    "raw_chars": 1262,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 1,
+  "sources_added": 0,
+  "claims_checked": 13,
+  "sources": [
+   "[1] fed CC Art. 112",
+   "[2] fed CC Art. 111",
+   "[3] fed CC Art. 124b",
+   "[4] can GE E 2 05.04 Art. 1",
+   "[5] can GE E 2 05.04 Art. 2",
+   "[6] can GE E 2 05.04 Art. 3"
+  ]
+ },
+ {
+  "id": "T057",
+  "lang": "de",
+  "loc": "4051 Basel",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 6,
+  "total_s": 130.4,
+  "plan_s": 8.5,
+  "ttft_s": null,
+  "words": 451,
+  "citations": 12,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 11,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nNach Bundesrecht (ZGB) gilt grundsätzlich die gemeinsame elterliche Sorge beider Eltern, solange das Kind minderjährig ist [4]. Im Scheidungsverfahren entscheidet das Gericht über die Zuteilung der elterlichen Sorge, der Obhut, des persönlichen Verkehrs und des Unterhalts; dabei beachtet es das Kindeswohl, einen gemeinsamen Antrag der Eltern und, soweit tunlich, die Meinung des Kindes [1]. Das Gericht kann die alleinige elterliche Sorge einem Elternteil übertragen, wenn dies zur Wahrung des Kindeswohls nötig ist [2], oder bei gemeinsamer elterlicher Sorge die Möglichkeit einer alternierenden Obhut prüfen, wenn ein Elternteil oder das Kind dies verlangt [2ter]. Änderungen sind auf Antrag eines Elternteils, des Kindes oder von Amtes wegen durch die Kindesschutzbehörde möglich, wenn wesentliche Verhältnisse geändert haben [3]. Die kantonalen und kommunalen Quellen enthalten keine zusätzlichen Sorgerechtsregeln für Scheidungen.\n\n## Bund  \n- Grundsatz: Gemeinsame elterliche Sorge von Vater und Mutter, solange das Kind minderjährig ist [4].  \n- Scheidungsverfahren: Das Gericht regelt die Elternrechte und -pflichten, insbesondere die elterliche Sorge, die Obhut, den persönlichen Verkehr und den Unterhalt nach den Bestimmungen über die Wirkungen des Kindesverhältnisses [1].  \n- Voraussetzungen für alleinige Sorge: Das Gericht überträgt einem Elternteil die alleinige elterliche Sorge, wenn dies zur Wahrung des Kindeswohls nötig ist [2].  \n- Gemeinsame elterliche Sorge: Bei gemeinsamer elterlicher Sorge prüft das Gericht im Sinne des Kindeswohls die Möglichkeit einer alternierenden Obhut, wenn ein Elternteil oder das Kind dies verlangt [2ter].  \n- Änderungen: Auf Begehren eines Elternteils, des Kindes oder von Amtes wegen regelt die Kindesschutzbehörde die Zuteilung der elterlichen Sorge neu, wenn wesentliche Änderungen der Verhältnisse dies zur Wahrung des Kindeswohls nötig machen [3]. Vorbehalten bleibt die Klage auf Änderung des Unterhaltsbeitrags an das zuständige Gericht; in diesem Fall regelt das Gericht nötigenfalls die elterliche Sorge sowie die weiteren Kinderbelange neu [3].\n\n## Kanton Basel-Stadt  \nKeine einschlägige Quelle abgerufen.\n\n## Gemeinde Basel  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nKanton und Gemeinde ergänzen das Bundesrecht nicht; das Bundesrecht (ZGB) regelt die Grundsätze und Verfahren für die elterliche Sorge nach Scheidung direkt. Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte  \n- Einreichen eines Scheidungsbegehrens beim zuständigen Zivilgericht des Kantons Basel-Stadt (keine in den vorliegenden Quellen genannte Einreichungsfrist; richtet sich nach kantonaler Zivilprozessordnung).  \n- Bei Streit über elterliche Sorge, Obhut oder Betreuungsanteile: Antrag auf Regelung im Scheidungsverfahren oder, nach wesentlicher Veränderung der Verhältnisse, Antrag bei der Kindesschutzbehörde des Kantons Basel-Stadt auf Neubeurteilung [3].  \n- Bei gemeinsamem Antrag der Eltern: Gericht berücksichtigt diesen bei der Entscheidung über die elterliche Sorge und die weiteren Kinderbelange [1][2].  \n- Bei Wunsch nach alternierender Obhut: Antrag auf Prüfung dieser Möglichkeit im Scheidungsverfahren oder bei der Kindesschutzbehörde [2ter].  \n- Keine kantonalen Gebühren für die Sorgerechtsregelung im Scheidungsverfahren sind in den vorliegenden Quellen genannt.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 8,
+    "raw_chars": 2695,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine Einreichungsfrist für das Scheidungsbegehren; die Angabe einer 'keine gesetzliche Frist' ist eine eigene Behauptung ohne Nachweis in den Quellen."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 8,
+    "raw_chars": 2641,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine Einreichungsfrist für das Scheidungsbegehren; die Angabe einer fehlenden Quelle macht die Aussage nicht stichhaltig.",
+     "Die Quellen enthalten keine Informationen zu Gebühren; die Aussage ist nicht verifizierbar."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 7,
+    "raw_chars": 2595,
+    "unreadable": false,
+    "issues": 2,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Keine Quelle nennt eine Einreichungsfrist für das Scheidungsbegehren; die Angabe einer fehlenden Quelle macht die Aussage nicht faktisch korrekt.",
+     "Die Quellen enthalten keine Informationen zu Gebühren; die Aussage impliziert eine faktische Aussage über Nichtvorhandensein, die ohne Quelle nicht verifiziert werden kann."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 23,
+  "sources": [
+   "[1] fed ZGB Art. 133",
+   "[2] fed ZGB Art. 298",
+   "[3] fed ZGB Art. 298d",
+   "[4] fed ZGB Art. 296",
+   "[5] can BS 172.200 § 6",
+   "[6] can BS BaB 172.200 § 6"
+  ]
+ },
+ {
+  "id": "T058",
+  "lang": "fr",
+  "loc": "1950 Sion",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 79.0,
+  "plan_s": 5.7,
+  "ttft_s": null,
+  "words": 193,
+  "citations": 4,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Réponse courte  \nSelon le Code civil suisse, l’âge minimum pour se marier est de 18 ans révolus [1]. Les sources cantonales et communales fournies [2][3] ne contiennent aucune disposition relative à une dérogation à cette règle ou à la procédure d’exception.\n\n## Confédération  \n- L’âge minimum pour contracter mariage est de 18 ans révolus [1].\n\n## Canton de Valais  \nAucune source pertinente récupérée.\n\n## Commune de Sion  \nAucune source pertinente récupérée.\n\n## Articulation des niveaux  \nLe droit fédéral fixe l’âge minimum à 18 ans et les textes cantonaux et communaux fournis ne prévoient aucune dérogation à cette règle; la loi fédérale prime (art. 49 Cst.).\n\n## Prochaines étapes  \n- Pour se marier à l’âge minimum légal de 18 ans, il convient de se conformer aux exigences cantonales de publication des bans et de célébration, qui ne sont pas détaillées dans les sources fournies.  \n- Les sources ne permettent pas d’identifier l’autorité cantonale compétente pour une éventuelle exception d’âge ni la procédure de consultation du service cantonal de la jeunesse.  \n- Aucun délai, frais ou document spécifique n’est indiqué dans les sources pour une procédure d’exception d’âge.  \n\n*Information juridique, pas un conseil juridique.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 3440,
+    "unreadable": false,
+    "issues": 6,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Les sources cantonales [2] et [3] traitent de placement d'enfants et de dérivation/comblement de sources, et ne contiennent aucune disposition relative à l'âge du mariage ou à une dérogation à l'art. 94 CC.",
+     "Des sources cantonales ont été fournies ([2] et [3]), mais elles ne sont pas pertinentes pour la question de l'âge du mariage.",
+     "Des sources cantonales ont été fournies ([2] et [3]), mais elles ne sont pas pertinentes pour la question de l'âge du mariage.",
+     "Des sources cantonales ont été fournies ([2] et [3]), mais elles ne sont pas pertinentes pour la question de l'âge du mariage."
+    ]
+   },
+   {
+    "round": 2,
+    "claims": 6,
+    "raw_chars": 2610,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La phrase affirme qu'aucune source cantonale pertinente n'existe, mais les sources [2] et [3] existent et sont fournies, même si elles ne traitent pas du mariage.",
+     "Les sources fournies ne contiennent pas d'information sur les exigences cantonales de publication des bans ou de célébration, donc l'affirmation ne peut pas être vérifiée comme vraie ou fausse sur la base des sources. De plus, l'affirmation suppose l'existence de telles exigences cantonales sans preuve.",
+     "Les sources fournies ne mentionnent pas l'autorité compétente pour une exception d'âge, ni le processus de consultation du service cantonal de la jeunesse."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 6,
+    "raw_chars": 2275,
+    "unreadable": false,
+    "issues": 3,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "La phrase affirme qu'aucune source pertinente n'a été récupérée, mais des sources cantonales ont été fournies (2 et 3), même si elles ne portent pas sur l'âge du mariage.",
+     "Les sources fournies ne contiennent pas d'information sur les exigences cantonales de publication des bans ou de célébration.",
+     "Les sources fournies ne contiennent pas d'information sur les autorités compétentes ou les procédures d'exception."
+    ]
+   }
+  ],
+  "revisions": 3,
+  "sources_added": 0,
+  "claims_checked": 21,
+  "sources": [
+   "[1] fed CC Art. 94",
+   "[2] can VS 211.1 Art. 25",
+   "[3] can VS 211.1 Art. 160"
+  ]
+ },
+ {
+  "id": "T059",
+  "lang": "de",
+  "loc": "7000 Chur",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 13,
+  "total_s": 113.1,
+  "plan_s": 4.7,
+  "ttft_s": null,
+  "words": 560,
+  "citations": 37,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 0,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort\nUm das Kind Ihres Partners zu adoptieren, müssen Sie und Ihr Partner entweder verheiratet sein, in eingetragener Partnerschaft leben oder seit mindestens drei Jahren eine faktische Lebensgemeinschaft führen [6]; beide müssen mindestens 28 Jahre alt sein [1], wobei vom Mindestalter abgewichen werden kann, wenn dies dem Kindeswohl dient [1]. Sie benötigen die Zustimmung der leiblichen Eltern des Kindes [2], die Zustimmung des urteilsfähigen Kindes selbst [3] sowie die Zustimmung der Kindes- und Erwachsenenschutzbehörde, falls das Kind bevormundet ist [3]. Das schriftliche Gesuch ist bei der Kindes- und Erwachsenenschutzbehörde am Wohnsitz der Adoptiveltern einzureichen [7]. Die kantonale Behörde entscheidet über die Adoption [10]; die Entscheidgebühr beträgt 500 bis 30 000 CHF und ist von den Adoptionswilligen zu tragen [11].\n\n## Bund\n- Ehegatten dürfen ein Kind gemeinschaftlich adoptieren, wenn sie seit mindestens drei Jahren einen gemeinsamen Haushalt führen und beide mindestens 28 Jahre alt sind [1]; vom Mindestalter kann abgewichen werden, wenn dies zur Wahrung des Kindeswohls nötig ist [1].\n- Die Adoption bedarf der Zustimmung des Vaters und der Mutter des Kindes [2]; diese ist bei der Kindesschutzbehörde mündlich oder schriftlich zu erklären und im Protokoll vorzumerken [2].\n- Ist das Kind urteilsfähig, so bedarf die Adoption seiner Zustimmung [3]; ist es bevormundet oder verbeiständet, so kann die Adoption nur mit Zustimmung der Kindesschutzbehörde erfolgen, auch wenn das Kind urteilsfähig ist [3].\n- Ein minderjähriges Kind darf adoptiert werden, wenn die adoptionswilligen Personen während mindestens eines Jahres für Pflege und Erziehung gesorgt haben und die Begründung des Kindesverhältnisses dem Wohl des Kindes dient, ohne andere Kinder der Adoptiveltern in unbilliger Weise zurückzusetzen [4].\n- Die Adoption wird von der zuständigen kantonalen Behörde am Wohnsitz der Adoptiveltern ausgesprochen [5]; die Adoptionsvoraussetzungen müssen bereits bei der Einreichung des Gesuchs erfüllt sein [5].\n\n## Kanton Graubünden\n- Das schriftliche Adoptionsgesuch ist zusammen mit den erforderlichen Unterlagen bei der Kindes- und Erwachsenenschutzbehörde am Wohnsitz der adoptionswilligen Personen einzureichen [7].\n- Die Kindes- und Erwachsenenschutzbehörde entscheidet über die Adoption [10]; sie kann geeignete Stellen mit Abklärungen beauftragen [10].\n- Die Entscheidgebühr für Adoptionsverfahren beträgt 500 bis 30 000 CHF und ist von den adoptionswilligen Personen zu tragen [11].\n- Im Kindesschutzverfahren fällt die Antragstellung auf Neuregelung der elterlichen Sorge in die Einzelzuständigkeit des instruierenden Behördenmitglieds [9].\n\n## Gemeinde Chur\n- Der Stadtrat kann Ausnahmen von suchtmittelfreien Zonen bewilligen oder delegieren [12]; Hunde dürfen in städtischen Verwaltungsgebäuden, auf Schulhaus- und Kindergartenarealen, Kinderspielplätzen, Sportanlagen, in öffentlichen Park- und Gartenanlagen sowie in Wildruhezonen nur an der Leine geführt werden [13]; diese Bestimmungen betreffen die Hundehaltung und sind für das Adoptionsverfahren nicht einschlägig.\n\n## Zusammenspiel der Ebenen\nDer Bund regelt die materiellen Voraussetzungen der Adoption (Alter, Haushaltsdauer, Zustimmungen, Wohl des Kindes) [1][2][3][4][5]. Der Kanton Graubünden konkretisiert das Verfahren, bestimmt die zuständige Behörde (Kindes- und Erwachsenenschutzbehörde) und legt die Entscheidgebühr fest [7][10][11]. Die Gemeinde Chur hat in den vorliegenden Quellen keine spezifischen zusätzlichen Adoptionsregeln erlassen; das Bundesrecht geht vor, Art. 49 BV.\n\n## Nächste Schritte\n- Einreichen eines schriftlichen Adoptionsgesuchs bei der Kindes- und Erwachsenenschutzbehörde am Wohnsitz der Adoptiveltern, zusammen mit allen erforderlichen Unterlagen [7].\n- Einholen und einreichen der schriftlichen oder protokollierten Zustimmung der leiblichen Eltern bei der Kindesschutzbehörde [2].\n- Einholen der Zustimmung des urteilsfähigen Kindes sowie, falls nötig, der Zustimmung der Kindesschutzbehörde für ein bevormundetes Kind [3].\n- Bezahlen der Entscheidgebühr von 500 bis 30 000 CHF nach Rechnungstellung der Behörde [11].\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 9,
+    "raw_chars": 2210,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 12,
+    "raw_chars": 3054,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 3,
+    "claims": 9,
+    "raw_chars": 2110,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 30,
+  "sources": [
+   "[1] fed ZGB Art. 264a",
+   "[2] fed ZGB Art. 265a",
+   "[3] fed ZGB Art. 265",
+   "[4] fed ZGB Art. 264",
+   "[5] fed ZGB Art. 268",
+   "[6] fed ZGB Art. 264c",
+   "[7] can GR 215.020 Art. 2",
+   "[8] can GR 210.100 Art. 63a",
+   "[9] can GR 210.100 Art. 59b",
+   "[10] can GR 210.100 Art. 36",
+   "[11] can GR 215.020 Art. 4",
+   "[12] com Chur: Polizeigesetz der Stadt Chur (PG) Art. 16",
+   "[13] com Chur: Polizeigesetz der Stadt Chur (PG) Art. 21"
+  ]
+ },
+ {
+  "id": "T060",
+  "lang": "de",
+  "loc": "6003 Luzern",
+  "error": "",
+  "planner_ok": true,
+  "n_sources": 3,
+  "total_s": 61.0,
+  "plan_s": 5.4,
+  "ttft_s": null,
+  "words": 188,
+  "citations": 8,
+  "invalid": 0,
+  "unsupported": 0,
+  "unsupported_list": [],
+  "prose_left": 0,
+  "repaired": 1,
+  "gold_cited": false,
+  "lang_ok": true,
+  "headings_ok": true,
+  "disclaimer_ok": true,
+  "answer": "## Kurzantwort  \nJa. Ein Ehevertrag muss öffentlich beurkundet werden [1]. Die öffentliche Beurkundung erfordert die persönliche Anwesenheit und Unterzeichnung durch die vertragsschliessenden Ehepartner sowie gegebenenfalls durch deren gesetzlichen Vertreter [1].\n\n## Bund  \n- Nach Art. 184 ZGB ist die öffentliche Beurkundung für einen Ehevertrag zwingend vorgeschrieben [1].  \n- Die öffentliche Beurkundung verlangt die Unterzeichnung durch die vertragsschliessenden Personen sowie gegebenenfalls durch deren gesetzlichen Vertreter [1].\n\n## Kanton Luzern  \nKeine einschlägige Quelle abgerufen, die die Zuständigkeit für die Beurkundung eines Ehevertrags explizit regelt.\n\n## Gemeinde Luzern  \nKeine einschlägige Quelle abgerufen.\n\n## Zusammenspiel der Ebenen  \nDer Bund schreibt die öffentliche Beurkundung als Formvorschrift vor [1]; kantonale oder kommunale Bestimmungen zur Zuständigkeit und Durchführung der Beurkundung sind nicht in den vorliegenden Quellen enthalten. Art. 49 BV bestimmt, dass Bundesrecht dem kantonalen Recht vorgeht.\n\n## Nächste Schritte  \n- Ehepartner vereinbaren einen Termin beim zuständigen Zivilstandsamt ihrer Wohngemeinde [1].  \n- Bei gesetzlicher Vertretung muss der gesetzliche Vertreter ebenfalls anwesend sein und den Vertrag unterzeichnen [1].  \n- Die Beurkundung erfolgt durch die Zivilstandsbeamtin oder den Zivilstandsbeamten des Zivilstandsamtes [3].  \n- Die Quellen nennen keine konkreten Gebühren oder Fristen für die Beurkundung.\n\n*Rechtsinformation, keine Rechtsberatung.*",
+  "verification": [
+   {
+    "round": 1,
+    "claims": 5,
+    "raw_chars": 1200,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": true,
+    "notes": []
+   },
+   {
+    "round": 2,
+    "claims": 7,
+    "raw_chars": 1929,
+    "unreadable": false,
+    "issues": 1,
+    "added": [],
+    "revised": true,
+    "notes": [
+     "Quelle § 15 LU 200 regelt die Leitung des Zivilstandsamtes, nicht die Zuständigkeit für die Beurkundung eines Ehevertrags."
+    ]
+   },
+   {
+    "round": 3,
+    "claims": 8,
+    "raw_chars": 1967,
+    "unreadable": false,
+    "issues": 0,
+    "added": [],
+    "revised": false,
+    "notes": []
+   }
+  ],
+  "revisions": 2,
+  "sources_added": 0,
+  "claims_checked": 20,
+  "sources": [
+   "[1] fed ZGB Art. 184",
+   "[2] can LU 200 § 28",
+   "[3] can LU 200 § 15"
+  ]
+ }
+]
