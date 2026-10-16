@@ -119,13 +119,16 @@ def pick_articles(question, loaded, fallback_terms, topup=True):
     by_label = {norm(label(t, a)): (t, a) for t, a in items}
     listing = "\n".join(f"[{label(t, a)}] {_heading(a)}" for t, a in items)
     chosen = []
+    answered = False  # did Apertus give a usable verdict (possibly "none of them")?
     try:
         raw = apertus.chat([{"role": "user", "content": ARTICLE_PROMPT.format(
             question=question, listing=listing[:24000], n=MAX_ARTICLES, example=label(*items[0]))}],
-            temperature=0.0, max_tokens=120)
-        picks = _json(raw, [])
+            temperature=0.0, max_tokens=200)
+        picks = _json(raw, None)
         if not isinstance(picks, list):
             picks = re.findall(r'"([^"]+)"', raw)
+        else:
+            answered = True
         for p in picks:
             if isinstance(p, str):
                 hit = by_label.get(norm(p))
@@ -133,9 +136,12 @@ def pick_articles(question, loaded, fallback_terms, topup=True):
                 hit = items[p - 1] if isinstance(p, int) and 1 <= p <= len(items) else None
             if hit and hit not in chosen:
                 chosen.append(hit)
+        answered = answered and (bool(chosen) or not picks)
     except apertus.ApertusError:
         pass
-    if topup and len(chosen) < MAX_ARTICLES:  # top up with keyword ranking
+    # Keyword top-up only when the model failed. When it read the headings and chose few (or none), padding
+    # with keyword hits put unrelated cantonal provisions into answers (Opferhilfe for a slap, river law for damage).
+    if topup and not answered and len(chosen) < MAX_ARTICLES:  # top up with keyword ranking
         have = {id(a) for _, a in chosen}
         pool = []
         for tol, arts in loaded:
@@ -188,15 +194,20 @@ def pick_federal(question, candidates, n=8):
             example=label(candidates[0][0], candidates[0][2]))}], temperature=0.0, max_tokens=160)
     except apertus.ApertusError:
         return None
-    picks = _json(raw, [])
+    picks = _json(raw, None)
     if not isinstance(picks, list):
         picks = re.findall(r'"([^"]+)"', raw)
+        if not picks:
+            return None  # unreadable reply: the caller falls back to keyword ranking
     chosen = []
     for p in picks:
         hit = by_label.get(re.sub(r"[\s.]+", "", str(p)).lower())
         if hit and hit not in chosen:
             chosen.append(hit)
-    return chosen[:n] or None
+    if picks and not chosen:
+        return None  # labels didn't match anything: treat as a failed pick, not as "nothing relevant"
+    # [] is a verdict ("none of these answers it"), not a failure: keyword hits would only add noise.
+    return chosen[:n]
 
 
 def _artno(number):

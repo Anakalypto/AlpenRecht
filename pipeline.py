@@ -24,7 +24,7 @@ Return ONLY a JSON object, no prose:
   "clarified_question": "the question rewritten as a complete, unambiguous legal question in its own language, expanding abbreviations and fixing typos (e.g. 'permis c' -> 'Quelle est la procédure pour obtenir l'autorisation d'établissement (permis C) ?')",
   "topic": "3-6 word topic in the question's language",
   "levels": {{"federal": true/false, "cantonal": true/false, "communal": true/false}},
-  "federal_refs": [{{"sr": "SR number of a relevant federal act, e.g. 220", "articles": ["at most 4 article numbers in THAT act that answer the question, e.g. 266c"]}}],
+  "federal_refs": [{{"sr": "<SR number of a relevant federal act>", "articles": ["<at most 4 article numbers in THAT act that answer THIS question>"]}}],
   "federal_title_terms": ["1-3 SINGLE words in {fed_lang} that appear in titles of relevant federal acts"],
   "federal_keywords": ["5-10 SINGLE words in {fed_lang} likely to appear in the relevant federal article texts"],
   "cantonal_title_terms": ["1-3 SINGLE words in {can_lang} that appear in titles of relevant cantonal laws of {canton}"],
@@ -117,12 +117,16 @@ ANSWER_PROMPT = """Rules:
   fast e-bikes, joint adoption) is not presented as the general rule.
 - When the rule differs by situation (EU/EFTA vs other nationals, tenant vs owner, employee vs employer, private
   person vs public body, Swiss vs foreign licence), give each relevant case in one short bullet.
-- Every CANTONAL or COMMUNAL source in the list was selected as relevant: use it under its level heading with its
-  concrete content (amounts, times, conditions). Write "{none}" for a level only when no source of that level is listed.
+- Use a CANTONAL or COMMUNAL source under its level heading, with its concrete content (amounts, times, conditions),
+  only if it states a rule for THIS question. A cantonal or communal provision on another matter (police rules on
+  fires or posters for a permit question, a fee tariff for another kind of permit, public-staff rules for a private
+  employee) is off-topic: skip it and write "{none}" for that level.
 - If the question was short or ambiguous (see "Understood as"), begin the short answer with one clause saying how you
   understood it (e.g. "Assuming you mean the settlement permit C, …").
 - If the sources do not cover something important, say so in one sentence and name where it would be regulated.
-- Hard limit: 380 words. No filler; when space is short, keep figures and conditions, drop background.
+- "{h_next}": only steps a source supports (authority, form, deadline, fee from a cited source). If the sources
+  name no authority or deadline, give one bullet saying which authority to ask, without any figure.
+- Hard limit: 330 words. No filler; when space is short, keep figures and conditions, drop background.
 - Use exactly these markdown headings:
   ## {h_short}   (2-4 sentences: the direct, concrete answer with the key figures and conditions)
   ## {h_fed}   (bullets: each concrete federal rule with its figures/conditions)
@@ -136,7 +140,6 @@ ANSWER_PROMPT = """Rules:
 - Legal state as of {asof}. End with this italic line: *{disclaimer}*
 
 Location: {location_line}
-Planner's note on competence: {competence}
 
 SOURCES
 {sources}
@@ -423,13 +426,18 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             candidates += mine[:35]
         pool.sort(key=lambda a: -a["score"])
         picked = lexfind_agent.pick_federal(search_q, candidates, n=TOTAL_FED)
-        if picked:
+        if picked is not None:
             chosen = [dict(a, act=act, version=v) for act, v, a in picked]
             # Articles the planner named from memory stay in too (the picker skipped OCR art. 3b "Port du casque"
-            # for a helmet question); the relevance filter drops them if they are off-topic.
+            # for a helmet question), but only from an act the picker found relevant: a remembered OR art. 266c
+            # used to ride along into permit, tax and data-protection answers.
             have = {(c["act"]["sr"], c["anchor"]) for c in chosen}
-            chosen += [a for a in pool if a["score"] >= 100 and (a["act"]["sr"], a["anchor"]) not in have][:3]
-        else:
+            picked_acts = {c["act"]["sr"] for c in chosen}
+            chosen += [a for a in pool if a["score"] >= 100 and a["act"]["sr"] in picked_acts
+                       and (a["act"]["sr"], a["anchor"]) not in have][:3]
+            if not chosen:  # the picker found nothing on topic: keep only what the planner named exactly
+                chosen = [a for a in pool if a["score"] >= 100][:3]
+        else:  # model unavailable: keyword ranking
             chosen = pool
         for art in chosen[:TOTAL_FED]:
             evidence.append(verify.federal_evidence(art["act"], art["version"], art))
@@ -479,7 +487,9 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             ai_hits = {sources.fold(q).strip("*") for q in ai_queries}
             on_topic = [t for t in tols if _text_rank(t, stems) > -100
                         or any(h and h in sources.fold(t["title"]) for h in ai_hits)]
-            tols = lexfind_agent.pick_acts(search_q, location["canton_name"], on_topic[:25]) or tols[:MAX_CAN_TEXTS]
+            # No on-topic act means the canton has nothing on this: loading the off-topic hits anyway made the
+            # answer cite unrelated cantonal law under the canton heading.
+            tols = lexfind_agent.pick_acts(search_q, location["canton_name"], on_topic[:25]) or on_topic[:MAX_CAN_TEXTS]
             loaded = sources.parallel(lambda t: (t, sources.lexfind_articles(t, can_lang)), tols)
             library += [{"kind": "cantonal", "tol": t, "arts": arts, "canton": canton, "lang": can_lang} for t, arts in loaded]
             picked = lexfind_agent.pick_articles(search_q, loaded, terms)
@@ -550,7 +560,7 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
 
     def write(extra=""):
         raw = apertus.chat([{"role": "system", "content": ANSWER_SYSTEM},
-                            {"role": "user", "content": answer_prompt() + extra}], temperature=0.2, max_tokens=1600)
+                            {"role": "user", "content": answer_prompt() + extra}], temperature=0.2, max_tokens=2200)
         return checks.repair(raw, evidence)
 
     # Only the provisions that answer this question go into the answer (the UI still lists everything retrieved).
@@ -585,14 +595,8 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             answer_ev += [e for e in added if e not in answer_ev]  # in-place: the rewrite sees new sources too
             det = checks.check(text, evidence)
             todo = verify.findings(det, report, added, first_round=(r == 1))
-            # A level whose sources are all left uncited ("no relevant source" next to a listed regulation).
-            cited = set(det["cited_ids"])
-            for level, head in (("cantonal", h[2].format(canton=canton_name)), ("communal", h[3].format(commune=commune_name))):
-                ids = [e["id"] for e in answer_ev if e["level"] == level]
-                if ids and not cited & set(ids):
-                    todo += (f"\n- Sources {', '.join(f'[{n}]' for n in ids)} are {level} provisions on this question but "
-                             f"are not used: under \"{head}\" state their concrete content (figures, conditions) and cite them, "
-                             f"unless they clearly concern another subject.")
+            # (A former nudge told the writer to use every uncited cantonal/communal source. It pushed unrelated
+            # police and fee regulations into answers; the fact-checker's "ignored_sources" covers real omissions.)
             revised = False
             if todo:
                 text, fixed = write(verify.REVISE_SUFFIX.format(draft=text, findings=todo))
@@ -603,6 +607,12 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
                            "issues": len(report["issues"]) + len(det["unsupported_articles"]) + len(det["invalid_citations"]),
                            "added": [f"{e['law']} {e['number']}" for e in added],
                            "revised": revised, "notes": [i["problem"] for i in report["issues"]][:4]})
+            if not revised:
+                # A clean round won't change in the next one either: stop (saves ~20 s per skipped round).
+                if added:
+                    yield {"type": "sources", "sources": evidence}
+                yield step(key, f"Verification {r}/{VERIFY_ROUNDS}: {rounds[-1]['claims']} claims checked, all supported", "done")
+                break
             if added:
                 yield {"type": "sources", "sources": evidence}
             checked = f"{rounds[-1]['claims']} claims checked"

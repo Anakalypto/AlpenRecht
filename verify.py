@@ -81,17 +81,21 @@ def relevant_sources(question, evidence):
         return evidence
     judged = evidence
     listing = "\n".join(f"[{e['id']}] {e['level'][:3]} {e['law'][:40]} {e['number']} · "
-                        f"{re.sub(r'\s+', ' ', e['text'][len(e['number']):])[:160]}" for e in judged)
+                        f"{re.sub(r'\s+', ' ', e['text'][len(e['number']):])[:320]}" for e in judged)
     try:
         raw = apertus.chat([{"role": "user", "content": RELEVANCE_PROMPT.format(question=question, listing=listing)}],
-                           temperature=0.0, max_tokens=120)
+                           temperature=0.0, max_tokens=200)
     except apertus.ApertusError:
         return evidence
-    m = re.search(r"\[[\d,\s]*\]", raw)
-    keep = {int(x) for x in re.findall(r"\d+", m.group(0))} if m else set()
-    # Each level's first picks are Apertus' own best choices from a reading of the act; the filter (judging only
-    # 160-character snippets) once dropped every federal article on e-scooters, including LCR art. 43 on pavements.
-    top = {e["id"] for lv in ("federal", "cantonal") for e in [x for x in evidence if x["level"] == lv][:2]}
+    # The longest number list is the verdict; a lone "[3]" may just echo the listing style.
+    lists = re.findall(r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]", raw)
+    if not lists:
+        return evidence  # unreadable or cut off: keep everything rather than lose sources
+    keep = {int(x) for x in re.findall(r"\d+", max(lists, key=len))}
+    # The first federal picks are Apertus' own best choices from a reading of the act; the filter once dropped
+    # every federal article on e-scooters, including LCR art. 43 on pavements. Cantonal picks are no longer
+    # protected: off-topic cantonal acts kept this way were the most common padding in graded answers.
+    top = {e["id"] for e in [x for x in evidence if x["level"] == "federal"][:2]}
     kept = [e for e in evidence if e["id"] in keep or e["id"] in top]
     return kept or evidence
 
@@ -101,7 +105,7 @@ def source_block(evidence):
     return "\n\n".join(
         f"[{e['id']}] {e['level'].upper()} · {e['law']}{' (SR ' + e['sr'] + ')' if e['sr'] and e['level'] == 'federal' else ''}"
         f" · {e['number']} · act: {e['title'][:160]}{' · section: ' + e['path'][-160:] if e['path'] else ''}"
-        f" · version {e['version']}\n{e['text'][:1300]}"
+        f" · version {e['version']}\n{e['text'][:2200]}"
         for e in evidence) or "(no sources retrieved)"
 
 
@@ -219,7 +223,7 @@ def _parse_report(raw):
 
 def fact_check(question, text, evidence):
     raw = apertus.chat([{"role": "user", "content": VERIFY_PROMPT.format(
-        question=question, sources=source_block(evidence), answer=text)}], temperature=0.0, max_tokens=1600,
+        question=question, sources=source_block(evidence), answer=text)}], temperature=0.0, max_tokens=2400,
         model=config.VERIFY_MODEL)
     report = _parse_report(raw) or {"claims": [], "unreadable": True}
     if not report.get("claims") and len(text) > 300:
@@ -229,7 +233,7 @@ def fact_check(question, text, evidence):
             {"role": "assistant", "content": raw},
             {"role": "user", "content": "You listed no claims. List EVERY sentence of the answer that states a legal rule, "
                                         "with its verdict, as JSON."}],
-            temperature=0.2, max_tokens=1600, model=config.VERIFY_MODEL)
+            temperature=0.2, max_tokens=2400, model=config.VERIFY_MODEL)
         report = _parse_report(raw) or report
     report["raw_chars"] = len(raw)
     ids = {e["id"] for e in evidence}
