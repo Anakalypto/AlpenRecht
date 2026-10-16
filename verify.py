@@ -81,22 +81,17 @@ def relevant_sources(question, evidence):
         return evidence
     judged = evidence
     listing = "\n".join(f"[{e['id']}] {e['level'][:3]} {e['law'][:40]} {e['number']} · "
-                        f"{re.sub(r'\s+', ' ', e['text'][len(e['number']):])[:320]}" for e in judged)
+                        f"{re.sub(r'\s+', ' ', e['text'][len(e['number']):])[:160]}" for e in judged)
     try:
         raw = apertus.chat([{"role": "user", "content": RELEVANCE_PROMPT.format(question=question, listing=listing)}],
-                           temperature=0.0, max_tokens=200)
+                           temperature=0.0, max_tokens=120)
     except apertus.ApertusError:
         return evidence
-    # The longest number list is the verdict; a lone "[3]" may just echo the listing style. "[]" is a verdict too
-    # (nothing relevant): then only the protected federal picks remain.
-    lists = re.findall(r"\[\s*(?:\d+(?:\s*,\s*\d+)*)?\s*\]", raw)
-    if not lists:
-        return evidence  # unreadable or cut off: keep everything rather than lose sources
-    keep = {int(x) for x in re.findall(r"\d+", max(lists, key=len))}
-    # The first federal picks are Apertus' own best choices from a reading of the act; the filter once dropped
-    # every federal article on e-scooters, including LCR art. 43 on pavements. Cantonal picks are no longer
-    # protected: off-topic cantonal acts kept this way were the most common padding in graded answers.
-    top = {e["id"] for e in [x for x in evidence if x["level"] == "federal"][:2]}
+    m = re.search(r"\[[\d,\s]*\]", raw)
+    keep = {int(x) for x in re.findall(r"\d+", m.group(0))} if m else set()
+    # Each level's first picks are Apertus' own best choices from a reading of the act; the filter (judging only
+    # 160-character snippets) once dropped every federal article on e-scooters, including LCR art. 43 on pavements.
+    top = {e["id"] for lv in ("federal", "cantonal") for e in [x for x in evidence if x["level"] == lv][:2]}
     kept = [e for e in evidence if e["id"] in keep or e["id"] in top]
     return kept or evidence
 

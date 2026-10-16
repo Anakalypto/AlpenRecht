@@ -437,18 +437,13 @@ def run(question, location_text="", asof=None, lang_hint="", upload_ids=()):
             candidates += mine[:35]
         pool.sort(key=lambda a: -a["score"])
         picked = lexfind_agent.pick_federal(search_q, candidates, n=TOTAL_FED)
-        if picked is not None:
+        if picked:
             chosen = [dict(a, act=act, version=v) for act, v, a in picked]
             # Articles the planner named from memory stay in too (the picker skipped OCR art. 3b "Port du casque"
-            # for a helmet question), but only from an act the picker found relevant: a remembered OR art. 266c
-            # used to ride along into permit, tax and data-protection answers.
+            # for a helmet question); the relevance filter drops them if they are off-topic.
             have = {(c["act"]["sr"], c["anchor"]) for c in chosen}
-            picked_acts = {c["act"]["sr"] for c in chosen}
-            chosen += [a for a in pool if a["score"] >= 100 and a["act"]["sr"] in picked_acts
-                       and (a["act"]["sr"], a["anchor"]) not in have][:3]
-            if not chosen:  # the picker found nothing on topic: keep only what the planner named exactly
-                chosen = [a for a in pool if a["score"] >= 100][:3]
-        else:  # model unavailable: keyword ranking
+            chosen += [a for a in pool if a["score"] >= 100 and (a["act"]["sr"], a["anchor"]) not in have][:3]
+        else:
             chosen = pool
         for art in chosen[:TOTAL_FED]:
             evidence.append(verify.federal_evidence(art["act"], art["version"], art))

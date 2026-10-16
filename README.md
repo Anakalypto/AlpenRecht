@@ -6,8 +6,10 @@ rules, retrieved live from official sources and explained with citations by **Ap
 ## Run
 
 ```bash
-cp .env.example .env        # then paste your APERTUS_API_KEY
-.venv/Scripts/python.exe app.py   # http://127.0.0.1:5055
+python -m venv .venv               # Python 3.12 or newer
+.venv/Scripts/python.exe -m pip install -r requirements.txt   # (.venv/bin/python on macOS/Linux)
+cp .env.example .env               # then paste your APERTUS_API_KEY
+.venv/Scripts/python.exe app.py    # http://127.0.0.1:5055
 ```
 
 Defaults target the Hack Apertus CSCS inference endpoint (`https://api.inference.cscs.ch/v1`) with
@@ -24,9 +26,10 @@ question + place + date
    ├─ Apertus (planner) ─── which levels? SR numbers, title/keyword terms per language
    ├─ Fedlex SPARQL ─────── in-force acts → consolidation valid on <date> → per-article HTML
    ├─ LexFind API ───────── cantonal law of that canton (26 collections, one API) → articles
-   ├─ communal docs ─────── uploaded PDF / URL (no central collection exists)
-   ├─ ranking ───────────── stemmed BM25-ish over articles + section breadcrumbs
-   └─ Apertus (answer) ──── streamed, per-level, every claim cited [n] → official source link
+   ├─ communal docs ─────── commune website crawl + readers for the 5 largest cities, uploads (PDF / URL)
+   ├─ case law ──────────── entscheidsuche.ch: Apertus writes the queries, picks ≤ 2 leading cases (BGE)
+   ├─ ranking ───────────── stemmed BM25-ish over articles, annexes and tariff tables + section breadcrumbs
+   └─ Apertus (answer) ──── per level, every claim cited [n] → official source; fact-checked before display
 ```
 
 | File | Role |
@@ -82,9 +85,20 @@ Results:
   Bern's stadtrecht.bern.ch), sites without a linked regulations page, and occasional wrong regulation picks.
   In those cases the app says so and asks for an upload.
 
+## Citations you can check
+
+Hover a citation chip to see the cited article with the sentence that supports the claim highlighted (shared words
+and figures decide the match). Clicking opens the full article in the side panel, scrolled to that sentence.
+
+## Figures (fees, taxes, emoluments)
+
+Amounts usually sit in annexes and tariff tables at the end of a regulation. Fedlex annexes (`<section id="annex_N">`)
+and the Anhang / Annexe / Allegato / Tarif sections of cantonal and communal PDFs are indexed as sources of their own,
+in parts when long, instead of being cut off after the last article.
+
 ## Known limits
 
 - Cantonal law is the current version only. LexFind does have version history, which is a possible next step.
-- Communal law has to be uploaded. A crawler for commune websites is the natural next step.
+- Case law covers published Federal Supreme Court decisions (BGE) with an official headnote only.
 - Article splitting of cantonal PDFs is heuristic (`Art.` / `Article` / `§`).
 - Legal information, not legal advice.

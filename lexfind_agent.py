@@ -198,20 +198,16 @@ def pick_federal(question, candidates, n=8):
             example=label(candidates[0][0], candidates[0][2]))}], temperature=0.0, max_tokens=160)
     except apertus.ApertusError:
         return None
-    picks = _json(raw, None)
+    picks = _json(raw, [])
     if not isinstance(picks, list):
         picks = re.findall(r'"([^"]+)"', raw)
-        if not picks:
-            return None  # unreadable reply: the caller falls back to keyword ranking
     chosen = []
     for p in picks:
         hit = by_label.get(re.sub(r"[\s.]+", "", str(p)).lower())
         if hit and hit not in chosen:
             chosen.append(hit)
-    if picks and not chosen:
-        return None  # labels didn't match anything: treat as a failed pick, not as "nothing relevant"
-    # [] is a verdict ("none of these answers it"), not a failure: keyword hits would only add noise.
-    return chosen[:n]
+    # An empty pick falls back to keyword ranking: honouring "none of these" lost governing articles in graded runs.
+    return chosen[:n] or None
 
 
 def _artno(number):
